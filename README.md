@@ -1,4 +1,3 @@
-Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.
 # OCR model comparator
 
 Stateless upload-and-compare website prepared for `ocr.z2hs.au`. Docker Compose maps TrueNAS host port **5099** to app port 8000.
