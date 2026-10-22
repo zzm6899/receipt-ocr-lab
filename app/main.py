@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import base64
 import io
 import os
 import re
@@ -36,7 +37,7 @@ app = FastAPI(title="OCR Comparator", docs_url=None, redoc_url=None)
 @app.middleware("http")
 async def security_headers(request: Request, call_next):
     response = await call_next(request)
-    response.headers["Content-Security-Policy"] = "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' blob:; object-src 'none'; frame-ancestors 'none'; base-uri 'none'"
+    response.headers["Content-Security-Policy"] = "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; object-src 'none'; frame-ancestors 'none'; base-uri 'none'"
     response.headers["Referrer-Policy"] = "no-referrer"
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"
@@ -109,6 +110,14 @@ def derived_fields(text: str) -> dict:
     return fields
 
 
+def preview(image: Image.Image) -> dict:
+    copy = image.copy()
+    copy.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
+    stream = io.BytesIO()
+    copy.save(stream, "JPEG", quality=82, optimize=True)
+    return {"data_url": "data:image/jpeg;base64," + base64.b64encode(stream.getvalue()).decode("ascii"), "width": copy.width, "height": copy.height}
+
+
 @app.get("/")
 async def index():
     return FileResponse(ROOT / "static" / "index.html")
@@ -140,6 +149,7 @@ async def compare(request: Request, file: UploadFile = File(...), models: list[s
     if not data or len(data) > MAX_BYTES:
         raise HTTPException(413, f"Upload must be between 1 and {MAX_BYTES} bytes.")
     pages = rasterize(data, file.content_type)
+    page_previews = [preview(page) for page in pages]
     try:
         await asyncio.wait_for(SEMAPHORE.acquire(), timeout=QUEUE_WAIT)
     except TimeoutError as exc:
@@ -153,7 +163,7 @@ async def compare(request: Request, file: UploadFile = File(...), models: list[s
                 page.save(path, "PNG", optimize=True)
                 paths.append(path)
             for key in models:
-                combined_text, combined_fields, latency = [], {}, 0.0
+                combined_text, combined_fields, regions, latency = [], {}, [], 0.0
                 checkpoint = MODELS[key].checkpoint
                 for path in paths:
                     try:
@@ -162,11 +172,12 @@ async def compare(request: Request, file: UploadFile = File(...), models: list[s
                         raise HTTPException(504, f"{MODELS[key].name} exceeded the inference timeout.") from exc
                     combined_text.append(result["text"])
                     combined_fields.update(result["fields"])
+                    regions.extend({**region, "page": len(combined_text) - 1} for region in result.get("regions", []))
                     latency += result["latency_ms"]
                     checkpoint = result["checkpoint"]
                 text = "\n\n".join(combined_text)
-                output.append({"key": key, "name": MODELS[key].name, "text": text, "fields": combined_fields or derived_fields(text), "fields_source": "model" if combined_fields else "regex derived from OCR text", "latency_ms": round(latency, 1), "checkpoint": checkpoint})
-        return {"page_count": len(pages), "results": output, "retention": "Upload deleted after this response."}
+                output.append({"key": key, "name": MODELS[key].name, "text": text, "fields": combined_fields or derived_fields(text), "fields_source": "model" if combined_fields else "regex derived from OCR text", "regions": regions, "latency_ms": round(latency, 1), "checkpoint": checkpoint})
+        return {"page_count": len(pages), "pages": page_previews, "results": output, "retention": "Upload deleted after this response; previews exist only in this response."}
     finally:
         SEMAPHORE.release()
 

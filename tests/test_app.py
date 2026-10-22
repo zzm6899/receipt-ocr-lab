@@ -4,8 +4,8 @@ import pytest
 from fastapi import HTTPException
 from PIL import Image
 
-from app.main import derived_fields, rasterize
-from app.models import catalog
+from app.main import derived_fields, preview, rasterize
+from app.models import catalog, normalize_regions
 
 
 def png(width=200, height=100):
@@ -42,4 +42,22 @@ def test_pixel_limit(monkeypatch):
 
 def test_derived_fields_are_conservative_and_label_driven():
     assert derived_fields("Shop\nDate 22/10/2026\nSubtotal $10.00\nGST $1.00\nTOTAL $11.00") == {"date": "22/10/2026", "subtotal": "$10.00", "tax": "$1.00", "total": "$11.00"}
+
+
+def test_preview_is_bounded_and_contains_only_rendered_pixels():
+    result = preview(Image.new("RGB", (3200, 800), "white"))
+    assert result["data_url"].startswith("data:image/jpeg;base64,")
+    assert result["width"] == 1600
+    assert result["height"] == 400
+
+
+def test_normalized_regions_preserve_missing_confidence():
+    region = normalize_regions([{"bbox": [0.1, 0.2, 0.3, 0.4], "text": "TOTAL", "field": "total", "confidence": None}])[0]
+    assert region == {"bbox": [0.1, 0.2, 0.3, 0.4], "text": "TOTAL", "field": "total", "confidence": None}
+
+
+@pytest.mark.parametrize("bbox", [[-0.1, 0, 0.2, 0.2], [0.9, 0, 0.2, 0.2], [0, 0, 0, 0.2]])
+def test_normalized_regions_reject_invalid_coordinates(bbox):
+    with pytest.raises(RuntimeError):
+        normalize_regions([{"bbox": bbox}])
 
