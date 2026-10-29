@@ -20,11 +20,20 @@ PROJECT_ROOT = os.environ.get('RECEIPT_PROJECT_ROOT', '.')  # folder that holds 
 
 
 OUT = Path(__file__).resolve().parent
-TASK = OUT.parent
+TASK = Path(PROJECT_ROOT, "2026-09-30", "task")  # private inputs live under the project root, not beside this script
 EVIDENCE = OUT / "analysis_evidence.json"
 CMP = Path(
-    PROJECT_ROOT + r"\2026-10-05\task\deliverables\qwen3_5_2b_comparison_v1_recovery\receipt_photo_model_results_qwen35_2b_2026-10-06\comparison_all_views.csv"
+    PROJECT_ROOT, "2026-10-05", "task", "deliverables", "qwen3_5_2b_comparison_v1_recovery",
+    "receipt_photo_model_results_qwen35_2b_2026-10-06", "comparison_all_views.csv",
 )
+
+
+def frozen_key(path: Path) -> str:
+    """Hash keys in analysis_evidence.json are recorded relative to the project root as <PROJECT_ROOT>\\..."""
+    rel = Path(path).resolve().relative_to(Path(PROJECT_ROOT).resolve())
+    return "<PROJECT_ROOT>\\" + "\\".join(rel.parts)
+
+
 LEG = TASK / "deliverables/receipy_vscode_workbench/data/labels/legacy_reference_v3_1.json"
 NEW = TASK / "deliverables/receipy_vscode_workbench/data/labels/receipy_references_v2.json"
 ROW_SCORES = TASK / "photo_pilot/receipy_extension/scoring_v2/row_receipt_scores.csv"
@@ -117,7 +126,7 @@ def main() -> None:
     inputs = [CMP, LEG, NEW, ROW_SCORES]
     verified = []
     for path in inputs:
-        key = str(path)
+        key = frozen_key(path)
         expected = expected_hashes.get(key)
         actual = sha256(path)
         if expected is None:
