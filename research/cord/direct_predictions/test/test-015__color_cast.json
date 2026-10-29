@@ -1,0 +1,107 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-015",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "b531ade379b27d2ae864fd7bc265dcc6f1730a656c167382adcff1dffdb85bae",
+  "elapsed_seconds": 1.45,
+  "detected_words": 32,
+  "detected_lines": 11,
+  "ocr_text": ") f Os eS Se ee ‘i ee ee eee S Pa ae | p= . ua CC a =. Poeeert. | 125,000) | : le) somal) ee i TAL 15, Wu",
+  "trocr_words": ": L : : CASHIER - MOBILE - MADEI SMAI(L) : 25.000 CARAMEL SMALL 38.000 TAL 63.000",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "MADEI SMAI(L)",
+      "cnt": null,
+      "price": "25.000"
+    },
+    {
+      "nm": "CARAMEL SMALL",
+      "cnt": null,
+      "price": "38.000"
+    },
+    {
+      "nm": "TAL",
+      "cnt": null,
+      "price": "63.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TAL"
+  },
+  "cascade_fields": {
+    "total": "TAL 63.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": ")"
+    },
+    {
+      "price": "f"
+    },
+    {
+      "price": "eS"
+    },
+    {
+      "cnt": "‘i",
+      "unitprice": "Se ee"
+    },
+    {
+      "price": "S"
+    },
+    {
+      "cnt": "ae |",
+      "price": "."
+    },
+    {
+      "cnt": "ua CC",
+      "unitprice": "a"
+    },
+    {
+      "nm": "Poeeert.",
+      "price": "125,000)"
+    },
+    {
+      "price": "i"
+    },
+    {
+      "price": "15,"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "L"
+    },
+    {
+      "nm": "MADEI SMAI(L)",
+      "cnt": ":",
+      "price": "25.000"
+    },
+    {
+      "nm": "CARAMEL SMALL",
+      "price": "38.000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Lemon Tea (L)",
+        "cnt": "1",
+        "price": "25.000"
+      },
+      {
+        "nm": "Caramel Small",
+        "cnt": "1",
+        "price": "38.000"
+      }
+    ],
+    "total": {
+      "total_price": "63.000",
+      "cashprice": "70.000",
+      "changeprice": "7.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Lemon Tea (L)</s_nm><s_cnt> 1</s_cnt><s_price> 25.000</s_price><sep/><s_nm> Caramel Small</s_nm><s_cnt> 1</s_cnt><s_price> 38.000</s_price></s_menu><s_total><s_total_price> 63.000</s_total_price><s_cashprice> 70.000</s_cashprice><s_changeprice> 7.000</s_changeprice></s_total></s>"
+}

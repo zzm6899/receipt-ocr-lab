@@ -1,0 +1,277 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-098",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "a9c6e2d40d63f1e66cdd3cf40acf8d4aa8e3ec571abe522910e748f12b546601",
+  "elapsed_seconds": 9.342,
+  "detected_words": 271,
+  "detected_lines": 42,
+  "ocr_text": "“= oe Ste = i — x —— : omc = . ~~. = ae Me ee : ae x : res, *, = — <s. — “5 a : Pate Se a & ; a me ~ — an os —— = = aS eS SS SS ~~, Se = Soe ; < “i ee SSS Ste lh = = =< = ee SE > aS nn — ~—— 5 = ~<a ‘_ ae ~ SS he ~ C ES Ss Ce = . _— —— <\" AL a ~* SSS FOOD SSS ee in a A SA ee ee | SS SSeS — my ef EEC eae aS OUEM TUT AOL ret eve SHEL eS SSS —S Quality’ Kt iat MAE Hp VAANAAHAMUMN RG GEEH Reba ta SS SS ~ CO sO TT AGAR TONAL eT Teh SIAN ia \" : SS : Presentalf te AD LOC eS aa ae SS 2 ——————————e SS BEVERAG SS ——~ Quality/K SS —, Presenta et Pf tpc atone = = —S SS oT te Ra —ses Ss se me = eames <a gies TR SS : — = = ae 1 BLACK PEPPER MEATBALL PAS aoa : <= SSS 1 TRUFFLE CREAM ns ——S VICE 1 EARL GREY MILK YEA ad a = di | SUBTI L 215 000 | . =— we riendlin ‘ hee 2 AND a ~ Services Charge G% ea i = = Saale [AX 10% Le : — Attentiv eae aa ee an a Time/W rovral 250 ,690 a he . Sew. = ds Ss — te —_——_ ” % ~ ~= Sa aN SS PLS =",
+  "trocr_words": "CASHIER VALUE YAWAY AM CASH AM VAN AMOUNT CASHIER / CASHIER @ FEL WWW MASIA CASHIER FOOD WHOPPERMAN: WWWWWWWWWWWWWWWWWWWWWWWW *** 5668-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K-K IT TOTAL AMOUNTS (RM) PASETE WITH USCOUNT WITHIN TAX EFIAM BELLYK ELAM PREMEYMENT MAXIMARY PASTER/RA 1,KAW,KEPER MAXIML FKS 13,00 ASERA 1 BACK REPB METAIL PAS 79.00 1 BRUFFLE CREAM TEAMALL 18,000 VICE 1 EARVE WITH TA 28,000 SERVICE 1 SAM SAVINGS TA 25.00 REVICE 1 SAMPLE OF REGORD ON SERVICE CHARGE 6% 12.90 PROMPED TAX 10% DAME ON 22,790 PETEMPT NO: 11/18 250,690 AMENTLY TOTAL 250,690 MAILS = - CASHIER SR: ITEMS TAX",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "PASTER/RA 1,KAW,KEPER MAXIML FKS",
+      "cnt": null,
+      "price": "13,00"
+    },
+    {
+      "nm": "ASERA 1 BACK REPB METAIL PAS",
+      "cnt": null,
+      "price": "79.00"
+    },
+    {
+      "nm": "BRUFFLE CREAM TEAMALL",
+      "cnt": "1",
+      "price": "18,000"
+    },
+    {
+      "nm": "VICE 1 EARVE WITH TA",
+      "cnt": null,
+      "price": "28,000"
+    },
+    {
+      "nm": "SERVICE 1 SAM SAVINGS TA",
+      "cnt": null,
+      "price": "25.00"
+    },
+    {
+      "nm": "SERVICE CHARGE 6%",
+      "cnt": null,
+      "price": "12.90"
+    },
+    {
+      "nm": "PETEMPT NO: 11/18",
+      "cnt": null,
+      "price": "250,690"
+    }
+  ],
+  "layout_fields": {
+    "total": "= aa an a Ss ="
+  },
+  "cascade_fields": {
+    "total": "AMENTLY TOTAL 250,690"
+  },
+  "layout_rows": [
+    {
+      "nm": "Ste",
+      "cnt": "“=",
+      "price": "i —",
+      "unitprice": "oe"
+    },
+    {
+      "cnt": ": = ."
+    },
+    {
+      "cnt": ": x : res, *, =",
+      "price": "—"
+    },
+    {
+      "cnt": ": Se & ; me ~ —",
+      "price": "an os",
+      "unitprice": "a a"
+    },
+    {
+      "price": "Se"
+    },
+    {
+      "cnt": "= ; < “i",
+      "price": "Ste lh",
+      "unitprice": "ee SSS"
+    },
+    {
+      "cnt": ">",
+      "price": "nn"
+    },
+    {
+      "cnt": "=",
+      "price": "ae"
+    },
+    {
+      "price": "SS"
+    },
+    {
+      "price": "he"
+    },
+    {
+      "cnt": "C",
+      "price": "ES Ss Ce"
+    },
+    {
+      "cnt": "= .",
+      "price": "_—"
+    },
+    {
+      "nm": "AL",
+      "price": "a"
+    },
+    {
+      "price": "SSS"
+    },
+    {
+      "nm": "FOOD",
+      "price": "SSS ee"
+    },
+    {
+      "cnt": "in a A ee |",
+      "price": "SSeS",
+      "unitprice": "SA ee"
+    },
+    {
+      "nm": "AOL",
+      "cnt": "ef eae aS OUEM TUT ret",
+      "price": "SHEL eS SSS",
+      "unitprice": "eve"
+    },
+    {
+      "nm": "VAANAAHAMUMN ta",
+      "cnt": "Kt ~",
+      "price": "RG GEEH Reba SS SS",
+      "unitprice": "iat MAE Hp"
+    },
+    {
+      "cnt": "TT TONAL eT Teh SIAN",
+      "price": "ia \"",
+      "unitprice": "sO"
+    },
+    {
+      "cnt": "AD",
+      "price": "eS aa SS",
+      "unitprice": "te LOC"
+    },
+    {
+      "cnt": "2",
+      "price": "SS"
+    },
+    {
+      "nm": "BEVERAG",
+      "price": "SS"
+    },
+    {
+      "price": "SS —,"
+    },
+    {
+      "cnt": "et tpc",
+      "unitprice": "Pf atone"
+    },
+    {
+      "cnt": "oT te Ra se me =",
+      "price": "TR SS",
+      "unitprice": "Ss eames <a gies"
+    },
+    {
+      "nm": "BLACK",
+      "cnt": "ae 1",
+      "price": "aoa <= SSS"
+    },
+    {
+      "nm": "TRUFFLE CREAM",
+      "cnt": "1",
+      "price": "ns"
+    },
+    {
+      "nm": "EARL GREY MILK YEA",
+      "cnt": "1",
+      "price": "ad"
+    },
+    {
+      "cnt": "=",
+      "price": "215 000 | . we"
+    },
+    {
+      "nm": "riendlin",
+      "cnt": "‘ 2",
+      "price": "AND a",
+      "unitprice": "hee"
+    },
+    {
+      "price": "ea =",
+      "unitprice": "Charge G%"
+    },
+    {
+      "nm": "Saale",
+      "cnt": "[AX",
+      "price": "Le :",
+      "unitprice": "10%"
+    },
+    {
+      "nm": "Attentiv",
+      "price": "ee"
+    },
+    {
+      "nm": "rovral",
+      "price": "250 ,690"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PREMEYMENT"
+    },
+    {
+      "nm": "PASTER/RA 1,KAW,KEPER MAXIML",
+      "price": "FKS 13,00"
+    },
+    {
+      "nm": "ASERA BACK REPB METAIL",
+      "cnt": "1",
+      "price": "PAS 79.00"
+    },
+    {
+      "nm": "BRUFFLE CREAM TEAMALL",
+      "cnt": "1",
+      "price": "18,000"
+    },
+    {
+      "nm": "VICE EARVE WITH TA",
+      "cnt": "1",
+      "price": "28,000"
+    },
+    {
+      "nm": "SERVICE SAM SAVINGS",
+      "cnt": "1",
+      "price": "25.00"
+    },
+    {
+      "nm": "REVICE SAMPLE OF",
+      "cnt": "1",
+      "price": "ON"
+    },
+    {
+      "nm": "SERVICE CHARGE",
+      "price": "12.90"
+    },
+    {
+      "nm": "PROMPED DAME ON",
+      "price": "22,790"
+    },
+    {
+      "nm": "PETEMPT NO:",
+      "price": "250,690"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "FOOD Quality/K"
+      },
+      {
+        "nm": "Presentat Taste/Ra.",
+        "price": "BEVERAC"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "79,000",
+      "discount_price": "77,000",
+      "service_price": "59,000",
+      "tax_price": "12,900",
+      "etc": "22,790"
+    },
+    "total": {
+      "total_price": "250,690",
+      "total_etc": "Ambiance"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> FOOD Quality/K</s_nm><sep/><s_nm> Presentat Taste/Ra.</s_nm><s_price> BEVERAC</s_price></s_menu><s_sub_total><s_subtotal_price> 79,000</s_subtotal_price><s_discount_price> 77,000</s_discount_price><s_service_price> 59,000</s_service_price><s_tax_price> 12,900</s_tax_price><s_etc> 22,790</s_etc></s_sub_total><s_total><s_total_price> 250,690</s_total_price><s_total_etc> Ambiance</s_total_etc></s_total></s>"
+}

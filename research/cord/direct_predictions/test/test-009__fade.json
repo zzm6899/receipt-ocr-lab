@@ -1,0 +1,95 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-009",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "90028cc5c85bee2732f4216448c2192dc1b855bd08eb0d0b56556f158ff864db",
+  "elapsed_seconds": 3.971,
+  "detected_words": 44,
+  "detected_lines": 15,
+  "ocr_text": "ol eee es sa feu ay an —— Bumbu Kaldu Ayam 1 aannn 46000 36000. Sub Total 36000 ig * Discount (0 %) weed Tunai 50000 t : ee s * Kembalian 14000 ‘ : eee ‘~ a ee é om a “ wn",
+  "trocr_words": "WWW.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K WWW. : 1 = BUMBU KALPU AYAM 1 38000 36000 KALOU AYAM 1 38000. SUB TOTAL ******** 38000 DISCOUNT (0%) WITHIN THE WEEK TOTAL : 50000 ................ : KEMBALIAN 11:00 WWWWWWWW. WWW.",
+  "ocr_rules_total": "36000",
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "ol eee"
+  },
+  "cascade_fields": {
+    "total": "TOTAL : 50000"
+  },
+  "layout_rows": [
+    {
+      "price": "an"
+    },
+    {
+      "nm": "——"
+    },
+    {
+      "nm": "Bumbu Kaldu Ayam",
+      "cnt": "1"
+    },
+    {
+      "price": "36000.",
+      "unitprice": "46000"
+    },
+    {
+      "price": "36000 ig"
+    },
+    {
+      "cnt": "* weed"
+    },
+    {
+      "nm": "Tunai",
+      "price": "50000"
+    },
+    {
+      "cnt": "s"
+    },
+    {
+      "nm": "Kembalian",
+      "price": "14000"
+    },
+    {
+      "price": "ee"
+    },
+    {
+      "cnt": "a “"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "WWW.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K"
+    },
+    {
+      "nm": "BUMBU KALPU AYAM",
+      "cnt": "1",
+      "price": "38000"
+    },
+    {
+      "nm": "KALOU AYAM",
+      "cnt": "1",
+      "price": "38000.",
+      "unitprice": "36000"
+    },
+    {
+      "price": "38000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Bumbu Kaldu Ayam",
+      "unitprice": "36000",
+      "cnt": "1",
+      "price": "36000"
+    },
+    "sub_total": {
+      "subtotal_price": "36000"
+    },
+    "total": {
+      "cashprice": "50000",
+      "changeprice": "14000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Bumbu Kaldu Ayam</s_nm><s_unitprice> 36000</s_unitprice><s_cnt> 1</s_cnt><s_price> 36000</s_price></s_menu><s_sub_total><s_subtotal_price> 36000</s_subtotal_price></s_sub_total><s_total><s_cashprice> 50000</s_cashprice><s_changeprice> 14000</s_changeprice></s_total></s>"
+}

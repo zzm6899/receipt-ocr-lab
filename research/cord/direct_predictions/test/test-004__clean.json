@@ -1,0 +1,66 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-004",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "8c116f0f1145b235647cb9902b096d6c90c1de6ae9296722c0bdeb8ffda40471",
+  "elapsed_seconds": 1.212,
+  "detected_words": 14,
+  "detected_lines": 6,
+  "ocr_text": "SS Us Md gi, Wi ii Winn’ is an . Jing i ioe |S",
+  "trocr_words": "CASHALL *** 0.04 AM JOA8 POPT FOR A CH",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "SS Us Md gi,"
+  },
+  "cascade_fields": {
+    "total": "AM"
+  },
+  "layout_rows": [
+    {
+      "price": "ii"
+    },
+    {
+      "price": "Jing"
+    },
+    {
+      "price": "ioe"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "POPT FOR A"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "ICE BLAOKCOFFE",
+        "cnt": "2",
+        "price": "82,000"
+      },
+      {
+        "nm": "AVOCAD COFFEE",
+        "cnt": "1",
+        "price": "61,000"
+      },
+      {
+        "nm": "Ode CHIKEN KATSU FF",
+        "cnt": "1",
+        "price": "51,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "194,000",
+      "discount_price": "19,400"
+    },
+    "total": {
+      "total_price": "174.600",
+      "cashprice": "200,000",
+      "changeprice": "25,400"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICE BLAOKCOFFE</s_nm><s_cnt> 2</s_cnt><s_price> 82,000</s_price><sep/><s_nm> AVOCAD COFFEE</s_nm><s_cnt> 1</s_cnt><s_price> 61,000</s_price><sep/><s_nm> Ode CHIKEN KATSU FF</s_nm><s_cnt> 1</s_cnt><s_price> 51,000</s_price></s_menu><s_sub_total><s_subtotal_price> 194,000</s_subtotal_price><s_discount_price> 19,400</s_discount_price></s_sub_total><s_total><s_total_price> 174.600</s_total_price><s_cashprice> 200,000</s_cashprice><s_changeprice> 25,400</s_changeprice></s_total></s>"
+}

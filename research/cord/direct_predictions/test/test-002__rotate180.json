@@ -1,0 +1,87 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-002",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "c6672b9e43d138eb8f63426cb5b48ed0ce33a7f16f94cae3148dffcae1846165",
+  "elapsed_seconds": 1.753,
+  "detected_words": 41,
+  "detected_lines": 10,
+  "ocr_text": "a ae re yaa, : u—- ant 000 Hy. \\ ST W101 900’ 82 Ses 14101 \\- Bs Se alo ng E 000‘R2 (0) ans \\- - = ee ~ = 000° (4) Adar Lanes 900 ‘be CV) IW iniest |",
+  "trocr_words": "TIME NAME NO: 102 CHANGE INVOICE CASH USH MS#0 TOTAL AMOUNT TOTAL SALES SALES THIOI +................................ SUB TOTAL: +................................................ INVOOD TOTAL (T) ATTER LONOCI 1 WSSMINE IN IN INUSUE !",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "102 TOTAL AMOUNT TOTAL"
+  },
+  "layout_rows": [
+    {
+      "nm": "a ae re"
+    },
+    {
+      "nm": "u—-",
+      "price": "ant"
+    },
+    {
+      "price": "Hy."
+    },
+    {
+      "cnt": "\\",
+      "price": "ST W101"
+    },
+    {
+      "cnt": "900’ 82",
+      "price": "14101"
+    },
+    {
+      "cnt": "\\-"
+    },
+    {
+      "price": "ans"
+    },
+    {
+      "cnt": "\\-"
+    },
+    {
+      "cnt": "(4)",
+      "price": "Lanes"
+    },
+    {
+      "cnt": "‘be CV) IW",
+      "price": "iniest"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "(T)"
+    },
+    {
+      "nm": "WSSMINE",
+      "cnt": "1",
+      "price": "!",
+      "unitprice": "IN IN"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'LL",
+      "price": "19NUHC"
+    },
+    {
+      "nm": "000'001",
+      "price": {
+        "cnt": "1",
+        "num": "000'87"
+      }
+    },
+    {
+      "num": "000'000",
+      "cashprice": "000'47",
+      "changeprice": "1",
+      "menuqty_cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'LL</s_nm><s_price> 19NUHC</s_price><sep/><s_nm> 000'001</s_nm><s_price> HASUC</s_nm><s_cnt> 1</s_cnt><s_price> SHIII THIOL</s_nm><s_num> 000'87</s_num><s_price> TELOL</s_price><sep/><s_nm> 000'87</s_num><s_price> ANS</s_nm><s_num> 000'000</s_num><s_price> LONGED</s_total_etc><s_cashprice> 000'47</s_cashprice><s_changeprice> 1</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

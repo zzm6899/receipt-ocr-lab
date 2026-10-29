@@ -1,0 +1,153 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-089",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "b56b98b84495b3a883ca8c822bad94913adfeabb64bde2867499ed69cdd31e4a",
+  "elapsed_seconds": 5.94,
+  "detected_words": 99,
+  "detected_lines": 34,
+  "ocr_text": "Co) ence eee ee tk... a Ee ets oe i ae ‘ oat ee i a Se ‘ae ae a: a a. ae / et = re: Beef: = ae a ie. mt i. | | } ¢ i. 4 {3 SE _ yec: We ins hee i ie AAA = ae ae ae ag Oe Gc | ia 1 ray aun wi RNS ae ee AS , a ie fee... . af. LAS eee: oe ’ a + AA ee = ~vaunnauentmnamnngel! oil a ae ee ae | a Laas a e.. a are a 4 Tages streanaediiteee",
+  "trocr_words": "SR:00-12-12-12-12, JALANAN TAMAN PERMASAN 7/4,KAWASANAN PERMASAN PERMASSA (AM) MAXINI,KAWAWASAWASAWASAWASAWASAWASANANANANAN,KAWASAWAS WWW.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K SR:00-17-12-12-12-12-12-12-12-12-12-12-17-17-1703-1703 AMOUNT: TRANSACTION: 11/2018/2018/18/2018/18/18/18/18/18/18/18 AMOUNT MEATMENT US ONCLUSIVE OF RECEIPT MASTER: TRANSACTION INTERMAS INTERMAS INTERMASMAS ITEMS AGAIN THIS THE WEEK ITEMS INCLUSIVE WWW.WWWW.WW.WW.WW INVOICE INCLUSIVE WWW.WW. ITEM OVER ITEMS MUST BE INCLUSIVE OF RECEIPT : 1 1 1 1, 1 ITEMS 1 ITEM3:1 ITAL: TALAMPT.000 D. A.I.CA AAA + 0.00 PAY CASH 50.000 PAY LASN 30,000 CHANGE 10 000 AMOUNT AMOUNT AMOUNT 10.000 WWW.WWWWWWWWWWWWWW.WW (1) AMOUNT LAYMENT SUMMARY CASHIER THANK ITEMPTERS INCLUSIVE OF RECEIPT",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "D. A.I.CA AAA +",
+      "cnt": null,
+      "price": "0.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "Co) ence eee = ~vaunnauentmnamnngel!"
+  },
+  "cascade_fields": {
+    "total": "SUMMARY THANK"
+  },
+  "layout_rows": [
+    {
+      "price": "oe"
+    },
+    {
+      "cnt": "‘",
+      "price": "oat ee"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "price": "‘ae"
+    },
+    {
+      "cnt": "ae"
+    },
+    {
+      "cnt": "et"
+    },
+    {
+      "cnt": "re:",
+      "price": "Beef:"
+    },
+    {
+      "cnt": "=",
+      "price": "ae"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "mt"
+    },
+    {
+      "cnt": "¢"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "yec:",
+      "price": "We"
+    },
+    {
+      "cnt": "i",
+      "price": "hee"
+    },
+    {
+      "price": "AAA"
+    },
+    {
+      "cnt": "ae ae",
+      "price": "ag"
+    },
+    {
+      "cnt": "1",
+      "price": "wi RNS ae"
+    },
+    {
+      "cnt": ",",
+      "price": "a"
+    },
+    {
+      "cnt": "ie .",
+      "price": "LAS"
+    },
+    {
+      "cnt": "’"
+    },
+    {
+      "cnt": "a ae",
+      "price": "ee"
+    },
+    {
+      "cnt": "ae | a",
+      "price": "Laas"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "cnt": "a 4"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TAMAN PERMASAN 7/4,KAWASANAN",
+      "cnt": "JALANAN"
+    },
+    {
+      "nm": "MAXINI,KAWAWASAWASAWASAWASAWASAWASANANANANAN,KAWASAWAS",
+      "cnt": "(AM)"
+    },
+    {
+      "nm": "TRANSACTION:"
+    },
+    {
+      "nm": "MEATMENT US"
+    },
+    {
+      "nm": "TRANSACTION INTERMAS"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "XXL Crspy Chicken",
+      "cnt": "1",
+      "price": "40,000",
+      "sub": {
+        "nm": "- Pedas sedikit",
+        "cnt": "1",
+        "price": "0"
+      }
+    },
+    "sub_total": {
+      "subtotal_price": "40,000"
+    },
+    "total": {
+      "total_price": "40,000",
+      "cashprice": "50,000",
+      "changeprice": "10,000",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> XXL Crspy Chicken</s_nm><s_cnt> 1</s_cnt><s_price> 40,000</s_price><s_sub><s_nm> - Pedas sedikit</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price></s_sub></s_menu><s_sub_total><s_subtotal_price> 40,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 40,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 10,000</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

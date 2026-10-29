@@ -1,0 +1,76 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-025",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "cd41614d00a96b91a6773e32e32a3291549439341fbb4740dca3ff3e3335f18c",
+  "elapsed_seconds": 2.386,
+  "detected_words": 52,
+  "detected_lines": 16,
+  "ocr_text": "00 wy; ‘ shen ae a a 000°91 WE Y3dd3d OLYLOd | Fry ele 000°L 3L3N0OND PIL | 000°! LANOG AMY: aMVYLS ASTHL oe 2itssssessesasesssssssss2====5- sccsss —_— si“ See th 7? padie me, 4 ee cates poe He at — = , e is seente \" . “e*,/ | rr Sy dee",
+  "trocr_words": "TOTAL : 400 0 GF IVLOL ................................................ PRICE: TOTALED REDVE RED CASH : III CROUNDER: AMOVA ATL LION LIMISTS IS PRIMWAYS ISIML ................................ WWW.WW. ITEMS #6% ---- *** *** *** SROP SHOPPER ITEM SRN",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "He at \""
+  },
+  "cascade_fields": {
+    "total": "TOTAL : 400 RED"
+  },
+  "layout_rows": [
+    {
+      "price": "wy;"
+    },
+    {
+      "cnt": "‘",
+      "price": "shen"
+    },
+    {
+      "cnt": "ae a",
+      "price": "a"
+    },
+    {
+      "price": "OLYLOd |",
+      "unitprice": "WE Y3dd3d"
+    },
+    {
+      "cnt": "Fry",
+      "price": "ele"
+    },
+    {
+      "price": "PIL",
+      "unitprice": "3L3N0OND"
+    },
+    {
+      "nm": "LANOG",
+      "price": "ASTHL oe",
+      "unitprice": "AMY: aMVYLS"
+    },
+    {
+      "price": "sccsss"
+    },
+    {
+      "cnt": "si“",
+      "price": "See"
+    },
+    {
+      "price": "padie",
+      "unitprice": "7?"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": [
+    {
+      "nm": "000'L ECHNYHO",
+      "num": "000'09",
+      "price": "HSVD"
+    },
+    {
+      "nm": "000'E7",
+      "num": "000'01",
+      "menuqty_cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'L ECHNYHO</s_nm><s_num> 000'09</s_num><s_price> HSVD</s_price><sep/><s_nm> 000'E7</s_nm><s_num> TOLOL<s_num> 000'91</s_num><s_price> PEPPER TOLOC</s_nm><s_num> 000'21</s_num><s_price> CREADGE [11]<s_num> 000'01</s_num><s_price> ISIML</s_total_etc><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

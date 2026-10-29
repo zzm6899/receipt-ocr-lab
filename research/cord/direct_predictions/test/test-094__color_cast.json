@@ -1,0 +1,279 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-094",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "dda167d1a43ebb2fbbc0032e26656d89b44427cd5c88073b6d74fa305fc98853",
+  "elapsed_seconds": 3.193,
+  "detected_words": 84,
+  "detected_lines": 28,
+  "ocr_text": "ber = <x za = ' weil a ° > + =x a ee w 72) ---- ee Wy eo = 2 <x fo) z = io i a w 2 TAHU GORENG 28,000 o = 1 CAKWE 17,000 > 1 PHOTAICHINIR) 63,000 & 1 TES 11,000 oe Sub Total 113,000 ” wl ws Sery, 7.0%, 8,330 6 = PB1 10.0% 12,733 © i Grand Total 140,053 0 2H CREDIT CAR: 140,063 2 - Ne i © — nme ae en aan KT <",
+  "trocr_words": "ES M A Z - WW WWW. SALE P WWW. @ ......................................... WWW. SR% SUMMARY NO <1 Z SUMMARY Z - 1 TAHUGOPENG 28.00 1 TAHU GORENG 28,000 - 1 CAKWE 17,000 > 1 PHOTAICHIN (R) 63,000 @ 1 TEA WW WW. SUB TOTAL : 119,000 00 - 5999- 0730 - WWW SERV. 7.0% 8,330 2 PBL 10.0% 12,733 O GARD TOTAL 140,063 Z SDA CREDIT CAR: 140,063 Z T WWWWWWWWWWWWWWWWWWWWWW .........................",
+  "ocr_rules_total": "0",
+  "ocr_rows": [
+    {
+      "nm": "w 2 TAHU GORENG",
+      "cnt": null,
+      "price": "28,000"
+    },
+    {
+      "nm": "= 1 CAKWE",
+      "cnt": null,
+      "price": "17,000"
+    },
+    {
+      "nm": "> 1 PHOTAICHINIR)",
+      "cnt": null,
+      "price": "63,000"
+    },
+    {
+      "nm": "TES",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "ws Sery, 7.0%,",
+      "cnt": null,
+      "price": "8,330"
+    },
+    {
+      "nm": "= PB1 10.0%",
+      "cnt": null,
+      "price": "12,733"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "1 TAHUGOPENG",
+      "cnt": null,
+      "price": "28.00"
+    },
+    {
+      "nm": "TAHU GORENG",
+      "cnt": "1",
+      "price": "28,000"
+    },
+    {
+      "nm": "1 CAKWE",
+      "cnt": null,
+      "price": "17,000"
+    },
+    {
+      "nm": "> 1 PHOTAICHIN (R)",
+      "cnt": null,
+      "price": "63,000"
+    },
+    {
+      "nm": "WWW SERV. 7.0%",
+      "cnt": null,
+      "price": "8,330"
+    },
+    {
+      "nm": "PBL 10.0%",
+      "cnt": "2",
+      "price": "12,733"
+    }
+  ],
+  "layout_fields": {
+    "total": "Grand Total 140,053 i"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "="
+    },
+    {
+      "cnt": "<x"
+    },
+    {
+      "cnt": "za"
+    },
+    {
+      "cnt": "=",
+      "price": "' weil"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": ">"
+    },
+    {
+      "cnt": "72)"
+    },
+    {
+      "cnt": "Wy",
+      "price": "eo"
+    },
+    {
+      "cnt": "="
+    },
+    {
+      "cnt": "<x"
+    },
+    {
+      "cnt": "z"
+    },
+    {
+      "nm": "i",
+      "cnt": "io"
+    },
+    {
+      "nm": "TAHU GORENG",
+      "cnt": "w 2",
+      "price": "28,000 o"
+    },
+    {
+      "nm": "CAKWE",
+      "cnt": "= 1",
+      "price": "17,000"
+    },
+    {
+      "nm": "PHOTAICHINIR)",
+      "cnt": "> 1",
+      "price": "63,000 &"
+    },
+    {
+      "nm": "TES",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "cnt": "oe",
+      "price": "113,000"
+    },
+    {
+      "cnt": "”"
+    },
+    {
+      "nm": "Sery,",
+      "cnt": "ws",
+      "price": "8,330"
+    },
+    {
+      "nm": "PB1",
+      "cnt": "=",
+      "price": "12,733"
+    },
+    {
+      "price": "140,063"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "ES"
+    },
+    {
+      "cnt": "M"
+    },
+    {
+      "cnt": "A"
+    },
+    {
+      "cnt": "Z"
+    },
+    {
+      "nm": "TAHUGOPENG",
+      "cnt": "- 1",
+      "price": "28.00"
+    },
+    {
+      "nm": "TAHU GORENG",
+      "cnt": "1",
+      "price": "28,000"
+    },
+    {
+      "nm": "CAKWE",
+      "cnt": "- 1",
+      "unitprice": "17,000"
+    },
+    {
+      "nm": "PHOTAICHIN",
+      "cnt": "> 1",
+      "price": "63,000 @",
+      "unitprice": "(R)"
+    },
+    {
+      "nm": "WW. SUB"
+    },
+    {
+      "price": "0730"
+    },
+    {
+      "nm": "WWW SERV.",
+      "price": "8,330"
+    },
+    {
+      "nm": "PBL",
+      "cnt": "2",
+      "price": "O"
+    },
+    {
+      "nm": "SDA",
+      "price": "140,063"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "N",
+        "price": "O"
+      },
+      {
+        "nm": "T T E",
+        "price": "O"
+      },
+      {
+        "nm": "N",
+        "price": "O"
+      },
+      {
+        "nm": "N",
+        "price": "O"
+      },
+      {
+        "nm": "E T E T E T E P",
+        "price": "O"
+      },
+      {
+        "nm": "E S",
+        "price": "O"
+      },
+      {
+        "nm": "E M A",
+        "price": "O"
+      },
+      {
+        "nm": "N",
+        "price": "O"
+      },
+      {
+        "nm": "T T AHU GORENG",
+        "unitprice": "28,000",
+        "cnt": "1",
+        "price": "O"
+      },
+      {
+        "nm": "PHO TAI CHIN R)",
+        "cnt": "1",
+        "price": "P.",
+        "unitprice": "63,000"
+      },
+      {
+        "nm": "TEA",
+        "cnt": "1",
+        "price": "11,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "119,000",
+      "service_price": "8,330",
+      "tax_price": "12,733"
+    },
+    "total": {
+      "total_price": "140,063",
+      "creditcardprice": "140,063"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> N</s_nm><s_price> O</s_price><sep/><s_nm> T T E</s_nm><s_price> O</s_price><sep/><s_nm> N</s_nm><s_price> O</s_price><sep/><s_nm> N</s_nm><s_price> O</s_price><sep/><s_nm> E T E T E T E P</s_nm><s_price> O</s_price><sep/><s_nm> E S</s_nm><s_price> O</s_price><sep/><s_nm> E M A</s_nm><s_price> O</s_price><sep/><s_nm> N</s_nm><s_price> O</s_price><sep/><s_nm> T T AHU GORENG</s_nm><s_unitprice> 28,000</s_unitprice><s_cnt> 1</s_cnt><s_price> O</s_price><sep/><s_nm> CAKWE</s_nm><s_cnt> 1</s_cnt><s_price> 17,000</s_price><s_sub><s_nm> PHO TAI CHIN R)</s_nm><s_unitprice> 63,000</s_unitprice><s_cnt> 1</s_cnt><s_price> P.</s_price><sep/><s_nm> TEA</s_nm><s_cnt> 1</s_cnt><s_price> 11,000</s_price></s_menu><s_sub_total><s_subtotal_price> 119,000</s_subtotal_price><s_service_price> 8,330</s_service_price><s_tax_price> 12,733</s_tax_price></s_sub_total><s_total><s_total_price> 140,063</s_total_price><s_creditcardprice> 140,063</s_creditcardprice></s_total></s>"
+}

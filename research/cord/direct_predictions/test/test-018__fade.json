@@ -1,0 +1,77 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-018",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "4fd69898363c9bc22bf3603fc2bd639a9591c989b3da8b2e70f9274852021c20",
+  "elapsed_seconds": 0.983,
+  "detected_words": 15,
+  "detected_lines": 7,
+  "ocr_text": "Propolis Cair 4 ae 158000 THEOL Sub Tofal ape 186000 Tunai fren 156000 Kembalian Rp.o",
+  "trocr_words": "PROPOLIS CAIR 1 156000 SUB TOTAL : 1.50 156000 TUNAI LAMPOI, JOHOR 15600 156000 KEMBALIAN",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "Propolis Cair",
+      "cnt": "4 ae"
+    },
+    {
+      "unitprice": "158000"
+    },
+    {
+      "cnt": "ape"
+    },
+    {
+      "price": "186000"
+    },
+    {
+      "nm": "Tunai",
+      "cnt": "fren"
+    },
+    {
+      "price": "156000"
+    },
+    {
+      "nm": "Kembalian",
+      "price": "Rp.o"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PROPOLIS CAIR",
+      "cnt": "1"
+    },
+    {
+      "unitprice": "156000"
+    },
+    {
+      "price": "156000"
+    },
+    {
+      "nm": "TUNAI LAMPOI, JOHOR",
+      "unitprice": "15600"
+    },
+    {
+      "price": "156000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Propolis Cair",
+      "cnt": "1",
+      "price": "156000"
+    },
+    "sub_total": {
+      "subtotal_price": "156000"
+    },
+    "total": {
+      "cashprice": "156000",
+      "changeprice": "Rp. 0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Propolis Cair</s_nm><s_cnt> 1</s_cnt><s_price> 156000</s_price></s_menu><s_sub_total><s_subtotal_price> 156000</s_subtotal_price></s_sub_total><s_total><s_cashprice> 156000</s_cashprice><s_changeprice> Rp. 0</s_changeprice></s_total></s>"
+}

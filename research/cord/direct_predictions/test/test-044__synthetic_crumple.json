@@ -1,0 +1,77 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-044",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "eba77f1384807f2126de613a39d6b2bd5fa4b24a5ddff12ad14c07a40dbd9df7",
+  "elapsed_seconds": 1.293,
+  "detected_words": 27,
+  "detected_lines": 10,
+  "ocr_text": ", , ; x > ’ - / be i ‘ ated Sire: 4 TOTAL 40, 000 — CM 60, 000 HAND 20. 000 = * =",
+  "trocr_words": "MAX XX LAY - 1 MBG 1 ME 30.000 TOTAL 30.000 CASH CHANGED 20.00 ----",
+  "ocr_rules_total": "000",
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "MBG 1 ME",
+      "cnt": null,
+      "price": "30.000"
+    },
+    {
+      "nm": "CHANGED",
+      "cnt": null,
+      "price": "20.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "> TOTAL"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 30.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": ", x"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "price": "40, 000"
+    },
+    {
+      "nm": "—",
+      "price": "60, 000"
+    },
+    {
+      "nm": "HAND",
+      "price": "20. 000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "MBG ME",
+      "cnt": "1",
+      "price": "30.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Combo 1",
+      "cnt": "1",
+      "price": "30,000"
+    },
+    "total": {
+      "total_price": "30.000",
+      "cashprice": "50.000",
+      "changeprice": "20.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Combo 1</s_nm><s_cnt> 1</s_cnt><s_price> 30,000</s_price></s_menu><s_total><s_total_price> 30.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 20.000</s_changeprice></s_total></s>"
+}

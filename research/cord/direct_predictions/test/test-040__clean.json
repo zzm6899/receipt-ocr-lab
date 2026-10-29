@@ -1,0 +1,137 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-040",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "8af7484317b9ad795f17492f51b38de350deb8d799bae82da2257d5dcc3d20b2",
+  "elapsed_seconds": 2.354,
+  "detected_words": 49,
+  "detected_lines": 18,
+  "ocr_text": "; th me ‘ Se edt ae ner. . ia me ee 27,000 4 54,099 WPS ok: usa eee ¥ Bakery aneka Sisir bani a Ba, yoko, Har ney Paging ty kejcbelat 22 aes ree oe. ow eee a Pret oe NOG os 00,500 ‘CHANGE nie, 020 Sy ds",
+  "trocr_words": "7 ITEM 4 - X - ................ 27,000 BALERY ANGKA SISIR BANANA,PIZZA, YOKO, MAR TABLE AGAIN FACEBOOK FACEBOOK NET, DE918B AHON, KEJU,COKELET,D11 2 7,000 TOTAL AMOUNT 48 000 TOTAL @ 68,000 CASH NUMMARY WITH 100,000 CHANGE AND EXCLUDING ONCLUSIVE 32,000 SR =",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "27,000 4",
+      "cnt": null,
+      "price": "54,099"
+    },
+    {
+      "nm": "os",
+      "cnt": null,
+      "price": "00,500"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "2",
+      "cnt": null,
+      "price": "7,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL AMOUNT 48 000 TOTAL @ 68,000"
+  },
+  "layout_rows": [
+    {
+      "price": "‘",
+      "unitprice": "th me"
+    },
+    {
+      "nm": "Se"
+    },
+    {
+      "price": "ae",
+      "unitprice": "edt"
+    },
+    {
+      "cnt": "ner."
+    },
+    {
+      "cnt": ".",
+      "unitprice": "ia"
+    },
+    {
+      "cnt": "ee"
+    },
+    {
+      "cnt": "4",
+      "price": "54,099",
+      "unitprice": "27,000"
+    },
+    {
+      "nm": "WPS",
+      "cnt": "eee",
+      "price": "¥",
+      "unitprice": "usa"
+    },
+    {
+      "nm": "Bakery aneka Sisir",
+      "price": "a Ba, yoko, Har",
+      "unitprice": "bani"
+    },
+    {
+      "nm": "ney Paging",
+      "price": "22"
+    },
+    {
+      "price": "ow"
+    },
+    {
+      "price": "00,500"
+    },
+    {
+      "price": "020"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "7"
+    },
+    {
+      "cnt": "X"
+    },
+    {
+      "cnt": "................"
+    },
+    {
+      "nm": "BALERY ANGKA SISIR BANANA,PIZZA,",
+      "price": "YOKO,"
+    },
+    {
+      "nm": "TABLE AGAIN FACEBOOK"
+    },
+    {
+      "nm": "NET, AHON, KEJU,COKELET,D11"
+    },
+    {
+      "cnt": "2"
+    },
+    {
+      "price": "32,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Shack Lestari A11",
+        "unitprice": "27,000",
+        "cnt": "2",
+        "price": "54,000"
+      },
+      {
+        "nm": "Bakery Aneka Sisir banana. Pizza,yoko,Mar",
+        "unitprice": "7.000",
+        "cnt": "2",
+        "price": "14,000"
+      }
+    ],
+    "total": {
+      "total_price": "68.000",
+      "cashprice": "100,000",
+      "changeprice": "32.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Shack Lestari A11</s_nm><s_unitprice> 27,000</s_unitprice><s_cnt> 2</s_cnt><s_price> 54,000</s_price><sep/><s_nm> Bakery Aneka Sisir banana. Pizza,yoko,Mar</s_nm><s_unitprice> 7.000</s_unitprice><s_cnt> 2</s_cnt><s_price> 14,000</s_price></s_menu><s_total><s_total_price> 68.000</s_total_price><s_cashprice> 100,000</s_cashprice><s_changeprice> 32.000</s_changeprice></s_total></s>"
+}

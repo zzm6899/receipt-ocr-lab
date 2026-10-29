@@ -1,0 +1,72 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-068",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "d902ea13cd3b93cfefa6597b3a937f65c4f86e92fbde726d910c82d4c3e95a66",
+  "elapsed_seconds": 0.862,
+  "detected_words": 19,
+  "detected_lines": 7,
+  "ocr_text": "er 5 | pen TT ee “20,009 \\ Bi” 20 tee | | bast $0,000 1 CHANGE \"30,009 —",
+  "trocr_words": ": L ICED TT 2 20.000 TOTAL ~~.000 CASH :30.000 CHANGE : 30.000 -",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "ICED TT 2",
+      "cnt": null,
+      "price": "20.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "er"
+  },
+  "cascade_fields": {
+    "total": ": TOTAL ~~.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "5"
+    },
+    {
+      "nm": "pen TT",
+      "cnt": "|",
+      "price": "“20,009",
+      "unitprice": "ee"
+    },
+    {
+      "nm": "Bi”",
+      "price": "tee",
+      "unitprice": "20"
+    },
+    {
+      "nm": "bast",
+      "cnt": "|",
+      "price": "$0,000"
+    },
+    {
+      "cnt": "1"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "L"
+    },
+    {
+      "nm": "ICED TT 2",
+      "price": "20.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ICED TT",
+      "price": "20,000"
+    },
+    "total": {
+      "total_price": "20,000",
+      "cashprice": "50,000",
+      "changeprice": "30,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICED TT</s_nm><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 20,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 30,000</s_changeprice></s_total></s>"
+}

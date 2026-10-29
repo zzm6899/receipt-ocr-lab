@@ -1,0 +1,66 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-036",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "23a82f024a6ba3659554be91fcdde2522fc78d421238ad1716d3441a64865f5b",
+  "elapsed_seconds": 2.623,
+  "detected_words": 24,
+  "detected_lines": 7,
+  "ocr_text": "2 greet >_> . Goo'og: sBueuy — 00000 Ect 00 OF oo omy 000'O+ _t SWal! Guepas- of | 000'O+ vay AdSU TOK L",
+  "trocr_words": "- ITEM TOTAL: CASH: + 000.001 $6.00 ITEMS: 1 6UEPAS - L 1.00",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL:"
+  },
+  "layout_rows": [
+    {
+      "unitprice": "greet"
+    },
+    {
+      "cnt": "."
+    },
+    {
+      "nm": "Goo'og: sBueuy",
+      "price": "Ect",
+      "unitprice": "— 00000"
+    },
+    {
+      "cnt": "OF",
+      "price": "oo omy"
+    },
+    {
+      "price": "SWal!",
+      "unitprice": "000'O+"
+    },
+    {
+      "price": "Guepas-"
+    },
+    {
+      "price": "TOK L",
+      "unitprice": "000'O+ vay AdSU"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": [
+    {
+      "nm": "000'09: abueyo",
+      "num": "000'001",
+      "price": "Red"
+    },
+    {
+      "nm": {
+        "price": "[2]01"
+      },
+      "num": "0",
+      "price": "-"
+    },
+    {
+      "menuqty_cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'09: abueyo</s_nm><s_num> 000'001</s_num><s_price> Red</s_price><sep/><s_nm> 000'07</s_num><s_price> [2]01</s_price><sep/><s_nm> 000'07</s_num><s_price> [: SWELL</s_nm><s_num> 0</s_num><s_price> -</s_price><sep/><s_nm> 000'07</s_num><s_price> 7XX</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

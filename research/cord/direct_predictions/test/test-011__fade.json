@@ -1,0 +1,103 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-011",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "25c60b3b67b5103094c3b689e99fdf6d8764d4c6771e9938cb1d7436044c8437",
+  "elapsed_seconds": 2.227,
+  "detected_words": 33,
+  "detected_lines": 16,
+  "ocr_text": "it ee a eee i oF. Ln” it. a ——— Se ie! Pe fe oo en ee of PRM) oh oo eA _ iC se (eo oe Ee Se Age | we ee",
+  "trocr_words": "WWW.COM - CASH 1 BANBERRY FRESH CHEAM DAK 230,000 1 BANBERRY RESH ORAM CAX 230,00 TOTAL 230.000 TOTAL 230,000 CHANGE 0 .00 CHANGE - TOTAL SR: CASHIER CASHIER THANK YOU FOR A FREE",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "BANBERRY FRESH CHEAM DAK",
+      "cnt": "1",
+      "price": "230,000"
+    },
+    {
+      "nm": "BANBERRY RESH ORAM CAX",
+      "cnt": "1",
+      "price": "230,00"
+    }
+  ],
+  "layout_fields": {
+    "total": "oe Ee we ee"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 230,000 TOTAL"
+  },
+  "layout_rows": [
+    {
+      "nm": "it",
+      "price": "ee"
+    },
+    {
+      "nm": "eee",
+      "cnt": "a",
+      "price": "i"
+    },
+    {
+      "nm": "Ln”",
+      "cnt": "oF.",
+      "price": "it."
+    },
+    {
+      "nm": "———",
+      "cnt": "a",
+      "price": "Se"
+    },
+    {
+      "cnt": "ie!",
+      "price": "fe"
+    },
+    {
+      "cnt": "oo",
+      "price": "ee",
+      "unitprice": "en"
+    },
+    {
+      "cnt": "of",
+      "price": "PRM) oh"
+    },
+    {
+      "cnt": "oo",
+      "price": "eA"
+    },
+    {
+      "cnt": "_",
+      "price": "iC"
+    },
+    {
+      "price": "(eo",
+      "unitprice": "se"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BANBERRY FRESH CHEAM DAK",
+      "cnt": "1",
+      "unitprice": "230,000"
+    },
+    {
+      "nm": "BANBERRY RESH ORAM",
+      "cnt": "1",
+      "price": "CAX 230,00"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "BANABERRY FRESH CREAM CAK",
+      "cnt": "1",
+      "price": "230,000"
+    },
+    "total": {
+      "total_price": "230,000",
+      "cashprice": "230,000",
+      "changeprice": "0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BANABERRY FRESH CREAM CAK</s_nm><s_cnt> 1</s_cnt><s_price> 230,000</s_price></s_menu><s_total><s_total_price> 230,000</s_total_price><s_cashprice> 230,000</s_cashprice><s_changeprice> 0</s_changeprice></s_total></s>"
+}

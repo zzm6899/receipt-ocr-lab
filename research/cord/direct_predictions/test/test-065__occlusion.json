@@ -1,0 +1,171 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-065",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "25ed84fd948cab8492bf5b580d7ee82e09bf5e703ae3be4a15063752eaf7dc94",
+  "elapsed_seconds": 4.161,
+  "detected_words": 136,
+  "detected_lines": 32,
+  "ocr_text": "“ : a gi MR ” — ~ te sat - ee a vere is a OO ae : ss ‘ Seg A \"tie aa 1 tae ir eh - gn eet ages Re ERS as zi a aa = Ree = ad “| pa Ne ee | : | pi a : a a ; 4 a Ei frig: Bear : ae Se ae ek eo ee } $: pee Cena ¢ Bia) t lan Ine | , jubur Polos + Telur : ‘(3.660 , m3. 13.007 ———— a ee a : Ps ae are : : Budtota 13.000 IN eae a as ty pe oe IS ONN. , reg : i i MEE, : = an. i fe a ‘ 2 eM a ali ~ ‘- « wwe rr Ay oa, aeeeyvee > iy",
+  "trocr_words": "WWW.WW. CASHIER WWW.WWW. : - ITEM THANK AMOUNT: ITEM : ITEMS IT ITEMS WWW.WA ................ ................................ THANK POLES, TELAN CASHIER UBUR POLOS + TELUR UBUR POLOS + TELUR 13.000 13.06 13.06 ................................ INITOTAL AMOUNTING AGAIN SUBTOTAL 13.000 OJAK TAMMARY,COM/MYMY TOTAL : 13.000 AMOUNT NO. : 1.00 CASHIER SR- WWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": ", m3.",
+      "cnt": null,
+      "price": "13.007"
+    },
+    {
+      "nm": "Budtota",
+      "cnt": null,
+      "price": "13.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "13.06",
+      "cnt": null,
+      "price": "13.06"
+    }
+  ],
+  "layout_fields": {
+    "total": "“ : > iy"
+  },
+  "cascade_fields": {
+    "total": "TOTAL : 13.000"
+  },
+  "layout_rows": [
+    {
+      "price": "a gi MR"
+    },
+    {
+      "price": "sat"
+    },
+    {
+      "nm": "a",
+      "cnt": "vere is",
+      "price": "ae : ss",
+      "unitprice": "a OO"
+    },
+    {
+      "cnt": "Seg A aa 1 tae"
+    },
+    {
+      "cnt": "ir eh -",
+      "price": "ages Re",
+      "unitprice": "gn eet"
+    },
+    {
+      "cnt": "zi",
+      "price": "a",
+      "unitprice": "as"
+    },
+    {
+      "cnt": "=",
+      "price": "Ree = ad",
+      "unitprice": "aa"
+    },
+    {
+      "price": "Ne ee",
+      "unitprice": "pa"
+    },
+    {
+      "cnt": "a : a",
+      "price": ";",
+      "unitprice": "a"
+    },
+    {
+      "cnt": "4",
+      "price": "Ei",
+      "unitprice": "a"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "unitprice": "ae ek"
+    },
+    {
+      "cnt": "t lan",
+      "price": ",",
+      "unitprice": "Ine"
+    },
+    {
+      "cnt": "+",
+      "price": ":"
+    },
+    {
+      "cnt": "‘(3.660"
+    },
+    {
+      "cnt": ",",
+      "price": "13.007",
+      "unitprice": "m3."
+    },
+    {
+      "cnt": "are",
+      "unitprice": "Ps"
+    },
+    {
+      "nm": "Budtota",
+      "price": "13.000"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "price": "IS ONN."
+    },
+    {
+      "cnt": ": i",
+      "price": "MEE,"
+    },
+    {
+      "cnt": ":",
+      "price": "an."
+    },
+    {
+      "price": "a"
+    },
+    {
+      "cnt": "2",
+      "price": "a ali",
+      "unitprice": "eM"
+    },
+    {
+      "cnt": "‘-",
+      "price": "wwe"
+    },
+    {
+      "cnt": "rr Ay",
+      "unitprice": "oa,"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "THANK",
+      "cnt": "POLES,"
+    },
+    {
+      "nm": "UBUR",
+      "price": "TELUR"
+    },
+    {
+      "nm": "UBUR"
+    },
+    {
+      "unitprice": "13.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ubur Polos + Telur",
+      "unitprice": "13.000",
+      "cnt": "1",
+      "price": "13.000"
+    },
+    "subtotal_price": "13.000"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ubur Polos + Telur</s_nm><s_unitprice> 13.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 13.000</s_price></s_menu><s_sub_total><s_subtotal_price> 13.000</s_subtotal_price><s_tax_price> ajak</s_nm><s_num> fotal 13.000</s_emoneyprice></s_total></s>"
+}

@@ -1,0 +1,79 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-066",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "616b6c8285e7de75cec0acb3f16fa2887fc3f43bb5d1015f37e4fb32fdddca44",
+  "elapsed_seconds": 1.301,
+  "detected_words": 24,
+  "detected_lines": 7,
+  "ocr_text": "— a 36+ 364 = PLAST i oe : SUBTOTAR by 364 ae PRL 107 10,0002 3 a 2 ak nani / CHANG ‘18,60",
+  "trocr_words": "PAX PILLOW DURIA 36,364 PLEASIK 25 SUBTOTAL 36,364 PU PBL 10% 10.000% AMOUNT : 3,636 - CHANGE 10.00",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "PAX PILLOW DURIA",
+      "cnt": null,
+      "price": "36,364"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "AMOUNT : 3,636"
+  },
+  "layout_rows": [
+    {
+      "nm": "a",
+      "cnt": "—",
+      "price": "364",
+      "unitprice": "36+"
+    },
+    {
+      "nm": "PLAST i",
+      "price": "oe"
+    },
+    {
+      "nm": "SUBTOTAR",
+      "price": "by 364"
+    },
+    {
+      "nm": "PRL",
+      "cnt": "ae 3",
+      "price": "10,0002",
+      "unitprice": "107"
+    },
+    {
+      "cnt": "a",
+      "price": "ak"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PAX PILLOW DURIA",
+      "price": "36,364"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "PILLOW DURIA",
+        "price": "36,364"
+      },
+      {
+        "nm": "PLASTIK 25",
+        "price": "0"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "36,364",
+      "tax_price": "3,636"
+    },
+    "total": {
+      "total_price": "40,000",
+      "cashprice": "50,000",
+      "changeprice": "10,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> PILLOW DURIA</s_nm><s_price> 36,364</s_price><sep/><s_nm> PLASTIK 25</s_nm><s_price> 0</s_price></s_menu><s_sub_total><s_subtotal_price> 36,364</s_subtotal_price><s_tax_price> 3,636</s_tax_price></s_sub_total><s_total><s_total_price> 40,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 10,000</s_changeprice></s_total></s>"
+}

@@ -1,0 +1,153 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-084",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "7d29523d24f79a813d2b74c32579ba9ea69fb025c96ed5cb0f43ad5885938d14",
+  "elapsed_seconds": 5.814,
+  "detected_words": 135,
+  "detected_lines": 32,
+  "ocr_text": "eee Gore tet, Pe cee = : ge gama Seip as aa aca fa Oe esate : Fay ie - eer Si See ns pense SS a ermreree aii gree eae ee > eee SS ae wee = mi, JT mn = i ate [a ‘why ae ote eel Le at a EEK i ae eee ea ia = Sa we Bee —— . c= a oe Sa See] Kroket Sere eS 1x 812.000 12.000 aes has Pasha Riper: Seeerae eo Arem Arem ee anns Bee Ss 2x 812.000 24.000 [Ses oe Pee eeees Subtotal Rp 36.000 Se ee Tax (10.0%) Rp 3.000 or ke Se a ya atte hs Yee ead total Rp 39.600 fo oe Rp 99.600 ears s mstet ben oi - ssh mee = ae ae ==. eee Beene pai ae",
+  "trocr_words": "WWW.W.W.W.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K. AMOUNT CASHIER : : TAX - ITEM HH ITEM ITEM - = = ITEM KALET KRAFT *** *** *** TAX 81200 24.00 TAX: RECEIPTOTAL(RM) RP 36.000 TAX (10.0%) RP 3.600 ......................... PAYMENT TOTAL : REG-20.00 GST REGINAL @39.600 CASHIER NO CHER RIP 39.600 *** WWW. - :",
+  "ocr_rules_total": "39.600",
+  "ocr_rows": [
+    {
+      "nm": "eS 1x 812.000",
+      "cnt": null,
+      "price": "12.000"
+    },
+    {
+      "nm": "Bee Ss 2x 812.000",
+      "cnt": null,
+      "price": "24.000"
+    },
+    {
+      "nm": "oe Rp",
+      "cnt": null,
+      "price": "99.600"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "RECEIPTOTAL(RM) RP",
+      "cnt": null,
+      "price": "36.000"
+    },
+    {
+      "nm": "CASHIER NO CHER RIP",
+      "cnt": null,
+      "price": "39.600"
+    }
+  ],
+  "layout_fields": {
+    "total": "tet, as total mee = ae ae ==."
+  },
+  "cascade_fields": {
+    "total": "AMOUNT : - :"
+  },
+  "layout_rows": [
+    {
+      "nm": "Gore",
+      "cnt": "eee",
+      "price": "Pe cee"
+    },
+    {
+      "cnt": ":",
+      "price": "aa aca"
+    },
+    {
+      "nm": "Fay",
+      "cnt": "-",
+      "price": "Si"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "= JT mn",
+      "price": "= i",
+      "unitprice": "mi,"
+    },
+    {
+      "nm": "ote",
+      "cnt": "a",
+      "unitprice": "Le at"
+    },
+    {
+      "price": "ae"
+    },
+    {
+      "price": "we"
+    },
+    {
+      "price": ". c="
+    },
+    {
+      "nm": "Kroket"
+    },
+    {
+      "cnt": "1x",
+      "price": "12.000",
+      "unitprice": "812.000"
+    },
+    {
+      "cnt": "Ss 2x",
+      "price": "24.000 [Ses",
+      "unitprice": "812.000"
+    },
+    {
+      "cnt": "Rp",
+      "price": "36.000"
+    },
+    {
+      "price": "Rp 3.000 or"
+    },
+    {
+      "cnt": "hs"
+    },
+    {
+      "price": "Rp 39.600 fo"
+    },
+    {
+      "price": "Rp 99.600"
+    },
+    {
+      "price": "ssh"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "24.00",
+      "unitprice": "81200"
+    },
+    {
+      "nm": "RECEIPTOTAL(RM)",
+      "price": "36.000"
+    },
+    {
+      "nm": "GST REGINAL",
+      "price": "@39.600"
+    },
+    {
+      "cnt": "NO",
+      "price": "RIP 39.600"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Arem Arem",
+      "unitprice": "@12.000",
+      "cnt": "2x",
+      "price": "24.000"
+    },
+    "sub_total": {
+      "subtotal_price": "Rp 36.000",
+      "tax_price": "Rp 3.600"
+    },
+    "total": {
+      "total_price": "Rp 39.600",
+      "emoneyprice": "Rp 39.600"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kroket</s_nm><s_unitprice> @12.000</s_unitprice><s_cnt> 1x</s_cnt><s_price> 12.000</s_price><s_sub><s_nm> Arem Arem</s_nm><s_unitprice> @12.000</s_unitprice><s_cnt> 2x</s_cnt><s_price> 24.000</s_price></s_menu><s_sub_total><s_subtotal_price> Rp 36.000</s_subtotal_price><s_tax_price> Rp 3.600</s_tax_price></s_sub_total><s_total><s_total_price> Rp 39.600</s_total_price><s_emoneyprice> Rp 39.600</s_emoneyprice></s_total></s>"
+}

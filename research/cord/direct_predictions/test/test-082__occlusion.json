@@ -1,0 +1,148 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-082",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "a56bbb399c6d7734942b5434a9e8ffe23b3c774eebf34f4fe778ab225bf696f9",
+  "elapsed_seconds": 2.229,
+  "detected_words": 51,
+  "detected_lines": 13,
+  "ocr_text": "— i» te “— at -_—__ SSSSScassSassssasssssasasegeeS === Chocolate Log Cake —ix.-115,000 115,000 ‘| Snowman Cake Chocolate 1x 60,000 60,000 eee > | Strawberry Log Cake 2x 105,000 210,000 TRA Sub Total 385,000 GRAND TOTAL 385,000 = - VISA MASTER 365, 8213 ae ee a . - oo 7 — =",
+  "trocr_words": "- WWW WWW.WW. ........................ CHOCOLATE LOG CAKE 1X 115,000 115,000 SHOWNAN CAKE CHOCOLATE 1X 60,000 60,000 STRAWERY LOG CHOCLATE 2X 105.000 210.000 TRA SUB TOTAL RECEIPT NO : 385,000 GRAND TOTAL 385,000 - VISA MASTER 8213 CASHIER - HILL",
+  "ocr_rules_total": "385,000",
+  "ocr_rows": [
+    {
+      "nm": "Chocolate Log Cake —ix.-115,000",
+      "cnt": null,
+      "price": "115,000"
+    },
+    {
+      "nm": "Snowman Cake Chocolate 1x 60,000",
+      "cnt": null,
+      "price": "60,000"
+    },
+    {
+      "nm": "> | Strawberry Log Cake 2x 105,000",
+      "cnt": null,
+      "price": "210,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "CHOCOLATE LOG CAKE 1X 115,000",
+      "cnt": null,
+      "price": "115,000"
+    },
+    {
+      "nm": "SHOWNAN CAKE CHOCOLATE 1X 60,000",
+      "cnt": null,
+      "price": "60,000"
+    },
+    {
+      "nm": "STRAWERY LOG CHOCLATE 2X 105.000",
+      "cnt": null,
+      "price": "210.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL ="
+  },
+  "cascade_fields": {
+    "total": "GRAND TOTAL 385,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "i» te",
+      "price": "at",
+      "unitprice": "“—"
+    },
+    {
+      "nm": "Chocolate Log Cake",
+      "price": "115,000",
+      "unitprice": "—ix.-115,000"
+    },
+    {
+      "nm": "Snowman Cake Chocolate",
+      "cnt": "1x",
+      "price": "60,000",
+      "unitprice": "60,000"
+    },
+    {
+      "nm": "Strawberry Log Cake",
+      "cnt": "> | 2x",
+      "price": "210,000 TRA",
+      "unitprice": "105,000"
+    },
+    {
+      "price": "385,000"
+    },
+    {
+      "price": "385,000"
+    },
+    {
+      "nm": "VISA MASTER",
+      "cnt": "-",
+      "price": "365,"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "cnt": "-"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CHOCOLATE LOG CAKE",
+      "cnt": "1X",
+      "price": "115,000",
+      "unitprice": "115,000"
+    },
+    {
+      "nm": "SHOWNAN CAKE CHOCOLATE",
+      "cnt": "1X",
+      "price": "60,000 60,000"
+    },
+    {
+      "nm": "STRAWERY LOG CHOCLATE",
+      "cnt": "2X",
+      "price": "210.000",
+      "unitprice": "105.000"
+    },
+    {
+      "nm": "RECEIPT",
+      "price": "385,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Chocolate Log Cake",
+        "unitprice": "115,000",
+        "cnt": "1x",
+        "price": "115,000"
+      },
+      {
+        "nm": "Snowman Cake Chocolate",
+        "unitprice": "60,000",
+        "cnt": "1x",
+        "price": "60,000"
+      },
+      {
+        "nm": "Strawberry Log Cake",
+        "unitprice": "105,000",
+        "cnt": "2x",
+        "price": "210,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "385,000"
+    },
+    "total": {
+      "total_price": "385,000",
+      "changeprice": "0",
+      "creditcardprice": "385,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Chocolate Log Cake</s_nm><s_unitprice> 115,000</s_unitprice><s_cnt> 1x</s_cnt><s_price> 115,000</s_price><sep/><s_nm> Snowman Cake Chocolate</s_nm><s_unitprice> 60,000</s_unitprice><s_cnt> 1x</s_cnt><s_price> 60,000</s_price><sep/><s_nm> Strawberry Log Cake</s_nm><s_unitprice> 105,000</s_unitprice><s_cnt> 2x</s_cnt><s_price> 210,000</s_price></s_menu><s_sub_total><s_subtotal_price> 385,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 385,000</s_total_price><s_changeprice> 0</s_changeprice><s_creditcardprice> 385,000</s_creditcardprice></s_total></s>"
+}

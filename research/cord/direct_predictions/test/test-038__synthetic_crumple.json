@@ -1,0 +1,224 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-038",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "9c6ab6eb7e9c9638ca40bb5c6783f959ab703a6fc491016b1aa59f3cf6343d3a",
+  "elapsed_seconds": 5.339,
+  "detected_words": 174,
+  "detected_lines": 21,
+  "ocr_text": ": ¥ fn 2 eS BS 18a cede 9 ~~ ory é . { Lt Lar PPSet Fue E os +t i Lises Ay ” ew” f , iti i : is . tot ae wed -* 2%! % + a 2a & PSPs OS 5 ee 5 ae wt f3r4 Fy eats ee okt : : J £Be> i 38 Bis j oa ini WF F LZti kr wal i j ae ® “ 4 “yy % rer 7 Wwietias 3 Si 4% oe MM j woke wii. EY Staal avd phe . 4 Tae Ti. Sty 3 ¢ om yi Yi saat eUR asi S375 “wht mi ed Wal a e t 2 f { | ; a i i he as thee Oe eV Tt 7 Lt 7 os , : ; 3 . : , uP ns hao Oe oe Pa ‘ : - 7 et 5 44 ~ ‘ i . Me 4 ‘ g. ‘ 5 ee Bs ‘ae ; . = a ee ees a ~~ =",
+  "trocr_words": "FACE OF WITH LILAT GARIABLE 18 102 L UP HSH HILET GANG 108,00 *** 1 1MM BARK ROLLY TAX @8.00 L LIM PORK BELLY - 1 PX 888,000 *** 1 CAU MAL - 1.10 (WW WW. AMPLACTION INVOI ******** 5 KWAN YIN CIN ALL 5006 WWWWW.HH.WW.WW.W.W.V.V 1 LIABLE LAIL, AND BE 100.00 HERHAI LPLV ABOVE 38000 1 MASIA FINAL ONHA.ONOA JOHAN AEAN 3 UNCE-UNCE WWWWWWWWWW ALL TAPAL TRANSACTION NAME WITH (MMMM8888- (8-17-W) MAINTUTA ALAM",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "L UP HSH HILET GANG",
+      "cnt": null,
+      "price": "108,00"
+    },
+    {
+      "nm": "L LIM PORK BELLY - 1 PX",
+      "cnt": null,
+      "price": "888,000"
+    },
+    {
+      "nm": "CAU MAL",
+      "cnt": "1",
+      "price": "1.10"
+    },
+    {
+      "nm": "LIABLE LAIL, AND BE",
+      "cnt": "1",
+      "price": "100.00"
+    }
+  ],
+  "layout_fields": {
+    "total": ". Me 4 g. ‘"
+  },
+  "cascade_fields": {
+    "total": "ALL"
+  },
+  "layout_rows": [
+    {
+      "cnt": ": ¥ fn 2 eS 18a 9 ~~ ory",
+      "price": "é . {",
+      "unitprice": "cede"
+    },
+    {
+      "cnt": "Lt E +t i",
+      "price": "Lises Ay",
+      "unitprice": "os"
+    },
+    {
+      "cnt": "” ew” f , i : is . tot ae wed",
+      "price": "-* 2%! %"
+    },
+    {
+      "cnt": "+ a 2a 5 5 ae",
+      "price": "wt f3r4",
+      "unitprice": "OS ee"
+    },
+    {
+      "cnt": "Fy : : J",
+      "price": "i 38"
+    },
+    {
+      "cnt": "j oa wal i j",
+      "price": "ae"
+    },
+    {
+      "cnt": "® “ 4",
+      "price": "“yy % rer"
+    },
+    {
+      "cnt": "7 3",
+      "price": "oe MM"
+    },
+    {
+      "price": "avd phe"
+    },
+    {
+      "cnt": "4 3 ¢",
+      "price": "yi Yi",
+      "unitprice": "om"
+    },
+    {
+      "price": "mi Wal a"
+    },
+    {
+      "cnt": "e t 2 |",
+      "price": ";",
+      "unitprice": "f {"
+    },
+    {
+      "cnt": "Oe eV 7",
+      "price": "Lt"
+    },
+    {
+      "cnt": "7 , : 3 :"
+    },
+    {
+      "cnt": "Pa",
+      "price": "‘"
+    },
+    {
+      "cnt": "~",
+      "price": "44"
+    },
+    {
+      "cnt": "a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "FACE OF WITH LILAT",
+      "price": "18 102"
+    },
+    {
+      "nm": "UP HSH HILET GANG",
+      "cnt": "L",
+      "price": "108,00"
+    },
+    {
+      "nm": "1MM BARK ROLLY",
+      "cnt": "1",
+      "price": "@8.00"
+    },
+    {
+      "nm": "LIM PORK BELLY",
+      "cnt": "L - 1 PX",
+      "price": "888,000"
+    },
+    {
+      "nm": "CAU MAL",
+      "cnt": "1",
+      "price": "1.10"
+    },
+    {
+      "nm": "KWAN YIN CIN",
+      "cnt": "5",
+      "price": "5006"
+    },
+    {
+      "nm": "LIABLE LAIL, AND",
+      "cnt": "1",
+      "price": "100.00"
+    },
+    {
+      "nm": "HERHAI LPLV",
+      "price": "38000"
+    },
+    {
+      "nm": "MASIA FINAL",
+      "cnt": "1"
+    },
+    {
+      "nm": "ONHA.ONOA",
+      "price": "AEAN 3",
+      "unitprice": "JOHAN"
+    },
+    {
+      "nm": "UNCE-UNCE"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "XLB Org Pork 10x",
+        "cnt": "1",
+        "price": "78,000"
+      },
+      {
+        "nm": "Sicito Babi",
+        "cnt": "1",
+        "price": "65,000"
+      },
+      {
+        "nm": "Hotplate Tahu",
+        "cnt": "1",
+        "price": "58,000"
+      },
+      {
+        "nm": "DF Fish Filiet Garic",
+        "cnt": "1",
+        "price": "108,000"
+      },
+      {
+        "nm": "LM Pork Belly",
+        "cnt": "1",
+        "price": "88,000"
+      },
+      {
+        "nm": "Siew Mai",
+        "cnt": "1",
+        "price": "38,800"
+      },
+      {
+        "nm": "Kwan Yin Cup",
+        "cnt": "5",
+        "price": "50,000"
+      },
+      {
+        "nm": "Herbal Jelly",
+        "cnt": "1",
+        "price": "38,000"
+      },
+      {
+        "nm": "Onde-Onde",
+        "cnt": "1",
+        "price": "38,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "561,800",
+      "service_price": "42,135",
+      "tax_price": "60,394"
+    },
+    "total": {
+      "total_price": "664,329",
+      "menuqty_cnt": "13"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> XLB Org Pork 10x</s_nm><s_cnt> 1</s_cnt><s_price> 78,000</s_price><sep/><s_nm> Sicito Babi</s_nm><s_cnt> 1</s_cnt><s_price> 65,000</s_price><sep/><s_nm> Hotplate Tahu</s_nm><s_cnt> 1</s_cnt><s_price> 58,000</s_price><sep/><s_nm> DF Fish Filiet Garic</s_nm><s_cnt> 1</s_cnt><s_price> 108,000</s_price><sep/><s_nm> LM Pork Belly</s_nm><s_cnt> 1</s_cnt><s_price> 88,000</s_price><sep/><s_nm> Siew Mai</s_nm><s_cnt> 1</s_cnt><s_price> 38,800</s_price><sep/><s_nm> Kwan Yin Cup</s_nm><s_cnt> 5</s_cnt><s_price> 50,000</s_price><sep/><s_nm> Herbal Jelly</s_nm><s_cnt> 1</s_cnt><s_price> 38,000</s_price><sep/><s_nm> Onde-Onde</s_nm><s_cnt> 1</s_cnt><s_price> 38,000</s_price></s_menu><s_sub_total><s_subtotal_price> 561,800</s_subtotal_price><s_service_price> 42,135</s_service_price><s_tax_price> 60,394</s_tax_price></s_sub_total><s_total><s_total_price> 664,329</s_total_price><s_menuqty_cnt> 13</s_menuqty_cnt></s_total></s>"
+}

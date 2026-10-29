@@ -1,0 +1,8 @@
+count_basis,item_count_bin,receipts_n,legacy_transcribed_count_receipts_n,Receipy_full_ledger_candidate_receipts_n,unknown_inventory_receipts_excluded_n,changed_bin_receipt_ids
+product_item_count,1-3,35,24,11,1,
+product_item_count,4-5,2,1,1,1,
+product_item_count,6+,12,9,3,1,
+raw_reference_entry_count,1-3,33,24,9,1,
+raw_reference_entry_count,4-5,3,1,2,1,
+raw_reference_entry_count,6+,13,9,4,1,
+raw_vs_product_bin_sensitivity,changed bin assignment,2,0,2,1,new_005;new_013

@@ -1,0 +1,99 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-015",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "5fea39525c4968e38da18fbe166b1d76b6c291e3fb40925c0a7cbd79875c0ce3",
+  "elapsed_seconds": 2.356,
+  "detected_words": 58,
+  "detected_lines": 17,
+  "ocr_text": "NJ n'a WI “-Q00HGR: = | ule —— -UUU BE oe 7 ee ARM eN ‘ Bath AAe Vet pater ne Ud |e. UU ee fal Coy ert i ae ee ee Eine range enreerer ec fT Ca etait v bee pee eas mre =e Pe a aee Cae 2 ~ Bal ah . . SS & ‘|",
+  "trocr_words": "JUL TOTAL: 03.000 SAMELL I LEME (ARAME) SMAIL [EMS [AWERE TEL GIVE ITEMS ITEMS LEM IT LEMON TEA (L) EAI LOWET :AMOUNT (L) REI UOW: ................................................ ITEM CM CASHIER *** THANK WWW. : : 2 CASHIER 1",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Bal"
+  },
+  "cascade_fields": {
+    "total": "TOTAL: 03.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "NJ"
+    },
+    {
+      "price": "WI"
+    },
+    {
+      "cnt": "= |",
+      "price": "ule"
+    },
+    {
+      "cnt": "7 ee",
+      "price": "ARM eN",
+      "unitprice": "oe"
+    },
+    {
+      "cnt": "Vet ne",
+      "price": "Ud |e.",
+      "unitprice": "pater"
+    },
+    {
+      "price": "fal Coy ert",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": "i",
+      "price": "ee",
+      "unitprice": "ae ee"
+    },
+    {
+      "price": "ec fT"
+    },
+    {
+      "price": "bee"
+    },
+    {
+      "price": "=e",
+      "unitprice": "eas"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "SAMELL",
+      "cnt": "I",
+      "price": "LEME"
+    },
+    {
+      "nm": "(ARAME) SMAIL"
+    },
+    {
+      "nm": "LEMON TEA",
+      "cnt": "(L)",
+      "price": "EAI LOWET"
+    },
+    {
+      "price": "REI UOW:",
+      "unitprice": "(L)"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'L",
+        "price": "BESNSHO"
+      },
+      {
+        "nm": "000'OL",
+        "price": {
+          "num": "000'E9"
+        }
+      }
+    ],
+    "total": {
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'L</s_nm><s_price> BESNSHO</s_price><sep/><s_nm> 000'OL</s_nm><s_price> HASVO</s_nm><s_num> 000'E9</s_num><s_price> TIVOL</s_price></s_menu><s_total><s_total_price> 000'83</s_num><s_price> gamagama</s_total_price><s_total_etc> (1) eat homemad</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

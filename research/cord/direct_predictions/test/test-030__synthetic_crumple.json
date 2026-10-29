@@ -1,0 +1,42 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-030",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "1e8fc52d7e1215211bb80c2701bc6090489521a30f7c490e1e401e550885ed60",
+  "elapsed_seconds": 0.906,
+  "detected_words": 12,
+  "detected_lines": 5,
+  "ocr_text": "ame. | ie a q | Cash So, Ulu Change ‘ 18,500",
+  "trocr_words": "ITEMS | SEEBOOKS ONCLUSIVE 1 1 CASH : 1,000 CHANGE ***",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "q"
+    },
+    {
+      "price": "18,500"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": {
+      "nm": "Kupon 3",
+      "price": "28,636"
+    },
+    "sub_total": {
+      "subtotal_price": "28,636",
+      "tax_price": "2,864"
+    },
+    "total": {
+      "total_price": "31,500",
+      "cashprice": "50,000",
+      "changeprice": "18,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kupon 3</s_nm><s_price> 28,636</s_price></s_menu><s_sub_total><s_subtotal_price> 28,636</s_subtotal_price><s_tax_price> 2,864</s_tax_price></s_sub_total><s_total><s_total_price> 31,500</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 18,500</s_changeprice></s_total></s>"
+}

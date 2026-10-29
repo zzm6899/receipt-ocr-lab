@@ -1,0 +1,133 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-051",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "2786ba6414b0c9c5872c1ef55527a2cbba4e4b2e2f4e8e7fc95241e0ef81a06d",
+  "elapsed_seconds": 2.359,
+  "detected_words": 48,
+  "detected_lines": 17,
+  "ocr_text": "uebuntt v) 000'bEE you Lidaa Q00'FES jenoL Lia Buipunoy 10 bee Bulpuriog 2! SOE OE %OT bd Opa’ Ede S:SW3Ll ash SS z INYOD ISYN (W.) Wv¥IS both T doodvas MVLLIMH (VL) aoosvas 95b'0b t NINOS NAHI (WL) Nvoa b’S9l b PHL 94 ISWN (WL) JOYSND, ied iN",
+  "trocr_words": "UEBUNIT AT A DEBIT 9CA TOTAL: ROUNDING 6UPUNCHY TE ROUNDING GOOD BEATED RECEIPT ENT 10% ITEMS:8 (TA) NAN ISAN IS(S) WARIS (TA) KAWELIANBLE (RM) SEAFOOD (TA) BIHUN GOOD NUM (KL) NVO3W (TA) NASI ISSU IS (VL) JOYSN) IEJ] 2",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL:"
+  },
+  "layout_rows": [
+    {
+      "nm": "uebuntt",
+      "cnt": "v)"
+    },
+    {
+      "price": "you Lidaa"
+    },
+    {
+      "price": "jenoL"
+    },
+    {
+      "price": "Buipunoy"
+    },
+    {
+      "price": "2!",
+      "unitprice": "bee"
+    },
+    {
+      "price": "bd",
+      "unitprice": "OE"
+    },
+    {
+      "cnt": "Opa’",
+      "price": "S:SW3Ll",
+      "unitprice": "Ede"
+    },
+    {
+      "nm": "INYOD",
+      "cnt": "z",
+      "price": "(W.)",
+      "unitprice": "SS"
+    },
+    {
+      "nm": "doodvas MVLLIMH",
+      "cnt": "T",
+      "price": "(VL)"
+    },
+    {
+      "nm": "NINOS",
+      "cnt": "t",
+      "price": "(WL)"
+    },
+    {
+      "nm": "PHL",
+      "cnt": "b",
+      "price": "ISWN (WL)",
+      "unitprice": "94"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "UEBUNIT"
+    },
+    {
+      "nm": "ROUNDING GOOD BEATED",
+      "cnt": "TE"
+    },
+    {
+      "nm": "NAN",
+      "cnt": "(TA)",
+      "price": "IS(S)"
+    },
+    {
+      "nm": "KAWELIANBLE",
+      "cnt": "(TA)",
+      "price": "(RM)"
+    },
+    {
+      "nm": "BIHUN GOOD",
+      "cnt": "(TA)",
+      "price": "NUM (KL)"
+    },
+    {
+      "nm": "NASI ISSU",
+      "cnt": "(TA)",
+      "price": "IS (VL)"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'+EE",
+      "price": "BEEN"
+    },
+    {
+      "nm": "000'WEE",
+      "price": "1010"
+    },
+    {
+      "nm": "T<unk>"
+    },
+    {
+      "nm": "S9E'OE",
+      "price": "9601"
+    },
+    {
+      "nm": "999'E'03",
+      "price": "SWEET"
+    },
+    {
+      "nm": "SHOWE ISVN (VL)",
+      "price": {
+        "cnt": "1",
+        "nm": "SHOWEEN (VL)",
+        "num": "95t'01"
+      }
+    },
+    {
+      "nm": "TELEP ISVN (VL)",
+      "num": "09t'S91",
+      "price": "(VL)"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'+EE</s_nm><s_price> BEEN</s_price><sep/><s_nm> 000'WEE</s_nm><s_price> 1010</s_price><sep/><s_nm> T<unk></s_nm><s_price> Buipuno</s_nm><s_price> e</s_price><sep/><s_nm> S9E'OE</s_nm><s_price> 9601</s_price><sep/><s_nm> 999'E'03</s_nm><s_price> SWEET</s_price><sep/><s_nm> SHOWE ISVN (VL)</s_nm><s_price> 954'禿<s_cnt> 2</s_cnt><s_price> WAS</s_nm></s_sub><sep/><s_nm> SHOWEEN (VL)</s_nm><s_cnt> 1</s_cnt><s_price> BEEN SHOWEEN (VL)</s_nm><s_num> 95t'01</s_num><s_price> (VL)</s_price><sep/><s_nm> TELEP ISVN (VL)</s_nm><s_num> 09t'S91</s_num><s_price> (VL)</s_price><sep/><s_nm> Jens</s_total></s>"
+}

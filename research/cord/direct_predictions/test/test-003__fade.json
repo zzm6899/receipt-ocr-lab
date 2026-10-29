@@ -1,0 +1,76 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-003",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "2bd0b8582e6be7a6b4b10a6cd818fa0f348dac2832f814e10790ca5ce7d64bfb",
+  "elapsed_seconds": 1.097,
+  "detected_words": 19,
+  "detected_lines": 8,
+  "ocr_text": "Wiget =< yar ak A \" @11000 DONAT GULA 11,000 \\ 1 .0OxITEMs SUBTOTAL 11,000 TOTAL eee CASH 11,000",
+  "trocr_words": "ITEM -NATURA 1X @11000 DONAT GULA !!! 1.00XITEMS SUBTOTAL 11,000 TOTAL 11,000 CASH 11,000",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "DONAT GULA",
+      "cnt": null,
+      "price": "11,000"
+    }
+  ],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "TOTAL"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 11,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "Wiget"
+    },
+    {
+      "cnt": "ak A",
+      "unitprice": "yar"
+    },
+    {
+      "nm": "\"",
+      "unitprice": "@11000"
+    },
+    {
+      "nm": "DONAT GULA",
+      "price": "11,000"
+    },
+    {
+      "cnt": "1"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "-NATURA"
+    },
+    {
+      "cnt": "1X",
+      "unitprice": "@11000"
+    },
+    {
+      "price": "!!!"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "DONAT GULA",
+      "unitprice": "@11000",
+      "cnt": "1X",
+      "price": "11,000"
+    },
+    "sub_total": {
+      "subtotal_price": "11,000"
+    },
+    "total": {
+      "total_price": "11,000",
+      "cashprice": "11,000",
+      "menuqty_cnt": "1.00xITEMs"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> DONAT GULA</s_nm><s_unitprice> @11000</s_unitprice><s_cnt> 1X</s_cnt><s_price> 11,000</s_price></s_menu><s_sub_total><s_subtotal_price> 11,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 11,000</s_total_price><s_cashprice> 11,000</s_cashprice><s_menuqty_cnt> 1.00xITEMs</s_menuqty_cnt></s_total></s>"
+}

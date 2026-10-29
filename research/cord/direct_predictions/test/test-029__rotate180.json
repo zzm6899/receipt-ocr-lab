@@ -1,0 +1,107 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-029",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "eb2d373cb374f64a5ce331a7bee6b15703b0f62edfc4b7551ac8ca418a1b7f00",
+  "elapsed_seconds": 4.794,
+  "detected_words": 48,
+  "detected_lines": 12,
+  "ocr_text": "‘a P 1 , oreo (sam) Noan J 969'ST T vundWal Ta: £22°2T 1 Tow N4JOL GAdSMSAS LeeMer iE IVWOHS GAYSMSHS QO ie Noon ayva-: 0 iE ADIdS NOan vungy-: SSp'ps is OWOYd yog 606'0T E FHOO D105 t : ’ - pee eer erye RMR ka 0",
+  "trocr_words": "145 E UDON (KIOI) NOON NOON B RECEIPT V8NDWE 18: SIZEWEATED TO8 NE OF OF RECEIPS SKEWEREED SHOPHS OBSMMEXS 0 1 NOON 3XXX-: : AGGURA UCON VANGY-: BCA PROVO COME OVOBB VCB COLD OCH AHDO QTOO ITEMER 1888 ------------MENT 0",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": ":"
+  },
+  "cascade_fields": {
+    "total": "145"
+  },
+  "layout_rows": [
+    {
+      "cnt": "‘a P 1 ,"
+    },
+    {
+      "nm": "oreo (sam)",
+      "price": "Noan J"
+    },
+    {
+      "cnt": "T",
+      "price": "vundWal Ta:"
+    },
+    {
+      "nm": "Tow",
+      "cnt": "1",
+      "price": "GAdSMSAS",
+      "unitprice": "N4JOL"
+    },
+    {
+      "nm": "LeeMer",
+      "cnt": "iE",
+      "price": "GAYSMSHS",
+      "unitprice": "IVWOHS"
+    },
+    {
+      "cnt": "QO ie",
+      "price": "ayva-:",
+      "unitprice": "Noon"
+    },
+    {
+      "nm": "ADIdS",
+      "cnt": "0 iE",
+      "price": "vungy-:",
+      "unitprice": "NOan"
+    },
+    {
+      "nm": "SSp'ps",
+      "cnt": "is",
+      "price": "OWOYd yog"
+    },
+    {
+      "cnt": "E",
+      "price": "FHOO D105"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "UDON (KIOI)",
+      "cnt": "E",
+      "price": "NOON B",
+      "unitprice": "NOON"
+    },
+    {
+      "nm": "RECEIPT",
+      "price": "18:",
+      "unitprice": "V8NDWE"
+    },
+    {
+      "nm": "SIZEWEATED",
+      "price": "RECEIPS",
+      "unitprice": "TO8 NE"
+    },
+    {
+      "nm": "SKEWEREED",
+      "price": "OBSMMEXS",
+      "unitprice": "SHOPHS"
+    },
+    {
+      "cnt": "0 1",
+      "unitprice": "NOON 3XXX-:"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "nm": "PROVO",
+      "price": "OVOBB VCB"
+    },
+    {
+      "price": "QTOO"
+    }
+  ],
+  "donut_json": {
+    "text_sequence": " 006'S T [006'S T]\" 006'S T T TOUR ANALYSAN 006'S T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T</s>"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 006'S T [006'S T]\" 006'S T T TOUR ANALYSAN 006'S T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T T</s>"
+}

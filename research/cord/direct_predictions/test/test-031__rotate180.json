@@ -1,0 +1,101 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-031",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "74cd09df2183ed28ea45184d1fa8827a8abc9f6c60f0a858b94cd53e02741a68",
+  "elapsed_seconds": 3.057,
+  "detected_words": 30,
+  "detected_lines": 8,
+  "ocr_text": "; a O88 ELL AWLOL 9Z\\ “Bl ¥OL L@d 092‘ OL ¥9 SHO JAS 00°98 TLLAS 003‘ S8- (QOWLI)KOOL- 910 009‘ 58 O1S3d NOWT¥S | 003‘ 58 -_O1S3d NOHTVS |",
+  "trocr_words": ". . TOTAL 113,886 PST RCL @ 0.00 SVC CHG %9 BHD JAS SUBTEL TOTAL: 005,500 DISC - 100%) (90WILI) * 00'D 1 YEAR SALMON NOOD NO.50 1 SALMON DESIA OISED NOSTAS",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "PST RCL @",
+      "cnt": null,
+      "price": "0.00"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 113,886"
+  },
+  "layout_rows": [
+    {
+      "nm": "ELL"
+    },
+    {
+      "cnt": "9Z\\ “Bl",
+      "price": "¥OL L@d"
+    },
+    {
+      "cnt": "OL ¥9",
+      "price": "SHO JAS"
+    },
+    {
+      "nm": "(QOWLI)KOOL-",
+      "cnt": "S8-",
+      "price": "910"
+    },
+    {
+      "nm": "NOWT¥S",
+      "cnt": "58",
+      "price": "|",
+      "unitprice": "O1S3d"
+    },
+    {
+      "nm": "NOHTVS",
+      "cnt": "58"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PST RCL",
+      "cnt": "@",
+      "price": "0.00"
+    },
+    {
+      "nm": "SVC CHG",
+      "price": "JAS"
+    },
+    {
+      "price": "00'D"
+    },
+    {
+      "nm": "YEAR SALMON",
+      "cnt": "1",
+      "price": "NO.50"
+    },
+    {
+      "nm": "SALMON DESIA",
+      "cnt": "1",
+      "price": "NOSTAS"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "988'ELL TOLOURT 981'81",
+        "num": "%01,18d",
+        "price": "18d"
+      },
+      {
+        "nm": "X9 SHO JAS",
+        "num": "009,98",
+        "price": "1118NS"
+      },
+      {
+        "price": "NOWTVS"
+      },
+      {
+        "price": "NOWTVS"
+      },
+      {
+        "price": "1"
+      }
+    ]
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 988'ELL TOLOURT 981'81</s_nm><s_num> %01,18d</s_num><s_price> 18d</s_price><sep/><s_nm> X9 SHO JAS</s_nm><s_num> 009,98</s_num><s_price> 1118NS</s_price><sep/><s_nm> (90WLI)*001 - CALL 999,98</s_num><s_price> NOWTVS</s_price><sep/><s_nm> 000,98</s_num><s_price> NOWTVS</s_price><sep/><s_nm> 000,98</s_num><s_price> 1</s_price></s_menu><s_total><s_total_price></s>"
+}

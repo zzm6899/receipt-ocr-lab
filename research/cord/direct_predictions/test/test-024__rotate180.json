@@ -1,0 +1,113 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-024",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "e285d7d0fb8c54bded8d5bd0cc82cbb2cce5d5dc56ed8edb4d7b3d5a5c03e285",
+  "elapsed_seconds": 1.852,
+  "detected_words": 32,
+  "detected_lines": 10,
+  "ocr_text": "oe Ps ae connie AE 00\"8iT © p4e9 Jaqaq ooo\"etT \"dy *TeQ01 g e847 TEAOL ody mH pry untpay bey 322527d-2009 : saTHOO] 034.199549-£005 O00\" 9S\" 4u TX gg079g\"cy SStqG0) SBy4T4 Y405-1a05",
+  "trocr_words": "CASHIER INCLUSIVE OF RECEIPTIONS HHHH DEGET CARD FOR PAY FACEED ABOOD TOTAL. TOTAL ITEM: 0\"dy ITEM TX 0\"dy GOODPAY 6EQ DTISETJ-Z009 5003-CHANKOO3 OTAJOHOW3-2003 DD0 99\"DA PK 000*9G^DY 5001-CORNED UJOO-T005",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "ae"
+  },
+  "cascade_fields": {
+    "total": "TOTAL."
+  },
+  "layout_rows": [
+    {
+      "cnt": "oe"
+    },
+    {
+      "nm": "00\"8iT",
+      "cnt": "©",
+      "price": "p4e9 Jaqaq"
+    },
+    {
+      "nm": "ooo\"etT",
+      "cnt": "\"dy",
+      "price": "*TeQ01"
+    },
+    {
+      "cnt": "g",
+      "price": "e847"
+    },
+    {
+      "cnt": "mH",
+      "unitprice": "pry"
+    },
+    {
+      "nm": "untpay",
+      "cnt": "bey",
+      "price": "322527d-2009"
+    },
+    {
+      "nm": "saTHOO]",
+      "cnt": ":",
+      "price": "034.199549-£005"
+    },
+    {
+      "nm": "gg079g\"cy",
+      "cnt": "9S\" 4u TX"
+    },
+    {
+      "price": "Y405-1a05"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "CARD FOR PAY",
+      "price": "ABOOD",
+      "unitprice": "FACEED"
+    },
+    {
+      "cnt": "TX"
+    },
+    {
+      "nm": "GOODPAY 6EQ"
+    },
+    {
+      "nm": "5003-CHANKOO3"
+    },
+    {
+      "nm": "99\"DA",
+      "cnt": "PK",
+      "unitprice": "000*9G^DY"
+    },
+    {
+      "nm": "5001-CORNED",
+      "price": "UJOO-T005"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000*811",
+        "unitprice": {
+          "nm": "000*811"
+        },
+        "cnt": "0*dy",
+        "price": "0'dy"
+      },
+      {
+        "unitprice": "000*29*dy",
+        "cnt": "000*29*dy",
+        "price": "009"
+      },
+      {
+        "nm": "TX",
+        "unitprice": "000*99*dy",
+        "cnt": "000*99*dy",
+        "price": "040*1009"
+      }
+    ],
+    "total": {
+      "total_price": "sakerdad HOME-TOOS"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000*811</s_nm><s_unitprice> PAGEJ Pepple<sep/><s_nm> 000*811</s_nm><s_unitprice> Tetter settori<s_total_price> Tetter bedoeld TX</s_nm><s_unitprice> 0'dy</s_unitprice><s_cnt> 0*dy</s_cnt><s_price> 0'dy</s_price><sep/><s_nm> Wnrpak beg capaeza-2009</s_price><sep/><s_nm> TX</s_nm><s_unitprice> 000*29*dy</s_unitprice><s_cnt> 000*29*dy</s_cnt><s_price> 009</s_price><sep/><s_nm> TX</s_nm><s_unitprice> 000*99*dy</s_unitprice><s_cnt> 000*99*dy</s_cnt><s_price> 040*1009</s_price></s_menu><s_total><s_total_price> sakerdad HOME-TOOS</s_total_price></s_total></s>"
+}

@@ -1,0 +1,274 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-058",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "794a384737ee113c237deef860c96d8875a4b15f3b4df651818ca761c284235f",
+  "elapsed_seconds": 8.984,
+  "detected_words": 349,
+  "detected_lines": 76,
+  "ocr_text": "a ay at ay Ay ay A patie wae atlas ae ot pct Fh ET DE Cotes ee ey a ae Sees a ey Y 1 ei fe — ; 5 nee 3 ee oaanale \\ j eg! St tk aos: aad — PURSE pr ye _ eee eee ae 2 ~ ™ 3 oy = i . eon re g 4 ; Bet” BS hae aes). ol » q be ~~ ei ks pa ee wee ale ~ : boris Lee: eres | ies ee lll Neh. os | . ey aoe eee J z : eS! 2 aan eet eo hee ; : “Saag x 7 } saith F i m3 : 2 : pk pipet ae 7 Me a fe a ; 2 - aye : ny 3 , - i . f. -b. re sh i ss Bi ee es ld ET ee fe eel Ds, Se 3 a ati rt ¢ Rare Pl we eee She i ; Pree ro. # fe OL “ ~~ { acai came Z ca 3 \\ i as a ekg mr 4 eT ees eee SF ee 1 is rads Ses mS va ‘hes : = a ee ee ' = CEN, ie ge ie al Sn Ps d } ae ey NOP ; ; A es Bio rh Jae ~ a 0h). eu ne eS eS | -* let it ‘ Nal \"peta Ono. ae “| : / ., i Mes. oo! ie a. \\ See ae Ree: cr) ‘ \" [i ree oe) ‘ 4 <| o0 e eee oe oe ye a} ~ of a ond oe oo pe “ wo, ee er t “Te oe A een. ote) ‘ 7 q c es erage ee = . ae a eae eee : as ve ee a mee Gea) A ee & Shy, an : ‘ pe 7. Pan { - is j . ee a S : a: = i ae 3 { ah ; . : i | 7 - : Teese ’ - - age —— mae eben green: : : eae",
+  "trocr_words": "AT AT AE 1 IT AT AT 6% : *** : CASHIER AMOUNT CASHIER SR AMOUNT INCLUSIVE ITEMS ARE WITHIN SR: AMOUNT ITEMS WITHIN US ONCLUSIVE ITEMARY WWW.WWW. - SR: CASHIER AMOUNT SUMMARY KEEPING TOTAL: 5/8/18/2018 - - CASHIER X *** - *** INVOICE SR: WWW. PLEASE NON BOOK *** GSTAL: 1.00 1- 500 TOTAL: 1 DAY AMOUNT : *** TOTAL: 00,500 TOTAL AMOUNT CASHIER NO. : 1.00 PLEASE PAY: 1.00 (AM) AMOUNT AMOUNT INCLUSED CASHIER NAME LIFE: 11.00 CASHIER *** - ITEM TAX - - - - THANK ITEMS - *** - AMOUNT - WWW. CASHIER SR: ITEMS INCLUSIVE 18% & WEEKBOOK CASHIER TAX : : WWW. SR:48-49-40",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "GSTAL",
+      "cnt": null,
+      "price": "1.00"
+    },
+    {
+      "nm": "CASHIER NO.",
+      "cnt": null,
+      "price": "1.00"
+    },
+    {
+      "nm": "PLEASE PAY",
+      "cnt": null,
+      "price": "1.00"
+    },
+    {
+      "nm": "CASHIER NAME LIFE",
+      "cnt": null,
+      "price": "11.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "Ay = ;"
+  },
+  "cascade_fields": {
+    "total": "AT TOTAL: TOTAL: 00,500 TOTAL AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "cnt": "a"
+    },
+    {
+      "price": "ay"
+    },
+    {
+      "cnt": "at"
+    },
+    {
+      "price": "ay"
+    },
+    {
+      "cnt": "ay"
+    },
+    {
+      "cnt": "ey Y 1"
+    },
+    {
+      "price": ";"
+    },
+    {
+      "cnt": "5 3"
+    },
+    {
+      "cnt": "\\"
+    },
+    {
+      "cnt": "j"
+    },
+    {
+      "cnt": "tk"
+    },
+    {
+      "price": "_"
+    },
+    {
+      "price": "ae"
+    },
+    {
+      "cnt": "2 ~ ™ 3 oy = i"
+    },
+    {
+      "cnt": ". re g",
+      "price": "4"
+    },
+    {
+      "cnt": ";",
+      "price": "BS"
+    },
+    {
+      "price": "» q"
+    },
+    {
+      "price": ":"
+    },
+    {
+      "cnt": "| ies",
+      "price": "ee lll"
+    },
+    {
+      "cnt": "os | . aoe",
+      "price": "eee",
+      "unitprice": "ey"
+    },
+    {
+      "cnt": "J z : 2",
+      "price": "aan",
+      "unitprice": "eS!"
+    },
+    {
+      "price": "hee",
+      "unitprice": "eo"
+    },
+    {
+      "cnt": "; : x",
+      "price": "7"
+    },
+    {
+      "cnt": "} F i 2",
+      "price": "m3 : : pk pipet",
+      "unitprice": "saith"
+    },
+    {
+      "cnt": "Me a",
+      "price": "fe a"
+    },
+    {
+      "cnt": "aye : ny 3",
+      "price": "i"
+    },
+    {
+      "cnt": ". f. -b. i ss",
+      "price": "Bi ee"
+    },
+    {
+      "cnt": "fe",
+      "price": "eel Ds, Se"
+    },
+    {
+      "cnt": "rt ¢ Pl",
+      "price": "we eee She i"
+    },
+    {
+      "cnt": "# fe",
+      "price": "“"
+    },
+    {
+      "cnt": "Z ca 3 \\ i",
+      "price": "as a ekg mr 4"
+    },
+    {
+      "cnt": "SF 1 is",
+      "price": "Ses mS",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": "a ' =",
+      "price": "ie"
+    },
+    {
+      "cnt": "ge Ps d }",
+      "price": "ae ey NOP"
+    },
+    {
+      "cnt": "; es",
+      "price": "rh Jae"
+    },
+    {
+      "price": "0h). eu"
+    },
+    {
+      "cnt": "| -*",
+      "price": "Nal"
+    },
+    {
+      "cnt": "“| /",
+      "price": "i",
+      "unitprice": ":"
+    },
+    {
+      "price": "a."
+    },
+    {
+      "price": "cr)"
+    },
+    {
+      "cnt": "[i",
+      "price": "oe)"
+    },
+    {
+      "cnt": "<| o0",
+      "price": "a}"
+    },
+    {
+      "cnt": "a “ ee er",
+      "price": "t",
+      "unitprice": "pe wo,"
+    },
+    {
+      "cnt": "7 c",
+      "price": "q ="
+    },
+    {
+      "cnt": "a",
+      "price": ": as"
+    },
+    {
+      "cnt": "ve",
+      "price": "a"
+    },
+    {
+      "price": "A &"
+    },
+    {
+      "price": "an"
+    },
+    {
+      "cnt": "‘ pe"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "price": "S"
+    },
+    {
+      "cnt": "i",
+      "price": "ae"
+    },
+    {
+      "price": "{"
+    },
+    {
+      "cnt": "- - age"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "AT"
+    },
+    {
+      "cnt": "AE"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "AT"
+    },
+    {
+      "cnt": "AT"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "CASH",
+      "cnt": "1",
+      "price": "100,000"
+    },
+    "sub_total": {
+      "subtotal_price": "55,000",
+      "tax_price": "5,500"
+    },
+    "total": {
+      "total_price": "40,500",
+      "cashprice": "100,000",
+      "changeprice": "39,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> PHO BO TAI</s_nm><s_cnt> 1</s_cnt><s_price> 55,000</s_price><s_sub><s_nm> CASH</s_nm><s_price> 100,000</s_price></s_menu><s_sub_total><s_subtotal_price> 55,000</s_subtotal_price><s_tax_price> 5,500</s_tax_price></s_sub_total><s_total><s_total_price> 40,500</s_total_price><s_cashprice> 100,000</s_cashprice><s_changeprice> 39,500</s_changeprice></s_total></s>"
+}

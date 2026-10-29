@@ -1,0 +1,147 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-032",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "8c1ac4d952c009f8d82fd98c98e106e036273b828b344ae1b3b164ce664b49ac",
+  "elapsed_seconds": 6.042,
+  "detected_words": 201,
+  "detected_lines": 51,
+  "ocr_text": "a mee a pe penn aul —_ nn a a tei itl ” oe 4 oe: . <a oe oi aa eager up” a til sa ata ee gg gr ee re i gn ee Se ea a a EL | ee - Ee on ts See. —_ penta rare sae ~ ott — — epegges ee i ie, ttn eg os LC melee i Se. ee eR oot I ote e =r er 5 ee eer os * ee gh Ore itt ee a ee ge cotta eee OO a cere ee”, ra Bae FS ap ters Et See 2, eg eee 000° 92 000°0S | 7 ) | = one er ae ee a a See ene PO Se Se SO OR Seer oe a ee Nee eee ine | : ‘ eee ‘ai ’ : | \" | 000° bz | | ce a ee eee | | QUO’ b2 : 4 OU ] W51 N33 i oe ned Ga ee ee foe 2 per pe rene a oe ns | | | | Ly | | | v ‘ j ; : { (4 , es) | , 4 * ree (4 |} 3 a | ‘",
+  "trocr_words": "SR: AMOUNT NO.COM.COM.COM. WWW.WWW.WW. CASHIER WWW.WWW.WWW. : CASHIER ONCLUSIVE AMOUNT NO. AMOUNT NO.COM.COM.COM. AMOUNT AMOUNT CASHIER ONCLUSIVE CASHIER ONCLUSIVE AGAIN FACE CASHIER ONCLUSIVE CASHIER SR:00-20-20-20 GSTALANIA TAX CASHIER GARDENIA, JALANAN BAHRU TAX INVOICE INVOICE AMOUNT NO. : 26.000 CASH ISK: + SUL AMOUNT 1 ................................................ 2 MALM SUMMARY 2 INITILIANUAL - COME AGAIN YAWAWINVU YPERMAS SUB: 012 REG- 11:00 ................................ : $1,00 11 @24.00 PLEASE THE OF RECEIPT CASHIER 1 : 1 TAX: 1 1 1 AMOUNT HOSHLOW 4 *** ITEM ITEM ONVOICE OF RECEIPT FOR",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "a mee ; : , ree"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "”"
+    },
+    {
+      "cnt": "oe"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "oe"
+    },
+    {
+      "cnt": "up” a sa"
+    },
+    {
+      "cnt": "re"
+    },
+    {
+      "cnt": "a |"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "oot I e"
+    },
+    {
+      "cnt": "=r os *"
+    },
+    {
+      "cnt": "2,"
+    },
+    {
+      "cnt": "92"
+    },
+    {
+      "price": "7"
+    },
+    {
+      "cnt": "one er ae ee a a See ene PO OR Seer oe a ee Nee eee ine"
+    },
+    {
+      "cnt": "‘",
+      "price": "eee"
+    },
+    {
+      "cnt": "bz",
+      "price": "|"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "nm": "QUO’",
+      "cnt": "b2",
+      "price": ": 4"
+    },
+    {
+      "price": "OU"
+    },
+    {
+      "price": "N33 i",
+      "unitprice": "W51"
+    },
+    {
+      "cnt": "oe ned Ga ee foe 2 per pe a"
+    },
+    {
+      "cnt": "4 *"
+    },
+    {
+      "cnt": "(4 |}"
+    },
+    {
+      "cnt": "a |"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "unitprice": "26.000"
+    },
+    {
+      "price": "+"
+    },
+    {
+      "nm": "MALM"
+    },
+    {
+      "price": "11:00"
+    },
+    {
+      "price": "@24.00"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'92",
+      "price": "BESNYCH"
+    },
+    {
+      "nm": "000'09"
+    },
+    {
+      "nm": "000'72",
+      "unitprice": "000'0728",
+      "cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'92</s_nm><s_price> BESNYCH</s_price><sep/><s_nm> 000'09</s_nm><s_price> HASPE CARDICANDARY 000'72</s_nm><s_price> TALOTATION</s_price><sep/><s_nm> 000'72</s_nm><s_unitprice> 000'0728</s_unitprice><s_cnt> 1</s_cnt><s_price> VALI GEND DECIS IVHI</s_changeprice></s_total></s>"
+}

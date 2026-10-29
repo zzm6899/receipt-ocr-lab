@@ -1,0 +1,118 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-090",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "f42f347706508a7cf7948d93a665e64572a2080d9c9bbc999b33e65f8e5a6622",
+  "elapsed_seconds": 2.536,
+  "detected_words": 72,
+  "detected_lines": 21,
+  "ocr_text": "p ADRES a eae INS EN PEP cs RP tf semen rie porns BeAr i ° eee eee Pes hel ae ae Wh, ot oo ae . pM - oe ae te ae a ert a 1 CIRENG PANDAWA 26,818 eP Subtotal 26,818 px Pb1 2,681 at Total 29,500 aes CASH 29,500 ee. cee Total Item 1 a Total Qty iL ae . oe od Peemegpaes mcm elle yam sere ae i",
+  "trocr_words": "WWWWWWWWWWWWWWWWWW ITEM AM : 9% IN - AMOUNT ITEM 1 CIRENG PANDAWA _26,818 26,818 SR1 TOTAL 29,500 29,500 - 1 ITRA IKEA TOTAL QTY : ITEM - IT SUMMARY CASHIER NO:",
+  "ocr_rules_total": "1",
+  "ocr_rows": [
+    {
+      "nm": "a 1 CIRENG PANDAWA",
+      "cnt": null,
+      "price": "26,818"
+    },
+    {
+      "nm": "px Pb1",
+      "cnt": null,
+      "price": "2,681"
+    }
+  ],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Total"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT TOTAL 29,500"
+  },
+  "layout_rows": [
+    {
+      "nm": "ADRES INS EN",
+      "cnt": "p a eae",
+      "price": "RP"
+    },
+    {
+      "nm": "semen",
+      "cnt": "tf"
+    },
+    {
+      "cnt": "rie"
+    },
+    {
+      "cnt": "i °",
+      "price": "eee",
+      "unitprice": "eee"
+    },
+    {
+      "cnt": "Pes",
+      "price": "Wh,",
+      "unitprice": "ae ae"
+    },
+    {
+      "cnt": "ot"
+    },
+    {
+      "cnt": "pM -",
+      "price": "te",
+      "unitprice": "oe ae"
+    },
+    {
+      "cnt": "ae",
+      "price": "ert",
+      "unitprice": "a"
+    },
+    {
+      "nm": "CIRENG PANDAWA",
+      "cnt": "a 1",
+      "price": "26,818"
+    },
+    {
+      "cnt": "eP",
+      "price": "26,818"
+    },
+    {
+      "cnt": "px",
+      "price": "2,681"
+    },
+    {
+      "cnt": "aes",
+      "price": "29,500"
+    },
+    {
+      "cnt": "ee."
+    },
+    {
+      "cnt": "cee",
+      "price": "1"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CIRENG PANDAWA",
+      "cnt": "1",
+      "unitprice": "_26,818"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "CIRENG PANDAWA",
+      "cnt": "1",
+      "price": "26,818"
+    },
+    "sub_total": {
+      "subtotal_price": "26,818",
+      "tax_price": "2,681"
+    },
+    "total": {
+      "total_price": "29,500",
+      "cashprice": "29,500",
+      "menutype_cnt": "1",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> CIRENG PANDAWA</s_nm><s_cnt> 1</s_cnt><s_price> 26,818</s_price></s_menu><s_sub_total><s_subtotal_price> 26,818</s_subtotal_price><s_tax_price> 2,681</s_tax_price></s_sub_total><s_total><s_total_price> 29,500</s_total_price><s_cashprice> 29,500</s_cashprice><s_menutype_cnt> 1</s_menutype_cnt><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

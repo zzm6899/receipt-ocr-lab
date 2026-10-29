@@ -1,0 +1,276 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-074",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "0bd95e7389b61c205865459047382135d1313acad0113f0637de6fa12710397e",
+  "elapsed_seconds": 7.854,
+  "detected_words": 190,
+  "detected_lines": 35,
+  "ocr_text": "A ETA eB ry oe Pe FECHA ARBICAL TRI GMA MOAI. cake milil MAA) AT ae ATE Puna e tle ar 1] We ied ah Jib VEEL Slate ny ag \\ Hi ! i Vi Wil : a) ae Wi iia! i Wi) aa ' at it | Me P| ) i ] ae | i} aS Se a SS aS a ee ee Sa We te | wea | BLACKCURRANT 32,000 it | EE | 32,000 | Waa ] GRILLED CALAMARI 85 ,000 4 Ce 129,000 Way ha wed neg 1 DINE FOR 2 , i tik a * DANISH FISH &CHIPSDF = --- rie all * NEW YORK FISH & CHIPS — By a ea Ue Pa fe dae fe Pathe y 100) + FOOD 214,000 AA ‘ th Hin | SUBTTL 278,000 Wy ih Cor imme na ge 22,240 MDT en) |\\)|/\\\\\" : ‘ I EE eae OA a |) pe ea Hj Vi lcnwes hood hte aba Hi h } eM He a ea ea Vo Pa) To tae ae Hi |) ae \\) AY OB eee Sree BP OO eo Mee i a ie) Oa",
+  "trocr_words": "81200-11-02-12-11-17-17-17-17 WWWWWWWWWWWWWWWWWWWWWWWWWW. GST REG #:0000006-000-000-000 SR:03-2, JALANAN BARAUANANANANAN PERMAS WWW. NO.00 SR188-1,000-1,000-1,8 WW WWW. ITEMS THE SR: INITEM ITEM 1. SEE: : BLACKORANT 32,000 INVOICE 22,000 INVOICE I GRILLED CALAMARI 85,000 MARLAND IDINE FOR 2 129,000 VAYA INVOICE FOR 2 CHIPS IF 129,000 AMOUNT NUMISH FISH & CHIPS OF AMOUNT NO: * NEW YORK FISH & CHIPS 2 1 00 - A *** FOOD 214,000 SALIAN # 5000 PM 00 SR: SRICE SAVIDE 22,240 ------------- ------------ ******** SR: 0100000080000008180400 INVOICE:0000008-1,8,8,KAWAS PERMAS PERMAS MARMAS UN EXCLUSACTION CODE: 01000800000000*** AMOUNT AMOUNT UNVOICE NO.COM.NO.00000000.000 INVOICE INCLUSACTION PURINDUST NETTER: 01/02/4500000015:00 ITEMS ORCLUSIVE AND GUEST BALM ITEMS:00-000000-000-000-000-000-00",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "wea | BLACKCURRANT",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "EE |",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "Ce",
+      "cnt": null,
+      "price": "129,000"
+    },
+    {
+      "nm": "100) + FOOD",
+      "cnt": null,
+      "price": "214,000"
+    },
+    {
+      "nm": "‘ th Hin | SUBTTL",
+      "cnt": null,
+      "price": "278,000"
+    },
+    {
+      "nm": "ih Cor imme na ge",
+      "cnt": null,
+      "price": "22,240"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "BLACKORANT",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "INVOICE",
+      "cnt": null,
+      "price": "22,000"
+    },
+    {
+      "nm": "INVOICE I GRILLED CALAMARI",
+      "cnt": null,
+      "price": "85,000"
+    },
+    {
+      "nm": "MARLAND IDINE FOR 2",
+      "cnt": null,
+      "price": "129,000"
+    },
+    {
+      "nm": "INVOICE FOR 2 CHIPS IF",
+      "cnt": null,
+      "price": "129,000"
+    },
+    {
+      "nm": "FOOD",
+      "cnt": null,
+      "price": "214,000"
+    },
+    {
+      "nm": "SRICE SAVIDE",
+      "cnt": null,
+      "price": "22,240"
+    }
+  ],
+  "layout_fields": {
+    "total": ": ‘ I eM He"
+  },
+  "cascade_fields": {
+    "total": "0100000080000008180400 AMOUNT AMOUNT BALM"
+  },
+  "layout_rows": [
+    {
+      "nm": "ETA",
+      "cnt": "eB"
+    },
+    {
+      "nm": "FECHA ARBICAL TRI MOAI.",
+      "cnt": "GMA",
+      "price": "cake milil"
+    },
+    {
+      "cnt": "ae ATE Puna e",
+      "price": "ar"
+    },
+    {
+      "cnt": "1] ah Slate"
+    },
+    {
+      "cnt": "ny ag"
+    },
+    {
+      "cnt": "i",
+      "price": "Wil"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "aa",
+      "price": "'"
+    },
+    {
+      "price": "it"
+    },
+    {
+      "cnt": "P|"
+    },
+    {
+      "cnt": ") i ]",
+      "price": "ae"
+    },
+    {
+      "cnt": "| i} Se a SS aS a",
+      "price": "ee ee Sa"
+    },
+    {
+      "nm": "BLACKCURRANT",
+      "cnt": "wea |",
+      "price": "32,000 it"
+    },
+    {
+      "cnt": "|",
+      "price": "32,000"
+    },
+    {
+      "nm": "GRILLED CALAMARI",
+      "cnt": "]",
+      "price": "85 ,000 4"
+    },
+    {
+      "price": "129,000 Way"
+    },
+    {
+      "cnt": "wed neg 1 2",
+      "price": ", i"
+    },
+    {
+      "cnt": "*",
+      "price": "="
+    },
+    {
+      "cnt": "rie all *",
+      "price": "By"
+    },
+    {
+      "cnt": "ea Ue Pa fe dae fe Pathe"
+    },
+    {
+      "nm": "FOOD",
+      "cnt": "100)",
+      "price": "214,000 AA"
+    },
+    {
+      "nm": "SUBTTL",
+      "cnt": "‘ |",
+      "price": "278,000 Wy"
+    },
+    {
+      "nm": "na",
+      "cnt": "ih",
+      "price": "22,240"
+    },
+    {
+      "cnt": "a |) pe ea Hj Vi",
+      "price": "lcnwes hood hte aba"
+    },
+    {
+      "cnt": "eee",
+      "price": "OO eo"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "GST REG"
+    },
+    {
+      "nm": "JALANAN"
+    },
+    {
+      "nm": "BLACKORANT"
+    },
+    {
+      "nm": "GRILLED CALAMARI",
+      "cnt": "I",
+      "price": "85,000"
+    },
+    {
+      "nm": "MARLAND IDINE FOR",
+      "cnt": "2",
+      "price": "VAYA",
+      "unitprice": "129,000"
+    },
+    {
+      "cnt": "2",
+      "price": "129,000",
+      "unitprice": "CHIPS IF"
+    },
+    {
+      "cnt": "AMOUNT",
+      "price": "OF",
+      "unitprice": "& CHIPS"
+    },
+    {
+      "cnt": "AMOUNT NO: *",
+      "price": "2 1 00 - A",
+      "unitprice": "FISH & CHIPS"
+    },
+    {
+      "nm": "SRICE SAVIDE"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BLACKCURRANT",
+        "cnt": "1",
+        "price": "32,000"
+      },
+      {
+        "nm": "SPRITE",
+        "cnt": "1",
+        "price": "32,000"
+      },
+      {
+        "nm": "BEVERAGE",
+        "price": "64,000"
+      },
+      {
+        "nm": "GRILLED CALAMARI",
+        "cnt": "1",
+        "price": "85,000"
+      },
+      {
+        "nm": "DINE FOR 2",
+        "cnt": "1",
+        "price": "129,000",
+        "sub": {
+          "nm": "* DANISH FISH & CHIPS DF"
+        }
+      },
+      {
+        "nm": "* NEW YORK FISH & CHIPS"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "278,000",
+      "service_price": "22,240",
+      "tax_price": "30,024",
+      "etc": [
+        "214,000",
+        "278,000"
+      ]
+    },
+    "total": {
+      "total_price": "330,264"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BLACKCURRANT</s_nm><s_cnt> 1</s_cnt><s_price> 32,000</s_price><sep/><s_nm> SPRITE</s_nm><s_cnt> 1</s_cnt><s_price> 32,000</s_price><sep/><s_nm> BEVERAGE</s_nm><s_price> 64,000</s_price><sep/><s_nm> GRILLED CALAMARI</s_nm><s_cnt> 1</s_cnt><s_price> 85,000</s_price><sep/><s_nm> DINE FOR 2</s_nm><s_cnt> 1</s_cnt><s_price> 129,000</s_price><s_sub><s_nm> * DANISH FISH & CHIPS DF</s_nm></s_sub><sep/><s_nm> * NEW YORK FISH & CHIPS</s_nm></s_sub></s_menu><s_sub_total><s_subtotal_price> 278,000</s_subtotal_price><s_service_price> 22,240</s_service_price><s_tax_price> 30,024</s_tax_price><s_etc> 214,000<sep/> 278,000</s_etc></s_sub_total><s_total><s_total_price> 330,264</s_total_price></s_total></s>"
+}

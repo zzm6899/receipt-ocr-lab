@@ -1,0 +1,80 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-035",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "260905b26ba9054a810f1b6793b80500c891985389c6d05de01a371959f767b6",
+  "elapsed_seconds": 1.831,
+  "detected_words": 40,
+  "detected_lines": 11,
+  "ocr_text": "ee /:- . “ 000°)G = FONVHD 000° F01, HS¥O | 000° 7S TWLOL 000'Zi. 1708 39¥SNYS LNNSYNVES 1 000° QV3U8 3S33HOWV3ND | 000'IL 1NNOG YNWNYG | 000'81 1NNOG ISIML 2 ' _—_—— a me, . 7 -— ore ‘",
+  "trocr_words": "MM CHANGE 5(5,000 WW. $500.00! - THIRD TOTAL 5,00 1 FRANKERURNSANS INCLUS INVED 1,000 : CREAMCHEESE BREWOHAN3 1 1 BANANOA VNOO VNANAG ! IT 2 TMISI ISIML Z ITEMS THOP WITH TIME",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "FRANKERURNSANS INCLUS INVED",
+      "cnt": "1",
+      "price": "1,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "ore"
+  },
+  "cascade_fields": {
+    "total": "MM TOTAL 5,00"
+  },
+  "layout_rows": [
+    {
+      "cnt": "/:-",
+      "price": "“"
+    },
+    {
+      "cnt": "000°)G =",
+      "unitprice": "FONVHD"
+    },
+    {
+      "cnt": "000° F01,",
+      "price": "HS¥O"
+    },
+    {
+      "cnt": "000° 7S",
+      "price": "TWLOL"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "1708 39¥SNYS"
+    },
+    {
+      "unitprice": "QV3U8"
+    },
+    {
+      "cnt": "7",
+      "price": "‘"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "FRANKERURNSANS",
+      "cnt": "1",
+      "price": "1,000"
+    },
+    {
+      "price": "1"
+    },
+    {
+      "nm": "BANANOA",
+      "cnt": "1",
+      "price": "!"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "000' )S GUNDAY 000'701.<s_price> HASPIC",
+      "price": {
+        "num": "000'11"
+      }
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000' )S GUNDAY 000'701.<s_price> HASPIC</s_nm><s_num> 000'7S</s_nm><s_num> 000'21</s_num><s_price> PURPURAL 000'21</s_num><s_price> EVERY CREAMBERG</s_nm><s_num> 000'11</s_num><s_price> VALIVALIZAN 000'81</s_num><s_price> ISIML 2</s_price></s_menu></s_total></s>"
+}

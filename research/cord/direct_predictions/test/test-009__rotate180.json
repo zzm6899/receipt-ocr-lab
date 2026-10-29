@@ -1,0 +1,96 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-009",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "0b769d37e5782ae3fc0a0450b1bd2e311f481a01d7b37ec08225b49cc9849d82",
+  "elapsed_seconds": 2.115,
+  "detected_words": 40,
+  "detected_lines": 13,
+  "ocr_text": "ee as oe oe ‘ a tt ————— : : poet ueyequiey a RMR A oa ss I A a 00005 feuny, : Ba) (% 0) JUNOISIC) ath o09e PIO, qns ‘| Googe DORE | luedy npjey nquing a f",
+  "trocr_words": "WWW. - HHHH - KEMBANGUELL UBLE USIGN ................ INVIBI DISCOUNTIVE OF RECEIPT FOR ANCLIVE (% 0) JUMOCSIA SUB TOTAL TOTAL: + RECEIPT TOTAL REPOL GNS GOODS FROM US ONCLUSIONS, PLEASE BUNUN BHDLEY NPJAY NOJUNG *** 7",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "ee"
+    },
+    {
+      "price": "‘",
+      "unitprice": "oe oe"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": ": :",
+      "price": "ueyequiey",
+      "unitprice": "poet"
+    },
+    {
+      "cnt": "a A oa ss I",
+      "price": "A a"
+    },
+    {
+      "price": "feuny,",
+      "unitprice": "00005"
+    },
+    {
+      "cnt": "Ba)"
+    },
+    {
+      "nm": "ath",
+      "price": "PIO, qns",
+      "unitprice": "o09e"
+    },
+    {
+      "cnt": "‘|",
+      "price": "Googe"
+    },
+    {
+      "cnt": "|",
+      "price": "nquing",
+      "unitprice": "luedy npjey"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KEMBANGUELL"
+    },
+    {
+      "cnt": "(%"
+    },
+    {
+      "cnt": "+"
+    },
+    {
+      "price": "NOJUNG",
+      "unitprice": "BUNUN"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "00011",
+        "price": "Rememies"
+      },
+      {
+        "nm": "00009",
+        "price": "IBUN<unk>"
+      },
+      {
+        "nm": "(%)",
+        "price": "000036"
+      }
+    ],
+    "total": {
+      "total_price": "qns",
+      "cashprice": "00093",
+      "changeprice": "nqung"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 00011</s_nm><s_price> Rememies</s_price><sep/><s_nm> 00009</s_nm><s_price> IBUN<unk></s_price><sep/><s_nm> (%)</s_nm><s_price> 000036</s_price></s_menu><s_total><s_total_price> qns</s_total_price><s_cashprice> 00093</s_cashprice><s_changeprice> nqung</s_changeprice></s_total></s>"
+}

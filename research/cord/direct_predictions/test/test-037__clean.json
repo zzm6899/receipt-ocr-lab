@@ -1,0 +1,60 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-037",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "80f3fe02bac77c06b95de5fc1d2f2000187c3b527ef036ab31d4c1c81ba4f3f8",
+  "elapsed_seconds": 1.051,
+  "detected_words": 18,
+  "detected_lines": 7,
+  "ocr_text": "i = Popcorn Salt (S) i “20 000 TOTAL nl AUN CASH 50.000 CHANGED 30.000 ste tenn “",
+  "trocr_words": "ITEM 1 POPCORN SALT (S) ~~ 20.000 TOTAL 20.000 CASHIER COME AGAIN 50000 CHANGED @500 *** HH",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "CHANGED",
+      "cnt": null,
+      "price": "30.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "POPCORN SALT (S) ~~",
+      "cnt": "1",
+      "price": "20.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL nl"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 20.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "Popcorn Salt",
+      "cnt": "= (S)",
+      "price": "“20 000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "POPCORN SALT",
+      "cnt": "1 (S) ~~",
+      "price": "20.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Popcorn Salt (S)",
+      "cnt": "1",
+      "price": "20.000"
+    },
+    "total": {
+      "total_price": "20.000",
+      "cashprice": "50.000",
+      "changeprice": "30.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Popcorn Salt (S)</s_nm><s_cnt> 1</s_cnt><s_price> 20.000</s_price></s_menu><s_total><s_total_price> 20.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 30.000</s_changeprice></s_total></s>"
+}

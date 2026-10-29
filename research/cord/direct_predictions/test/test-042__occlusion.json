@@ -1,0 +1,119 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-042",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "7604e56f06b2996a652e64a9a6eebfd65a4341cc5edb8653cdccfdda0de3d463",
+  "elapsed_seconds": 2.393,
+  "detected_words": 68,
+  "detected_lines": 24,
+  "ocr_text": "ae . i: [= fr ie ne oats BS BS eee Z : 5 : Ss Ber ashen Bee A j aS ie %, y Pas., 1 @ } ' \\ ee . . 1 ss pete aca ie : 7 - P | } OC 7 4 ha RRS 3 . 4 = | / ad \\d : 3 K eID 4 cies? Bs eee si 2s",
+  "trocr_words": "SR: SR: SR: - *** 1 X - 1 AKE X AMT % TAX: IT RMOUNT : 1.1% MALL IN 6% 1.00 10 F66 PLEASE: 0181 VIVVVV 1 SR: 6 : :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": ". i:"
+  },
+  "cascade_fields": {
+    "total": "10"
+  },
+  "layout_rows": [
+    {
+      "cnt": "ae"
+    },
+    {
+      "cnt": "Z"
+    },
+    {
+      "nm": "Ber"
+    },
+    {
+      "nm": "ie"
+    },
+    {
+      "cnt": "%,"
+    },
+    {
+      "cnt": "y"
+    },
+    {
+      "cnt": "\\ ee"
+    },
+    {
+      "cnt": ". ."
+    },
+    {
+      "cnt": "ss"
+    },
+    {
+      "cnt": "ie",
+      "price": ":"
+    },
+    {
+      "cnt": "7 - P"
+    },
+    {
+      "cnt": "| } OC 7 4"
+    },
+    {
+      "cnt": "ha 3"
+    },
+    {
+      "cnt": ". 4"
+    },
+    {
+      "cnt": "| /"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "3 K eID"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "2s"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "X"
+    },
+    {
+      "nm": "AKE"
+    },
+    {
+      "nm": "X"
+    },
+    {
+      "cnt": "1.00"
+    },
+    {
+      "cnt": "1"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Chicken HCC. 1Pcs",
+      "cnt": "1",
+      "price": "15.000"
+    },
+    "sub_total": {
+      "subtotal_price": "15,000",
+      "tax_price": "1.500"
+    },
+    "total": {
+      "total_price": "16,500",
+      "cashprice": "50,000",
+      "changeprice": "33,500",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Chicken HCC. 1Pcs</s_nm><s_cnt> 1</s_cnt><s_price> 15.000</s_price></s_menu><s_sub_total><s_subtotal_price> 15,000</s_subtotal_price><s_tax_price> 1.500</s_tax_price></s_sub_total><s_total><s_total_price> 16,500</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 33,500</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

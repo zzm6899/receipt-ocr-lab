@@ -1,0 +1,197 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-014",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "57d34375d7f4e8a5179506dab8cbe09d115fffecd2eabfc16e467550b37af1a9",
+  "elapsed_seconds": 5.942,
+  "detected_words": 189,
+  "detected_lines": 28,
+  "ocr_text": "ge e 7 . : : Pear Bi ; ; : = ae ie. Le F : i i a sj: y 2 en ; ber: “ie : 2) es ar | a 6 eaitesn os ceouezegeneg dase ees ee eee rsa S costar ue 00\" ote Hovd a . p00 °O0T . Wario} i: GEP“'Tes _ witli iam j rool ae re sate sorAae ae O69 41 3 i= alte 5 , ar % sa a 4 O00\" 8k WLiCLANS = ae ’ gag a a aero cen one tn sn nt mc a ad g 3 o00' oz Bal paay ] ee ay g00'se aT THOME) | pO les etait Nica noo‘ se dnog WooJushy | [ee : gous? SITY) UW YSTI T : Be gts ey 5, ms ee eT Po. 4 000 \"SE “[§ A5aay) pAATaApay a 4 an row nan em eniaiean Se EOE TUES aE ene a Nee (ee cee oe ae Pa - eH ns be E +t ae a io 7 ge a : : q ny a? “28 be 7 S| in i. a = > _ sq 7 ~",
+  "trocr_words": ": TAKE AGAIN SR: 1,00-1,000-4,000-4,000 *** TOTAL: TRANSACTION: 7/18/2018/18/18/2018 WWW.WWWWWWWW. - : ITEMS SOLD ON ALL SAVING US ON ITEMS CASH GASH USHANG USNG ON IT @6,00 CASHIER AND ONVOICE SR: GRC'C7 REG.00 SR8'27 REGULAR SAVIES TO BELL GSTAL, INC. : REGULAR TRANS CASHIER INVOICE INCLUS SUMMARY ................ INVOICE OF RECEIPED IN ORIGINAL AMOUNT: TOTAL: (RM) : SHANK YOU FOR TWO MUST! INVOICE OF RECEIPTIVE AND NOTIONS ON RETRABLE WITH RECEIPT SR: 1 REGNATIONAL CHARNABLE JAYA I - ITEM ITEM ITEMER LAM",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": ". in"
+  },
+  "cascade_fields": {
+    "total": "TOTAL: (RM)"
+  },
+  "layout_rows": [
+    {
+      "nm": "Bi",
+      "cnt": "e 7 : : Pear",
+      "price": "; :"
+    },
+    {
+      "cnt": "=",
+      "price": "Le"
+    },
+    {
+      "cnt": "F :",
+      "price": "i i a"
+    },
+    {
+      "cnt": "sj: y 2",
+      "price": "en ; ber:"
+    },
+    {
+      "cnt": ": 2)",
+      "price": "es"
+    },
+    {
+      "cnt": "|",
+      "price": "a"
+    },
+    {
+      "nm": "eaitesn",
+      "cnt": "6",
+      "price": "ee eee rsa",
+      "unitprice": "os ceouezegeneg dase"
+    },
+    {
+      "nm": "costar",
+      "cnt": "S",
+      "price": "ue"
+    },
+    {
+      "price": "a",
+      "unitprice": "00\" ote"
+    },
+    {
+      "cnt": ". .",
+      "price": "i:",
+      "unitprice": "p00 °O0T"
+    },
+    {
+      "nm": "GEP“'Tes",
+      "cnt": "_",
+      "price": "iam",
+      "unitprice": "witli"
+    },
+    {
+      "nm": "rool",
+      "cnt": "j",
+      "price": "re",
+      "unitprice": "ae"
+    },
+    {
+      "nm": "sate",
+      "price": "ae"
+    },
+    {
+      "cnt": "3",
+      "price": "5 ,",
+      "unitprice": "O69 41"
+    },
+    {
+      "cnt": "4",
+      "price": "ae ’",
+      "unitprice": "O00\" 8k"
+    },
+    {
+      "cnt": "a cen one tn",
+      "unitprice": "a"
+    },
+    {
+      "nm": "Bal",
+      "cnt": "3 ]",
+      "price": "ee",
+      "unitprice": "o00' oz"
+    },
+    {
+      "cnt": "aT |",
+      "price": "pO les etait",
+      "unitprice": "ay g00'se"
+    },
+    {
+      "nm": "Nica",
+      "cnt": "|",
+      "price": "[ee",
+      "unitprice": "noo‘ se"
+    },
+    {
+      "cnt": ":",
+      "price": "Be gts ey",
+      "unitprice": "gous?"
+    },
+    {
+      "cnt": "5,",
+      "price": "eT Po.",
+      "unitprice": "ms ee"
+    },
+    {
+      "cnt": "4 \"SE “[§",
+      "price": "a",
+      "unitprice": "000 A5aay)"
+    },
+    {
+      "nm": "TUES",
+      "cnt": "4 an nan em aE a",
+      "price": "(ee cee Pa",
+      "unitprice": "row Se ene Nee"
+    },
+    {
+      "cnt": "ae",
+      "price": "io ge"
+    },
+    {
+      "price": "be"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "IT",
+      "unitprice": "@6,00"
+    },
+    {
+      "nm": "GSTAL, INC.",
+      "cnt": ":"
+    },
+    {
+      "cnt": "OF"
+    },
+    {
+      "nm": "SHANK YOU"
+    },
+    {
+      "nm": "RECEIPTIVE AND",
+      "cnt": "OF"
+    },
+    {
+      "nm": "REGNATIONAL",
+      "cnt": "1",
+      "price": "JAYA"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "S9S*81",
+        "num": "000*002",
+        "price": "HSHO"
+      },
+      {
+        "nm": {
+          "price": "000*001"
+        },
+        "num": "S&T*28",
+        "price": {
+          "num": "000*822"
+        }
+      },
+      {
+        "nm": "000*SE",
+        "num": "000*SE",
+        "price": {
+          "num": "000'59"
+        }
+      },
+      {
+        "price": "RATADAY -"
+      }
+    ]
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> S9S*81</s_nm><s_num> 000*002</s_num><s_price> HSHO</s_price><sep/><s_nm> 000*001</s_num><s_price> 000*001</s_price><sep/><s_nm> S&T*182</s_nm><s_num> S&T*28</s_num><s_price> TOTALISARY IS&L</s_nm><s_num> S&T*ZE</s_num><s_price> TOTALISARY IS&L엄성을<s_num> 000*822</s_num><s_price> TORICHING 000*02</s_num><s_price> 000*02</s_price><sep/><s_nm> 000*SE</s_nm><s_num> 000*SE</s_num><s_price> DONJUSHI* 000*SE</s_num><s_price> DONJUSHI* 000'59</s_num><s_price> UPSHI</s_nm><s_num> 000'59</s_num><s_price> USOPHOTI* 000'SS</s_num><s_price> 000'85</s_price><sep/><s_nm> 000*82</s_num><s_price> RATADAY -</s_price></s_menu></s_total></s>"
+}

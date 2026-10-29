@@ -1,0 +1,180 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-032",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "b870880270244569a527583ba9575a8d2d2dfbad2096466da86d5a4708210c78",
+  "elapsed_seconds": 7.199,
+  "detected_words": 215,
+  "detected_lines": 58,
+  "ocr_text": "kK , 8 - 1 > a e end ’ ; + | G te ¢) ) ; ’ 4 4 I | | { i | / k a A ee A Sl ee mb ee ct ee a Oe ae REEN J KE EA ie | : ; \" 24 ; ’ } SP Se OS et Ss Ce ce Ss sa ge sn pl tf Ua Se Se cle | : 24.000 / , ’ | > q / pe ' : f A LL i A A A et (ls a cme a ! | 00.000 ' AJ 26.000 FaF Teese. «hi Patapon een era : < eae Pee =e alll gee Bet ee pie gs er a A A ag ee TA ele eee cea Ya?\" eee Es i ae tage ea — eS cee R gE BN ap rr OO AT po wis Bee eel EO ea Ot all gta\": elle ar oa ee , Spee one a Rik a? 4 LTO AS er PE oe eae ae 5 tae he . ie ae glee eon ee gale eo captsne ant ge cae ——— out = _ ae : oon cai inert — q cit i ‘Be - a” - ge —— ate wnt = amet” (CE et -",
+  "trocr_words": "1 AMOUNT AMOUNT CASHIER - OILESELL @ MAGLISON AMOUNT NUMBERNA 1 1 1 1 1 1 E ................................ THAI ICED GREEN T WHAT ICED GREEN TEA ITEM 1.00 1 @24.000 PA. ------------------------- -................................ SUB-TOTAL 24.000 1 AMOUNT AMOUNT PLEASE OF RECEIPT EQUILL 1 WWW.WWWWWW. ......................... CASH CHANGE 500.000 PRE: MINCLUDING SUMMARY 26.000 AMOUNT NO.COM/MY WWW.PURCHASE CASHIER ONCLUSIVE CASHIER MASIA FOODS AGAIN TAX MARIAN 972-TOTAL SALES AMOUNT AMOUNT AMOUNT NO.COM.COM AMOUNT NO: CASHIER WWW.COM. SR:00-12:00 PM-10:00 PM SR:00-1 WWW.COM.COM.COM.COM. AMOUNT NO: 01/02/2018 AMOUNTS INCLUSIVE ON FACEBOOK SR:00-12:03:03 PM-12:02:43 PM AMOUNT FOR RECEIPT CARD PLEASE AND ON FACEBOOK ON SR: AMOUNTS FOR FOLLOWING ON BACK CASHIER AMOUNT NUMBER WWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "|",
+      "cnt": null,
+      "price": "24.000"
+    },
+    {
+      "nm": "! |",
+      "cnt": null,
+      "price": "00.000"
+    }
+  ],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": ": ee , . = _ -"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "price": "kK"
+    },
+    {
+      "cnt": ",",
+      "price": "8 -"
+    },
+    {
+      "cnt": "1 > a",
+      "price": "e"
+    },
+    {
+      "nm": "end",
+      "price": "’ ;"
+    },
+    {
+      "cnt": "+",
+      "price": "|"
+    },
+    {
+      "cnt": "te ¢) )",
+      "price": "; ’"
+    },
+    {
+      "cnt": "4 4"
+    },
+    {
+      "cnt": "I"
+    },
+    {
+      "cnt": "{"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "k a A ee A Sl ee ct",
+      "price": "mb ee ee a"
+    },
+    {
+      "cnt": "J"
+    },
+    {
+      "nm": "EA"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "\"",
+      "price": "24"
+    },
+    {
+      "cnt": "SP Se OS et Ss Ce ce"
+    },
+    {
+      "cnt": "Ss sa ge sn pl",
+      "price": "tf Ua Se Se cle"
+    },
+    {
+      "cnt": "| :",
+      "price": "24.000"
+    },
+    {
+      "cnt": "/"
+    },
+    {
+      "cnt": ", ’"
+    },
+    {
+      "cnt": "| > q"
+    },
+    {
+      "cnt": "/"
+    },
+    {
+      "cnt": "f A LL i A A A et",
+      "price": "(ls cme"
+    },
+    {
+      "cnt": "! |",
+      "price": "00.000"
+    },
+    {
+      "cnt": "'",
+      "price": "AJ"
+    },
+    {
+      "price": "26.000"
+    },
+    {
+      "price": "een"
+    },
+    {
+      "cnt": "pie",
+      "price": "gs"
+    },
+    {
+      "cnt": "ae",
+      "price": "ea —"
+    },
+    {
+      "cnt": "4",
+      "price": "AS oe"
+    },
+    {
+      "cnt": "5 tae he"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "T"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "@24.000"
+    },
+    {
+      "price": "26.000"
+    },
+    {
+      "price": "PM-12:02:43 PM"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "THAI ICED GREEN TEA",
+      "unitprice": "@24.000",
+      "cnt": "1",
+      "price": "24.0"
+    },
+    "sub_total": {
+      "subtotal_price": "24.000"
+    },
+    "total": {
+      "total_price": "24.000",
+      "cashprice": "50.000",
+      "changeprice": "26.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> THAI ICED GREEN TEA</s_nm><s_unitprice> @24.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 24.0</s_price></s_menu><s_sub_total><s_subtotal_price> 24.000</s_subtotal_price></s_sub_total><s_total><s_total_price> 24.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 26.000</s_changeprice></s_total></s>"
+}

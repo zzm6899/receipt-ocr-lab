@@ -1,0 +1,53 @@
+dataset,receipt_id,annotated_rows,product_rows,other_rows,eligible_row_candidates,complete_visible_inventory_candidate,reviewer_status,coverage_status,unknown_names,unknown_quantities,unknown_amounts,human_verification
+legacy_reference_v3_1,receipt_001,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_002,2,2,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_003,9,9,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_004,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_005,6,6,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_007,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_008,17,17,0,,not stated,partially_user_reviewed_some_fields_only,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_010,11,11,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_011,2,2,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_012,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_013,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_014,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_015,1,1,0,,not stated,partially_user_reviewed_some_fields_only,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_016,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_017,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_018,6,6,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_019,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_020,4,4,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_021,1,1,0,,not stated,partially_user_reviewed_some_fields_only,partial_unknown_quantity,0,1,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_022,6,6,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_023,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_024,3,3,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_025,2,2,0,,not stated,partially_user_reviewed_some_fields_only,partial_unknown_amount,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_026,3,3,0,,not stated,partially_user_reviewed_some_fields_only,transcribed_with_row_uncertainty,1,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_027,10,10,0,,not stated,assistant_provisional_unverified,complete_with_name_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_028,3,3,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_029,3,3,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_030,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_031,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_032,8,8,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_033a,8,8,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_033b,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_033c,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+legacy_reference_v3_1,receipt_034,1,1,0,,not stated,assistant_provisional_unverified,transcribed_with_row_uncertainty,0,0,0,assistant provisional/unverified
+receipy_references_v2,new_001,5,4,1,4,true,assistant-audited,full photographed receipt ledger,0,1,1,pending
+receipy_references_v2,new_002,7,6,1,6,true,assistant-audited,full photographed receipt ledger,0,0,6,pending
+receipy_references_v2,new_003,3,3,0,3,true,assistant-audited,full photographed receipt ledger,0,0,0,pending
+receipy_references_v2,new_004,1,1,0,1,true,assistant-audited,full photographed receipt ledger,0,0,0,pending
+receipy_references_v2,new_005,4,2,2,3,true,assistant-audited,full photographed receipt ledger,0,0,0,pending
+receipy_references_v2,new_006,2,2,0,2,true,assistant-audited,full photographed receipt ledger,0,0,0,pending
+receipy_references_v2,new_007,8,6,2,8,true,assistant-audited,full photographed receipt ledger,0,2,2,pending
+receipy_references_v2,new_008,3,3,0,3,true,assistant-audited,full photographed receipt ledger,0,2,2,pending
+receipy_references_v2,new_009,2,1,1,1,true,assistant-audited,full photographed receipt ledger,0,1,0,pending
+receipy_references_v2,new_011,11,6,5,10,true,assistant-audited,full photographed receipt ledger,0,5,0,pending
+receipy_references_v2,new_012,2,2,0,2,true,assistant-audited,full photographed receipt ledger,0,0,0,pending
+receipy_references_v2,new_013,11,3,8,10,true,assistant-audited,full photographed receipt ledger,0,9,0,pending
+receipy_references_v2,new_014,1,0,1,,false,assistant-audited,photographed fragment only,0,1,0,pending
+receipy_references_v2,new_015,1,1,0,1,true,assistant-audited,full photographed receipt ledger,0,0,0,pending
+receipy_references_v2,new_016,1,1,0,1,true,assistant-audited,full photographed receipt ledger,0,0,0,pending
+receipy_references_v2,new_017,3,3,0,3,true,assistant-audited,full photographed receipt ledger,0,3,3,pending
+receipy_references_v2,new_010_clear,1,1,0,,false,assistant-audited,one apparent row unreadable; image-level descriptive reference only,1,1,1,pending
+receipy_references_v2,new_010_scrunched,1,1,0,,false,assistant-audited,one apparent row unreadable; image-level descriptive reference only,1,1,1,pending

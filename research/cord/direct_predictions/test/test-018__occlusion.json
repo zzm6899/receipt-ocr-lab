@@ -1,0 +1,96 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-018",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "47a5f28fd166424525c3126eb20f5a0aea53b8b7fffdd162d03b875c621e420a",
+  "elapsed_seconds": 0.991,
+  "detected_words": 17,
+  "detected_lines": 8,
+  "ocr_text": "Propolis Cair 4 : TIGUL: 740000 La Sub Tofal a 16000 Tunai naps 166000 Kembalian Rp. 0",
+  "trocr_words": "PROPOLIS CAIR 1 15600 156000 SUB TOTAL : 1 VEGU 4.560 156000 TUNAI / 1.50 156000 KEMBALIAN",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "TUNAI /",
+      "cnt": null,
+      "price": "1.50"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "Propolis Cair",
+      "cnt": "4 :"
+    },
+    {
+      "cnt": "TIGUL:"
+    },
+    {
+      "cnt": "La",
+      "unitprice": "740000"
+    },
+    {
+      "nm": "Tofal",
+      "cnt": "a"
+    },
+    {
+      "price": "16000"
+    },
+    {
+      "nm": "Tunai",
+      "cnt": "naps"
+    },
+    {
+      "price": "166000"
+    },
+    {
+      "nm": "Kembalian",
+      "price": "Rp. 0"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PROPOLIS CAIR",
+      "cnt": "1"
+    },
+    {
+      "unitprice": "15600"
+    },
+    {
+      "price": "156000"
+    },
+    {
+      "nm": "VEGU",
+      "cnt": ": 1",
+      "unitprice": "4.560"
+    },
+    {
+      "price": "156000"
+    },
+    {
+      "cnt": "/",
+      "unitprice": "1.50"
+    },
+    {
+      "price": "156000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Propolis Cair",
+      "cnt": "1",
+      "price": "156000"
+    },
+    "sub_total": {
+      "subtotal_price": "156000"
+    },
+    "total": {
+      "cashprice": "156000",
+      "changeprice": "Rp. 0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Propolis Cair</s_nm><s_cnt> 1</s_cnt><s_price> 156000</s_price></s_menu><s_sub_total><s_subtotal_price> 156000</s_subtotal_price></s_sub_total><s_total><s_cashprice> 156000</s_cashprice><s_changeprice> Rp. 0</s_changeprice></s_total></s>"
+}

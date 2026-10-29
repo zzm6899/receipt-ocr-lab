@@ -1,0 +1,44 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-001",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "b94f0323fc24c87ca5992d4e50899eea84a86a752f88d12ecf2c96a2f7f987ba",
+  "elapsed_seconds": 0.74,
+  "detected_words": 5,
+  "detected_lines": 3,
+  "ocr_text": "ie rOTAL 91000 CASH 31000",
+  "trocr_words": ": TOTAL 91000 CASH 91000",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "rOTAL 91000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 91000"
+  },
+  "layout_rows": [],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "J.STB PROMO",
+        "price": "17500"
+      },
+      {
+        "nm": "Y.B.BAT",
+        "price": "46000"
+      },
+      {
+        "nm": "Y.BASO PROM",
+        "price": "27500"
+      }
+    ],
+    "total": {
+      "total_price": "91000",
+      "cashprice": "91000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> J.STB PROMO</s_nm><s_price> 17500</s_price><sep/><s_nm> Y.B.BAT</s_nm><s_price> 46000</s_price><sep/><s_nm> Y.BASO PROM</s_nm><s_price> 27500</s_price></s_menu><s_total><s_total_price> 91000</s_total_price><s_cashprice> 91000</s_cashprice></s_total></s>"
+}

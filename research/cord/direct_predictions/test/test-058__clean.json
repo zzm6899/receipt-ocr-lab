@@ -1,0 +1,213 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-058",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "5e7b67cb2a20671701e5f98d6dbff89e2964e89c4f33261498451c76cdbf7a39",
+  "elapsed_seconds": 10.867,
+  "detected_words": 287,
+  "detected_lines": 64,
+  "ocr_text": "RRR Te e Ag SS PA A Ar Oe cata i aad i , . eo is a Spee —- { wighe ce ~ Saa i a on S| LJ WAI Ey f oS eee beers - a : ' 3 oa ———— ’ ee, ee. Pete ’ a eee eee 4 acd . - an rhea ay Aa aes = Eos Ba rene Bees 4 spe eercs \"= a ‘ : & ie Baty PRL s ‘ mii DEI ee oS ek ie =r a a = a : : ees : . pics —, f } F | Sub yulgis Case ign cb stele q i ( rts € ine RE See te PC 5 4 Pitan. ae ToL @ i : 2M i ——— on BT ss aig ' igh ee ae Tok: on ee eee Bh oe ae tes manoyY Poek ahs sis “ay J ls ie ae 5 ; oe peageae scale T ii “i ay : ne J AR : e citagng ‘i Se = ‘| 1 Ze lr 2 ae ! ae ee Beate er: ve an = : al ia ip i ee eee, RAGES -\\c 0: es =f et ee ed ie a = ee I u a + F oe - - 22. oe 3 ee). i a PM “a F ee Sa eR eg eae eS + ae - eae eae ap BS Strat Ei. ™ 4 ois Seer - as ; Paes Be ees ak “- : a <= | 2 ‘ . ae I : ; I : oe: - ia H : Pate * é % ‘ £ . — : . — 2 a : ‘Gexrebnese, . Cea 4 4 — of",
+  "trocr_words": "WWW.WW : SR: CASHIER PAYMENT : AMOUNT ITEM *** ITEMS CASHIER PLEASE IN NEED ITEMS ONCLUSIVE WWW.WWWWWWWWWWWWWW. THANK YOU.COMPING INCLUSIVE SUBJECT COME AGAIN AMOUNT NUMBERMENT : MASMARY CASHIER WWW.WW.WW.WW.WW. ITEM AMOUNT CASHIER WWW.WW.WW. - MA WWW.WWWW.WW.WW. AMOUNT: AMOUNT: PLEASE WITH US ONCLUSIVE ONCLUSIVE WITH RECEIPT *** WWW.WWWWWWWW.WW. SUB TOTAL: (RM) SR1 TRANSIVE 5,500 TOTAL TOTAL : 1% TOTAL TOTAL: (RM) : 60,500 TOTAL: 100.00 SR:00-12-1 DAYA, JALANANANAN JOHYAWASAN PERMAS AMOUNT PAY: (EXCLUDED WITH RECEIPT) CHANGE: TR,500 *** CASHIER NO: (RM) : 5.00 WWW.WW.WW. - - CASHIER - - WWWWWW. - - - - - - THANK - - - WWW.WW.WW.WW.W.W.W.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K WWW.COM. : : % 1",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "SR1 TRANSIVE",
+      "cnt": null,
+      "price": "5,500"
+    },
+    {
+      "nm": "CASHIER NO: (RM)",
+      "cnt": null,
+      "price": "5.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "RRR ae ."
+  },
+  "cascade_fields": {
+    "total": "TOTAL TOTAL: (RM) : 60,500 TOTAL:"
+  },
+  "layout_rows": [
+    {
+      "cnt": "Ag",
+      "price": "e"
+    },
+    {
+      "cnt": "PA A"
+    },
+    {
+      "cnt": ","
+    },
+    {
+      "cnt": "is"
+    },
+    {
+      "nm": "wighe",
+      "cnt": "{ ce ~",
+      "price": "i"
+    },
+    {
+      "cnt": "LJ"
+    },
+    {
+      "cnt": "f"
+    },
+    {
+      "cnt": "-",
+      "price": "a"
+    },
+    {
+      "cnt": "' 3",
+      "price": "oa"
+    },
+    {
+      "price": "’"
+    },
+    {
+      "price": "’"
+    },
+    {
+      "cnt": "4 . -"
+    },
+    {
+      "price": "Eos"
+    },
+    {
+      "nm": "Bees",
+      "cnt": "4 a",
+      "price": "‘",
+      "unitprice": "spe"
+    },
+    {
+      "nm": "& Baty",
+      "cnt": ": ie"
+    },
+    {
+      "cnt": "s",
+      "price": "‘ mii DEI ee oS"
+    },
+    {
+      "cnt": "ie",
+      "price": "=r a a"
+    },
+    {
+      "cnt": ":",
+      "price": ":"
+    },
+    {
+      "cnt": ":",
+      "price": "."
+    },
+    {
+      "cnt": "F | ign",
+      "price": "cb stele q"
+    },
+    {
+      "cnt": "i ( € RE te",
+      "price": "PC 5 4",
+      "unitprice": "rts ine"
+    },
+    {
+      "cnt": "i :",
+      "price": "2M",
+      "unitprice": "@"
+    },
+    {
+      "cnt": "BT ss",
+      "price": "aig '"
+    },
+    {
+      "cnt": "igh",
+      "price": "on ee eee"
+    },
+    {
+      "cnt": "J",
+      "price": "ls ie ae 5 ;"
+    },
+    {
+      "cnt": "T ii “i",
+      "price": ": ne",
+      "unitprice": "ay"
+    },
+    {
+      "cnt": "J"
+    },
+    {
+      "cnt": "‘i Se",
+      "price": "= 1"
+    },
+    {
+      "cnt": "2",
+      "price": "ae"
+    },
+    {
+      "cnt": "ve an =",
+      "price": "ia"
+    },
+    {
+      "price": "eee,"
+    },
+    {
+      "price": "es"
+    },
+    {
+      "cnt": "ie a = I"
+    },
+    {
+      "cnt": "- - 22.",
+      "price": "oe"
+    },
+    {
+      "price": "i"
+    },
+    {
+      "price": "“a"
+    },
+    {
+      "price": "eS"
+    },
+    {
+      "cnt": "- ap",
+      "price": "BS"
+    },
+    {
+      "cnt": "™ 4"
+    },
+    {
+      "price": "“-"
+    },
+    {
+      "cnt": "a <= | 2"
+    },
+    {
+      "cnt": "2 a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "PLEASE"
+    },
+    {
+      "nm": "DAYA, JALANANANAN"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "CASH",
+      "cnt": "1",
+      "price": "100,000"
+    },
+    "sub_total": {
+      "subtotal_price": "55,000",
+      "tax_price": "5,500"
+    },
+    "total": {
+      "total_price": "60,500",
+      "cashprice": "100,000",
+      "changeprice": "39,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> PHO BO TAI</s_nm><s_cnt> 1</s_cnt><s_price> 55,000</s_price><s_sub><s_nm> CASH</s_nm><s_price> 100,000</s_price></s_menu><s_sub_total><s_subtotal_price> 55,000</s_subtotal_price><s_tax_price> 5,500</s_tax_price></s_sub_total><s_total><s_total_price> 60,500</s_total_price><s_cashprice> 100,000</s_cashprice><s_changeprice> 39,500</s_changeprice></s_total></s>"
+}

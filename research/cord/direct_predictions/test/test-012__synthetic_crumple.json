@@ -1,0 +1,113 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-012",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "86fd8dc8c617ea60bec56db0f02a3c869962f297d5b5ff48cda3266887372ecb",
+  "elapsed_seconds": 1.431,
+  "detected_words": 35,
+  "detected_lines": 12,
+  "ocr_text": "SS ' j O57? k95¢ rius WAITA },000 1 azo, cog ne 1002-g060 SARL : 1 een 4 TOTAL (2 ite CC. Miss r Tata! \\ eel Ope e a ..; aelae a hg ;",
+  "trocr_words": "- 0571-1854 PLUS WHITE 120.000 1 @120,000 0% 120,000 1002-0060 SHUPPING BA 1 @880 - TOTAL (2 ITE CC.VISA.RCA ~~ 120,000 TOTAL : - WWW.",
+  "ocr_rules_total": "2",
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "0571-1854 PLUS WHITE",
+      "cnt": null,
+      "price": "120.000"
+    },
+    {
+      "nm": "@120,000 0%",
+      "cnt": "1",
+      "price": "120,000"
+    },
+    {
+      "nm": "CC.VISA.RCA ~~",
+      "cnt": null,
+      "price": "120,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "\\ eel Ope e"
+  },
+  "cascade_fields": {
+    "total": ":"
+  },
+  "layout_rows": [
+    {
+      "cnt": "'",
+      "price": "j"
+    },
+    {
+      "nm": "WAITA",
+      "price": "},000",
+      "unitprice": "k95¢ rius"
+    },
+    {
+      "cnt": "1",
+      "price": "ne",
+      "unitprice": "azo, cog"
+    },
+    {
+      "nm": "SARL",
+      "cnt": ":"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "een"
+    },
+    {
+      "cnt": "CC. Miss",
+      "price": "r"
+    },
+    {
+      "price": "..;"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PLUS WHITE",
+      "price": "120.000"
+    },
+    {
+      "cnt": "1 0%",
+      "price": "120,000",
+      "unitprice": "@120,000"
+    },
+    {
+      "nm": "SHUPPING BA"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "@880"
+    },
+    {
+      "nm": "CC.VISA.RCA",
+      "cnt": "~~",
+      "price": "120,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "0571-1854 BLUS WANITA",
+        "unitprice": "2120,000",
+        "cnt": "1",
+        "price": "120,000"
+      },
+      {
+        "nm": "1002-0060 SHOPPING BAG",
+        "cnt": "1",
+        "price": "0"
+      }
+    ],
+    "total": {
+      "total_price": "120,000",
+      "changeprice": "0",
+      "creditcardprice": "120,000",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 0571-1854 BLUS WANITA</s_nm><s_unitprice> 2120,000</s_unitprice><s_cnt> 1</s_cnt><s_price> 120,000</s_price><sep/><s_nm> 1002-0060 SHOPPING BAG</s_nm><s_unitprice> @880 100%</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1</s_cnt><s_price> 0</s_price></s_menu><s_total><s_total_price> 120,000</s_total_price><s_changeprice> 0</s_changeprice><s_creditcardprice> 120,000</s_creditcardprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

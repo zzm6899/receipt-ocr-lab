@@ -1,0 +1,61 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-037",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "dd957804e250b0a6edc263774c8416a43dd6cc78609a7606d80e811f1f95c25b",
+  "elapsed_seconds": 1.107,
+  "detected_words": 14,
+  "detected_lines": 7,
+  "ocr_text": "“ Mei atin 000°0E OFONYHO 000°0s HS¥O oe wa woe SSC ae “8 ee",
+  "trocr_words": "HH ---- CHANGED ONCLUSIONS ON ORIGINAL COMPHS CASH CHANGE: + 1.00 TOTAL TOTAL TOTAL 1 POPON RES WOOD US A - COMS RUN",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL TOTAL TOTAL"
+  },
+  "layout_rows": [
+    {
+      "cnt": "“"
+    },
+    {
+      "nm": "OFONYHO"
+    },
+    {
+      "unitprice": "oe wa"
+    },
+    {
+      "nm": "woe SSC"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CHANGED ONCLUSIONS ON"
+    },
+    {
+      "price": "1.00"
+    },
+    {
+      "nm": "POPON RES WOOD",
+      "cnt": "1",
+      "price": "US A"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'03",
+        "price": "BESNSHO"
+      },
+      {
+        "nm": "000'09",
+        "price": {
+          "num": "000'02"
+        }
+      }
+    ]
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'03</s_nm><s_price> BESNSHO</s_price><sep/><s_nm> 000'09</s_nm><s_price> HASVO</s_nm><s_num> 000'02</s_num><s_price> 000'02</s_price></s_menu><s_total><s_total_price> 000'02</s_num><s_price> Docodol</s_changeprice></s_total></s>"
+}

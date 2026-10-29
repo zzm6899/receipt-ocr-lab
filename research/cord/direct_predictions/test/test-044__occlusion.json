@@ -1,0 +1,73 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-044",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "c46e1cb8c399e1006e4906af620b520b331260cce1a22bcb1395c8a158d99949",
+  "elapsed_seconds": 1.23,
+  "detected_words": 31,
+  "detected_lines": 10,
+  "ocr_text": "1 { ” a i. sonst I | § i} sed ' —— «0 _ TOTAL 30. 000 CHANGED 20. 000 a ‘ _* ~~ Ay ie r V Oo), owt",
+  "trocr_words": "K - - PLE 1 COMBO 1 REG. 30.0 TOTAL 30.000 CHANGED 20.00 ---- *** O.00",
+  "ocr_rules_total": "000",
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "COMBO 1 REG.",
+      "cnt": "1",
+      "price": "30.0"
+    },
+    {
+      "nm": "CHANGED",
+      "cnt": null,
+      "price": "20.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "{ _ TOTAL"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 30.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "”"
+    },
+    {
+      "nm": "sonst",
+      "cnt": "i. I |"
+    },
+    {
+      "cnt": "§ i}"
+    },
+    {
+      "price": "30. 000"
+    },
+    {
+      "price": "20. 000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "COMBO REG.",
+      "cnt": "1 1",
+      "price": "30.0"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Combo 1",
+      "cnt": "1",
+      "price": "30,0"
+    },
+    "total": {
+      "total_price": "30.000",
+      "cashprice": "50.000",
+      "changeprice": "20.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Combo 1</s_nm><s_cnt> 1</s_cnt><s_price> 30,0</s_price></s_menu><s_total><s_total_price> 30.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 20.000</s_changeprice></s_total></s>"
+}

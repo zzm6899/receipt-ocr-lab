@@ -1,0 +1,49 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-057",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "2e255a856db7d27820da992b3ef0421f74f5c0b589ebc38000c6df7e49ef6ab9",
+  "elapsed_seconds": 0.918,
+  "detected_words": 17,
+  "detected_lines": 6,
+  "ocr_text": "e< = : alle . | ee / 1S LOE O77 -20,000 | cRsh “azla00 / JA",
+  "trocr_words": "< WW AM ICED TT @ 20,000 ITEM OVER WW",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "ICED TT @",
+      "cnt": null,
+      "price": "20,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "LOE",
+      "price": "-20,000"
+    },
+    {
+      "nm": "cRsh"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "ICED TT @",
+      "price": "20,000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ICED TT",
+      "price": "20,000"
+    },
+    "total": {
+      "total_price": "22,000",
+      "cashprice": "42,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICED TT</s_nm><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 22,000</s_total_price><s_cashprice> 42,000</s_cashprice></s_total></s>"
+}

@@ -1,0 +1,278 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-098",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "232bb1dbc685742e16f29970d2f6dac6b209856545cac76cf090bc46c8cd8461",
+  "elapsed_seconds": 7.743,
+  "detected_words": 284,
+  "detected_lines": 44,
+  "ocr_text": "i he ~ -~g m a ie ey, Pd liege ay —_— ~~, od Se tins. = ae hs, — . _ ie i: SSS i : —S = ts gee Ps. Oy Amys of wth “ —™ t55 se in E ao! i See . if Sc = ety E ne. ‘ me St a a = “Ss = ee ee Bie. Ke ae — lt, ~ eg ee <— > = Bas a. Ss — Se.” — So, a SS SS , << _— eth tee Se Ss ~ weet aie sS MoS SS SS = SS = ~~ a : = <n . oe “= ™ C = . a SS : = ‘ Ss =~ . Ae SS ee SVS SS = FOOD = SS = “ en Qualit KET EURR RTT tT aman PRL SSS ab see EULA i lh HAHA ‘igi a aan RUMR TRB aD SS SSS PresentaWe sini ais cilait OAL) Mle Raa ASE VUE Gee IS = SSS tt Fee EAI EU Aisi heR est one — — OC — Zz EE, ae SS BEVERAG S—= —S Quality/K = SS S Presenta an ha S = =e Ss waste Boe ee ae ~ SS SS = Pe | BLACK PEPPER MEATBALL PAS (no SSS SS 1 TRUFFLE CREAM ce —— : SERVICE + EARL GREY MILK \\te 59 O00 —— Ss | aio ae 219,000 _ = Friendlin 2 Daan BOs : == S service Charge 6% 12,308 a SS Agia [AX 10% OAS = ~ Attentiv es i — Time/W roral 250 ,690 _ ec SS. S INSIe Wa See ~ ne —_ x F ~ = =~ > = ~ = > Se",
+  "trocr_words": "YAVAY /SAVINGS /SAL CASH AM UAX CASH VAN CASH CASHIER NO NOTS ONCLUSIVE - CASHIER CASHIER @ : 9 WWW. MASIA CASHIER FOOD WHOPPERMAN 500Y* WWW. AMTARY (RM) CASHIER MASTERIA, JOHORIA, JOHORANANAN TAX EFIAM BEVER/K ELLOWM PREMA'S FROM AMOUNT MAXIMAL BAS 7B,000 TASTE/RA 1 BLACK REFER MEATBALL POS 79.00 1 BRACK/REVER MATERIAL PR$ 77,000 SERVICE 1 EMI BEY MILK TRA 28.00 1 SAM SEY MILK TA 25.00 SERVICE 1 DAYIA CHANGE 6% REGED SERVICE CHARGE 6% 22,500 AMOUNT TAX INVOICE AT 20.79 PETEMPTIVE TAX 188 250,690 ATEMERY TOTAL 250,690 WALES *** = CASHIER SALES CASHIER CASHIER",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "| aio ae",
+      "cnt": null,
+      "price": "219,000"
+    },
+    {
+      "nm": "service Charge 6%",
+      "cnt": null,
+      "price": "12,308"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "TASTE/RA 1 BLACK REFER MEATBALL POS",
+      "cnt": null,
+      "price": "79.00"
+    },
+    {
+      "nm": "BRACK/REVER MATERIAL PR$",
+      "cnt": "1",
+      "price": "77,000"
+    },
+    {
+      "nm": "SERVICE 1 EMI BEY MILK TRA",
+      "cnt": null,
+      "price": "28.00"
+    },
+    {
+      "nm": "SAM SEY MILK TA",
+      "cnt": "1",
+      "price": "25.00"
+    },
+    {
+      "nm": "SERVICE CHARGE 6%",
+      "cnt": null,
+      "price": "22,500"
+    }
+  ],
+  "layout_fields": {
+    "total": "a ie i roral 250 ~ ="
+  },
+  "cascade_fields": {
+    "total": "TOTAL 250,690"
+  },
+  "layout_rows": [
+    {
+      "nm": "he",
+      "cnt": "~ m ey,",
+      "price": "Pd"
+    },
+    {
+      "cnt": "od tins. = hs, — . _",
+      "price": "ie SSS",
+      "unitprice": "ae"
+    },
+    {
+      "cnt": "ts of wth",
+      "price": "t55 se"
+    },
+    {
+      "cnt": ". if ne. ‘",
+      "price": "me St a",
+      "unitprice": "E"
+    },
+    {
+      "cnt": "Ke ~ eg",
+      "price": "ee >"
+    },
+    {
+      "price": "— So,"
+    },
+    {
+      "price": "Se"
+    },
+    {
+      "cnt": "~",
+      "price": "MoS SS"
+    },
+    {
+      "cnt": "C",
+      "price": "= a"
+    },
+    {
+      "price": "SS"
+    },
+    {
+      "cnt": "= ‘",
+      "price": "Ss"
+    },
+    {
+      "price": "SS"
+    },
+    {
+      "price": "SVS"
+    },
+    {
+      "nm": "FOOD",
+      "price": "SS"
+    },
+    {
+      "nm": "Qualit KET RTT",
+      "cnt": "tT",
+      "price": "PRL SSS",
+      "unitprice": "aman"
+    },
+    {
+      "nm": "HAHA",
+      "cnt": "i lh a",
+      "price": "TRB aD SS SSS",
+      "unitprice": "aan RUMR"
+    },
+    {
+      "cnt": "Mle VUE Gee",
+      "price": "ASE IS = SSS",
+      "unitprice": "Raa"
+    },
+    {
+      "cnt": "tt",
+      "unitprice": "est one"
+    },
+    {
+      "price": "ae",
+      "unitprice": "EE,"
+    },
+    {
+      "nm": "BEVERAG",
+      "price": "S—= —S"
+    },
+    {
+      "price": "= SS"
+    },
+    {
+      "price": "ha",
+      "unitprice": "an"
+    },
+    {
+      "price": "ae",
+      "unitprice": "Boe ee"
+    },
+    {
+      "nm": "Pe BLACK PEPPER MEATBALL",
+      "cnt": "|",
+      "price": "(no SSS",
+      "unitprice": "PAS"
+    },
+    {
+      "nm": "TRUFFLE CREAM",
+      "cnt": "1",
+      "price": "ce ——"
+    },
+    {
+      "nm": "SERVICE EARL GREY MILK",
+      "cnt": "+",
+      "price": "59 O00 ——",
+      "unitprice": "\\te"
+    },
+    {
+      "cnt": "|",
+      "price": "219,000 _",
+      "unitprice": "aio ae"
+    },
+    {
+      "nm": "Friendlin Daan",
+      "cnt": "2",
+      "price": "BOs : =="
+    },
+    {
+      "nm": "service",
+      "price": "12,308",
+      "unitprice": "6%"
+    },
+    {
+      "nm": "Agia",
+      "cnt": "[AX",
+      "price": "OAS",
+      "unitprice": "10%"
+    },
+    {
+      "nm": "Attentiv"
+    },
+    {
+      "price": ",690"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BAS",
+      "price": "7B,000"
+    },
+    {
+      "nm": "TASTE/RA BLACK REFER MEATBALL",
+      "cnt": "1",
+      "price": "79.00"
+    },
+    {
+      "nm": "BRACK/REVER MATERIAL",
+      "cnt": "1",
+      "price": "77,000"
+    },
+    {
+      "nm": "SERVICE EMI BEY MILK",
+      "cnt": "1",
+      "price": "28.00"
+    },
+    {
+      "nm": "SAM SEY MILK TA",
+      "cnt": "1",
+      "price": "25.00"
+    },
+    {
+      "nm": "SERVICE DAYIA",
+      "cnt": "1",
+      "price": "REGED"
+    },
+    {
+      "nm": "SERVICE"
+    },
+    {
+      "price": "20.79"
+    },
+    {
+      "nm": "PETEMPTIVE",
+      "price": "250,690"
+    },
+    {
+      "nm": "ATEMERY"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "FOOD Quality/K"
+      },
+      {
+        "nm": "Presentat Taste/Ra. BEVERAC",
+        "price": "79,000"
+      },
+      {
+        "nm": "BLACK PEPPER MEATBALL PAS",
+        "cnt": "1",
+        "price": "77,000"
+      },
+      {
+        "nm": "TRUFFLE CREAM",
+        "cnt": "1",
+        "price": "59,000"
+      },
+      {
+        "nm": "EARL GREY MILK TEA",
+        "cnt": "1",
+        "price": "255,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "255,000",
+      "service_price": "12,900",
+      "tax_price": "22,790"
+    },
+    "total": {
+      "total_price": "250,690",
+      "total_etc": "Ambiance"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> FOOD Quality/K</s_nm><sep/><s_nm> Presentat Taste/Ra. BEVERAC</s_nm><s_price> 79,000</s_price><sep/><s_nm> BLACK PEPPER MEATBALL PAS</s_nm><s_cnt> 1</s_cnt><s_price> 77,000</s_price><sep/><s_nm> TRUFFLE CREAM</s_nm><s_cnt> 1</s_cnt><s_price> 59,000</s_price><sep/><s_nm> EARL GREY MILK TEA</s_nm><s_cnt> 1</s_cnt><s_price> 255,000</s_price></s_menu><s_sub_total><s_subtotal_price> 255,000</s_subtotal_price><s_service_price> 12,900</s_service_price><s_tax_price> 22,790</s_tax_price></s_sub_total><s_total><s_total_price> 250,690</s_total_price><s_total_etc> Ambiance</s_total_etc></s_total></s>"
+}

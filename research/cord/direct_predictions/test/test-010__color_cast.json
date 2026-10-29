@@ -1,0 +1,96 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-010",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "1fb717a5e668d3b308eef86f0512ac72f66f063f7a5fe7948e79b4fde4aea2e8",
+  "elapsed_seconds": 1.537,
+  "detected_words": 37,
+  "detected_lines": 14,
+  "ocr_text": "Lf a) (YY) eee Agee CINNAMON SUGAR 1 x 17,000 17,000 SUB TOTAL : 17,000 GRAND TOTAL 17,000 CASHIDR 20,000 CHANGE DUE 3,000 oa) ve iit aaa is enete a a eer a ea i iil 7",
+  "trocr_words": "PAYMENT 50 (MY ADATE AMOS CINNAMON SUGAR 1 X 17,000 SUB TOTAL GRANDTOTAL : 17,000 CASHIER CHANGE DUE *** - *** WWW.MY.MY -",
+  "ocr_rules_total": "17,000",
+  "ocr_rows": [
+    {
+      "nm": "x 17,000",
+      "cnt": "1",
+      "price": "17,000"
+    },
+    {
+      "nm": "CASHIDR",
+      "cnt": null,
+      "price": "20,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "X",
+      "cnt": "1",
+      "price": "17,000"
+    },
+    {
+      "nm": "GRANDTOTAL",
+      "cnt": null,
+      "price": "17,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "GRAND TOTAL iit aaa"
+  },
+  "cascade_fields": {
+    "total": "GRANDTOTAL : 17,000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "a)"
+    },
+    {
+      "nm": "eee",
+      "price": "Agee"
+    },
+    {
+      "nm": "CINNAMON SUGAR"
+    },
+    {
+      "cnt": "1 x",
+      "price": "17,000",
+      "unitprice": "17,000"
+    },
+    {
+      "cnt": ":",
+      "price": "17,000"
+    },
+    {
+      "price": "20,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "(MY ADATE AMOS"
+    },
+    {
+      "nm": "CINNAMON SUGAR"
+    },
+    {
+      "cnt": "1 X",
+      "unitprice": "17,000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "CINNAMON SUGAR",
+      "unitprice": "17,000",
+      "cnt": "1 x",
+      "price": "17,000"
+    },
+    "sub_total": {
+      "subtotal_price": "17,000"
+    },
+    "total": {
+      "total_price": "17,000",
+      "cashprice": "20,000",
+      "changeprice": "3,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> CINNAMON SUGAR</s_nm><s_unitprice> 17,000</s_unitprice><s_cnt> 1 x</s_cnt><s_price> 17,000</s_price></s_menu><s_sub_total><s_subtotal_price> 17,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 17,000</s_total_price><s_cashprice> 20,000</s_cashprice><s_changeprice> 3,000</s_changeprice></s_total></s>"
+}

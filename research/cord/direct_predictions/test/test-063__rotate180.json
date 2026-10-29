@@ -1,0 +1,78 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-063",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "50eaa46a5e534e22d840565ed22e218e74d7f68c8f0d57ab88eff530f2feef94",
+  "elapsed_seconds": 3.947,
+  "detected_words": 32,
+  "detected_lines": 10,
+  "ocr_text": "000°€ aBueUg 000\" 09 yse9 000°2S [eB10L 000° 2S (eqo4qNs a0] 000° 8E ox “Bundwey nsng idoy 0. a9 ssa] = Bundwey nsng doy ao] 000°61 ib *Bundwey nsns tdoy sete e290?",
+  "trocr_words": "CHANGE AGAIN AUGULAR SUBVEYO CASH US MUST US ONCLUSED USED TOTAL: SUBTOTAL TOTAL: ICE KOPI SUSN BUNDWAY NSNS LDOY KOODI SSET BUNDWEY NSNS LDOY ICE KOPI SSNARY SUMMARY NSNS LDOX ***",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "price": "aBueUg"
+    },
+    {
+      "cnt": "09",
+      "price": "yse9"
+    },
+    {
+      "price": "[eB10L"
+    },
+    {
+      "cnt": "2S",
+      "price": "(eqo4qNs"
+    },
+    {
+      "cnt": "8E ox",
+      "price": "nsng idoy"
+    },
+    {
+      "cnt": "0. =",
+      "price": "nsng doy",
+      "unitprice": "a9 ssa]"
+    },
+    {
+      "cnt": "ib",
+      "price": "nsns tdoy"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "ICE"
+    },
+    {
+      "nm": "KOPI SUSN BUNDWAY",
+      "price": "LDOY"
+    },
+    {
+      "nm": "KOODI SSET BUNDWEY",
+      "price": "LDOY"
+    },
+    {
+      "price": "ICE"
+    },
+    {
+      "nm": "KOPI SSNARY SUMMARY",
+      "price": "LDOX"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'3",
+      "num": "000'09",
+      "price": "Case,"
+    },
+    {
+      "nm": "000'LS",
+      "num": "000'LS"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'3</s_nm><s_num> 000'09</s_num><s_price> Case,</s_price><sep/><s_nm> 000'LS</s_nm><s_num> 000'LS</s_num><s_price> [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8</s>"
+}

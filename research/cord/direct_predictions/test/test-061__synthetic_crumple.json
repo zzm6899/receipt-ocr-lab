@@ -1,0 +1,224 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-061",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "9ce267afbbff2ee2e26ab4412a5a1ab40b89fe3e6b094f1f9519f0684b42184b",
+  "elapsed_seconds": 3.221,
+  "detected_words": 107,
+  "detected_lines": 22,
+  "ocr_text": "T's 8 Deepens co i 3500 Specs Fie ma TALAW UNGU 6 Bip tie ake 03 ee OISC 11EH j SPacere neat . oy AMOUNT ee, Be AREH - AREH 8 Reena B §6DISC ITEK 40.0 SEES 5. AHOUNT 3,2 See Pie 2x 3000 f: Sear e ‘ LEHPER i perk Tittle OISC ITE \\ Peat sa Ot AKOUNT ee a Yi 1x ) i wee HIKA SEDANG ‘ oe BE, 1X 0 oe , PLASTIK KEL Peo 1X 5000 Ses. t TEH KOTAK ‘ pa a ok ria 7 .OONTTEH: Paeebeaiy tae sabe fees SUBTOTAL 24,5 retells iS TOTAL 24,50 % * CARD 24 ,50u -",
+  "trocr_words": "*** *** EXCLUDED BALAN UNGU 6.50 ******** SR: 01000 DISC ITEM : +0.000: ******** SR: 01000 AMOUNT : 1 - 2.0% TRANSCASH OR AREH - AREN 8,000 CASHIER DISC ITEM -40.000% EXCHANGE AMOUNT -3,200 66898888 *** 8/03/2018/12/02/02/02/02/2018 *** SR: 5:00:00 AMOUNT - 7:20 PM *** EXCLUDING WITH A SEDANG @ 6% *** *** 1X ******** 500 GALESIABLE TEH KOTAK 5.00 WAVEN SAVA PRICE: 7.00 ITEMS FROM US SR:00-SUBTOTAL 24,500 ******** PAY TOTAL 24.50 CARD 24.50 EXCHANGE",
+  "ocr_rules_total": "24,50",
+  "ocr_rows": [
+    {
+      "nm": "B §6DISC ITEK",
+      "cnt": null,
+      "price": "40.0"
+    },
+    {
+      "nm": "AHOUNT",
+      "cnt": null,
+      "price": "3,2"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "EXCLUDED BALAN UNGU",
+      "cnt": null,
+      "price": "6.50"
+    },
+    {
+      "nm": "OR AREH - AREN",
+      "cnt": null,
+      "price": "8,000"
+    },
+    {
+      "nm": "GALESIABLE TEH KOTAK",
+      "cnt": null,
+      "price": "5.00"
+    },
+    {
+      "nm": "PRICE",
+      "cnt": null,
+      "price": "7.00"
+    },
+    {
+      "nm": "CARD",
+      "cnt": null,
+      "price": "24.50"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 24,50"
+  },
+  "cascade_fields": {
+    "total": "24,500 PAY TOTAL 24.50"
+  },
+  "layout_rows": [
+    {
+      "price": "8"
+    },
+    {
+      "nm": "co",
+      "cnt": "i",
+      "unitprice": "3500"
+    },
+    {
+      "nm": "TALAW UNGU",
+      "cnt": "ma",
+      "price": "6"
+    },
+    {
+      "cnt": "ee",
+      "price": "j"
+    },
+    {
+      "cnt": "oy"
+    },
+    {
+      "nm": "AREH AREH",
+      "cnt": "-",
+      "price": "8"
+    },
+    {
+      "cnt": "B §6DISC",
+      "price": "40.0"
+    },
+    {
+      "cnt": "2x",
+      "price": "f:",
+      "unitprice": "3000"
+    },
+    {
+      "nm": "LEHPER",
+      "cnt": "‘",
+      "price": "i"
+    },
+    {
+      "price": "\\"
+    },
+    {
+      "cnt": "Ot"
+    },
+    {
+      "cnt": "Yi 1x",
+      "price": "i",
+      "unitprice": ")"
+    },
+    {
+      "nm": "HIKA SEDANG",
+      "price": "‘"
+    },
+    {
+      "cnt": "1X",
+      "unitprice": "0"
+    },
+    {
+      "nm": "PLASTIK KEL",
+      "cnt": ",",
+      "price": "Peo"
+    },
+    {
+      "cnt": "1X",
+      "unitprice": "5000"
+    },
+    {
+      "nm": "TEH KOTAK",
+      "price": "‘"
+    },
+    {
+      "nm": ".OONTTEH:",
+      "cnt": "7",
+      "price": "Paeebeaiy sabe"
+    },
+    {
+      "cnt": "iS"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "EXCLUDED BALAN UNGU",
+      "price": "6.50 ********"
+    },
+    {
+      "cnt": ":",
+      "price": "********"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "OR AREH - AREN",
+      "price": "CASHIER",
+      "unitprice": "8,000"
+    },
+    {
+      "price": "66898888"
+    },
+    {
+      "price": "PM",
+      "unitprice": "5:00:00 7:20"
+    },
+    {
+      "cnt": "1X",
+      "price": "500"
+    },
+    {
+      "nm": "GALESIABLE TEH KOTAK",
+      "price": "5.00"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "TALAM UNGU",
+        "unitprice": "3500",
+        "cnt": "1X",
+        "discountprice": "-2 600",
+        "price": "6.500"
+      },
+      {
+        "nm": "AREM AREM",
+        "unitprice": "3000",
+        "cnt": "1X",
+        "discountprice": "-3,200",
+        "price": "8,000"
+      },
+      {
+        "nm": "LEMPER",
+        "unitprice": "9000",
+        "cnt": "2X",
+        "discountprice": "-7.200",
+        "price": "18,000"
+      },
+      {
+        "nm": "MIKA SEDANG",
+        "unitprice": "0",
+        "cnt": "1X",
+        "price": "0"
+      },
+      {
+        "nm": "PLASTIK KECIL",
+        "unitprice": "0",
+        "cnt": "1X",
+        "price": "0"
+      },
+      {
+        "nm": "TEH KOTAK",
+        "unitprice": "5000",
+        "cnt": "1X",
+        "price": "5.000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "24,500"
+    },
+    "total": {
+      "total_price": "24,500",
+      "creditcardprice": "24,500",
+      "menuqty_cnt": "7.00"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TALAM UNGU</s_nm><s_unitprice> 3500</s_unitprice><s_cnt> 1X</s_cnt><s_discountprice> -2 600</s_discountprice><s_price> 6.500</s_price><sep/><s_nm> AREM AREM</s_nm><s_unitprice> 3000</s_unitprice><s_cnt> 1X</s_cnt><s_discountprice> -3,200</s_discountprice><s_price> 8,000</s_price><sep/><s_nm> LEMPER</s_nm><s_unitprice> 9000</s_unitprice><s_cnt> 2X</s_cnt><s_discountprice> -7.200</s_discountprice><s_price> 18,000</s_price><sep/><s_nm> MIKA SEDANG</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1X</s_cnt><s_price> 0</s_price><sep/><s_nm> PLASTIK KECIL</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1X</s_cnt><s_price> 0</s_price><sep/><s_nm> TEH KOTAK</s_nm><s_unitprice> 5000</s_unitprice><s_cnt> 1X</s_cnt><s_price> 5.000</s_price></s_menu><s_sub_total><s_subtotal_price> 24,500</s_subtotal_price></s_sub_total><s_total><s_total_price> 24,500</s_total_price><s_creditcardprice> 24,500</s_creditcardprice><s_menuqty_cnt> 7.00</s_menuqty_cnt></s_total></s>"
+}

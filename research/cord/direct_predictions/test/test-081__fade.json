@@ -1,0 +1,122 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-081",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "892602845a3ca9101d0f2747e72a56486a194825dc5802ebde08b5f8212e7717",
+  "elapsed_seconds": 2.166,
+  "detected_words": 30,
+  "detected_lines": 9,
+  "ocr_text": "Tinos , : SU02-Kyote Chaco Mochi 14.000 x? 28.000 100i-Chorca Bur 22,000 “i 7? th = , 400i-Plastic Bag Small f vi * 6 Total Item: 4 Total. 20.000 |",
+  "trocr_words": "3002-KVOTA PHARA MACK: 3002-KYOTO CHOCO MOCHI 14.000 X2 28.000 1001-CHOCO BUN 22.000 X1 22.000 6001-PLASTIC BAG SMALL 0 X1 TOTAL ITEM: TOTAL.",
+  "ocr_rules_total": "20.000",
+  "ocr_rows": [
+    {
+      "nm": "x?",
+      "cnt": "14.000",
+      "price": "28.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "X2",
+      "cnt": "14.000",
+      "price": "28.000"
+    },
+    {
+      "nm": "X1",
+      "cnt": "22.000",
+      "price": "22.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total. 20.000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL."
+  },
+  "layout_rows": [
+    {
+      "nm": "Tinos ,",
+      "cnt": ":"
+    },
+    {
+      "nm": "SU02-Kyote Chaco Mochi"
+    },
+    {
+      "cnt": "x?",
+      "price": "28.000",
+      "unitprice": "14.000"
+    },
+    {
+      "nm": "100i-Chorca Bur"
+    },
+    {
+      "cnt": "“i",
+      "price": "7? th =",
+      "unitprice": "22,000"
+    },
+    {
+      "nm": "400i-Plastic Bag Small"
+    },
+    {
+      "cnt": "vi",
+      "price": "* 6",
+      "unitprice": "f"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "3002-KVOTA PHARA MACK:"
+    },
+    {
+      "nm": "3002-KYOTO CHOCO MOCHI"
+    },
+    {
+      "cnt": "X2",
+      "price": "28.000",
+      "unitprice": "14.000"
+    },
+    {
+      "nm": "1001-CHOCO BUN"
+    },
+    {
+      "cnt": "X1",
+      "price": "22.000",
+      "unitprice": "22.000"
+    },
+    {
+      "nm": "6001-PLASTIC BAG SMALL"
+    },
+    {
+      "unitprice": "0"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "3002-Kyoto Choco Mochi",
+        "unitprice": "14.000",
+        "cnt": "x2",
+        "price": "28.000"
+      },
+      {
+        "nm": "1001-Choco Bun",
+        "unitprice": "22.000",
+        "cnt": "x<unk>",
+        "price": "22.000"
+      },
+      {
+        "nm": "6001-Plastic Bag Small",
+        "unitprice": "0",
+        "cnt": "x<unk>",
+        "price": "0"
+      }
+    ],
+    "total": {
+      "total_price": "50.000",
+      "menuqty_cnt": "4"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 3002-Kyoto Choco Mochi</s_nm><s_unitprice> 14.000</s_unitprice><s_cnt> x2</s_cnt><s_price> 28.000</s_price><sep/><s_nm> 1001-Choco Bun</s_nm><s_unitprice> 22.000</s_unitprice><s_cnt> x<unk></s_cnt><s_price> 22.000</s_price><sep/><s_nm> 6001-Plastic Bag Small</s_nm><s_unitprice> 0</s_unitprice><s_cnt> x<unk></s_cnt><s_price> 0</s_price></s_menu><s_total><s_total_price> 50.000</s_total_price><s_menuqty_cnt> 4</s_menuqty_cnt></s_total></s>"
+}

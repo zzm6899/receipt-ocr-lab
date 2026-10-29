@@ -1,0 +1,232 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-094",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "0240b985d7ed06159843afd1c6305e166124af903155041285bf6173aea75655",
+  "elapsed_seconds": 5.667,
+  "detected_words": 83,
+  "detected_lines": 28,
+  "ocr_text": "As = <x 2 be agiiil oS ° > ae =x a. hee w 7) ----._ eee Oe -- Ww = <x z _ be A ae w 2 TAaHU GORENG 28,000 90 — 1 CAKWE 17,000 “= > 1 PHOTAICHINIR) 63,000 & 1 TES 11,000 Ww Sub Total 113,000 xe ve FON 2.320 s w Sery, 7.0% 8,33) Pa} = PB1 10.0% 12,733 © < Grand Total 140,053 0 23H CREDIT CAR: 140,063 2 - Wess2sceceeetersetetsesessssezz222 ° — A= Sen ee ~<",
+  "trocr_words": "ES M A Z - - \" SALE P \"........ @ ......................................... E M A Z Z - 1 TAHUGORENG 28.00 1 TAHU GORENG 28,000 - 1 CAKWE 17,000 Z > 1 PHOTAICHIN (R) 63,000 @ 1 TEA 11,000 WW SUB TOTAL : 119,000 @ SERN. 7.0% 8,330 WWW.SERV. 7.0% 8,330 2 PBL 10.0% 12,733 O GARD TOTAL 140,063 Z SIA CREDIT CAR: 140,063 Z T ................................ -................................",
+  "ocr_rules_total": "0",
+  "ocr_rows": [
+    {
+      "nm": "w 2 TAaHU GORENG",
+      "cnt": null,
+      "price": "28,000"
+    },
+    {
+      "nm": "— 1 CAKWE",
+      "cnt": null,
+      "price": "17,000"
+    },
+    {
+      "nm": "> 1 PHOTAICHINIR)",
+      "cnt": null,
+      "price": "63,000"
+    },
+    {
+      "nm": "TES",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "xe ve FON",
+      "cnt": null,
+      "price": "2.320"
+    },
+    {
+      "nm": "= PB1 10.0%",
+      "cnt": null,
+      "price": "12,733"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "1 TAHUGORENG",
+      "cnt": null,
+      "price": "28.00"
+    },
+    {
+      "nm": "TAHU GORENG",
+      "cnt": "1",
+      "price": "28,000"
+    },
+    {
+      "nm": "1 CAKWE",
+      "cnt": null,
+      "price": "17,000"
+    },
+    {
+      "nm": "> 1 PHOTAICHIN (R)",
+      "cnt": null,
+      "price": "63,000"
+    },
+    {
+      "nm": "TEA",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "@ SERN. 7.0%",
+      "cnt": null,
+      "price": "8,330"
+    },
+    {
+      "nm": "WWW.SERV. 7.0%",
+      "cnt": null,
+      "price": "8,330"
+    },
+    {
+      "nm": "PBL 10.0%",
+      "cnt": "2",
+      "price": "12,733"
+    }
+  ],
+  "layout_fields": {
+    "total": "Grand Total A="
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "="
+    },
+    {
+      "cnt": "<x"
+    },
+    {
+      "cnt": "2"
+    },
+    {
+      "cnt": "be",
+      "price": "agiiil"
+    },
+    {
+      "cnt": "oS",
+      "price": "°"
+    },
+    {
+      "cnt": ">"
+    },
+    {
+      "cnt": "7)",
+      "price": "Oe"
+    },
+    {
+      "cnt": "Ww"
+    },
+    {
+      "cnt": "<x"
+    },
+    {
+      "cnt": "z"
+    },
+    {
+      "nm": "A",
+      "cnt": "be"
+    },
+    {
+      "nm": "TAaHU GORENG",
+      "cnt": "w 2",
+      "price": "28,000 90"
+    },
+    {
+      "nm": "CAKWE",
+      "cnt": "— 1",
+      "price": "17,000"
+    },
+    {
+      "nm": "PHOTAICHINIR)",
+      "cnt": "> 1",
+      "price": "63,000"
+    },
+    {
+      "nm": "TES",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "cnt": "Ww",
+      "price": "113,000"
+    },
+    {
+      "cnt": "xe",
+      "price": "2.320"
+    },
+    {
+      "nm": "Sery,",
+      "cnt": "w",
+      "price": "8,33)"
+    },
+    {
+      "nm": "PB1",
+      "cnt": "=",
+      "price": "12,733"
+    },
+    {
+      "cnt": "<"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "ES"
+    },
+    {
+      "cnt": "M"
+    },
+    {
+      "cnt": "A"
+    },
+    {
+      "nm": "TAHUGORENG",
+      "cnt": "- 1",
+      "price": "28.00"
+    },
+    {
+      "nm": "TAHU GORENG",
+      "cnt": "1",
+      "price": "28,000"
+    },
+    {
+      "nm": "CAKWE",
+      "cnt": "- 1",
+      "price": "Z",
+      "unitprice": "17,000"
+    },
+    {
+      "nm": "PHOTAICHIN",
+      "cnt": "> 1",
+      "price": "63,000 @"
+    },
+    {
+      "nm": "TEA",
+      "cnt": "1",
+      "unitprice": "11,000"
+    },
+    {
+      "nm": "SERN.",
+      "cnt": "@"
+    },
+    {
+      "nm": "WWW.SERV.",
+      "price": "8,330"
+    },
+    {
+      "nm": "PBL",
+      "cnt": "2",
+      "price": "O"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "N",
+      "price": "O"
+    },
+    {
+      "nm": "N",
+      "price": "O"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> N</s_nm><s_price> O</s_price><sep/><s_nm> N</s_nm><s_price> O</s_price><sep/><s_nm> E T T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T S CREDIT CAR: T E T E T E T E T CREDIT T E T E T CARDIT T E T E T E T T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T E T S T E T E T E T E T E T E T E T E T E T E T E T S T E T E T E T E T E T E T E T S T E T E T E T E T E T E T E T S T E T</s>"
+}

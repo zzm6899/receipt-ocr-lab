@@ -1,0 +1,75 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-023",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "93fa2f86a75ef9dca4176311074b8d4df2d54c9ccb9363d820ed513c61251488",
+  "elapsed_seconds": 1.04,
+  "detected_words": 16,
+  "detected_lines": 5,
+  "ocr_text": "000° 2 JONVHO su fan pe UUU ty TWIOL 000°6 ayaa NV3Edsy | 0008 a ee",
+  "trocr_words": "CHANGE 7,000 CASH - 1,00 TOTAL 63,000 1 REDEAN BREAD 00 6,000 6 TWISIONS INVO ISIML 9",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "REDEAN BREAD 00",
+      "cnt": "1",
+      "price": "6,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 63,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "JONVHO",
+      "cnt": "2"
+    },
+    {
+      "price": "pe"
+    },
+    {
+      "price": "TWIOL"
+    },
+    {
+      "price": "ayaa NV3Edsy |"
+    },
+    {
+      "cnt": "a",
+      "price": "ee"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "1,00"
+    },
+    {
+      "nm": "REDEAN BREAD",
+      "cnt": "1",
+      "price": "6,000",
+      "unitprice": "00"
+    },
+    {
+      "nm": "TWISIONS INVO",
+      "cnt": "6",
+      "price": "9"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ESNVHO",
+      "num": "000'L",
+      "price": "HASUC"
+    },
+    "sub_total": {
+      "discount_price": "79101",
+      "tax_price": "000'6"
+    },
+    "total": {
+      "total_price": "9"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ESNVHO</s_nm><s_num> 000'L</s_num><s_price> HASUC</s_price></s_menu><s_sub_total><s_discount_price> 79101</s_discount_price><s_tax_price> 000'6</s_tax_price></s_sub_total><s_total><s_total_price> 9</s_total_price></s_total></s>"
+}

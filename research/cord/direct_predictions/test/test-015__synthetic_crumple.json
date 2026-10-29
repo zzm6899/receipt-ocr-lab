@@ -1,0 +1,94 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-015",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "5094e24b1dec0b928e0a5273fbf06ae8724dfc61dbf192431ffe33c5db39dc80",
+  "elapsed_seconds": 1.268,
+  "detected_words": 30,
+  "detected_lines": 7,
+  "ocr_text": ") ™ a hee ae wa am OM cS | | Co ee | ies H Femon Tea (L) oe . PMs ramel Smal] = 3B. 00 TOTA 63, (00",
+  "trocr_words": "L SR WWW. 1 LEMON TEA (L) 25.000 1 LEMON TEA (L) RAMEL SMALL 38.000 TOTAL 63.000",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "LEMON TEA (L)",
+      "cnt": "1",
+      "price": "25.000"
+    },
+    {
+      "nm": "RAMEL SMALL",
+      "cnt": null,
+      "price": "38.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTA 63,"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 63.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "™ a",
+      "price": "ae",
+      "unitprice": "hee"
+    },
+    {
+      "cnt": "wa",
+      "unitprice": "OM"
+    },
+    {
+      "cnt": "| |",
+      "unitprice": "ee"
+    },
+    {
+      "nm": "Femon Tea",
+      "cnt": "H (L)",
+      "price": ". PMs",
+      "unitprice": "oe"
+    },
+    {
+      "nm": "ramel Smal]",
+      "cnt": "=",
+      "price": "3B. 00"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "LEMON TEA",
+      "cnt": "1 (L)",
+      "price": "25.000"
+    },
+    {
+      "nm": "LEMON",
+      "cnt": "1 TEA",
+      "price": "(L)"
+    },
+    {
+      "nm": "RAMEL SMALL",
+      "price": "38.000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Lemon Tea (L)",
+        "cnt": "1",
+        "price": "25.000"
+      },
+      {
+        "nm": "Caramel Small",
+        "cnt": "1",
+        "price": "38.000"
+      }
+    ],
+    "total": {
+      "total_price": "63.000",
+      "cashprice": "70.000",
+      "changeprice": "7.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Lemon Tea (L)</s_nm><s_cnt> 1</s_cnt><s_price> 25.000</s_price><sep/><s_nm> Caramel Small</s_nm><s_cnt> 1</s_cnt><s_price> 38.000</s_price></s_menu><s_total><s_total_price> 63.000</s_total_price><s_cashprice> 70.000</s_cashprice><s_changeprice> 7.000</s_changeprice></s_total></s>"
+}

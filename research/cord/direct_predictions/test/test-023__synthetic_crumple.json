@@ -1,0 +1,87 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-023",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "8431d327307d857dd0d479f0876a0db9038e292c5578d119cde0ae28c498de86",
+  "elapsed_seconds": 0.983,
+  "detected_words": 16,
+  "detected_lines": 5,
+  "ocr_text": "a wWISTooWwT|||~*~SO*«S OOO 1 REDBEAN BREAD 9,000 TOTAL 63,000 CASH iu 4 70,001 CHANGE i 000",
+  "trocr_words": "6 TWIST DONUT 54,000 1 REDBEAN BREAD 9,000 TOTAL 63,000 CASH - 70000 CHANGE 7,000",
+  "ocr_rules_total": "63,000",
+  "ocr_rows": [
+    {
+      "nm": "REDBEAN BREAD",
+      "cnt": "1",
+      "price": "9,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "TWIST DONUT",
+      "cnt": "6",
+      "price": "54,000"
+    },
+    {
+      "nm": "REDBEAN BREAD",
+      "cnt": "1",
+      "price": "9,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 63,000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 63,000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "a"
+    },
+    {
+      "nm": "REDBEAN BREAD",
+      "cnt": "1",
+      "price": "9,000"
+    },
+    {
+      "cnt": "iu 4",
+      "price": "70,001"
+    },
+    {
+      "cnt": "i"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TWIST DONUT",
+      "cnt": "6",
+      "price": "54,000"
+    },
+    {
+      "nm": "REDBEAN BREAD",
+      "cnt": "1",
+      "price": "9,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "TWIST DONUT",
+        "cnt": "6",
+        "price": "54,000"
+      },
+      {
+        "nm": "REDBEAN BREAD",
+        "cnt": "1",
+        "price": "9,000"
+      }
+    ],
+    "total": {
+      "total_price": "63,000",
+      "cashprice": "70,000",
+      "changeprice": "7,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TWIST DONUT</s_nm><s_cnt> 6</s_cnt><s_price> 54,000</s_price><sep/><s_nm> REDBEAN BREAD</s_nm><s_cnt> 1</s_cnt><s_price> 9,000</s_price></s_menu><s_total><s_total_price> 63,000</s_total_price><s_cashprice> 70,000</s_cashprice><s_changeprice> 7,000</s_changeprice></s_total></s>"
+}

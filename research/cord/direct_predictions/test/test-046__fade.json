@@ -1,0 +1,141 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-046",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "52d36005d55613cbd6c7b2c0cea2cc25114ba8aab324f43195a32e9b072a1396",
+  "elapsed_seconds": 2.375,
+  "detected_words": 61,
+  "detected_lines": 16,
+  "ocr_text": "ee Va Be, 4 } i 4 ail . a 4 . - ° ae ‘ gil & SK S-BubbIe Milk Tea 070,000 20,00 - 100K 2 F 1X S-Caramel Wilk Tea @20,000 20,000 | a 100% ie a Total: 40,000 me ce ae Cash: 40,000 pe ae 50 CHANGE / 0 s Bi te ---- Dis iti oe ea eee",
+  "trocr_words": ": TOTAL 1 2 : NAME C 1X S-BUBLA MILK TEA @20,000 20,000 1X 100% MILIK TEA 821,000 8,000 1X S-CARAMEL MILK TEA @20,000 20,000 100% TOTAL TOTAL: 40,000 CHANGE AGAIN: 40,000 CHANGE ( 0.0 ......................... SR",
+  "ocr_rules_total": "40,000",
+  "ocr_rows": [
+    {
+      "nm": "SK S-BubbIe Milk Tea 070,000",
+      "cnt": null,
+      "price": "20,00"
+    },
+    {
+      "nm": "F 1X S-Caramel Wilk Tea @20,000",
+      "cnt": null,
+      "price": "20,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "1X S-BUBLA MILK TEA @20,000",
+      "cnt": null,
+      "price": "20,000"
+    },
+    {
+      "nm": "1X 100% MILIK TEA 821,000",
+      "cnt": null,
+      "price": "8,000"
+    },
+    {
+      "nm": "1X S-CARAMEL MILK TEA @20,000",
+      "cnt": null,
+      "price": "20,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total:"
+  },
+  "cascade_fields": {
+    "total": "TOTAL TOTAL: 40,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "Va"
+    },
+    {
+      "nm": "Be,",
+      "cnt": "4",
+      "price": "}"
+    },
+    {
+      "nm": "i",
+      "cnt": "4"
+    },
+    {
+      "cnt": "."
+    },
+    {
+      "cnt": "a 4"
+    },
+    {
+      "nm": "ae",
+      "cnt": "°",
+      "price": "‘"
+    },
+    {
+      "cnt": "&"
+    },
+    {
+      "nm": "S-BubbIe Milk Tea",
+      "cnt": "SK",
+      "price": "20,00",
+      "unitprice": "070,000"
+    },
+    {
+      "nm": "S-Caramel Wilk Tea",
+      "cnt": "F 1X",
+      "price": "20,000",
+      "unitprice": "@20,000"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "ae",
+      "price": "40,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "S-BUBLA MILK TEA",
+      "cnt": "1X",
+      "price": "@20,000 20,000"
+    },
+    {
+      "nm": "100% MILIK TEA",
+      "cnt": "1X",
+      "price": "821,000 8,000"
+    },
+    {
+      "nm": "S-CARAMEL MILK TEA",
+      "cnt": "1X",
+      "price": "20,000",
+      "unitprice": "@20,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "S-Bubble Milk Tea",
+        "unitprice": "@20,000",
+        "cnt": "1X",
+        "price": "20,000",
+        "sub": {
+          "nm": "100%"
+        }
+      },
+      {
+        "nm": "S-Caramel Milk Tea",
+        "unitprice": "@20,000",
+        "cnt": "1X",
+        "price": "20,000",
+        "sub": {
+          "nm": "100%"
+        }
+      }
+    ],
+    "total": {
+      "total_price": "40,000",
+      "cashprice": "40,000",
+      "changeprice": "0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> S-Bubble Milk Tea</s_nm><s_unitprice> @20,000</s_unitprice><s_cnt> 1X</s_cnt><s_price> 20,000</s_price><s_sub><s_nm> 100%</s_nm></s_sub><sep/><s_nm> S-Caramel Milk Tea</s_nm><s_unitprice> @20,000</s_unitprice><s_cnt> 1X</s_cnt><s_price> 20,000</s_price><s_sub><s_nm> 100%</s_nm></s_sub></s_menu><s_total><s_total_price> 40,000</s_total_price><s_cashprice> 40,000</s_cashprice><s_changeprice> 0</s_changeprice></s_total></s>"
+}

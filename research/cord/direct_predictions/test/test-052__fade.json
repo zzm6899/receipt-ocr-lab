@@ -1,0 +1,127 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-052",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "f82c6e68465b4134bbf1ae34cecc20b1bdff484624835b2c00b13c0b50efbaa4",
+  "elapsed_seconds": 1.275,
+  "detected_words": 25,
+  "detected_lines": 9,
+  "ocr_text": "ld NE THAT ICED TEA 1 420.000 20.000 THAI ICED TEA + 620.000 20.000 SUB-TOTAL 40 000 GRANDTOTAL 40,000 CASH re wee 100.000 CHANGED 60.000",
+  "trocr_words": "AMOUNT # THAI ICED TEA 1 @20.000 20.000 THAI ICED TEA 1 @20.000 20.000 SUB-TOTAL 40.000 GRANDTOTAL 40.000 CASH CHANGED 60.000",
+  "ocr_rules_total": "40 000",
+  "ocr_rows": [
+    {
+      "nm": "420.000",
+      "cnt": "1",
+      "price": "20.000"
+    },
+    {
+      "nm": "+ 620.000",
+      "cnt": null,
+      "price": "20.000"
+    },
+    {
+      "nm": "GRANDTOTAL",
+      "cnt": null,
+      "price": "40,000"
+    },
+    {
+      "nm": "CHANGED",
+      "cnt": null,
+      "price": "60.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "@20.000",
+      "cnt": "1",
+      "price": "20.000"
+    },
+    {
+      "nm": "@20.000",
+      "cnt": "1",
+      "price": "20.000"
+    },
+    {
+      "nm": "GRANDTOTAL",
+      "cnt": null,
+      "price": "40.000"
+    },
+    {
+      "nm": "CHANGED",
+      "cnt": null,
+      "price": "60.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "ld GRANDTOTAL 40,000"
+  },
+  "cascade_fields": {
+    "total": "GRANDTOTAL 40.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "NE THAT ICED TEA"
+    },
+    {
+      "cnt": "1",
+      "price": "20.000",
+      "unitprice": "420.000"
+    },
+    {
+      "nm": "THAI ICED TEA"
+    },
+    {
+      "cnt": "+",
+      "price": "20.000",
+      "unitprice": "620.000"
+    },
+    {
+      "price": "000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "THAI ICED TEA"
+    },
+    {
+      "cnt": "1",
+      "price": "20.000",
+      "unitprice": "@20.000"
+    },
+    {
+      "nm": "THAI ICED TEA"
+    },
+    {
+      "cnt": "1",
+      "price": "20.000",
+      "unitprice": "@20.000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "THAI ICED TEA",
+        "unitprice": "@20.000",
+        "cnt": "1",
+        "price": "20.000"
+      },
+      {
+        "nm": "THAI ICED TEA",
+        "unitprice": "@20.000",
+        "cnt": "1",
+        "price": "20.000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "40.000"
+    },
+    "total": {
+      "total_price": "40.000",
+      "cashprice": "100.000",
+      "changeprice": "60.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> THAI ICED TEA</s_nm><s_unitprice> @20.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 20.000</s_price><sep/><s_nm> THAI ICED TEA</s_nm><s_unitprice> @20.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 20.000</s_price></s_menu><s_sub_total><s_subtotal_price> 40.000</s_subtotal_price></s_sub_total><s_total><s_total_price> 40.000</s_total_price><s_cashprice> 100.000</s_cashprice><s_changeprice> 60.000</s_changeprice></s_total></s>"
+}

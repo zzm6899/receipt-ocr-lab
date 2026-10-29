@@ -1,0 +1,95 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-040",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "b70c0649dff743e8d5ff1c4b339633e5908372833d4d23af2e2fe58e0a49e05c",
+  "elapsed_seconds": 1.925,
+  "detected_words": 45,
+  "detected_lines": 12,
+  "ocr_text": "Rast ee ae a 2% 27008 S4.00e Rekery Aneke Sisir benane,Pirca, yoko ¥s ner Daging, abon, Keju,cokelat,dil 2. 7,008 : 14,090 Se TOTAL 68,000 CASH je 480,008 CHANGE cf 3/6 oaceleieeieey) i. #2000 SoU SHEARERSRNSESH EERE E Sees eee Ses ae (CS crooner aa baal",
+  "trocr_words": "SHANK LASTERI ALL - 2 27,000 BELERY, AMELIA SISIY, BAMANA,Pizza, YOHOR TE MER,DAGING, AHON,KEJU,COKELAT,dL 2 7,000 *** TOTAL : 6B,000 CASH *** CHANGE : 1 - 1 - 1 - 1 - ****************************************** GST REG #: (S) :",
+  "ocr_rules_total": "68,000",
+  "ocr_rows": [
+    {
+      "nm": "2. 7,008",
+      "cnt": null,
+      "price": "14,090"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "2",
+      "cnt": null,
+      "price": "27,000"
+    },
+    {
+      "nm": "2",
+      "cnt": null,
+      "price": "7,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 68,000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL : 6B,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "Rast",
+      "cnt": "ae",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": "2%",
+      "price": "S4.00e",
+      "unitprice": "27008"
+    },
+    {
+      "nm": "Rekery Aneke Sisir benane,Pirca,",
+      "price": "yoko ¥s"
+    },
+    {
+      "nm": "Daging, abon, Keju,cokelat,dil"
+    },
+    {
+      "cnt": "2. :",
+      "price": "14,090",
+      "unitprice": "7,008"
+    },
+    {
+      "nm": "oaceleieeieey)",
+      "cnt": "3/6",
+      "price": "#2000"
+    },
+    {
+      "nm": "crooner",
+      "cnt": "aa"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "SHANK LASTERI ALL"
+    },
+    {
+      "cnt": "2",
+      "unitprice": "27,000"
+    },
+    {
+      "nm": "BELERY, AMELIA SISIY, BAMANA,Pizza,",
+      "price": "TE"
+    },
+    {
+      "nm": "MER,DAGING, AHON,KEJU,COKELAT,dL"
+    },
+    {
+      "cnt": "2",
+      "unitprice": "7,000"
+    }
+  ],
+  "donut_json": {
+    "text_sequence": "</s>"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm></s>"
+}

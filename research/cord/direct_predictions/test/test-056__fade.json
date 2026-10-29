@@ -1,0 +1,102 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-056",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "26c1683fd9f219ab40f6132ac01ae51d782f03bcb29c07f4f06f667c08d4bd3e",
+  "elapsed_seconds": 1.757,
+  "detected_words": 47,
+  "detected_lines": 12,
+  "ocr_text": "= » = | — = 4 +t’ Srwmrtre . + = a dare cea : * ? ° * ~ PPO ger ar AIR MINERAL. me. 181 — SUBTOTAL -8, 181 ——— TAX 818 ape -~ 8, 9399 CASH -10, 000 ete 1,001 ER ee ee",
+  "trocr_words": "MMMM AMOUNT TIME CASHIER E AIR MINERAL 8,181 SUBTOTAL 8,181 TAX 818 TL 8.999 CASH 10.000 CG : 1,001 ITEM",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "ete",
+      "cnt": null,
+      "price": "1,001"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "AIR MINERAL",
+      "cnt": null,
+      "price": "8,181"
+    },
+    {
+      "nm": "TL",
+      "cnt": null,
+      "price": "8.999"
+    },
+    {
+      "nm": "CG",
+      "cnt": null,
+      "price": "1,001"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "MMMM AMOUNT TL 8.999"
+  },
+  "layout_rows": [
+    {
+      "cnt": "= » = |",
+      "price": "—"
+    },
+    {
+      "cnt": "= 4",
+      "price": "="
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "* ? °",
+      "price": "~"
+    },
+    {
+      "price": "ar"
+    },
+    {
+      "nm": "AIR MINERAL.",
+      "price": "181 —",
+      "unitprice": "me."
+    },
+    {
+      "price": "181 ———"
+    },
+    {
+      "nm": "TAX",
+      "price": "818"
+    },
+    {
+      "nm": "ape",
+      "cnt": "8,",
+      "price": "9399"
+    },
+    {
+      "price": "000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "8,181"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "AIR MINERAL",
+      "price": "8,181"
+    },
+    "sub_total": {
+      "subtotal_price": "8,181",
+      "tax_price": "818"
+    },
+    "total": {
+      "total_price": "8,999",
+      "cashprice": "10,000",
+      "changeprice": "1,001"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> AIR MINERAL</s_nm><s_price> 8,181</s_price></s_menu><s_sub_total><s_subtotal_price> 8,181</s_subtotal_price><s_tax_price> 818</s_tax_price></s_sub_total><s_total><s_total_price> 8,999</s_total_price><s_cashprice> 10,000</s_cashprice><s_changeprice> 1,001</s_changeprice></s_total></s>"
+}

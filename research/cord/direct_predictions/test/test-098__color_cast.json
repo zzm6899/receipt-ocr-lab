@@ -1,0 +1,255 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-098",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "b7a43e760a464609afabf41a870d0d7167811da208bc01e300dfe5f94eed83e0",
+  "elapsed_seconds": 7.397,
+  "detected_words": 235,
+  "detected_lines": 40,
+  "ocr_text": "SC [oS ae, ER 1 — a = a — ae AGS ae i - z “SS oa — ee a : SS <_- h i —— ~ 4, on a = <a SS Sia = Ss ~—. ~~ e, See ‘ ao i ane ‘ti SS Ta ey th = eat ~S = > Ty - * . ee — = 3 ~~ ahs. ee a | SS hy C = ; 3 Sy - P e ; = —S = FOOD SS Quali KT 2h er TTT ETT Ss SSS aly oe i HERE ‘gill a GAH AMMAR RGE HELE DA Ss TSS SUC A nT RT TT HA HAWW EES FH PUTTAR eta ny , 2 = — Presentalj CA NE AEE PNA tas ee ae eA Wie SS (ver ieee ete LAM a erat ah = = SSS |, eer er ~~ we BEVERAC SS —S Quality/K = SS = SSS SSS a. lame Oe means ~— SSS te/Ra aE) ee sac 79, HOC SS P | BLACK PEPPER MEATBALL PAS De SSS 1 TRUFFLE CREAM Aas a SERVICE 1 EARL GREY MILK TEA pee tw i SUBTTI POSES —— = riendiin , Sap 5 FY 2,300 — . Agia\" [AX 10% us aaa Attentiv ee cee -— oe ca Time/W roval 250 ,690 ca BS A oS Se ~ ae w= 2S \\ —\") ~ ~~ = => <2 ——",
+  "trocr_words": "MY /S/S AM AMOUNT CASH VAN MY AMOUNT NO NOTS ONCLUSIVE ON ALL - CASHIER 1 @ CASHIER 9 FOOD WHOPPERMAN 5009 CASHYMENT AMOUNT ITOTAL PREMEY CHANGE INCLUSIVE PRESEIPT FOR ANCLUDED WITH AMOUNT TAX ELLOW BEVERAK ELLOWM SR: PRESEIPT @ 1 DAY WHER MEXUAL HAS 7.20 SER#2 FAX PEPER METAIL PKS 78,000 TASTE/RA 1 BLUX MEPER MEABAIL PNS 7/30 1 TRAPPLE CREAM MEXIML NO 7,000 SERVICE 1 BHD REY MILK TEA 28,000 SERVICE 1 EMT @6% MAX 18: 28:00 PM REQUIRED SUBVICE CHARGE 6% 12,90 PROMPED TAX 10% DAMBER NO. 22,790 AMOUNT NO. 11/18/ 250,690 AMERBY TOTAL 250,690 AAAAES *** = CASHIER SR: SR",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "riendiin , Sap 5 FY",
+      "cnt": null,
+      "price": "2,300"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "PRESEIPT @ 1 DAY WHER MEXUAL HAS",
+      "cnt": null,
+      "price": "7.20"
+    },
+    {
+      "nm": "SER#2 FAX PEPER METAIL PKS",
+      "cnt": null,
+      "price": "78,000"
+    },
+    {
+      "nm": "TRAPPLE CREAM MEXIML NO",
+      "cnt": "1",
+      "price": "7,000"
+    },
+    {
+      "nm": "SERVICE 1 BHD REY MILK TEA",
+      "cnt": null,
+      "price": "28,000"
+    },
+    {
+      "nm": "REQUIRED SUBVICE CHARGE 6%",
+      "cnt": null,
+      "price": "12,90"
+    }
+  ],
+  "layout_fields": {
+    "total": "[oS ae, BS"
+  },
+  "cascade_fields": {
+    "total": "AM AMOUNT ITOTAL TOTAL 250,690"
+  },
+  "layout_rows": [
+    {
+      "cnt": "1 —"
+    },
+    {
+      "cnt": "= — ae ae i - z",
+      "price": "“SS oa — ee"
+    },
+    {
+      "cnt": ": h i",
+      "price": "~ on"
+    },
+    {
+      "cnt": "‘ i ane Ta ey",
+      "price": "th ~S",
+      "unitprice": "SS"
+    },
+    {
+      "cnt": "> Ty - * .",
+      "price": "ee"
+    },
+    {
+      "cnt": "|",
+      "price": "SS"
+    },
+    {
+      "price": "hy"
+    },
+    {
+      "cnt": "C",
+      "price": "= ; 3"
+    },
+    {
+      "cnt": "-",
+      "price": "Sy P"
+    },
+    {
+      "cnt": "e ;",
+      "price": "="
+    },
+    {
+      "nm": "FOOD",
+      "price": "SS"
+    },
+    {
+      "cnt": "2h er ETT",
+      "price": "Ss SSS"
+    },
+    {
+      "nm": "AMMAR",
+      "cnt": "i a GAH",
+      "price": "RGE HELE DA Ss TSS"
+    },
+    {
+      "nm": "PUTTAR",
+      "cnt": "HA HAWW EES FH",
+      "price": "eta ny ,",
+      "unitprice": "RT TT"
+    },
+    {
+      "nm": "Presentalj",
+      "cnt": "tas",
+      "price": "ee ae eA Wie SS"
+    },
+    {
+      "cnt": "(ver",
+      "price": "erat ah",
+      "unitprice": "a"
+    },
+    {
+      "price": "er we"
+    },
+    {
+      "nm": "BEVERAC",
+      "price": "SS —S"
+    },
+    {
+      "nm": "Quality/K",
+      "price": "= SS"
+    },
+    {
+      "price": "SSS SSS"
+    },
+    {
+      "cnt": "a.",
+      "price": "means",
+      "unitprice": "lame Oe"
+    },
+    {
+      "price": "sac 79, HOC SS",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": "P |",
+      "price": "De"
+    },
+    {
+      "cnt": "1",
+      "price": "Aas a"
+    },
+    {
+      "nm": "SERVICE TEA",
+      "cnt": "1",
+      "price": "pee tw"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "nm": "riendiin",
+      "cnt": ", 5 FY",
+      "price": "2,300 —"
+    },
+    {
+      "nm": "Agia\"",
+      "cnt": "[AX",
+      "price": "us aaa",
+      "unitprice": "10%"
+    },
+    {
+      "nm": "Attentiv",
+      "price": "oe ca",
+      "unitprice": "ee"
+    },
+    {
+      "nm": "Time/W roval",
+      "price": "250 ,690 ca"
+    },
+    {
+      "price": "A oS"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "NO"
+    },
+    {
+      "nm": "DAY WHER",
+      "cnt": "@ 1",
+      "price": "HAS 7.20"
+    },
+    {
+      "nm": "PEPER METAIL",
+      "cnt": "FAX",
+      "price": "78,000"
+    },
+    {
+      "nm": "TASTE/RA BLUX MEPER",
+      "cnt": "1",
+      "price": "PNS 7/30"
+    },
+    {
+      "nm": "TRAPPLE CREAM",
+      "cnt": "1",
+      "price": "NO"
+    },
+    {
+      "nm": "SERVICE BHD REY MILK",
+      "cnt": "1",
+      "price": "28,000"
+    },
+    {
+      "nm": "SERVICE EMT @6% MAX 18:",
+      "cnt": "1",
+      "price": "28:00 PM"
+    },
+    {
+      "nm": "REQUIRED SUBVICE CHARGE",
+      "price": "6% 12,90"
+    },
+    {
+      "nm": "DAMBER",
+      "cnt": "TAX",
+      "price": "22,790"
+    },
+    {
+      "price": "250,690"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "FOOD Quality/K"
+      },
+      {
+        "nm": "Presentat Taste/Ra.",
+        "price": "BEVERAC"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "79,000",
+      "discount_price": "77,000",
+      "service_price": "59,000",
+      "tax_price": "12,900",
+      "etc": "22,790"
+    },
+    "total": {
+      "total_price": "250,690",
+      "total_etc": "Ambiance"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> FOOD Quality/K</s_nm><sep/><s_nm> Presentat Taste/Ra.</s_nm><s_price> BEVERAC</s_price></s_menu><s_sub_total><s_subtotal_price> 79,000</s_subtotal_price><s_discount_price> 77,000</s_discount_price><s_service_price> 59,000</s_service_price><s_tax_price> 12,900</s_tax_price><s_etc> 22,790</s_etc></s_sub_total><s_total><s_total_price> 250,690</s_total_price><s_total_etc> Ambiance</s_total_etc></s_total></s>"
+}

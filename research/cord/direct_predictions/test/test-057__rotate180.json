@@ -1,0 +1,50 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-057",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "8d468a205d9fba31bfe47dd137a8327f6a6ad4cd527bad84a32ed025285afb14",
+  "elapsed_seconds": 0.946,
+  "detected_words": 9,
+  "detected_lines": 6,
+  "ocr_text": "> ‘a gee> une Tse! | : , LW",
+  "trocr_words": "AM *** 0'02- 11 0301 ) : MAS",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "> gee>"
+  },
+  "cascade_fields": {
+    "total": "AM"
+  },
+  "layout_rows": [
+    {
+      "nm": "une",
+      "price": "Tse!"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "11",
+      "price": "0301"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "0000'27.",
+        "price": "HASUC"
+      },
+      {
+        "nm": "000'27.",
+        "num": "19 0301",
+        "price": "0301"
+      }
+    ],
+    "total": {
+      "total_price": "11 0301"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 0000'27.</s_nm><s_price> HASUC</s_price><sep/><s_nm> 000'27.</s_nm><s_num> 19 0301</s_num><s_price> 0301</s_price></s_menu><s_total><s_total_price> 11 0301</s_total_price></s_total></s>"
+}

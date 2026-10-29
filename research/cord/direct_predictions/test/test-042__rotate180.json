@@ -1,0 +1,78 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-042",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "626a2677cc31611811656e3f77ab28c752232a3f67f11794b297dd49fe93803d",
+  "elapsed_seconds": 3.236,
+  "detected_words": 62,
+  "detected_lines": 30,
+  "ocr_text": "ai \\a ae Bit “Spee uae a 4 ae a i cw y 3 Anal =. : Att é¥ Lot? | i ; Wagar pee bahantia q F , ¢ re hi ) J J) sas ‘ f ‘ \\ ‘ hy, 4 as eh Fe a a f Th teens Be - P ae a , bie ieee ‘Sa (ee ae",
+  "trocr_words": "CASHIER CASHIER : : TAX SR : SR SR QWAY X X X X X X X X : AAALAI U.L. I.P.M WWW.W.W 4588 6 1 MEW UNN BHD - AMOUNTAL ID: 000 MC TRANSITIVE WITH PR01 JUN 992 TAX NET & US ON BACK : : CASHIER CASHIER : IT WWWWWWWWWWWWWWWWWWWW. BARASANANAN PERMAS SR: ITEMS MUST BE WITH THE ONCLUSIVE ON FACEBOOK OF THEBOOK SR:",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "sas ‘ ‘ \\ hy, Be ,"
+  },
+  "cascade_fields": {
+    "total": ": : BARASANANAN"
+  },
+  "layout_rows": [
+    {
+      "price": "ai \\a"
+    },
+    {
+      "price": "ae"
+    },
+    {
+      "cnt": "3"
+    },
+    {
+      "cnt": "é¥"
+    },
+    {
+      "cnt": ";"
+    },
+    {
+      "cnt": "q F , ¢",
+      "price": "re"
+    },
+    {
+      "cnt": ")",
+      "price": "J J)"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "QWAY",
+      "cnt": "X X X X X X X X"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "nm": "AAALAI"
+    },
+    {
+      "nm": "MEW UNN BHD",
+      "cnt": "6 1"
+    },
+    {
+      "nm": "AMOUNTAL",
+      "unitprice": "000"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "GOS'EE",
+      "unitprice": "[equality] [sea] [sea] [005'91",
+      "cnt": "1",
+      "price": "[10]"
+    },
+    {
+      "nm": "COS'L"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> GOS'EE</s_nm><s_unitprice> [equality] [sea] [sea] [005'91</s_unitprice><s_cnt> 1</s_cnt><s_price> [10]</s_price><sep/><s_nm> COS'L</s_nm><s_unitprice> 01是陸'd</s_nm><s_num> 000'SI</s_nm><s_num> [10] qns</s_num><s_price> 000'SI</s_nm><s_num> SPL '30H [EXP] [10]</s_cashprice></s_total></s>"
+}

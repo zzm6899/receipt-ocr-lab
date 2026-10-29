@@ -1,0 +1,158 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-047",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "fe509c19190a775fb48f6a7129531119d8a3a3304248161b249a6f9a09ca76ad",
+  "elapsed_seconds": 2.444,
+  "detected_words": 56,
+  "detected_lines": 16,
+  "ocr_text": "oe eennees ot * oe Joes 7 oe bm + 7 “ a + or “7. eo — ao COPIA 1 /GB 1 45,000.00 2100252000358 45,000.00 PLASTIC BAG RED CENTRAL SI 1 0.00 §100544260074 0.00 COPIA t /GB il 18,000.00 2100252000358 18,000.00 Total 63,000.00 Total discount 0.00 Tota) quantity 3 Card Payment DEBIT CARD ee a",
+  "trocr_words": "THE COME AGAIN FACEBOOKMENT FACE OF *** * - ITEMS COPIA 1 /GB - 1 - 45,000.00 210025200358 PLASTIC BAG RED CENTRAL SI 1 0.00 9100544260074 COPIA 1 /GB 1 18,000.00 210025200358 TOTAL AMOUNT NO: 1, JOHANANANAN 3,000.00 TOTAL DISCOUNT @ 0.00 TOTAL QUANTITY @ 3 CARD PAYMENT DEBIT CARD 6300.00",
+  "ocr_rules_total": "0.00",
+  "ocr_rows": [
+    {
+      "nm": "COPIA 1 /GB 1",
+      "cnt": null,
+      "price": "45,000.00"
+    },
+    {
+      "nm": "2100252000358",
+      "cnt": null,
+      "price": "45,000.00"
+    },
+    {
+      "nm": "PLASTIC BAG RED CENTRAL SI 1",
+      "cnt": null,
+      "price": "0.00"
+    },
+    {
+      "nm": "§100544260074",
+      "cnt": null,
+      "price": "0.00"
+    },
+    {
+      "nm": "COPIA t /GB il",
+      "cnt": null,
+      "price": "18,000.00"
+    },
+    {
+      "nm": "2100252000358",
+      "cnt": null,
+      "price": "18,000.00"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "COPIA 1 /GB - 1",
+      "cnt": null,
+      "price": "45,000.00"
+    },
+    {
+      "nm": "PLASTIC BAG RED CENTRAL SI 1",
+      "cnt": null,
+      "price": "0.00"
+    },
+    {
+      "nm": "COPIA 1 /GB 1",
+      "cnt": null,
+      "price": "18,000.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total"
+  },
+  "cascade_fields": {
+    "total": "THE TOTAL"
+  },
+  "layout_rows": [
+    {
+      "cnt": "* 7",
+      "price": "bm"
+    },
+    {
+      "cnt": "7 “",
+      "unitprice": "a"
+    },
+    {
+      "cnt": "“7."
+    },
+    {
+      "unitprice": "eo"
+    },
+    {
+      "cnt": "—",
+      "price": "ao"
+    },
+    {
+      "cnt": "1 1",
+      "unitprice": "45,000.00"
+    },
+    {
+      "price": "45,000.00"
+    },
+    {
+      "nm": "PLASTIC BAG RED CENTRAL SI",
+      "cnt": "1",
+      "price": "0.00"
+    },
+    {
+      "price": "0.00"
+    },
+    {
+      "cnt": "t il",
+      "unitprice": "18,000.00"
+    },
+    {
+      "price": "18,000.00"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1 1",
+      "unitprice": "45,000.00"
+    },
+    {
+      "nm": "PLASTIC BAG RED CENTRAL",
+      "cnt": "1",
+      "price": "SI 0.00"
+    },
+    {
+      "cnt": "1 1",
+      "unitprice": "18,000.00"
+    },
+    {
+      "nm": "JOHANANANAN",
+      "cnt": "1,",
+      "price": "3,000.00"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "COPIA 1 /GB",
+        "unitprice": "45,000.00",
+        "cnt": "1",
+        "price": "45,000.00"
+      },
+      {
+        "nm": "PLASTIC BAG RED CENTRAL SI",
+        "unitprice": "0.00",
+        "cnt": "1",
+        "price": "0.00"
+      },
+      {
+        "nm": "910054260074",
+        "unitprice": "18,000.00",
+        "cnt": "1",
+        "price": "18,000.00"
+      }
+    ],
+    "total": {
+      "total_price": "63,000.00",
+      "creditcardprice": "0.00",
+      "menuqty_cnt": "3"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> COPIA 1 /GB</s_nm><s_unitprice> 45,000.00</s_unitprice><s_cnt> 1</s_cnt><s_price> 45,000.00</s_price><sep/><s_nm> PLASTIC BAG RED CENTRAL SI</s_nm><s_unitprice> 0.00</s_unitprice><s_cnt> 1</s_cnt><s_price> 0.00</s_price><sep/><s_nm> 910054260074</s_nm><s_unitprice> 18,000.00</s_unitprice><s_cnt> 1</s_cnt><s_price> 18,000.00</s_price></s_menu><s_total><s_total_price> 63,000.00</s_total_price><s_creditcardprice> 0.00</s_creditcardprice><s_menuqty_cnt> 3</s_menuqty_cnt></s_total></s>"
+}

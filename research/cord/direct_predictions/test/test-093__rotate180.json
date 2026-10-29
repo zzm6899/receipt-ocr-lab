@@ -1,0 +1,93 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-093",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "6a1fcd1e3980d78759d710746580e9832b007d2496608e6829c6316a6654cb53",
+  "elapsed_seconds": 4.219,
+  "detected_words": 36,
+  "detected_lines": 10,
+  "ocr_text": "ee iii cee bi wee ae ae | | a. Zo oom a ¢ poe Pree ; geetlt Tea Puro ee oysay yeled con't a. Sp I waay yeTane E's epe'et xT (1) val 302 IVHL",
+  "trocr_words": "CASHIER : ---- - 66647 PAY KEEP KEEP MEAK KEEP SUBE'91 TRANSACTION TOTAL TE401 9NS JUMBLE WHAI VETWAY 1 X X X X THAI ICEA (EA)",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "-"
+  },
+  "layout_rows": [
+    {
+      "cnt": "bi",
+      "price": "ae",
+      "unitprice": "iii cee wee"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "price": "¢"
+    },
+    {
+      "price": ";"
+    },
+    {
+      "nm": "geetlt",
+      "price": "Puro",
+      "unitprice": "Tea"
+    },
+    {
+      "unitprice": "oysay"
+    },
+    {
+      "price": "Sp",
+      "unitprice": "a."
+    },
+    {
+      "cnt": "I",
+      "price": "yeTane",
+      "unitprice": "waay"
+    },
+    {
+      "price": "xT"
+    },
+    {
+      "cnt": "(1)",
+      "price": "302 IVHL",
+      "unitprice": "val"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "KEEP"
+    },
+    {
+      "nm": "TRANSACTION",
+      "price": "9NS"
+    },
+    {
+      "nm": "JUMBLE"
+    },
+    {
+      "cnt": "1 X X X X"
+    },
+    {
+      "nm": "THAI",
+      "price": "(EA)"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "666'LI",
+      "cnt": "1",
+      "price": "Keled"
+    },
+    {
+      "nm": "TEL04 qns",
+      "unitprice": "991",
+      "cnt": "1",
+      "total_etc": "292*91"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 666'LI</s_nm><s_unitprice> TEL04 puasiq</s_nm><s_unitprice> 929'<unk></s_unitprice><s_cnt> 1</s_cnt><s_price> Keled</s_price><sep/><s_nm> TEL04 qns</s_nm><s_unitprice> 991</s_unitprice><s_cnt> 1</s_cnt><s_price> yetmn</s_total_price><s_total_etc> 292*91</s_total_etc><s_unitprice> [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9] [9]</s>"
+}

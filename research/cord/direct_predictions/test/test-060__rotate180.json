@@ -1,0 +1,127 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-060",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "7b1c2a685970729157c5866e8881c0803da2423318275ab4a65f82b564a3e0ff",
+  "elapsed_seconds": 5.158,
+  "detected_words": 77,
+  "detected_lines": 18,
+  "ocr_text": "es OOS aS a vee Le ne ce Pee \"4 wn ete ' _— >) 992'92 (10, ee yered fie 1 OSC 92 je}0jqnS no's? 005° 21N ze ( fo Od pL) (PulBlig LUIW Lan P1Og = fee gg2't GSC\" I xX ia (1s! ie | Og | ynqun) st yreds OL LW Bulddoy = ee in = : - 7 + ee = ae - oe | ~~ + ts “A i ae . 7 3",
+  "trocr_words": "WWW.COM.COM WWWWWWWWWWWWWWWWWW PEMPRAYARAN UBIRAYED PAP - TOTAL TOTAL: 06.25 PAID BY CRIND SUBTOTAL: 1 @6.50 2 X 2 X 2.50 (L) GST REG ID: 006100 IOUN ION BIOG X1 X X X X (ISJ TOPDING WITHS OLIM BUDDOL - ITEMS ITEMS .... CASHIER",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "X 2 X",
+      "cnt": "2",
+      "price": "2.50"
+    }
+  ],
+  "layout_fields": {
+    "total": "“A ."
+  },
+  "cascade_fields": {
+    "total": "- TOTAL TOTAL: 06.25"
+  },
+  "layout_rows": [
+    {
+      "nm": "es OOS",
+      "cnt": "a",
+      "price": "vee",
+      "unitprice": "aS"
+    },
+    {
+      "cnt": "ne"
+    },
+    {
+      "cnt": "\"4 wn",
+      "price": "' _—"
+    },
+    {
+      "cnt": ">)",
+      "price": "(10,"
+    },
+    {
+      "cnt": "ee",
+      "price": "yered fie"
+    },
+    {
+      "cnt": "1 OSC",
+      "price": "je}0jqnS",
+      "unitprice": "92"
+    },
+    {
+      "price": "ze",
+      "unitprice": "005° 21N"
+    },
+    {
+      "price": "( fo"
+    },
+    {
+      "nm": "(PulBlig",
+      "cnt": "pL)",
+      "price": "Lan P1Og fee",
+      "unitprice": "LUIW"
+    },
+    {
+      "nm": "GSC\"",
+      "cnt": "I",
+      "price": "xX"
+    },
+    {
+      "nm": "ynqun) st yreds",
+      "cnt": "| |",
+      "price": "OL LW Bulddoy"
+    },
+    {
+      "price": "in"
+    },
+    {
+      "cnt": "7"
+    },
+    {
+      "cnt": "| ~~ +"
+    },
+    {
+      "cnt": "7"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PEMPRAYARAN UBIRAYED",
+      "price": "PAP"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "2 X 2 X",
+      "unitprice": "2.50"
+    },
+    {
+      "nm": "GST REG",
+      "cnt": "ID:",
+      "price": "IOUN ION BIOG",
+      "unitprice": "006100"
+    },
+    {
+      "cnt": "X1 X",
+      "price": "X X",
+      "unitprice": "X"
+    },
+    {
+      "nm": "TOPDING WITHS OLIM",
+      "price": "BUDDOL"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "APP-05",
+      "price": {
+        "nm": "APP-02"
+      }
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> APP-05</s_nm><s_price> Rappewade<sep/><s_nm> APP-02</s_nm><s_price> [10]</s_price><sep/><s_nm> APPLE<sep/><s_nm> APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APPLE APP APPLE APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP APP </s>"
+}

@@ -1,0 +1,145 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-097",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "f2d7195ea0d7c246add9b86899aa65c72b883d7ab341d706b5b9a8e33eb3b88d",
+  "elapsed_seconds": 1.5,
+  "detected_words": 35,
+  "detected_lines": 15,
+  "ocr_text": "noomn aware aa Conan ee a | wee : a mm 2 #20.000 BUBUR GO 40.000 PUYUH GO 6.000 3 #3.000 SATE¢AT ICO @ 6.00xITEMS TOTAL 55.000 CASH 55.000 a ie freer oe on re",
+  "trocr_words": "BUNUR AYAM PARK TRAN ITEMS WITHIN SR: ********: *** 2 20.000 BUBUR GO PUYUH GO 6.000 3 3.000 SATECATION 6.00 6.00XITEMS TOTAL 55.000 CASH 55.000 : *** AMOUNT",
+  "ocr_rules_total": "55.000",
+  "ocr_rows": [
+    {
+      "nm": "BUBUR GO",
+      "cnt": null,
+      "price": "40.000"
+    },
+    {
+      "nm": "PUYUH GO",
+      "cnt": null,
+      "price": "6.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "2",
+      "cnt": null,
+      "price": "20.000"
+    },
+    {
+      "nm": "PUYUH GO",
+      "cnt": null,
+      "price": "6.000"
+    },
+    {
+      "nm": "3",
+      "cnt": null,
+      "price": "3.000"
+    },
+    {
+      "nm": "SATECATION",
+      "cnt": null,
+      "price": "6.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 55.000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 55.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "noomn",
+      "unitprice": "aware"
+    },
+    {
+      "nm": "aa",
+      "price": "Conan"
+    },
+    {
+      "price": "a |"
+    },
+    {
+      "nm": "wee",
+      "cnt": ":",
+      "price": "mm",
+      "unitprice": "a"
+    },
+    {
+      "cnt": "2",
+      "unitprice": "#20.000"
+    },
+    {
+      "nm": "BUBUR GO",
+      "price": "40.000"
+    },
+    {
+      "nm": "PUYUH GO",
+      "price": "6.000"
+    },
+    {
+      "cnt": "3",
+      "unitprice": "#3.000"
+    },
+    {
+      "nm": "SATE¢AT ICO",
+      "price": "@"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BUNUR AYAM"
+    },
+    {
+      "nm": "PARK"
+    },
+    {
+      "cnt": "2",
+      "unitprice": "20.000"
+    },
+    {
+      "nm": "BUBUR"
+    },
+    {
+      "nm": "PUYUH",
+      "price": "6.000"
+    },
+    {
+      "cnt": "3",
+      "unitprice": "3.000"
+    },
+    {
+      "nm": "SATECATION",
+      "price": "6.00"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BUBUR GO",
+        "unitprice": "20.000",
+        "cnt": "2",
+        "price": "40.000"
+      },
+      {
+        "nm": "PUYUH GO",
+        "price": "6.000"
+      },
+      {
+        "nm": "SATEcATIzGO",
+        "unitprice": "3.000",
+        "cnt": "3",
+        "price": "6.000"
+      }
+    ],
+    "total": {
+      "total_price": "55.000",
+      "cashprice": "55.000",
+      "menuqty_cnt": "6.00xITEMS"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BUBUR GO</s_nm><s_unitprice> 20.000</s_unitprice><s_cnt> 2</s_cnt><s_price> 40.000</s_price><sep/><s_nm> PUYUH GO</s_nm><s_price> 6.000</s_price><sep/><s_nm> SATEcATIzGO</s_nm><s_unitprice> 3.000</s_unitprice><s_cnt> 3</s_cnt><s_price> 6.000</s_price></s_menu><s_total><s_total_price> 55.000</s_total_price><s_cashprice> 55.000</s_cashprice><s_menuqty_cnt> 6.00xITEMS</s_menuqty_cnt></s_total></s>"
+}

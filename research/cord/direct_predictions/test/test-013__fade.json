@@ -1,0 +1,126 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-013",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "d406ebd598a05077d2077f673a611b667c18f0547461308c31148989673c4a7a",
+  "elapsed_seconds": 2.463,
+  "detected_words": 61,
+  "detected_lines": 28,
+  "ocr_text": "H - 3] (on ‘a QD iN eG Ouse ee Se es Sy j AS } | > | | = Ti Va GaneD TOURNEY = A SSS ae —— LB: a “4 a yy ee a oy) a omer N Re, GA “ad A 2e8sg] os in 70S . meee ea ~ E a a P ies 4 . |",
+  "trocr_words": "@ A = C N G CA 0 WWW. ITEM (RM) ITEMPS (RM) PLEASE OF EQUANY R - - ITEMARY (INCLUDED) : 46.6360 AMOUNT: 46.635-A ** 0% SR: 709 KING: @6 1 S 2 1 : :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "H os in 70S . ea ~ E"
+  },
+  "cascade_fields": {
+    "total": "@ = SR: 709"
+  },
+  "layout_rows": [
+    {
+      "cnt": "3]"
+    },
+    {
+      "price": "(on"
+    },
+    {
+      "price": "‘a"
+    },
+    {
+      "price": "eG"
+    },
+    {
+      "cnt": "Ouse es",
+      "price": "Sy",
+      "unitprice": "ee Se"
+    },
+    {
+      "cnt": "j"
+    },
+    {
+      "cnt": "} |"
+    },
+    {
+      "cnt": "| |"
+    },
+    {
+      "nm": "Ti Va GaneD TOURNEY",
+      "price": "="
+    },
+    {
+      "price": "A"
+    },
+    {
+      "nm": "SSS",
+      "price": "—— LB:",
+      "unitprice": "ae"
+    },
+    {
+      "cnt": "“4",
+      "price": "yy"
+    },
+    {
+      "cnt": "ee a",
+      "price": "oy)"
+    },
+    {
+      "price": "omer N"
+    },
+    {
+      "price": "GA"
+    },
+    {
+      "cnt": "A",
+      "price": "2e8sg]"
+    },
+    {
+      "cnt": "P"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "C"
+    },
+    {
+      "price": "N"
+    },
+    {
+      "cnt": ":",
+      "price": "46.6360"
+    },
+    {
+      "cnt": "1"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BASO KUAH",
+        "unitprice": "43.636",
+        "cnt": "1",
+        "price": "43.636"
+      },
+      {
+        "nm": "A.MINERAL GELAS",
+        "unitprice": "3.000",
+        "cnt": "1",
+        "price": "3.000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": [
+        "46.636",
+        "46.636"
+      ],
+      "tax_price": "4.66"
+    },
+    "total": {
+      "total_price": "51.300",
+      "cashprice": "52.000",
+      "changeprice": "700"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BASO KUAH</s_nm><s_unitprice> 43.636</s_unitprice><s_cnt> 1</s_cnt><s_price> 43.636</s_price><sep/><s_nm> A.MINERAL GELAS</s_nm><s_unitprice> 3.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 3.000</s_price></s_menu><s_sub_total><s_subtotal_price> 46.636<sep/> 46.636</s_subtotal_price><s_tax_price> 4.66</s_tax_price></s_sub_total><s_total><s_total_price> 51.300</s_total_price><s_cashprice> 52.000</s_cashprice><s_changeprice> 700</s_changeprice></s_total></s>"
+}

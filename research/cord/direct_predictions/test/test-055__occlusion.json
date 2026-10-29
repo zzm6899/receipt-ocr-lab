@@ -1,0 +1,112 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-055",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "b660d3e47d7da7a72c19654bbc982e0d4b7317a5903368fcd82b6842e2c0f11c",
+  "elapsed_seconds": 1.689,
+  "detected_words": 39,
+  "detected_lines": 12,
+  "ocr_text": "| Hebei = An f \" VAR bi) “APPLE CINNANON PASTRY 22,000 7 2 ROYAL CHEESE TART 32,000 TOTAL 2 ,000 2 CARD 2 ,000 = Bebb bbb bbt-h-t- 4-4-4 j - —_ » a os 7 ee ee",
+  "trocr_words": "TAKE AMOUNT ITEM 1 APPLE CINNAMON PASTRY 22,000 (2 ROYAL CHEESE TART 32,000 TOTAL 54,000 CARD 5,000 AMMM L = -0 *** : WWW.",
+  "ocr_rules_total": "000",
+  "ocr_rows": [
+    {
+      "nm": "“APPLE CINNANON PASTRY",
+      "cnt": null,
+      "price": "22,000"
+    },
+    {
+      "nm": "2 ROYAL CHEESE TART",
+      "cnt": "7",
+      "price": "32,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "APPLE CINNAMON PASTRY",
+      "cnt": "1",
+      "price": "22,000"
+    },
+    {
+      "nm": "(2 ROYAL CHEESE TART",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "CARD",
+      "cnt": null,
+      "price": "5,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 54,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "Hebei =",
+      "cnt": "|",
+      "price": "An"
+    },
+    {
+      "cnt": "f \""
+    },
+    {
+      "nm": "“APPLE CINNANON PASTRY",
+      "price": "22,000"
+    },
+    {
+      "nm": "ROYAL CHEESE TART",
+      "cnt": "7 2",
+      "price": "32,000"
+    },
+    {
+      "cnt": "2",
+      "price": ",000"
+    },
+    {
+      "cnt": "2 2",
+      "price": ",000"
+    },
+    {
+      "cnt": "= 4-4-4"
+    },
+    {
+      "price": "»"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "APPLE CINNAMON PASTRY",
+      "cnt": "1",
+      "price": "22,000"
+    },
+    {
+      "nm": "ROYAL CHEESE TART",
+      "cnt": "(2",
+      "price": "32,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "APPLE CINNAMON PASTRY",
+        "cnt": "1",
+        "price": "22,000"
+      },
+      {
+        "nm": "ROYAL CHEESE TART",
+        "cnt": "2",
+        "price": "32,000"
+      }
+    ],
+    "total": {
+      "total_price": "54,000",
+      "creditcardprice": "54,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> APPLE CINNAMON PASTRY</s_nm><s_cnt> 1</s_cnt><s_price> 22,000</s_price><sep/><s_nm> ROYAL CHEESE TART</s_nm><s_cnt> 2</s_cnt><s_price> 32,000</s_price></s_menu><s_total><s_total_price> 54,000</s_total_price><s_creditcardprice> 54,000</s_creditcardprice></s_total></s>"
+}

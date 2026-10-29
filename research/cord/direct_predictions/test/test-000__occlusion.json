@@ -1,0 +1,90 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-000",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "d50bc06960c1195622a746d7b01e9b250fe10c9f03b625f49b4178222103ba35",
+  "elapsed_seconds": 1.234,
+  "detected_words": 27,
+  "detected_lines": 8,
+  "ocr_text": "901016 -TICKET CP it 60,000 £0,000 JOTAL DISC $ -h0.000 TAX 5.455 Subtotal 40.000 TOTAL caty 2.00 60,000 ~ EDC CINB NIAGA No: xx7730 60,000 eda Turn",
+  "trocr_words": "901016 -TICKET CP 2 TOTAL DISC $ 60.000 TAX 5.455 SUBTOTAL 60.000 TOTAL (QTY 2.00 60.000 - EDC CIMB NIAGA NO: XX7730 600.000 CUSTOMER INFO",
+  "ocr_rules_total": "60,000",
+  "ocr_rows": [
+    {
+      "nm": "it",
+      "cnt": null,
+      "price": "60,000"
+    },
+    {
+      "nm": "~ EDC CINB NIAGA No: xx7730",
+      "cnt": null,
+      "price": "60,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "EDC CIMB NIAGA NO: XX7730",
+      "cnt": null,
+      "price": "600.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 60,000"
+  },
+  "cascade_fields": {
+    "total": "60.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "-TICKET CP"
+    },
+    {
+      "cnt": "it",
+      "price": "£0,000",
+      "unitprice": "60,000"
+    },
+    {
+      "cnt": "$",
+      "price": "-h0.000"
+    },
+    {
+      "price": "5.455"
+    },
+    {
+      "nm": "EDC CINB NIAGA",
+      "price": "60,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "-TICKET CP"
+    },
+    {
+      "price": "60.000"
+    },
+    {
+      "nm": "EDC CIMB NIAGA",
+      "price": "600.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "- TICKET CP",
+      "num": "901016",
+      "unitprice": "60.000",
+      "cnt": "2",
+      "price": "60,000"
+    },
+    "sub_total": {
+      "subtotal_price": "-60.000",
+      "tax_price": "5.455"
+    },
+    "total": {
+      "total_price": "60.000",
+      "emoneyprice": "60.000",
+      "menuqty_cnt": "2.00"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> - TICKET CP</s_nm><s_num> 901016</s_num><s_unitprice> 60.000</s_unitprice><s_cnt> 2</s_cnt><s_price> 60,000</s_price></s_menu><s_sub_total><s_subtotal_price> -60.000</s_subtotal_price><s_tax_price> 5.455</s_tax_price></s_sub_total><s_total><s_total_price> 60.000</s_total_price><s_emoneyprice> 60.000</s_emoneyprice><s_menuqty_cnt> 2.00</s_menuqty_cnt></s_total></s>"
+}

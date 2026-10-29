@@ -1,0 +1,99 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-046",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "63f454595c938611a5cefbedbebe5ffb034df397a47980df976bc5b2d8d33964",
+  "elapsed_seconds": 2.2,
+  "detected_words": 52,
+  "detected_lines": 15,
+  "ocr_text": "re eee = 0 7 JONVHO ee eS — 000‘ or :yseq : oe 000‘ OP : [P40] : al | oe | o x001 a 0o0'02 00002 ASL ALLW [SWEIED-S Xt | J 00L oo qoo'oe 000029 PAL ALIM @1qgng-s XL” jai ‘ wi ° i ad | (f YY 7",
+  "trocr_words": "MALL 0.00 CASH: 40,00 *** : ... 100% 1X S-GARAME | MILM [AMPARA]S-X1 1006 AMOUNT RAI XUMAINONS 1 X-BANDBLE WITH TEX TEX WITH AGAING-S XL - 7 MAX (RM) 1",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "| 7"
+  },
+  "cascade_fields": {
+    "total": "MALL MAX"
+  },
+  "layout_rows": [
+    {
+      "nm": "re",
+      "price": "eee"
+    },
+    {
+      "nm": "JONVHO",
+      "cnt": "= 7",
+      "price": "ee eS",
+      "unitprice": "0"
+    },
+    {
+      "cnt": "or",
+      "price": ":",
+      "unitprice": "000‘"
+    },
+    {
+      "cnt": "oe OP :",
+      "price": ": al",
+      "unitprice": "000‘"
+    },
+    {
+      "price": "|"
+    },
+    {
+      "price": "x001",
+      "unitprice": "o"
+    },
+    {
+      "nm": "ASL ALLW [SWEIED-S",
+      "cnt": "a",
+      "price": "Xt",
+      "unitprice": "0o0'02 00002"
+    },
+    {
+      "cnt": "J",
+      "price": "00L"
+    },
+    {
+      "nm": "PAL ALIM @1qgng-s",
+      "cnt": "oo",
+      "price": "XL”",
+      "unitprice": "qoo'oe 000029"
+    },
+    {
+      "cnt": "(f"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "S-GARAME MILM",
+      "cnt": "1X"
+    },
+    {
+      "unitprice": "1006 AMOUNT RAI"
+    },
+    {
+      "nm": "X-BANDBLE",
+      "cnt": "1",
+      "price": "XL"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "GUNVOICE",
+      "unitprice": "0",
+      "cnt": "000'0",
+      "price": {
+        "unitprice": "[810]",
+        "cnt": "XOOL"
+      }
+    },
+    {
+      "nm": "000'0Z0 gal MILK [same]-S",
+      "num": "000'02"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> GUNVOICE</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 000'0</s_cnt><s_price> :usanja</s_nm><s_unitprice> [810]</s_unitprice><s_cnt> XOOL</s_cnt><s_price> XL</s_price><sep/><s_nm> 000'0Z0 gal MILK [same]-S</s_nm><s_num> 000'02</s_num><s_unitprice> 000'0Z0 gal MILK [apple] XL</s_changeprice></s_total></s>"
+}

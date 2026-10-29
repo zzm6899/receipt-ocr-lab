@@ -1,0 +1,194 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-065",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "5501ea0f0db805074bdd9d77cce66ba1991fdba24c9329bcfd07437046af0102",
+  "elapsed_seconds": 7.126,
+  "detected_words": 163,
+  "detected_lines": 37,
+  "ocr_text": "2, — , ies iii Midlia allaiil teed ee ~ , : ee ~ 2 NAP EDN Re RRS SONG RO —— —a eae ee Pe oe | a ee co Co by ee : i. aie oe ay 4 | eee | Eee . is aan q ee i a Y ; eae bee ‘ae «i Bb St | sae a etme Ce a ol eae See ee ee Dh aor) | eel : ubur Polos + Telur . eae 13.608 13.000 a BPM =~ : - cS Ota os Bubtctal = 13,809 : ogra ERS < o Oe : Ao oe pi diy ie gg oe ‘ : ; f ote ke i ab: 3 ; os ag on 28 eS al Aa ire ee s E fet ot saa 0) attains Ie bak obs 190). , sae oe: > 2 Wicca hata ie TOTS ae : WEE: i > | F , ae ve AY ee eeyre ery ih palatdiatt",
+  "trocr_words": ": AMOUNT: WWW.MY. WWW.MY. WWW.WW. GST ITEM 1 - CASHIER ITEMS ITEM - : ......................... ................................................ THANK DALAS I TALAN PERMAS UBUR POLOS + TELUR : 13.000 13.000 ................................ INITOTAL ************ SUBTOTAL 13.000 WWWWW.WW.WW. DATEK PERMAS INTERMAS AJAK SUMMARY,COMMARY,COM- Q.00 TOTAL : 1 TOTAL : 13.000 WWW.WW.WW.WW.WW. WWW.WWWWWWWWWWWWWW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K CASHIER CASHIER 1 1 : WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "13.608",
+      "cnt": null,
+      "price": "13.000"
+    },
+    {
+      "nm": "Bubtctal =",
+      "cnt": null,
+      "price": "13,809"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "13.000",
+      "cnt": null,
+      "price": "13.000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": ": AMOUNT: TOTAL TOTAL : 13.000 :"
+  },
+  "layout_rows": [
+    {
+      "cnt": "2,"
+    },
+    {
+      "cnt": ","
+    },
+    {
+      "nm": "NAP EDN Re RRS SONG",
+      "cnt": "~ 2",
+      "price": "RO"
+    },
+    {
+      "price": "ee Pe"
+    },
+    {
+      "cnt": "| a co",
+      "price": "Co by",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": ":",
+      "price": "i."
+    },
+    {
+      "price": "ay",
+      "unitprice": "aie oe"
+    },
+    {
+      "cnt": "| |",
+      "price": "Eee"
+    },
+    {
+      "price": "is aan",
+      "unitprice": "."
+    },
+    {
+      "cnt": "q",
+      "price": "ee i"
+    },
+    {
+      "cnt": "a Y ;",
+      "price": "«i",
+      "unitprice": "eae bee"
+    },
+    {
+      "cnt": "|",
+      "price": "sae"
+    },
+    {
+      "price": "Dh"
+    },
+    {
+      "cnt": "|",
+      "price": ":"
+    },
+    {
+      "cnt": "+"
+    },
+    {
+      "unitprice": "eae"
+    },
+    {
+      "price": "13.000",
+      "unitprice": "13.608"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "nm": "Bubtctal",
+      "cnt": "=",
+      "price": "13,809"
+    },
+    {
+      "cnt": ": <",
+      "price": "Oe",
+      "unitprice": "o"
+    },
+    {
+      "cnt": "gg ‘",
+      "unitprice": "Ao pi diy ie oe"
+    },
+    {
+      "cnt": "; f i",
+      "price": "3 ;",
+      "unitprice": "ke"
+    },
+    {
+      "cnt": "on al Aa",
+      "price": "ee s",
+      "unitprice": "28 ire"
+    },
+    {
+      "nm": "fet",
+      "cnt": "E",
+      "price": "0)",
+      "unitprice": "ot saa"
+    },
+    {
+      "unitprice": "bak"
+    },
+    {
+      "cnt": "sae oe: > 2"
+    },
+    {
+      "cnt": "ie"
+    },
+    {
+      "cnt": ":",
+      "price": "i",
+      "unitprice": "WEE:"
+    },
+    {
+      "cnt": ","
+    },
+    {
+      "cnt": "AY"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "THANK DALAS I TALAN"
+    },
+    {
+      "nm": "UBUR POLOS",
+      "price": "TELUR"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "price": "13.000",
+      "unitprice": "13.000"
+    },
+    {
+      "nm": "DATEK PERMAS"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ubur Polos + Telur",
+      "unitprice": "13.000",
+      "cnt": "3x",
+      "price": "13.000"
+    },
+    "sub_total": {
+      "subtotal_price": "13.000",
+      "tax_price": "ajak"
+    },
+    "total": {
+      "total_price": "13.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ubur Polos + Telur</s_nm><s_unitprice> 13.000</s_unitprice><s_cnt> 3x</s_cnt><s_price> 13.000</s_price></s_menu><s_sub_total><s_subtotal_price> 13.000</s_subtotal_price><s_tax_price> ajak</s_tax_price></s_sub_total><s_total><s_total_price> 13.000</s_total_price></s_total></s>"
+}

@@ -1,0 +1,7 @@
+route,fully_labeled_pairs_n,both_correct_n,clear_only_correct_n,scrunched_only_correct_n,neither_correct_n,scrunched_minus_clear_paired_accuracy_pp,paired_receipt_bootstrap95_low_pp,paired_receipt_bootstrap95_high_pp,exact_mcnemar_p_two_sided,bootstrap_draws,bootstrap_seed,reference_status,holm_adjusted_mcnemar_p_6_routes
+Tesseract+rules,49,2,12,4,31,-16.3265306122449,-30.612244897959183,0.0,0.076812744140625,10000,20261007,assistant-audited/unverified,0.3072509765625
+LayoutLMv3,49,0,6,0,43,-12.244897959183673,-22.448979591836736,-4.081632653061225,0.03125,10000,20261008,assistant-audited/unverified,0.15625
+TrOCR+LayoutLMv3,49,1,13,3,32,-20.408163265306122,-34.69387755102041,-6.122448979591836,0.021270751953125,10000,20261009,assistant-audited/unverified,0.12762451171875
+Donut,49,6,9,9,25,0.0,-16.3265306122449,16.3265306122449,1,10000,20261010,assistant-audited/unverified,1.0
+GLM-OCR,49,41,2,4,2,4.081632653061225,-6.122448979591836,14.285714285714285,0.6875,10000,20261011,assistant-audited/unverified,1.0
+Qwen3.5-2B,49,37,3,4,5,2.0408163265306123,-8.16326530612245,12.244897959183673,1,10000,20261012,assistant-audited/unverified,1.0

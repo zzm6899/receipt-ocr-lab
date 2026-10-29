@@ -1,0 +1,87 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-064",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "6436683d4fb442e7bc4143218a8cc30a124e6e0025811539d1be3f5f66744006",
+  "elapsed_seconds": 2.39,
+  "detected_words": 79,
+  "detected_lines": 24,
+  "ocr_text": "yee tt A -_ 3 « oy te \"y ‘i a i 4 ' hm, \\ ~ / f } “\\ ral be . iri ih We > ‘ 7 iM C- 5 i) “ i si | wi LRG} z ey) Tbh hd MY Ve VA a} sha) id it Sao bye 3 ; ne ail i. CHANGE 0) a an or A ili ee) allie ‘ Pe ae i ‘ . a . 5 ! ‘ *",
+  "trocr_words": "- : : ITEM : 4 WWW G ATEM B20 ITEM : MAX 14000 UHL 100.U ATEND 50.000 NO.00 MCD# JU.VVV CHANGE 34.000 CHANGE 34.000 - - CASHIER ITEM ARRM AMOUNT AMOUNT AMOUNT WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "ATEND",
+      "cnt": null,
+      "price": "50.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "yee ‘ i . ."
+  },
+  "cascade_fields": {
+    "total": "MAX 14000 ATEND 50.000 AMOUNT AMOUNT AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "price": "tt"
+    },
+    {
+      "price": "A"
+    },
+    {
+      "cnt": "oy te"
+    },
+    {
+      "cnt": "\"y ‘i"
+    },
+    {
+      "cnt": "'"
+    },
+    {
+      "cnt": "\\ ~"
+    },
+    {
+      "cnt": "f } “\\ ral",
+      "price": "be"
+    },
+    {
+      "cnt": "ih",
+      "price": "We"
+    },
+    {
+      "cnt": "> ‘ 7 iM C- 5",
+      "price": "“"
+    },
+    {
+      "cnt": "| wi"
+    },
+    {
+      "cnt": "Tbh hd MY",
+      "price": "VA sha)"
+    },
+    {
+      "cnt": "it bye 3 ;",
+      "price": "ne ail"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "4"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "SINGLE SCOOP",
+      "price": "16.000"
+    },
+    "total": {
+      "total_price": "16.000",
+      "cashprice": "50.000",
+      "changeprice": "34.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> SINGLE SCOOP</s_nm><s_price> 16.000</s_price></s_menu><s_total><s_total_price> 16.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 34.000</s_changeprice></s_total></s>"
+}

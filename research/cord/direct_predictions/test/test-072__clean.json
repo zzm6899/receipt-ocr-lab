@@ -1,0 +1,112 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-072",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "6c86e8366c09679a5f09502121fcbb8f19db5179359c73049b86cff529cc0673",
+  "elapsed_seconds": 1.876,
+  "detected_words": 40,
+  "detected_lines": 14,
+  "ocr_text": "v a e om EE wm a H : ay Gre dew : + hw + + ] | 4 Choco Devil 5 “¢ C2 15,90 - . Rares Pe SubTotal: 15,90 . PRL i 19 a eh Pe wo",
+  "trocr_words": "1.00 R *** : CASHIER ITEM - : 1 CHOCO DEVIL COME AGAIN 15 1 CHOCO DEVIL ******** 15,90 CASHIER: CASHIER: SR: 15,90 (INVOICE INCLUSIVE PBL: 15,909-G) CASHIER: 20,000",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "“¢ C2",
+      "cnt": null,
+      "price": "15,90"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "CHOCO DEVIL",
+      "cnt": "1",
+      "price": "15,90"
+    },
+    {
+      "nm": "SR",
+      "cnt": null,
+      "price": "15,90"
+    },
+    {
+      "nm": "CASHIER",
+      "cnt": null,
+      "price": "20,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "price": "e"
+    },
+    {
+      "nm": "om EE",
+      "price": "wm a"
+    },
+    {
+      "price": "H"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "nm": "Choco Devil",
+      "cnt": "| 4",
+      "price": "5"
+    },
+    {
+      "cnt": "“¢ C2",
+      "price": "15,90"
+    },
+    {
+      "cnt": "."
+    },
+    {
+      "cnt": "Pe",
+      "price": "15,90"
+    },
+    {
+      "price": "i 19 a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "R"
+    },
+    {
+      "nm": "CHOCO DEVIL COME",
+      "cnt": "1",
+      "price": "15"
+    },
+    {
+      "nm": "CHOCO DEVIL",
+      "cnt": "1",
+      "price": "15,90"
+    },
+    {
+      "nm": "(INVOICE INCLUSIVE",
+      "price": "15,909-G)"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Choco Devil",
+      "cnt": "1",
+      "price": "15,909"
+    },
+    "sub_total": {
+      "subtotal_price": "15,909",
+      "tax_price": "1,591"
+    },
+    "total": {
+      "total_price": "17,500",
+      "cashprice": "20,000",
+      "changeprice": "2,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Choco Devil</s_nm><s_cnt> 1</s_cnt><s_price> 15,909</s_price></s_menu><s_sub_total><s_subtotal_price> 15,909</s_subtotal_price><s_tax_price> 1,591</s_tax_price></s_sub_total><s_total><s_total_price> 17,500</s_total_price><s_cashprice> 20,000</s_cashprice><s_changeprice> 2,500</s_changeprice></s_total></s>"
+}

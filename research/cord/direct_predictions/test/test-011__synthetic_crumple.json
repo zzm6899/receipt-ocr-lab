@@ -1,0 +1,73 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-011",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "a3e81a9412fc6f3a823c8f919223d30feaec58d62d03dac2a34220f192c03731",
+  "elapsed_seconds": 2.875,
+  "detected_words": 29,
+  "detected_lines": 12,
+  "ocr_text": "cae - ee ee os : 5 ee pro ee Se a ee aes = \\ RO aS ~~ | } 2, Foes! ry a Ee eed Vee] fo",
+  "trocr_words": "- - BANBERRY RESH CREAN CAX 230,000 BANBERMANIES ******** TOTAL - 230.00 CHANGE CHANGE IT : ITEM CASHIER ONCLUSIVE UP ON FACEBOOK ON FACEBOOK ON FACEBOOK ON FACEBOOK ON FACEBOOK ON FACEBOOK ON FACEBOOK ON FACEBOOK ON FACEBOOK ON FACEBOOK ON FACEBOOK ON ON ON CASHIER TAX",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "BANBERRY RESH CREAN CAX",
+      "cnt": null,
+      "price": "230,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "fo"
+  },
+  "cascade_fields": {
+    "total": "TOTAL - 230.00"
+  },
+  "layout_rows": [
+    {
+      "price": "ee ee",
+      "unitprice": "cae"
+    },
+    {
+      "cnt": "os :",
+      "price": "5"
+    },
+    {
+      "unitprice": "ee"
+    },
+    {
+      "price": "a ee"
+    },
+    {
+      "cnt": "aes = \\",
+      "price": "RO"
+    },
+    {
+      "cnt": "aS |"
+    },
+    {
+      "cnt": "} 2,"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BANBERRY RESH CREAN",
+      "cnt": "CAX",
+      "price": "230,000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "BANABERRY FRESH CREAM CAK",
+      "cnt": "1",
+      "price": "230,000"
+    },
+    "total": {
+      "total_price": "230,000",
+      "cashprice": "230,000",
+      "changeprice": "0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BANABERRY FRESH CREAM CAK</s_nm><s_cnt> 1</s_cnt><s_price> 230,000</s_price></s_menu><s_total><s_total_price> 230,000</s_total_price><s_cashprice> 230,000</s_cashprice><s_changeprice> 0</s_changeprice></s_total></s>"
+}

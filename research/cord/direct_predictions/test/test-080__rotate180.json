@@ -1,0 +1,73 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-080",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "6afefcd8fb668ab0e155712ea686986718caf42e6c379f03a0c629f0edf1d702",
+  "elapsed_seconds": 1.287,
+  "detected_words": 22,
+  "detected_lines": 10,
+  "ocr_text": "3 a a a a J 1s wey ea} one ‘en 000°S2 tied re eq010NS we aol+ no'sz 2309 HIN 481A T",
+  "trocr_words": "TAX WWW. 0 0.00 CASH CHANGE: 1.00 SUBTOTAL: 1STRIET 1 SUBTOTAL: H+ ADI+ I VIEIT MILK COJICO MILM 18IA I",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "1s",
+      "price": "wey ea}"
+    },
+    {
+      "price": "‘en"
+    },
+    {
+      "nm": "000°S2",
+      "price": "tied"
+    },
+    {
+      "price": "we"
+    },
+    {
+      "price": "aol+"
+    },
+    {
+      "nm": "no'sz",
+      "price": "HIN 481A T",
+      "unitprice": "2309"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "VIEIT MILK COJICO MILM",
+      "cnt": "I",
+      "price": "18IA I"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'92",
+        "price": "HSYJ"
+      },
+      {
+        "nm": "000'92",
+        "price": "10101"
+      },
+      {
+        "nm": "000'92",
+        "price": "1010"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "1010",
+      "discount_price": "W+"
+    },
+    "total": {
+      "total_price": "601-",
+      "cashprice": "[ELK] [ELK] I"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'92</s_nm><s_price> HSYJ</s_price><sep/><s_nm> 000'92</s_nm><s_price> 10101</s_price><sep/><s_nm> 000'92</s_nm><s_price> 1010</s_price></s_menu><s_sub_total><s_subtotal_price> 1010</s_subtotal_price><s_discount_price> W+</s_discount_price></s_sub_total><s_total><s_total_price> 601-</s_total_price><s_cashprice> [ELK] [ELK] I</s_cashprice></s_total></s>"
+}

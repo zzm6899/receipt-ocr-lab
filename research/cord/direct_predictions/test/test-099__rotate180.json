@@ -1,0 +1,229 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-099",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "c5c2188518fb875071cdca316983fdd881c4bf27bc515b556bc0d502ef293aa2",
+  "elapsed_seconds": 3.685,
+  "detected_words": 106,
+  "detected_lines": 31,
+  "ocr_text": "| ae cis cempie a = «(+ 0 vans» 00's IWNT.L NON 0 IWNNL 000'sz WoL 4 NvLWINEW3d 0 20 vAVIG 0 %0 NwrWd gie'9 % 01 Ndd Hrd 0 NVHVEWWL VAVIE 0 NoYsIC 0gi'¢9 WLOLENS , 1s 09049 i 0 wnijeg- exe 14° 0 $30I1S 13d i O18 ee) ee i 0 WeeId-ereo Tye | a 4 0 S30MS 134¥d | eta = | 1s emuen aa “4 0 yousiy- ORD T4« | ae oF $30NS L3yvd | ee j 081'89 HO 08 SeWiX-74 | Mer ’ i Me # - bee ‘it j — Bes, a a Sl 3 s oe *.. \\ i",
+  "trocr_words": "SR: - ITEM KENBAL NO. NON TUNNIL INNION TUNNAI TOTAL TOTAL: 75,000 PENABUNIAIN NAIN BIAYA CC SUMMARY O !!! : % 0 XVTVA PAYAK PPN NO.00 O'S INVHYEWVI VAVIB DISICKON NOXSIA SUBTOTAL AMOUNT 1 CLS 00040 1 FLACKS-BEA-EXCLH ONLINEBOOKED ! DIS EEL @6% AMOUNT NO : 00-*** PLEASE 1 PKWST BKWP 1 *** AMOUNT : REG-SR0188 1 VEGET ONVOICE SENTS LEXABLE ! COME AGAIN SR:00-03:09:03:03:03:03 PM WWW.WW. SAT PLEASE TAX: CASHIER :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "ae Me bee ‘it j"
+  },
+  "cascade_fields": {
+    "total": "TOTAL TOTAL: SAT"
+  },
+  "layout_rows": [
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "0"
+    },
+    {
+      "price": "NON",
+      "unitprice": "00's IWNT.L"
+    },
+    {
+      "cnt": "0",
+      "price": "IWNNL"
+    },
+    {
+      "price": "WoL",
+      "unitprice": "000'sz"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "0",
+      "price": "20 vAVIG"
+    },
+    {
+      "cnt": "0 %0",
+      "price": "NwrWd"
+    },
+    {
+      "cnt": "% 01",
+      "price": "Hrd",
+      "unitprice": "gie'9 Ndd"
+    },
+    {
+      "cnt": "0",
+      "price": "VAVIE"
+    },
+    {
+      "cnt": "0"
+    },
+    {
+      "price": "WLOLENS",
+      "unitprice": "0gi'¢9"
+    },
+    {
+      "price": ","
+    },
+    {
+      "cnt": "1s",
+      "price": "09049"
+    },
+    {
+      "cnt": "i 0 exe",
+      "price": "14°",
+      "unitprice": "wnijeg-"
+    },
+    {
+      "cnt": "0",
+      "price": "i",
+      "unitprice": "$30I1S 13d"
+    },
+    {
+      "price": "O18 ee)"
+    },
+    {
+      "nm": "WeeId-ereo",
+      "cnt": "i 0 |",
+      "price": "Tye"
+    },
+    {
+      "cnt": "4 0 |",
+      "price": "134¥d",
+      "unitprice": "S30MS"
+    },
+    {
+      "cnt": "= | 1s",
+      "price": "emuen"
+    },
+    {
+      "cnt": "“4 0",
+      "price": "T4«",
+      "unitprice": "yousiy- ORD"
+    },
+    {
+      "price": "L3yvd",
+      "unitprice": "oF $30NS"
+    },
+    {
+      "cnt": "j HO 08",
+      "price": "SeWiX-74",
+      "unitprice": "081'89"
+    },
+    {
+      "cnt": "’ i"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "3 s"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KENBAL"
+    },
+    {
+      "price": "75,000"
+    },
+    {
+      "nm": "PENABUNIAIN"
+    },
+    {
+      "nm": "BIAYA",
+      "cnt": "CC"
+    },
+    {
+      "cnt": "O !!! : %",
+      "unitprice": "0 XVTVA"
+    },
+    {
+      "cnt": "PAYAK",
+      "price": "NO.00"
+    },
+    {
+      "nm": "INVHYEWVI",
+      "cnt": "O'S"
+    },
+    {
+      "nm": "FLACKS-BEA-EXCLH",
+      "cnt": "1"
+    },
+    {
+      "cnt": "1",
+      "price": "BKWP"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "price": "PM"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'SL NON",
+      "unitprice": "NONOLOGIA 0",
+      "cnt": "0",
+      "price": "0"
+    },
+    {
+      "nm": "000'SL TOLOTATE NEVERYES",
+      "unitprice": "0",
+      "cnt": "2",
+      "price": "0"
+    },
+    {
+      "nm": "CO VANIBI",
+      "unitprice": "0",
+      "cnt": "0",
+      "price": "0"
+    },
+    {
+      "nm": {
+        "cnt": "% 0",
+        "price": "0"
+      },
+      "unitprice": "0",
+      "cnt": "0",
+      "price": "0"
+    },
+    {
+      "nm": "NONSIO",
+      "unitprice": "0",
+      "cnt": "1",
+      "price": "0"
+    },
+    {
+      "nm": "STOODLE",
+      "unitprice": "0",
+      "cnt": "1",
+      "price": "0"
+    },
+    {
+      "nm": "SECHS LEAKLE",
+      "unitprice": "0",
+      "cnt": "1",
+      "price": "0"
+    },
+    {
+      "nm": "CPS Eel",
+      "unitprice": "0",
+      "cnt": "1",
+      "price": "0"
+    },
+    {
+      "nm": "SECHS LEAKLE",
+      "unitprice": "0",
+      "cnt": "1",
+      "price": "0"
+    },
+    {
+      "menuqty_cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'SL NON</s_nm><s_unitprice> NONOLOGIA 0</s_unitprice><s_cnt> 0</s_cnt><s_price> 0</s_price><sep/><s_nm> 000'SL TOLOTATE NEVERYES</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 2</s_cnt><s_price> 0</s_price><sep/><s_nm> CO VANIBI</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 0</s_cnt><s_price> 0</s_price><sep/><s_nm> 818'9</s_unitprice><s_cnt> % 0</s_cnt><s_price> 0</s_price><sep/><s_nm> NAVEWANT AVAIB</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 0</s_cnt><s_price> 0</s_price><sep/><s_nm> NONSIO</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> STOODLE</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> SECHS LEAKLE</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> CPS Eel</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> SECHS LEAKLE</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> WO O3 SENTER<s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

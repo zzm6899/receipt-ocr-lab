@@ -1,0 +1,58 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-077",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "51a18f9af438812262978567209929d29e6e7ac1f548a392edf4b3c0895bdab3",
+  "elapsed_seconds": 4.942,
+  "detected_words": 18,
+  "detected_lines": 7,
+  "ocr_text": "000's 4nd SONVHO 000'¢z MCI HSVO 000'Z1 WJOLONVYS ee CROLL ENS. 000'L1 oOO'uL xX | ASASHO AddiyL ————",
+  "trocr_words": "CHANGE ONLINE AMOUNT NOOD CASHIER: GRIANDA TOTAL: 1,000 SUB TOTAL TOTAL 7,000 1 X 17,00 TRIPPLE CHEESE WWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "X",
+      "cnt": "1",
+      "price": "17,00"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL: SUB TOTAL TOTAL 7,000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "4nd",
+      "price": "SONVHO"
+    },
+    {
+      "price": "HSVO",
+      "unitprice": "MCI"
+    },
+    {
+      "price": "WJOLONVYS"
+    },
+    {
+      "price": "CROLL ENS."
+    },
+    {
+      "cnt": "xX",
+      "unitprice": "oOO'uL"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "NOOD"
+    },
+    {
+      "price": "1,000"
+    }
+  ],
+  "donut_json": {
+    "nm": "END GUNDAYHO",
+    "num": "000'22"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> END GUNDAYHO</s_nm><s_num> 000'g</s_num><s_price> GARDEN OOD'S</s_nm><s_num> 000'22</s_num><s_price> HASPURE<sep/><s_nm> OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OUT OO'LL OO'LL OO'LL OO'LL OO'LL OO'LL OO'LL OO'LL OO'LL OO'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'LL'</s>"
+}

@@ -1,0 +1,57 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-007",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "18c585ff9dbc0785cb5ef030eb8d47f69ad11cdb7a2a1390dd605921245dddfa",
+  "elapsed_seconds": 3.281,
+  "detected_words": 33,
+  "detected_lines": 9,
+  "ocr_text": "Kupor 18 He, gu0 ADL CHICKEN BOY 508 Subtotal ; 408,909 PEE OZ) ain, 01 Total ie carne. 11000 | . ee ee eee Y ee oS a ee Seu OA Neng Rane",
+  "trocr_words": "KUPON 15 ADD CHICKEN BOX SUBTOTAL @ 100,909 PBL (10%) TOTAL @ 11,000 CASHIERIES ONCLUSIVE WITH RECEIPT FOR ALLES ON ALL BEQUIRED WITH RECEIPER WITH RECEIPANY ONCLUSEIPEIPEIPEIPANY ONCLUSED ONCLUSED ONCLUSED ONCLUSED ONCLUSED ONCLUSED WITH FACEED ONCLUS CASH A FREE ONCLUSIVE RECEIPT FOR ALL TOTAL: CASHIER",
+  "ocr_rules_total": "11000",
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Total ie carne. 11000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL @ 11,000 ALL TOTAL:"
+  },
+  "layout_rows": [
+    {
+      "nm": "Kupor",
+      "cnt": "18",
+      "price": "He, gu0"
+    },
+    {
+      "nm": "ADL CHICKEN BOY",
+      "price": "508"
+    },
+    {
+      "price": "01"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Kupon 15",
+        "price": "100,000"
+      },
+      {
+        "nm": "ADD CHICKEN BOX",
+        "price": "909"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "100,909",
+      "tax_price": "10,091"
+    },
+    "total": {
+      "total_price": "111,000",
+      "cashprice": "Rp. 111,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kupon 15</s_nm><s_price> 100,000</s_price><sep/><s_nm> ADD CHICKEN BOX</s_nm><s_price> 909</s_price></s_menu><s_sub_total><s_subtotal_price> 100,909</s_subtotal_price><s_tax_price> 10,091</s_tax_price></s_sub_total><s_total><s_total_price> 111,000</s_total_price><s_cashprice> Rp. 111,000</s_cashprice></s_total></s>"
+}

@@ -1,0 +1,215 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-099",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "8855720769347d59d70cca585bbb8b8bafc532ac8062d519a5211ee2622e3aa8",
+  "elapsed_seconds": 3.297,
+  "detected_words": 116,
+  "detected_lines": 32,
+  "ocr_text": "\\ ot ee * as “oh oii \\ >| le 4 a ‘aa . J : : _ “i \" P j en er\") Pe, 1 FL-Xmas 30 Off 68,180 F a 1 /PAKET SLICES 0 { \"al 1 »FL Cake - French 0 a anes Vanilla SLC — 1 PAKET SLICES 0 r a 1 » FL Cake - Green 0 oo” aa Tea SLC a 1 PAKET SLICES 0 si 1 FL Cake - Belgium 0 % Choco SLC \\ SUBTOTAL 68,180 DISKON 0 BIAYA TAMBAHAN 0 PAJAK PPN 10 % 6,818 PAJAK 0% 0 BIAYA CC 0 PEMBULATAN 2 TOTAL 75,000 TUNAI 0 NON TUNAI 75,000 KEMBALI 0 ping < oer oe oe",
+  "trocr_words": "- WWW. CASH MADEBOOK - AMOUNT CASH (AMOUNT) 1 FL-XMAS 30CM 68,180 AMOUNT 1 PAXET SUCES 0 AMOUNT 1 1 FLACE-FRENCH - 0 PLEASE WITH US AVA SLC SR: 1 PAXETSLES 0 AMOUNT 1 XRLCASH GREEN 0 ITEMS INCLUSIVE TAILS 1 PAXETSCLES 0 1 FLCAKE-BELGUM 0 CHOCO SLC 1 SUBTOTAL 68,180 DISKON !!! BIAYA TAMBAHAN 6.10 PAJAK PPN 10% 6,818 PAJAK 0% BIAYA CC PEMBULATAN 2 TOTAL 75,000 TUNAL NAI 75008 NON TUNAI 75,000 KEMBALL : ITEM -",
+  "ocr_rules_total": "75,000",
+  "ocr_rows": [
+    {
+      "nm": "Pe, 1 FL-Xmas 30 Off",
+      "cnt": null,
+      "price": "68,180"
+    },
+    {
+      "nm": "PAJAK PPN 10 %",
+      "cnt": null,
+      "price": "6,818"
+    },
+    {
+      "nm": "NON TUNAI",
+      "cnt": null,
+      "price": "75,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "BIAYA TAMBAHAN",
+      "cnt": null,
+      "price": "6.10"
+    },
+    {
+      "nm": "PAJAK PPN 10%",
+      "cnt": null,
+      "price": "6,818"
+    },
+    {
+      "nm": "NON TUNAI",
+      "cnt": null,
+      "price": "75,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "ot * as “oh TOTAL"
+  },
+  "cascade_fields": {
+    "total": "- AMOUNT TOTAL 75,000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "4 a ‘aa",
+      "price": "."
+    },
+    {
+      "cnt": ": : _"
+    },
+    {
+      "cnt": "P",
+      "price": "en"
+    },
+    {
+      "nm": "Pe, FL-Xmas",
+      "cnt": "1 30 Off",
+      "price": "68,180"
+    },
+    {
+      "nm": "Cake",
+      "price": "0 a"
+    },
+    {
+      "nm": "Cake Green",
+      "cnt": "1 » FL -",
+      "price": "0"
+    },
+    {
+      "price": "0"
+    },
+    {
+      "nm": "Cake",
+      "cnt": "1 FL -",
+      "price": "0"
+    },
+    {
+      "price": "68,180"
+    },
+    {
+      "price": "0"
+    },
+    {
+      "nm": "TAMBAHAN",
+      "price": "0"
+    },
+    {
+      "nm": "PAJAK",
+      "cnt": "PPN 10",
+      "price": "6,818"
+    },
+    {
+      "price": "0"
+    },
+    {
+      "nm": "BIAYA",
+      "price": "0"
+    },
+    {
+      "price": "2"
+    },
+    {
+      "price": "75,000"
+    },
+    {
+      "price": "0"
+    },
+    {
+      "price": "75,000"
+    },
+    {
+      "price": "0"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "FL-XMAS",
+      "cnt": "1",
+      "price": "68,180",
+      "unitprice": "30CM"
+    },
+    {
+      "cnt": "SR:"
+    },
+    {
+      "price": "GREEN"
+    },
+    {
+      "nm": "BIAYA TAMBAHAN",
+      "price": "6.10"
+    },
+    {
+      "price": "6,818"
+    },
+    {
+      "nm": "BIAYA"
+    },
+    {
+      "nm": "NAI"
+    },
+    {
+      "nm": "TUNAI",
+      "price": "75,000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "FL-Xmas 30 Off",
+      "cnt": "1",
+      "price": "68,180",
+      "sub": [
+        {
+          "nm": "PAKET SLICES",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "FL Cake - French Vanilla SLC",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "PAKET SLICES",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "FL Cake Green Tea SLC",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "PAKET SLICES",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "FL Cake - Belgium",
+          "cnt": "1",
+          "price": "0"
+        }
+      ]
+    },
+    "sub_total": {
+      "subtotal_price": "68,180",
+      "discount_price": "0",
+      "tax_price": "6,818",
+      "etc": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2"
+      ]
+    },
+    "total": {
+      "total_price": "75,000",
+      "cashprice": "75,000",
+      "changeprice": "0",
+      "creditcardprice": "75,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> FL-Xmas 30 Off</s_nm><s_cnt> 1</s_cnt><s_price> 68,180</s_price><s_sub><s_nm> PAKET SLICES</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> FL Cake - French Vanilla SLC</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> PAKET SLICES</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> FL Cake Green Tea SLC</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> PAKET SLICES</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> FL Cake - Belgium</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price></s_sub></s_menu><s_sub_total><s_subtotal_price> 68,180</s_subtotal_price><s_discount_price> 0</s_discount_price><s_tax_price> 6,818</s_tax_price><s_etc> 0<sep/> 0<sep/> 0<sep/> 0<sep/> 0<sep/> 2</s_etc></s_sub_total><s_total><s_total_price> 75,000</s_total_price><s_cashprice> 75,000</s_cashprice><s_changeprice> 0</s_changeprice><s_creditcardprice> 75,000</s_creditcardprice></s_total></s>"
+}

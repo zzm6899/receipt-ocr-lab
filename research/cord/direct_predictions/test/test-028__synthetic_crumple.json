@@ -1,0 +1,153 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-028",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "842ae745e1861d5a480b77a5eadb4c842cae8d2a07ec4e32047ce871d8100d99",
+  "elapsed_seconds": 1.695,
+  "detected_words": 30,
+  "detected_lines": 10,
+  "ocr_text": "SAMGYOPSAL 2. 194,000 SUL LUNG TANG 1 75,000 | MAKOLI 1 100,000 P| Guptotal | |S imgg. 200 ia Service 18,450 VAT 38,745 Discount 0 TOTAL 426,195 ee 2 a",
+  "trocr_words": "SAMGYOPSAL 2 194,000 SUL LUNG TANG 1 75,000 MAKOLI 1 100,000 SUB TOTAL 389,000 SERVICE 18.450 VAT 38,745 DISCOUNT TOTAL 426,195 ITEMS & CHANGE REMILE CASH",
+  "ocr_rules_total": "426,195",
+  "ocr_rows": [
+    {
+      "nm": "SAMGYOPSAL 2.",
+      "cnt": null,
+      "price": "194,000"
+    },
+    {
+      "nm": "SUL LUNG TANG 1",
+      "cnt": null,
+      "price": "75,000"
+    },
+    {
+      "nm": "| MAKOLI 1",
+      "cnt": null,
+      "price": "100,000"
+    },
+    {
+      "nm": "Service",
+      "cnt": null,
+      "price": "18,450"
+    },
+    {
+      "nm": "VAT",
+      "cnt": null,
+      "price": "38,745"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "SAMGYOPSAL 2",
+      "cnt": null,
+      "price": "194,000"
+    },
+    {
+      "nm": "SUL LUNG TANG 1",
+      "cnt": null,
+      "price": "75,000"
+    },
+    {
+      "nm": "MAKOLI 1",
+      "cnt": null,
+      "price": "100,000"
+    },
+    {
+      "nm": "SERVICE",
+      "cnt": null,
+      "price": "18.450"
+    },
+    {
+      "nm": "VAT",
+      "cnt": null,
+      "price": "38,745"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 426,195"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 426,195"
+  },
+  "layout_rows": [
+    {
+      "nm": "SAMGYOPSAL",
+      "cnt": "2.",
+      "price": "194,000"
+    },
+    {
+      "nm": "SUL LUNG TANG",
+      "cnt": "1",
+      "price": "75,000"
+    },
+    {
+      "nm": "MAKOLI",
+      "cnt": "| 1",
+      "price": "100,000"
+    },
+    {
+      "nm": "Guptotal",
+      "cnt": "P| | |S",
+      "price": "200",
+      "unitprice": "imgg."
+    },
+    {
+      "nm": "Service",
+      "price": "18,450"
+    },
+    {
+      "nm": "VAT",
+      "price": "38,745"
+    },
+    {
+      "price": "0"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "SAMGYOPSAL",
+      "cnt": "2",
+      "unitprice": "194,000"
+    },
+    {
+      "nm": "SUL LUNG TANG",
+      "cnt": "1",
+      "price": "75,000"
+    },
+    {
+      "nm": "MAKOLI",
+      "cnt": "1",
+      "unitprice": "100,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "SAMGYOPSAL",
+        "cnt": "2",
+        "price": "194,000"
+      },
+      {
+        "nm": "SUL LUNG TANG",
+        "cnt": "1",
+        "price": "75,000"
+      },
+      {
+        "nm": "MAKOLI",
+        "cnt": "1",
+        "price": "100,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "369,000",
+      "discount_price": "0",
+      "service_price": "18,450",
+      "tax_price": "38,745"
+    },
+    "total": {
+      "total_price": "426,195"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> SAMGYOPSAL</s_nm><s_cnt> 2</s_cnt><s_price> 194,000</s_price><sep/><s_nm> SUL LUNG TANG</s_nm><s_cnt> 1</s_cnt><s_price> 75,000</s_price><sep/><s_nm> MAKOLI</s_nm><s_cnt> 1</s_cnt><s_price> 100,000</s_price></s_menu><s_sub_total><s_subtotal_price> 369,000</s_subtotal_price><s_discount_price> 0</s_discount_price><s_service_price> 18,450</s_service_price><s_tax_price> 38,745</s_tax_price></s_sub_total><s_total><s_total_price> 426,195</s_total_price></s_total></s>"
+}

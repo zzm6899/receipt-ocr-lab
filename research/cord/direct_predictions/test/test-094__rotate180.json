@@ -1,0 +1,161 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-094",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "31863875a97c6fc6d13b277150436621f39405e2e09115e7541fe5fc6caa16c3",
+  "elapsed_seconds": 3.175,
+  "detected_words": 78,
+  "detected_lines": 26,
+  "ocr_text": "= eoecesceesrrssssrssssesscsssssssm 9 4 z €90°0bT ‘YyD LIdZYD res Z oO <50'Or! JEIO | pueddy ” © ec?! %O'OT Tad s Co oce’s MOL \"ARS ps a m cOo'ett EOL ANS m Qa’ tt VSL t ~~. cad’cs (YJNIHDIVLOHd T «< = oot IAN i = © oo's2 ONFYOONHYL 7 4 = °o > o. = 0 m Cc ..-----\"\"\" ie ---- | wn m im ~o x ** < ° m al ~ = > = m",
+  "trocr_words": "1 ******************************** 0.00 Z SES # OF 6/6/2018 0 SET'21 %0'01 18D @ @ 6.00% r MM 000'6IT |E401QNS 1 TEA > PHI OHD IVLOHD IYLOHD I < = 1 CAXWE 1 TAHU GOOR8389 AHAT Z LTVINGS Z 0 0.53 0 CASHIER *************** MEMBER P 1 0 AM/ITN + Z > M M",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "m"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "9"
+    },
+    {
+      "nm": "LIdZYD",
+      "cnt": "z ‘YyD",
+      "price": "res"
+    },
+    {
+      "cnt": "oO |",
+      "unitprice": "<50'Or! JEIO"
+    },
+    {
+      "cnt": "©",
+      "price": "Tad s"
+    },
+    {
+      "cnt": "Co",
+      "price": "ps"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "nm": "cOo'ett",
+      "cnt": "m",
+      "price": "m"
+    },
+    {
+      "cnt": "Qa’ tt",
+      "price": "t"
+    },
+    {
+      "nm": "cad’cs",
+      "cnt": "~~.",
+      "price": "T «<"
+    },
+    {
+      "cnt": "=",
+      "price": "IAN i"
+    },
+    {
+      "cnt": "©",
+      "price": "7"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "°o"
+    },
+    {
+      "cnt": "0",
+      "price": "m"
+    },
+    {
+      "cnt": "Cc"
+    },
+    {
+      "price": "im"
+    },
+    {
+      "cnt": "~o"
+    },
+    {
+      "cnt": "x"
+    },
+    {
+      "cnt": "°",
+      "price": "m"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "0 SET'21",
+      "price": "18D"
+    },
+    {
+      "cnt": "r"
+    },
+    {
+      "nm": "MM 000'6IT"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "PHI OHD IVLOHD",
+      "cnt": ">",
+      "price": "IYLOHD I"
+    },
+    {
+      "nm": "TAHU",
+      "cnt": "1"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "CARD CREASED N",
+      "cnt": "1",
+      "price": "MOBS z"
+    },
+    {
+      "nm": "O £90'0tI",
+      "price": "PRESENT O"
+    },
+    {
+      "nm": "EEL'ZI",
+      "num": "%0'01",
+      "price": {
+        "num": "%0'L"
+      }
+    },
+    {
+      "nm": [
+        {
+          "price": "m"
+        },
+        {}
+      ],
+      "price": "-"
+    },
+    {
+      "num": "O",
+      "price": "M n"
+    },
+    {
+      "nm": "N",
+      "num": "O",
+      "price": "m"
+    },
+    {
+      "nm": "H",
+      "num": "O",
+      "price": "-"
+    },
+    {
+      "nm": "N"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> CARD CREASED N</s_nm><s_cnt> 1</s_cnt><s_price> MOBS z</s_price><sep/><s_nm> O £90'0tI</s_nm><s_price> PRESENT O</s_price><sep/><s_nm> EEL'ZI</s_nm><s_num> %0'01</s_num><s_price> PRESENT M D OEE'8</s_nm><s_num> %0'L</s_num><s_price> S</s_price><sep/><s_nm> 000'611</s_num><s_price> m</s_price><sep/><s_nm> 000'11</s_num><s_price> PRESENT 000'11</s_num><s_price> PRESENT <</s_price><sep/><s_nm> 000'E9</s_nm><s_num> OHO</s_nm><s_num> OHO</s_nm><s_num> OHO</s_nm><s_num> OHOLOGY CAMPUS I</s_nm><s_num> O</s_num><s_price> -</s_price><sep/><s_nm> 000'82</s_num><s_price> NHR<unk></s_nm><s_num> O</s_num><s_price> M n</s_price><sep/><s_nm> N</s_nm><s_num> O</s_num><s_price> m</s_price><sep/><s_nm> H</s_nm><s_num> O</s_num><s_price> -</s_price><sep/><s_nm> N</s_nm><s_num> S</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,80 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-049",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "82ca3e44187064ede92b3e37af252fa5dac0acbb3eb30c1863896cbeb03fe393",
+  "elapsed_seconds": 1.196,
+  "detected_words": 23,
+  "detected_lines": 6,
+  "ocr_text": ": fits! (9 se ME hal a . an a OO WiOLERS. 008 TI 18 09049 T J 002 yaehbg s6y4 7 4",
+  "trocr_words": "27.000 WW.W. $2,20 GND ENG NO SUBTOTAL AMOUNTS GOOD'IT IT BELLOW GOODED IT BEEN GOOD ZI + 1JET66J SBID 1",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "27.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "fits!",
+      "cnt": ": (9"
+    },
+    {
+      "cnt": "a .",
+      "price": "an a"
+    },
+    {
+      "cnt": "TI J",
+      "price": "09049 T",
+      "unitprice": "18"
+    },
+    {
+      "nm": "yaehbg",
+      "cnt": "4",
+      "price": "s6y4 7"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "NO",
+      "unitprice": "$2,20"
+    },
+    {
+      "nm": "GOOD'IT IT BELLOW GOODED",
+      "price": "IT BEEN"
+    },
+    {
+      "cnt": "+",
+      "price": "SBID",
+      "unitprice": "1JET66J"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "WELI z",
+        "num": "000'LL",
+        "price": "39NVHO"
+      },
+      {
+        "nm": {
+          "price": "HSUC"
+        },
+        "num": "000'ZZ",
+        "price": "300"
+      },
+      {
+        "price": "TOLOIBNS"
+      }
+    ],
+    "total": {
+      "total_price": {
+        "price": "000'11"
+      },
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> WELI z</s_nm><s_num> 000'LL</s_num><s_price> 39NVHO</s_price><sep/><s_nm> 000'09</s_num><s_price> HSUC</s_price><sep/><s_nm> 000'ZZ</s_nm><s_num> 000'ZZ</s_num><s_price> 300</s_price><sep/><s_nm> 000'ZZ</s_num><s_price> TOLOIBNS</s_price></s_menu><s_total><s_total_price> 000'11</s_num><s_price> 000'11</s_price></s_menu><s_total><s_total_price> 5614</s_total_price><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

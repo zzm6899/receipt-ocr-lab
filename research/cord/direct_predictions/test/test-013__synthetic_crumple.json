@@ -1,0 +1,220 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-013",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "f65b0ae66937912bcbcfaba9329500dc185db1e7724d77981d2510f0464f9952",
+  "elapsed_seconds": 4.448,
+  "detected_words": 122,
+  "detected_lines": 41,
+  "ocr_text": "@ > eo & Z i) an EA a) Lee Xi) i | oa ] } = Ulla), Cor La Guerre Cee | ~~ een See: | ae & g q i OD fQURNEY ry (ph - SS ———— ————— sie: ~ 3 a ey 's \\ Naty) za \" — ee 4 , SS aa > i] ABRs * | Meee pore ee S ‘Te Mey | 332005 So .h ETAL mM esa od eee GLAS | SL 3 HE , f8 88) a aL £i es ’ Serre. NN \" \\ a) vA Oe \\ SEC, bie \\ Tae TA: Hes, bs 51 Oe go, nay ‘) a Z 0G ey es a on BY Bin \\ 8 , cs”",
+  "trocr_words": "@ A = C Z G @ 0 - (RM) ITEMOUNT WWW.LUK LUSSAY & COM WWW.LWP LUSSU RECOM 1 1 PC IOURNEY H Q - 6 AMOUNT GA 1.00 INCLUSIVE TAX WWW.1 074 NUM 1 40.606 40.6 EDN CRE 11 7MM 7.449 NERAL GELAS 1 3,000 3,000- (6.630 ITRAKE AM SR: ITEM *** 1.46 AMOUNT 51300> TAL : 51.300 TAX 709 WWWWWWWWWWWWWWWWWWWWWWWWWW. SR: TAX : : ITEM ... :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "NUM 1 40.606",
+      "cnt": null,
+      "price": "40.6"
+    },
+    {
+      "nm": "EDN CRE 11 7MM",
+      "cnt": null,
+      "price": "7.449"
+    },
+    {
+      "nm": "NERAL GELAS 1",
+      "cnt": null,
+      "price": "3,000"
+    },
+    {
+      "nm": "TAL",
+      "cnt": null,
+      "price": "51.300"
+    }
+  ],
+  "layout_fields": {
+    "total": "@ > ,"
+  },
+  "cascade_fields": {
+    "total": "@ A = @ AMOUNT GA AMOUNT 51300> TAL : 51.300"
+  },
+  "layout_rows": [
+    {
+      "price": "eo"
+    },
+    {
+      "price": "Z"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "]",
+      "price": "} ="
+    },
+    {
+      "nm": "Ulla), Cor La Guerre",
+      "price": "| ~~",
+      "unitprice": "Cee"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "g q i",
+      "price": "ry",
+      "unitprice": "OD"
+    },
+    {
+      "price": "(ph"
+    },
+    {
+      "nm": "SS ————",
+      "cnt": "-",
+      "price": "sie:",
+      "unitprice": "—————"
+    },
+    {
+      "cnt": "~",
+      "price": "ey",
+      "unitprice": "3 a"
+    },
+    {
+      "cnt": "'s",
+      "price": "Naty)",
+      "unitprice": "\\"
+    },
+    {
+      "cnt": "za \" —",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": ", aa",
+      "price": ">",
+      "unitprice": "SS"
+    },
+    {
+      "nm": "ABRs",
+      "cnt": "i] * |",
+      "price": "ee S",
+      "unitprice": "Meee pore"
+    },
+    {
+      "nm": "‘Te",
+      "cnt": "|",
+      "price": "So .h",
+      "unitprice": "Mey 332005"
+    },
+    {
+      "nm": "ETAL",
+      "price": "esa od",
+      "unitprice": "mM"
+    },
+    {
+      "cnt": "|",
+      "price": "3 HE",
+      "unitprice": "GLAS SL"
+    },
+    {
+      "cnt": ",",
+      "price": "f8 88)"
+    },
+    {
+      "cnt": "a",
+      "price": "aL £i"
+    },
+    {
+      "cnt": "’",
+      "price": "Serre. NN",
+      "unitprice": "es"
+    },
+    {
+      "cnt": "\" \\"
+    },
+    {
+      "cnt": "vA \\",
+      "price": "SEC,",
+      "unitprice": "Oe"
+    },
+    {
+      "cnt": "\\",
+      "price": "Tae",
+      "unitprice": "bie"
+    },
+    {
+      "price": "Hes,",
+      "unitprice": "TA:"
+    },
+    {
+      "cnt": "bs",
+      "price": "51 Oe"
+    },
+    {
+      "price": "nay",
+      "unitprice": "go,"
+    },
+    {
+      "cnt": "‘) a",
+      "price": "Z 0G"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "C"
+    },
+    {
+      "nm": "WWW.LUK LUSSAY & COM"
+    },
+    {
+      "nm": "WWW.LWP LUSSU RECOM"
+    },
+    {
+      "cnt": "1 1 PC",
+      "price": "H",
+      "unitprice": "IOURNEY"
+    },
+    {
+      "nm": "NUM",
+      "cnt": "1",
+      "price": "40.6",
+      "unitprice": "40.606"
+    },
+    {
+      "nm": "EDN CRE 11",
+      "price": "7.449",
+      "unitprice": "7MM"
+    },
+    {
+      "nm": "NERAL GELAS",
+      "cnt": "1",
+      "price": "3,000-",
+      "unitprice": "3,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BASO KUAH",
+        "unitprice": "43.636",
+        "cnt": "1",
+        "price": "43.636"
+      },
+      {
+        "nm": "A.MINERAL GELAS",
+        "unitprice": "3,000",
+        "cnt": "1",
+        "price": "3,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "46.636"
+    },
+    "total": {
+      "total_price": "46.636",
+      "cashprice": "51.300",
+      "changeprice": "700"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BASO KUAH</s_nm><s_unitprice> 43.636</s_unitprice><s_cnt> 1</s_cnt><s_price> 43.636</s_price><sep/><s_nm> A.MINERAL GELAS</s_nm><s_unitprice> 3,000</s_unitprice><s_cnt> 1</s_cnt><s_price> 3,000</s_price></s_menu><s_sub_total><s_subtotal_price> 46.636</s_subtotal_price></s_sub_total><s_total><s_total_price> 46.636</s_total_price><s_cashprice> 51.300</s_cashprice><s_changeprice> 700</s_changeprice></s_total></s>"
+}

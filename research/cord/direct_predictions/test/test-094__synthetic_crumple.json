@@ -1,0 +1,241 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-094",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "a6072f6fc88df1a998aa7276aa039e182863d1cb86dd53b2d765b16232de428a",
+  "elapsed_seconds": 3.039,
+  "detected_words": 83,
+  "detected_lines": 27,
+  "ocr_text": "= =< =z e a lu — fo} > te. x - a ui oS sf be w See... a » - bad Bice mo) o~ge i : fo) = . Pte . a ~ w 2 TAHU GORENG 28,000 © = 1 CAKWE 17000 > 1 PHOTAICHINIR) 63,000 & 1 TES 11,000 Sub Total 413,000 ‘ us Serv. 7.0% 8,330 ¢ = PBi 10.0% 12,733 -¢ < Grand Total 140,063 ¢ zn CREDIT CAR: 140,063 < — Wess2ssssssssssszzssssststssFF5FF ; = res ae",
+  "trocr_words": "ME A 2 - NALES E : SALE - - ML 6 WWW. SR = SR: 2 1 F 1 TAHU GORENG 28,000 = 1 CAKWE 17,000 > 1 PHO TAI CHIN (R) 63,000 1 TEA 11,000 SUB TOTAL 119,000 W \" SEY. 7.0% 8,330 P 2 P81 10.0% 12,733 GARD TOTAL 140,063 Z SPA CREDIT CAR: 140,063 T ................................ CASHIER:",
+  "ocr_rules_total": "140,063",
+  "ocr_rows": [
+    {
+      "nm": "w 2 TAHU GORENG",
+      "cnt": null,
+      "price": "28,000"
+    },
+    {
+      "nm": "> 1 PHOTAICHINIR)",
+      "cnt": null,
+      "price": "63,000"
+    },
+    {
+      "nm": "TES",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "us Serv. 7.0%",
+      "cnt": null,
+      "price": "8,330"
+    },
+    {
+      "nm": "= PBi 10.0%",
+      "cnt": null,
+      "price": "12,733"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "TAHU GORENG",
+      "cnt": "1",
+      "price": "28,000"
+    },
+    {
+      "nm": "= 1 CAKWE",
+      "cnt": null,
+      "price": "17,000"
+    },
+    {
+      "nm": "> 1 PHO TAI CHIN (R)",
+      "cnt": null,
+      "price": "63,000"
+    },
+    {
+      "nm": "TEA",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "\" SEY. 7.0%",
+      "cnt": null,
+      "price": "8,330"
+    },
+    {
+      "nm": "P81 10.0%",
+      "cnt": "2",
+      "price": "12,733"
+    }
+  ],
+  "layout_fields": {
+    "total": "Grand Total"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 140,063"
+  },
+  "layout_rows": [
+    {
+      "cnt": "=<"
+    },
+    {
+      "cnt": "=z"
+    },
+    {
+      "cnt": "e"
+    },
+    {
+      "cnt": "lu"
+    },
+    {
+      "cnt": "—"
+    },
+    {
+      "cnt": ">"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "cnt": "ui"
+    },
+    {
+      "cnt": "oS"
+    },
+    {
+      "cnt": "»"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "~"
+    },
+    {
+      "nm": "TAHU GORENG",
+      "cnt": "w 2",
+      "price": "28,000"
+    },
+    {
+      "nm": "CAKWE",
+      "cnt": "= 1",
+      "price": "17000"
+    },
+    {
+      "nm": "PHOTAICHINIR)",
+      "cnt": "> 1",
+      "price": "63,000 &"
+    },
+    {
+      "nm": "TES",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "cnt": "us ¢",
+      "price": "8,330"
+    },
+    {
+      "cnt": "= -¢",
+      "price": "12,733"
+    },
+    {
+      "price": "140,063"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "F"
+    },
+    {
+      "nm": "TAHU GORENG",
+      "cnt": "1",
+      "price": "28,000"
+    },
+    {
+      "nm": "CAKWE",
+      "cnt": "= 1",
+      "unitprice": "17,000"
+    },
+    {
+      "nm": "PHO TAI CHIN (R)",
+      "cnt": "> 1",
+      "price": "63,000"
+    },
+    {
+      "nm": "TEA",
+      "cnt": "1",
+      "unitprice": "11,000"
+    },
+    {
+      "cnt": "2"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "M E S",
+        "price": "O"
+      },
+      {
+        "nm": "N",
+        "price": "O"
+      },
+      {
+        "nm": "T E E",
+        "price": "O"
+      },
+      {
+        "nm": "V",
+        "price": "O"
+      },
+      {
+        "nm": "H P",
+        "price": "O"
+      },
+      {
+        "nm": "E S",
+        "price": "O"
+      },
+      {
+        "nm": "E M A",
+        "price": "O"
+      },
+      {
+        "nm": "N",
+        "price": "O"
+      },
+      {
+        "nm": "T AHU GORENG",
+        "cnt": "1",
+        "price": "28,000"
+      },
+      {
+        "nm": "CAKWE",
+        "cnt": "1",
+        "price": "17,000"
+      },
+      {
+        "nm": "PHO TAI CHINT R)",
+        "cnt": "1",
+        "price": "63,000"
+      },
+      {
+        "nm": "TEA",
+        "cnt": "1",
+        "price": "11,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "119,000",
+      "service_price": "8,330",
+      "tax_price": "12,733"
+    },
+    "total": {
+      "total_price": "140,063",
+      "creditcardprice": "5904"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> M E S</s_nm><s_price> O</s_price><sep/><s_nm> N</s_nm><s_price> O</s_price><sep/><s_nm> T E E</s_nm><s_price> O</s_price><sep/><s_nm> V</s_nm><s_price> O</s_price><sep/><s_nm> H P</s_nm><s_price> O</s_price><sep/><s_nm> E S</s_nm><s_price> O</s_price><sep/><s_nm> E M A</s_nm><s_price> O</s_price><sep/><s_nm> N</s_nm><s_price> O</s_price><sep/><s_nm> T AHU GORENG</s_nm><s_cnt> 1</s_cnt><s_price> 28,000</s_price><sep/><s_nm> CAKWE</s_nm><s_cnt> 1</s_cnt><s_price> 17,000</s_price><sep/><s_nm> PHO TAI CHINT R)</s_nm><s_cnt> 1</s_cnt><s_price> 63,000</s_price><sep/><s_nm> TEA</s_nm><s_cnt> 1</s_cnt><s_price> 11,000</s_price></s_menu><s_sub_total><s_subtotal_price> 119,000</s_subtotal_price><s_service_price> 8,330</s_service_price><s_tax_price> 12,733</s_tax_price></s_sub_total><s_total><s_total_price> 140,063</s_total_price><s_creditcardprice> 5904</s_creditcardprice></s_total></s>"
+}

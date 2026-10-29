@@ -1,0 +1,201 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-029",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "03f5de71e441777b2e58cb8f3af746cb7e6ecedb9e59176d2169be27bd624e8e",
+  "elapsed_seconds": 2.267,
+  "detected_words": 49,
+  "detected_lines": 12,
+  "ocr_text": "0 ot os ee ee + ‘ : eee ; i COLD OCHA at 10,393 BCA FROMO al 54,455 ‘-ABURA UDON SPICY ak 0 !-K4&KE UDON a 0 SKEWERED SHUMAI al ore. SKEWERED TOFU ROLL al 12,729 =BI TEMPURA al, 13,636 EF UDON (KIDS) a 26,182 , 1 AS",
+  "trocr_words": "0 ................ *** COLD OCHA 1 10,909 BCA PROMO 1 54,455 :-ABURA UDON SPICY 1 0 :KAKE UDON 1 0 SKEWERED SHUMAI 1 12,727 SKEWERED TOFU ROLL 1 12,727 EBI TEMPURA (000) 1 13,636 E UDON (KIDS) 1 28,182 145",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "COLD OCHA at",
+      "cnt": null,
+      "price": "10,393"
+    },
+    {
+      "nm": "BCA FROMO al",
+      "cnt": null,
+      "price": "54,455"
+    },
+    {
+      "nm": "SKEWERED TOFU ROLL al",
+      "cnt": null,
+      "price": "12,729"
+    },
+    {
+      "nm": "=BI TEMPURA al,",
+      "cnt": null,
+      "price": "13,636"
+    },
+    {
+      "nm": "EF UDON (KIDS) a",
+      "cnt": null,
+      "price": "26,182"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "COLD OCHA 1",
+      "cnt": null,
+      "price": "10,909"
+    },
+    {
+      "nm": "BCA PROMO 1",
+      "cnt": null,
+      "price": "54,455"
+    },
+    {
+      "nm": "SKEWERED SHUMAI 1",
+      "cnt": null,
+      "price": "12,727"
+    },
+    {
+      "nm": "SKEWERED TOFU ROLL 1",
+      "cnt": null,
+      "price": "12,727"
+    },
+    {
+      "nm": "EBI TEMPURA (000) 1",
+      "cnt": null,
+      "price": "13,636"
+    },
+    {
+      "nm": "E UDON (KIDS) 1",
+      "cnt": null,
+      "price": "28,182"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "os",
+      "price": "ee"
+    },
+    {
+      "cnt": "‘ : ; i"
+    },
+    {
+      "nm": "COLD OCHA",
+      "cnt": "at",
+      "price": "10,393"
+    },
+    {
+      "nm": "BCA FROMO",
+      "cnt": "al",
+      "price": "54,455"
+    },
+    {
+      "nm": "SKEWERED SHUMAI",
+      "cnt": "al",
+      "price": "ore."
+    },
+    {
+      "nm": "SKEWERED TOFU ROLL",
+      "cnt": "al",
+      "price": "12,729"
+    },
+    {
+      "nm": "TEMPURA",
+      "cnt": "al,",
+      "price": "13,636"
+    },
+    {
+      "nm": "EF UDON (KIDS)",
+      "cnt": "a",
+      "price": "26,182"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "COLD OCHA",
+      "cnt": "1",
+      "price": "10,909"
+    },
+    {
+      "nm": "BCA PROMO",
+      "cnt": "1",
+      "price": "54,455"
+    },
+    {
+      "nm": "SKEWERED SHUMAI",
+      "cnt": "1",
+      "price": "12,727"
+    },
+    {
+      "nm": "SKEWERED TOFU ROLL",
+      "cnt": "1",
+      "price": "12,727"
+    },
+    {
+      "nm": "EBI TEMPURA",
+      "cnt": "1",
+      "price": "13,636",
+      "unitprice": "(000)"
+    },
+    {
+      "nm": "E UDON (KIDS)",
+      "cnt": "1",
+      "price": "28,182"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "COLD OCHA",
+        "cnt": "1",
+        "price": "10,909"
+      },
+      {
+        "nm": "BCA PROMO",
+        "cnt": "1",
+        "price": "54,455",
+        "sub": [
+          {
+            "nm": ":-ABURA UDON SPICY",
+            "cnt": "1",
+            "price": "0"
+          },
+          {
+            "nm": ":-KAKE UDON",
+            "cnt": "1",
+            "price": "0"
+          }
+        ]
+      },
+      {
+        "nm": "SKEWERED SHUMAI",
+        "cnt": "1",
+        "price": "12,727"
+      },
+      {
+        "nm": "SKEWERED TOFU ROLL",
+        "cnt": "1",
+        "price": "12,727"
+      },
+      {
+        "nm": "EBI TEMPURA",
+        "cnt": "1",
+        "price": "13,636"
+      },
+      {
+        "nm": "KITSUNE UDON (KIDS)",
+        "cnt": "1",
+        "price": "28,182"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "132,636",
+      "tax_price": "13,264"
+    },
+    "total": {
+      "total_price": "145,900",
+      "creditcardprice": "[145,900]"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> COLD OCHA</s_nm><s_cnt> 1</s_cnt><s_price> 10,909</s_price><sep/><s_nm> BCA PROMO</s_nm><s_cnt> 1</s_cnt><s_price> 54,455</s_price><s_sub><s_nm> :-ABURA UDON SPICY</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> :-KAKE UDON</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price></s_sub><sep/><s_nm> SKEWERED SHUMAI</s_nm><s_cnt> 1</s_cnt><s_price> 12,727</s_price><sep/><s_nm> SKEWERED TOFU ROLL</s_nm><s_cnt> 1</s_cnt><s_price> 12,727</s_price><sep/><s_nm> EBI TEMPURA</s_nm><s_cnt> 1</s_cnt><s_price> 13,636</s_price><sep/><s_nm> KITSUNE UDON (KIDS)</s_nm><s_cnt> 1</s_cnt><s_price> 28,182</s_price></s_menu><s_sub_total><s_subtotal_price> 132,636</s_subtotal_price><s_tax_price> 13,264</s_tax_price></s_sub_total><s_total><s_total_price> 145,900</s_total_price><s_creditcardprice> [145,900]</s_creditcardprice></s_total></s>"
+}

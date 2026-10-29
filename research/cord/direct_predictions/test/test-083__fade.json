@@ -1,0 +1,79 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-083",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "13ade679096f75f411ccdc4007d30ab318ccef4541aa7fa335de1f0286323970",
+  "elapsed_seconds": 0.846,
+  "detected_words": 11,
+  "detected_lines": 4,
+  "ocr_text": "gijptal / 20,909 AIK 107 2,094 1 Total 23,000 jendered F000,",
+  "trocr_words": "9.01OTAL 20.909 AJAK 10% 1 TOTAL 23.000 TENDERED 25.000",
+  "ocr_rules_total": "23,000",
+  "ocr_rows": [
+    {
+      "nm": "gijptal /",
+      "cnt": null,
+      "price": "20,909"
+    },
+    {
+      "nm": "AIK 107",
+      "cnt": null,
+      "price": "2,094"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "9.01OTAL",
+      "cnt": null,
+      "price": "20.909"
+    },
+    {
+      "nm": "TENDERED",
+      "cnt": null,
+      "price": "25.000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "9.01OTAL 20.909 TOTAL 23.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "gijptal /",
+      "price": "20,909"
+    },
+    {
+      "nm": "AIK",
+      "price": "2,094",
+      "unitprice": "107"
+    },
+    {
+      "cnt": "1",
+      "price": "23,000"
+    },
+    {
+      "nm": "jendered",
+      "price": "F000,"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": {
+      "nm": "COOKTES AND CREAM",
+      "cnt": "1",
+      "price": "20.909"
+    },
+    "sub_total": {
+      "subtotal_price": "20.909",
+      "tax_price": "2,091"
+    },
+    "total": {
+      "total_price": "23,000",
+      "cashprice": "25.000",
+      "changeprice": "2,000",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> COOKTES AND CREAM</s_nm><s_cnt> 1</s_cnt><s_price> 20.909</s_price></s_menu><s_sub_total><s_subtotal_price> 20.909</s_subtotal_price><s_tax_price> 2,091</s_tax_price></s_sub_total><s_total><s_total_price> 23,000</s_total_price><s_cashprice> 25.000</s_cashprice><s_changeprice> 2,000</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

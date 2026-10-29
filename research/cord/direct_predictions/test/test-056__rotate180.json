@@ -1,0 +1,98 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-056",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "0eacfa5f6ca1e49ceaeaa7b175c18c0abde521d0470c54b9ba84c68be3e6f349",
+  "elapsed_seconds": 2.062,
+  "detected_words": 46,
+  "detected_lines": 12,
+  "ocr_text": "LOO ‘L: a5. OOO ‘OL: ~ HSVO SiG AL ee BSLey XVL = 6ici's: =, WioLens a WMSNIW MT _—— bbe rebate = “ - m -* . =S To) bare bied a ae bey = = +> ecetedse wee . 2 — aie = =",
+  "trocr_words": "CG:00 CASH : 00,000 TEL 1 TAX TAX TAX SUBTOTAL A.8, 18 AIR MINERAL BAL 8, 181 - S AMOUNT S MM AME SIMM AMMM",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "nm": "LOO ‘L:",
+      "price": "a5."
+    },
+    {
+      "nm": "OOO ‘OL:",
+      "price": "~ HSVO"
+    },
+    {
+      "nm": "SiG",
+      "price": "AL"
+    },
+    {
+      "nm": "BSLey",
+      "cnt": "ee",
+      "price": "XVL"
+    },
+    {
+      "nm": "6ici's:",
+      "cnt": "= =,"
+    },
+    {
+      "cnt": "a",
+      "price": "MT"
+    },
+    {
+      "cnt": "_——"
+    },
+    {
+      "cnt": "= “ -"
+    },
+    {
+      "cnt": ". =S To)"
+    },
+    {
+      "cnt": "ae"
+    },
+    {
+      "nm": "ecetedse",
+      "cnt": "=",
+      "price": "wee . 2"
+    },
+    {
+      "cnt": "—",
+      "price": "="
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "AIR MINERAL",
+      "price": "8, 181"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "100'L.",
+      "num": "90",
+      "price": "99"
+    },
+    "sub_total": {
+      "subtotal_price": [
+        {
+          "num": "000'01",
+          "price": "11"
+        },
+        {
+          "nm": "666'8",
+          "num": "818.",
+          "price": "11"
+        }
+      ]
+    },
+    "total": {
+      "total_price": "1818.8",
+      "creditcardprice": "1818.8"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 100'L.</s_nm><s_num> 90</s_num><s_price> 99</s_price></s_menu><s_sub_total><s_subtotal_price> HASVO</s_nm><s_num> 000'01</s_num><s_price> 11</s_price><sep/><s_nm> 666'8</s_nm><s_num> 818.</s_num><s_price> 11</s_price></s_menu><s_sub_total><s_subtotal_price> 1818.</s_subtotal_price></s_sub_total><s_total><s_total_price> 1818.8</s_total_price><s_creditcardprice> 1818.8</s_creditcardprice></s_total></s>"
+}

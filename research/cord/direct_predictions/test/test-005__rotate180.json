@@ -1,0 +1,72 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-005",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "f66cf3ec0d6ab4b8a85d84028b0b0743497fe51ccb989aa43b92ce5d804e3bb0",
+  "elapsed_seconds": 2.163,
+  "detected_words": 24,
+  "detected_lines": 8,
+  "ocr_text": "| eS ' a OOO LE HSVO O00 °LE WLOL B18°2 ROL L-dd 281\" 82 TLLIGNS 00°! SWALI CBL \"82 JLYVO LSVOL AY VUL",
+  "trocr_words": "AUGUST CASHIER CASH : 31.00 TOTAL : 31.00 PB-1 10% SUBTIL L ITEMS 1.00 TRAD NO X X NOAST ISSU ASI",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "ITEMS",
+      "cnt": null,
+      "price": "1.00"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL : 31.00"
+  },
+  "layout_rows": [
+    {
+      "cnt": "'"
+    },
+    {
+      "price": "HSVO",
+      "unitprice": "OOO LE"
+    },
+    {
+      "price": "WLOL",
+      "unitprice": "O00 °LE"
+    },
+    {
+      "price": "ROL L-dd",
+      "unitprice": "B18°2"
+    },
+    {
+      "cnt": "82",
+      "price": "TLLIGNS",
+      "unitprice": "281\""
+    },
+    {
+      "unitprice": "00°!"
+    },
+    {
+      "cnt": "CBL \"82",
+      "price": "AY VUL",
+      "unitprice": "JLYVO"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TRAD NOAST",
+      "cnt": "X X",
+      "price": "ASI"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000 LE HASPIC",
+      "price": "1-8"
+    },
+    {
+      "nm": "TALBUSAN"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000 LE HASPIC</s_nm><s_num> 000 LE TALOL</s_nm><s_num> 818.7</s_num><s_price> 1-8</s_price><sep/><s_nm> TALBUSAN</s_nm><s_num> 00'L SWELLI</s_nm><s_num> 281-85</s_num><s_price> AVAL</s>"
+}

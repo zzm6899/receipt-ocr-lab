@@ -1,0 +1,82 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-064",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "c19864231535523a71362e0ce31625c00dac11e97963f65511132b40ffc52ed0",
+  "elapsed_seconds": 1.836,
+  "detected_words": 47,
+  "detected_lines": 16,
+  "ocr_text": "% ‘y 4 _ ' ic.) . eng . sl Me Z ra By % ; a 3 c on i Ps: Se me a é >. Bee FWD Be NY : iy ST if} a ig ee ‘ ‘e as f RB, set : i |",
+  "trocr_words": "WWWWWWWWWWWWWWWWWWWWWW WWW.WW. CASHIER CASHIER AMOUNT AMOUNT SUMMARY CHANGE 3.00 INVOICE AAA'WC TOTAL TRIUM AICE NO ONCLUSIONS ONCLUS DATE 16.000 *** WW WW WW * E.I CASHIER :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "DATE",
+      "cnt": null,
+      "price": "16.000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "AMOUNT AMOUNT DATE 16.000"
+  },
+  "layout_rows": [
+    {
+      "price": "‘y"
+    },
+    {
+      "cnt": "4 _ '",
+      "price": "ic.)"
+    },
+    {
+      "cnt": "Me Z By",
+      "price": "ra"
+    },
+    {
+      "cnt": "% ; a 3 c",
+      "price": "on"
+    },
+    {
+      "cnt": "i Ps: Se me a",
+      "price": "é"
+    },
+    {
+      "nm": "Bee",
+      "price": "FWD"
+    },
+    {
+      "nm": "Be",
+      "price": "NY"
+    },
+    {
+      "nm": "ST",
+      "cnt": ": iy",
+      "price": "if}"
+    },
+    {
+      "cnt": "a",
+      "price": "ig"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "AAA'WC"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'09",
+        "price": "ONEIHO"
+      },
+      {
+        "nm": "000'9I",
+        "price": "78101"
+      }
+    ],
+    "total": "<s_total_price> d0005 Eftersom"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'TE</s_nm><s_price> 39NHHO</s_price><s_sub><s_nm> 000'09</s_nm><s_price> ONEIHO</s_price><sep/><s_nm> 000'9I</s_nm><s_price> 78101</s_price></s_menu><s_total><s_total_price> d0005 Eftersom</s_total></s>"
+}

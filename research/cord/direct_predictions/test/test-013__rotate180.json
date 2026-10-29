@@ -1,0 +1,128 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-013",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "a88666ad06e016b6f37935422985e1be4898b62b112248c5f9f00ccd34f6bad5",
+  "elapsed_seconds": 4.007,
+  "detected_words": 73,
+  "detected_lines": 30,
+  "ocr_text": "| e ex gp gee eonnsagn _ i a re a iene = — “ - yp eens; i HY “i Ae ee OF i, ms CR) OY TE PA <, el, a j eae , pe A) ees a ae amt cn nbn) ids) Z, AINUNGS Ae ye . ~ a) ae OE Peri Pi “hy jes | < | ! a be pA) wy Q Zz. == _ — (BY vA)",
+  "trocr_words": "L - @9 CASH WWWWWW. PAYMENT 2 AMOUNT: AMOUNT NO: 0 Z. X. X. X. X. X. X. X. X. X. X. X. X. X. X. X. X. (8) BAH, BELAS : 1 3.00 S.000 AMOUNT GO CHANGE AMOUNT *** G Z AMYMER 00. PR I001 ITEMOUNT < LAM (9)E) @ G Z D = A GST @",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "BAH, BELAS : 1",
+      "cnt": null,
+      "price": "3.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "Q"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "unitprice": "ex"
+    },
+    {
+      "cnt": "gp",
+      "unitprice": "gee"
+    },
+    {
+      "cnt": "_"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "="
+    },
+    {
+      "cnt": "yp",
+      "price": "i"
+    },
+    {
+      "cnt": "“i",
+      "price": "Ae",
+      "unitprice": "HY"
+    },
+    {
+      "cnt": "ee OF",
+      "price": "i,"
+    },
+    {
+      "cnt": "TE",
+      "price": "PA",
+      "unitprice": "ms CR) OY"
+    },
+    {
+      "cnt": "<,"
+    },
+    {
+      "cnt": "a j",
+      "price": "eae"
+    },
+    {
+      "unitprice": "ees"
+    },
+    {
+      "cnt": "a",
+      "price": "cn",
+      "unitprice": "ae"
+    },
+    {
+      "nm": "AINUNGS Ae",
+      "cnt": "Z,",
+      "price": "ye ~"
+    },
+    {
+      "cnt": "a)"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "0 Z. X. X. X. X. X. X. X. X. X. X. X. X. X.",
+      "price": "X. X. X."
+    },
+    {
+      "nm": "BAH, BELAS",
+      "cnt": ": 1",
+      "price": "S.000",
+      "unitprice": "3.00"
+    },
+    {
+      "nm": "AMYMER"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "G",
+      "price": "ITEWEEK"
+    },
+    {
+      "nm": "000*2S",
+      "price": "IWALL"
+    },
+    {
+      "nm": "000*TS",
+      "price": "ONTONG"
+    },
+    {
+      "nm": "99*b",
+      "unitprice": "00*OT X41",
+      "cnt": "909*9b",
+      "price": "dHO"
+    },
+    {
+      "nm": "79*9b",
+      "price": "TW101"
+    },
+    {
+      "nm": "000*2",
+      "cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> G</s_nm><s_price> ITEWEEK</s_price><sep/><s_nm> 000*2S</s_nm><s_price> IWALL</s_price><sep/><s_nm> 000*TS</s_nm><s_price> ONTONG</s_price><sep/><s_nm> 99*b</s_nm><s_unitprice> 00*OT X41</s_unitprice><s_cnt> 909*9b</s_cnt><s_price> dHO</s_price><sep/><s_nm> 79*9b</s_nm><s_price> TW101</s_price><sep/><s_nm> 000*2</s_nm><s_cnt> 1</s_cnt><s_price> AWAGNIWA\"V</s_nm><s_num> 929*2b<s_cnt> 1</s_cnt><s_price> HMTN OSHI</s_nm><s_num> A溫光noi</s>"
+}

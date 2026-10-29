@@ -1,0 +1,83 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-037",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "f070e566dee01853353427242bc202e9a8fa8616b9cfd8e0d0f99707e97ecb1c",
+  "elapsed_seconds": 1.093,
+  "detected_words": 23,
+  "detected_lines": 8,
+  "ocr_text": "Wit amine oe * too \" Popcorn Salt (S) ‘ 20.000 . TOTAL 20.000 CASH 50.000 CHANGED 30.000 — - sot enamel o-",
+  "trocr_words": "*** *** 1 POPCORN SALT (S) @ 20.000 CASH ~~ TOTAL ~~ 20.000 CASHIER COME AGAIN 50000 CHANGED WITHIN ONE 30.000 --- HH",
+  "ocr_rules_total": "20.000",
+  "ocr_rows": [
+    {
+      "nm": "\" Popcorn Salt (S) ‘",
+      "cnt": null,
+      "price": "20.000"
+    },
+    {
+      "nm": "CHANGED",
+      "cnt": null,
+      "price": "30.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "POPCORN SALT (S) @",
+      "cnt": "1",
+      "price": "20.000"
+    },
+    {
+      "nm": "CHANGED WITHIN ONE",
+      "cnt": null,
+      "price": "30.000"
+    }
+  ],
+  "layout_fields": {
+    "total": ". TOTAL -"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 20.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "Wit amine",
+      "price": "oe"
+    },
+    {
+      "cnt": "*"
+    },
+    {
+      "nm": "Popcorn Salt",
+      "cnt": "\" (S)",
+      "price": "‘ 20.000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "POPCORN SALT",
+      "cnt": "1 (S) @",
+      "price": "20.000"
+    },
+    {
+      "price": "50000"
+    },
+    {
+      "price": "30.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Popcorn Salt (S)",
+      "cnt": "1",
+      "price": "20.000"
+    },
+    "total": {
+      "total_price": "20.000",
+      "cashprice": "50.000",
+      "changeprice": "30.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Popcorn Salt (S)</s_nm><s_cnt> 1</s_cnt><s_price> 20.000</s_price></s_menu><s_total><s_total_price> 20.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 30.000</s_changeprice></s_total></s>"
+}

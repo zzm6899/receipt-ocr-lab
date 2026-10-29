@@ -1,0 +1,88 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-028",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "4fc5d368b40781c4da5c356ad585d83a55ca8ab34a9db4d4d3dec4d55ada2e39",
+  "elapsed_seconds": 1.864,
+  "detected_words": 35,
+  "detected_lines": 10,
+  "ocr_text": "2 Fs eee ee eer . oe * ee | 7\" G6l 927 WLOL 0 junoosiq Gye LVA | OS? SL B0IAI8S Q00'69€ jejo]| ans 000'001 L NOW o00'SZ L ONVLONNATANS “ 000'r6L Z qvSdoAonvs",
+  "trocr_words": "SR *** TOTAL: 426,195 DISCOUNT : VAT AMOUNT SERVICE OF RECEIPT SAVINGS SUB TOTAL TOTAL TOTAL INCLUS MAKE IT NO.00 GOO'SZ L ONYL ONDITOS SANSYOPPSAL 2 1G4,000",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL: 426,195"
+  },
+  "layout_rows": [
+    {
+      "cnt": ". *",
+      "price": "ee",
+      "unitprice": "eee ee eer oe"
+    },
+    {
+      "price": "WLOL",
+      "unitprice": "927"
+    },
+    {
+      "cnt": "0",
+      "price": "junoosiq"
+    },
+    {
+      "nm": "Gye",
+      "price": "LVA"
+    },
+    {
+      "cnt": "|",
+      "price": "B0IAI8S"
+    },
+    {
+      "price": "jejo]| ans",
+      "unitprice": "Q00'69€"
+    },
+    {
+      "cnt": "L",
+      "price": "NOW"
+    },
+    {
+      "cnt": "L"
+    },
+    {
+      "cnt": "Z",
+      "price": "qvSdoAonvs"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "GOO'SZ",
+      "cnt": "L"
+    },
+    {
+      "nm": "SANSYOPPSAL",
+      "cnt": "2",
+      "price": "1G4,000"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "S61'927",
+      "price": {
+        "unitprice": "0",
+        "cnt": "0"
+      }
+    },
+    {
+      "nm": "elser",
+      "price": "00693"
+    },
+    {
+      "nm": {
+        "price": "TOS"
+      },
+      "num": "000'761"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> S61'927</s_nm><s_price> POTOT</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 0</s_cnt><s_price> TAL'83</s_price><sep/><s_nm> elser</s_nm><s_price> 00693</s_price><sep/><s_nm> TOKYOUK 0001 مشترك مشترك 1</s_cnt><s_price> TOS</s_price><sep/><s_nm> OO'SL SNATL SNAT TNS</s_nm><s_num> 000'761</s_num><s_price> SUSPORTANT</s_changeprice></s_total></s>"
+}

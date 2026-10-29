@@ -1,0 +1,226 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-043",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "0499889397bd8c10abc2fb6892fe9bfbcc359b0e901d8a18a274b840564323ba",
+  "elapsed_seconds": 16.62,
+  "detected_words": 481,
+  "detected_lines": 91,
+  "ocr_text": "iy MOT LA MA LLL SST EET ILE GG ChEee 'f Li MOMMA LEE SELL ; GU fe EO LOL UT LA ATLL HMO ALN REY AL ELE PG ATU ? vs Pi AA OMY ALT PRAT PWIVRA EEL LE ¢ ; LT PUMA UF MOLL SELLE LE CEL Git hve Doth tl Pe Gy WM UI CEM EE LEE EL 4 iy Go yet ibs, Myf WE A ME MU EL LE LEE SLED y Nee te Ur My tiy OG SL AS ALLIES SS VURAL TNA Ge pi Hels PL YE ELUM SAGA Pea GAT OA A ESOL A i COL Ue NAIM TEED ULM LTR eee PLN E ; \" g AS YAU LY EAL ORL UL ay yy ‘ 4 4 LU MLL LL LUM A EE MOM TLL i RI, nt Thetie TIAN EL J MOUS YA ESO OLE SOLE EEE LEI . t ee BASE TRAM AM A) ay! PLY. Os Hy PSH SS : Te YY a RMN ELLER ELEY EEE SEY Sp bias 5 , ad aw MM YELLE EE a ent OEE LLM EEE te PG Ae ABE ME BELONG LEELA LES es AOU LL OE OETA EPA AEE : \" Ve ty il 7 Way, WI YEMEN TOWLE ALO MLZ F ah LE) Tk PL Dy ; fj fies if CLAS Gants EG LYLE MAMMAL LEDS BA taf EIS i, See Ly ae MV Mt LN tae A CNW GLL : Cee g ope iy 40 PT Ags LAMPE AOL! Gi EMH - Cee y 7 VR LL Apes Pies VU E T EMER DMS , Z Wea EN MAL VOLE. ONL UURL bai DAMIAN GP AGEL eee - rie AE YE thi) fh My Ae 3 : ‘ r His, LTA ei j kh x al -_ * ows : Pas Ales: On) sd P f At) | “51 | enAupu) JBWO4e\"' } Ue ; a. ae ‘ ‘ ais) » ; anon OLB Adu if / »,\\USE | EEO p » at 7( p40 / f Hie . te Le a Visti J} c 4 ‘nannit ui JA9) (P40) * 7 J ‘papn| WUT ei Lt” ‘ P “4 (INO om , (2103005 \" ; ; ‘ ‘ . wm mene { = an ae i mh g d 1911189 dd | fa] 5 Ot FE | IO ¥O4 , . 7 4) , ry fal p . ql 1 JP! ASBaLl’ and O : | LJP] oe gt 7 , Ij i) ~ “ - _— a - - - ad - ul 1 b She ; 7 . 7 z j é, y a J ta Fi A Mi i | oe if , ; P = y F } } soit f Z ig x j cd 2 ‘es A elt ans Ava a 2 aati, ee i . ty vr) Riis eae ey a Sata",
+  "trocr_words": "AMOUNT:*** SR: 1, JALANANANANANANAN PERMASANANAN PERMASHA SR: 1,0008,0008, JALANANANANANANANANANANANAN SR:00-1,000-1,000-1,000-1,KAWASAN PERMAS (8)8-20-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-17-17-17-17-12-12-12 TAMPOI, JALANANANANANAN PERMASANANANANANANANANANANAN *** AMOUNTS INCLUSIVE WITHIN THE AGAIN PAY ON ALLAY SR: 1, JALANAN 7/4,KAWASANANAN PERMASANANANAN PERMAS SR: 1, JALANAN PERMASAN 7/4,KAWASAN PERMASAN PERMAS SR: 1, JALANANAN PERMASAN PERMASAN PERMASAN PERMASPANY GST REG #: 1, JALANANANANANANANANANANANANANANAN *** SR: 1, JALANAN PERMASAN PERMASANANAN PERMASUANANANAN *** SR:00-12-12-12-12, JALAN PERMASAN PERMASAN PERMASUAN PERMAS SR:03-12-12-12-12-12-12-12-12-12-12-12-12-12-12-17-17-17-1703 GST REG #: 1,000-1,KAWASAWASAN PERMASKAWAS,KAWAY GST REG #: 1, JALAN 7/4,KAWASAN PERMASU 7/4,KAW SR:00-12-12-12, JALAN PERMASAN 7/4,KAWASAN PERMASAN PERMAS SR: 1, JALANANANANANANANANANANANANANANANANANANANANANANANAN SR: 1, JALANAN PERMASAN PERMASANANANANANANANANANAN SR: 1, JALANANANANANANANANANANANANANANANANAN SR:00-12, JALAN 7/4,KAWASANANAN PERMASAN PERMAS SR: 1, JALANANANANANANANANANANANANANANANAN *** SR: 1, JALANANANAN PERMASUAN PERMAS : SR CASHIER LOT AMOUNT SUMMARY AD 10M BUPLN JAWOISN :96UPUJ JAWOISN. BAR ANDUEW PERMAN PAYABLE LIAM01SN) 11001 PRIM PURN DUPN DUPJAMUTSIV USJAYA SR/08 2 4.6 :IP10 0'0000COPID: 859108 INVOICE INCLUSIVEMENT XPI [PPOL TRANSACTION GST REG: CASHIER XEL 1 PT01 IN101000 *** *** ......................... *** ALJEN AD WELLJED AD - Q 10 X09 9.10 X09 3 7- 6-0 AMOUNT 1/M 0020W CASH 1JPI ASAAU SOJ 9 6 PCS CHEESE TAPE 8091 ......................... : AMOUNT CHANGE NUM NET USC PLEASE ITEM 3 1 ITEMS NOT IT SELF 7 CASHIER AMOUNT (RM) SR-10 1 ......................... 1 ITEM : : ITEMS AMOUNT *** AMOUNT SR:46-10:49 PM ITEM MASTER ITEM MEAT ITEMABLE",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": ":"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "MOT MA",
+      "cnt": "iy LA",
+      "price": "GG ChEee 'f"
+    },
+    {
+      "nm": "Li",
+      "price": "SELL"
+    },
+    {
+      "nm": "LOL UT LA",
+      "cnt": "; GU fe",
+      "price": "ELE PG ATU"
+    },
+    {
+      "nm": "Pi",
+      "cnt": "? vs",
+      "price": "EEL LE ¢"
+    },
+    {
+      "nm": "LT",
+      "cnt": ";",
+      "price": "LE CEL"
+    },
+    {
+      "nm": "Pe",
+      "cnt": "Git hve Doth tl Gy",
+      "price": "EE LEE"
+    },
+    {
+      "nm": "Go yet WE",
+      "cnt": "4 iy",
+      "price": "EL y"
+    },
+    {
+      "cnt": "Nee te My tiy SS",
+      "price": "VURAL TNA Ge"
+    },
+    {
+      "nm": "Hels PL",
+      "cnt": "pi"
+    },
+    {
+      "cnt": "i Ue",
+      "price": "eee PLN"
+    },
+    {
+      "cnt": "; \" g",
+      "price": "UL"
+    },
+    {
+      "cnt": "yy ‘ 4 4",
+      "price": "TLL RI,"
+    },
+    {
+      "cnt": "nt Thetie TIAN J",
+      "price": "EEE"
+    },
+    {
+      "cnt": ". t ee A)"
+    },
+    {
+      "cnt": ": Te YY a",
+      "price": "SEY Sp"
+    },
+    {
+      "cnt": "5 , ad aw"
+    },
+    {
+      "cnt": "a ent"
+    },
+    {
+      "cnt": "te",
+      "price": "LES"
+    },
+    {
+      "cnt": "LL",
+      "price": "EPA AEE"
+    },
+    {
+      "cnt": ": \" Ve ty il 7",
+      "price": "ALO MLZ F LE) Tk PL"
+    },
+    {
+      "cnt": "fj fies if",
+      "price": "LEDS BA taf"
+    },
+    {
+      "cnt": "EIS i, Ly ae",
+      "price": "tae A CNW GLL"
+    },
+    {
+      "cnt": ": Cee g ope iy",
+      "price": "AOL! Gi EMH",
+      "unitprice": "40"
+    },
+    {
+      "cnt": "- Cee y 7 E",
+      "price": "EMER DMS"
+    },
+    {
+      "cnt": ", Z Wea EN MAL ONL UURL bai",
+      "price": "GP eee"
+    },
+    {
+      "cnt": "- rie AE thi) fh My",
+      "price": "3"
+    },
+    {
+      "cnt": "‘ r",
+      "price": "ei"
+    },
+    {
+      "price": "sd"
+    },
+    {
+      "nm": "enAupu)"
+    },
+    {
+      "cnt": "}"
+    },
+    {
+      "price": "ae ‘"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1,",
+      "unitprice": "JALANANANANANANAN"
+    },
+    {
+      "unitprice": "1,0008,0008,"
+    },
+    {
+      "nm": "TAMPOI,",
+      "unitprice": "JALANANANANANAN"
+    },
+    {
+      "cnt": "SR: 1,",
+      "unitprice": "JALANAN 7/4,KAWASANANAN"
+    },
+    {
+      "cnt": "SR: 1,",
+      "unitprice": "JALANAN PERMASAN 7/4,KAWASAN"
+    },
+    {
+      "cnt": "SR: 1,",
+      "unitprice": "JALANANAN"
+    },
+    {
+      "cnt": "REG #: 1,",
+      "unitprice": "JALANANANANANANANANANANANANANANAN"
+    },
+    {
+      "cnt": "1,",
+      "unitprice": "JALANAN"
+    },
+    {
+      "cnt": "JALAN"
+    },
+    {
+      "cnt": "REG #:",
+      "unitprice": "1,000-1,KAWASAWASAN"
+    },
+    {
+      "cnt": "REG #: 1,",
+      "price": "7/4,KAW",
+      "unitprice": "JALAN 7/4,KAWASAN"
+    },
+    {
+      "cnt": "JALAN",
+      "unitprice": "7/4,KAWASAN"
+    },
+    {
+      "cnt": "1,"
+    },
+    {
+      "cnt": "SR: 1,",
+      "unitprice": "JALANAN"
+    },
+    {
+      "cnt": "SR: 1,",
+      "unitprice": "JALANANANANANANANANANANANANANANANANAN"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": ":acueur Jewisno",
+        "num": {
+          "nm": ":uspe pied Jewisno"
+        },
+        "price": ":[2]01"
+      },
+      {
+        "nm": {
+          "price": ":[201"
+        },
+        "num": "00*000901"
+      }
+    ],
+    "total": {
+      "total_price": "eseaued godkjent 9"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> :acueur Jewisno</s_nm><s_num> 00*000엿panga</s_price><sep/><s_nm> :uspe pied Jewisno</s_nm><s_num> 00*000엿10</s_num><s_price> :[2]01</s_price><sep/><s_nm> :papport xel [2]01</s_unitprice><s_cnt> 00*000엿10</s_num><s_price> :[201</s_price><sep/><s_nm> :papportune] dd</s_nm><s_num> 00*000901</s_num><s_price> dd xog</s_num><s_price> 001</s_price></s_menu><s_total><s_total_price> eseaued godkjent 9</s_total_price></s_total></s>"
+}

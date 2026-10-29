@@ -1,0 +1,165 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-032",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "6c13751bf7458d4aaef8150c393d2c8f1334ffacb8a7746dfa76c0199a6c7b1c",
+  "elapsed_seconds": 9.588,
+  "detected_words": 191,
+  "detected_lines": 54,
+  "ocr_text": "Kk ‘ ti 8 ‘tae » % eet ° ' re ¢) \\ ’ . ! i) a A f rey t \\ | | j ' = / hie a ll ee eee pa | REEN T i 24.000 ' = oe ae 5 ace ce sal eed el es pe, cE 24.000 Foahtott ier eee nies faeces ' x at 4 4 he ; | 90.000 26,000 - 2p ee IO ae BEET Sea ee Pe Z —. Fars Seer , . ~~; eaters Bane ee. aw Ree Ree Ian alll gee Bet i esl Oo ge er sel a el gE Oa aul ee EC aM co is ota EE Ae, Fie a a To seal sme sae a NAS oe al MO LT pean tok aa : BE ge ee COO ER ll LE ed Oe Me me ‘BEF ae ste 5 gee Og ee: a Or okt Sa ee phe nthe —— -<ecgllee — ———— ial ais a es oe > aaa —— a ole ish _ Be le = -— “s ea ee ma o a “ ne ~ —— —_ oe (CE et “*",
+  "trocr_words": "WWW. < #GUSTOM : #01 1 AMOUNT: 1 ITEM ITEM 1 1 THANK YOU. 1 SR ................................ THAI ICED GREEN T 824.00 24.00 ................ ------------- ------------ SUB-TOTAL 24.000 ................................ MANSE EXCEIPT SUMMARY CUPANITITIL SR:00-12:00-1703-17-17:17:17:17:17:46 ......................... CASH 26.000 8.00 AMOUNT NO.COM.COM. WWW.PURCHASE 1 CASHIER SR: WWW.WW. CASHIER ONCLUSIVE TRAN FACEBOOK WWW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K CASHIER: CASHIER ON BACK AMOUNT CASHIER CASHIER AGAINTAIN AMOUNT AMOUNT WATERING AGAIN CASHIER ONCLUSIVE CASHIER COPY ON FACEBOOK SR: WWW.COM *** CASHIER FOR EXCLUDING ON BACK - SR:00-12:03:43 PM-12:43 PM CASHIER ONCLUSIVE CASHIER",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "i",
+      "cnt": null,
+      "price": "24.000"
+    },
+    {
+      "nm": "cE",
+      "cnt": null,
+      "price": "24.000"
+    },
+    {
+      "nm": "|",
+      "cnt": null,
+      "price": "90.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "824.00",
+      "cnt": null,
+      "price": "24.00"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "price": "Kk"
+    },
+    {
+      "cnt": "‘ ti",
+      "price": "8 ‘tae"
+    },
+    {
+      "cnt": "»"
+    },
+    {
+      "price": "° '"
+    },
+    {
+      "cnt": "¢) \\",
+      "price": "’ . !"
+    },
+    {
+      "price": "i)"
+    },
+    {
+      "cnt": "a A"
+    },
+    {
+      "cnt": "f"
+    },
+    {
+      "cnt": "t \\"
+    },
+    {
+      "cnt": "' ="
+    },
+    {
+      "cnt": "hie"
+    },
+    {
+      "cnt": "a",
+      "price": "eee",
+      "unitprice": "ll"
+    },
+    {
+      "nm": "REEN",
+      "cnt": "pa | T"
+    },
+    {
+      "cnt": "i",
+      "price": "24.000"
+    },
+    {
+      "cnt": "' oe ae"
+    },
+    {
+      "cnt": "5",
+      "price": "eed el es pe,",
+      "unitprice": "ace ce sal"
+    },
+    {
+      "cnt": "cE",
+      "price": "24.000"
+    },
+    {
+      "nm": "Foahtott"
+    },
+    {
+      "cnt": "'"
+    },
+    {
+      "cnt": "x"
+    },
+    {
+      "cnt": "he"
+    },
+    {
+      "cnt": "|",
+      "price": "90.000"
+    },
+    {
+      "price": "26,000"
+    },
+    {
+      "cnt": "IO",
+      "price": "Sea"
+    },
+    {
+      "cnt": "a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "SR"
+    },
+    {
+      "nm": "THAI ICED GREEN",
+      "cnt": "T"
+    },
+    {
+      "unitprice": "824.00 24.00"
+    },
+    {
+      "nm": "CUPANITITIL"
+    },
+    {
+      "price": "26.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "THAI ICED GREEN TEA",
+      "unitprice": "@24.000",
+      "cnt": "1",
+      "price": "24.000"
+    },
+    "sub_total": {
+      "subtotal_price": "24.000"
+    },
+    "total": {
+      "total_price": "24.000",
+      "cashprice": "50.000",
+      "changeprice": "26.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> THAI ICED GREEN TEA</s_nm><s_unitprice> @24.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 24.000</s_price></s_menu><s_sub_total><s_subtotal_price> 24.000</s_subtotal_price></s_sub_total><s_total><s_total_price> 24.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 26.000</s_changeprice></s_total></s>"
+}

@@ -1,0 +1,109 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-096",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "d4b08e248bb9fb9ca1b8a1742603d823eb58ee75d31afa37ba3bdbcfe3ffee7a",
+  "elapsed_seconds": 2.362,
+  "detected_words": 73,
+  "detected_lines": 17,
+  "ocr_text": "h Wi yy 4 tee WN ) Ait | \\| 000'6: eBueuo oo0'os yseo Aed cael ya { 1) 88 SNe et eee) seve ep a i Pi) iste weigeee | LT a — \\ | \\ — i a a | | | iH Vee ei 4) MN Pas inant i | | WH | si al | Ai al \\ {| dF es, i liiolib albeddat Lettie > 6 l MMR",
+  "trocr_words": "NETMENT SUMMARY WWWWWW.W.MY.MY. (MY) (8) (8) $8% *** (RM) INVOICE 809 5999388 *** INVINIONMENT WWW.WW 11.00 IT WWWWWWWWWWWWWW AMOUNT:00060000008-MY SR:00-1,000-1,000 WWWWWWWWWWWWWW S/TOTAL AMOUNT CASHIER",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "AMOUNT:00060000008-MY AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "nm": "tee",
+      "cnt": "h 4",
+      "unitprice": "yy"
+    },
+    {
+      "nm": "eBueuo",
+      "cnt": ") | \\|",
+      "price": "yseo Aed cael",
+      "unitprice": "Ait 000'6: oo0'os"
+    },
+    {
+      "cnt": "ya { 1)",
+      "price": "SNe et",
+      "unitprice": "88"
+    },
+    {
+      "price": "ep a",
+      "unitprice": "seve"
+    },
+    {
+      "price": "weigeee LT",
+      "unitprice": "iste"
+    },
+    {
+      "cnt": "\\ | \\",
+      "price": "i a"
+    },
+    {
+      "cnt": "|",
+      "price": "iH Vee"
+    },
+    {
+      "nm": "ei",
+      "cnt": "4)",
+      "price": "MN"
+    },
+    {
+      "nm": "Pas inant",
+      "cnt": "i |",
+      "price": "| WH"
+    },
+    {
+      "cnt": "si |",
+      "price": "al",
+      "unitprice": "al Ai"
+    },
+    {
+      "nm": "liiolib albeddat",
+      "cnt": "dF es, i",
+      "price": "Lettie"
+    },
+    {
+      "cnt": "l",
+      "price": "MMR"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "unitprice": "(8)"
+    },
+    {
+      "price": "5999388",
+      "unitprice": "809"
+    },
+    {
+      "nm": "INVINIONMENT"
+    },
+    {
+      "price": "11.00"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'6: Chame's",
+      "unitprice": "000'09",
+      "cnt": "4sec",
+      "price": "Red"
+    },
+    {
+      "nm": "000't",
+      "price": "Rppl. -"
+    },
+    {
+      "nm": "000't",
+      "menuqty_cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'6: Chame's</s_nm><s_unitprice> 000'09</s_unitprice><s_cnt> 4sec</s_cnt><s_price> Red</s_price><sep/><s_nm> 000't</s_nm><s_unitprice> SWELI</s_nm><s_unitprice> 000'<unk></s_cnt><s_price> Rppl. -</s_price><sep/><s_nm> 000't</s_nm><s_unitprice> CHALLENGE BELE<s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

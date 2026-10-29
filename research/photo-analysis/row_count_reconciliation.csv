@@ -1,0 +1,10 @@
+count_basis,entries,unit,eligibility
+Older scoring snapshot: legacy_reference_v3_1.json,120,item rows,unfiltered transcription inventory; 34 receipt records
+Current review packet v2.1 canonical rows,123,canonical item rows,"34 matched instances; assistant-audited, human review pending"
+Current review packet v2.1 separate adjustment,1,non-item adjustment rows,not a product row
+Review packet Line Items CSV rows,124,data rows,123 canonical item rows plus separate adjustment
+Receipy add-on complete-visible ledgers raw entries,64,item/option/adjustment entries,15 complete-visible ledgers; excludes uncertain new_010 and fragment new_014
+Receipy add-on row-scorer eligible candidates,58,eligible row candidates,product/option/modifier rows; scorer excludes promotion/discount entries
+Receipy add-on raw entries excluded by row-score policy,6,promotion/discount entries,not included as product-row GT candidates
+Pooled older snapshot + add-on raw entries + separate adjustment,185,review entries,explains 185 count; mixes historical v3_1 with add-on entries
+Pooled current packet + add-on raw entries + separate adjustment,188,review entries,188 under newer v2.1 packet; not directly comparable to prior pooled count

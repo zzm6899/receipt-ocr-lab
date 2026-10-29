@@ -1,0 +1,103 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-073",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "52ee460fb6b94c7569cbc40a66b74979fae473c8ab173d3b6f2d99003bd4dd92",
+  "elapsed_seconds": 2.111,
+  "detected_words": 46,
+  "detected_lines": 18,
+  "ocr_text": "ad ee f ‘ 1abuey) 3 ooo\": & an u O00\"Sz yseJ *TE}OL o00°zz sWa3] TE}OL : z sbiciscialie ae y Trews Seq 2T}5ETd-10 i u00\"ze x 000°¢2 ‘ ae ale ung 02049-TOOE | - - - ++? _— “@ rw ~~ se eo - rt",
+  "trocr_words": "---- :ABUEUJ GST @: 8 CASH *** TOTAL. 22.000 TOTAL ITEM: :WAII TEJOL 0 TEMS BEF DISETA-1009 ITEMS 600-22 SET-1009 TOTAL: 0001-CHANGE 00072 000-0001 * 1 ---- ITEM ***",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "ad rt"
+  },
+  "cascade_fields": {
+    "total": "TOTAL. TOTAL:"
+  },
+  "layout_rows": [
+    {
+      "price": "f ‘"
+    },
+    {
+      "cnt": "3"
+    },
+    {
+      "cnt": "&",
+      "price": "an u"
+    },
+    {
+      "price": "yseJ"
+    },
+    {
+      "cnt": "z"
+    },
+    {
+      "price": "y"
+    },
+    {
+      "nm": "Trews",
+      "cnt": "Seq",
+      "unitprice": "2T}5ETd-10"
+    },
+    {
+      "cnt": "x ‘",
+      "unitprice": "000°¢2"
+    },
+    {
+      "cnt": "ung",
+      "price": "02049-TOOE",
+      "unitprice": "ale"
+    },
+    {
+      "cnt": "“@"
+    },
+    {
+      "cnt": "~~",
+      "price": "se"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "8"
+    },
+    {
+      "unitprice": "22.000"
+    },
+    {
+      "nm": ":WAII TEJOL"
+    },
+    {
+      "nm": "0001-CHANGE",
+      "price": "000-0001",
+      "unitprice": "00072"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "000*2",
+      "unitprice": ":abueyo",
+      "cnt": "000*2",
+      "price": {
+        "unitprice": {
+          "num": "000*22"
+        },
+        "cnt": "2"
+      }
+    },
+    "sub_total": {
+      "subtotal_price": "1009",
+      "tax_price": "000*22"
+    },
+    "total": {
+      "total_price": "000*22",
+      "cashprice": "000*00",
+      "changeprice": "-room",
+      "menuqty_cnt": "2"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000*2</s_nm><s_unitprice> :abueyo</s_unitprice><s_cnt> 000*2</s_cnt><s_price> :parapual</s_nm><s_unitprice> yseJ</s_nm><s_num> 000*22</s_num><s_price> *Tapolitan Eftersom [effolk 0</s_unitprice><s_cnt> 2</s_cnt><s_price> 0</s_price></s_menu><s_sub_total><s_subtotal_price> 1009</s_subtotal_price><s_tax_price> 000*22</s_tax_price></s_sub_total><s_total><s_total_price> 000*22</s_total_price><s_cashprice> 000*00</s_cashprice><s_changeprice> -room</s_changeprice><s_menuqty_cnt> 2</s_menuqty_cnt></s_total></s>"
+}

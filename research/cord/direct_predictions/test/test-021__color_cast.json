@@ -1,0 +1,194 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-021",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "f0f1fb04df1f183bf46884d5eb2d59bb4a5e46c5573d28fa3b8b055cf2fea5ce",
+  "elapsed_seconds": 7.829,
+  "detected_words": 199,
+  "detected_lines": 31,
+  "ocr_text": "i Pahl PA dey, ROPERS. alge teas SADE At vapor PORN nabatigy Wests NGad Ee a? OM ONN ei RS ge pe bs ae Le AN nc, Oe POP OS oe RES irae Maerker ge * ata tat ok BN gy IR et Ne Wns EC ah ky GE (op OOM SES pe Pe ries er ae P Yet Af ian oh AE otis See EAE RD Piel neat OA OR we gh Ge eget PE Seok ETRY D2 pepteehatanaadaatendesaiaiemiisdamaaanaienl beset, ake, I es ie ere ig indies st | PRS oa Ds 3; te athe iste ke BiG a nee apn a oe Le ee pata oh ee ee ibe afc ca\" gone, ue ee ee — aw 6 et ak Ss Saas 1) 35.000 Rp35. 000 — eae NAST GOR SFO TLR 2 1 3.000 Re3. 000 See ES TEH TAWAR yaa eee et Be ss : ae eeT0IAL Rese. 000 es tS Ieee ‘| aa Sate ea ReS0. 000 oe eee ~=—«CCHANGE Re12. 000 Se Stee oon A thai SE Me Soe a Ft ~ ore ’ ae eens oe epee |. iste ae f Fe Sees ete 3 : sadn PODSIGS ISG ITY hai (ees",
+  "trocr_words": "WWW.W.W.W.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K WWW.WWW.WW.W.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K. THANK YOU.COM.COM/MY.COM/MY.COM WWW.WWW.W.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K. WWW.WWWW.WWW.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K THANK YOU FOR A FREE THANK SR: ITEMS SUMMARY - ITEM - ITEMS AMOUNT WWW. 1.35.00 REG.000 NASI GOR SFD TLR 1 3.000 R:3.000 ES TEH TAMAR SR: WWWW WWWW.00 ***TOTAL RP38.000 CASH REGN CASH REG.00 CHANGE RE12.00 SR: - AMOUNT(RM) CASHIER WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW .........................",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "Ss Saas 1)",
+      "cnt": null,
+      "price": "35.000"
+    },
+    {
+      "nm": "1",
+      "cnt": "2",
+      "price": "3.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "1",
+      "cnt": null,
+      "price": "3.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "ae"
+  },
+  "cascade_fields": {
+    "total": "***TOTAL RP38.000 AMOUNT(RM) ........................."
+  },
+  "layout_rows": [
+    {
+      "nm": "Pahl ROPERS.",
+      "cnt": "i dey,",
+      "price": "PORN"
+    },
+    {
+      "cnt": "NGad Ee a?",
+      "price": "RS ge"
+    },
+    {
+      "cnt": "Le nc, Oe POP",
+      "price": "irae Maerker",
+      "unitprice": "OS"
+    },
+    {
+      "cnt": "ok BN gy ah",
+      "price": "EC ky GE (op OOM",
+      "unitprice": "IR Wns"
+    },
+    {
+      "price": "Af ian AE"
+    },
+    {
+      "nm": "RD",
+      "cnt": "EAE OA",
+      "price": "gh Ge",
+      "unitprice": "OR"
+    },
+    {
+      "nm": "pepteehatanaadaatendesaiaiemiisdamaaanaienl",
+      "price": "beset,"
+    },
+    {
+      "cnt": "I es"
+    },
+    {
+      "cnt": "st |",
+      "price": "PRS"
+    },
+    {
+      "cnt": "Ds 3;",
+      "price": "athe iste ke"
+    },
+    {
+      "unitprice": "a"
+    },
+    {
+      "price": "oe Le ee",
+      "unitprice": "a"
+    },
+    {
+      "cnt": "ibe",
+      "price": "ee afc ca\"",
+      "unitprice": "oh"
+    },
+    {
+      "price": "ue"
+    },
+    {
+      "cnt": "ee",
+      "price": "6 et ak",
+      "unitprice": "— aw"
+    },
+    {
+      "cnt": "Ss Saas 1)",
+      "price": "Rp35. 000",
+      "unitprice": "35.000"
+    },
+    {
+      "nm": "NAST GOR SFO TLR",
+      "cnt": "eae"
+    },
+    {
+      "cnt": "2 1",
+      "price": "Re3. 000",
+      "unitprice": "3.000"
+    },
+    {
+      "nm": "ES TEH TAWAR"
+    },
+    {
+      "cnt": "eee et"
+    },
+    {
+      "cnt": "ss"
+    },
+    {
+      "nm": "eeT0IAL",
+      "cnt": "ae",
+      "price": "000 es"
+    },
+    {
+      "cnt": "tS",
+      "price": "‘|"
+    },
+    {
+      "cnt": "ea",
+      "price": "ReS0. 000 oe"
+    },
+    {
+      "nm": "~=—«CCHANGE",
+      "cnt": "eee",
+      "price": "Re12. 000 Se"
+    },
+    {
+      "cnt": "Stee oon",
+      "price": "A thai"
+    },
+    {
+      "price": "~ ore"
+    },
+    {
+      "cnt": "’"
+    },
+    {
+      "cnt": "f"
+    },
+    {
+      "cnt": "3 :",
+      "price": "hai"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "TLR",
+      "unitprice": "GOR SFD"
+    },
+    {
+      "cnt": "1",
+      "price": "R:3.000",
+      "unitprice": "3.000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "NASI GOR SFD TLR",
+        "unitprice": "35.000",
+        "cnt": "1",
+        "price": "Rp 35.000"
+      },
+      {
+        "nm": "ES TEH TAWAR",
+        "unitprice": "3.000",
+        "cnt": "1",
+        "price": "Rp 3.000"
+      }
+    ],
+    "total": {
+      "total_price": "Rp 38.000",
+      "cashprice": "Rp 50.000",
+      "changeprice": "Rp 12.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> NASI GOR SFD TLR</s_nm><s_unitprice> 35.000</s_unitprice><s_cnt> 1</s_cnt><s_price> Rp 35.000</s_price><sep/><s_nm> ES TEH TAWAR</s_nm><s_unitprice> 3.000</s_unitprice><s_cnt> 1</s_cnt><s_price> Rp 3.000</s_price></s_menu><s_total><s_total_price> Rp 38.000</s_total_price><s_cashprice> Rp 50.000</s_cashprice><s_changeprice> Rp 12.000</s_changeprice></s_total></s>"
+}

@@ -1,0 +1,52 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-068",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "fa3f727e6fbf8448eebd9cde705febe871e5033ec664f257a9a0c2b120f89710",
+  "elapsed_seconds": 0.79,
+  "detected_words": 18,
+  "detected_lines": 6,
+  "ocr_text": "‘20,009 : - al 20 Oat | eee “50,009 | ih “30,004 ' | CHANGE ' : ‘",
+  "trocr_words": "ICED T 20.8898 -20.000 1858LT 20.9999 BASAL 2:58:888 CHANGE TAX",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": ":"
+  },
+  "cascade_fields": {
+    "total": "BASAL 2:58:888"
+  },
+  "layout_rows": [
+    {
+      "price": "‘20,009"
+    },
+    {
+      "nm": "al"
+    },
+    {
+      "price": "“50,009"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "ICED T"
+    },
+    {
+      "nm": "1858LT"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ICED TT",
+      "price": "20,000"
+    },
+    "total": {
+      "total_price": "20,000",
+      "cashprice": "50,000",
+      "changeprice": "30,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICED TT</s_nm><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 20,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 30,000</s_changeprice></s_total></s>"
+}

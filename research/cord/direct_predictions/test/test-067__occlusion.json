@@ -1,0 +1,38 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-067",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "b0207b6f13841b75b616065651b2763343f63ccb9983ecadcbcf1e84c7f2daee",
+  "elapsed_seconds": 0.619,
+  "detected_words": 5,
+  "detected_lines": 4,
+  "ocr_text": "ig v ‘4 % 4",
+  "trocr_words": "6.49 LOT 6 M",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "ig"
+  },
+  "cascade_fields": {
+    "total": "6.49"
+  },
+  "layout_rows": [],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": {
+      "nm": "CHEESE JOHN",
+      "num": "2005-",
+      "unitprice": "9.500,00",
+      "cnt": "x<unk>",
+      "price": "9.500,00"
+    },
+    "total": {
+      "total_price": "9.500,00",
+      "cashprice": "9.500,00",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> CHEESE JOHN</s_nm><s_num> 2005-</s_num><s_unitprice> 9.500,00</s_unitprice><s_cnt> x<unk></s_cnt><s_price> 9.500,00</s_price></s_menu><s_total><s_total_price> 9.500,00</s_total_price><s_cashprice> 9.500,00</s_cashprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

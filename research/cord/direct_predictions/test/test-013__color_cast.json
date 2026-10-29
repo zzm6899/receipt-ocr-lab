@@ -1,0 +1,140 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-013",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "6f40f456b7049e513406b507d8ff2018aa236d8db3c2f2f7c667dca57fcbe07c",
+  "elapsed_seconds": 2.691,
+  "detected_words": 61,
+  "detected_lines": 26,
+  "ocr_text": "- rej jor oO rae AAI ee ee Xi) i | oe ' ls | 5s Ulta, LU Lip oe Cea seal Pe Ti Vai Ged TeUANEY 3 a a case poe = i, (ee. : ERA GELAS 1 3.000 2 hos 4 ees, a 51 So PMI ee ( a wn, 70 Me ag cs — a a @ .",
+  "trocr_words": "A = C G 0 : WWW. CASHIER ITRAX(RM) ITEMARK WWW.LUM USSU.COM (6 COUNKY G AMOUNT AGA CASHIER ERAL GELAS 1 3.000 3,000- (EXCLUDING ONCLUSIVE SUBJECT) AMOUNT(RM) : 51,300> *** TAX 7009 YOUR TAX : : : .",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "ERA GELAS 1",
+      "cnt": null,
+      "price": "3.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "ERAL GELAS 1",
+      "cnt": null,
+      "price": "3.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "-"
+  },
+  "cascade_fields": {
+    "total": "= 0 : AMOUNT AGA : : :"
+  },
+  "layout_rows": [
+    {
+      "price": "rej"
+    },
+    {
+      "price": "jor"
+    },
+    {
+      "price": "oO"
+    },
+    {
+      "price": "rae"
+    },
+    {
+      "cnt": "i |"
+    },
+    {
+      "cnt": "'"
+    },
+    {
+      "cnt": "| 5s"
+    },
+    {
+      "nm": "Ulta, Cea seal",
+      "cnt": "LU Lip oe",
+      "price": "Pe"
+    },
+    {
+      "cnt": "3"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "price": "case poe"
+    },
+    {
+      "cnt": "i, (ee.",
+      "price": ":"
+    },
+    {
+      "nm": "ERA GELAS",
+      "cnt": "1 2",
+      "price": "hos",
+      "unitprice": "3.000"
+    },
+    {
+      "cnt": "4",
+      "price": "ees,"
+    },
+    {
+      "cnt": "a",
+      "price": "So"
+    },
+    {
+      "nm": "PMI"
+    },
+    {
+      "cnt": "(",
+      "price": "70",
+      "unitprice": "a wn,"
+    },
+    {
+      "price": "—",
+      "unitprice": "cs"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "WWW.LUM"
+    },
+    {
+      "nm": "ERAL GELAS",
+      "cnt": "1",
+      "price": "3,000-",
+      "unitprice": "3.000"
+    },
+    {
+      "price": "51,300>"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BASO KUAH",
+        "unitprice": "43.636",
+        "cnt": "1",
+        "price": "43.636"
+      },
+      {
+        "nm": "A.MINERAL GELAS",
+        "unitprice": "3.000",
+        "cnt": "1",
+        "price": "3.000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "46.636",
+      "tax_price": "4,664"
+    },
+    "total": {
+      "total_price": "51,300",
+      "cashprice": "52.000",
+      "changeprice": "700"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BASO KUAH</s_nm><s_unitprice> 43.636</s_unitprice><s_cnt> 1</s_cnt><s_price> 43.636</s_price><sep/><s_nm> A.MINERAL GELAS</s_nm><s_unitprice> 3.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 3.000</s_price></s_menu><s_sub_total><s_subtotal_price> 46.636</s_subtotal_price><s_tax_price> 4,664</s_tax_price></s_sub_total><s_total><s_total_price> 51,300</s_total_price><s_cashprice> 52.000</s_cashprice><s_changeprice> 700</s_changeprice></s_total></s>"
+}

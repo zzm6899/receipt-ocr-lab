@@ -1,0 +1,58 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-068",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "f0af43be52c39bf6b10f999e3fd5ab698af2e3b6e2e255933881df90d61a6895",
+  "elapsed_seconds": 0.684,
+  "detected_words": 9,
+  "detected_lines": 4,
+  "ocr_text": "“20,0090 4 1cep TT 270,009 i “50,009 CHANGE (ae",
+  "trocr_words": "-20,000 ICED TT : 20.000 TOTAL : 500.000 CHANGE : 30.000",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "1cep TT",
+      "cnt": null,
+      "price": "270,009"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "ICED TT",
+      "cnt": null,
+      "price": "20.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "270,009"
+  },
+  "cascade_fields": {
+    "total": "TOTAL : 500.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "4"
+    },
+    {
+      "nm": "1cep TT"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "ICED TT :",
+      "price": "20.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ICED TT",
+      "price": "20,000"
+    },
+    "total": {
+      "total_price": "50,000",
+      "cashprice": "30,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICED TT</s_nm><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 50,000</s_total_price><s_cashprice> 30,000</s_cashprice></s_total></s>"
+}

@@ -1,0 +1,44 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-001",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "b72d8778bbf060c03a4c881c5feab4bec136a00ffa1cdf9bc675d3efa4fc3034",
+  "elapsed_seconds": 0.749,
+  "detected_words": 6,
+  "detected_lines": 4,
+  "ocr_text": "OOOLSsE HSVOJ OOOLSE 1viO) Met min",
+  "trocr_words": "CASH 91000 TOTAL 91600 6 SR",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 91600"
+  },
+  "layout_rows": [
+    {
+      "nm": "OOOLSsE",
+      "price": "HSVOJ"
+    },
+    {
+      "nm": "OOOLSE",
+      "price": "1viO)"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": {
+      "nm": "00016",
+      "price": "HSPC"
+    },
+    "sub_total": {
+      "subtotal_price": "14101",
+      "tax_price": "OOSZZ"
+    },
+    "total": {
+      "total_price": "178.8`人數顯得 B<unk>S'T"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 00016</s_nm><s_price> HSPC</s_price></s_menu><s_sub_total><s_subtotal_price> 14101</s_subtotal_price><s_tax_price> OOSZZ</s_tax_price></s_sub_total><s_total><s_total_price> 178.8`人數顯得 B<unk>S'T</s_total_price></s_total></s>"
+}

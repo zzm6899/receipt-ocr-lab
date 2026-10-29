@@ -1,0 +1,88 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-087",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "e3f0a1242bfa6efb87ab8c1c1ca03b8a79a16dc16d3787885cfa7a2ed751998a",
+  "elapsed_seconds": 1.454,
+  "detected_words": 34,
+  "detected_lines": 14,
+  "ocr_text": "—ee | = , : Oo | ° P P wu - ss ie ie =: } Ue) ui < 7 z . : La me 2 f if 4 oi t 3 A",
+  "trocr_words": "WWWWWWWW . ... 1 0.00 : NO.00 TAM CASHIER S E ITRAIL: 1/36:50 Z SUB TOTAL : 3.650 E WW WWW.PAI LUMPW: 930101CREDIT CARD 40,150",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "930101CREDIT CARD",
+      "cnt": null,
+      "price": "40,150"
+    }
+  ],
+  "layout_fields": {
+    "total": "= , : Oo :"
+  },
+  "cascade_fields": {
+    "total": ": 3.650"
+  },
+  "layout_rows": [
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "cnt": "ie =:",
+      "price": "}"
+    },
+    {
+      "cnt": "Ue)"
+    },
+    {
+      "cnt": "ui"
+    },
+    {
+      "cnt": "< 7"
+    },
+    {
+      "cnt": "La",
+      "price": "2",
+      "unitprice": "me"
+    },
+    {
+      "cnt": "f 3",
+      "price": "A"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "S"
+    },
+    {
+      "cnt": "E"
+    },
+    {
+      "nm": "ITRAIL:",
+      "price": "Z"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "PHO TAI CHIN",
+      "cnt": "1",
+      "price": "36,500"
+    },
+    "sub_total": {
+      "subtotal_price": "36,500",
+      "tax_price": "3,650"
+    },
+    "total": {
+      "total_price": "40,150",
+      "creditcardprice": "40,150"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> PHO TAI CHIN</s_nm><s_cnt> 1</s_cnt><s_price> 36,500</s_price></s_menu><s_sub_total><s_subtotal_price> 36,500</s_subtotal_price><s_tax_price> 3,650</s_tax_price></s_sub_total><s_total><s_total_price> 40,150</s_total_price><s_creditcardprice> 40,150</s_creditcardprice></s_total></s>"
+}

@@ -1,0 +1,78 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-042",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "86878621608bcc13c58ba37f3f45d29a21c77a8f271d5dece928b85fdf5c7a3a",
+  "elapsed_seconds": 2.224,
+  "detected_words": 37,
+  "detected_lines": 21,
+  "ocr_text": "Be ; is il f b rs BS Je 4 a PO %, 4 ¥ Bs, , alt = 4 ‘| a ead i ‘ : , O Doct b 1 i Kemb . ieee a al",
+  "trocr_words": "CASHIER SR: ITEMS AND ONCLUSIVE WITH RECEIPT *** % CASHIER - 1 * 9 AMOUNT TAX: ITEM P RAST X 1 SR: % SR AMOUNT :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Be is il al"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "cnt": ";",
+      "price": "f"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "4 ¥"
+    },
+    {
+      "cnt": ","
+    },
+    {
+      "cnt": "4 ‘|"
+    },
+    {
+      "cnt": "a ead",
+      "price": "i"
+    },
+    {
+      "cnt": "‘ :"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "%"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "unitprice": "*"
+    },
+    {
+      "price": "9"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Chicken HCC. 1Pcs",
+      "cnt": "1",
+      "price": "15.000"
+    },
+    "sub_total": {
+      "subtotal_price": "15,000",
+      "tax_price": "1.500"
+    },
+    "total": {
+      "total_price": "16,500",
+      "cashprice": "50,000",
+      "changeprice": "33,500",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Chicken HCC. 1Pcs</s_nm><s_cnt> 1</s_cnt><s_price> 15.000</s_price></s_menu><s_sub_total><s_subtotal_price> 15,000</s_subtotal_price><s_tax_price> 1.500</s_tax_price></s_sub_total><s_total><s_total_price> 16,500</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 33,500</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,79 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-092",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "5ef938f515718c1210dd80e1ff0a67315107ed56df810ac8e1b5961dd6767b98",
+  "elapsed_seconds": 0.993,
+  "detected_words": 22,
+  "detected_lines": 7,
+  "ocr_text": "901016 TICKET. C2. = 4 60,000 240,000 te ' TOTAL (Qty=4.00)240. - CASH we 250,000 CHANGE gus 10,000 : PK ee HOKK",
+  "trocr_words": "901016 -TICKET CP 4 @ 60.000/ 240.000 *** TOTAL (QTY=4.00)240. - CASH CHANGE @000 TAX",
+  "ocr_rules_total": "240",
+  "ocr_rows": [
+    {
+      "nm": "60,000",
+      "cnt": "4",
+      "price": "240,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "@ 60.000/",
+      "cnt": "4",
+      "price": "240.000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL"
+  },
+  "layout_rows": [
+    {
+      "nm": "TICKET.",
+      "cnt": "C2."
+    },
+    {
+      "cnt": "4",
+      "price": "240,000",
+      "unitprice": "60,000"
+    },
+    {
+      "price": "'"
+    },
+    {
+      "price": "250,000",
+      "unitprice": "we"
+    },
+    {
+      "price": "10,000",
+      "unitprice": "gus"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "-TICKET CP"
+    },
+    {
+      "cnt": "4 @",
+      "price": "240.000",
+      "unitprice": "60.000/"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "- TICKET CP",
+      "num": "901016",
+      "unitprice": "60.000",
+      "cnt": "4",
+      "price": "240,000"
+    },
+    "total": {
+      "total_price": "250.000",
+      "changeprice": "10.000",
+      "creditcardprice": "250.000",
+      "menuqty_cnt": "4"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> - TICKET CP</s_nm><s_num> 901016</s_num><s_unitprice> 60.000</s_unitprice><s_cnt> 4</s_cnt><s_price> 240,000</s_price></s_menu><s_total><s_total_price> 250.000</s_total_price><s_changeprice> 10.000</s_changeprice><s_creditcardprice> 250.000</s_creditcardprice><s_menuqty_cnt> 4</s_menuqty_cnt></s_total></s>"
+}

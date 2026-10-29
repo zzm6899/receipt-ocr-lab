@@ -1,0 +1,116 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-064",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "4cf509f2f1ca8d5c33c0eca0c23316c7a999c32b519f329d4f0eb72a5c54007a",
+  "elapsed_seconds": 2.368,
+  "detected_words": 81,
+  "detected_lines": 25,
+  "ocr_text": "lt i es ae a i aA \" '¢g « wie oe it a 2 i 7 e yo igi 3A Et 2 > ‘ v , ‘J = \\ i) a) 5 3S . d re | 5 ii it. ™ Ebb bwd wie A inp tal os eth, 8: te Fd aN i Pel iy \"7 aa CHANGE 34.000 te i eg ee Sing a ao. ‘| ie ; ‘+ eS ile 7 Ase i i : i -",
+  "trocr_words": "................. - ALL 1.50 6 ITEM ME IT TOTAL *** G ATEM BHD ITEM MA 16.000 ATEND 50.00 HEND 50.000 IT TOTAL HEND 30.00 QUANICE % 000 CHANGE 34.000 WWW.MY ITEMS - WWW. ITEM PERM WWW.WWWWWWWW WWW.WWW.WW.WW 1 IT",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "MA",
+      "cnt": null,
+      "price": "16.000"
+    },
+    {
+      "nm": "ATEND",
+      "cnt": null,
+      "price": "50.00"
+    },
+    {
+      "nm": "HEND",
+      "cnt": null,
+      "price": "50.000"
+    },
+    {
+      "nm": "HEND",
+      "cnt": null,
+      "price": "30.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "lt ie ‘+"
+  },
+  "cascade_fields": {
+    "total": "................. ALL MA"
+  },
+  "layout_rows": [
+    {
+      "price": "i"
+    },
+    {
+      "price": "aA"
+    },
+    {
+      "cnt": "wie oe it"
+    },
+    {
+      "cnt": "a 2"
+    },
+    {
+      "cnt": "i 7"
+    },
+    {
+      "cnt": "e",
+      "price": "yo"
+    },
+    {
+      "cnt": "2",
+      "unitprice": "3A Et"
+    },
+    {
+      "cnt": "> ‘ ‘J \\",
+      "price": "i)"
+    },
+    {
+      "price": "3S"
+    },
+    {
+      "cnt": "d re | 5",
+      "price": "ii it."
+    },
+    {
+      "cnt": "Ebb bwd",
+      "price": "A tal",
+      "unitprice": "wie"
+    },
+    {
+      "nm": "eth,",
+      "cnt": "8: te",
+      "price": "i",
+      "unitprice": "Fd aN"
+    },
+    {
+      "cnt": "aa",
+      "price": "iy"
+    },
+    {
+      "unitprice": "34.000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "1.50"
+    },
+    {
+      "cnt": "6"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "SINGLE SCOOP",
+      "price": "16.000"
+    },
+    "total": {
+      "total_price": "16.000",
+      "cashprice": "50.000",
+      "changeprice": "34.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> SINGLE SCOOP</s_nm><s_price> 16.000</s_price></s_menu><s_total><s_total_price> 16.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 34.000</s_changeprice></s_total></s>"
+}

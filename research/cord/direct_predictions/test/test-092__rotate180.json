@@ -1,0 +1,93 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-092",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "5a6fed9734407faae088b265be04fca27c08da242a1168da146f1f09c47db027",
+  "elapsed_seconds": 1.235,
+  "detected_words": 30,
+  "detected_lines": 8,
+  "ocr_text": "HHH wan ook : Re ee et ae 00°01 ae JONbHO 000\" 082 ‘ HSUD - 000° GPZ(007#=430) TWLOL . oe 000° 0b2 00°03 b - 2 @ all 910106",
+  "trocr_words": "1 ......................... CHANGE INCLUSIVE 39NAHO - CASH CHANGE AMOUNT HES HES&3 - TOTAL (014=4.00)(240.000 *** 4 @ 6.00 901016 01016",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "@",
+      "cnt": "4",
+      "price": "6.00"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL (014=4.00)(240.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "HHH",
+      "price": "ook",
+      "unitprice": "wan"
+    },
+    {
+      "cnt": "Re",
+      "unitprice": "et"
+    },
+    {
+      "price": "JONbHO",
+      "unitprice": "ae"
+    },
+    {
+      "cnt": "‘",
+      "price": "HSUD -",
+      "unitprice": "082"
+    },
+    {
+      "price": "TWLOL"
+    },
+    {
+      "cnt": ". oe"
+    },
+    {
+      "cnt": "0b2",
+      "price": "b"
+    },
+    {
+      "cnt": "- 2",
+      "price": "910106",
+      "unitprice": "@ all"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "39NAHO"
+    },
+    {
+      "cnt": "-",
+      "price": "HES HES&3 -",
+      "unitprice": "AMOUNT"
+    },
+    {
+      "price": "01016"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'01",
+        "price": "ESNUHC"
+      },
+      {
+        "nm": "000'052",
+        "price": "HSHO -"
+      },
+      {
+        "nm": "000'072(00'p=A10)",
+        "price": "TO101"
+      }
+    ],
+    "total": {
+      "total_price": "910106"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'01</s_nm><s_price> ESNUHC</s_price><sep/><s_nm> 000'052</s_nm><s_price> HSHO -</s_price><sep/><s_nm> 000'072(00'p=A10)</s_nm><s_price> TO101</s_price></s_menu><s_total><s_total_price> 910106</s_total_price></s_total></s>"
+}

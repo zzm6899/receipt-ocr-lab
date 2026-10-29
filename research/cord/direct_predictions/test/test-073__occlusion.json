@@ -1,0 +1,104 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-073",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "39c35e00d7e1d8de76001fb6e435e7c9106390de1156c8f9bcf57fed549bb6c1",
+  "elapsed_seconds": 1.893,
+  "detected_words": 45,
+  "detected_lines": 16,
+  "ocr_text": "- - - e966 a ~ «to sonmre = o.. aie * ° > i 4001-Choco Bun pe 22.000 xt 3 j 6001-Plastic Rag Small ) xl ii] Total Item: 4 Total. » 22.000 Cash Tendered: 25.000 ‘Change: » 3.000 tie: oe ow | nen",
+  "trocr_words": "*** *** ITEMS ARE INVOICE WITH HHHH *** : 1001-CHOCO BUN 22.000 X1 2 6001-PLASTIC BAG SMAIL 0 X1 TOTAL ITEM: 2 TOTAL. 22.000 CASH TENDERED: CHANGE: -",
+  "ocr_rules_total": "22.000",
+  "ocr_rows": [
+    {
+      "nm": "Tendered",
+      "cnt": null,
+      "price": "25.000"
+    }
+  ],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Total. » 22.000 ow |"
+  },
+  "cascade_fields": {
+    "total": "*** TOTAL. 22.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "- - -",
+      "price": "e966"
+    },
+    {
+      "cnt": "a",
+      "price": "~"
+    },
+    {
+      "cnt": "o.."
+    },
+    {
+      "cnt": "°"
+    },
+    {
+      "nm": "4001-Choco Bun",
+      "cnt": "i",
+      "price": "pe"
+    },
+    {
+      "cnt": "xt",
+      "price": "3",
+      "unitprice": "22.000"
+    },
+    {
+      "nm": "6001-Plastic Rag Small",
+      "cnt": "j"
+    },
+    {
+      "cnt": "xl",
+      "price": "ii]",
+      "unitprice": ")"
+    },
+    {
+      "price": "25.000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "1001-CHOCO BUN"
+    },
+    {
+      "cnt": "X1 2",
+      "unitprice": "22.000"
+    },
+    {
+      "nm": "6001-PLASTIC BAG SMAIL"
+    },
+    {
+      "cnt": "X1",
+      "unitprice": "0"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "1001-Choco Bun",
+        "unitprice": "22.000",
+        "cnt": "x<unk>",
+        "price": "22"
+      },
+      {
+        "nm": "6001-Plastic Bag Small",
+        "unitprice": "0",
+        "cnt": "x<unk>",
+        "price": "0"
+      }
+    ],
+    "total": {
+      "total_price": "22.000",
+      "cashprice": "25.000",
+      "changeprice": "3.000",
+      "menuqty_cnt": "2"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 1001-Choco Bun</s_nm><s_unitprice> 22.000</s_unitprice><s_cnt> x<unk></s_cnt><s_price> 22</s_price><sep/><s_nm> 6001-Plastic Bag Small</s_nm><s_unitprice> 0</s_unitprice><s_cnt> x<unk></s_cnt><s_price> 0</s_price></s_menu><s_total><s_total_price> 22.000</s_total_price><s_cashprice> 25.000</s_cashprice><s_changeprice> 3.000</s_changeprice><s_menuqty_cnt> 2</s_menuqty_cnt></s_total></s>"
+}

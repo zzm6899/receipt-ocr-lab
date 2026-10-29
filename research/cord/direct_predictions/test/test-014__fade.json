@@ -1,0 +1,253 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-014",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "7849b40b81b58d4ad55143b972cf6ffdf2f32e1c2ae6285367f197a6cccd552b",
+  "elapsed_seconds": 7.054,
+  "detected_words": 133,
+  "detected_lines": 26,
+  "ocr_text": "<. , _ ™ ee i \" ; zeae . ee i + Oy oa ati fe : ———— 1 RedVelvel Cheese Sle 38,000 3 8 do il el 1 Chicken Baked Rice Sa, 000 j SS i i Fish wm Chips 45,000 4 =. tee . 1 Hushrova Soup 30,000 wo « Se es Py i Chamomile 20,000 Risks ae i Iced Tea 20,000 7 ie SUBTOTAL 238,000 7 oe ens Service . 17,850 ae ee PBI : 25,080 se 860 OT AL £281,435. §£ . Coupon : 100,000 ff CAS £00, 000 . il Charge 18,565 3 SEoDmSsha Sa Slee sea enaRenaSSaneteaSaees ne ——-——o 2 4 a a a ae ” Sp i Bi ; 7 im é se . Pape ue era gin es oe sali in 7 >.) Se",
+  "trocr_words": "1 SR: ITEMS ITEM ITEM AMOUNT NO : REGWEIVE CHEESE SIC : 38,000 INVOICE 1 CHICKEN BAKED RICE 55,000 AMOUNT : 1 FISHIN CHIPS - 65,000 AMOUNT INCLUS SAVA SAVP - 35,00 AMOUNT (1CHANDILE) : 25,000 INVOICE INCLUS ENTER 20,000 AMOUNT SUBTOTAL (RM) 238,000 THANK YOU BEAVICE COME AGAIN 17,850 AMOUNT PBL @ 5.25 TOTAL 281,435 SR: CASH TRANSACTION: 200,000 CHANGE (RM) : 18,565 ==: - WWW.WW.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K : SR: CASHIER WWW. AMOUNT:",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "———— 1 RedVelvel Cheese Sle",
+      "cnt": null,
+      "price": "38,000"
+    },
+    {
+      "nm": "SS i i Fish wm Chips",
+      "cnt": null,
+      "price": "45,000"
+    },
+    {
+      "nm": "=. tee . 1 Hushrova Soup",
+      "cnt": null,
+      "price": "30,000"
+    },
+    {
+      "nm": "« Se es Py i Chamomile",
+      "cnt": null,
+      "price": "20,000"
+    },
+    {
+      "nm": "ae i Iced Tea",
+      "cnt": null,
+      "price": "20,000"
+    },
+    {
+      "nm": "oe ens Service .",
+      "cnt": null,
+      "price": "17,850"
+    },
+    {
+      "nm": "ae ee PBI",
+      "cnt": null,
+      "price": "25,080"
+    },
+    {
+      "nm": ". Coupon",
+      "cnt": null,
+      "price": "100,000"
+    },
+    {
+      "nm": "il Charge",
+      "cnt": null,
+      "price": "18,565"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "INVOICE 1 CHICKEN BAKED RICE",
+      "cnt": null,
+      "price": "55,000"
+    },
+    {
+      "nm": "INVOICE INCLUS ENTER",
+      "cnt": null,
+      "price": "20,000"
+    },
+    {
+      "nm": "THANK YOU BEAVICE COME AGAIN",
+      "cnt": null,
+      "price": "17,850"
+    }
+  ],
+  "layout_fields": {
+    "total": ", _"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 281,435"
+  },
+  "layout_rows": [
+    {
+      "cnt": "™"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "Oy oa ati fe",
+      "price": ":"
+    },
+    {
+      "nm": "RedVelvel Cheese Sle",
+      "cnt": "1 3",
+      "price": "38,000"
+    },
+    {
+      "nm": "Chicken Baked Rice",
+      "cnt": "8 do il el 1",
+      "price": "Sa, 000 j"
+    },
+    {
+      "nm": "Fish wm Chips",
+      "cnt": "i i",
+      "price": "45,000 4"
+    },
+    {
+      "nm": "Hushrova Soup",
+      "cnt": "=. tee . 1",
+      "price": "30,000 wo"
+    },
+    {
+      "nm": "Chamomile",
+      "cnt": "« Se es Py i",
+      "price": "20,000 Risks"
+    },
+    {
+      "nm": "Iced Tea",
+      "cnt": "ae i",
+      "price": "20,000 7"
+    },
+    {
+      "price": "238,000 7"
+    },
+    {
+      "nm": "Service",
+      "cnt": "oe ens .",
+      "price": "17,850"
+    },
+    {
+      "nm": "PBI",
+      "cnt": "ae ee :",
+      "price": "25,080"
+    },
+    {
+      "nm": "OT",
+      "cnt": "860",
+      "price": "§£"
+    },
+    {
+      "nm": "Coupon",
+      "cnt": ". :",
+      "price": "100,000 ff"
+    },
+    {
+      "nm": "CAS",
+      "price": "£00, 000"
+    },
+    {
+      "nm": "Charge",
+      "cnt": "3",
+      "price": "18,565"
+    },
+    {
+      "nm": "SEoDmSsha Sa Slee sea"
+    },
+    {
+      "cnt": "a ”"
+    },
+    {
+      "cnt": "im",
+      "price": "é se"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "REGWEIVE CHEESE SIC",
+      "cnt": "NO : :",
+      "price": "38,000"
+    },
+    {
+      "nm": "CHICKEN BAKED RICE",
+      "cnt": "1",
+      "price": "55,000"
+    },
+    {
+      "nm": "FISHIN CHIPS",
+      "cnt": ": 1 -",
+      "price": "65,000"
+    },
+    {
+      "nm": "INCLUS SAVA SAVP",
+      "cnt": "-",
+      "price": "35,00"
+    },
+    {
+      "nm": "(1CHANDILE)",
+      "cnt": ":",
+      "price": "25,000"
+    },
+    {
+      "nm": "INCLUS ENTER",
+      "price": "20,000"
+    },
+    {
+      "price": "238,000"
+    },
+    {
+      "nm": "THANK YOU BEAVICE COME AGAIN",
+      "price": "17,850"
+    },
+    {
+      "price": "200,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "RedVelvet Cheese Slc",
+        "cnt": "1",
+        "price": "38,000"
+      },
+      {
+        "nm": "Chicken Baked Rice",
+        "cnt": "1",
+        "price": "55,000"
+      },
+      {
+        "nm": "Fish n Chips",
+        "cnt": "1",
+        "price": "65,000"
+      },
+      {
+        "nm": "Mushroom Soup",
+        "cnt": "1",
+        "price": "35,000"
+      },
+      {
+        "nm": "Champile",
+        "cnt": "1",
+        "price": "25,000"
+      },
+      {
+        "nm": "Iced Tea",
+        "cnt": "1",
+        "price": "20,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "238,000",
+      "service_price": "17,650",
+      "tax_price": "25,585"
+    },
+    "total": {
+      "total_price": "281,435",
+      "total_etc": "200,000",
+      "changeprice": "18,565"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> RedVelvet Cheese Slc</s_nm><s_cnt> 1</s_cnt><s_price> 38,000</s_price><sep/><s_nm> Chicken Baked Rice</s_nm><s_cnt> 1</s_cnt><s_price> 55,000</s_price><sep/><s_nm> Fish n Chips</s_nm><s_cnt> 1</s_cnt><s_price> 65,000</s_price><sep/><s_nm> Mushroom Soup</s_nm><s_cnt> 1</s_cnt><s_price> 35,000</s_price><sep/><s_nm> Champile</s_nm><s_cnt> 1</s_cnt><s_price> 25,000</s_price><sep/><s_nm> Iced Tea</s_nm><s_cnt> 1</s_cnt><s_price> 20,000</s_price></s_menu><s_sub_total><s_subtotal_price> 238,000</s_subtotal_price><s_service_price> 17,650</s_service_price><s_tax_price> 25,585</s_tax_price></s_sub_total><s_total><s_total_price> 281,435</s_total_price><s_total_etc> 200,000</s_total_etc><s_changeprice> 18,565</s_changeprice></s_total></s>"
+}

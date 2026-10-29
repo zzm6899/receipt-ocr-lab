@@ -1,0 +1,124 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-084",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "4bdfceccd484eff83ac4cac466e60ddbe5308f2cb7ee6febc0650228aaaa6a48",
+  "elapsed_seconds": 4.383,
+  "detected_words": 106,
+  "detected_lines": 29,
+  "ocr_text": "ea SS SS era 24 te © ka oe a 10 Cee oe ee baleen 8 rset ee Cee SA (009'e ay (RO\"OL) *1 Sere tg OO tao = el =) cove ooor2id x2 Sere sone! prone way woly Rene See (0002 00°21» x, eeceeeseeeeos ee 3070.) -eeeenraeees ae lhe = — = ns Sas ., eae sae ¥ i Sa = = . <= ESS PIE SSS nals ha. cae ze I | ieee ase ————— ss = bth =~ = TE ae = ape ate a ees % : ee iss 9 eee eerie aime F SE ee eee SN Sale 7 penis SS",
+  "trocr_words": "ITEM OVER WWW. : AMOUNT NO.68 OF 6% TOTAL TOTAL TOTAL TOTAL TOTAL TOTAL AMOUNT AMOUNT (REGINAL) SHANK YOU FOR (NO.01) XRL (RM) CASHIER ONCLUSIVE INCLUSIONS ON FACEBOOK INVOICE 00728 MEN (8) TAX: X:02.20 *** ---- ......................... IT AM = - - : IT @ - FREE ITEM WWW WWW.COM.COM WWW. AMOUNT AMOUNT:",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL TOTAL TOTAL TOTAL TOTAL TOTAL AMOUNT AMOUNT:"
+  },
+  "layout_rows": [
+    {
+      "price": "ka",
+      "unitprice": "te"
+    },
+    {
+      "cnt": "oe",
+      "price": "Cee",
+      "unitprice": "a 10"
+    },
+    {
+      "cnt": "oe",
+      "price": "8 rset",
+      "unitprice": "ee baleen"
+    },
+    {
+      "price": "Cee"
+    },
+    {
+      "cnt": "*1",
+      "price": "Sere",
+      "unitprice": "(009'e ay"
+    },
+    {
+      "price": "= el",
+      "unitprice": "OO tao"
+    },
+    {
+      "cnt": "x2",
+      "price": "Sere"
+    },
+    {
+      "price": "Rene",
+      "unitprice": "way woly"
+    },
+    {
+      "cnt": "x,",
+      "price": "eeceeeseeeeos"
+    },
+    {
+      "cnt": "ee",
+      "price": "3070.)"
+    },
+    {
+      "cnt": "ae",
+      "price": "= —",
+      "unitprice": "lhe"
+    },
+    {
+      "cnt": "sae ¥ i",
+      "price": "Sa"
+    },
+    {
+      "price": "cae",
+      "unitprice": "ha."
+    },
+    {
+      "cnt": "ze I"
+    },
+    {
+      "cnt": "iss 9",
+      "unitprice": "eee"
+    },
+    {
+      "cnt": "eee Sale",
+      "price": "SS",
+      "unitprice": "SN 7"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "OF"
+    },
+    {
+      "nm": "SHANK YOU",
+      "price": "XRL (RM)"
+    },
+    {
+      "nm": "CASHIER"
+    },
+    {
+      "price": "MEN",
+      "unitprice": "00728"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": [
+        "009'63 dd",
+        "<s_nm> Cheme"
+      ],
+      "num": {
+        "cnt": "x<unk>",
+        "nm": "000'93 dd"
+      },
+      "price": ".000'75"
+    },
+    "unitprice": "000'21",
+    "cnt": "x<unk>",
+    "price": "6,000,000",
+    "total": {
+      "total_price": "000'21"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 009'63 dd<sep/><s_nm> Cheme</s_nm><s_num> 009'63 dd</s_nm><s_num> 009' 3 dd (%) ́01)</s_unitprice><s_cnt> x<unk></s_cnt><s_price> approche<sep/><s_nm> 000'93 dd</s_nm><s_num> 000'75</s_num><s_price> .000'75</s_price></s_menu><s_sub_total><s_subtotal_price> 000'21</s_num><s_unitprice> 000'21</s_unitprice><s_cnt> x<unk></s_cnt><s_price> 6,000,000</s_price></s_menu><s_total><s_total_price> 000'21</s_total_price></s_total></s>"
+}

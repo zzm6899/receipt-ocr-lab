@@ -1,0 +1,154 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-089",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "8d3a85f98ae0f3e150368b0d4e24a786ff3b121721565cf0f597288fcc839a0e",
+  "elapsed_seconds": 5.459,
+  "detected_words": 107,
+  "detected_lines": 29,
+  "ocr_text": "Pear re ne un ge Bae Sih So a \\ i! Pe <i a eo ie a caeam kc iy ¥. ec ee Ni ee: oa if \\ j a ae 4 ee bai! Be : ke Fs ei : ‘ . — iy is i ee a e} S ie ; sn a 3 Ogau sia: si > |: J nt: ‘ 40 Baca eee: . a UCUG as Beg 5 O00 Ghenge -70,0500mE ee, cecxczasnnnunnenecimanisnan a \\ eee . ‘3 a3 i’ ee ee a 7 sae pee i. a . bs : ae ; 9 . ~~ er , Bi bi a ae “*~",
+  "trocr_words": "WWW.WWWW.WW.W.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K. WWW. WWW.WW. AMOUNT AMOUNT AMOUNT 1 WWW WWW - - ITEM : (1) 1 XX CSN CHICHS AD 666 1 -PEDAS SEGIKT BILL - FELAS 45.1 AM ITEMS:1 00.000 ITEMS:1 1 4Q TOTAL: 70000 PAY CASH 50,000 CHANGE 40.000 PAY CASH 50,000 CHANGE :10,000 ................ ITEMS ITEMS ITEMS ITEMS - -",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "ITEMS:1",
+      "cnt": null,
+      "price": "00.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "i’ : a"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT AMOUNT TOTAL: 70000"
+  },
+  "layout_rows": [
+    {
+      "nm": "Pear re ne",
+      "cnt": "un ge Bae",
+      "price": "Sih So"
+    },
+    {
+      "cnt": "a \\ i!"
+    },
+    {
+      "price": "ie a"
+    },
+    {
+      "nm": "caeam",
+      "price": "kc"
+    },
+    {
+      "cnt": "iy",
+      "price": "ec"
+    },
+    {
+      "nm": "Ni"
+    },
+    {
+      "cnt": "\\",
+      "price": "a"
+    },
+    {
+      "price": "4"
+    },
+    {
+      "price": "bai!"
+    },
+    {
+      "price": ": ke"
+    },
+    {
+      "price": "Fs"
+    },
+    {
+      "cnt": "ei"
+    },
+    {
+      "cnt": "."
+    },
+    {
+      "cnt": "S"
+    },
+    {
+      "cnt": ";",
+      "price": "sn"
+    },
+    {
+      "cnt": "a 3"
+    },
+    {
+      "cnt": "sia: si |:",
+      "price": "J"
+    },
+    {
+      "cnt": "nt:",
+      "price": "40"
+    },
+    {
+      "nm": "UCUG",
+      "cnt": "eee: ."
+    },
+    {
+      "nm": "Ghenge",
+      "cnt": "5",
+      "price": "-70,0500mE",
+      "unitprice": "O00"
+    },
+    {
+      "nm": "cecxczasnnnunnenecimanisnan",
+      "cnt": "a",
+      "price": "eee ."
+    },
+    {
+      "cnt": "‘3 a3",
+      "price": "ee"
+    },
+    {
+      "cnt": "pee",
+      "price": "a"
+    },
+    {
+      "price": "ae"
+    },
+    {
+      "nm": "~~ er",
+      "cnt": "9 . ,",
+      "price": "bi"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "XX CSN CHICHS",
+      "cnt": "1 AD",
+      "price": "666"
+    },
+    {
+      "price": "40.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "XOXL Crspy Chicken",
+      "cnt": "1",
+      "price": "40,000",
+      "sub": {
+        "nm": "- Pedas sedikit",
+        "cnt": "1",
+        "price": "0"
+      }
+    },
+    "sub_total": {
+      "subtotal_price": "40,000"
+    },
+    "total": {
+      "total_price": "40,000",
+      "cashprice": "50,000",
+      "changeprice": "10,000",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> XOXL Crspy Chicken</s_nm><s_cnt> 1</s_cnt><s_price> 40,000</s_price><s_sub><s_nm> - Pedas sedikit</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price></s_sub></s_menu><s_sub_total><s_subtotal_price> 40,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 40,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 10,000</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,5 @@
+path,sha256,bytes,match_to_analysis_evidence
+<PROJECT_ROOT>\2026-10-05\task\deliverables\qwen3_5_2b_comparison_v1_recovery\receipt_photo_model_results_qwen35_2b_2026-10-06\comparison_all_views.csv,f51d197861ea37a2b2b944689c4d4150ef01dee40bed3a459c694ae6ed299819,314168,True
+<PROJECT_ROOT>\2026-09-30\task\deliverables\receipy_vscode_workbench\data\labels\legacy_reference_v3_1.json,48800d26a8b78406806387855a4d286bd9428a3e557caf89ffe2819bd9e8fcb5,66188,True
+<PROJECT_ROOT>\2026-09-30\task\deliverables\receipy_vscode_workbench\data\labels\receipy_references_v2.json,540f83aa1c92c5acd0c25a48f4b2e9ba6ca541c99b0d6624753522b05e13f32e,81704,True
+<PROJECT_ROOT>\2026-09-30\task\photo_pilot\receipy_extension\scoring_v2\row_receipt_scores.csv,fe5381a595bbdb21458338be9c870a6a27c1476cd2252cc98a6ffa851faf539b,6401,True

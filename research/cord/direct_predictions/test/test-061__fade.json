@@ -1,0 +1,233 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-061",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "ee58921b7634139aba2f53ec13c1bfea39af220c3df78296914b61e6eabec203",
+  "elapsed_seconds": 3.539,
+  "detected_words": 106,
+  "detected_lines": 23,
+  "ocr_text": "st es (sg DANS x 3500 ee. ED TALAH UCL ae RS oe pee DISC ITEM ARE ts ei, . my AHOUNT abel mereatatens os os es 1X 3000 OSes ey a AREH - AREH 8.0 oitetalede: fs DISC ITEH vo. ia AHOUNT 0 2x 000 £ . colt LEHPER ' Tete ee POS Nees OISC 1TEK ‘ oasis Bese, Sen AMOUNT wale ae 2 1x ) ¥ fy HIKA SEDANG ( ay ole 1x 0 Pes PLASTIK KE Le ee 1K 5000 eee u TEH KOTAK § 2a ate ERS 7 .OONTTEM: Sogeges orn £48 SUBTOTAL 4,5 Fars : TOTAL 24,50 eee CARD 24,500 ,",
+  "trocr_words": "IT @6 *** AMOUNT NO. 18, JALAN INQU 6.50 PERMASU,PANOROR *** *** *** SR AN - AREN 8.000 DISC ITEM - 40.000% AMOUNT 2X 2.00 SR:00-1,00-12, JEMPER: 5/8/18 AM CHANGEBOOK DISC ITEM -40.000 GOODS MUST -7.20 *** GOODS SOLD WITH SEGANG @ EXCHANGEBOOK 66080- 1X 00 1 PLASTIK KECIL 600 0 1X WEEK 500 SR: 1 TEH KOTAX 7,00 TTEM 5.00 GOODS FROM 7.00 ITEMS FROM GOOD US SOLD GOOD TOTAL 24.50 TOTAL 24.50 MEMOUNT CARD 24.50",
+  "ocr_rules_total": "24,50",
+  "ocr_rows": [
+    {
+      "nm": "a AREH - AREH",
+      "cnt": null,
+      "price": "8.0"
+    },
+    {
+      "nm": "CARD",
+      "cnt": null,
+      "price": "24,500"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "SR AN - AREN",
+      "cnt": null,
+      "price": "8.000"
+    },
+    {
+      "nm": "2X",
+      "cnt": null,
+      "price": "2.00"
+    },
+    {
+      "nm": "SR: 1 TEH KOTAX 7,00 TTEM",
+      "cnt": null,
+      "price": "5.00"
+    },
+    {
+      "nm": "GOODS FROM",
+      "cnt": null,
+      "price": "7.00"
+    },
+    {
+      "nm": "CARD",
+      "cnt": null,
+      "price": "24.50"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 24,50"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 24.50"
+  },
+  "layout_rows": [
+    {
+      "nm": "st",
+      "price": "es (sg"
+    },
+    {
+      "nm": "DANS",
+      "cnt": "x",
+      "price": "ee.",
+      "unitprice": "3500"
+    },
+    {
+      "nm": "TALAH",
+      "price": "ae RS"
+    },
+    {
+      "cnt": "pee",
+      "price": "ARE ts ei,"
+    },
+    {
+      "nm": "AHOUNT",
+      "cnt": ". my",
+      "price": "mereatatens"
+    },
+    {
+      "cnt": "es 1X ey",
+      "price": "OSes",
+      "unitprice": "3000"
+    },
+    {
+      "nm": "AREH AREH",
+      "cnt": "a",
+      "price": "8.0"
+    },
+    {
+      "price": "ia",
+      "unitprice": "vo."
+    },
+    {
+      "price": "0"
+    },
+    {
+      "cnt": "2x",
+      "price": "£",
+      "unitprice": "000"
+    },
+    {
+      "nm": "LEHPER",
+      "price": "' Tete ee"
+    },
+    {
+      "price": "‘ oasis"
+    },
+    {
+      "price": "wale"
+    },
+    {
+      "cnt": "1x )",
+      "price": "¥"
+    },
+    {
+      "nm": "HIKA SEDANG",
+      "price": "( ay"
+    },
+    {
+      "cnt": "1x",
+      "price": "Pes",
+      "unitprice": "0"
+    },
+    {
+      "nm": "PLASTIK KE",
+      "price": "Le"
+    },
+    {
+      "cnt": "1K",
+      "price": "eee",
+      "unitprice": "5000"
+    },
+    {
+      "nm": "TEH KOTAK",
+      "price": "2a ate"
+    },
+    {
+      "nm": ".OONTTEM:",
+      "cnt": "7",
+      "price": "Sogeges"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "JALAN INQU PERMASU,PANOROR",
+      "cnt": "NO. 18,",
+      "price": "6.50"
+    },
+    {
+      "nm": "AN AREN",
+      "cnt": "-",
+      "price": "8.000"
+    },
+    {
+      "nm": "JEMPER:",
+      "price": "5/8/18 AM"
+    },
+    {
+      "nm": "CHANGEBOOK"
+    },
+    {
+      "nm": "SEGANG"
+    },
+    {
+      "nm": "PLASTIK",
+      "price": "600 0"
+    },
+    {
+      "cnt": "1X WEEK",
+      "price": "500"
+    },
+    {
+      "nm": "TEH KOTAX",
+      "cnt": "1",
+      "unitprice": "7,00"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "TALAM UNGU",
+        "unitprice": "3500",
+        "cnt": "1X",
+        "discountprice": "-2 600",
+        "price": "6.500"
+      },
+      {
+        "nm": "AREM AREM",
+        "unitprice": "3000",
+        "cnt": "1X",
+        "discountprice": "-3,200",
+        "price": "8,000"
+      },
+      {
+        "nm": "LEMPER",
+        "unitprice": "3000",
+        "cnt": "2X",
+        "discountprice": "-7.200",
+        "price": "18,000"
+      },
+      {
+        "nm": "MIKA SEDANG",
+        "unitprice": "0",
+        "cnt": "1X",
+        "price": "0"
+      },
+      {
+        "nm": "PLASTIK KECIL",
+        "unitprice": "0",
+        "cnt": "1X",
+        "price": "0"
+      },
+      {
+        "nm": "TEH KOTAK",
+        "unitprice": "5000",
+        "cnt": "1X",
+        "price": "5,00"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "24,500"
+    },
+    "total": {
+      "total_price": "24,500",
+      "creditcardprice": "24,500",
+      "menuqty_cnt": "7.00"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TALAM UNGU</s_nm><s_unitprice> 3500</s_unitprice><s_cnt> 1X</s_cnt><s_discountprice> -2 600</s_discountprice><s_price> 6.500</s_price><sep/><s_nm> AREM AREM</s_nm><s_unitprice> 3000</s_unitprice><s_cnt> 1X</s_cnt><s_discountprice> -3,200</s_discountprice><s_price> 8,000</s_price><sep/><s_nm> LEMPER</s_nm><s_unitprice> 3000</s_unitprice><s_cnt> 2X</s_cnt><s_discountprice> -7.200</s_discountprice><s_price> 18,000</s_price><sep/><s_nm> MIKA SEDANG</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1X</s_cnt><s_price> 0</s_price><sep/><s_nm> PLASTIK KECIL</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1X</s_cnt><s_price> 0</s_price><sep/><s_nm> TEH KOTAK</s_nm><s_unitprice> 5000</s_unitprice><s_cnt> 1X</s_cnt><s_price> 5,00</s_price></s_menu><s_sub_total><s_subtotal_price> 24,500</s_subtotal_price></s_sub_total><s_total><s_total_price> 24,500</s_total_price><s_creditcardprice> 24,500</s_creditcardprice><s_menuqty_cnt> 7.00</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,159 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-047",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "0612118c69af80ab4887b9aff25b0c73f917777ba776cbcbb3ce0b903fc4f08c",
+  "elapsed_seconds": 2.57,
+  "detected_words": 63,
+  "detected_lines": 17,
+  "ocr_text": "i ame ee © ot Jemma e Sere Set + 4 ee tear a hee — | are COPIA 1 /GB 1 45,000.00 2100252000358 45,000.00 PLASTIC BAG RED CENTRAL SI = 1 0.00 9100544260074 0.00 COPIA 1 /GB 1 18, 000.00 2100262000358 18,000.00 Total 63,000.00 Total discount 0.00 Total quantity 3 card Payment DEBIT CARD — > i : 9, 000, | .",
+  "trocr_words": "THE AGAINCE ITEM FACEBOOK! *** *** # - ITEMS COPIA 1 /GB REGULAR 1 @ 45,000.00 210025200358 PLASTIC BAG RED CENTRAL SI 1 0.00 9100544260074 COPIA 1 /GB 1 18,000.00 210025200358 TOTAL AMOUNT NO: 1, JOHOR BAHRU 6 3,000.00 TOTAL DISCOUNT @6.00 TOTAL QUANTITY @6% CARD PAYMENT DEBIT CARD WITH RECEIPT COME GO",
+  "ocr_rules_total": "3",
+  "ocr_rows": [
+    {
+      "nm": "COPIA 1 /GB 1",
+      "cnt": null,
+      "price": "45,000.00"
+    },
+    {
+      "nm": "2100252000358",
+      "cnt": null,
+      "price": "45,000.00"
+    },
+    {
+      "nm": "PLASTIC BAG RED CENTRAL SI = 1",
+      "cnt": null,
+      "price": "0.00"
+    },
+    {
+      "nm": "9100544260074",
+      "cnt": null,
+      "price": "0.00"
+    },
+    {
+      "nm": "COPIA 1 /GB 1 18,",
+      "cnt": null,
+      "price": "000.00"
+    },
+    {
+      "nm": "2100262000358",
+      "cnt": null,
+      "price": "18,000.00"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "COPIA 1 /GB REGULAR 1 @",
+      "cnt": null,
+      "price": "45,000.00"
+    },
+    {
+      "nm": "PLASTIC BAG RED CENTRAL SI 1",
+      "cnt": null,
+      "price": "0.00"
+    },
+    {
+      "nm": "COPIA 1 /GB 1",
+      "cnt": null,
+      "price": "18,000.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "i Total :"
+  },
+  "cascade_fields": {
+    "total": "TOTAL"
+  },
+  "layout_rows": [
+    {
+      "nm": "Jemma",
+      "cnt": "e"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "— |",
+      "price": "are"
+    },
+    {
+      "cnt": "1 1",
+      "unitprice": "45,000.00"
+    },
+    {
+      "price": "45,000.00"
+    },
+    {
+      "nm": "PLASTIC RED CENTRAL SI",
+      "cnt": "= 1",
+      "price": "0.00"
+    },
+    {
+      "price": "0.00"
+    },
+    {
+      "cnt": "1 1",
+      "unitprice": "18, 000.00"
+    },
+    {
+      "price": "18,000.00"
+    },
+    {
+      "cnt": "i",
+      "price": "9, 000,"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "AGAINCE"
+    },
+    {
+      "nm": "REGULAR",
+      "cnt": "1 1",
+      "unitprice": "@ 45,000.00"
+    },
+    {
+      "nm": "PLASTIC BAG RED CENTRAL",
+      "cnt": "1",
+      "price": "SI 0.00"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "18,000.00"
+    },
+    {
+      "nm": "JOHOR BAHRU",
+      "cnt": "1, 6",
+      "price": "3,000.00"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "COPIA 1 /GB",
+        "unitprice": "45,000.00",
+        "cnt": "1",
+        "price": "45,000.00"
+      },
+      {
+        "nm": "PLASTIC BAG RED CENTRAL SI",
+        "unitprice": "0.00",
+        "cnt": "1",
+        "price": "0.00"
+      },
+      {
+        "nm": "910054260074",
+        "unitprice": "18,000.00",
+        "cnt": "1",
+        "price": "18,000.00"
+      }
+    ],
+    "total": {
+      "total_price": "63,000.00",
+      "creditcardprice": "0.00",
+      "menuqty_cnt": "3"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> COPIA 1 /GB</s_nm><s_unitprice> 45,000.00</s_unitprice><s_cnt> 1</s_cnt><s_price> 45,000.00</s_price><sep/><s_nm> PLASTIC BAG RED CENTRAL SI</s_nm><s_unitprice> 0.00</s_unitprice><s_cnt> 1</s_cnt><s_price> 0.00</s_price><sep/><s_nm> 910054260074</s_nm><s_unitprice> 18,000.00</s_unitprice><s_cnt> 1</s_cnt><s_price> 18,000.00</s_price></s_menu><s_total><s_total_price> 63,000.00</s_total_price><s_creditcardprice> 0.00</s_creditcardprice><s_menuqty_cnt> 3</s_menuqty_cnt></s_total></s>"
+}

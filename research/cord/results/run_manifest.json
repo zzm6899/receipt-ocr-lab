@@ -1,0 +1,4692 @@
+{
+  "created_utc": "2026-09-30T20:18:40Z",
+  "project_source": "Receipt Storage (local read-only source)",
+  "task_workspace": ".",
+  "source_data": {
+    "repository": "naver-clova-ix/cord-v2",
+    "license": "CC BY 4.0",
+    "parquet": {
+      "test": {
+        "bytes": 234202795,
+        "sha256": "51c65f1788faff392abe2a0b55b023eb23e9be551c509138eaa3a832514224e7"
+      },
+      "validation": {
+        "bytes": 242080800,
+        "sha256": "0d0f6dac11fdcc549de2746aa9f53136a3bc22a2a1aff2b0b847f7622ad60c15"
+      }
+    }
+  },
+  "split_runs": {
+    "validation": {
+      "receipt_ids": [
+        "validation-000",
+        "validation-001",
+        "validation-002",
+        "validation-003",
+        "validation-004",
+        "validation-005",
+        "validation-006",
+        "validation-007",
+        "validation-008",
+        "validation-009",
+        "validation-010",
+        "validation-011",
+        "validation-012",
+        "validation-013",
+        "validation-014",
+        "validation-015",
+        "validation-016",
+        "validation-017",
+        "validation-018",
+        "validation-019",
+        "validation-020",
+        "validation-021",
+        "validation-022",
+        "validation-023",
+        "validation-024",
+        "validation-025",
+        "validation-026",
+        "validation-027",
+        "validation-028",
+        "validation-029",
+        "validation-030",
+        "validation-031",
+        "validation-032",
+        "validation-033",
+        "validation-034",
+        "validation-035",
+        "validation-036",
+        "validation-037",
+        "validation-038",
+        "validation-039",
+        "validation-040",
+        "validation-041",
+        "validation-042",
+        "validation-043",
+        "validation-044",
+        "validation-045",
+        "validation-046",
+        "validation-047",
+        "validation-048",
+        "validation-049",
+        "validation-050",
+        "validation-051",
+        "validation-052",
+        "validation-053",
+        "validation-054",
+        "validation-055",
+        "validation-056",
+        "validation-057",
+        "validation-058",
+        "validation-059",
+        "validation-060",
+        "validation-061",
+        "validation-062",
+        "validation-063",
+        "validation-064",
+        "validation-065",
+        "validation-066",
+        "validation-067",
+        "validation-068",
+        "validation-069",
+        "validation-070",
+        "validation-071",
+        "validation-072",
+        "validation-073",
+        "validation-074",
+        "validation-075",
+        "validation-076",
+        "validation-077",
+        "validation-078",
+        "validation-079",
+        "validation-080",
+        "validation-081",
+        "validation-082",
+        "validation-083",
+        "validation-084",
+        "validation-085",
+        "validation-086",
+        "validation-087",
+        "validation-088",
+        "validation-089",
+        "validation-090",
+        "validation-091",
+        "validation-092",
+        "validation-093",
+        "validation-094",
+        "validation-095",
+        "validation-096",
+        "validation-097",
+        "validation-098",
+        "validation-099"
+      ],
+      "n_receipts": 100,
+      "predictions_saved": 2,
+      "conditions": [
+        "clean"
+      ],
+      "pipeline_versions": [
+        "linecrop_v1"
+      ],
+      "runtime_seconds": {
+        "median": 1.3085,
+        "p95_sorted_index": 1.22,
+        "mean": 1.3085
+      },
+      "prediction_cells": [
+        {
+          "receipt_id": "validation-000",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.397,
+          "sha256": "b02ee87c5e84153ed6f2d0d8ce301c68e96a470bf1b95c619c95a611417a2a53"
+        },
+        {
+          "receipt_id": "validation-001",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.22,
+          "sha256": "be30b6afe9aa41108063a1ff5a42088fba20ce002c6a88680df06058a9e363bd"
+        }
+      ]
+    },
+    "test": {
+      "receipt_ids": [
+        "test-000",
+        "test-001",
+        "test-002",
+        "test-003",
+        "test-004",
+        "test-005",
+        "test-006",
+        "test-007",
+        "test-008",
+        "test-009",
+        "test-010",
+        "test-011",
+        "test-012",
+        "test-013",
+        "test-014",
+        "test-015",
+        "test-016",
+        "test-017",
+        "test-018",
+        "test-019",
+        "test-020",
+        "test-021",
+        "test-022",
+        "test-023",
+        "test-024",
+        "test-025",
+        "test-026",
+        "test-027",
+        "test-028",
+        "test-029",
+        "test-030",
+        "test-031",
+        "test-032",
+        "test-033",
+        "test-034",
+        "test-035",
+        "test-036",
+        "test-037",
+        "test-038",
+        "test-039",
+        "test-040",
+        "test-041",
+        "test-042",
+        "test-043",
+        "test-044",
+        "test-045",
+        "test-046",
+        "test-047",
+        "test-048",
+        "test-049",
+        "test-050",
+        "test-051",
+        "test-052",
+        "test-053",
+        "test-054",
+        "test-055",
+        "test-056",
+        "test-057",
+        "test-058",
+        "test-059",
+        "test-060",
+        "test-061",
+        "test-062",
+        "test-063",
+        "test-064",
+        "test-065",
+        "test-066",
+        "test-067",
+        "test-068",
+        "test-069",
+        "test-070",
+        "test-071",
+        "test-072",
+        "test-073",
+        "test-074",
+        "test-075",
+        "test-076",
+        "test-077",
+        "test-078",
+        "test-079",
+        "test-080",
+        "test-081",
+        "test-082",
+        "test-083",
+        "test-084",
+        "test-085",
+        "test-086",
+        "test-087",
+        "test-088",
+        "test-089",
+        "test-090",
+        "test-091",
+        "test-092",
+        "test-093",
+        "test-094",
+        "test-095",
+        "test-096",
+        "test-097",
+        "test-098",
+        "test-099"
+      ],
+      "n_receipts": 100,
+      "predictions_saved": 600,
+      "conditions": [
+        "clean",
+        "color_cast",
+        "fade",
+        "occlusion",
+        "rotate180",
+        "synthetic_crumple"
+      ],
+      "pipeline_versions": [
+        "linecrop_v1"
+      ],
+      "runtime_seconds": {
+        "median": 1.8005,
+        "p95_sorted_index": 8.33,
+        "mean": 3.275585
+      },
+      "prediction_cells": [
+        {
+          "receipt_id": "test-000",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.621,
+          "sha256": "0d726348ee328acd49a732355b5af91bc00fd6c8a474079844e079d8a2b2c922"
+        },
+        {
+          "receipt_id": "test-000",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.215,
+          "sha256": "e7575f64671a91c6da97e89c4127baef4a907dd1e87251366fbdace4bc59d5df"
+        },
+        {
+          "receipt_id": "test-000",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.22,
+          "sha256": "aefb08598b4295910638f36f7b5c055ceb1a283e856283b7deec403d2d3ec299"
+        },
+        {
+          "receipt_id": "test-000",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.234,
+          "sha256": "d50bc06960c1195622a746d7b01e9b250fe10c9f03b625f49b4178222103ba35"
+        },
+        {
+          "receipt_id": "test-000",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.35,
+          "sha256": "39b4760c2445993b057f5e8fddd4500e6a4fe75e65c36a3bfa04b5f2c0415054"
+        },
+        {
+          "receipt_id": "test-000",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.392,
+          "sha256": "8d15ba83d175909a4c15b274bfe3c140ce7fedf779047bf9dcab46e0d56ed0d2"
+        },
+        {
+          "receipt_id": "test-001",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.77,
+          "sha256": "5026bb8dc14ecf53736856bba074b0b26edf7ee081e5e7d7dd41c128f0d8c0e1"
+        },
+        {
+          "receipt_id": "test-001",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.74,
+          "sha256": "b94f0323fc24c87ca5992d4e50899eea84a86a752f88d12ecf2c96a2f7f987ba"
+        },
+        {
+          "receipt_id": "test-001",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.756,
+          "sha256": "642efa6e64a8a3ea596f6e108c650c0535166580bc5af0f5817d446a1e1a1fb9"
+        },
+        {
+          "receipt_id": "test-001",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.04,
+          "sha256": "454164adaff5e1426d10b5f5fb55af430e3392caa32a020da3caa902512eec15"
+        },
+        {
+          "receipt_id": "test-001",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.749,
+          "sha256": "b72d8778bbf060c03a4c881c5feab4bec136a00ffa1cdf9bc675d3efa4fc3034"
+        },
+        {
+          "receipt_id": "test-001",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.846,
+          "sha256": "597a1cc68342e27d90c4880f25fc6da0dbcf8d9ce8622ea0fd724224b4799a9d"
+        },
+        {
+          "receipt_id": "test-002",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.312,
+          "sha256": "cacb91f5802f7b6b11988508e33fcca8b7df01f0f6692f4073db2228ef3799f5"
+        },
+        {
+          "receipt_id": "test-002",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.323,
+          "sha256": "139f7f486d34ed5819d7d8cab3f79ebdb234242350f88d0b74858f337ad41780"
+        },
+        {
+          "receipt_id": "test-002",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.345,
+          "sha256": "8f4a2091689383ec1b5b699a309dbc75dd865114c38d309ddc9bb9034b7e2601"
+        },
+        {
+          "receipt_id": "test-002",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.267,
+          "sha256": "42f7a720e4462cbc0c36a82546659be18c7063e825858f546dc8d539bfd856ba"
+        },
+        {
+          "receipt_id": "test-002",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.753,
+          "sha256": "c6672b9e43d138eb8f63426cb5b48ed0ce33a7f16f94cae3148dffcae1846165"
+        },
+        {
+          "receipt_id": "test-002",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.263,
+          "sha256": "cb43614341e579ae6fa5b24368ac29773aa6d48390e6930de165e3453d3127e4"
+        },
+        {
+          "receipt_id": "test-003",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.122,
+          "sha256": "c9d407b34c59f6036c0a37272f2483f7f73234b8795a9bae8fca257c07a4d052"
+        },
+        {
+          "receipt_id": "test-003",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.166,
+          "sha256": "8b9c3a1c72944b873f7879403ec8a70f77b4e6ea6a3b2253c187ab726aedab01"
+        },
+        {
+          "receipt_id": "test-003",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.097,
+          "sha256": "2bd0b8582e6be7a6b4b10a6cd818fa0f348dac2832f814e10790ca5ce7d64bfb"
+        },
+        {
+          "receipt_id": "test-003",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.155,
+          "sha256": "7d402fdef0b36ede22e916e13e0bf56b6b1c1723252180c5c0690615bd967de5"
+        },
+        {
+          "receipt_id": "test-003",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.279,
+          "sha256": "db5ed80f285e944bd320e613cee4305611c364f6cd6e1f5979483812527080f8"
+        },
+        {
+          "receipt_id": "test-003",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.156,
+          "sha256": "9845c3c3cabaa23e4204ae45a4356dbeaea3668d024fa457ce038b016c50dc9d"
+        },
+        {
+          "receipt_id": "test-004",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.212,
+          "sha256": "8c116f0f1145b235647cb9902b096d6c90c1de6ae9296722c0bdeb8ffda40471"
+        },
+        {
+          "receipt_id": "test-004",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.161,
+          "sha256": "20505f88e41ee5804cdb57acad18272bed931677821a4877eeb2343e4f5b6c31"
+        },
+        {
+          "receipt_id": "test-004",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.144,
+          "sha256": "e9541a74e5246bddf3116e637678da55b69623d8fd0e1b725c21db6a10cccc9e"
+        },
+        {
+          "receipt_id": "test-004",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.009,
+          "sha256": "13df939081d1097c5429f542b7734314463b0a1b0fe72185f5a44e314f1701bf"
+        },
+        {
+          "receipt_id": "test-004",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.332,
+          "sha256": "f438294e16d8896f7b807df136312b6eb1f886f8f9cd74211d5ecb70c139027b"
+        },
+        {
+          "receipt_id": "test-004",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.262,
+          "sha256": "6e66443040feb15bd45634f3a028be0fbbdaf15191d17fcc70f06b5646cd3700"
+        },
+        {
+          "receipt_id": "test-005",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.169,
+          "sha256": "d4c08c9120c5817f2643c16eebfeac943b9f45228f0c84986ba3fbd4d87f4cfa"
+        },
+        {
+          "receipt_id": "test-005",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.202,
+          "sha256": "88afbd389a8661afc14ba6f5ec8603c7311c75509e99a49489c1ed6742255e23"
+        },
+        {
+          "receipt_id": "test-005",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.063,
+          "sha256": "0fd20ff99d282fa1c2e35fffe683650e2c161ba62357179a1eec8fb691283aad"
+        },
+        {
+          "receipt_id": "test-005",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.249,
+          "sha256": "c83c2ba8680de8b767675ee1abc9bb64ef7ab83245f7a2be4f1b9372a4bf1b1f"
+        },
+        {
+          "receipt_id": "test-005",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.163,
+          "sha256": "f66cf3ec0d6ab4b8a85d84028b0b0743497fe51ccb989aa43b92ce5d804e3bb0"
+        },
+        {
+          "receipt_id": "test-005",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.041,
+          "sha256": "d6dc85f82a378e2bfc24edddc00dfb916a1ac6578b8328c4318b5b0b09513a2a"
+        },
+        {
+          "receipt_id": "test-006",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.617,
+          "sha256": "2da558d44649b41e3cb5f101db35a5de51f05a02104752e977c2616e0e98139c"
+        },
+        {
+          "receipt_id": "test-006",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.547,
+          "sha256": "ddb70fd5feca814672c52db9ae8f32b9b10397a446eee8c53afbb983a1e1079a"
+        },
+        {
+          "receipt_id": "test-006",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.635,
+          "sha256": "0b88b94c54d16fcdcfbe67fe9848f16427c2f49bca099b209431b05fa7354ff6"
+        },
+        {
+          "receipt_id": "test-006",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.715,
+          "sha256": "25194e9953cc7b5219ed483677047559ecf541926accd74851249a3952fb1812"
+        },
+        {
+          "receipt_id": "test-006",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.642,
+          "sha256": "7169c66a8c49b84c48cf66c10000922ba55430955937d04572be112e4662e832"
+        },
+        {
+          "receipt_id": "test-006",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.503,
+          "sha256": "7dffab771eb9eb9885763d6e93ef6bc563108c2b5ff6e6c136e34776e3798e58"
+        },
+        {
+          "receipt_id": "test-007",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.135,
+          "sha256": "7ab5ad83fe19b28d7b117b855cdec14ca7a60ccd452920c40c2e9bdc37e04610"
+        },
+        {
+          "receipt_id": "test-007",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.128,
+          "sha256": "e611ac6d47c0f0217f4dd5f62d7e1c7ef8eb271a7410a077c630a35389cf95d0"
+        },
+        {
+          "receipt_id": "test-007",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.084,
+          "sha256": "c91b6fb9b87126f2c6358269fc3b8fb64b123b33c13c6a56be2da9568028aee8"
+        },
+        {
+          "receipt_id": "test-007",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.309,
+          "sha256": "eba6af1bf0418bee2a17e6843aa23165e4fe8dabb919cbde0bf40c70482bb0b7"
+        },
+        {
+          "receipt_id": "test-007",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.674,
+          "sha256": "f0db0230eb81e66c27a3e21c3eed9020a018dce1b02af2f22e9be1d1983852e3"
+        },
+        {
+          "receipt_id": "test-007",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.281,
+          "sha256": "18c585ff9dbc0785cb5ef030eb8d47f69ad11cdb7a2a1390dd605921245dddfa"
+        },
+        {
+          "receipt_id": "test-008",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.088,
+          "sha256": "669f871217c64a1e082780a34d97a0e23abf8bf335a5c8f6793615d77fc0268c"
+        },
+        {
+          "receipt_id": "test-008",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.096,
+          "sha256": "5d96a464f801ce9a8c8355e0ec6153e7a0e0fcf70ec03dc5f9c5a2ab40f6825d"
+        },
+        {
+          "receipt_id": "test-008",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.067,
+          "sha256": "29c1f9de210e97b5f1d92dec50b33799adf47059b4e86bde62887cf3fde1d055"
+        },
+        {
+          "receipt_id": "test-008",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.056,
+          "sha256": "12ff642f6cf8550f6c299a48925323f64ec438e7c5aed5c530f3358537d45d22"
+        },
+        {
+          "receipt_id": "test-008",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.136,
+          "sha256": "00aac57f51a3b6d2135603b877641900f985ba6c483a4c56c2f94d93af2d76ee"
+        },
+        {
+          "receipt_id": "test-008",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.01,
+          "sha256": "8b54c87d20a20cf301fce586321d561045031c7cc85ab27ef11b3820dc6dc8e2"
+        },
+        {
+          "receipt_id": "test-009",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.811,
+          "sha256": "44c4d7eb2dbd8bdf2d3a39100564b49db38aeada2cfa311340e122fc740ffc6b"
+        },
+        {
+          "receipt_id": "test-009",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.075,
+          "sha256": "cef0ccf2c6a9749984b3b6c952f4e5d49fe77ec830102aa11d1bfe7dbe6485b9"
+        },
+        {
+          "receipt_id": "test-009",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.971,
+          "sha256": "90028cc5c85bee2732f4216448c2192dc1b855bd08eb0d0b56556f158ff864db"
+        },
+        {
+          "receipt_id": "test-009",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.967,
+          "sha256": "0b638a02a849f17efec74d354e1c3a128ff1e9ef8cee6d89e4e7d22e49ea46fb"
+        },
+        {
+          "receipt_id": "test-009",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.115,
+          "sha256": "0b769d37e5782ae3fc0a0450b1bd2e311f481a01d7b37ec08225b49cc9849d82"
+        },
+        {
+          "receipt_id": "test-009",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.398,
+          "sha256": "43dc18bcab35ee0e04eb024003e55639088dfca9f412f73e34cd95c396069af0"
+        },
+        {
+          "receipt_id": "test-010",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.33,
+          "sha256": "eb52ade7a88d6a39d9e252fa944a95b6968e5cd38df8899ba7262a48aa3e230a"
+        },
+        {
+          "receipt_id": "test-010",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.537,
+          "sha256": "1fb717a5e668d3b308eef86f0512ac72f66f063f7a5fe7948e79b4fde4aea2e8"
+        },
+        {
+          "receipt_id": "test-010",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.385,
+          "sha256": "6a0f827f4a9554fa7005f18c3c182207a57426e3ff375712b35e0e4066a48e49"
+        },
+        {
+          "receipt_id": "test-010",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.502,
+          "sha256": "8b05ee56d713f3c59bffbf4fd651b1312c8b564d46114e1735df393bedaff28b"
+        },
+        {
+          "receipt_id": "test-010",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.394,
+          "sha256": "d7c0502b67a82cc1908caa194cf0305be059ee0960a190e964c12175691e2aac"
+        },
+        {
+          "receipt_id": "test-010",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.274,
+          "sha256": "698a9a80c3d6af2fc5836ef640b8c521eff2c1c589c8e42966c7cb04069fde76"
+        },
+        {
+          "receipt_id": "test-011",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.935,
+          "sha256": "bbc148d65d55221f0ed69d5b0c0bf7f8f38c0132ecf8e1fb7befa00ca6904a13"
+        },
+        {
+          "receipt_id": "test-011",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.118,
+          "sha256": "e9614dfc5ede84ab2bd303010d254b9ababf36268b3496f98d2b77332016771f"
+        },
+        {
+          "receipt_id": "test-011",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.227,
+          "sha256": "25c60b3b67b5103094c3b689e99fdf6d8764d4c6771e9938cb1d7436044c8437"
+        },
+        {
+          "receipt_id": "test-011",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.534,
+          "sha256": "8ce30dbb5ddefb4806eacc51762da70f0ac57e6e93d10ed8077b0d92606d06d2"
+        },
+        {
+          "receipt_id": "test-011",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.049,
+          "sha256": "16539bae2c62f30d148df3962870b43a8514e1ebd0f942701c0cc5909a24ba80"
+        },
+        {
+          "receipt_id": "test-011",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.875,
+          "sha256": "a3e81a9412fc6f3a823c8f919223d30feaec58d62d03dac2a34220f192c03731"
+        },
+        {
+          "receipt_id": "test-012",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.534,
+          "sha256": "10c8e438992f997bed804b85c0e50b86a8d1881815e7de683072d14a22f20d31"
+        },
+        {
+          "receipt_id": "test-012",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.382,
+          "sha256": "b148e12f590d48d398f7cb4ad65721f5f8f237bda5032401db8320a3a1c2ab79"
+        },
+        {
+          "receipt_id": "test-012",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.352,
+          "sha256": "9f1fc0d37f49376053e260cdced18b5f76a5a04487aea55fb9a234a6c0724ea1"
+        },
+        {
+          "receipt_id": "test-012",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.467,
+          "sha256": "4f61e5e8afa71aeb9c7d16e060703d1161227fcb8240a561585c97452dae7d2b"
+        },
+        {
+          "receipt_id": "test-012",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.394,
+          "sha256": "33ceaebd179abc2e4fd29c5856abf1a2a9c22a9e8d34d9cdfdea48c92b6df4dc"
+        },
+        {
+          "receipt_id": "test-012",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.431,
+          "sha256": "86fd8dc8c617ea60bec56db0f02a3c869962f297d5b5ff48cda3266887372ecb"
+        },
+        {
+          "receipt_id": "test-013",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.324,
+          "sha256": "b4cc6fa0920cd1018368fbcbbfa868bac3a25e6de6426c16c58e7065de07daf9"
+        },
+        {
+          "receipt_id": "test-013",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.691,
+          "sha256": "6f40f456b7049e513406b507d8ff2018aa236d8db3c2f2f7c667dca57fcbe07c"
+        },
+        {
+          "receipt_id": "test-013",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.463,
+          "sha256": "d406ebd598a05077d2077f673a611b667c18f0547461308c31148989673c4a7a"
+        },
+        {
+          "receipt_id": "test-013",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.988,
+          "sha256": "274e4be34ffef1835f9455529544ce404d20e2c319c6a617d2e0e13f05a4a551"
+        },
+        {
+          "receipt_id": "test-013",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.007,
+          "sha256": "a88666ad06e016b6f37935422985e1be4898b62b112248c5f9f00ccd34f6bad5"
+        },
+        {
+          "receipt_id": "test-013",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.448,
+          "sha256": "f65b0ae66937912bcbcfaba9329500dc185db1e7724d77981d2510f0464f9952"
+        },
+        {
+          "receipt_id": "test-014",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.488,
+          "sha256": "501e4d1a9b470be3861b053b96b574da4b4a574a4a6a921aa598c94eafb1dd45"
+        },
+        {
+          "receipt_id": "test-014",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.891,
+          "sha256": "d132d791e6a29962d54c7641fad26badf4aaa778625f525e76a5e26437e14b0c"
+        },
+        {
+          "receipt_id": "test-014",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.054,
+          "sha256": "7849b40b81b58d4ad55143b972cf6ffdf2f32e1c2ae6285367f197a6cccd552b"
+        },
+        {
+          "receipt_id": "test-014",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.959,
+          "sha256": "c0e8c48c64947fc164c35b4a5ae41557821a1d523ecfadbe6f371c32f0539018"
+        },
+        {
+          "receipt_id": "test-014",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.942,
+          "sha256": "57d34375d7f4e8a5179506dab8cbe09d115fffecd2eabfc16e467550b37af1a9"
+        },
+        {
+          "receipt_id": "test-014",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.38,
+          "sha256": "787a9ac78cf70a739a5a91eb69a3b33cf75f9b56f5c269094f4b592638d5640d"
+        },
+        {
+          "receipt_id": "test-015",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.564,
+          "sha256": "78972a04f305eb522559cfba29914ffac16d4878ade0c17c52f74e6e83e6eed4"
+        },
+        {
+          "receipt_id": "test-015",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.45,
+          "sha256": "b531ade379b27d2ae864fd7bc265dcc6f1730a656c167382adcff1dffdb85bae"
+        },
+        {
+          "receipt_id": "test-015",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.735,
+          "sha256": "0069d6b3c8fbe53d4e809a55575ab935b9060f3a5783583bda73889d286adac0"
+        },
+        {
+          "receipt_id": "test-015",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.494,
+          "sha256": "b7cebeaa5fe44c928aba359aa1d484dbf3478e9f754373c91c967ba6d0cfafdd"
+        },
+        {
+          "receipt_id": "test-015",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.356,
+          "sha256": "5fea39525c4968e38da18fbe166b1d76b6c291e3fb40925c0a7cbd79875c0ce3"
+        },
+        {
+          "receipt_id": "test-015",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.268,
+          "sha256": "5094e24b1dec0b928e0a5273fbf06ae8724dfc61dbf192431ffe33c5db39dc80"
+        },
+        {
+          "receipt_id": "test-016",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.935,
+          "sha256": "f890d0fe740cf0bde16710eb33becd53098e0fcd6fb5aa38ccfb44862058a80c"
+        },
+        {
+          "receipt_id": "test-016",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.076,
+          "sha256": "39f217e7593cd3ef61d3defe1f62f9857ae045be5a9013408f89873ac9f60925"
+        },
+        {
+          "receipt_id": "test-016",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.461,
+          "sha256": "dd01488ec79b539f0c1b85ca9cc214f26a2ff797221c2e61a925a009560401ac"
+        },
+        {
+          "receipt_id": "test-016",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.563,
+          "sha256": "9f17b6782ce1814d633df0a3013bb75db59e935c208a7525d59f3f1f619bf36e"
+        },
+        {
+          "receipt_id": "test-016",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.117,
+          "sha256": "a0d06588c614d41c5f5e8139084a0b8ec749756c929d7ef9e5b2188af16b001f"
+        },
+        {
+          "receipt_id": "test-016",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.268,
+          "sha256": "60d62f3fb7ee8e84a904c8fbf16ff81cfbf3b856fd2b7c1e6c34a4bdc02b081a"
+        },
+        {
+          "receipt_id": "test-017",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.052,
+          "sha256": "dd2e09d072653054f505c233ec83fe0863913c731ac72f256643cd3546c9eefc"
+        },
+        {
+          "receipt_id": "test-017",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.094,
+          "sha256": "1eb01f12b456afc9a87b276c4ff3f8e12edc3a63a00cbb9d1ecd0b2451d26857"
+        },
+        {
+          "receipt_id": "test-017",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.14,
+          "sha256": "115cfe1ab815f8a0a45e15526ceb8cccb4ac89ac92cbb403e8399bd787fe24ea"
+        },
+        {
+          "receipt_id": "test-017",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.023,
+          "sha256": "8bf36d37e472d0215d66e4b50114850d955531e9782ee7afd9b5960423c822fd"
+        },
+        {
+          "receipt_id": "test-017",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.389,
+          "sha256": "f1b4c3549be599ffb97d82838e07d0dc20173053d4a14f45492167cf8f4f10ca"
+        },
+        {
+          "receipt_id": "test-017",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.987,
+          "sha256": "a521cb8780a8b80e5b4345129c372202fe50e2cc45eadc3cdc9d0461fd1a41a3"
+        },
+        {
+          "receipt_id": "test-018",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.989,
+          "sha256": "44440d19ae8d317ce1ede08706d0b8e5f176f14a8bfca1a8bee8ee23203c1a4f"
+        },
+        {
+          "receipt_id": "test-018",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.918,
+          "sha256": "fe4c86f6f2a369c0d1c124039b93974676ab9e165161cf7e42df1d77b49e7fe1"
+        },
+        {
+          "receipt_id": "test-018",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.983,
+          "sha256": "4fd69898363c9bc22bf3603fc2bd639a9591c989b3da8b2e70f9274852021c20"
+        },
+        {
+          "receipt_id": "test-018",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.991,
+          "sha256": "47a5f28fd166424525c3126eb20f5a0aea53b8b7fffdd162d03b875c621e420a"
+        },
+        {
+          "receipt_id": "test-018",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.095,
+          "sha256": "c4a8e161d9c8690de6cac1d5ffac5ac619e63f151deb170687f81a17ae2a1c83"
+        },
+        {
+          "receipt_id": "test-018",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.89,
+          "sha256": "c131cc4b93f563b528bd6accbbb5c925523c0b79f7b5cfb980be23341e53f451"
+        },
+        {
+          "receipt_id": "test-019",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.189,
+          "sha256": "cb411d0af90668af807413762ef14fe619a28a8385d1d6884dc806d196e94998"
+        },
+        {
+          "receipt_id": "test-019",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.784,
+          "sha256": "9406f91706727831d0264493d9837c0b567005097cb19852fd44677afbc63fa3"
+        },
+        {
+          "receipt_id": "test-019",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.046,
+          "sha256": "520658a7312cdf29e57ebd851fda1a6ac73455cd1698906955826015ee6d4dd4"
+        },
+        {
+          "receipt_id": "test-019",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.191,
+          "sha256": "a4f8b13e1d21e911b33d6009bef455a88af24b22933a5b85d529e12341b3ced5"
+        },
+        {
+          "receipt_id": "test-019",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.197,
+          "sha256": "455cc3199a067a30fa7f1ed6e60c74b36864df70639e1108af06f8378ee4b014"
+        },
+        {
+          "receipt_id": "test-019",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.038,
+          "sha256": "51ca5633bc2b3430d4a897eba1b7d0c66ddab601e1fdcd384489c74471397ae2"
+        },
+        {
+          "receipt_id": "test-020",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.797,
+          "sha256": "00b8ad3ce6cd0b52d3a7068bf7c115d05e2fc73357b53ab25f88dd2f1b5e1385"
+        },
+        {
+          "receipt_id": "test-020",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.811,
+          "sha256": "3e0a26fc33fd98c6cb1dbef1f5a451ddd7682c2bf7ca2d630ccb2db3ff25fb87"
+        },
+        {
+          "receipt_id": "test-020",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.818,
+          "sha256": "7ade3d84884edbe755a8f8a6cb14a16075fcb3c46c753212d994a8e38787f716"
+        },
+        {
+          "receipt_id": "test-020",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.798,
+          "sha256": "02fc9ef065598b0c47883f5ec6939331ec15c36b234b99b4e392383a362e1003"
+        },
+        {
+          "receipt_id": "test-020",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.873,
+          "sha256": "2922a5e2b2dd07c9be79edb3111c28cd753a2bfbc0db1db69930064fec880878"
+        },
+        {
+          "receipt_id": "test-020",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.227,
+          "sha256": "697ce1e40c7ddcc142ce720d0c64479ed20be5fcfdb1b5925029dbfe836e476d"
+        },
+        {
+          "receipt_id": "test-021",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.196,
+          "sha256": "1989c29ddda95750f1df7d485165775d268719bd7f43090fa1ba639b66dd0847"
+        },
+        {
+          "receipt_id": "test-021",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.829,
+          "sha256": "f0f1fb04df1f183bf46884d5eb2d59bb4a5e46c5573d28fa3b8b055cf2fea5ce"
+        },
+        {
+          "receipt_id": "test-021",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.859,
+          "sha256": "96922a22fd5353ec24a083de4c7cd809df1ce5bef5dde30cc244578e8707ecc7"
+        },
+        {
+          "receipt_id": "test-021",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.06,
+          "sha256": "eb131bd918e42d0cc4fb049306e192a835dbbccbaf469874c0ef15a2c4e2a8a8"
+        },
+        {
+          "receipt_id": "test-021",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 8.33,
+          "sha256": "ea7c964003d4282a34c1ba5cee6cad89f6823ecf2900044b0a59201d982bf11b"
+        },
+        {
+          "receipt_id": "test-021",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.86,
+          "sha256": "9b6879c76a2f2c3e3e5eadaea966e8306724655a8673ac4e9a342ecb84a1e062"
+        },
+        {
+          "receipt_id": "test-022",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.331,
+          "sha256": "8013d866598cd67d5e352755ded0a2bb95d21a732dc78cd355e1e05f8eb2037f"
+        },
+        {
+          "receipt_id": "test-022",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.295,
+          "sha256": "9b76f6fa64d9b84f2a7b40ba7d4d271fa55f28e793a3431946e66c6a9da6ca4c"
+        },
+        {
+          "receipt_id": "test-022",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.25,
+          "sha256": "a58d4baa5c3820f76d67d30328521a177c67480abcb96864671c882aba870b20"
+        },
+        {
+          "receipt_id": "test-022",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.246,
+          "sha256": "17c49a31ab098b643e504dae73bb4da67b2c64dcb37afa8edd42cba2927e6c94"
+        },
+        {
+          "receipt_id": "test-022",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.363,
+          "sha256": "06c297710d530012b4c97b7611a7b8eb257b59524f51a56bd831da4f66f166e0"
+        },
+        {
+          "receipt_id": "test-022",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.148,
+          "sha256": "f36dd4f9d543b80d68f023fb446ad2a4463f170b8b1f45bbd9e8fbc37e5d2b1b"
+        },
+        {
+          "receipt_id": "test-023",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.108,
+          "sha256": "bb667c3d26b822c3ee8e4da5644b7078fa7e6a0f3d2c8b4256562536d9173d69"
+        },
+        {
+          "receipt_id": "test-023",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.068,
+          "sha256": "22e27d0224aced33cf31a323f091de724bbc10a2856fcd5d8c23d4b1c52551b0"
+        },
+        {
+          "receipt_id": "test-023",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.068,
+          "sha256": "f38521108e06f9bbbf71290a23f70b029d4cdf93edea9be0d5594d1adadbc384"
+        },
+        {
+          "receipt_id": "test-023",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.234,
+          "sha256": "7a56313bb2e8c657d332b5f3b12107bf8ee1ca38b65e4e4ce18c87c2f3fe648e"
+        },
+        {
+          "receipt_id": "test-023",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.04,
+          "sha256": "93fa2f86a75ef9dca4176311074b8d4df2d54c9ccb9363d820ed513c61251488"
+        },
+        {
+          "receipt_id": "test-023",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.983,
+          "sha256": "8431d327307d857dd0d479f0876a0db9038e292c5578d119cde0ae28c498de86"
+        },
+        {
+          "receipt_id": "test-024",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.447,
+          "sha256": "3367faa9c406a2b889dd727b232b108379c94e5e9d8b56699737fa4eae06ae5f"
+        },
+        {
+          "receipt_id": "test-024",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.345,
+          "sha256": "a1502fa6fe7f33bbe7eaebaf2d795c867eed9b162088dfe0e1e2ff4fe047a49d"
+        },
+        {
+          "receipt_id": "test-024",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.386,
+          "sha256": "9aea4ffeed07b12fba51871bded4eb38531c9721ea5b7bfd9e3576b86f692aab"
+        },
+        {
+          "receipt_id": "test-024",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.567,
+          "sha256": "ff365e46e7b26bcd0fa081dcb6a7238e9b65434333ecb50d27b29cec97114de6"
+        },
+        {
+          "receipt_id": "test-024",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.852,
+          "sha256": "e285d7d0fb8c54bded8d5bd0cc82cbb2cce5d5dc56ed8edb4d7b3d5a5c03e285"
+        },
+        {
+          "receipt_id": "test-024",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.797,
+          "sha256": "7bf37df437cf7a9a9d5e6eb0c4013bc4baa148f42e54ced461880e608d06e519"
+        },
+        {
+          "receipt_id": "test-025",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.322,
+          "sha256": "9a9f24d2bdca8bdf4c8fd2602de9f03045705af2f71ac7e4a73477ca066df21e"
+        },
+        {
+          "receipt_id": "test-025",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.432,
+          "sha256": "a6a24e1aca573d0945bd892b7f4a8e9eb84aaa94f2b2e3b7e00fbe30b3fd122b"
+        },
+        {
+          "receipt_id": "test-025",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.194,
+          "sha256": "9148bf8d6fadfb61d3b8f2803f02da3811ed356542666d6a40c7999654af571b"
+        },
+        {
+          "receipt_id": "test-025",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.19,
+          "sha256": "be0f581c3293e24b705c78cadbb69fe1926a997cfaebf065eb94e4a0e597fec5"
+        },
+        {
+          "receipt_id": "test-025",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.386,
+          "sha256": "cd41614d00a96b91a6773e32e32a3291549439341fbb4740dca3ff3e3335f18c"
+        },
+        {
+          "receipt_id": "test-025",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.416,
+          "sha256": "ed29f0a0662117459a767ac3ed8ace1b1fdbd137c667fda38a1f70d837c00b34"
+        },
+        {
+          "receipt_id": "test-026",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.212,
+          "sha256": "2542afdf14ce84eab3b4f6e43e0a05b9f0cdcc54b7733ce84d32663b8a43c740"
+        },
+        {
+          "receipt_id": "test-026",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.169,
+          "sha256": "fea8c430c04170756e384da2be1516efddf0f05c3707e82cd782bef87de974a4"
+        },
+        {
+          "receipt_id": "test-026",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.196,
+          "sha256": "25b0d4051625dc33653ae1599237496dec528c94d196dbd8a1aa750f8ace6887"
+        },
+        {
+          "receipt_id": "test-026",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.194,
+          "sha256": "a4d0e8a1bb9e70842bd80d388bd3a797e8c93f9d3cb847f3d7524ae39f1939bf"
+        },
+        {
+          "receipt_id": "test-026",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.193,
+          "sha256": "b4e376f61595004aff40a06af721b35399369957bf9cd6bdaad8cd9500b113ef"
+        },
+        {
+          "receipt_id": "test-026",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.206,
+          "sha256": "4e7372227aaa89113fc1ae16d57c562b6e50d2f5019618f56c96bf1e2d6f154f"
+        },
+        {
+          "receipt_id": "test-027",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.214,
+          "sha256": "a1c3aa342ffd0d53da5f64991d31621f469e6e0acde47aa48cdc95745bb082da"
+        },
+        {
+          "receipt_id": "test-027",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.307,
+          "sha256": "effb423dba70a42e8b1b5eca0125e4a03c860e50fbd5e5064e244f9c145d2abc"
+        },
+        {
+          "receipt_id": "test-027",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.266,
+          "sha256": "7a741cd7cf314cf2dccf0884d6d255f2560be7a2fad0884de3bbfc82a90d497d"
+        },
+        {
+          "receipt_id": "test-027",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.245,
+          "sha256": "a7fe7cc12cef63157fbe9d015cfb2769673763c7b53f03c9411b2cd62bf5a60a"
+        },
+        {
+          "receipt_id": "test-027",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.43,
+          "sha256": "a0fa7311c6110e8d8582780a3e02c8d77dcc700e87f61e8bfcb2a43c1ba01f19"
+        },
+        {
+          "receipt_id": "test-027",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.327,
+          "sha256": "5a0caf282b2d744b8a1ad0459d75e8792baeaab81ef3b735061be4868805cf97"
+        },
+        {
+          "receipt_id": "test-028",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.69,
+          "sha256": "fdd4a1f89049cf4af54ad35c6c9d745464500bf255bfe0c08e60105bb1bc8c0e"
+        },
+        {
+          "receipt_id": "test-028",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.867,
+          "sha256": "54ac1cc4df49ffeba168343fc9a2d287b156533a54191d279abf3f46bf50fb92"
+        },
+        {
+          "receipt_id": "test-028",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.684,
+          "sha256": "8c7c28aed1ce033024492e454818fae2731c270bc0ae58e0375626ea6bd21b22"
+        },
+        {
+          "receipt_id": "test-028",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.803,
+          "sha256": "19e042b33c2c77a72b3324788cb0c104f823bef4b56bd97e6a85697b7b333740"
+        },
+        {
+          "receipt_id": "test-028",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.864,
+          "sha256": "4fc5d368b40781c4da5c356ad585d83a55ca8ab34a9db4d4d3dec4d55ada2e39"
+        },
+        {
+          "receipt_id": "test-028",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.695,
+          "sha256": "842ae745e1861d5a480b77a5eadb4c842cae8d2a07ec4e32047ce871d8100d99"
+        },
+        {
+          "receipt_id": "test-029",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.267,
+          "sha256": "03f5de71e441777b2e58cb8f3af746cb7e6ecedb9e59176d2169be27bd624e8e"
+        },
+        {
+          "receipt_id": "test-029",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.343,
+          "sha256": "95422fe03c35b8767841b2ffe5873a7a538f406946801c75f77e448d33436429"
+        },
+        {
+          "receipt_id": "test-029",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.175,
+          "sha256": "d9246276c188dfde630ef1b40d534f03619a253c880d44129cb867eae115c922"
+        },
+        {
+          "receipt_id": "test-029",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.963,
+          "sha256": "1db241222e0f2d3ac78108cf1ae2a26d965cb1dd0e0b3efbb36111f6ae390681"
+        },
+        {
+          "receipt_id": "test-029",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.794,
+          "sha256": "eb2d373cb374f64a5ce331a7bee6b15703b0f62edfc4b7551ac8ca418a1b7f00"
+        },
+        {
+          "receipt_id": "test-029",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.111,
+          "sha256": "44bf2f2a00cc966844ab5c6aad08831e4fad5384797021f9c6b34744656ecdae"
+        },
+        {
+          "receipt_id": "test-030",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.906,
+          "sha256": "b3391e6bac2b43c2fc0bd4f44f0003612429e832a4ed685e9487e1fd963ec5b3"
+        },
+        {
+          "receipt_id": "test-030",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.912,
+          "sha256": "27db3cb76e09b81fe8ad7fce910f7cc4067df07ab4095f7fe0dcea4f23d0d4bb"
+        },
+        {
+          "receipt_id": "test-030",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.916,
+          "sha256": "a309f80224be2650f6b2049ca75d2753f93b2ba9b1b8869e97f41b982c77020f"
+        },
+        {
+          "receipt_id": "test-030",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.903,
+          "sha256": "0ccbbc805fa443c84bd36d92a3dc4a68be7bc41ae1fddab3df52399a8320e0d9"
+        },
+        {
+          "receipt_id": "test-030",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.005,
+          "sha256": "792acf8d947f7d5e645522451e20818a45fd4f9e9703287e884458f462a48283"
+        },
+        {
+          "receipt_id": "test-030",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.906,
+          "sha256": "1e8fc52d7e1215211bb80c2701bc6090489521a30f7c490e1e401e550885ed60"
+        },
+        {
+          "receipt_id": "test-031",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.532,
+          "sha256": "57981505795271eb498ce7dd1b2ee848e8d1c324cec78df68d48d9df06274915"
+        },
+        {
+          "receipt_id": "test-031",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.535,
+          "sha256": "d49187933218c73f484335706c3791dcf821b545f5ab752918e4fcfa84986f1b"
+        },
+        {
+          "receipt_id": "test-031",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.489,
+          "sha256": "203a286f8de4d0ac8daa23a2803070d8844148fc7085ef00bb81d5b590c2899c"
+        },
+        {
+          "receipt_id": "test-031",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.582,
+          "sha256": "df3ed12e71faf19735a9e42b0ab7c55f667a801b307083c48df2cbc3f0861e61"
+        },
+        {
+          "receipt_id": "test-031",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.057,
+          "sha256": "74cd09df2183ed28ea45184d1fa8827a8abc9f6c60f0a858b94cd53e02741a68"
+        },
+        {
+          "receipt_id": "test-031",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.229,
+          "sha256": "214923dafe41f6c699409887be490009eacc73f7324f89745e3fc119facdf074"
+        },
+        {
+          "receipt_id": "test-032",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 9.417,
+          "sha256": "7c8025cb7c152c50b7cba5466a2432b2a2baf60acfa287ba07067772e351a13b"
+        },
+        {
+          "receipt_id": "test-032",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.679,
+          "sha256": "d6e20c997532106ddd2d2827eadc0e89181ad5f45777832926e1279d1a710f25"
+        },
+        {
+          "receipt_id": "test-032",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 9.588,
+          "sha256": "6c13751bf7458d4aaef8150c393d2c8f1334ffacb8a7746dfa76c0199a6c7b1c"
+        },
+        {
+          "receipt_id": "test-032",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.199,
+          "sha256": "b870880270244569a527583ba9575a8d2d2dfbad2096466da86d5a4708210c78"
+        },
+        {
+          "receipt_id": "test-032",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.042,
+          "sha256": "8c1ac4d952c009f8d82fd98c98e106e036273b828b344ae1b3b164ce664b49ac"
+        },
+        {
+          "receipt_id": "test-032",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.591,
+          "sha256": "addbaadff3bfde5585f1c68cfa2d048104cc5bba92ff3ced4201cdeff4a43af5"
+        },
+        {
+          "receipt_id": "test-033",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.647,
+          "sha256": "44b2f00414c0ac441d025e1f930bd2bde37cdea6442f89c8df1c950caafe4e11"
+        },
+        {
+          "receipt_id": "test-033",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.541,
+          "sha256": "30553f2abaaa3305df7cdf448767c97355b557a80f99582ab0ab331de08da33a"
+        },
+        {
+          "receipt_id": "test-033",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.504,
+          "sha256": "dc4f19793674241c2029411bc982d799e1bb23a4675d8068bd04942ba1520fbc"
+        },
+        {
+          "receipt_id": "test-033",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.76,
+          "sha256": "16af72210c72639ff7c837e8a774a4b6df3f1de4eff2a0827fd8eca27b2f1fa7"
+        },
+        {
+          "receipt_id": "test-033",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.41,
+          "sha256": "7ddaef054b4a13e95fd1b8ef81137fad3de410be4bad6dd1559b684fd55814b2"
+        },
+        {
+          "receipt_id": "test-033",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.291,
+          "sha256": "2ff7fe6b42a02a61968e509f33273fd43bbeaacea316063b88c7ed68d00b10b3"
+        },
+        {
+          "receipt_id": "test-034",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.967,
+          "sha256": "1c102a439529e34a5f6f409a9a453ee8531e26f44486a1d3323b2db7794f1d89"
+        },
+        {
+          "receipt_id": "test-034",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.01,
+          "sha256": "eb7fe942742c07b4e53141dd96102edb1782712dfb1f56389b108067b897beab"
+        },
+        {
+          "receipt_id": "test-034",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.155,
+          "sha256": "90fb055de981cd42f3392ba5777a8eeb3329ad7e4c44422c10ec24b878b7a9bf"
+        },
+        {
+          "receipt_id": "test-034",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.913,
+          "sha256": "ee1ec6e342daaf941bb23609591b63e6c3de9fab5414a5888af842138367554d"
+        },
+        {
+          "receipt_id": "test-034",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.906,
+          "sha256": "a14ba8544bc655367f61217f6168081006b1aea37d522f8552a0fa5419a2b2f7"
+        },
+        {
+          "receipt_id": "test-034",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.023,
+          "sha256": "d485dc18884becff12b1abdf9ebe1785bcd0249905c9ed09531ca0ee1e023ec6"
+        },
+        {
+          "receipt_id": "test-035",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.672,
+          "sha256": "0db16d4a8b6e1e84e58f5b2cb012fcd2e1364e5b8ee4ebd1fd291e2b302be8d9"
+        },
+        {
+          "receipt_id": "test-035",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.689,
+          "sha256": "159fb64cb5a6433c98134ce960b87aac252067e51991017254a018ba17f00e10"
+        },
+        {
+          "receipt_id": "test-035",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.745,
+          "sha256": "93d185da77f1e66f666955e95eb0f3bfcb55c226c3ab25920b36b2cb96114a1f"
+        },
+        {
+          "receipt_id": "test-035",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.602,
+          "sha256": "5f51006205a3bf31b3e10d4db0dd6f432f101d8ab24d9bbfc658c2f5d9dbb86c"
+        },
+        {
+          "receipt_id": "test-035",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.831,
+          "sha256": "260905b26ba9054a810f1b6793b80500c891985389c6d05de01a371959f767b6"
+        },
+        {
+          "receipt_id": "test-035",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.795,
+          "sha256": "d1a035e0b91e4fdb8ef1026dd23f8bf9acae5ae8ab03695e201ba235d35a6101"
+        },
+        {
+          "receipt_id": "test-036",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.481,
+          "sha256": "bcced10118f6e5228eb02bda01607cca70bab1c895eb723fe4654ce2509a4e14"
+        },
+        {
+          "receipt_id": "test-036",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.412,
+          "sha256": "a9b71200c3692036c0816e90bf4e6d5ea5d8e1b16ce671731fae22c3fd15be41"
+        },
+        {
+          "receipt_id": "test-036",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.731,
+          "sha256": "8da2de910fd39b8f7e40c56e41ebed15109d87131a1a84c56fb707ab60284f55"
+        },
+        {
+          "receipt_id": "test-036",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.57,
+          "sha256": "ffb25dca9695fd34315ed871de751de8d58865d5048fba93ab02c5cea5636f62"
+        },
+        {
+          "receipt_id": "test-036",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.623,
+          "sha256": "23a82f024a6ba3659554be91fcdde2522fc78d421238ad1716d3441a64865f5b"
+        },
+        {
+          "receipt_id": "test-036",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.392,
+          "sha256": "74f6383a5be5ffc7451d97c255d46074558e84055d7eb0d33c674d98537ea7ed"
+        },
+        {
+          "receipt_id": "test-037",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.051,
+          "sha256": "80f3fe02bac77c06b95de5fc1d2f2000187c3b527ef036ab31d4c1c81ba4f3f8"
+        },
+        {
+          "receipt_id": "test-037",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.093,
+          "sha256": "f070e566dee01853353427242bc202e9a8fa8616b9cfd8e0d0f99707e97ecb1c"
+        },
+        {
+          "receipt_id": "test-037",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.029,
+          "sha256": "92f69658573a00036ede64f7c70426ef4acfd392f1bb31cea41528659d7c5b38"
+        },
+        {
+          "receipt_id": "test-037",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.041,
+          "sha256": "912077f9673a387f2148526b40e4a51320765d71cbb81180297c0b1083f933ed"
+        },
+        {
+          "receipt_id": "test-037",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.107,
+          "sha256": "dd957804e250b0a6edc263774c8416a43dd6cc78609a7606d80e811f1f95c25b"
+        },
+        {
+          "receipt_id": "test-037",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.154,
+          "sha256": "5f958ed9f4ff7ab107a1db62aadf3020d98a2b968e2e2cc5eb2293461434f970"
+        },
+        {
+          "receipt_id": "test-038",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.674,
+          "sha256": "c632b2af567975c23a5932b0835b28a10f1139ccb78bf1a532825c4ad578616f"
+        },
+        {
+          "receipt_id": "test-038",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.75,
+          "sha256": "36bcb1b5231df8ceb2ea3093762cb4886a6d5802047c1d35c30dbb92506695f8"
+        },
+        {
+          "receipt_id": "test-038",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.872,
+          "sha256": "f3ff385a073e76bd8ce6e356068205d918670936a9cde71efe52c3abff07d106"
+        },
+        {
+          "receipt_id": "test-038",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.494,
+          "sha256": "bec3efd7bc92f08a82d733dac0a2e52b39e16620b9f95564ef2eb528cb539261"
+        },
+        {
+          "receipt_id": "test-038",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.38,
+          "sha256": "8e15b559f1afb2ae37e8ea2fefa0e9cb27c076274b2be29ed8931426373c05d9"
+        },
+        {
+          "receipt_id": "test-038",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.339,
+          "sha256": "9c6ab6eb7e9c9638ca40bb5c6783f959ab703a6fc491016b1aa59f3cf6343d3a"
+        },
+        {
+          "receipt_id": "test-039",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.495,
+          "sha256": "538a22624cada5753d0a4f8dbc88898c93e4dcf25a6306985afda310195729af"
+        },
+        {
+          "receipt_id": "test-039",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.37,
+          "sha256": "1c3f6c9a90b346a3c136d851d380629e839241fc748399d8fccd623b6d619e40"
+        },
+        {
+          "receipt_id": "test-039",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.67,
+          "sha256": "424148b88fa08e187c299d9108423d42b25f736fac33fb531f1045b773358a06"
+        },
+        {
+          "receipt_id": "test-039",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.484,
+          "sha256": "5399049585d1536b3c0adfbf7efe058c9a06d29f326141ef0e6eaf6b5998b7a4"
+        },
+        {
+          "receipt_id": "test-039",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.89,
+          "sha256": "7f2132fd8776ec559e27df96f68a1a708fa5fc7bf7837e2b9e64567febd16934"
+        },
+        {
+          "receipt_id": "test-039",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.379,
+          "sha256": "704d0a22c3e4c21e5a0fa1dc7c3d7fe62cfb2f60aa5ff0ef9a08fc6d79ba01df"
+        },
+        {
+          "receipt_id": "test-040",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.354,
+          "sha256": "8af7484317b9ad795f17492f51b38de350deb8d799bae82da2257d5dcc3d20b2"
+        },
+        {
+          "receipt_id": "test-040",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.468,
+          "sha256": "81bd281a8daa3668c15e88fb4326f7d581766aef71b471b1e2620011aa26d0dd"
+        },
+        {
+          "receipt_id": "test-040",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.925,
+          "sha256": "b70c0649dff743e8d5ff1c4b339633e5908372833d4d23af2e2fe58e0a49e05c"
+        },
+        {
+          "receipt_id": "test-040",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.596,
+          "sha256": "1ea7f6d3af05df10208b27b3cab98fe71707d5be63e20d49dc9aab178d5f4e3e"
+        },
+        {
+          "receipt_id": "test-040",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.73,
+          "sha256": "2da3ce971650871700e3393d0b6890637f666c2bca9569d7605c93da6b3a392e"
+        },
+        {
+          "receipt_id": "test-040",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.533,
+          "sha256": "b4651ee794d57335c69fb8e6fc996f9383e31208b84c6538b4028cd84316db9c"
+        },
+        {
+          "receipt_id": "test-041",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.325,
+          "sha256": "12cbb5a6fd2f83824a2c1864ebaf5b97b055035196df9d20e3ed6ef0d9f9bdb4"
+        },
+        {
+          "receipt_id": "test-041",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.386,
+          "sha256": "3da7cddd137b4c0521d277846cfe73776e44c0f95a341b8e7e7f0fe7c8a9ee7e"
+        },
+        {
+          "receipt_id": "test-041",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.344,
+          "sha256": "ba4c0e66ca448ba9ca194e1340b5bed9b3fd37d5ac1f79989555c552471408ef"
+        },
+        {
+          "receipt_id": "test-041",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.422,
+          "sha256": "408724a261979f9005aad5dccbb12fca41ce5734c62e16294e6ac8148d0965e4"
+        },
+        {
+          "receipt_id": "test-041",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.061,
+          "sha256": "07ee4b84af4692aa56e455e99054f5939ea10fd96608593505e0613e143c51d2"
+        },
+        {
+          "receipt_id": "test-041",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.56,
+          "sha256": "5e8c9f7714f896efd0e748680b6f0599fafa4e7da1cbef1e726d53a950179eb7"
+        },
+        {
+          "receipt_id": "test-042",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.014,
+          "sha256": "61f465325ebd196377d833fbb0c7c1a7c406ea97d53a57da4b0bfc631e30367a"
+        },
+        {
+          "receipt_id": "test-042",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.224,
+          "sha256": "86878621608bcc13c58ba37f3f45d29a21c77a8f271d5dece928b85fdf5c7a3a"
+        },
+        {
+          "receipt_id": "test-042",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.037,
+          "sha256": "86b0f9d1bfd0154bc3da56f0894403b61132165f22ceaf60bdc929b824fdb8dd"
+        },
+        {
+          "receipt_id": "test-042",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.393,
+          "sha256": "7604e56f06b2996a652e64a9a6eebfd65a4341cc5edb8653cdccfdda0de3d463"
+        },
+        {
+          "receipt_id": "test-042",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.236,
+          "sha256": "626a2677cc31611811656e3f77ab28c752232a3f67f11794b297dd49fe93803d"
+        },
+        {
+          "receipt_id": "test-042",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.085,
+          "sha256": "5a26fc58d05f875164e6f465e5c53113391289aada26e91a3e7b09974d66e1cf"
+        },
+        {
+          "receipt_id": "test-043",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 17.302,
+          "sha256": "d5374cdeeb986936711b53659121d5a1818c4740f8eb3122ccea7edd8bb9f3e6"
+        },
+        {
+          "receipt_id": "test-043",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 17.729,
+          "sha256": "1056cf9cc83bcb6073850cb56054d20c7c60935892d611044a07dfe0e48df357"
+        },
+        {
+          "receipt_id": "test-043",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 21.291,
+          "sha256": "0c6c609de14a35dd41cb9afc6fc01e6d8fdc75f350056f0bebcdca9ffe0f0b6f"
+        },
+        {
+          "receipt_id": "test-043",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 18.227,
+          "sha256": "48d4a7f89df477d460a9944b561acacbd8305bc77bc3f2adb7674f99a89ebb7c"
+        },
+        {
+          "receipt_id": "test-043",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 16.62,
+          "sha256": "0499889397bd8c10abc2fb6892fe9bfbcc359b0e901d8a18a274b840564323ba"
+        },
+        {
+          "receipt_id": "test-043",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 15.049,
+          "sha256": "4c32f0f2e92df988347bcc5b42b4c78663d002ef2f6b4a4aee441e6c1261f47a"
+        },
+        {
+          "receipt_id": "test-044",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.436,
+          "sha256": "980e61015f29ad2bbd21ac09b0f8a36ea0e7965a5de7ec25e29db71cfb95f04c"
+        },
+        {
+          "receipt_id": "test-044",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.257,
+          "sha256": "f10580428b263d62196571b19c363ab522f7b629ec0622513741106844d84495"
+        },
+        {
+          "receipt_id": "test-044",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.501,
+          "sha256": "61a7c4e41e39520511570865456480128237f388eca27ba9f4125d2eaaa4ef2f"
+        },
+        {
+          "receipt_id": "test-044",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.23,
+          "sha256": "c46e1cb8c399e1006e4906af620b520b331260cce1a22bcb1395c8a158d99949"
+        },
+        {
+          "receipt_id": "test-044",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.467,
+          "sha256": "a25d9568de2a7721da4ddd280a6ba54211d308f11bf16e5d9d7e323aba01608c"
+        },
+        {
+          "receipt_id": "test-044",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.293,
+          "sha256": "eba77f1384807f2126de613a39d6b2bd5fa4b24a5ddff12ad14c07a40dbd9df7"
+        },
+        {
+          "receipt_id": "test-045",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.532,
+          "sha256": "88ca1fdc19a023e172cac4c2ca473d8f26cade4a42e41a3143c9847909528cda"
+        },
+        {
+          "receipt_id": "test-045",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.553,
+          "sha256": "c6b18e7db62208a55a7ea36678825bef522537190ed30209e53f2805d7b4fd5a"
+        },
+        {
+          "receipt_id": "test-045",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.452,
+          "sha256": "ec34164a86ca818175f0eb2344c41add618d8e3ac9100a868729340623754648"
+        },
+        {
+          "receipt_id": "test-045",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.461,
+          "sha256": "804bd9bfb82ef2d616ee0c5eb9c277d1ee39d51b6a0651024075d9b93a66906f"
+        },
+        {
+          "receipt_id": "test-045",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.552,
+          "sha256": "9ed6eba75481e7f3f92b1c16c77d79d60ce7d52001e34a3b6b860fb5700e0b7d"
+        },
+        {
+          "receipt_id": "test-045",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.546,
+          "sha256": "69fcf979762155c4049428a8f14cfe8b12b6d4250a09a4152c2e1ea631f6e1bf"
+        },
+        {
+          "receipt_id": "test-046",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.883,
+          "sha256": "c9c44730565f3d464e08848c5a83e20a237076fab522e2f131ae1b54134626fe"
+        },
+        {
+          "receipt_id": "test-046",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.98,
+          "sha256": "65bdd0389fc5b805a4af814bdb186735a3db66557f0d40781e00666710a6ffcd"
+        },
+        {
+          "receipt_id": "test-046",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.375,
+          "sha256": "52d36005d55613cbd6c7b2c0cea2cc25114ba8aab324f43195a32e9b072a1396"
+        },
+        {
+          "receipt_id": "test-046",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.477,
+          "sha256": "21f9110cc8224de4c018fe45fc6ff13a92af9421d565d1daa9c19878ff6d0a8f"
+        },
+        {
+          "receipt_id": "test-046",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.2,
+          "sha256": "63f454595c938611a5cefbedbebe5ffb034df397a47980df976bc5b2d8d33964"
+        },
+        {
+          "receipt_id": "test-046",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.33,
+          "sha256": "a0c268d120f3ac4bf401eea972b996566d1bd42b728f7cccd791886b5348cbad"
+        },
+        {
+          "receipt_id": "test-047",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.444,
+          "sha256": "fe509c19190a775fb48f6a7129531119d8a3a3304248161b249a6f9a09ca76ad"
+        },
+        {
+          "receipt_id": "test-047",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.57,
+          "sha256": "0612118c69af80ab4887b9aff25b0c73f917777ba776cbcbb3ce0b903fc4f08c"
+        },
+        {
+          "receipt_id": "test-047",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.314,
+          "sha256": "97b77a3c5d12aa9b14ea3aa89637dfbf82f3c9cbbc389fcd2fb67753ea89dc43"
+        },
+        {
+          "receipt_id": "test-047",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.515,
+          "sha256": "65ea065d758e41ad11f9fe06b956dbaa8e3f6abc700a33a40069da8a923c7e24"
+        },
+        {
+          "receipt_id": "test-047",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.647,
+          "sha256": "3171903339ce6bc2137cd712d296358ffe6fc2312ef1a45e7ff2cd702b084856"
+        },
+        {
+          "receipt_id": "test-047",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.315,
+          "sha256": "b74a9d2b07f5669e5b2e933785871d164765d31afa761009b0cb945791984c8a"
+        },
+        {
+          "receipt_id": "test-048",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.408,
+          "sha256": "d764ff19a3cf5ddca78bf690c66a30d8cd2961947c4b3d16600aebc8376c1a93"
+        },
+        {
+          "receipt_id": "test-048",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.418,
+          "sha256": "eb6821fe09a26d7476c4a83b3c3e11cc80186a81582858d9a4f4c3e6fd3eb5b1"
+        },
+        {
+          "receipt_id": "test-048",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.403,
+          "sha256": "a2e11c614c2532dab861a70f7eb529c2a4c830aa546644b1a9dc90c228401266"
+        },
+        {
+          "receipt_id": "test-048",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.439,
+          "sha256": "778218215ae7b930556e97a0e7b918725b22e925f55773d1cdbcd5051ca36ec3"
+        },
+        {
+          "receipt_id": "test-048",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.546,
+          "sha256": "b6693be17e2c3bfe96856af00e032d160e56fd259835d3498c5257487dfe141a"
+        },
+        {
+          "receipt_id": "test-048",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.582,
+          "sha256": "c1b23fedd2030794abb19e4a6237ef3b5752d488c2c302ef37bec87939c1e9be"
+        },
+        {
+          "receipt_id": "test-049",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.98,
+          "sha256": "905926ed287c22647321d4fc31f3b620033a221cbee84264811f1500239941aa"
+        },
+        {
+          "receipt_id": "test-049",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.049,
+          "sha256": "988c79813bf323ab714a450d0448cb30aa0cc56b75ede6b5dbc014f2619f5487"
+        },
+        {
+          "receipt_id": "test-049",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.141,
+          "sha256": "45b8d5695001f613c36a2f2401d6e8355814c451aef20904e3f1d39a4df1dc78"
+        },
+        {
+          "receipt_id": "test-049",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.058,
+          "sha256": "b12ef0304322b6b91f99d54819b90d3be0457878a6b3262b39d08a3b848db7e1"
+        },
+        {
+          "receipt_id": "test-049",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.196,
+          "sha256": "82ca3e44187064ede92b3e37af252fa5dac0acbb3eb30c1863896cbeb03fe393"
+        },
+        {
+          "receipt_id": "test-049",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.269,
+          "sha256": "9f26e8e01f17c85bf8270f620cbad9cbabcee46dff9cd8fcd5e15dad4669a010"
+        },
+        {
+          "receipt_id": "test-050",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.673,
+          "sha256": "bf6b3b8552a6b5d8609295aafa37fea6296a49a594e1a9fa67a0b299deebfbeb"
+        },
+        {
+          "receipt_id": "test-050",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.546,
+          "sha256": "f0f63beef2d07dbef2de2163f00634ab85497cb69608188b8452fc5bea6a888a"
+        },
+        {
+          "receipt_id": "test-050",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.906,
+          "sha256": "50905f73721c78f79535124c73d9295f434b76b74ed5cccc670f19c554518eb0"
+        },
+        {
+          "receipt_id": "test-050",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.978,
+          "sha256": "dba1754312fba02a99469c633fadb23df27a2dd651ecb0874824f487299b1e91"
+        },
+        {
+          "receipt_id": "test-050",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.92,
+          "sha256": "ef927ded9f6229f579f02819e5fc166ae8ea46476139113907e627c03db922eb"
+        },
+        {
+          "receipt_id": "test-050",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.399,
+          "sha256": "f52e745f74b13a08e77582a3987302c17a25a69dd48f4224ba7ce5ead1cfc2c1"
+        },
+        {
+          "receipt_id": "test-051",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.243,
+          "sha256": "fecf0dceb0788e8221861e71c96c6462531de1cbe1aab41f7eaaaf3f5de0f9e1"
+        },
+        {
+          "receipt_id": "test-051",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.258,
+          "sha256": "d78bf2e439bf68057238449ae4727e6024196fff6fc6e1c5fb332612cce8e8b5"
+        },
+        {
+          "receipt_id": "test-051",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.33,
+          "sha256": "3255873971f37c7e11c530294defde8227ae240e00d6969963cb39bd17251d69"
+        },
+        {
+          "receipt_id": "test-051",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.295,
+          "sha256": "b805d9ccc459b6ecabed34d15dbfe1f166b9ea11a6f00b6e295b59e89bf1c21b"
+        },
+        {
+          "receipt_id": "test-051",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.359,
+          "sha256": "2786ba6414b0c9c5872c1ef55527a2cbba4e4b2e2f4e8e7fc95241e0ef81a06d"
+        },
+        {
+          "receipt_id": "test-051",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.106,
+          "sha256": "383823593153556d766a7680a076cc900a70302331536f670fbcb78ebb8e664a"
+        },
+        {
+          "receipt_id": "test-052",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.394,
+          "sha256": "a7f8e54a6397f1ff8f5beee762371d6bd8301af89f29f88428b3fc3438e37db5"
+        },
+        {
+          "receipt_id": "test-052",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.308,
+          "sha256": "e8d4bfbdd6a9f7cf69b2a6646c09b6eb1c7baf8378b89e7e61bc24eb954c34f3"
+        },
+        {
+          "receipt_id": "test-052",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.275,
+          "sha256": "f82c6e68465b4134bbf1ae34cecc20b1bdff484624835b2c00b13c0b50efbaa4"
+        },
+        {
+          "receipt_id": "test-052",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.252,
+          "sha256": "cdba8b0123f35de0cb13f7d2ec6b5c196506c56541338a3fa7911c681e96ca3a"
+        },
+        {
+          "receipt_id": "test-052",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.499,
+          "sha256": "ee5d918c78276a913319b4bb526062c870dacf7aaa10ddf262fca1ec83756532"
+        },
+        {
+          "receipt_id": "test-052",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.257,
+          "sha256": "2d8c8f6c4d57eaeb350ee9d29a507aec164e8d86cf6e6ba8b0574d91d91d289b"
+        },
+        {
+          "receipt_id": "test-053",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.463,
+          "sha256": "7b4de478cb6efa02c7a3e8931cc0344c33163f86980135c9a27f01123e71c000"
+        },
+        {
+          "receipt_id": "test-053",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.382,
+          "sha256": "fe05dc78e832289c885637f307a9cde0ce36cdfea252ce1abc5fd3f7cb65c518"
+        },
+        {
+          "receipt_id": "test-053",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.226,
+          "sha256": "acde3cd362b9c6d8ea528bdb01bbb291d6c5f23daeaeaf025121b7a82a04d2c1"
+        },
+        {
+          "receipt_id": "test-053",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.169,
+          "sha256": "bd7aca686653b1c990f912d479dc50c8059b62a3891cfbe20db738d9473fd4d0"
+        },
+        {
+          "receipt_id": "test-053",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.817,
+          "sha256": "438a3f180abeeafb9dceda7f2bbedffee885eebc2f1e3dae0e12a06f56e1bf96"
+        },
+        {
+          "receipt_id": "test-053",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.393,
+          "sha256": "64b62e919befad22f5d74cf30acfdb87df9038c3ddfc0bfd08cb00ede6639b16"
+        },
+        {
+          "receipt_id": "test-054",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.922,
+          "sha256": "856687f5429b9cc6fcbed3a92ab09da1b22c22e7f312880e6ed9c900fa42d0cd"
+        },
+        {
+          "receipt_id": "test-054",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.37,
+          "sha256": "6c01154b728f203e08bd2cb2c993904b39063306495f74c6340039aafbaee6a5"
+        },
+        {
+          "receipt_id": "test-054",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.459,
+          "sha256": "3a55ea74e126743c1d9ac678a5464796114dccb240cb605f38781d87ee9d504e"
+        },
+        {
+          "receipt_id": "test-054",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.487,
+          "sha256": "5cf599e97fa28ccf2d61507d4efdb9b8cb9d9f3d798010695277984a3f519b5f"
+        },
+        {
+          "receipt_id": "test-054",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.342,
+          "sha256": "a0840729e7432418719c22f257eb7085bbaea9e23738ef051716ff4ba2e4169c"
+        },
+        {
+          "receipt_id": "test-054",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.883,
+          "sha256": "802224b83df6e822adeb21312dec125bda3f74d863950a9c610f17e1711cc332"
+        },
+        {
+          "receipt_id": "test-055",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.089,
+          "sha256": "7b084c84840af63fa1458caa3e92454a6940bfde333b6f1e206b1379a5ee55cf"
+        },
+        {
+          "receipt_id": "test-055",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.179,
+          "sha256": "27bc8714379c82974e312b435a3a5c820577428219a11b6bba47b04089a0ee45"
+        },
+        {
+          "receipt_id": "test-055",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.859,
+          "sha256": "28045bd1948cbb78a8bb299fe1c877accf49d9feb346b3b12e8ab9a87280a0e2"
+        },
+        {
+          "receipt_id": "test-055",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.689,
+          "sha256": "b660d3e47d7da7a72c19654bbc982e0d4b7317a5903368fcd82b6842e2c0f11c"
+        },
+        {
+          "receipt_id": "test-055",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.932,
+          "sha256": "be9fc269b368d0a3ae0a147ecae422c968f40d13de022e0433bf2c0897428454"
+        },
+        {
+          "receipt_id": "test-055",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.741,
+          "sha256": "8126fba0776cd9ff336033f5bf3f4ea1853d653606d0e92823c69c49daf31aca"
+        },
+        {
+          "receipt_id": "test-056",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.977,
+          "sha256": "31b3a4e6f1ab46532d5c2ba334236ce9ea96a093be956919d9c86bdbde18798b"
+        },
+        {
+          "receipt_id": "test-056",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.868,
+          "sha256": "57dd083ea446538926632cdb065e036884b3f729b986c1f52e32e9ce9f412de4"
+        },
+        {
+          "receipt_id": "test-056",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.757,
+          "sha256": "26c1683fd9f219ab40f6132ac01ae51d782f03bcb29c07f4f06f667c08d4bd3e"
+        },
+        {
+          "receipt_id": "test-056",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.915,
+          "sha256": "54b8b9685ba3ec4a0059bca615a6acbfff7865461e2cfff189bbe6d200362d61"
+        },
+        {
+          "receipt_id": "test-056",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.062,
+          "sha256": "0eacfa5f6ca1e49ceaeaa7b175c18c0abde521d0470c54b9ba84c68be3e6f349"
+        },
+        {
+          "receipt_id": "test-056",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.753,
+          "sha256": "9e0b0c2c76b48d167b776052456c189d24e89447f09a1b66b37d54afb2f37925"
+        },
+        {
+          "receipt_id": "test-057",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.937,
+          "sha256": "551a9eb708886df4f9b57c966f3a683e69cbbe12773223803d3d84eabea9eee8"
+        },
+        {
+          "receipt_id": "test-057",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.829,
+          "sha256": "145d2ebf77a70d13c524500b6a3d916d64ddfecff85dcec06692f653494fd3c0"
+        },
+        {
+          "receipt_id": "test-057",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.692,
+          "sha256": "ac16100b1e470bd7282c120987614f5f2f1e71c5b5875f8626be6264a82e13e8"
+        },
+        {
+          "receipt_id": "test-057",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.769,
+          "sha256": "4633b3a0200284188101ecc7f4cebdd7610113f0e306bcf9ceae37e9058c8120"
+        },
+        {
+          "receipt_id": "test-057",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.946,
+          "sha256": "8d468a205d9fba31bfe47dd137a8327f6a6ad4cd527bad84a32ed025285afb14"
+        },
+        {
+          "receipt_id": "test-057",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.918,
+          "sha256": "2e255a856db7d27820da992b3ef0421f74f5c0b589ebc38000c6df7e49ef6ab9"
+        },
+        {
+          "receipt_id": "test-058",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 10.867,
+          "sha256": "5e7b67cb2a20671701e5f98d6dbff89e2964e89c4f33261498451c76cdbf7a39"
+        },
+        {
+          "receipt_id": "test-058",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 9.894,
+          "sha256": "8e70fd58c9037a628ff12545dc94bd026bd750be3e746035ce659346c9c7ec83"
+        },
+        {
+          "receipt_id": "test-058",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.888,
+          "sha256": "3178789a7ebdb2e2805a51a278a8bae735f96a9114c135f1d83b4b13b6938575"
+        },
+        {
+          "receipt_id": "test-058",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 8.306,
+          "sha256": "dbee4d565a35d045e001c0927a3cf3c9d9fc4156c46a09079aaae516f6381704"
+        },
+        {
+          "receipt_id": "test-058",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.379,
+          "sha256": "9b73f683070e935be652d20c2e2c0cfcd408ed33003e9f51fb412c8be368df40"
+        },
+        {
+          "receipt_id": "test-058",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 8.984,
+          "sha256": "794a384737ee113c237deef860c96d8875a4b15f3b4df651818ca761c284235f"
+        },
+        {
+          "receipt_id": "test-059",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 49.873,
+          "sha256": "a001935ad2ca8d02069f3a85e50267ed948e5aec2cea433a7fced15f9754d890"
+        },
+        {
+          "receipt_id": "test-059",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 56.795,
+          "sha256": "e97f290ae50218480db75d30efb6c20ab105bb99284b959714edfc22985c7773"
+        },
+        {
+          "receipt_id": "test-059",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 63.74,
+          "sha256": "3032efbd4f5153d7253281594aba13635b7b74aeb110c3807b637d5fd936cb36"
+        },
+        {
+          "receipt_id": "test-059",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 56.15,
+          "sha256": "0444e297b996b23e3f44cad3a15fd33adbced614d8eb0d663c45383547029fd1"
+        },
+        {
+          "receipt_id": "test-059",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 59.785,
+          "sha256": "200f2de647fad5763ce4a040403228373c3512138b71f5066d0f57b9c4aabd8f"
+        },
+        {
+          "receipt_id": "test-059",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 47.315,
+          "sha256": "711a39f33f3bf12edc5c310daec79397b68d55df162fe1543bfb31fb3b4b9a1b"
+        },
+        {
+          "receipt_id": "test-060",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.831,
+          "sha256": "855b54be840d0901e639cd396ef015f176759a7a66b6bf765b5c0e2c57f4c6c5"
+        },
+        {
+          "receipt_id": "test-060",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.485,
+          "sha256": "3a50b23a700228f2ff4192a54c2b842fd8a9f252841054bbc63351860ae57ac3"
+        },
+        {
+          "receipt_id": "test-060",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.409,
+          "sha256": "787b1fd13847e2bb7bd272b939488e8f93437081de2617244d5d1f1a014d5cf0"
+        },
+        {
+          "receipt_id": "test-060",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.499,
+          "sha256": "247776b4c5fc498b43bd46ae08b1065bd9c08e7f77786318de58f781db6b3801"
+        },
+        {
+          "receipt_id": "test-060",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.158,
+          "sha256": "7b1c2a685970729157c5866e8881c0803da2423318275ab4a65f82b564a3e0ff"
+        },
+        {
+          "receipt_id": "test-060",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.809,
+          "sha256": "308a925cd994564bdf1e2558b30fd237aaffefc451650c313d95f8ec4fa2e195"
+        },
+        {
+          "receipt_id": "test-061",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.31,
+          "sha256": "afe908d141b1b6d85af45082ebd6c2d35608bca0a5598ab087fd7e6f2f370935"
+        },
+        {
+          "receipt_id": "test-061",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.957,
+          "sha256": "300500dc06aaeaa6ba25815207aa3da68971ea1b3d132b25ae49aa9b712fa572"
+        },
+        {
+          "receipt_id": "test-061",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.539,
+          "sha256": "ee58921b7634139aba2f53ec13c1bfea39af220c3df78296914b61e6eabec203"
+        },
+        {
+          "receipt_id": "test-061",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.585,
+          "sha256": "846679366f6f59f77571a4c323d3ddf3319d8e6bc1677bd4229615aa0ec46a1b"
+        },
+        {
+          "receipt_id": "test-061",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.698,
+          "sha256": "fa0f84c3db73073db1cd5d3e25051fa75cb319f2c218915767040f546a889d4b"
+        },
+        {
+          "receipt_id": "test-061",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.221,
+          "sha256": "9ce267afbbff2ee2e26ab4412a5a1ab40b89fe3e6b094f1f9519f0684b42184b"
+        },
+        {
+          "receipt_id": "test-062",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.196,
+          "sha256": "f6c66ab50f57b7af6bc59f6ac30b7c70e3deda598f637e34c2285abeaf4689b6"
+        },
+        {
+          "receipt_id": "test-062",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.327,
+          "sha256": "51c5245d515ee583c4da7e5f2b9d13db0d9b8b72211c692f2049a87a29ac71a4"
+        },
+        {
+          "receipt_id": "test-062",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.234,
+          "sha256": "c5e1dfe9e62e0988b5f010f75e11f9a2b102cbc85c79baae6b211375dc184a98"
+        },
+        {
+          "receipt_id": "test-062",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.251,
+          "sha256": "c463519093ea20f25e8e86d83783ba294f78fb594b6fc8958dfb027e9e109bf7"
+        },
+        {
+          "receipt_id": "test-062",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.136,
+          "sha256": "e19901bbd650729aadd8de6f361a14a6b8a6c6de9639d11831d0fc96362ccd9c"
+        },
+        {
+          "receipt_id": "test-062",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.317,
+          "sha256": "5d2e5ed4d21d0f484ead012c7b405cfaf9c25527766d988a2169c8dfc5ec44af"
+        },
+        {
+          "receipt_id": "test-063",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.507,
+          "sha256": "2a226c1bd4fb5f86a0e1065aca7e0d247576e4f90ad8dc611ae5b40d553566fb"
+        },
+        {
+          "receipt_id": "test-063",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.572,
+          "sha256": "b1eb401bc5fb2125eb959a3fbbf4642ff0f193525f75dc64f2d24ed9b6a80c51"
+        },
+        {
+          "receipt_id": "test-063",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.463,
+          "sha256": "333c47f551352deeb2719667984321c63421ebfc4bbea3dfedb6821b8c6f46b8"
+        },
+        {
+          "receipt_id": "test-063",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.765,
+          "sha256": "2a7e7663d1dae692d0a7714611462641e869f9ae815f3ab1909c96247f583c35"
+        },
+        {
+          "receipt_id": "test-063",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.947,
+          "sha256": "50eaa46a5e534e22d840565ed22e218e74d7f68c8f0d57ab88eff530f2feef94"
+        },
+        {
+          "receipt_id": "test-063",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.654,
+          "sha256": "31f7221b6ff7db2a676387ac4c61c5da97e94be018ca2fcbd32c908e62f814e4"
+        },
+        {
+          "receipt_id": "test-064",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.138,
+          "sha256": "f61e5818f3282405a0e5b4158d9498cc0203b34e4bcb2a52c9c44b15267f980e"
+        },
+        {
+          "receipt_id": "test-064",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.39,
+          "sha256": "6436683d4fb442e7bc4143218a8cc30a124e6e0025811539d1be3f5f66744006"
+        },
+        {
+          "receipt_id": "test-064",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.368,
+          "sha256": "4cf509f2f1ca8d5c33c0eca0c23316c7a999c32b519f329d4f0eb72a5c54007a"
+        },
+        {
+          "receipt_id": "test-064",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.87,
+          "sha256": "5ca61e3bceb1395ea9e164dcf3d5014c900e06bd3bbfb4717b9fa750e587b311"
+        },
+        {
+          "receipt_id": "test-064",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.836,
+          "sha256": "c19864231535523a71362e0ce31625c00dac11e97963f65511132b40ffc52ed0"
+        },
+        {
+          "receipt_id": "test-064",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.712,
+          "sha256": "8c6d44ad9bbd35054fa33bdaf010959270899dd07e728cc4190e8ba8048b0650"
+        },
+        {
+          "receipt_id": "test-065",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.751,
+          "sha256": "4f12521ca4704248cc0978b018a9b4aa832f1012a842fd39dbaac44cdffe6fd4"
+        },
+        {
+          "receipt_id": "test-065",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.126,
+          "sha256": "5501ea0f0db805074bdd9d77cce66ba1991fdba24c9329bcfd07437046af0102"
+        },
+        {
+          "receipt_id": "test-065",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.606,
+          "sha256": "d926385541f5b7f85da465c15169424c8b06ba02b111d3f780782a335949f0c6"
+        },
+        {
+          "receipt_id": "test-065",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.161,
+          "sha256": "25ed84fd948cab8492bf5b580d7ee82e09bf5e703ae3be4a15063752eaf7dc94"
+        },
+        {
+          "receipt_id": "test-065",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.317,
+          "sha256": "af771e126bbd5004cd3def4f4d6e911dc2c62a07e9ef601a9330122d7d704496"
+        },
+        {
+          "receipt_id": "test-065",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.713,
+          "sha256": "cea154d035c4279249ce8ebc460f5eb851b8059717cad68e6d818bbd0ccc7f3c"
+        },
+        {
+          "receipt_id": "test-066",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.301,
+          "sha256": "616b6c8285e7de75cec0acb3f16fa2887fc3f43bb5d1015f37e4fb32fdddca44"
+        },
+        {
+          "receipt_id": "test-066",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.316,
+          "sha256": "50b138cd706895d32bc72396feaa517888d0b74b1a7fa9ade446375b43922499"
+        },
+        {
+          "receipt_id": "test-066",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.33,
+          "sha256": "fd37356e97f3a89c01d7b1ba2aa5d06ca114ec896eaeb8669d3a6e8ade8320f7"
+        },
+        {
+          "receipt_id": "test-066",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.241,
+          "sha256": "f55e105e2371e9afa54e26f3d1bde25619113dcdefd3d8ba57e0e2924452c622"
+        },
+        {
+          "receipt_id": "test-066",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.541,
+          "sha256": "d17ce35fe38409961c63844e03b60c64c282d3d8bdbec50a776cffb52c53dd1c"
+        },
+        {
+          "receipt_id": "test-066",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.167,
+          "sha256": "55f6e79884e6c72e34fe2163cf6badd10c3eef3f763898d47f7d4c24ac2d87c4"
+        },
+        {
+          "receipt_id": "test-067",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.62,
+          "sha256": "02274311318f446c45639691a44e1cdb90fd5d48d5f2be16accbeb8f5c16c205"
+        },
+        {
+          "receipt_id": "test-067",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.656,
+          "sha256": "873880d9e510c385535eeefd28a3d05e78b1fc3ca65b2b101c715b71b968aa3b"
+        },
+        {
+          "receipt_id": "test-067",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.606,
+          "sha256": "6749126fc95e9703f8b8db2e695d29d95ec999d671f4a2e51268c5997fa1127d"
+        },
+        {
+          "receipt_id": "test-067",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.619,
+          "sha256": "b0207b6f13841b75b616065651b2763343f63ccb9983ecadcbcf1e84c7f2daee"
+        },
+        {
+          "receipt_id": "test-067",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.685,
+          "sha256": "49ac529c1ae6dd79ce790775e826a53703c5b386a6c7e9614718bcb4690583d1"
+        },
+        {
+          "receipt_id": "test-067",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.407,
+          "sha256": "dd1e0ca152cab72236d223eb4c93d6c92e18cd5bad37c94b085aeeb3dfe3634f"
+        },
+        {
+          "receipt_id": "test-068",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.817,
+          "sha256": "1ca4a153244146a6fe0ecbe6c8b13122fc8ab9749aae177cab21c27c6b832c84"
+        },
+        {
+          "receipt_id": "test-068",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.79,
+          "sha256": "fa3f727e6fbf8448eebd9cde705febe871e5033ec664f257a9a0c2b120f89710"
+        },
+        {
+          "receipt_id": "test-068",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.862,
+          "sha256": "d902ea13cd3b93cfefa6597b3a937f65c4f86e92fbde726d910c82d4c3e95a66"
+        },
+        {
+          "receipt_id": "test-068",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.659,
+          "sha256": "c44b3515a097515ec1c07203f0d7be316695c0eeffd130f364589ba7265441d0"
+        },
+        {
+          "receipt_id": "test-068",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.74,
+          "sha256": "c3f401ebd165999c304a81ce823d43b819efc70157b107d5d9c428cefa0ebcd2"
+        },
+        {
+          "receipt_id": "test-068",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.684,
+          "sha256": "f0af43be52c39bf6b10f999e3fd5ab698af2e3b6e2e255933881df90d61a6895"
+        },
+        {
+          "receipt_id": "test-069",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.558,
+          "sha256": "24e02eab149c134f894041a6f699e1612957452cf3cc61a81b8cf0ab6ece9746"
+        },
+        {
+          "receipt_id": "test-069",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.567,
+          "sha256": "835f3e007e529a7b6d10564900fe22210b5830afd50cd8995f439071554c0b3c"
+        },
+        {
+          "receipt_id": "test-069",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.569,
+          "sha256": "8a7e037a0b9874267547521e5add09194099b0d22a4b462c649402ba2f60edf7"
+        },
+        {
+          "receipt_id": "test-069",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.229,
+          "sha256": "b1f60d0c2bad62f667a86209e681feed684e69f94f3d1008a131bc8b5ef5686e"
+        },
+        {
+          "receipt_id": "test-069",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.015,
+          "sha256": "1e9c16e08fdbd090a6ce017f0019207db5846b27ed6dd62fda10f25303cfdb1b"
+        },
+        {
+          "receipt_id": "test-069",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.42,
+          "sha256": "50bd840f5c9e0c7a1aa098744ccb9666cd9e7b493973e6a2fbeb5d53dfc7f6ef"
+        },
+        {
+          "receipt_id": "test-070",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.936,
+          "sha256": "4c9b4d499bb031d89f4e9faa0d6562cef05798e666447fcfd5d9c11e077e5c50"
+        },
+        {
+          "receipt_id": "test-070",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.809,
+          "sha256": "856df753a7b156834c18a353f6c77a9b3e7dbc091616a9e8979d28ecee535a1b"
+        },
+        {
+          "receipt_id": "test-070",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.936,
+          "sha256": "b94492d44ceb2c355205580b1852838b8cd4bfc08d9c82a541724327c72c9ba1"
+        },
+        {
+          "receipt_id": "test-070",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.899,
+          "sha256": "7a56de87d096073df35aa47783315555daf13879736e83510577cadc5c6a8a77"
+        },
+        {
+          "receipt_id": "test-070",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.946,
+          "sha256": "aeb1efac133596a5815b8b34cb990bbfa73bcb4f1cbb0c05c486203bceed474f"
+        },
+        {
+          "receipt_id": "test-070",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.847,
+          "sha256": "2cd2dc776322effb0c44eca1f46b5fbf01b91196f27f3e7d968d0955e67faafc"
+        },
+        {
+          "receipt_id": "test-071",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.786,
+          "sha256": "39fb888baa4204238c0f413623a94783d37274434be726cc55ebd9fc00099ad8"
+        },
+        {
+          "receipt_id": "test-071",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.271,
+          "sha256": "b2a6dbd5609a00c17a59b05edd8c1fddad886d8ecdbdbbe0b11b177837dd835f"
+        },
+        {
+          "receipt_id": "test-071",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.376,
+          "sha256": "c3a01943609413cdb4e4b302fe1e3fa4fcc71dcbff21cbb8435e9f875132e6aa"
+        },
+        {
+          "receipt_id": "test-071",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.63,
+          "sha256": "1b93f8ed74298bbcc77b7f0ffcf5ca21b757ada74a11475b6baacf58d266cd3c"
+        },
+        {
+          "receipt_id": "test-071",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.576,
+          "sha256": "f7fc9aed804115b8829ed927a243e31261b6e3ceb9ea22d2c4ee24a5405425bb"
+        },
+        {
+          "receipt_id": "test-071",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.289,
+          "sha256": "8389760444ba978e2cd52a58546b001dc7b844ac953c6f25079e33fae7bf9c98"
+        },
+        {
+          "receipt_id": "test-072",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.876,
+          "sha256": "6c86e8366c09679a5f09502121fcbb8f19db5179359c73049b86cff529cc0673"
+        },
+        {
+          "receipt_id": "test-072",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.319,
+          "sha256": "e5957edc380de20ae11fc06caf9c27019616aaa41cb1ba3adf38a5ff0d71112e"
+        },
+        {
+          "receipt_id": "test-072",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.385,
+          "sha256": "c61efcd508565c9eb0a14b5ac287ae7d948a79dbf45fd9417dad75d5de97d791"
+        },
+        {
+          "receipt_id": "test-072",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.074,
+          "sha256": "5596bad1bd96362fb635acd6f9baff0d155221476c4795482a0c976700dbdc02"
+        },
+        {
+          "receipt_id": "test-072",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.3,
+          "sha256": "025259724048d793b900a3cbf4d7677ce33f79a75654ac813c607156384f4fa6"
+        },
+        {
+          "receipt_id": "test-072",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.295,
+          "sha256": "38a8bb44e09a8144bcf52f3d9b3258bdf71f4d205a13e6a809b5bbc5ff9735dd"
+        },
+        {
+          "receipt_id": "test-073",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.646,
+          "sha256": "783b8eb6e8a6ecd4a37154f5a48384f43f9cecd1c3541ee39519051be7e42a12"
+        },
+        {
+          "receipt_id": "test-073",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.806,
+          "sha256": "f73f88a772df6fbb0fd2562fe41fcc0b618f6406d6236fbb9ae2067c903247b9"
+        },
+        {
+          "receipt_id": "test-073",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.67,
+          "sha256": "2b965e872df3eb4a54219253fe26091b35a77b0597b544517953d21fbba40804"
+        },
+        {
+          "receipt_id": "test-073",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.893,
+          "sha256": "39c35e00d7e1d8de76001fb6e435e7c9106390de1156c8f9bcf57fed549bb6c1"
+        },
+        {
+          "receipt_id": "test-073",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.111,
+          "sha256": "52ee460fb6b94c7569cbc40a66b74979fae473c8ab173d3b6f2d99003bd4dd92"
+        },
+        {
+          "receipt_id": "test-073",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.066,
+          "sha256": "d75b440690484ae207da98e444c1cb5689c68b18d11c7fa41c7dbe3391fcceb3"
+        },
+        {
+          "receipt_id": "test-074",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.854,
+          "sha256": "0bd95e7389b61c205865459047382135d1313acad0113f0637de6fa12710397e"
+        },
+        {
+          "receipt_id": "test-074",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 10.318,
+          "sha256": "759fbbe838d975f0abfb3921292246f10cfc8b5f82a1b16ad15f01a56a89c603"
+        },
+        {
+          "receipt_id": "test-074",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.571,
+          "sha256": "7686e00fca0004ad136bbd914d42979de8b303b261665801dc14933b5b703b16"
+        },
+        {
+          "receipt_id": "test-074",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 9.582,
+          "sha256": "1483327d88bbe51de6655db558861aa4686e09be47f0bf977ef7eb42b6f2fd1e"
+        },
+        {
+          "receipt_id": "test-074",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 9.761,
+          "sha256": "8221cac9e68ca444ec597b9c954f4abdcec75a7e4748a0a273f967b35ff936ce"
+        },
+        {
+          "receipt_id": "test-074",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 13.5,
+          "sha256": "db8bc6d9d0edccc185541db93e97d08d80ba859e90fa1cf8adbe0ff3d8635095"
+        },
+        {
+          "receipt_id": "test-075",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.655,
+          "sha256": "f93bfd36ffc34a95d4ac8cfd2eeb164a05f384a4f4ca5b25fe78670d241226e8"
+        },
+        {
+          "receipt_id": "test-075",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.639,
+          "sha256": "a225776556bb1af2856acd318ed22487f187815c80e051caba592aa528febc2f"
+        },
+        {
+          "receipt_id": "test-075",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.935,
+          "sha256": "0d63de46e8ba0db3eea06f92f79f51bfb09ec8772a4bb9481a514acaa6325387"
+        },
+        {
+          "receipt_id": "test-075",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.985,
+          "sha256": "b43b0ce151778655003406162573623a0cf237430ad77845e84fed469899b84b"
+        },
+        {
+          "receipt_id": "test-075",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.539,
+          "sha256": "9e395d6bcb0bcb46cae70749d17f2a32b5d12304e3186a989736b5801c755f71"
+        },
+        {
+          "receipt_id": "test-075",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.589,
+          "sha256": "30c169a1446d5681593c950240a5301bca45576e9e3479e2afbb7dd97ac83cc0"
+        },
+        {
+          "receipt_id": "test-076",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.472,
+          "sha256": "c57ca3573e1eb2e42c4f63e798207d94c448c3b05db0015f8fca909d50d3608c"
+        },
+        {
+          "receipt_id": "test-076",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.483,
+          "sha256": "0d84580b2db26b4a8bd682a1d2e757e4c3a5cc14796738a6a7f923580687d56a"
+        },
+        {
+          "receipt_id": "test-076",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.44,
+          "sha256": "2ef38777b08ff10ef57c3c9ad0b4581bd0b09e61a5fabbeafaa60a8f9e67a11e"
+        },
+        {
+          "receipt_id": "test-076",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.518,
+          "sha256": "814dc198d809ab1940a085118667c37d8787651a5f036a37e8a9209516675414"
+        },
+        {
+          "receipt_id": "test-076",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.536,
+          "sha256": "5946cad56d25262dd74ac1ee6265f96307197d8f1e8a398c68ae009d9c4ed661"
+        },
+        {
+          "receipt_id": "test-076",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.447,
+          "sha256": "066366427d58893d448499b721bdae6e98de5efb830831685addc342b388b1b0"
+        },
+        {
+          "receipt_id": "test-077",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.92,
+          "sha256": "11ff20c304ba939687271eff28cf780a0f45556165fe08de5eb595e2adada3c0"
+        },
+        {
+          "receipt_id": "test-077",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.019,
+          "sha256": "4a783889412db9c094977f552a87a48410c8b3e4dfd35d0c586424d6ddb6a9cb"
+        },
+        {
+          "receipt_id": "test-077",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.038,
+          "sha256": "ac5c7c1eb3e849919e9cf0accff43ce62bca11503db6c5e26222ce580461bd9a"
+        },
+        {
+          "receipt_id": "test-077",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.95,
+          "sha256": "fc39f82693b9af4d8d4d1addf920bc2249ae49de6e2da494c9fffcb0d40403b9"
+        },
+        {
+          "receipt_id": "test-077",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.942,
+          "sha256": "51a18f9af438812262978567209929d29e6e7ac1f548a392edf4b3c0895bdab3"
+        },
+        {
+          "receipt_id": "test-077",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.98,
+          "sha256": "4ab631531c26c8ef090774f6c27ec6b4a830ff99fe5dde77d011552847dfb065"
+        },
+        {
+          "receipt_id": "test-078",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 21.243,
+          "sha256": "0b4e79fa362921ba4f8c567e1d8cfe4f69d8831dd7e5d9af7bf6997fdec3476e"
+        },
+        {
+          "receipt_id": "test-078",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 18.509,
+          "sha256": "ae76eba82cf643f8d8065798fbfe69da9fe468c15d12f698d85e54e163877f7f"
+        },
+        {
+          "receipt_id": "test-078",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 23.9,
+          "sha256": "7e83ce390d83f8aadd51046b797d9c032da9a15ac1d37316dace108304b3d227"
+        },
+        {
+          "receipt_id": "test-078",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 20.82,
+          "sha256": "ef8db6572f7150b954b5900b73eedc752bda97fe76b2e91992e16ba9d659763b"
+        },
+        {
+          "receipt_id": "test-078",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 17.846,
+          "sha256": "52e272ef87119b2b070c0db2a71c5c55a7fbf954f840c6740c0b4ee7e5f94dd4"
+        },
+        {
+          "receipt_id": "test-078",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 18.282,
+          "sha256": "d3ef04f9cfe1ca39ed09e0fb56f697db6a7d6f78ddcbb0fc1f4399de53300e78"
+        },
+        {
+          "receipt_id": "test-079",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.557,
+          "sha256": "83601c6d6951231c8f3f83552888c0dda4cccba04d5739457cd513b4042a89a7"
+        },
+        {
+          "receipt_id": "test-079",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.79,
+          "sha256": "8eff124343f386c0c85184e9cf0342f9249d7195ec7cb8077b5b950ddd840b2b"
+        },
+        {
+          "receipt_id": "test-079",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.523,
+          "sha256": "670ab326c5eddc62b55ca46124f3be542234568ff8b89afe9ee94dbcc85d18c3"
+        },
+        {
+          "receipt_id": "test-079",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.573,
+          "sha256": "92c5374f137934be61ed80d1e8a245d1b1fe83665d4080261bda883028565f22"
+        },
+        {
+          "receipt_id": "test-079",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.765,
+          "sha256": "e5721bd690341fcaecbc78ff2d03db3f3ddbfa620d1207b8d2c0f5aaa135e271"
+        },
+        {
+          "receipt_id": "test-079",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.638,
+          "sha256": "9a2d3ba1d6e5acfa1e57dad9a77408ba4490f8d581fa07d0b6ea9325299190aa"
+        },
+        {
+          "receipt_id": "test-080",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.212,
+          "sha256": "4fa44d210b8bb667e42e6fc31e42d990004f6dcb1a7804541cbfc902281f18ed"
+        },
+        {
+          "receipt_id": "test-080",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.914,
+          "sha256": "b48aab6d6d35a696035863b92a00a9f80a915fe53459a3541da6c8e4c3a9af71"
+        },
+        {
+          "receipt_id": "test-080",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.008,
+          "sha256": "375185b5a6fbd568805886f0786f7e750631207834b610346af69d2e5bf7c160"
+        },
+        {
+          "receipt_id": "test-080",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.184,
+          "sha256": "497cd82722809bee5d3e070fb9334125eb4edac452f1dc0b5964834c15558d1f"
+        },
+        {
+          "receipt_id": "test-080",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.287,
+          "sha256": "6afefcd8fb668ab0e155712ea686986718caf42e6c379f03a0c629f0edf1d702"
+        },
+        {
+          "receipt_id": "test-080",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.984,
+          "sha256": "fe3ad53441f8a9509ef8754b8cc8bbab9e61eff5528e4a1c0c26502652ecb0b9"
+        },
+        {
+          "receipt_id": "test-081",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.152,
+          "sha256": "bd05b6425a18af6387f26bd50b025297537ed8d60f563d82b6503291f9edbf94"
+        },
+        {
+          "receipt_id": "test-081",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.107,
+          "sha256": "a691d9ef4262b6465caed54862477f67e992bad9095ffa0e73cc74548b90277f"
+        },
+        {
+          "receipt_id": "test-081",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.166,
+          "sha256": "892602845a3ca9101d0f2747e72a56486a194825dc5802ebde08b5f8212e7717"
+        },
+        {
+          "receipt_id": "test-081",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.18,
+          "sha256": "b2840ee95345988761dad64c2e2f3a43af6e11bcc623ebafef19dbdab95d44b7"
+        },
+        {
+          "receipt_id": "test-081",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.252,
+          "sha256": "d8310f8b26f5c97961a45432e7de4e6fcf19d96ec692ec25c28fbf2dd7ed142b"
+        },
+        {
+          "receipt_id": "test-081",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.563,
+          "sha256": "0b636bdf708476f6bd30dcc8bbd066b351196c5dff3e201f0df973b0b0b9d110"
+        },
+        {
+          "receipt_id": "test-082",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.42,
+          "sha256": "92d95f1f69463710e1c8852197107aa2f85e615696fe5b9fb1481d506dfedd91"
+        },
+        {
+          "receipt_id": "test-082",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.659,
+          "sha256": "960d278eece494fb7020770e3526f6c34828962b74c42f51935768d20213c9db"
+        },
+        {
+          "receipt_id": "test-082",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.15,
+          "sha256": "53d02f82140a6a905498da882b59fd26e5fb1b1b6cd9b8bf21ff004f9d68fef2"
+        },
+        {
+          "receipt_id": "test-082",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.229,
+          "sha256": "a56bbb399c6d7734942b5434a9e8ffe23b3c774eebf34f4fe778ab225bf696f9"
+        },
+        {
+          "receipt_id": "test-082",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.165,
+          "sha256": "fcca22f0ca2be956132234492244367886040c1c4140574cab86803b3f3df812"
+        },
+        {
+          "receipt_id": "test-082",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.627,
+          "sha256": "0e8a9a10b418adac4b1287b2bed434fb47f03cf73b7652205facf1bfc8540d6a"
+        },
+        {
+          "receipt_id": "test-083",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.878,
+          "sha256": "6200ae7539cbdefb6edc3b30c995de153575a49db11a51ad19cef260237683f6"
+        },
+        {
+          "receipt_id": "test-083",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.117,
+          "sha256": "d39b8cf0b21e10fea851d468371ad9db674f9d9b28eadccfa838c153811f979c"
+        },
+        {
+          "receipt_id": "test-083",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.846,
+          "sha256": "13ade679096f75f411ccdc4007d30ab318ccef4541aa7fa335de1f0286323970"
+        },
+        {
+          "receipt_id": "test-083",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.856,
+          "sha256": "d39136855160cff8e5a8ff2a0967a3d63a45741eacfe60c808226164f43fcd84"
+        },
+        {
+          "receipt_id": "test-083",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.679,
+          "sha256": "55ff301ecdc9ff79a588a1e5017765fef61924395a5aa66773c0769c2edea4a4"
+        },
+        {
+          "receipt_id": "test-083",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.124,
+          "sha256": "11efaa8c825ba08b79b7950544efd145dc52957a00a47b69e19e1c053fed351e"
+        },
+        {
+          "receipt_id": "test-084",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.749,
+          "sha256": "60fcf8a2378aed31697668c4f0660cbe04b0b717059703042398d31249ff6f98"
+        },
+        {
+          "receipt_id": "test-084",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.814,
+          "sha256": "7d29523d24f79a813d2b74c32579ba9ea69fb025c96ed5cb0f43ad5885938d14"
+        },
+        {
+          "receipt_id": "test-084",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.894,
+          "sha256": "d7213759b00b073603acdc0bf2fc087b18ff19b0b64396dd4401555a065ca8a2"
+        },
+        {
+          "receipt_id": "test-084",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.221,
+          "sha256": "918cef196cdb0d10ea2263fba1afc2d2743a8e737c5d514c3b236e13c5fb246e"
+        },
+        {
+          "receipt_id": "test-084",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.383,
+          "sha256": "4bdfceccd484eff83ac4cac466e60ddbe5308f2cb7ee6febc0650228aaaa6a48"
+        },
+        {
+          "receipt_id": "test-084",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.765,
+          "sha256": "331075f35421993bce2ee1a2593262f372d1d93796b2b4e3c38fa5f26315f0aa"
+        },
+        {
+          "receipt_id": "test-085",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.514,
+          "sha256": "6ee76423b4093614124168eb45c890478cef46614559378813924bff6fef0900"
+        },
+        {
+          "receipt_id": "test-085",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.522,
+          "sha256": "42b60406c5f2ffc01274c2df9cd891ac8b1341f20d74e278d0dfc4d20d7ca1d4"
+        },
+        {
+          "receipt_id": "test-085",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.715,
+          "sha256": "83b277a43d24ac0cb5c4b94b2a05b2ed393f703778181fb040c820ad30c5a58b"
+        },
+        {
+          "receipt_id": "test-085",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.445,
+          "sha256": "4d92e5ce7a27026c2dc83f40a2b68903aaeccf150c0c69b8fb0792a0ce3bc287"
+        },
+        {
+          "receipt_id": "test-085",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.972,
+          "sha256": "dab3e0e1370f5b39baf92773d4a0f3ebdb2ea7795a95d67c401e4dc730b6fea5"
+        },
+        {
+          "receipt_id": "test-085",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.654,
+          "sha256": "74bebd9a901a21484cec3e7bff1125c842f468cb3cc8bbeed88a36e54f562bd7"
+        },
+        {
+          "receipt_id": "test-086",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.374,
+          "sha256": "b0e141a83455adb36def3c7049c2c5ff1ada2d9eea808735e859a330370a1450"
+        },
+        {
+          "receipt_id": "test-086",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.562,
+          "sha256": "3e4d3073e5e89d288f6041c877b88f2ba33da19cbdada353cdee6ffcefaa7cc0"
+        },
+        {
+          "receipt_id": "test-086",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.591,
+          "sha256": "5eb4650c5dea9c495840fa36cda3867d21671d46b7b9b318fb4a94c6ed418bb0"
+        },
+        {
+          "receipt_id": "test-086",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.798,
+          "sha256": "a45142dfca08cd703a37afd1971cde0f058bf5f749649af37d390325c03b25d7"
+        },
+        {
+          "receipt_id": "test-086",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.712,
+          "sha256": "4c2e5b0930d93d81e3c8a5e6315789a0db330d21ed7e985bb85cccea8dccce32"
+        },
+        {
+          "receipt_id": "test-086",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.839,
+          "sha256": "1e7f36e6b422207d5862079fa830af271326438f5340277d5abac4d63ece2699"
+        },
+        {
+          "receipt_id": "test-087",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.477,
+          "sha256": "00a4f24db96a55993e5f1dac56a8d2fe7fe388c36bc232b268af8345a1129889"
+        },
+        {
+          "receipt_id": "test-087",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.342,
+          "sha256": "5394dc7e25b931de1a810225d41abf3c9fcb3d2124a73bfbbdef9d64d8636174"
+        },
+        {
+          "receipt_id": "test-087",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.445,
+          "sha256": "946b1e50225c77489103ffd9702e09e4c87ce0debb1f3826274a10d2be7eae87"
+        },
+        {
+          "receipt_id": "test-087",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.454,
+          "sha256": "e3f0a1242bfa6efb87ab8c1c1ca03b8a79a16dc16d3787885cfa7a2ed751998a"
+        },
+        {
+          "receipt_id": "test-087",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.177,
+          "sha256": "6830e179d3232444f4bfc07726605f852077ef20ce9cdbff5254485b3fd75bd8"
+        },
+        {
+          "receipt_id": "test-087",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.578,
+          "sha256": "7599274623a24f0f9d29cf236c3be777ccc397ee2a7cdd357fa2bc0c890dc46d"
+        },
+        {
+          "receipt_id": "test-088",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.442,
+          "sha256": "0b8299af962f92d4a5c13f4491676d7f6049e56ea2cb3e35d31ffbe40df3a5f2"
+        },
+        {
+          "receipt_id": "test-088",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.418,
+          "sha256": "6cd013b96facfc83015463838724b55a3d130078294c03b9dddd7a97d29d0bb8"
+        },
+        {
+          "receipt_id": "test-088",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.421,
+          "sha256": "696197f57f8d6099001001edb8f5e97f733a58b5ac52a30903a514805064b3af"
+        },
+        {
+          "receipt_id": "test-088",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.389,
+          "sha256": "e49a84b439011548fb723236bf82ecd806582f3108030a19f77f3de9a5741e4b"
+        },
+        {
+          "receipt_id": "test-088",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.455,
+          "sha256": "b4c2a51264fbe9cdc63d58920f1b40b3a23e1020f03ccf625a16e5a4ae1e851e"
+        },
+        {
+          "receipt_id": "test-088",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.709,
+          "sha256": "200f69c1a817e86692f897244fc450e568c12ed990f1de9531f343befc8b271b"
+        },
+        {
+          "receipt_id": "test-089",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.94,
+          "sha256": "b56b98b84495b3a883ca8c822bad94913adfeabb64bde2867499ed69cdd31e4a"
+        },
+        {
+          "receipt_id": "test-089",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.776,
+          "sha256": "5f0e57c23c286ffb24483446430d8b91d32b010d18391128ba339348199fadcb"
+        },
+        {
+          "receipt_id": "test-089",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.527,
+          "sha256": "5a4fbad537b3264c61db776bed96b88d0d43b133d1712c8990f5945702f389f4"
+        },
+        {
+          "receipt_id": "test-089",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.706,
+          "sha256": "fb7034458bb0816cbb73351844d2cb3a32b2f226ed376518a3859d4b70b273ef"
+        },
+        {
+          "receipt_id": "test-089",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 8.57,
+          "sha256": "249224e9e6871818cc669fbb268cd2ad88c5ef51d7147bfb9e6c692ff09ef77f"
+        },
+        {
+          "receipt_id": "test-089",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.459,
+          "sha256": "8d3a85f98ae0f3e150368b0d4e24a786ff3b121721565cf0f597288fcc839a0e"
+        },
+        {
+          "receipt_id": "test-090",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.536,
+          "sha256": "f42f347706508a7cf7948d93a665e64572a2080d9c9bbc999b33e65f8e5a6622"
+        },
+        {
+          "receipt_id": "test-090",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.142,
+          "sha256": "da62d83aac171cdda9aeaf3fe73c58d54d7e614b253318b0382d0bfafd997e23"
+        },
+        {
+          "receipt_id": "test-090",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.155,
+          "sha256": "e7b58b777a3fb92cf5b8ed40ca5e0e32a94b84dd939f5c855f07a1688fd6977d"
+        },
+        {
+          "receipt_id": "test-090",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.353,
+          "sha256": "24e8f48e505238e901e5dcaf55ad5831c665326dd299def831d2ca7222052db1"
+        },
+        {
+          "receipt_id": "test-090",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.159,
+          "sha256": "11a80c5a0a82ca66fc1f0be04b87128660b42a5f0de1e475f3542994f8fb61a7"
+        },
+        {
+          "receipt_id": "test-090",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.007,
+          "sha256": "b462c1a358da49b78de8b6be3c73c24baaa7e6a350654cabc3e4e08f4cae8143"
+        },
+        {
+          "receipt_id": "test-091",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.158,
+          "sha256": "700c302a2f6b8a2df79ddf2049a04f93656652c2f7485aba1572db58fd5b7505"
+        },
+        {
+          "receipt_id": "test-091",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.248,
+          "sha256": "37c2412532f450b4bff4e8c65652bc3e404b53abe2a35ec61f4a6d63364e5290"
+        },
+        {
+          "receipt_id": "test-091",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.146,
+          "sha256": "0a057a92109a0d28cb79971717e2b7ce8f3ec6990adef8406e187dafa566e053"
+        },
+        {
+          "receipt_id": "test-091",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.023,
+          "sha256": "59f540ab867ced7f80b0bb5a35d3c26d5582793db94240a13941c29e4f45a4fa"
+        },
+        {
+          "receipt_id": "test-091",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.225,
+          "sha256": "e5c925317c8df224358e5f00e28c2ec4021113859905e60f8a0300eefcf692a0"
+        },
+        {
+          "receipt_id": "test-091",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.229,
+          "sha256": "ed9bbd962482e73ce3e5834b8e5683faafeee95d9209bdbd120b0c40ca604cc5"
+        },
+        {
+          "receipt_id": "test-092",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.03,
+          "sha256": "c2624d3a59e341923d6e9695dbb26dc257e715432f8ba42ebe7a1086bdf39119"
+        },
+        {
+          "receipt_id": "test-092",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.061,
+          "sha256": "3647210d665bd6c2683ea607927a2d6d4b7f5fcc5b8c312ead93c548a4a4be46"
+        },
+        {
+          "receipt_id": "test-092",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.044,
+          "sha256": "9dc519d56cf400e7e40ee965211773cbc168f0a0eb92cf76e810e90bd97bfd2d"
+        },
+        {
+          "receipt_id": "test-092",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 0.993,
+          "sha256": "5ef938f515718c1210dd80e1ff0a67315107ed56df810ac8e1b5961dd6767b98"
+        },
+        {
+          "receipt_id": "test-092",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.235,
+          "sha256": "5a6fed9734407faae088b265be04fca27c08da242a1168da146f1f09c47db027"
+        },
+        {
+          "receipt_id": "test-092",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.477,
+          "sha256": "520fcae92edbb23c3ce17fb8b84cd1e1378ce8a5bf0d0d3852f12469b3b697aa"
+        },
+        {
+          "receipt_id": "test-093",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.272,
+          "sha256": "77a2137567d6acf11882bce051ec38fed355274874184339abf8b0f072e34692"
+        },
+        {
+          "receipt_id": "test-093",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.309,
+          "sha256": "56073273a9c841b5ba020d6f4f1bbe270d1ac1bde3b54578a17b75ea327debb0"
+        },
+        {
+          "receipt_id": "test-093",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.287,
+          "sha256": "c8c8ab3d5ca9880e86af176fd22f609959f99b1c56c4f892ef648b18517f0d0a"
+        },
+        {
+          "receipt_id": "test-093",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.289,
+          "sha256": "d27bc21cd9a06b83a491c653c43ddfe268e61efa9e19fc9e08af944f7dfc99da"
+        },
+        {
+          "receipt_id": "test-093",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 4.219,
+          "sha256": "6a1fcd1e3980d78759d710746580e9832b007d2496608e6829c6316a6654cb53"
+        },
+        {
+          "receipt_id": "test-093",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.302,
+          "sha256": "a62cff38c4232a371d0696d6e6a072dd723e054ab78bfa8347869cb1aa5e95eb"
+        },
+        {
+          "receipt_id": "test-094",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.294,
+          "sha256": "6fa2fceb45a1f26440035c63dae38e527749ddde4374b5494f5614269a66c499"
+        },
+        {
+          "receipt_id": "test-094",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.193,
+          "sha256": "dda167d1a43ebb2fbbc0032e26656d89b44427cd5c88073b6d74fa305fc98853"
+        },
+        {
+          "receipt_id": "test-094",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.211,
+          "sha256": "8d72613b614fe7b2143b668f7a24add889e2df907e48859b82cb65ef3f02e36c"
+        },
+        {
+          "receipt_id": "test-094",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 5.667,
+          "sha256": "0240b985d7ed06159843afd1c6305e166124af903155041285bf6173aea75655"
+        },
+        {
+          "receipt_id": "test-094",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.175,
+          "sha256": "31863875a97c6fc6d13b277150436621f39405e2e09115e7541fe5fc6caa16c3"
+        },
+        {
+          "receipt_id": "test-094",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.039,
+          "sha256": "a6072f6fc88df1a998aa7276aa039e182863d1cb86dd53b2d765b16232de428a"
+        },
+        {
+          "receipt_id": "test-095",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.54,
+          "sha256": "3e026419409afe3c37f4922515cbf18097cc68311f8fb525b28e28b4014070b8"
+        },
+        {
+          "receipt_id": "test-095",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.293,
+          "sha256": "a77adfa6082a580dcab15aef466f9aaedcbe098411b1d92fd22a0b01cef5d91b"
+        },
+        {
+          "receipt_id": "test-095",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.267,
+          "sha256": "3193c6163d27903bbf242cf16ce75be906a89459dadd1f894fb7d2577494fe29"
+        },
+        {
+          "receipt_id": "test-095",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.46,
+          "sha256": "40a9b09ec1d4713d7e2f2cd6d12b9941af2ce0b7454dd7f3132afb76d7e42acf"
+        },
+        {
+          "receipt_id": "test-095",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.543,
+          "sha256": "87dc309b30f10df9d863cf406485288ad5151dfedcad4ed1a8823fcdfd1a8204"
+        },
+        {
+          "receipt_id": "test-095",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.137,
+          "sha256": "1b8fb5cdfa692e1808bb7d2863e8158f462d121dd26d28282762e4630904004b"
+        },
+        {
+          "receipt_id": "test-096",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.435,
+          "sha256": "cce82ed09be5e9961e18bfd7d9318c8e69f697469d79a3b4aac23aa47bae84e5"
+        },
+        {
+          "receipt_id": "test-096",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.25,
+          "sha256": "3582fcfd216cdb75bbce301a54d04b694dcee00f1678963a0cc8a5ea4d96a1a1"
+        },
+        {
+          "receipt_id": "test-096",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.668,
+          "sha256": "320f6b6104aaa8c9a6fd2fb252dd0886c867d01f26d57d986b8b6d416649829d"
+        },
+        {
+          "receipt_id": "test-096",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.569,
+          "sha256": "255ead59b8077f2147b56ae86ea5e6dc4d3c2721252ff87f34dd7a5f2ada9fe0"
+        },
+        {
+          "receipt_id": "test-096",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.362,
+          "sha256": "d4b08e248bb9fb9ca1b8a1742603d823eb58ee75d31afa37ba3bdbcfe3ffee7a"
+        },
+        {
+          "receipt_id": "test-096",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 2.401,
+          "sha256": "cc1c77f1fd34d121852379068e0efbdf27adb7bd7b7ab05e821c7e6ca1b4b3da"
+        },
+        {
+          "receipt_id": "test-097",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.555,
+          "sha256": "6563c13ef4c1a722896a06d46c65c5582d1c73131038f17730923d5967ce10c6"
+        },
+        {
+          "receipt_id": "test-097",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.618,
+          "sha256": "f50e79a5d128d62602962aceadda19e77d31f357cceb739f7ffbd567f674f668"
+        },
+        {
+          "receipt_id": "test-097",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.355,
+          "sha256": "49bfdddcf9e15685274d9dd7362bd5b52d29c7fa112094d36819b7079374c111"
+        },
+        {
+          "receipt_id": "test-097",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.5,
+          "sha256": "f2d7195ea0d7c246add9b86899aa65c72b883d7ab341d706b5b9a8e33eb3b88d"
+        },
+        {
+          "receipt_id": "test-097",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.577,
+          "sha256": "cd90b06283c587603a52bd2bba44f28d60024b57a32cf35446551954c5cdd9e2"
+        },
+        {
+          "receipt_id": "test-097",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 1.708,
+          "sha256": "4235abb2b309c468e706c7b3dd3144b9f24619a679e034ece2aba71b7971c575"
+        },
+        {
+          "receipt_id": "test-098",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.743,
+          "sha256": "232bb1dbc685742e16f29970d2f6dac6b209856545cac76cf090bc46c8cd8461"
+        },
+        {
+          "receipt_id": "test-098",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 7.397,
+          "sha256": "b7a43e760a464609afabf41a870d0d7167811da208bc01e300dfe5f94eed83e0"
+        },
+        {
+          "receipt_id": "test-098",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 9.342,
+          "sha256": "a9c6e2d40d63f1e66cdd3cf40acf8d4aa8e3ec571abe522910e748f12b546601"
+        },
+        {
+          "receipt_id": "test-098",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 8.002,
+          "sha256": "ce6d50ba3778332fcd516d386ce20c250aca2d81df2cdbbca440f1df1dd7425b"
+        },
+        {
+          "receipt_id": "test-098",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 10.154,
+          "sha256": "6adde00a6e9c65e790aa0df6fbc84bbf6cd4869449d56c35d26343c16b296656"
+        },
+        {
+          "receipt_id": "test-098",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 6.865,
+          "sha256": "246676b28e3912237d71fa237443e831baf4514523b79994b5d94de6f20b4b42"
+        },
+        {
+          "receipt_id": "test-099",
+          "variant": "clean",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.211,
+          "sha256": "c3ade62dec9a53cf4bd8db2f1f11ece5d97dbb098aed253e90a5cef4d7ad1bfc"
+        },
+        {
+          "receipt_id": "test-099",
+          "variant": "color_cast",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.297,
+          "sha256": "8855720769347d59d70cca585bbb8b8bafc532ac8062d519a5211ee2622e3aa8"
+        },
+        {
+          "receipt_id": "test-099",
+          "variant": "fade",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.423,
+          "sha256": "c0eaf3e2d0c45988ec229ac01c7f72fe57d3c73860d5fffc5ffb604784688b99"
+        },
+        {
+          "receipt_id": "test-099",
+          "variant": "occlusion",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.316,
+          "sha256": "a1a7a034c96f2d1322d9724bd5099875a64f0e8e90bfaf863537082c855fbd28"
+        },
+        {
+          "receipt_id": "test-099",
+          "variant": "rotate180",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.685,
+          "sha256": "c5c2188518fb875071cdca316983fdd881c4bf27bc515b556bc0d502ef293aa2"
+        },
+        {
+          "receipt_id": "test-099",
+          "variant": "synthetic_crumple",
+          "pipeline_revision": "linecrop_v1",
+          "seconds": 3.538,
+          "sha256": "1e4d8bb67e444310212e6b9a22c61dd8811d519e220df15bd1e5bd53a39a86b5"
+        }
+      ]
+    }
+  },
+  "hardware": {
+    "available": true,
+    "name": "NVIDIA GeForce RTX 4070",
+    "torch_cuda": "12.8"
+  },
+  "software": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6"
+  },
+  "checkpoints": {
+    "layoutlmv3": {
+      "checkpoint_directory_name": "layoutlmv3-finetuned-cord",
+      "upstream_revision": null,
+      "revision_note": "The local model folders do not retain a verifiable immutable Hub commit identifier.",
+      "weight_files": [
+        {
+          "name": "model.safetensors",
+          "bytes": 503888444,
+          "sha256": "8b209f2589456950b5ce5b606823eed07f92ab2b93ddeeb7a922821e2ad49b13"
+        },
+        {
+          "name": "pytorch_model.bin",
+          "bytes": 503934991,
+          "sha256": "2cddf70ee7bf67961788765a828d591f72b64687210279daae5df7928316f60a"
+        },
+        {
+          "name": "training_args.bin",
+          "bytes": 3183,
+          "sha256": "e09a869ea5edd3009fa3e8ac29085a598e471fcadd4d4943fb15e1e52494a1cb"
+        }
+      ],
+      "processor_tokenizer_config_files": [
+        {
+          "name": "config.json",
+          "bytes": 4702,
+          "sha256": "7d5c24ef8f5ca424e44a075539410348fd32dbb0df25454e0f4d40f62d51f47a"
+        },
+        {
+          "name": "merges.txt",
+          "bytes": 456356,
+          "sha256": "fe36cab26d4f4421ed725e10a2e9ddb7f799449c603a96e7f29b5a3c82a95862"
+        },
+        {
+          "name": "preprocessor_config.json",
+          "bytes": 275,
+          "sha256": "35fa599126fa2221fefecbc5c5f9e6d095122435d00d5313cb8f4d81d8e80220"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 239,
+          "sha256": "378eb3bf733eb16e65792d7e3fda5b8a4631387ca04d2015199c4d4f22ae554d"
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 2108641,
+          "sha256": "d2acb7558a79ba522f6d498376bdc69bb2e434fec978bf4c3c59e18d678ac81c"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 348,
+          "sha256": "2fca8e1f5d7512f7ec5c22d74e0098cc3e7318466307faa2cba65236263f6ece"
+        },
+        {
+          "name": "vocab.json",
+          "bytes": 798293,
+          "sha256": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e"
+        }
+      ],
+      "model_card_url": "https://huggingface.co/nielsr/layoutlmv3-finetuned-cord"
+    },
+    "trocr": {
+      "checkpoint_directory_name": "trocr-base-printed",
+      "upstream_revision": null,
+      "revision_note": "The local model folders do not retain a verifiable immutable Hub commit identifier.",
+      "weight_files": [
+        {
+          "name": "model.safetensors",
+          "bytes": 1333384464,
+          "sha256": "1cf4a6eedab26afaaf505f1c7f73d9634944924dbd1ed049d569db98039cd596"
+        },
+        {
+          "name": "pytorch_model.bin",
+          "bytes": 1333508485,
+          "sha256": "a67665277b31df7da142e76e5247d2f464d9914cd5ccf7edaf83c1e79547a130"
+        }
+      ],
+      "processor_tokenizer_config_files": [
+        {
+          "name": "config.json",
+          "bytes": 4126,
+          "sha256": "5bda1deab455661feb3d91906656e5600e2ca520d5c00a2a03836614b850c93e"
+        },
+        {
+          "name": "generation_config.json",
+          "bytes": 190,
+          "sha256": "41149cdcffec4d657f32dfcddd9b208037f01286c9e07945c724908c58ed0193"
+        },
+        {
+          "name": "merges.txt",
+          "bytes": 456318,
+          "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+        },
+        {
+          "name": "preprocessor_config.json",
+          "bytes": 224,
+          "sha256": "2fcc0da9466ee00be0403b26027373039e032820ebac409e207b32e52e52119d"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 772,
+          "sha256": "c611b1f7d416eb001ee4f293d903ea8c88e703463f1d403f1866a0352743fd00"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 1118,
+          "sha256": "5a1356884c6ae736a621841535264ba7c5bebd52f169258add2c48fcbb32d50a"
+        },
+        {
+          "name": "vocab.json",
+          "bytes": 898822,
+          "sha256": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab"
+        }
+      ],
+      "model_card_url": "https://huggingface.co/microsoft/trocr-base-printed"
+    },
+    "donut": {
+      "checkpoint_directory_name": "donut-base-finetuned-cord-v2",
+      "upstream_revision": null,
+      "revision_note": "The local model folders do not retain a verifiable immutable Hub commit identifier.",
+      "weight_files": [
+        {
+          "name": "pytorch_model.bin",
+          "bytes": 806248251,
+          "sha256": "31b78e3d3891072de8e2bf3553b71782242a1f3b589b914ec2b03feff7b14c54"
+        }
+      ],
+      "processor_tokenizer_config_files": [
+        {
+          "name": "added_tokens.json",
+          "bytes": 1516,
+          "sha256": "f51dd68d1565c8fb24de0a93f0a98aaed273ff368908069219b74b091bebcbc5"
+        },
+        {
+          "name": "config.json",
+          "bytes": 4740,
+          "sha256": "0f8a1ade73f7b695b6c192ff6c6c40d4a7787432d8a3e7221c45ff6f8a9465bf"
+        },
+        {
+          "name": "preprocessor_config.json",
+          "bytes": 362,
+          "sha256": "46a79191272663118d1d5d6f2eaf4c497bce40cc336bd55724daac33a34b250b"
+        },
+        {
+          "name": "sentencepiece.bpe.model",
+          "bytes": 1296245,
+          "sha256": "cb9e3dce4c326195d08fc3dd0f7e2eee1da8595c847bf4c1a9c78b7a82d47e2d"
+        },
+        {
+          "name": "special_tokens_map.json",
+          "bytes": 335,
+          "sha256": "2475cc6ecad23f2c4d54911b95ca9432c9046c2bcc5954b0148e369fbe1dd4f8"
+        },
+        {
+          "name": "tokenizer.json",
+          "bytes": 4021441,
+          "sha256": "756fd46f7c829153e68d75ebac3e59fda91244f11c85d3498fe91b20dc5cdf59"
+        },
+        {
+          "name": "tokenizer_config.json",
+          "bytes": 536,
+          "sha256": "7304d2b31c70635ca38c01b54960f6baff74d516ce856484b63c5a7a5dc93761"
+        }
+      ],
+      "model_card_url": "https://huggingface.co/naver-clova-ix/donut-base-finetuned-cord-v2"
+    }
+  },
+  "pipeline_code_sha256": {
+    "benchmark_cord.py": "d9a8f66094af21d95f6dcb4d92e7f8ae9288242797f90fac3ee404f87b381934",
+    "row_metrics.py": "fc0320a563846caf3a2e705e698c8ad8162ff90076d438140188e488bd8965f5",
+    "layout_dev_metrics.py": "a1aa32641b6dd739bd986112f9f4e6b905ce8534745b9c25403e0ae1dfb29f0a",
+    "run_layout_dev_ablations.py": "56dec9ec49488cb7167101e8e9795fcbe4b7d6d6a8e579b64fba5211740ebb06",
+    "score_layout_dev_ablations.py": "3a280c965b6fd0b96b67be5d80c73c241bb4866ab23b9130375e1389ada5cad3",
+    "severity_dev.py": "ec038f643c87b17be67284c8c6b1bb9747acdd42f121128dc6c523db4e2c3abb",
+    "score_severity_dev.py": "d53f39021114ef22e137737f07907ec897234877f6758b72ee83e08313d9c3ee",
+    "score_orientation.py": "4c17bf38101fa8a51c5a51d973e3f2caee5030916c44e9ef96a506c304d5e712",
+    "test_severity_resume.py": "409bd59f6adcc1735e8517135f50c6bbad81b0b4e1142c50d0e779397fa441a4"
+  },
+  "commands": [
+    ".venv-pilot\\Scripts\\python.exe cord_pilot.py export validation --limit 100",
+    ".venv-pilot\\Scripts\\python.exe cord_pilot.py export test --limit 100",
+    ".venv-pilot\\Scripts\\python.exe benchmark_cord.py --split validation --limit 2 --variants clean",
+    ".venv-pilot\\Scripts\\python.exe benchmark_cord.py --split test --limit 100 --variants clean color_cast fade occlusion rotate180",
+    ".venv-pilot\\Scripts\\python.exe benchmark_cord.py --split test --limit 100 --variants synthetic_crumple",
+    ".venv-pilot\\Scripts\\python.exe score_cord.py",
+    ".venv-pilot\\Scripts\\python.exe render_charts.py",
+    ".venv-pilot\\Scripts\\python.exe build_thesis_report.py"
+  ],
+  "conditions_initial5": [
+    "clean",
+    "color_cast",
+    "fade",
+    "occlusion",
+    "rotate180"
+  ],
+  "final_conditions": [
+    "clean",
+    "color_cast",
+    "fade",
+    "occlusion",
+    "rotate180",
+    "synthetic_crumple"
+  ],
+  "synthetic_crumple_condition": "added after first 500 records; all 100 paired receipt IDs evaluated; see generator script"
+}

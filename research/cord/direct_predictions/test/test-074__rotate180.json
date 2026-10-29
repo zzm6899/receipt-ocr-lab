@@ -1,0 +1,261 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-074",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "8221cac9e68ca444ec597b9c954f4abdcec75a7e4748a0a273f967b35ff936ce",
+  "elapsed_seconds": 9.761,
+  "detected_words": 292,
+  "detected_lines": 45,
+  "ocr_text": "A he) | a ee —- JAR RT Ae OM eae r RE Stee at ee eter ea || ARs Boiek | a nt | AE) ee | VENUE AMA it ea Bit ; Bt but frat tt TS Be Beate Shiets 1) Bit Wi itt ; } Ait 1 | i) A ual } Al Hh VA) PEM BIW AN IPR iTRLnet ion ait! Gai ie Aebee ia PEO Bi DAME Te mee 8) i my | Sr eA hL BB salable ee ae : Vit i i V9?S\" O€& Aide Ht it ll aie ¥20 0€ We WE, ‘ AD aa Ae re 7LLANS {| uth NAS 000‘ riz goos * fil) : aa irik TU . PROD IEE pNsbi Peay SdIH} 8 HSI4 HOA MAN * ih i att Piya ?— 40 SdIHO 8 HSI4 HSINVO * tt ae iH Goh 00062 2 404 3NIO | HL, nv rere ae iF 1h) Say at Sh Pe ed bi 000 58 TMVAY TWO OFT | tLe iy i My atsaN 000‘ r9 qQvHaAdE * \\ a a. } ‘ Pek feilas ate Be pes 1 iM 000 ¢e 4L1udS | iy sient E : 00°28 invaunovowia | LEV 7 Naa ae worn TEST SSSe TIS AS SITS RN Sassi sssss6= Wik : ; i : t 4 ) Pee Hat t : li b | i pik | to} ; | A | 4 Ra aay t : Wh hy | i | by ] f Pela 1a PvP MEET: BT EMU RUEY WLP LEIBA Ber Bb ie RG : Peeing Ae ae anit a) EM WE eh EerE naa ah (i) POTN Ea UR HT UA? wer a rae | ie wa ae | ae WU OT a te",
+  "trocr_words": "WWWWWWWWWW.WW.W.W.W.W.MY.MY. WWWWWWWWWW.W.W.W.MY.MY.MY WWW.MY.WWW.WW.W.W.WW.W.W.MY.MY INVOICE NO.0006,000-100-1150-10-1703-12-1202 GST REG # 1PAN AY CASHIER WWWWWWWWWWWWWWWWWW. WWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWW. GST REG #:000000000209901813808080 *** AMOUNT NO.1.00% YOU. YOU.COM. NO8.00 PERMASALAWAYA,COMMARY 330.264 AMOUNT +70'00 ******** 30.02 INVOICE 000'8/2 TURNS (REG) *** *** *** *** AMOUNT NO: 012 SHOP MEIA MEN * AMOUNT NO. SHIHQ & HSIH XBOA MEN * GST REG CASH DISIH + HSIH HSINMO * INVOICE NO:621 * SAND ZASH 2 SDN ID : INVOICE 006'S2\" TRANSIC NOTIES! UNV103-0737170 *** REVERSE FOR FACEBOOK INVOICE NO'78 - 3 DAYS L AND AM STRI: 0103 MEMMARY AMOUNT NO.25 INVBRONORORATE | VEGETUR : ==: WWWWWW ITEMS WWWWWWWWWWWWWW ITEM OVER ITEM ITEMS SR188-1-1-1-1-1-1-1,8 GOODS FROM USCASHIER RECEIPT REGUST REGULAR MASIAN TELLANE AND FORM WWWWWWWWWWWWWWWWWW INU PASSACTION NUMBER RECEIPT CONCLUSIVE AND ON GST OR FACEBOOK OF RECEIPT *** GST SUMMARY, JALAN 7/8/02/18/18030117031703 WWWWWWWWWWWWWWWWWWWWWWWWWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "MEET: BT RUEY Ea OT"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "he) | a",
+      "unitprice": "ee"
+    },
+    {
+      "nm": "OM",
+      "cnt": "r",
+      "price": "eae",
+      "unitprice": "Ae"
+    },
+    {
+      "cnt": "Stee ee ea || | a",
+      "unitprice": "at"
+    },
+    {
+      "cnt": "it",
+      "unitprice": "ea"
+    },
+    {
+      "cnt": "; Bt tt TS Be 1)",
+      "unitprice": "frat"
+    },
+    {
+      "cnt": "Wi 1 | i) A }",
+      "unitprice": "Ait ual Al"
+    },
+    {
+      "cnt": "AN ait! ia"
+    },
+    {
+      "cnt": "8) i |",
+      "unitprice": "mee my"
+    },
+    {
+      "cnt": "Sr eA hL ae",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": ": i i",
+      "unitprice": "V9?S\" O€&"
+    },
+    {
+      "cnt": "it",
+      "unitprice": "ll"
+    },
+    {
+      "cnt": "0€",
+      "unitprice": "¥20"
+    },
+    {
+      "cnt": "‘",
+      "price": "AD aa Ae"
+    },
+    {
+      "price": "{| uth",
+      "unitprice": "re 7LLANS"
+    },
+    {
+      "cnt": "riz",
+      "price": "fil)",
+      "unitprice": "000‘ goos"
+    },
+    {
+      "cnt": "TU",
+      "price": "PROD IEE",
+      "unitprice": "irik ."
+    },
+    {
+      "nm": "SdIH} HSI4",
+      "cnt": "8 *",
+      "price": "MAN ih i",
+      "unitprice": "HOA"
+    },
+    {
+      "nm": "SdIHO",
+      "cnt": "40 8 *",
+      "price": "tt iH",
+      "unitprice": "?— HSI4"
+    },
+    {
+      "cnt": "2 |",
+      "price": "HL, nv",
+      "unitprice": "00062 404 3NIO"
+    },
+    {
+      "nm": "TMVAY",
+      "price": "OFT tLe iy",
+      "unitprice": "000 58 TWO"
+    },
+    {
+      "cnt": "r9",
+      "price": "\\",
+      "unitprice": "000‘"
+    },
+    {
+      "cnt": "‘"
+    },
+    {
+      "cnt": "1 iM ¢e",
+      "price": "iy",
+      "unitprice": "000 4L1udS"
+    },
+    {
+      "price": "LEV",
+      "unitprice": "00°28"
+    },
+    {
+      "price": "ae"
+    },
+    {
+      "nm": "TEST SSSe TIS AS SITS RN",
+      "price": "sssss6= Wik"
+    },
+    {
+      "price": "Pee"
+    },
+    {
+      "cnt": "t"
+    },
+    {
+      "cnt": "Wh"
+    },
+    {
+      "cnt": "LEIBA",
+      "price": "WLP Bb"
+    },
+    {
+      "cnt": "ae anit a)",
+      "price": "EM naa"
+    },
+    {
+      "nm": "POTN",
+      "cnt": "(i)"
+    },
+    {
+      "cnt": "a |",
+      "unitprice": "wer"
+    },
+    {
+      "cnt": "|",
+      "price": "WU"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "WWWWWWWWWW.WW.W.W.W.W.MY.MY."
+    },
+    {
+      "nm": "WWWWWWWWWW.W.W.W.MY.MY.MY"
+    },
+    {
+      "nm": "WWW.MY.WWW.WW.W.W.WW.W.W.MY.MY"
+    },
+    {
+      "cnt": "# AY",
+      "unitprice": "1PAN"
+    },
+    {
+      "nm": "WWWWWWWWWWWWWWWWWW."
+    },
+    {
+      "nm": "WWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+    },
+    {
+      "nm": "WWWWWWWWWWWWWWWWWWWWWWWW."
+    },
+    {
+      "cnt": "YOU."
+    },
+    {
+      "nm": "PERMASALAWAYA,COMMARY"
+    },
+    {
+      "unitprice": "30.02"
+    },
+    {
+      "cnt": "NO:",
+      "price": "MEIA MEN",
+      "unitprice": "012"
+    },
+    {
+      "nm": "SHIHQ",
+      "cnt": "NO. &",
+      "price": "XBOA"
+    },
+    {
+      "cnt": "DISIH +",
+      "price": "HSINMO",
+      "unitprice": "CASH"
+    },
+    {
+      "cnt": "INVOICE *",
+      "price": "SDN",
+      "unitprice": "NO:621"
+    },
+    {
+      "unitprice": "006'S2\""
+    },
+    {
+      "cnt": "INVOICE - 3"
+    },
+    {
+      "cnt": "0103"
+    },
+    {
+      "nm": "USCASHIER"
+    },
+    {
+      "unitprice": "JALAN"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "790'03",
+      "num": "XV<unk>",
+      "price": "02.25"
+    },
+    {
+      "nm": "ataye Spire",
+      "num": [
+        {
+          "discountprice": "**",
+          "price": "**"
+        },
+        {
+          "nm": "SdIHG & HASIR KBOKA MEN"
+        }
+      ],
+      "price": "**"
+    },
+    {
+      "nm": "SAMPUS GETING",
+      "num": "000'98",
+      "price": "**"
+    },
+    {
+      "nm": "EVERED",
+      "num": "000'23"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 790'03</s_nm><s_num> XV<unk></s_num><s_price> 02.25</s_price><sep/><s_nm> ataye Spire</s_nm><s_num> 000'8LZ</s_nm><s_num> TELEGRAFI<s_discountprice> **</s_discountprice><s_price> **</s_price><sep/><s_nm> SdIHG & HASIR KBOKA MEN</s_nm><s_num> FOR SdIHG & HASIRYO</s_nm><s_num> 000'621</s_num><s_price> **</s_price><sep/><s_nm> SAMPUS GETING</s_nm><s_num> 000'98</s_num><s_price> **</s_price><sep/><s_nm> EVERED</s_nm><s_num> 000'23</s_num><s_price> SUSPECT 000'23</s_num><s_price> MONDAYBI</s_total></s>"
+}

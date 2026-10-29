@@ -1,0 +1,86 @@
+{
+  "split": "official CORD test",
+  "receipts": 100,
+  "conditions": [
+    "clean",
+    "fade_mild",
+    "fade_moderate",
+    "fade_severe",
+    "blur_mild",
+    "blur_moderate",
+    "blur_severe",
+    "occlusion_mild",
+    "occlusion_moderate",
+    "occlusion_severe",
+    "lighting_mild",
+    "lighting_moderate",
+    "lighting_severe",
+    "crumple_mild",
+    "crumple_moderate",
+    "crumple_severe"
+  ],
+  "parameters": {
+    "fade": {
+      "mild": {
+        "brightness": 1.02,
+        "contrast": 0.82
+      },
+      "moderate": {
+        "brightness": 1.06,
+        "contrast": 0.62
+      },
+      "severe": {
+        "brightness": 1.1,
+        "contrast": 0.42
+      }
+    },
+    "blur": {
+      "mild": {
+        "radius": 0.55
+      },
+      "moderate": {
+        "radius": 1.35
+      },
+      "severe": {
+        "radius": 2.6
+      }
+    },
+    "occlusion": {
+      "mild": {
+        "area_fraction": 0.025
+      },
+      "moderate": {
+        "area_fraction": 0.08
+      },
+      "severe": {
+        "area_fraction": 0.18
+      }
+    },
+    "lighting": {
+      "mild": {
+        "shadow_amplitude": 0.16
+      },
+      "moderate": {
+        "shadow_amplitude": 0.34
+      },
+      "severe": {
+        "shadow_amplitude": 0.55
+      }
+    },
+    "crumple": {
+      "mild": {
+        "corner_inset": 0.004,
+        "fold_alpha": 28
+      },
+      "moderate": {
+        "corner_inset": 0.012,
+        "fold_alpha": 58
+      },
+      "severe": {
+        "corner_inset": 0.024,
+        "fold_alpha": 98
+      }
+    }
+  },
+  "transform_notes": "one deterministic transform per receipt-condition, seed=row_index; same output on rerun; not physical damage; generated JPEG quality94"
+}

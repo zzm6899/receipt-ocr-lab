@@ -1,0 +1,238 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-072",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "38a8bb44e09a8144bcf52f3d9b3258bdf71f4d205a13e6a809b5bbc5ff9735dd",
+  "elapsed_seconds": 5.295,
+  "detected_words": 188,
+  "detected_lines": 39,
+  "ocr_text": "w, o @ 5 » \\ Sue a \\ ee 2 ( % : — i \\. - 4 a \\ + +e Fee gee — Bu ie ei eed nal ok rere ' - 0 ee Sterne eens gg OR Pas a, \\ tea » a \\ a aoe we nnnnnnennn == ic A ame OU RES Cea >a. oe eee Se 2 \\e oleae ete : : a ae i fhoco Devil YS w i ee Lae ht a 15,904 : ao Ae ae etal, \\ Cais, ~ “« a : Sn ee ies t= a a ol bTotals 4 = me ee Petes ke ea: DE AUUE A cer ana ayy oe \\ re! w ee ee in \\s AS TOP ae oe ES ks fe Ate! ees te ee st \\ A eoe ee, eee eee ee VG e 9. f “4 et ee 20 Mae Sa TA a oe ee ee ef a ee he Bo ood GAA Oy oe dy opp oe \\ ee Be ea Foes ae oa | es om moey | — «20, onde ane AEE NC Pe i]",
+  "trocr_words": "C : 1 *** CASHIER (RM) WWW CASHIER (RM) ---- CASHIER SR: - SALES ......................... ................ - ................. ......................... ......................... 1 CHOCO DEVIL 1 15 00 1 CHOOD DEVIL 15,909 1 CHOCO DEVIL 15,909 CHOCO DEVIL 15,90% CASHIER SR: 15,909 SR: 1,00 SR: INVOICE NO: 1,591 PRICE: 1,591 @ (8) TOTAL: TOTAL: 17 TOTAL: 17.500 UNUAL ULAX: 17,500 CASH: CHANGE: 20,000 CHANGE: 20,000 SR: 5:30",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "i ee Lae ht a",
+      "cnt": null,
+      "price": "15,904"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "CHOOD DEVIL",
+      "cnt": "1",
+      "price": "15,909"
+    },
+    {
+      "nm": "CHOCO DEVIL",
+      "cnt": "1",
+      "price": "15,909"
+    },
+    {
+      "nm": "SR",
+      "cnt": null,
+      "price": "15,909"
+    },
+    {
+      "nm": "SR",
+      "cnt": null,
+      "price": "1,00"
+    },
+    {
+      "nm": "INVOICE NO",
+      "cnt": null,
+      "price": "1,591"
+    },
+    {
+      "nm": "PRICE",
+      "cnt": null,
+      "price": "1,591"
+    },
+    {
+      "nm": "UNUAL ULAX",
+      "cnt": null,
+      "price": "17,500"
+    }
+  ],
+  "layout_fields": {
+    "total": "he ae"
+  },
+  "cascade_fields": {
+    "total": "TOTAL: TOTAL: 17 TOTAL: 17.500"
+  },
+  "layout_rows": [
+    {
+      "price": "w,"
+    },
+    {
+      "price": "o"
+    },
+    {
+      "cnt": "@"
+    },
+    {
+      "cnt": "» \\",
+      "unitprice": "Sue"
+    },
+    {
+      "cnt": "a \\",
+      "price": "ee"
+    },
+    {
+      "cnt": "2 ( %"
+    },
+    {
+      "cnt": ":",
+      "price": "—"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "4 a \\"
+    },
+    {
+      "cnt": "+",
+      "price": "Fee"
+    },
+    {
+      "unitprice": "—"
+    },
+    {
+      "price": "ie"
+    },
+    {
+      "cnt": "'"
+    },
+    {
+      "cnt": "0",
+      "price": "gg",
+      "unitprice": "eens"
+    },
+    {
+      "cnt": "\\",
+      "price": "tea"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "nm": "nnnnnnennn",
+      "price": "A ame",
+      "unitprice": "== ic"
+    },
+    {
+      "price": "oe",
+      "unitprice": ">a."
+    },
+    {
+      "cnt": "2 \\e",
+      "price": "oleae ete :"
+    },
+    {
+      "price": "ae",
+      "unitprice": "a"
+    },
+    {
+      "nm": "fhoco Devil",
+      "cnt": "i",
+      "price": "w"
+    },
+    {
+      "cnt": "i ht",
+      "price": "a 15,904",
+      "unitprice": "ee Lae"
+    },
+    {
+      "cnt": ": \\",
+      "price": "~ “« a",
+      "unitprice": "ao Ae"
+    },
+    {
+      "price": "me ee"
+    },
+    {
+      "cnt": "ea: A ana",
+      "price": "re! w",
+      "unitprice": "cer ayy oe"
+    },
+    {
+      "price": "AS TOP",
+      "unitprice": "in"
+    },
+    {
+      "price": "fe Ate!",
+      "unitprice": "oe ES"
+    },
+    {
+      "price": "A eoe ee,",
+      "unitprice": "ees te ee"
+    },
+    {
+      "price": "e f",
+      "unitprice": "eee"
+    },
+    {
+      "nm": "Mae TA",
+      "cnt": "20 a",
+      "price": "ee ee"
+    },
+    {
+      "cnt": "ef",
+      "price": "ood GAA",
+      "unitprice": "ee"
+    },
+    {
+      "price": "dy opp"
+    },
+    {
+      "price": "ee"
+    },
+    {
+      "cnt": "|",
+      "price": "— «20, onde"
+    },
+    {
+      "cnt": "AEE NC",
+      "price": "i]"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CHOCO DEVIL",
+      "cnt": "1 1",
+      "price": "15 00"
+    },
+    {
+      "nm": "CHOOD DEVIL",
+      "cnt": "1",
+      "price": "15,909"
+    },
+    {
+      "nm": "CHOCO DEVIL",
+      "cnt": "1",
+      "price": "15,909"
+    },
+    {
+      "nm": "CHOCO DEVIL",
+      "price": "15,90%"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Choco Devil",
+      "cnt": "1",
+      "price": "15,909"
+    },
+    "sub_total": {
+      "subtotal_price": "15,909",
+      "tax_price": "1,591"
+    },
+    "total": {
+      "total_price": "17,500",
+      "cashprice": "20,000",
+      "changeprice": "2,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Choco Devil</s_nm><s_cnt> 1</s_cnt><s_price> 15,909</s_price></s_menu><s_sub_total><s_subtotal_price> 15,909</s_subtotal_price><s_tax_price> 1,591</s_tax_price></s_sub_total><s_total><s_total_price> 17,500</s_total_price><s_cashprice> 20,000</s_cashprice><s_changeprice> 2,500</s_changeprice></s_total></s>"
+}

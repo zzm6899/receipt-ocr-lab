@@ -1,0 +1,116 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-017",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "f1b4c3549be599ffb97d82838e07d0dc20173053d4a14f45492167cf8f4f10ca",
+  "elapsed_seconds": 2.389,
+  "detected_words": 40,
+  "detected_lines": 17,
+  "ocr_text": "XXXXXXXXKXKK 000'L6 wed 000'L6 ‘dy WLOL (0) yunoosiq, 000'16. jeioians Remy oye) 0 ‘ UNel YNBElef 0 L YOOWY HNSBld eyenboi9 000'r) 1 e8ee4o eyenbold 000'rL ‘ seddee |)|UO Bog) o00'8e. z JOH BIjereZzow, 000'sz. b e0eW S.U|GoH Ss iav",
+  "trocr_words": "XXXXXXXXXXXX DEDED 006 REG # TOTAL TOTAL AMOUNT DISCOUNT : SUBTOTAL: ITEMY EXEL PLEASE AND US ONLINE AND RECEIPT PLEASE OF RECEIPT NOODY MISSED EMENBOLD CHEESE INCLUSIVE 1,000 EMENBOUO CHANGE: 1 BOO MOZZANEJETAILAN GOOD'SZ | SCEWS,WIPOOD - RP",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "CHEESE INCLUSIVE",
+      "cnt": null,
+      "price": "1,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "nm": "XXXXXXXXKXKK"
+    },
+    {
+      "price": "wed",
+      "unitprice": "000'L6"
+    },
+    {
+      "cnt": "‘dy",
+      "unitprice": "000'L6"
+    },
+    {
+      "cnt": "(0)"
+    },
+    {
+      "unitprice": "000'16."
+    },
+    {
+      "cnt": "0 ‘"
+    },
+    {
+      "cnt": "0 L",
+      "unitprice": "YOOWY"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "000'r)"
+    },
+    {
+      "cnt": "‘",
+      "unitprice": "000'rL"
+    },
+    {
+      "cnt": "z",
+      "unitprice": "o00'8e. JOH"
+    },
+    {
+      "cnt": "b",
+      "price": "e0eW",
+      "unitprice": "000'sz."
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "DEDED",
+      "unitprice": "006"
+    },
+    {
+      "nm": "PLEASE AND ONLINE"
+    },
+    {
+      "nm": "OF"
+    },
+    {
+      "nm": "CHEESE",
+      "price": "1,000"
+    },
+    {
+      "price": "1"
+    },
+    {
+      "nm": "GOOD'SZ SCEWS,WIPOOD",
+      "cnt": "|"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000 16",
+      "price": "repet"
+    },
+    {
+      "nm": "000 16 dd Toroko (“o)",
+      "price": "20,000"
+    },
+    {
+      "nm": "000 16",
+      "price": {
+        "cnt": "1"
+      }
+    },
+    {
+      "price": "0"
+    },
+    {
+      "changeprice": "-",
+      "creditcardprice": "090",
+      "menuqty_cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000 16</s_nm><s_price> repet</s_price><sep/><s_nm> 000 16 dd Toroko (“o)</s_nm><s_price> 20,000</s_price><sep/><s_nm> 000 16</s_nm><s_price> REM OWELL</s_nm><s_unitprice> UMINGGA</s_nm><s_unitprice> UMINGGA</s_nm><s_unitprice> UMINGGA</s_nm><s_unitprice> UMINGGA</s_nm><s_unitprice> UMINGGA<s_unitprice> Opokoijo</s_unitprice><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> 000*<unk></s_cnt><s_price> 0</s_price><sep/><s_nm> elector</s_total_etc><s_changeprice> -</s_changeprice><s_creditcardprice> 090</s_creditcardprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

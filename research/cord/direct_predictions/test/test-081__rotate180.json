@@ -1,0 +1,107 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-081",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "d8310f8b26f5c97961a45432e7de4e6fcf19d96ec692ec25c28fbf2dd7ed142b",
+  "elapsed_seconds": 2.252,
+  "detected_words": 28,
+  "detected_lines": 10,
+  "ocr_text": "o00°0s *TE4O] W843] TE4O] 2 . 7 x 6 Trews Geg 2T4SeTd-1009 — «B00\"¢e TX O00 eE : ung O70u-1901 o00\"82 ex 0008 TYA0L GAO GOAy-FH0F , .",
+  "trocr_words": "TOTAL. :WAI TE101 : 0.00 ITEMS 6EQ OTPSETJ-T009 22.00 X1 X 1001-01-001-001-00-0001 14.00 X2 X TUPOW ODOW3 010AX-Z002 1",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL."
+  },
+  "layout_rows": [
+    {
+      "price": "*TE4O]",
+      "unitprice": "o00°0s"
+    },
+    {
+      "price": "TE4O]"
+    },
+    {
+      "cnt": "2"
+    },
+    {
+      "cnt": ". x",
+      "unitprice": "7 6"
+    },
+    {
+      "nm": "Trews",
+      "price": "2T4SeTd-1009",
+      "unitprice": "Geg"
+    },
+    {
+      "cnt": "— TX",
+      "price": "eE",
+      "unitprice": "«B00\"¢e O00"
+    },
+    {
+      "cnt": ":",
+      "price": "O70u-1901",
+      "unitprice": "ung"
+    },
+    {
+      "cnt": "ex",
+      "unitprice": "o00\"82 0008"
+    },
+    {
+      "nm": "TYA0L",
+      "price": "GOAy-FH0F",
+      "unitprice": "GAO"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": ":"
+    },
+    {
+      "unitprice": "0.00"
+    },
+    {
+      "nm": "OTPSETJ-T009"
+    },
+    {
+      "cnt": "X1 X",
+      "unitprice": "22.00"
+    },
+    {
+      "cnt": "X2 X",
+      "unitprice": "14.00"
+    },
+    {
+      "nm": "TUPOW ODOW3",
+      "price": "010AX-Z002"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'OS",
+        "price": {
+          "unitprice": "0",
+          "cnt": "TX"
+        }
+      },
+      {
+        "cnt": "TX",
+        "price": "000'22"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "000'00"
+    },
+    "total": {
+      "total_price": "000'01",
+      "cashprice": "000'01",
+      "changeprice": "0404-2002",
+      "menuqty_cnt": "2X"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'OS</s_nm><s_price> Tettol d</s_nm><s_price> Tefol</s_nm><s_unitprice> 0</s_unitprice><s_cnt> TX</s_cnt><s_price> 0</s_price><sep/><s_nm> ITEMS beg Apaseda-1009</s_unitprice><s_cnt> TX</s_cnt><s_price> 000'22</s_price></s_menu><s_sub_total><s_subtotal_price> 000'00</s_subtotal_price></s_sub_total><s_total><s_total_price> 000'01</s_total_price><s_cashprice> 000'01</s_cashprice><s_changeprice> 0404-2002</s_changeprice><s_menuqty_cnt> 2X</s_menuqty_cnt></s_total></s>"
+}

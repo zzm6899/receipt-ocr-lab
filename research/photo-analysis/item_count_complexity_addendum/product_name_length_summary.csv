@@ -1,0 +1,4 @@
+source_dataset,product_name_strings_n,mean_chars,median_chars,p25_chars,p75_chars,min_chars,max_chars,note
+legacy_reference_v3_1,119,23.840336134453782,21,14.0,28.5,4,86,"Known/score-eligible reference product names only; descriptive string length, not a validated difficulty measure."
+receipy_references_v2,42,32.642857142857146,30.5,24.0,38.75,9,63,"Known/score-eligible reference product names only; descriptive string length, not a validated difficulty measure."
+combined,161,26.13664596273292,23,15.0,35.0,4,86,"Known/score-eligible reference product names only; descriptive string length, not a validated difficulty measure."

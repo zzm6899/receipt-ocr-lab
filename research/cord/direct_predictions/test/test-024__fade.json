@@ -1,0 +1,91 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-024",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "9aea4ffeed07b12fba51871bded4eb38531c9721ea5b7bfd9e3576b86f692aab",
+  "elapsed_seconds": 1.386,
+  "detected_words": 25,
+  "detected_lines": 8,
+  "ocr_text": "S001-Corn Flskes Cookies S003-Chckorets Cookies 6002-Plastic Bag Hedi Rp.0 xd Rp.0 Total Item: 4 Total. Rp. 118.000 Dehet Card ® 118,000 : + gee Mette:",
+  "trocr_words": "5001-CORN FLAKES COOKIES 5003-CHOKORETO COOKIES 6002-PLASTIC BAG MEDIUM RP.0 X1 REG RP.0 TOTAL ITEM: TOTAL. COME AGAIN RP.118.000 DEBT CARD : 1 -",
+  "ocr_rules_total": "118.000",
+  "ocr_rows": [
+    {
+      "nm": "Dehet Card ®",
+      "cnt": null,
+      "price": "118,000"
+    }
+  ],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Total. Rp. 118.000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL. COME AGAIN RP.118.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "S001-Corn Flskes Cookies"
+    },
+    {
+      "nm": "S003-Chckorets Cookies"
+    },
+    {
+      "nm": "6002-Plastic Bag Hedi"
+    },
+    {
+      "cnt": "xd",
+      "price": "Rp.0",
+      "unitprice": "Rp.0"
+    },
+    {
+      "nm": "Dehet Card",
+      "price": "118,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "5001-CORN FLAKES"
+    },
+    {
+      "nm": "5003-CHOKORETO"
+    },
+    {
+      "nm": "6002-PLASTIC BAG MEDIUM"
+    },
+    {
+      "cnt": "X1",
+      "price": "RP.0",
+      "unitprice": "RP.0"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "5001-Corn Flakes Cookies",
+        "unitprice": "Rp. 56.000",
+        "cnt": "x<unk>",
+        "price": "Rp. 56.000"
+      },
+      {
+        "nm": "5003-Chokoreto Cookies",
+        "unitprice": "Rp. 62,000",
+        "cnt": "x<unk>",
+        "price": "Rp. 62.000"
+      },
+      {
+        "nm": "6002-Plastic Bag Medium",
+        "unitprice": "Rp. 0",
+        "cnt": "x<unk>",
+        "price": "Rp. 0"
+      }
+    ],
+    "total": {
+      "total_price": "Rp. 118.000",
+      "creditcardprice": "118.000",
+      "menuqty_cnt": "3"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 5001-Corn Flakes Cookies</s_nm><s_unitprice> Rp. 56.000</s_unitprice><s_cnt> x<unk></s_cnt><s_price> Rp. 56.000</s_price><sep/><s_nm> 5003-Chokoreto Cookies</s_nm><s_unitprice> Rp. 62,000</s_unitprice><s_cnt> x<unk></s_cnt><s_price> Rp. 62.000</s_price><sep/><s_nm> 6002-Plastic Bag Medium</s_nm><s_unitprice> Rp. 0</s_unitprice><s_cnt> x<unk></s_cnt><s_price> Rp. 0</s_price></s_menu><s_total><s_total_price> Rp. 118.000</s_total_price><s_creditcardprice> 118.000</s_creditcardprice><s_menuqty_cnt> 3</s_menuqty_cnt></s_total></s>"
+}

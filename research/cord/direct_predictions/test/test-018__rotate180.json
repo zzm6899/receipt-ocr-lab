@@ -1,0 +1,78 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-018",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "c4a8e161d9c8690de6cac1d5ffac5ac619e63f151deb170687f81a17ae2a1c83",
+  "elapsed_seconds": 1.095,
+  "detected_words": 16,
+  "detected_lines": 7,
+  "ocr_text": "ody UBIPQ Wey 00099 O0Oga pun] HOOSSL “ey (BJO) NS ne O009S1 O0get | BD siodold",
+  "trocr_words": "KEMBALIELL USJEGQUE'S 00095 INVOICE (RM) 150000 DESCOUNT (BIOL GNS 15600 00001 PRODOLS SECISION SIIODOJP",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "15600"
+  },
+  "layout_rows": [
+    {
+      "price": "UBIPQ Wey",
+      "unitprice": "ody"
+    },
+    {
+      "unitprice": "00099"
+    },
+    {
+      "price": "pun]",
+      "unitprice": "O0Oga"
+    },
+    {
+      "nm": "HOOSSL"
+    },
+    {
+      "price": "(BJO) NS",
+      "unitprice": "“ey"
+    },
+    {
+      "cnt": "ne",
+      "price": "O009S1"
+    },
+    {
+      "nm": "O0get"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KEMBALIELL"
+    },
+    {
+      "price": "(RM)"
+    },
+    {
+      "unitprice": "150000"
+    },
+    {
+      "price": "GNS"
+    },
+    {
+      "price": "SIIODOJP"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "price": "IBUN<unk>"
+      },
+      {
+        "nm": "000091",
+        "price": "qns"
+      }
+    ],
+    "total": {
+      "total_price": "000991"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> dd usamento</s_price><sep/><s_nm> 000091</s_nm><s_price> IBUN<unk></s_price><sep/><s_nm> 000091</s_nm><s_price> qns</s_price></s_menu><s_total><s_total_price> 000991</s_total_price><s_cashprice> chodold</s_total></s>"
+}

@@ -1,0 +1,30 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-039",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "538a22624cada5753d0a4f8dbc88898c93e4dcf25a6306985afda310195729af",
+  "elapsed_seconds": 0.495,
+  "detected_words": 0,
+  "detected_lines": 0,
+  "ocr_text": "",
+  "trocr_words": "",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": {
+      "nm": "SET W/RED BAG 3 SPOO",
+      "num": "243.000",
+      "price": "1,999"
+    },
+    "total": {
+      "total_price": "1955,200"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> SET W/RED BAG 3 SPOO</s_nm><s_num> 243.000</s_num><s_price> 1,999</s_price></s_menu><s_total><s_total_price> 1955,200</s_total_price></s_total></s>"
+}

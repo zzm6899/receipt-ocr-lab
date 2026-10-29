@@ -1,0 +1,65 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-019",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "520658a7312cdf29e57ebd851fda1a6ac73455cd1698906955826015ee6d4dd4",
+  "elapsed_seconds": 1.046,
+  "detected_words": 19,
+  "detected_lines": 11,
+  "ocr_text": "\" 2 ? c ; i piplaialiaeiies.... iain ii } RNa u Si AL es. a Gee ei er",
+  "trocr_words": "N D : E TOTAL AMOUNT KW NPL PURNATIONALS 4 AMBUSH DBL CHS 60000 CASHIER : : :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "cnt": "\""
+    },
+    {
+      "cnt": "2"
+    },
+    {
+      "cnt": "?"
+    },
+    {
+      "cnt": "c"
+    },
+    {
+      "price": "i"
+    },
+    {
+      "nm": "piplaialiaeiies....",
+      "price": "iain ii"
+    },
+    {
+      "nm": "RNa",
+      "cnt": "} u Si",
+      "price": "AL es."
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "N"
+    },
+    {
+      "cnt": "E"
+    },
+    {
+      "nm": "KW"
+    },
+    {
+      "nm": "AMBUSH DBL",
+      "cnt": "4",
+      "price": "60000"
+    }
+  ],
+  "donut_json": {
+    "changeprice": "100000"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> CHS 60000</s_cashprice><s_changeprice> 100000</s_changeprice></s_total></s>"
+}

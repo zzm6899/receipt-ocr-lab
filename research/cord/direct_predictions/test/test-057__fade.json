@@ -1,0 +1,34 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-057",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "ac16100b1e470bd7282c120987614f5f2f1e71c5b5875f8626be6264a82e13e8",
+  "elapsed_seconds": 0.692,
+  "detected_words": 4,
+  "detected_lines": 3,
+  "ocr_text": "Dome 7 te, ww",
+  "trocr_words": "KOODS ASWA ITEM",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [],
+  "cascade_rows": [
+    {
+      "nm": "KOODS"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ICED TT",
+      "price": "20,000"
+    },
+    "total": {
+      "total_price": "22,000",
+      "cashprice": "42,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICED TT</s_nm><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 22,000</s_total_price><s_cashprice> 42,000</s_cashprice></s_total></s>"
+}

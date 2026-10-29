@@ -1,0 +1,144 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-042",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "86b0f9d1bfd0154bc3da56f0894403b61132165f22ceaf60bdc929b824fdb8dd",
+  "elapsed_seconds": 3.037,
+  "detected_words": 77,
+  "detected_lines": 29,
+  "ocr_text": "ee =e “a ag , si) Bis ieee a rapes : a . =a : ne 6 4 ti af ite said ~, ; ‘ Re, ‘ e . % “ T Ve por One rity ' on ae) Ota 8 t oti ieee ar i Ber a ae bi 4% f tee a | Z C ‘7. rota, bi , r = | /iVVY . BE KF [ ig z 4 it ae Pi eae Bae",
+  "trocr_words": "ITEMS INCLUSIVE ITEMS MUST BE WITH THE THE THE COME AGAIN SR: WWWWWWWWWWWWWWWWWW. WWWWWWWWWWWWWWWWWWWWWWWWWWWW. WWW.WWWWWWWWWWWWWW *** % CASHIER - 1 X 1.40 KEN HCPPS 15,000 SR: 1,000 I001 15,000 CASHIER *** ITRAKE AGAIN P RESE 10% 10 F06 PLEASE: 1MM 0181 VIVVVV 1 WWW.K.KEM WWW.WW.WW.WW.WW. S SR AMOUNT SR: PAYMENT",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "KEN HCPPS",
+      "cnt": null,
+      "price": "15,000"
+    },
+    {
+      "nm": "SR: 1,000 I001",
+      "cnt": null,
+      "price": "15,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "=e"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": ","
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "af"
+    },
+    {
+      "cnt": "~,"
+    },
+    {
+      "cnt": "; ‘"
+    },
+    {
+      "cnt": "‘"
+    },
+    {
+      "price": "e"
+    },
+    {
+      "cnt": ". % “ T"
+    },
+    {
+      "cnt": "Ve por One",
+      "price": "rity '"
+    },
+    {
+      "nm": "Ota",
+      "cnt": "ae)",
+      "price": "8 t"
+    },
+    {
+      "cnt": "oti ieee ar"
+    },
+    {
+      "cnt": "Ber a ae"
+    },
+    {
+      "nm": "Z",
+      "cnt": "4% f tee a |",
+      "price": "C"
+    },
+    {
+      "cnt": ","
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "nm": "KF",
+      "cnt": "BE ["
+    },
+    {
+      "cnt": "ig z"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "ae"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "X"
+    },
+    {
+      "cnt": "1.40"
+    },
+    {
+      "nm": "KEN HCPPS",
+      "price": "15,000"
+    },
+    {
+      "price": "15,000",
+      "unitprice": "1,000"
+    },
+    {
+      "nm": "ITRAKE AGAIN P RESE"
+    },
+    {
+      "nm": "WWW.K.KEM"
+    },
+    {
+      "nm": "WWW.WW.WW.WW.WW."
+    },
+    {
+      "cnt": "S"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Chicken HCC. 1Pcs",
+      "cnt": "1",
+      "price": "15.000"
+    },
+    "sub_total": {
+      "subtotal_price": "15,000",
+      "tax_price": "1.500"
+    },
+    "total": {
+      "total_price": "16,500",
+      "cashprice": "50,000",
+      "changeprice": "33,500",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Chicken HCC. 1Pcs</s_nm><s_cnt> 1</s_cnt><s_price> 15.000</s_price></s_menu><s_sub_total><s_subtotal_price> 15,000</s_subtotal_price><s_tax_price> 1.500</s_tax_price></s_sub_total><s_total><s_total_price> 16,500</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 33,500</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

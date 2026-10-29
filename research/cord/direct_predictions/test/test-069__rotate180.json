@@ -1,0 +1,93 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-069",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "1e9c16e08fdbd090a6ce017f0019207db5846b27ed6dd62fda10f25303cfdb1b",
+  "elapsed_seconds": 3.015,
+  "detected_words": 52,
+  "detected_lines": 13,
+  "ocr_text": ". aise %. ee ea a ” ee re ™’ : Tee Zz - e | 7 > JeU] : 000 9¢ JONVHe | 000 001, HS¥. 4 000 PL WLOL f ie” 000° 9€ JHIOTE CHVISAc 7 000'02 OV¥3¥d JNVIN¥d ASNOH 1¥3e Z Raa ra == L102/C ./€2 es SM ‘if",
+  "trocr_words": "CASHIER AMOUNT AMOUNT TAX TAX(INCLUS) CHANGE 26,000 CASH SALESHSC T TOTAL 74,000 ITEMS INCLUSIONS 2 REAL HONEY PANONAD AKE OZ,000 [MOI_DOMENINB ININBOW LEOS [OW] 23/02/02/02/02 SML",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "SM ‘if"
+  },
+  "cascade_fields": {
+    "total": "TOTAL"
+  },
+  "layout_rows": [
+    {
+      "cnt": ". %. ee"
+    },
+    {
+      "cnt": "Zz -",
+      "price": "e"
+    },
+    {
+      "cnt": "7 >",
+      "price": "JeU]"
+    },
+    {
+      "cnt": ": |",
+      "unitprice": "000 9¢"
+    },
+    {
+      "cnt": "4",
+      "price": "HS¥.",
+      "unitprice": "000 001,"
+    },
+    {
+      "cnt": "f",
+      "unitprice": "000 PL"
+    },
+    {
+      "nm": "JHIOTE",
+      "cnt": "9€ 7",
+      "unitprice": "000°"
+    },
+    {
+      "nm": "OV¥3¥d JNVIN¥d ASNOH",
+      "cnt": "Z",
+      "price": "1¥3e",
+      "unitprice": "000'02"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "REAL HONEY PANONAD",
+      "cnt": "2",
+      "price": "AKE OZ,000"
+    },
+    {
+      "nm": "[MOI_DOMENINB ININBOW",
+      "price": "LEOS [OW]"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'92 CUNCHE",
+        "unitprice": "000'001",
+        "cnt": "HSMC"
+      },
+      {
+        "nm": "CHOISE CHAMSEN",
+        "price": "000'02"
+      },
+      {
+        "nm": "BEBB CHONG KENOH",
+        "price": "TELE ~"
+      },
+      {
+        "nm": "000'81",
+        "price": {
+          "cnt": "1"
+        }
+      }
+    ]
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'92 CUNCHE</s_nm><s_unitprice> 000'001</s_unitprice><s_cnt> HSMC</s_cnt><s_price> 000'7L</s_nm><s_price> 000'93</s_price><sep/><s_nm> CHOISE CHAMSEN</s_nm><s_price> 000'02</s_price><sep/><s_nm> BEBB CHONG KENOH</s_nm><s_price> TELE ~</s_price><sep/><s_nm> 000'81</s_nm><s_price> DOR SHINSON LEUS [OW]</s_nm><s_cnt> 1</s_cnt><s_price> LLOZZ</s_price></s_menu><s_total><s_total_price></s>"
+}

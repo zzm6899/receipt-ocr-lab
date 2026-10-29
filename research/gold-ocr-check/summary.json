@@ -1,0 +1,192 @@
+{
+ "date": "2026-10-29",
+ "checkpoint": "Receipt Storage/models/layoutlmv3-finetuned-cord (model card eval F1 0.9638)",
+ "environment": "CPU, torch 2.5.1, transformers 4.46.3 (transformers 4.30.2 gave identical results on validation); Tesseract 5.3.4 --psm 6 for the rerun",
+ "conditions": {
+  "cord_words_word_boxes": {
+   "tess": {
+    "total": "13/95",
+    "total_acc": 0.1368,
+    "wilson": [
+     0.082,
+     0.22
+    ],
+    "row_tp": 39,
+    "row_fp": 953,
+    "row_fn": 212,
+    "row_f1": 0.063
+   },
+   "gold": {
+    "total": "64/95",
+    "total_acc": 0.6737,
+    "wilson": [
+     0.574,
+     0.76
+    ],
+    "row_tp": 164,
+    "row_fp": 321,
+    "row_fn": 87,
+    "row_f1": 0.446
+   },
+   "gold_oracle_grouping": {
+    "row_tp": 201,
+    "row_fp": 147,
+    "row_fn": 50,
+    "row_f1": 0.671
+   },
+   "gold_entity": {
+    "precision": 0.5031,
+    "recall": 0.6921,
+    "f1": 0.5826,
+    "word_accuracy": 0.6774,
+    "entities_gold": 1309
+   },
+   "total_diff_pp": {
+    "est": 53.7,
+    "ci95": [
+     42.7,
+     64.3
+    ]
+   },
+   "row_f1_diff": {
+    "est": 0.383,
+    "ci95": [
+     0.31,
+     0.454
+    ]
+   }
+  },
+  "cord_words_reading_order_word_boxes": {
+   "tess": {
+    "total": "13/95",
+    "total_acc": 0.1368,
+    "wilson": [
+     0.082,
+     0.22
+    ],
+    "row_tp": 39,
+    "row_fp": 953,
+    "row_fn": 212,
+    "row_f1": 0.063
+   },
+   "gold": {
+    "total": "62/95",
+    "total_acc": 0.6526,
+    "wilson": [
+     0.553,
+     0.741
+    ],
+    "row_tp": 163,
+    "row_fp": 322,
+    "row_fn": 88,
+    "row_f1": 0.443
+   },
+   "gold_oracle_grouping": {
+    "row_tp": 200,
+    "row_fp": 151,
+    "row_fn": 51,
+    "row_f1": 0.664
+   },
+   "gold_entity": {
+    "precision": 0.5041,
+    "recall": 0.6842,
+    "f1": 0.5805,
+    "word_accuracy": 0.6711,
+    "entities_gold": 1333
+   },
+   "total_diff_pp": {
+    "est": 51.6,
+    "ci95": [
+     40.6,
+     62.4
+    ]
+   },
+   "row_f1_diff": {
+    "est": 0.38,
+    "ci95": [
+     0.307,
+     0.451
+    ]
+   }
+  },
+  "cord_words_segment_boxes": {
+   "tess": {
+    "total": "13/95",
+    "total_acc": 0.1368,
+    "wilson": [
+     0.082,
+     0.22
+    ],
+    "row_tp": 39,
+    "row_fp": 953,
+    "row_fn": 212,
+    "row_f1": 0.063
+   },
+   "gold": {
+    "total": "93/95",
+    "total_acc": 0.9789,
+    "wilson": [
+     0.926,
+     0.994
+    ],
+    "row_tp": 185,
+    "row_fp": 147,
+    "row_fn": 66,
+    "row_f1": 0.635
+   },
+   "gold_oracle_grouping": {
+    "row_tp": 237,
+    "row_fp": 12,
+    "row_fn": 14,
+    "row_f1": 0.948
+   },
+   "gold_entity": {
+    "precision": 0.9468,
+    "recall": 0.9511,
+    "f1": 0.9489,
+    "word_accuracy": 0.843,
+    "entities_gold": 1309
+   },
+   "total_diff_pp": {
+    "est": 84.2,
+    "ci95": [
+     76.8,
+     91.3
+    ]
+   },
+   "row_f1_diff": {
+    "est": 0.572,
+    "ci95": [
+     0.471,
+     0.67
+    ]
+   }
+  },
+  "tesseract_boxes": {
+   "preds_tess_word": {
+    "total": "13/95",
+    "wilson": [
+     0.082,
+     0.22
+    ],
+    "row_tp": 36,
+    "row_fp": 964,
+    "row_fn": 215,
+    "row_f1": 0.058,
+    "truncated_receipts": 3
+   },
+   "preds_tess_line": {
+    "total": "33/95",
+    "wilson": [
+     0.259,
+     0.447
+    ],
+    "row_tp": 0,
+    "row_fp": 200,
+    "row_fn": 251,
+    "row_f1": 0.0,
+    "truncated_receipts": 3
+   }
+  }
+ }
+}

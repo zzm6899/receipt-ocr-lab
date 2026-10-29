@@ -1,0 +1,4 @@
+source_dataset,receipts_n,mean_known_product_name_chars_per_receipt,median_known_product_name_chars_per_receipt,p25_chars,p75_chars,min_chars,max_chars,known_product_names_n,note
+legacy_reference_v3_1,34,83.44117647058823,43.0,26.5,103.25,8,323,119,Sum of known item-name string lengths only; not full receipt text length or OCR token count.
+receipy_references_v2,15,91.4,73,29.0,139.0,0,210,42,Sum of known item-name string lengths only; not full receipt text length or OCR token count.
+combined,49,85.87755102040816,49,29.0,122.0,0,323,161,Sum of known item-name string lengths only; not full receipt text length or OCR token count.

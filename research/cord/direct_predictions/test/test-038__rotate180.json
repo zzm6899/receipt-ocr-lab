@@ -1,0 +1,274 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-038",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "8e15b559f1afb2ae37e8ea2fefa0e9cb27c076274b2be29ed8931426373c05d9",
+  "elapsed_seconds": 7.38,
+  "detected_words": 261,
+  "detected_lines": 36,
+  "ocr_text": "a rs ee ra a . . iw i tee Se Ma od x : 6 : 2 2 Foot. ¥ a “adit ston: atime eae todh tone tine ane i fi Sent . aS SBAGRHRVSH FU om och Hwy ne G2 GAD G * : : = é 8 ell chats Site a ~ “i « “ 7 gag lay 4. os © bys po ‘ : wb Le Wia lid td FLAG : ; YF oe ? is SIA rn ry te > ~ re id - ow % - pe? tiie’ ei ies $19 oe. et SEFESLET 9 ; te ; Ls ‘ - 42 44 ; a A £5\" ¢ ‘F374 Pet “git AK Gt PUEIRPT i ka te? bd i * j ; je mr pal ox soem rires pitt pies pms Ps ee. i “ey : = fi 8 if 3 Ho wy ome HG Us wit? ia Wy CMA » ¥ ’ o* ~euradrrvy we: i) fi oe & TETIAL AB Sia ss ths ey Pigs ; rN “ 4 eh eh tad on F . - CH iY Ste AOS Mi [AI 4 wit! Oc “att ] “ewes Pe i Pi fate tn ata ~h jin ‘eiea. - ee : nw ty ¢ Sy & e SIL Ai of 4 io ny — SpA RR si) a ops oe es oS EB Be | Sng wen 4 } : z | ae el = ij é @| ii. q . 19 : a ’ ¢ 4 & oF % - ee “ F",
+  "trocr_words": "SR0006 REGULAR VADINGVED AMOUNT SUMMARY, MASTER, MARMARY,COM C70&AA G70600 WAWWWWWWW TOTAL: **** WWW.99 ST'74 WWWWW.COM.MY.MY.MY.COM CLOY : 08199 TRANSIONS FACE FL.SMA 00-00-35- 3MM 5MI03 [ COME @000-8PUO (REC) WWWWWW 000'98 JALAN AIR POIBILITY JU0.83-1,46-46 *** 000'05 REG SUMMUN UPMAN SER GOODS INCLUSEDM UII UEMN C 0005 0 0MQ UIA UEMX 5 *** WWW.DO.COMMARKIN 008'8E SATIMAN BIN MAK 000.00 *** MANAN TAMMARY 1, LLIM INVINGA NJOH UT 1 1.00 000'PNT SHIPP PAILU DELU 1 00'90T JUPS 12UJ UGU JA T 1 OF FISH FILLEN US US SOLD 1 IT @ 1.49 QEA OJDIC WAT WIDJ SIR MAR :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "IT @",
+      "cnt": null,
+      "price": "1.49"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL: **** WWW.99"
+  },
+  "layout_rows": [
+    {
+      "cnt": "a ee a iw",
+      "price": "i x",
+      "unitprice": "rs ra"
+    },
+    {
+      "cnt": "6"
+    },
+    {
+      "nm": "Foot.",
+      "cnt": "2 ¥ a “adit",
+      "price": "eae todh tone tine ane"
+    },
+    {
+      "nm": "SBAGRHRVSH",
+      "cnt": "i fi Sent . aS",
+      "price": "FU"
+    },
+    {
+      "cnt": "och",
+      "price": "ne G2",
+      "unitprice": "Hwy"
+    },
+    {
+      "cnt": "* : : é",
+      "price": "8",
+      "unitprice": "="
+    },
+    {
+      "cnt": "~ “i « “ 7"
+    },
+    {
+      "cnt": "lay 4.",
+      "price": "os © bys :",
+      "unitprice": "gag"
+    },
+    {
+      "cnt": "wb",
+      "price": "td",
+      "unitprice": "Le"
+    },
+    {
+      "cnt": ": ; YF oe",
+      "price": "? is SIA"
+    },
+    {
+      "cnt": "rn ry te > re",
+      "price": "~ id - %"
+    },
+    {
+      "cnt": "pe? tiie’",
+      "price": "ei ies"
+    },
+    {
+      "cnt": "$19 oe."
+    },
+    {
+      "price": "te"
+    },
+    {
+      "cnt": "- 42 44 ; a A ¢",
+      "price": "‘F374 Pet",
+      "unitprice": "£5\""
+    },
+    {
+      "cnt": "i",
+      "price": "ka te?",
+      "unitprice": "AK Gt"
+    },
+    {
+      "cnt": "* j",
+      "price": ";"
+    },
+    {
+      "cnt": "mr pal ox soem",
+      "price": "pies pms"
+    },
+    {
+      "cnt": "i “ey 8 if",
+      "price": "fi 3 Ho",
+      "unitprice": "ee. ="
+    },
+    {
+      "cnt": "Us",
+      "price": "ia Wy"
+    },
+    {
+      "price": "¥ ’"
+    },
+    {
+      "cnt": "i) fi oe &",
+      "price": "AB Sia ss"
+    },
+    {
+      "price": "Pigs"
+    },
+    {
+      "price": "rN"
+    },
+    {
+      "cnt": "eh tad on F",
+      "price": ". -",
+      "unitprice": "eh"
+    },
+    {
+      "cnt": "CH iY Ste",
+      "price": "Mi [AI"
+    },
+    {
+      "cnt": "]",
+      "price": "“ewes",
+      "unitprice": "Oc"
+    },
+    {
+      "cnt": "Pi"
+    },
+    {
+      "cnt": "tn ~h",
+      "price": "‘eiea. - ee :",
+      "unitprice": "ata jin"
+    },
+    {
+      "nm": "SIL",
+      "cnt": "nw ty ¢ Sy & e of",
+      "price": "Ai 4 io ny"
+    },
+    {
+      "cnt": "RR a oS |",
+      "price": "EB Be Sng wen 4",
+      "unitprice": "si) ops oe es"
+    },
+    {
+      "cnt": "z",
+      "price": "|"
+    },
+    {
+      "price": "ii. q"
+    },
+    {
+      "cnt": "19 a 4",
+      "price": "& oF"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "REGULAR"
+    },
+    {
+      "price": "5MI03",
+      "unitprice": "3MM"
+    },
+    {
+      "nm": "JALAN"
+    },
+    {
+      "nm": "REG",
+      "price": "UPMAN SER"
+    },
+    {
+      "price": "UII UEMN"
+    },
+    {
+      "price": "UEMX",
+      "unitprice": "0 0MQ UIA"
+    },
+    {
+      "price": "BIN MAK",
+      "unitprice": "SATIMAN"
+    },
+    {
+      "nm": "LLIM INVINGA",
+      "cnt": "1,",
+      "price": "NJOH UT"
+    },
+    {
+      "cnt": "1.00"
+    },
+    {
+      "nm": "SHIPP",
+      "price": "DELU",
+      "unitprice": "PAILU"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "price": "UGU T",
+      "unitprice": "JUPS 12UJ"
+    },
+    {
+      "nm": "OF FISH FILLEN",
+      "cnt": "1"
+    },
+    {
+      "price": "@ 1.49"
+    },
+    {
+      "price": "OJDIC"
+    },
+    {
+      "price": "SIR"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "673'09",
+        "num": "763'09",
+        "price": "78d"
+      },
+      {
+        "nm": "SET'Zt",
+        "num": {
+          "cnt": "3"
+        },
+        "price": "SWELL"
+      },
+      {
+        "num": "830",
+        "price": "I"
+      },
+      {
+        "nm": [
+          {
+            "price": {
+              "unitprice": "UEM)",
+              "cnt": "3"
+            }
+          },
+          {
+            "price": "S"
+          }
+        ],
+        "num": "08'83",
+        "price": {
+          "num": "000'88"
+        }
+      },
+      {
+        "nm": "TELEPORTED",
+        "num": "000'85"
+      }
+    ],
+    "total": {
+      "total_price": "800'8L"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 673'09</s_nm><s_num> 763'09</s_num><s_price> 78d</s_price><sep/><s_nm> SET'Zt</s_nm><s_num> 893齊</s_unitprice><s_cnt> 3</s_cnt><s_price> 808'19S</s_nm><s_num> 898</s_num><s_price> SWELL</s_price><sep/><s_nm> 000'83</s_num><s_price> aquo-apuo</s_nm><s_num> 830</s_num><s_price> I</s_price><sep/><s_nm> 000'83</s_num><s_price> Rpaphtzak<s_unitprice> UEM)</s_unitprice><s_cnt> 3</s_cnt><s_price> S</s_price><sep/><s_nm> 000'05</s_num><s_price> S</s_price><sep/><s_nm> TEN MAIS T</s_nm><s_num> 08'83</s_num><s_price> Rpg PHOSE W<unk></s_nm><s_num> 000'88</s_num><s_price> 000'88</s_num><s_price> 000'80</s_price><sep/><s_nm> TELEPORTED</s_nm><s_num> 000'85</s_num><s_price> 000'89</s_num><s_price> 000'89</s_num><s_price> 000'89</s_price></s_menu><s_total><s_total_price> 800'8L</s_total_price></s_total></s>"
+}
