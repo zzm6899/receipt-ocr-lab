@@ -1,0 +1,91 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-006",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "ddb70fd5feca814672c52db9ae8f32b9b10397a446eee8c53afbb983a1e1079a",
+  "elapsed_seconds": 1.547,
+  "detected_words": 20,
+  "detected_lines": 9,
+  "ocr_text": "; ee 126 US ny + 2EDBEAN BIEAD Tr ei TOTAL 46 ,000 “ASH 50,000 CHANGE 4,000 a —— cet",
+  "trocr_words": "TAKE LAS JALPS 2 5GGTATS ARD PASTRY 23,999 1 REDBEAN BREAD PASTRY 24,000 TOTAL 46,000 CASH CHANGE 4,000 ITEM = -",
+  "ocr_rules_total": "000",
+  "ocr_rows": [
+    {
+      "nm": "“ASH",
+      "cnt": null,
+      "price": "50,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "5GGTATS ARD PASTRY",
+      "cnt": "2",
+      "price": "23,999"
+    },
+    {
+      "nm": "REDBEAN BREAD PASTRY",
+      "cnt": "1",
+      "price": "24,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL ,000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 46,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "ee",
+      "price": "US",
+      "unitprice": "126"
+    },
+    {
+      "price": "ei"
+    },
+    {
+      "price": "50,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TAKE LAS"
+    },
+    {
+      "nm": "5GGTATS ARD PASTRY",
+      "cnt": "2",
+      "price": "23,999"
+    },
+    {
+      "nm": "REDBEAN BREAD PASTRY",
+      "cnt": "1",
+      "price": "24,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "EGG TART",
+        "cnt": "1",
+        "price": "13,000"
+      },
+      {
+        "nm": "CHOCO CUSTARD PASTRY",
+        "cnt": "2",
+        "price": "24,000"
+      },
+      {
+        "nm": "REDBEAN BREAD",
+        "cnt": "1",
+        "price": "9,000"
+      }
+    ],
+    "total": {
+      "total_price": "46,000",
+      "cashprice": "50,000",
+      "changeprice": "4,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> EGG TART</s_nm><s_cnt> 1</s_cnt><s_price> 13,000</s_price><sep/><s_nm> CHOCO CUSTARD PASTRY</s_nm><s_cnt> 2</s_cnt><s_price> 24,000</s_price><sep/><s_nm> REDBEAN BREAD</s_nm><s_cnt> 1</s_cnt><s_price> 9,000</s_price></s_menu><s_total><s_total_price> 46,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 4,000</s_changeprice></s_total></s>"
+}

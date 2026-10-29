@@ -1,0 +1,23 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-039",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "1c3f6c9a90b346a3c136d851d380629e839241fc748399d8fccd623b6d619e40",
+  "elapsed_seconds": 0.37,
+  "detected_words": 0,
+  "detected_lines": 0,
+  "ocr_text": "",
+  "trocr_words": "",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [],
+  "cascade_rows": [],
+  "donut_json": {
+    "text_sequence": "</s>"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm></s>"
+}

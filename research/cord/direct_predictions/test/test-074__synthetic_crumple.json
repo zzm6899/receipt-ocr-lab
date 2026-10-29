@@ -1,0 +1,281 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-074",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "db8bc6d9d0edccc185541db93e97d08d80ba859e90fa1cf8adbe0ff3d8635095",
+  "elapsed_seconds": 13.5,
+  "detected_words": 302,
+  "detected_lines": 54,
+  "ocr_text": "ee he Op mia 14 1} i Ty Bet PE ED) VR AEN ATE yoo Whe CH IMUMN) |. i} Z Pn A peel yy ¥ We ave fe hia y il ame a a ae WB | ca hae | iit FUGA, Let ie Paik phe | | ita Cea ta { ‘ee WED EL if i aa ea | i Mee Bab Hid Hy if | att a | b halk | ela] i Ven pbay | al if Aaa Wi Ay tI Patie fi At \"i : ; ! ' if wa an | a } I ee i Be | Ht ; Haye We incdaseonitieefesfieetasfeentopre ones: leeedaneeeherd eachmefeecfeortoemcpemsfens eae al ag hd ea Bat Vee ah 3) i : 4 14 if : “Seo PEE | BLACKCURRANT 82,000 ! Bee WH 1 SPRITE ae, 32,000 i Ho ii * BEVERAGE 5¢,000 ea a at A ay 1 DINE FOR 2 See 8 =: 129, 000 Waa Aa 1 Bi * DANISH FISH & CHIPS DF Vii aay el || + NEW YORK FISH & CHIPS -—- = a Ad Hii *« FOOD i) 214,000 ya TT SUBTTL Bee | 278,000 1 | ae aE |S 22,240 his N ae \\ 30,024 (NWN ital) & ean i me ae - ~ mele \\ AN \\ - Mae a Ra E\\ Wy HH ” AW aL) tn Ae VeVi ofp PM Bet We al = ii Tf ' \\3 aT ee 4 ty Ley i a} ' , g an ttt Hy re lim HieAe oa de th RL Ue 4 iti A ee aa PPI ey Po 0 a He 0) Pr be pan oy i) Wein a fi i te VE Tat) \\4 i] 1} ey WA rr We ay bod rt Hy i ae Phe ER Be",
+  "trocr_words": "CHIPPING INCLUSIVE AND US ONLINE *** ITEM: 010006-81200-1203-1203-1203-1203-1203 RECEIPT NO:00-1,KAWAWAWAS PERMASWANANAN *** SR188-17-03-17-17-12-12-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17-17 WWW WWWW WWWW 6666 INVOICE INCLUSIVE AGAIN INVOICE LIAN LIM ITEM ITEMS AMOUNT *** INVOICE : - (80000 INVOICE PR: ITEM *** IT MAM ITEM ITOTAL AMOUNT BLACKORANT 32,000 INVOICE 22,000 BEVERAGE 64,000 INLINE FOR 2 CLAMARI 1/28,000 TIME FOR 2 09,000 ***#* DAMISH FISH & CHIPS OF *** INLINE #* * NEW YORK FISH & CHIPS 24.000 AMOUNT * FOOD 24,000 AMOUNT SUBTIL 28,000 SR: 04/04 SAVICE CHARGE 22:20 30.02 ITEMORIA -330 264 000 904 AMOUNT SUMMARY WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW IT REMMARY SUMMARY UNLINE WITHIN AND BE UP ONLINE ORCLUSIVE VEBOOK YOU.** ITEMPOI001000000000919190300 WWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWW INVOICE SOLD MUST OR EXCLUSIVE OF SIGNATURE WWW.W.S.M.M.M.M.M.Y.MY.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y DETAILSIAN PERNATIONAL MARUARD ITEMION UNVOICE INVOICE IN FULL US ON TOTAL ORGANIZ WWW.WW.WW.WW.WW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "PEE | BLACKCURRANT",
+      "cnt": null,
+      "price": "82,000"
+    },
+    {
+      "nm": "Bee WH 1 SPRITE ae,",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "Ad Hii *« FOOD i)",
+      "cnt": null,
+      "price": "214,000"
+    },
+    {
+      "nm": "TT SUBTTL Bee |",
+      "cnt": null,
+      "price": "278,000"
+    },
+    {
+      "nm": "| ae aE |S",
+      "cnt": "1",
+      "price": "22,240"
+    },
+    {
+      "nm": "ae \\",
+      "cnt": null,
+      "price": "30,024"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "BLACKORANT",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "INVOICE",
+      "cnt": null,
+      "price": "22,000"
+    },
+    {
+      "nm": "BEVERAGE",
+      "cnt": null,
+      "price": "64,000"
+    },
+    {
+      "nm": "TIME FOR 2",
+      "cnt": null,
+      "price": "09,000"
+    },
+    {
+      "nm": "FOOD",
+      "cnt": null,
+      "price": "24,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "- We al Tf 0"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "ee he 14 1} i",
+      "price": "Ty"
+    },
+    {
+      "cnt": "AEN ATE",
+      "price": "yoo Whe CH"
+    },
+    {
+      "cnt": "i} Z yy ¥ We ave fe hia",
+      "price": "y il"
+    },
+    {
+      "price": "WB"
+    },
+    {
+      "cnt": "| | Let ie",
+      "price": "Paik phe"
+    },
+    {
+      "cnt": "ta { if i",
+      "price": "aa"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "price": "Hid"
+    },
+    {
+      "cnt": "att a",
+      "price": "|"
+    },
+    {
+      "cnt": "| i",
+      "price": "Ven"
+    },
+    {
+      "price": "Wi"
+    },
+    {
+      "cnt": "fi",
+      "price": "\"i"
+    },
+    {
+      "cnt": ": ;"
+    },
+    {
+      "price": ";"
+    },
+    {
+      "nm": "incdaseonitieefesfieetasfeentopre leeedaneeeherd eachmefeecfeortoemcpemsfens",
+      "cnt": "ones:",
+      "price": "eae al ag"
+    },
+    {
+      "cnt": "hd"
+    },
+    {
+      "cnt": "3) i"
+    },
+    {
+      "cnt": ": 4"
+    },
+    {
+      "cnt": "14 :"
+    },
+    {
+      "nm": "BLACKCURRANT",
+      "cnt": "|",
+      "price": "82,000"
+    },
+    {
+      "nm": "SPRITE",
+      "cnt": "WH 1",
+      "price": "32,000 i",
+      "unitprice": "ae,"
+    },
+    {
+      "cnt": "*",
+      "price": "ea"
+    },
+    {
+      "nm": "DINE FOR",
+      "cnt": "1 2 8 =:",
+      "price": "129, 000 Waa"
+    },
+    {
+      "cnt": "1 *",
+      "price": "Vii"
+    },
+    {
+      "cnt": "+",
+      "price": "= a"
+    },
+    {
+      "nm": "FOOD",
+      "cnt": "*«",
+      "price": "214,000 ya"
+    },
+    {
+      "nm": "SUBTTL",
+      "cnt": "|",
+      "price": "278,000"
+    },
+    {
+      "cnt": "1 | |S",
+      "price": "22,240 his"
+    },
+    {
+      "price": "30,024"
+    },
+    {
+      "cnt": "E\\"
+    },
+    {
+      "cnt": "tn"
+    },
+    {
+      "cnt": "= ii ' \\3 aT 4",
+      "price": "ee ty"
+    },
+    {
+      "cnt": "an Hy",
+      "price": "lim HieAe oa"
+    },
+    {
+      "cnt": "fi i"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "NO:00-1,KAWAWAWAS"
+    },
+    {
+      "price": "32,000"
+    },
+    {
+      "nm": "CLAMARI",
+      "cnt": "FOR 2",
+      "price": "1/28,000"
+    },
+    {
+      "cnt": "FOR 2",
+      "price": "09,000"
+    },
+    {
+      "nm": "DAMISH FISH &",
+      "price": "OF"
+    },
+    {
+      "nm": "FISH & CHIPS",
+      "cnt": "#* * NEW YORK",
+      "price": "24.000"
+    },
+    {
+      "nm": "SAVICE CHARGE",
+      "cnt": "04/04",
+      "price": "22:20"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BLACKCURRANT",
+        "cnt": "1",
+        "price": "32,000"
+      },
+      {
+        "nm": "SPRITE",
+        "cnt": "1",
+        "price": "32,000"
+      },
+      {
+        "nm": "BE VERAGE",
+        "price": "64,000"
+      },
+      {
+        "nm": "GRILLED CALAMARI",
+        "cnt": "1",
+        "price": "85,000"
+      },
+      {
+        "nm": "DINE FOR 2",
+        "cnt": "1",
+        "price": "129,000",
+        "sub": {
+          "nm": "* DANISH FISH & CHIPS DF"
+        }
+      },
+      {
+        "nm": "* NEW YORK FISH & CHIPS"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "214,000",
+      "service_price": "22,240",
+      "tax_price": "30,024"
+    },
+    "total": {
+      "total_price": "330,264"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BLACKCURRANT</s_nm><s_cnt> 1</s_cnt><s_price> 32,000</s_price><sep/><s_nm> SPRITE</s_nm><s_cnt> 1</s_cnt><s_price> 32,000</s_price><sep/><s_nm> BE VERAGE</s_nm><s_price> 64,000</s_price><sep/><s_nm> GRILLED CALAMARI</s_nm><s_cnt> 1</s_cnt><s_price> 85,000</s_price><sep/><s_nm> DINE FOR 2</s_nm><s_cnt> 1</s_cnt><s_price> 129,000</s_price><s_sub><s_nm> * DANISH FISH & CHIPS DF</s_nm></s_sub><sep/><s_nm> * NEW YORK FISH & CHIPS</s_nm></s_sub></s_menu><s_sub_total><s_subtotal_price> 214,000</s_subtotal_price><s_service_price> 278,000</s_service_price><s_service_price> 22,240</s_service_price><s_tax_price> 30,024</s_tax_price></s_sub_total><s_total><s_total_price> 330,264</s_total_price></s_total></s>"
+}

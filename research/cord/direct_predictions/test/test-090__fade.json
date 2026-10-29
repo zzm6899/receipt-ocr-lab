@@ -1,0 +1,113 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-090",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "e7b58b777a3fb92cf5b8ed40ca5e0e32a94b84dd939f5c855f07a1688fd6977d",
+  "elapsed_seconds": 2.155,
+  "detected_words": 65,
+  "detected_lines": 17,
+  "ocr_text": "A NEE A ETE SEE EER PEP RE ce RO py peer Se oer ratte ° eee ee * ey i tee “+ 8 Ce aided . jn a ne wee S iT mus — 1 CIRENG PANDAWA 26,818 = Subtotal 26,818 oe Pbt 2,681 at: Total 29,500 ie CASH 29,500 oS; Total Item ul NE Total Qty 1 nie Remon mmc ll <9 cere",
+  "trocr_words": "WWW.WW.WW.WW. AM *** CASH IT_ITEM _ AMOUNT - 1 CIRENG PANDAWA _26,818 SR: 56,818 SR1,88 TOTAL 29,500 29,500 SR: SR: : -- -",
+  "ocr_rules_total": "1",
+  "ocr_rows": [
+    {
+      "nm": "— 1 CIRENG PANDAWA",
+      "cnt": null,
+      "price": "26,818"
+    },
+    {
+      "nm": "oe Pbt",
+      "cnt": null,
+      "price": "2,681"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "SR",
+      "cnt": null,
+      "price": "56,818"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 29,500"
+  },
+  "layout_rows": [
+    {
+      "nm": "NEE A ETE SEE EER",
+      "cnt": "A",
+      "price": "RE RO"
+    },
+    {
+      "cnt": "py"
+    },
+    {
+      "cnt": "°"
+    },
+    {
+      "cnt": "ey"
+    },
+    {
+      "cnt": "8",
+      "price": "."
+    },
+    {
+      "cnt": "jn a",
+      "price": "wee"
+    },
+    {
+      "cnt": "S",
+      "price": "mus"
+    },
+    {
+      "nm": "CIRENG PANDAWA",
+      "cnt": "— 1",
+      "price": "26,818"
+    },
+    {
+      "cnt": "=",
+      "price": "26,818"
+    },
+    {
+      "cnt": "oe",
+      "price": "2,681"
+    },
+    {
+      "price": "29,500"
+    },
+    {
+      "price": "29,500"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "_"
+    },
+    {
+      "nm": "CIRENG PANDAWA",
+      "cnt": "1",
+      "unitprice": "_26,818"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "CIRENG PANDAWA",
+      "cnt": "1",
+      "price": "26,818"
+    },
+    "sub_total": {
+      "subtotal_price": "26,818",
+      "tax_price": "2,681"
+    },
+    "total": {
+      "total_price": "29,500",
+      "cashprice": "29,500",
+      "menutype_cnt": "1",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> CIRENG PANDAWA</s_nm><s_cnt> 1</s_cnt><s_price> 26,818</s_price></s_menu><s_sub_total><s_subtotal_price> 26,818</s_subtotal_price><s_tax_price> 2,681</s_tax_price></s_sub_total><s_total><s_total_price> 29,500</s_total_price><s_cashprice> 29,500</s_cashprice><s_menutype_cnt> 1</s_menutype_cnt><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,210 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-058",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "8e70fd58c9037a628ff12545dc94bd026bd750be3e746035ce659346c9c7ec83",
+  "elapsed_seconds": 9.894,
+  "detected_words": 353,
+  "detected_lines": 80,
+  "ocr_text": "q Finis Rowe Soper y ; i i al : Te seben 4 See ee feos sae ieee, es ee ere ee Bree li ite ce Bie | ihe h ie eS Art ciel a sg oe oe wean mare NS Tecryeew tac mie) raeoreee” 7 J tok Ki a-- 4 4 Wes oS = Sa tet ‘ : feat Soe ae i 7 : a Bice Ls _ _ 2 . fe . = ; Pee E 2 Bota ; i ’ aa 4 j 3 | ae + e me es i 4 hic ae os ie: = F E “i is i , = 3 ee ey H x eins q : a oe i: Laas - 2 Mee + 4 E: 4 . oe F fee af : a. ‘ef ‘a! , , rf ay i tee ee ro cee 1) ee ant Re } _. ay meet 3\" Bs, ae Pay 3 ae ies ie a c& pin ae f eer Peta ieee: tp amie fy oe : ae se Bk oy > Pas Ak Ta ns ae I “eh eae eter peyetete! = esta : epee lee aD estan afer om hms o> ooo) oat ; “as 7 ey C= eas : Seer i? ica) paren s th Laat mB aig hee a ‘ ar Siesresy pcr ate it sae ao ame ere Fa sf on see see 4 a oe Pf furs ao eam ‘ : ita ayia oe aa = cr , ; Pe ema rawaets pees FY . rarekd ¥ Ce ‘OTN 3 5) Joie 2 2) ae =e LeceCemeyi, (ye See ! t : oe Sr, Late : Degen ieee = AS aa Sree \\ o ' : = oe Sane oe a a a 3 ' a A rn Ue 2 > 5 a sien ames mites « tein his hal ini ae ee = ee ha ca yics Ye er Rae) ras i i per a ase? i m ths ; wee : eh ume ctl j ay Spoon. ream , : eS ee “Stl Pera een ote saa oN malt",
+  "trocr_words": "1 MASACTION ITEMS LOTELLE WITHIN ONLINE ITEM AMOUNT SR: EXCLUDING! AMOUNT SR:00-8999-8 WWW.COM : ......................... MANIMASIES PERMAS CASHIER WWW.WW. CASHIER CASHIER WWW. : WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW. 1 PHO BO TAI COME BE,000 (RM) ITEMS AGAIN WWW.WWW.WW.WW. SUB TOTAL: 55,000 SUB TOTAL: 5.50 WWWWWWWWWWWWWWWWWWWW. SR1 REG # 5,500 SR: 1-1-17-1, JALAN PERIMASAN 3/4/4\" SUMMARY *** TOTAL: PLEASE WILL BEAUTIVE ON FACEBOOK WWW.WW.WW.WW.WW. GST REG #: 065-1,000-000-1 AMOUNT: PAY : SUMMARY ** AMOUNT: 00% : ************ SR:00-11-12-17-17-17-17-17-17-17-17:10 PM CASHIER NO PAYMENT INCLUSIVE ONCLUSIVE WITH RECEIPT AMOUNT CHANGE INCLUSIVE PAY ONLINE AMOUNT WEEK: *** - *** CASHIER *** - *** - - - - - - - THANK - - - ITEMS ITEM - THANK - - THANK THANK CASHIER: CASHIER: AMOUNT: CASHIER : ITEM CASHIER: CASHIER INCLUSIVE OF GST SUMMARY CASHIER: TAX ITEM WWW. SR: 1/2018/2018 09:03:43 PM AMOUNT AMOUNT (RM)",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "SR1 REG #",
+      "cnt": null,
+      "price": "5,500"
+    }
+  ],
+  "layout_fields": {
+    "total": ":"
+  },
+  "cascade_fields": {
+    "total": "TOTAL:"
+  },
+  "layout_rows": [
+    {
+      "nm": "q"
+    },
+    {
+      "nm": "Finis Rowe"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": ": 4"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "h",
+      "price": "ciel a sg oe oe wean mare"
+    },
+    {
+      "cnt": "NS"
+    },
+    {
+      "cnt": "7 J"
+    },
+    {
+      "cnt": "4 ‘"
+    },
+    {
+      "cnt": "i 7"
+    },
+    {
+      "cnt": "Ls",
+      "price": "_"
+    },
+    {
+      "price": "2"
+    },
+    {
+      "cnt": ".",
+      "price": "fe ."
+    },
+    {
+      "cnt": "| ae"
+    },
+    {
+      "cnt": "F “i is"
+    },
+    {
+      "cnt": "3 ey"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "F fee"
+    },
+    {
+      "cnt": "‘ef ‘a!"
+    },
+    {
+      "price": "ro cee"
+    },
+    {
+      "cnt": "ant } ay"
+    },
+    {
+      "price": "3"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "pin f",
+      "price": "ieee:"
+    },
+    {
+      "cnt": "tp fy oe"
+    },
+    {
+      "price": "Ta"
+    },
+    {
+      "cnt": "aD"
+    },
+    {
+      "price": "Laat"
+    },
+    {
+      "cnt": "aig ‘"
+    },
+    {
+      "cnt": "it",
+      "price": "sae ao"
+    },
+    {
+      "cnt": "Fa",
+      "price": "sf on"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "Pf ‘",
+      "price": ": ita"
+    },
+    {
+      "cnt": "aa =",
+      "price": "cr"
+    },
+    {
+      "cnt": "Pe FY"
+    },
+    {
+      "cnt": "Ce 3"
+    },
+    {
+      "cnt": "2"
+    },
+    {
+      "cnt": "(ye !",
+      "price": "t"
+    },
+    {
+      "cnt": "tein his hal ini",
+      "price": "ae"
+    },
+    {
+      "cnt": "ca"
+    },
+    {
+      "cnt": "i"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "MASACTION"
+    },
+    {
+      "nm": "LOTELLE"
+    },
+    {
+      "nm": "PHO BO TAI",
+      "cnt": "1",
+      "price": "BE,000"
+    },
+    {
+      "nm": "SR1",
+      "cnt": "REG"
+    },
+    {
+      "nm": "JALAN",
+      "cnt": "1-1-17-1,",
+      "price": "3/4/4\""
+    },
+    {
+      "cnt": "NO PAYMENT"
+    },
+    {
+      "cnt": "09:03:43"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "CASH",
+      "cnt": "1",
+      "price": "100,000"
+    },
+    "sub_total": {
+      "subtotal_price": "55,000",
+      "tax_price": "5,500"
+    },
+    "total": {
+      "total_price": "60,500",
+      "cashprice": "100,000",
+      "changeprice": "39,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> PHO BO TAI</s_nm><s_cnt> 1</s_cnt><s_price> 55,000</s_price><s_sub><s_nm> CASH</s_nm><s_price> 100,000</s_price></s_menu><s_sub_total><s_subtotal_price> 55,000</s_subtotal_price><s_tax_price> 5,500</s_tax_price></s_sub_total><s_total><s_total_price> 60,500</s_total_price><s_cashprice> 100,000</s_cashprice><s_changeprice> 39,500</s_changeprice></s_total></s>"
+}

@@ -1,0 +1,108 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-034",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "d485dc18884becff12b1abdf9ebe1785bcd0249905c9ed09531ca0ee1e023ec6",
+  "elapsed_seconds": 1.023,
+  "detected_words": 23,
+  "detected_lines": 9,
+  "ocr_text": "i h Chick Sata] Mata 5) 15.000 Ir Goreng 2 10,000 total 85.000 sak (108) Bt tal 33,500 i 100,000 6,500 = i",
+  "trocr_words": "S H CHICK SAMBAL MATER 5 75.000 UR GORENG 2 TOTAL JAK (10%) TOTAL IT REGULAR: 100.000 6.500 -1",
+  "ocr_rules_total": "85.000",
+  "ocr_rows": [
+    {
+      "nm": "h Chick Sata] Mata 5)",
+      "cnt": null,
+      "price": "15.000"
+    },
+    {
+      "nm": "Ir Goreng 2",
+      "cnt": null,
+      "price": "10,000"
+    },
+    {
+      "nm": "tal",
+      "cnt": null,
+      "price": "33,500"
+    },
+    {
+      "nm": "i",
+      "cnt": null,
+      "price": "100,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "H CHICK SAMBAL MATER 5",
+      "cnt": null,
+      "price": "75.000"
+    },
+    {
+      "nm": "IT REGULAR",
+      "cnt": null,
+      "price": "100.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "total"
+  },
+  "cascade_fields": {
+    "total": "TOTAL"
+  },
+  "layout_rows": [
+    {
+      "nm": "h Chick Sata] Mata",
+      "cnt": "5)",
+      "price": "15.000"
+    },
+    {
+      "nm": "Ir Goreng",
+      "cnt": "2",
+      "price": "10,000"
+    },
+    {
+      "price": "Bt"
+    },
+    {
+      "price": "33,500"
+    },
+    {
+      "price": "100,000"
+    },
+    {
+      "price": "6,500"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "H CHICK SAMBAL MATER",
+      "cnt": "5",
+      "price": "75.000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Ash Chick Sambal Matah",
+        "cnt": "5",
+        "price": "75.000"
+      },
+      {
+        "nm": "Jamur Goreng",
+        "cnt": "2",
+        "price": "10.000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "85.000",
+      "tax_price": "8.500"
+    },
+    "total": {
+      "total_price": "93.500",
+      "cashprice": "100.000",
+      "changeprice": "6.500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Ash Chick Sambal Matah</s_nm><s_cnt> 5</s_cnt><s_price> 75.000</s_price><sep/><s_nm> Jamur Goreng</s_nm><s_cnt> 2</s_cnt><s_price> 10.000</s_price></s_menu><s_sub_total><s_subtotal_price> 85.000</s_subtotal_price><s_tax_price> 8.500</s_tax_price></s_sub_total><s_total><s_total_price> 93.500</s_total_price><s_cashprice> 100.000</s_cashprice><s_changeprice> 6.500</s_changeprice></s_total></s>"
+}

@@ -1,0 +1,53 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-068",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "1ca4a153244146a6fe0ecbe6c8b13122fc8ab9749aae177cab21c27c6b832c84",
+  "elapsed_seconds": 0.817,
+  "detected_words": 16,
+  "detected_lines": 5,
+  "ocr_text": "cen TT oi neo | TOTAL ‘20,009 1 CASH. “50,000 q CHANGE “30 .O6¢ — oe",
+  "trocr_words": "ICED TT :2 0 20.000 TOTAL : 2 0 : 9.00 CASH = 58.000 CHANGE : 30.000 CHANGE @6.00",
+  "ocr_rules_total": "20,009",
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "ICED TT :2 0",
+      "cnt": null,
+      "price": "20.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL ‘20,009 “50,000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL : 9.00"
+  },
+  "layout_rows": [
+    {
+      "nm": "cen TT",
+      "price": "neo",
+      "unitprice": "oi"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "ICED TT",
+      "cnt": ":2 0",
+      "price": "20.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ICED TT",
+      "price": "20,000"
+    },
+    "total": {
+      "total_price": "20,000",
+      "cashprice": "50,000",
+      "changeprice": "30,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICED TT</s_nm><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 20,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 30,000</s_changeprice></s_total></s>"
+}

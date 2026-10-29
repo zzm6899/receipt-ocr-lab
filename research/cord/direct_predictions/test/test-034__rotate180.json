@@ -1,0 +1,63 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-034",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "a14ba8544bc655367f61217f6168081006b1aea37d522f8552a0fa5419a2b2f7",
+  "elapsed_seconds": 3.906,
+  "detected_words": 21,
+  "detected_lines": 6,
+  "ocr_text": "00 ot it S86 teu 0s\" (x01) 978 a00\" $8 1eey of\" 2 Ree — SI 5 Yeae [eames 39149 UBM",
+  "trocr_words": "000.00 TOTAL: (RM) GST8 (301) * $500 CASHIERIES, WEEK & TRANSICIPTIONS TOTAL TOTAL: ASH CHANGE SAMPS SOLD US.",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "000.00 TOTAL: (RM)"
+  },
+  "layout_rows": [
+    {
+      "price": "it"
+    },
+    {
+      "price": "teu"
+    },
+    {
+      "price": "(x01) 978"
+    },
+    {
+      "cnt": "a00\" $8",
+      "price": "1eey"
+    },
+    {
+      "nm": "of\"",
+      "cnt": "2",
+      "price": "Ree —"
+    },
+    {
+      "nm": "Yeae [eames",
+      "cnt": "5",
+      "price": "39149"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CASHIERIES, WEEK",
+      "unitprice": "$500"
+    },
+    {
+      "nm": "ASH"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'001",
+      "num": "000'9",
+      "price": {
+        "num": "000'001"
+      }
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'001</s_nm><s_num> 000'9</s_num><s_price> [equal<s_num> 000'001</s_num><s_price> [eun]</s_price><sep/><s_nm> 005'66</s_num><s_price> [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [e] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [</s>"
+}

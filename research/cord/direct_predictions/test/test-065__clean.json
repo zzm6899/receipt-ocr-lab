@@ -1,0 +1,174 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-065",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "4f12521ca4704248cc0978b018a9b4aa832f1012a842fd39dbaac44cdffe6fd4",
+  "elapsed_seconds": 3.751,
+  "detected_words": 126,
+  "detected_lines": 29,
+  "ocr_text": "= —— a i Bo ‘a ait fae Sb ne CER ae i oe A e Poe crab rete ; ge ee x wo: E Re aS ee ' = ip eee: a i Rae # . SS ae | Fs i ee pe ——F | bu f = pee ee. baa i : so, t Sa 5 x Anes pr pala 1 ubur Polos + Telur ee. a 13.660 13.666 , ae pa : ey es ee a 1. <1 O80 ¢ “| Gabeea ee sneer 2 Maite aia 1, live. SORRIERrs a eae e S : - acces Reon nee inte ua eee or ened he Pet) 97 9g aa Cae | : a slag , - ~ . as every \"\" s ybbe",
+  "trocr_words": "AMOUNT WWW AMOUNT - ITEMER ITEMS - WWW. 1.00 - IT : TAX - ................................................ UBUR POLOS + TEL UBUR POLOS + TELUR : 13.00 13.000 ................................ INITOTAL ************ SUBTOTAL 13.000 G1AK - 1.40 AJAK TAMMERS,COMMARY TOTAL : 13,000 WWW.WW.WW.W. CASHIER WWW.WWW. WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "a 13.660",
+      "cnt": null,
+      "price": "13.666"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "13.00",
+      "cnt": null,
+      "price": "13.000"
+    },
+    {
+      "nm": "G1AK",
+      "cnt": null,
+      "price": "1.40"
+    }
+  ],
+  "layout_fields": {
+    "total": "as every \"\""
+  },
+  "cascade_fields": {
+    "total": "AMOUNT TOTAL : 13,000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "a i",
+      "price": "Bo"
+    },
+    {
+      "nm": "ne",
+      "cnt": "‘a Sb",
+      "price": "CER ae i"
+    },
+    {
+      "nm": "Poe crab",
+      "cnt": "A",
+      "price": "rete"
+    },
+    {
+      "cnt": ";"
+    },
+    {
+      "cnt": "wo:",
+      "price": "E"
+    },
+    {
+      "cnt": "'",
+      "price": "=",
+      "unitprice": "Re aS ee"
+    },
+    {
+      "cnt": "ip a i",
+      "price": "Rae #",
+      "unitprice": "eee:"
+    },
+    {
+      "cnt": ".",
+      "price": "SS"
+    },
+    {
+      "cnt": "i",
+      "price": "pe",
+      "unitprice": "ee"
+    },
+    {
+      "price": "bu",
+      "unitprice": "|"
+    },
+    {
+      "cnt": "f =",
+      "price": "baa",
+      "unitprice": "ee."
+    },
+    {
+      "cnt": "5"
+    },
+    {
+      "cnt": "pr 1",
+      "unitprice": "pala"
+    },
+    {
+      "nm": "Telur",
+      "cnt": "+"
+    },
+    {
+      "cnt": "ee."
+    },
+    {
+      "cnt": "a",
+      "price": "13.666",
+      "unitprice": "13.660"
+    },
+    {
+      "unitprice": "pa"
+    },
+    {
+      "cnt": "ey",
+      "price": "ee"
+    },
+    {
+      "cnt": "a 1. <1",
+      "price": "O80"
+    },
+    {
+      "cnt": "¢ “|",
+      "price": "2",
+      "unitprice": "ee"
+    },
+    {
+      "nm": "Maite",
+      "cnt": "1, a",
+      "price": "eae e",
+      "unitprice": "live."
+    },
+    {
+      "nm": "acces",
+      "price": "eee or ened he 97",
+      "unitprice": "nee inte ua"
+    },
+    {
+      "cnt": "aa"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "UBUR POLOS TEL",
+      "cnt": "+"
+    },
+    {
+      "nm": "UBUR POLOS TELUR",
+      "cnt": "+"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "price": "13.000",
+      "unitprice": "13.00"
+    },
+    {
+      "nm": "AJAK TAMMERS,COMMARY"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ubur Polos + Telur",
+      "unitprice": "13.000",
+      "cnt": "3x",
+      "price": "13.000"
+    },
+    "sub_total": {
+      "subtotal_price": "13.000",
+      "tax_price": "ajak"
+    },
+    "total": {
+      "total_price": "13.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ubur Polos + Telur</s_nm><s_unitprice> 13.000</s_unitprice><s_cnt> 3x</s_cnt><s_price> 13.000</s_price></s_menu><s_sub_total><s_subtotal_price> 13.000</s_subtotal_price><s_tax_price> ajak</s_tax_price></s_sub_total><s_total><s_total_price> 13.000</s_total_price></s_total></s>"
+}

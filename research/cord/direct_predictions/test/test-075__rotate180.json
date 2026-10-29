@@ -1,0 +1,99 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-075",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "9e395d6bcb0bcb46cae70749d17f2a32b5d12304e3186a989736b5801c755f71",
+  "elapsed_seconds": 1.539,
+  "detected_words": 30,
+  "detected_lines": 7,
+  "ocr_text": "sien ne AOLANS ee on a oe Be tlt shots 4914 3H eae Oidl | 7 eee ou HINGTOD ABH 1 jake $13 $12 4334 AMyay9 T o's ee |",
+  "trocr_words": "952 7/1018NS IT'S WITH BEAS SOLD YOUR AVEA SESIVE AON WHO THINAT NOINT 1 CREW CREWATER TE ENTER AGAIN I CHEASY BEF S13 JEM AWWHO ! 1 CHOOD PURE : 1 3 1",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "sien AOLANS",
+      "price": "ee on"
+    },
+    {
+      "nm": "a",
+      "cnt": "oe",
+      "price": "Be tlt"
+    },
+    {
+      "cnt": "3H",
+      "price": "Oidl",
+      "unitprice": "4914 eae"
+    },
+    {
+      "cnt": "1",
+      "price": "ABH",
+      "unitprice": "eee ou"
+    },
+    {
+      "nm": "jake",
+      "cnt": "$13 $12 T",
+      "price": "4334 AMyay9"
+    },
+    {
+      "price": "ee"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "IT'S WITH BEAS",
+      "price": "YOUR AVEA"
+    },
+    {
+      "nm": "SESIVE",
+      "price": "NOINT"
+    },
+    {
+      "nm": "CREW CREWATER",
+      "cnt": "1",
+      "price": "AGAIN"
+    },
+    {
+      "nm": "CHEASY BEF",
+      "cnt": "I",
+      "price": "AWWHO !",
+      "unitprice": "S13 JEM"
+    },
+    {
+      "nm": "CHOOD",
+      "cnt": "1",
+      "price": ": 1"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "L29'SZ",
+      "num": "292*992",
+      "price": {
+        "nm": "BEBB ddEd KCVR",
+        "num": "28T'8bben"
+      }
+    },
+    {
+      "nm": "SWESS SEASONS",
+      "num": "222*Lb",
+      "price": "d/05"
+    },
+    {
+      "nm": "SPS'tS",
+      "num": "BEHCIRI",
+      "price": {
+        "cnt": "1"
+      }
+    },
+    {
+      "nm": "CLE S73",
+      "num": "160*62"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> L29'SZ</s_nm><s_num> 292*992</s_num><s_price> 292*992</s_num><s_price> 28T'8bben<s_nm> BEBB ddEd KCVR</s_nm><s_num> 28T'8bben</s_num><s_price> d/35</s_price><sep/><s_nm> SWESS SEASONS</s_nm><s_num> 222*Lb</s_num><s_price> d/05</s_price><sep/><s_nm> SPS'tS</s_nm><s_num> BEHCIRI</s_num><s_price> NO<unk>DIY<s_cnt> 1</s_cnt><s_price> Rps'b2</s_num><s_price> MEN T</s_price><sep/><s_nm> CLE S73</s_nm><s_num> 232*zb</s_num><s_price> CREAT</s_nm><s_num> 160*62</s_num><s_price> OCOHO I</s_total></s>"
+}

@@ -1,0 +1,307 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-038",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "f3ff385a073e76bd8ce6e356068205d918670936a9cde71efe52c3abff07d106",
+  "elapsed_seconds": 7.872,
+  "detected_words": 287,
+  "detected_lines": 34,
+  "ocr_text": "> be Even ter Pe & :s —— re 4 oi 1B sy 4 o — oe i vas: » \" , “ a > ot : ‘ s ean he Lata cde fg or] > ¢ Wf We ve LF PiSt? Piet Garic LLACS LA a 4 PAA Bark Ooalis; we Aes : 2 fon i PF RIK Eee y BEE. FLIPS * pre. A 4 Ae tert i 4 estas A, fii % ane Sat Tt Y oaks wit, SS ew eday AAT ph T2 r hs t a 4 it ¢ as se Fes Mm £A2*4 oe Wey Foi om tk. § + § PE YE - Pus od Ff : 7f & f ¥ ~ ee 2 a3 sats i We cai $3tt Wetd Ve wi ee ted & “ % coe cir wy my + tei j +2 eee * te : Pe ke ee Ser eo eee hay 1 Fs + § Sued hd CSS ob Yeh § y ¢ we : ot HT sy ' ff : é a ig ee ~ ry F) 3 “ ‘ J Ae Ne +c fh. 4 et J oy . ‘ =Ji . ts \" “ ‘, ae | om bind whe 5a . 5 She . ore PT geen Fe bay any ge pear ane a / : “ata SS al a ee A hoot ‘ . , . Wt me tO? BS op tad wd rs Tr we Pa , - a. 4 % 2 * ¥ PT” omy i: So. Je - SER f+) —_—— 664.390 a Se Thes MR eRe See . a 2s ee r 2 a . ee TA eG oe te -d F om Rey ea",
+  "trocr_words": ": AMPLIP LATE, FUIK JLXX 1.50 1 DECIAL FILLA'S ANDS AND AGA 1 DF FISH FILLET GARLC 108,000 LOP DF FISH FILLET GARLE *** 108 000 1 LMM PORK BELIV US ON 8% 000 AMOUNT LIM PORK BELLY ******** 88,000 1 GAW MAL SUMMARY 10 000 1. SIEW MAL SUMMARY 38800 1, JEW MARNERS, JOH 3 8,800 C VEGS VIA COS CHANGE AGAIN 5 KWAN YINIUM NEWANT NO.00 JUMAN TMUQ 500.000 1. HERBAL LELW REGULAR 28 000 4 REGULAR JEM (RM) AMTELVOL JEMY - 56,000 1 AMMA AMKA LION 10 600 UNOA-TIME 1 UMOE-UNDE MAS-12 REGULAR: CC1.00 VIS:13-12-12-12-17-1-1-1-1-1-K1.X WWW0.10 INVICE CHARGE COME AGAIN AD 1 SERVICE CHARGE COME AGAIN AD 13 ERVICE CHARGE @6.45 K TOTAL COMPLIES 684-888 TOTAL AMOUNT 664 390 1062188- 664329 GOST&WWWW WW WWW.J. : GICK MAIL LTAL ALIA, JALAMA",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "f+) —_——",
+      "cnt": null,
+      "price": "664.390"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "DF FISH FILLET GARLC",
+      "cnt": "1",
+      "price": "108,000"
+    },
+    {
+      "nm": "1, JEW MARNERS, JOH 3",
+      "cnt": null,
+      "price": "8,800"
+    },
+    {
+      "nm": "JUMAN TMUQ",
+      "cnt": null,
+      "price": "500.000"
+    },
+    {
+      "nm": "AMTELVOL JEMY",
+      "cnt": null,
+      "price": "56,000"
+    }
+  ],
+  "layout_fields": {
+    "total": ", i: So. Je 664.390 F"
+  },
+  "cascade_fields": {
+    "total": "684-888 TOTAL AMOUNT 664"
+  },
+  "layout_rows": [
+    {
+      "cnt": ">"
+    },
+    {
+      "cnt": "be ter Pe :s ——"
+    },
+    {
+      "cnt": "4 o — » \" , “",
+      "price": "a > ot"
+    },
+    {
+      "cnt": ": ‘ s he or]",
+      "price": "> ¢ Wf We"
+    },
+    {
+      "cnt": "ve",
+      "price": "LLACS LA"
+    },
+    {
+      "cnt": "4",
+      "price": "we"
+    },
+    {
+      "cnt": "2 y"
+    },
+    {
+      "cnt": "* A 4",
+      "price": "Ae tert"
+    },
+    {
+      "cnt": "i 4 A, fii %",
+      "price": "ane Sat Tt"
+    },
+    {
+      "cnt": "oaks",
+      "price": "AAT ph T2"
+    },
+    {
+      "cnt": "hs t a 4 it",
+      "price": "¢ as"
+    },
+    {
+      "cnt": "Fes",
+      "price": "tk. §"
+    },
+    {
+      "cnt": "- : f",
+      "price": "~"
+    },
+    {
+      "cnt": "sats",
+      "price": "wi ee"
+    },
+    {
+      "cnt": "% j",
+      "price": "eee"
+    },
+    {
+      "cnt": ":",
+      "price": "hay"
+    },
+    {
+      "cnt": "Fs §",
+      "price": "¢"
+    },
+    {
+      "cnt": "sy '",
+      "price": "ff : é"
+    },
+    {
+      "cnt": "3",
+      "price": "“ ‘"
+    },
+    {
+      "cnt": "J"
+    },
+    {
+      "cnt": "fh. 4 J",
+      "price": "oy . ‘"
+    },
+    {
+      "price": "\" “"
+    },
+    {
+      "price": "."
+    },
+    {
+      "price": "a /"
+    },
+    {
+      "price": "‘ ."
+    },
+    {
+      "price": "op tad wd"
+    },
+    {
+      "cnt": "we Pa",
+      "price": "a. 4"
+    },
+    {
+      "cnt": "¥ PT”"
+    },
+    {
+      "nm": "—_——",
+      "cnt": "f+)"
+    },
+    {
+      "cnt": "a",
+      "price": "a"
+    },
+    {
+      "cnt": "a . TA"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": ":"
+    },
+    {
+      "nm": "AMPLIP",
+      "cnt": "JLXX"
+    },
+    {
+      "nm": "DECIAL FILLA'S ANDS",
+      "cnt": "1",
+      "price": "AND AGA"
+    },
+    {
+      "nm": "DF FISH FILLET GARLC",
+      "cnt": "1",
+      "price": "108,000"
+    },
+    {
+      "nm": "LOP DF FISH FILLET GARLE",
+      "cnt": "***",
+      "price": "108 000"
+    },
+    {
+      "nm": "LMM PORK BELIV",
+      "cnt": "1",
+      "price": "8% 000"
+    },
+    {
+      "nm": "LIM PORK BELLY",
+      "price": "88,000"
+    },
+    {
+      "nm": "GAW MAL",
+      "cnt": "1",
+      "price": "10 000"
+    },
+    {
+      "nm": "SIEW MAL",
+      "cnt": "1.",
+      "price": "38800"
+    },
+    {
+      "nm": "JEW MARNERS,",
+      "cnt": "1, 3",
+      "price": "8,800"
+    },
+    {
+      "nm": "KWAN"
+    },
+    {
+      "nm": "NEWANT"
+    },
+    {
+      "nm": "JUMAN TMUQ",
+      "price": "500.000"
+    },
+    {
+      "nm": "HERBAL LELW",
+      "cnt": "1.",
+      "price": "28 000"
+    },
+    {
+      "nm": "REGULAR",
+      "cnt": "4"
+    },
+    {
+      "nm": "AMTELVOL",
+      "price": "56,000"
+    },
+    {
+      "nm": "AMMA AMKA",
+      "cnt": "1",
+      "price": "10 600"
+    },
+    {
+      "nm": "INVICE"
+    },
+    {
+      "nm": "SERVICE"
+    },
+    {
+      "nm": "ERVICE",
+      "price": "@6.45"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "XLB Org Pork 10x",
+        "cnt": "1",
+        "price": "78,000"
+      },
+      {
+        "nm": "Sicito Babi",
+        "cnt": "1",
+        "price": "65,000"
+      },
+      {
+        "nm": "Hotplate Tahu",
+        "cnt": "1",
+        "price": "58,000"
+      },
+      {
+        "nm": "DF Fish Filiet Garic",
+        "cnt": "1",
+        "price": "108,000"
+      },
+      {
+        "nm": "LM Pork Belly",
+        "cnt": "1",
+        "price": "88,000"
+      },
+      {
+        "nm": "Siew Mal",
+        "cnt": "1",
+        "price": "38,800"
+      },
+      {
+        "nm": "Kwan Yin Cup",
+        "cnt": "5",
+        "price": "50,000"
+      },
+      {
+        "nm": "Herbal Jelly",
+        "cnt": "1",
+        "price": "38,000"
+      },
+      {
+        "nm": "Onde- Onde",
+        "cnt": "1",
+        "price": "38,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "561,800",
+      "service_price": "42,135",
+      "tax_price": "60,394"
+    },
+    "total": {
+      "total_price": "664,329"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> XLB Org Pork 10x</s_nm><s_cnt> 1</s_cnt><s_price> 78,000</s_price><sep/><s_nm> Sicito Babi</s_nm><s_cnt> 1</s_cnt><s_price> 65,000</s_price><sep/><s_nm> Hotplate Tahu</s_nm><s_cnt> 1</s_cnt><s_price> 58,000</s_price><sep/><s_nm> DF Fish Filiet Garic</s_nm><s_cnt> 1</s_cnt><s_price> 108,000</s_price><sep/><s_nm> LM Pork Belly</s_nm><s_cnt> 1</s_cnt><s_price> 88,000</s_price><sep/><s_nm> Siew Mal</s_nm><s_cnt> 1</s_cnt><s_price> 38,800</s_price><sep/><s_nm> Kwan Yin Cup</s_nm><s_cnt> 5</s_cnt><s_price> 50,000</s_price><sep/><s_nm> Herbal Jelly</s_nm><s_cnt> 1</s_cnt><s_price> 38,000</s_price><sep/><s_nm> Onde- Onde</s_nm><s_cnt> 1</s_cnt><s_price> 38,000</s_price></s_menu><s_sub_total><s_subtotal_price> 561,800</s_subtotal_price><s_service_price> 42,135</s_service_price><s_tax_price> 60,394</s_tax_price></s_sub_total><s_total><s_total_price> 664,329</s_total_price></s_total></s>"
+}

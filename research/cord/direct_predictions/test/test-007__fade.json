@@ -1,0 +1,87 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-007",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "c91b6fb9b87126f2c6358269fc3b8fb64b123b33c13c6a56be2da9568028aee8",
+  "elapsed_seconds": 3.084,
+  "detected_words": 34,
+  "detected_lines": 10,
+  "ocr_text": "Kuport 18 ino, 000 00 CHICKEN poy BAG sUbtoLat 408, 909 ORT Oi) ie ae as n ee Se Ge). 10,071 lotal fe | {uae ee ee ee | EE ere OS SES Ronee",
+  "trocr_words": "KUPON 15 MARN 2,000 000,000 ADD CHICKEN BOX @6% SUBTOTAL @ 100,909 PB1 (10%) (RM) BE (10%) (RM) (RM) TOTAL AMOUNT @6% CASHIER ONCLUSIVE ONCLUSIVE UP ON FACEBOOK WITH ON FACEBOOK ONCLUSIVEBOOK ON FACEBOOKBOOK ON FACEBOOKBOOKBOOKBOOKBOOKBOOKBOOK ON FACEBOOKBOOKBOOKBOOKBOOKBOOK ON ON ON ON THANK YOU FOR A FREE : CASHIER INCLUSIVE WITH US ON FACE",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "Se Ge).",
+      "cnt": null,
+      "price": "10,071"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "KUPON 15 MARN 2,000",
+      "cnt": null,
+      "price": "000,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL AMOUNT @6% THANK YOU FOR A FREE"
+  },
+  "layout_rows": [
+    {
+      "nm": "Kuport",
+      "cnt": "18",
+      "price": "ino, 000"
+    },
+    {
+      "nm": "CHICKEN",
+      "unitprice": "poy"
+    },
+    {
+      "nm": "sUbtoLat",
+      "price": "408, 909"
+    },
+    {
+      "nm": "ORT",
+      "cnt": "as n",
+      "price": "ee",
+      "unitprice": "ie ae"
+    },
+    {
+      "price": "10,071"
+    },
+    {
+      "price": "{uae"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KUPON MARN",
+      "cnt": "15",
+      "price": "000,000",
+      "unitprice": "2,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Kupon 15",
+        "price": "100,000"
+      },
+      {
+        "nm": "ADD CHICKEN BOX",
+        "price": "909"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "100,909",
+      "tax_price": "10,091"
+    },
+    "total": {
+      "total_price": "111,000",
+      "cashprice": "Rp. 111,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kupon 15</s_nm><s_price> 100,000</s_price><sep/><s_nm> ADD CHICKEN BOX</s_nm><s_price> 909</s_price></s_menu><s_sub_total><s_subtotal_price> 100,909</s_subtotal_price><s_tax_price> 10,091</s_tax_price></s_sub_total><s_total><s_total_price> 111,000</s_total_price><s_cashprice> Rp. 111,000</s_cashprice></s_total></s>"
+}

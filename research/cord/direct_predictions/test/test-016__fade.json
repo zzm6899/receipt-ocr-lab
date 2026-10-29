@@ -1,0 +1,118 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-016",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "dd01488ec79b539f0c1b85ca9cc214f26a2ff797221c2e61a925a009560401ac",
+  "elapsed_seconds": 2.461,
+  "detected_words": 61,
+  "detected_lines": 17,
+  "ocr_text": "his Bite, ‘ : oF Bae wr Berane “0 Saige Saag ores eee 4 [LG] BLACK SAKURA 59,001 —_— 4 LONGAN — =) 1 ROASTED ALMOND 0 ao: Gee 1 VANGGO 0 = 7) 1 VINERAL WATER (bundling) 5k 4,545 Se Sub Total 63,636 mee PBI (10%) 6,364 See Rounding 0 8 Total 70,000 ee Cash Payment 100,000 Pa Change 30,000",
+  "trocr_words": "CASHIER ITEM TOTAL: $8999 SR:03 : SR: SR: 1 [LG]BLACKSAKURA 59,091 1LONGAN 1 ROASTED ALMOND 0 TOTAL 1 VANGGO 1 MINERAL WATER (BUNDING) 5K 4,545 SR: SUB TOTAL *** PREPAX(10%) REGROUNDING US ONCLUSIVE ONVO TOTAL CASH PAYMENT CHANGE COME AGAIN 30000",
+  "ocr_rules_total": "70,000",
+  "ocr_rows": [
+    {
+      "nm": "eee 4 [LG] BLACK SAKURA",
+      "cnt": null,
+      "price": "59,001"
+    },
+    {
+      "nm": "7) 1 VINERAL WATER (bundling) 5k",
+      "cnt": null,
+      "price": "4,545"
+    },
+    {
+      "nm": "mee PBI (10%)",
+      "cnt": null,
+      "price": "6,364"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "[LG]BLACKSAKURA",
+      "cnt": "1",
+      "price": "59,091"
+    },
+    {
+      "nm": "MINERAL WATER (BUNDING) 5K",
+      "cnt": "1",
+      "price": "4,545"
+    }
+  ],
+  "layout_fields": {
+    "total": "his Total"
+  },
+  "cascade_fields": {
+    "total": "TOTAL: TOTAL"
+  },
+  "layout_rows": [
+    {
+      "cnt": "‘ :"
+    },
+    {
+      "nm": "BLACK SAKURA",
+      "cnt": "eee 4 [LG]",
+      "price": "59,001"
+    },
+    {
+      "cnt": "Gee"
+    },
+    {
+      "nm": "VINERAL WATER (bundling)",
+      "cnt": "7) 1 5k",
+      "price": "4,545"
+    },
+    {
+      "nm": "PBI",
+      "cnt": "mee",
+      "price": "6,364"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "[LG]BLACKSAKURA",
+      "cnt": "1",
+      "price": "59,091"
+    },
+    {
+      "nm": "MINERAL WATER (BUNDING)",
+      "cnt": "1 5K",
+      "price": "4,545"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "LONGAN",
+        "cnt": "1",
+        "price": "0"
+      },
+      {
+        "nm": "ROASTED ALMOND",
+        "cnt": "1",
+        "price": "0"
+      },
+      {
+        "nm": "NANGGO",
+        "cnt": "1",
+        "price": "0"
+      },
+      {
+        "nm": "MINERAL WATER (bundling) 5k",
+        "cnt": "1",
+        "price": "4,545"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "63,636",
+      "tax_price": "6,364",
+      "etc": "0"
+    },
+    "total": {
+      "total_price": "70,000",
+      "cashprice": "100,000",
+      "changeprice": "30,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> [LG] BLACK SAKURA</s_nm><s_cnt> 1</s_cnt><s_price> 59,091</s_price><s_sub><s_nm> LONGAN</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> ROASTED ALMOND</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> NANGGO</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> MINERAL WATER (bundling) 5k</s_nm><s_cnt> 1</s_cnt><s_price> 4,545</s_price></s_menu><s_sub_total><s_subtotal_price> 63,636</s_subtotal_price><s_tax_price> 6,364</s_tax_price><s_etc> 0</s_etc></s_sub_total><s_total><s_total_price> 70,000</s_total_price><s_cashprice> 100,000</s_cashprice><s_changeprice> 30,000</s_changeprice></s_total></s>"
+}

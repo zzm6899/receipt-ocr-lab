@@ -1,0 +1,81 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-027",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "a0fa7311c6110e8d8582780a3e02c8d77dcc700e87f61e8bfcb2a43c1ba01f19",
+  "elapsed_seconds": 1.43,
+  "detected_words": 30,
+  "detected_lines": 10,
+  "ocr_text": "dl --? . 009‘ 19 $304 q 009‘ 19 : ‘W101 009‘ ¥OL XVL 000‘9S 1¥LOLGAS SHILINOO'Z - 000‘E2 wWLO I¥1Nd 000‘E€ WVAY bt ee P * wo. ee ae",
+  "trocr_words": ": - HARGES SEGSHAH TOTAL TOTAL TOTAL TOTAL TOTAL TAX 10% SUBTOTAL 16,000 SMELL 00'Z GULOAI OILO IVTNG PKI AYAX WAX IX NET @ 00/6/8 SR",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL TOTAL TOTAL NET @ 00/6/8"
+  },
+  "layout_rows": [
+    {
+      "cnt": "19",
+      "price": "$304 q"
+    },
+    {
+      "cnt": "19",
+      "price": ": ‘W101"
+    },
+    {
+      "price": "¥OL XVL"
+    },
+    {
+      "nm": "SHILINOO'Z"
+    },
+    {
+      "price": "wWLO I¥1Nd"
+    },
+    {
+      "price": "WVAY bt ee"
+    },
+    {
+      "cnt": "*",
+      "price": "ee ae",
+      "unitprice": "wo."
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "HARGES"
+    },
+    {
+      "nm": "GULOAI OILO"
+    },
+    {
+      "cnt": "PKI",
+      "price": "WAX IX",
+      "unitprice": "AYAX"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "CHARACT",
+        "num": "009'19",
+        "price": "009'19"
+      },
+      {
+        "nm": "009'g",
+        "num": "009'g"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "009"
+    },
+    "total": {
+      "total_price": "SWELI 002",
+      "cashprice": "KOLO IVING",
+      "changeprice": "1Kd"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> CHARACT</s_nm><s_num> 009'19</s_num><s_price> 009'19</s_price><sep/><s_nm> 009'g</s_nm><s_num> 009'g</s_num><s_price> 009'g</s_num><s_price> 009</s_price></s_menu><s_sub_total><s_subtotal_price> 009</s_subtotal_price></s_sub_total><s_total><s_total_price> SWELI 002</s_total_price><s_cashprice> KOLO IVING</s_cashprice><s_changeprice> 1Kd</s_changeprice></s_total></s>"
+}

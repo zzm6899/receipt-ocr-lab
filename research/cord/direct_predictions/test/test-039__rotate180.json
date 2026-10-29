@@ -1,0 +1,31 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-039",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "7f2132fd8776ec559e27df96f68a1a708fa5fc7bf7837e2b9e64567febd16934",
+  "elapsed_seconds": 0.89,
+  "detected_words": 0,
+  "detected_lines": 0,
+  "ocr_text": "",
+  "trocr_words": "",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [],
+  "cascade_rows": [],
+  "donut_json": [
+    {
+      "cnt": "1",
+      "price": "337303",
+      "sub": "000*000</s_price>"
+    },
+    {
+      "cnt": "1",
+      "price": "337303"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000*000</s_unitprice><s_cnt> 1</s_cnt><s_price> 337303</s_price><s_sub><s_nm> 000*000</s_price></s_sub><sep/><s_nm> 000*000</s_unitprice><s_cnt> 1</s_cnt><s_price> 337303</s_price><s_sub><s_nm> 000*000</s_unitprice><s_cnt> 1</s_cnt><s_price> 337303</s_price><s_sub><s_nm> 000*000</s_unitprice><s_cnt> 1</s_cnt><s_price> 337303</s_price><s_sub><s_nm> 000*000</s_unitprice><s_cnt> 1</s_cnt><s_price> 337303</s_price><s_sub><s_nm> 000*000</s_unitprice><s_cnt> 1</s_cnt><s_price> 337303</s_price><s_sub><s_nm> 000*000</s_unitprice><s_cnt> 1</s_cnt><s_price> 337303</s_price><s_sub><s_nm> 000*000</s_unitprice><s_cnt> 1</s_cnt><s_price> 337303</s_price><s_sub><s_nm> 000*000縫</s_total></s>"
+}

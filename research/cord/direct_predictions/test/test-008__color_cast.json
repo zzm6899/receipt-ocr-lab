@@ -1,0 +1,81 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-008",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "5d96a464f801ce9a8c8355e0ec6153e7a0e0fcf70ec03dc5f9c5a2ab40f6825d",
+  "elapsed_seconds": 1.096,
+  "detected_words": 14,
+  "detected_lines": 7,
+  "ocr_text": "45,455 JG : q 0 45,456 — 4545 { e) - 50,000 ~ 50,000",
+  "trocr_words": "SAKURA 45.455 ICES 0 45,455 4,545 0 50,000 50,000",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "~",
+      "cnt": null,
+      "price": "50,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "SAKURA",
+      "cnt": null,
+      "price": "45.455"
+    }
+  ],
+  "layout_fields": {
+    "total": "45,455"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "JG",
+      "price": "q"
+    },
+    {
+      "price": "4545"
+    },
+    {
+      "price": "50,000"
+    },
+    {
+      "price": "50,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "SAKURA",
+      "unitprice": "45.455"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "[REG] BLACK SAKURA",
+      "cnt": "1",
+      "price": "45,455",
+      "sub": [
+        {
+          "nm": "COOKIE DOH SAUCES",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "NATA DE COCO",
+          "cnt": "1",
+          "price": "0"
+        }
+      ]
+    },
+    "sub_total": {
+      "subtotal_price": "45,455",
+      "tax_price": "4,545",
+      "etc": "0"
+    },
+    "total": {
+      "total_price": "50,000",
+      "creditcardprice": "50,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> [REG] BLACK SAKURA</s_nm><s_cnt> 1</s_cnt><s_price> 45,455</s_price><s_sub><s_nm> COOKIE DOH SAUCES</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> NATA DE COCO</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price></s_sub></s_menu><s_sub_total><s_subtotal_price> 45,455</s_subtotal_price><s_tax_price> 4,545</s_tax_price><s_etc> 0</s_etc></s_sub_total><s_total><s_total_price> 50,000</s_total_price><s_creditcardprice> 50,000</s_creditcardprice></s_total></s>"
+}

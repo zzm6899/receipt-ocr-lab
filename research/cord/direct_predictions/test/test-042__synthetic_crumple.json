@@ -1,0 +1,98 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-042",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "5a26fc58d05f875164e6f465e5c53113391289aada26e91a3e7b09974d66e1cf",
+  "elapsed_seconds": 2.085,
+  "detected_words": 43,
+  "detected_lines": 19,
+  "ocr_text": "<q q ie) — aia % \\ Bes, ib ' a s \\ ‘T i si WU Jia Ay t CEN ae q P feet 4 o0U ap mr Ae bi Yt ? . 4 K efi vrs s 4 nee aay aie",
+  "trocr_words": "ITEMS INCLUSIVE - * - 1 AKE AM 1 AMOUNT NAME AMOUNT NAME 1.500 10 F66 K \" ITEM OVER: SR: : - TAX: CASHIER",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "cnt": "<q",
+      "price": "q ie)"
+    },
+    {
+      "cnt": "— %",
+      "unitprice": "aia"
+    },
+    {
+      "cnt": "\\"
+    },
+    {
+      "cnt": "s \\",
+      "price": "‘T"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "si",
+      "price": "Ay",
+      "unitprice": "WU Jia"
+    },
+    {
+      "cnt": "CEN ae"
+    },
+    {
+      "cnt": "q",
+      "price": "o0U",
+      "unitprice": "P feet 4"
+    },
+    {
+      "cnt": "mr Ae"
+    },
+    {
+      "cnt": "?"
+    },
+    {
+      "cnt": "4",
+      "price": "vrs",
+      "unitprice": "K efi"
+    },
+    {
+      "cnt": "s 4"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "*"
+    },
+    {
+      "nm": "AKE"
+    },
+    {
+      "cnt": "NAME"
+    },
+    {
+      "unitprice": "1.500"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Chicken HCC, 1Pcs",
+      "cnt": "1",
+      "price": "15.000"
+    },
+    "sub_total": {
+      "subtotal_price": "15,000",
+      "tax_price": "1.500"
+    },
+    "total": {
+      "total_price": "16,500",
+      "cashprice": "50,000",
+      "changeprice": "33,500",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Chicken HCC, 1Pcs</s_nm><s_cnt> 1</s_cnt><s_price> 15.000</s_price></s_menu><s_sub_total><s_subtotal_price> 15,000</s_subtotal_price><s_tax_price> 1.500</s_tax_price></s_sub_total><s_total><s_total_price> 16,500</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 33,500</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

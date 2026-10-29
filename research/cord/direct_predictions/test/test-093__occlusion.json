@@ -1,0 +1,94 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-093",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "d27bc21cd9a06b83a491c653c43ddfe268e61efa9e19fc9e08af944f7dfc99da",
+  "elapsed_seconds": 1.289,
+  "detected_words": 33,
+  "detected_lines": 9,
+  "ocr_text": "THAT ICED TEA (L} be 14,363 16,363 Jumlah Item : Sub Total : 14,343 Pajak Resto 4,436 Grand Total : £70999 : a+ 6 el sopeee . =m o —— |. | )",
+  "trocr_words": "THAI ICED TEA (L) 1 X 16,363 16,363 JUMLAN ITEM SUB TOTAL : 1,000 PAJAK RESTO !!! !!! GRAND TOTAL ~~ 17,999 - ---- CASHIER",
+  "ocr_rules_total": "70999",
+  "ocr_rows": [
+    {
+      "nm": "be 14,363",
+      "cnt": null,
+      "price": "16,363"
+    },
+    {
+      "nm": "Pajak Resto",
+      "cnt": null,
+      "price": "4,436"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "X 16,363",
+      "cnt": "1",
+      "price": "16,363"
+    }
+  ],
+  "layout_fields": {
+    "total": "Grand Total : el |"
+  },
+  "cascade_fields": {
+    "total": "GRAND TOTAL ~~ 17,999"
+  },
+  "layout_rows": [
+    {
+      "nm": "THAT ICED TEA",
+      "cnt": "(L}"
+    },
+    {
+      "cnt": "be",
+      "price": "16,363",
+      "unitprice": "14,363"
+    },
+    {
+      "price": "14,343"
+    },
+    {
+      "nm": "Pajak Resto",
+      "price": "4,436"
+    },
+    {
+      "price": "o"
+    },
+    {
+      "cnt": ")"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "THAI ICED TEA",
+      "cnt": "(L)"
+    },
+    {
+      "cnt": "1 X",
+      "price": "16,363",
+      "unitprice": "16,363"
+    },
+    {
+      "nm": "PAJAK RESTO",
+      "price": "!!!"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "THAI ICED TEA (L)",
+      "unitprice": "16,363",
+      "cnt": "1 X",
+      "price": "16,363"
+    },
+    "sub_total": {
+      "subtotal_price": "16,363",
+      "tax_price": "1,636"
+    },
+    "total": {
+      "total_price": "17,999",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> THAI ICED TEA (L)</s_nm><s_unitprice> 16,363</s_unitprice><s_cnt> 1 X</s_cnt><s_price> 16,363</s_price></s_menu><s_sub_total><s_subtotal_price> 16,363</s_subtotal_price><s_tax_price> 1,636</s_tax_price></s_sub_total><s_total><s_total_price> 17,999</s_total_price><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,141 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-089",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "249224e9e6871818cc669fbb268cd2ad88c5ef51d7147bfb9e6c692ff09ef77f",
+  "elapsed_seconds": 8.57,
+  "detected_words": 107,
+  "detected_lines": 36,
+  "ocr_text": "exe Mee cers rae bi 4 4 PvE weer a age ea Sg a a ee a a fo) S88ewmansaameman Be 4] ae ere ain cere arrears meatier aiste mire E ee : Ba, pee EO: | Bee ane) 4 ie aa VSL) 3 i=) pre fe: Tear =By ay 3 TAS ie . 7 4a } 4 | ‘ a 4 Be ae a. pee | Be ee as 2s ai es aot) a ee Ce } i, a ae a) nue ie: ie Be th i‘ oe Sn ; Ss ESTEE a er Uf) 2 2 eae ae ee eae a pe eh a A",
+  "trocr_words": "PLEASE OF GST @6% AMOUNT AMOUNT NO. : WWW.L.COM WWWWWWWWWWWWWWWW SR188188188188188188188188188188188188-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12-12- (1) WWW.WWWWWWWWWWWWWWWWWW. AMOUNT: SAVAIN ************ 000 OFF ~~ VE YOU OF ******** 0006 INVOOD OF ************ *** 1 1 1 : WWW.WWWW. WWW.WW. WWW.WW. SR: SR: AMOUNT: SR:00-12-12-12-12-12-12-12-12-12-12-12-12 (INCLUSIVE WITHINCEIPT) : SR: 1, JALANANANANANANANANANANANANANANANANANANANANANANANANANANANAN GST REG #: 1/2018/18/18/18/18/1803/1703/1203/1703 SR:00-12-12-12, JALANANANANANANANANANANANANANANANANANANANANANANANAN SR: 1,8/4,8,8,KAWASANANANANANANANANANANANANANANAN,KAWAS WWW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K SR: 1,00-1,8, JALANANANANANANANANANANANANANANANAN WWW.WW.WW.WW.W.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K SR:00-1,8-1,8, JALANANANANANANANANANANANANANANANAN SR: THANK YOU FOR FULL",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Be Be ee eae"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "exe Mee",
+      "price": "rae"
+    },
+    {
+      "cnt": "bi 4",
+      "price": "4 PvE"
+    },
+    {
+      "price": "a age"
+    },
+    {
+      "cnt": "ea",
+      "price": "Sg"
+    },
+    {
+      "cnt": "ee",
+      "price": "a"
+    },
+    {
+      "nm": "S88ewmansaameman",
+      "cnt": "fo)",
+      "price": "Be"
+    },
+    {
+      "nm": "arrears",
+      "cnt": "ae ere ain cere",
+      "price": "mire E"
+    },
+    {
+      "cnt": "ee :",
+      "price": "Ba,"
+    },
+    {
+      "price": "4 ie"
+    },
+    {
+      "cnt": "aa 3"
+    },
+    {
+      "price": "ay"
+    },
+    {
+      "cnt": "3"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "price": "ae"
+    },
+    {
+      "cnt": "a.",
+      "price": "pee"
+    },
+    {
+      "price": "ee"
+    },
+    {
+      "cnt": "a)",
+      "price": "nue"
+    },
+    {
+      "cnt": "th",
+      "price": "oe"
+    },
+    {
+      "cnt": "Uf) 2 2 ae",
+      "unitprice": "eae"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PLEASE OF"
+    },
+    {
+      "nm": "SAVAIN"
+    },
+    {
+      "unitprice": "000"
+    },
+    {
+      "nm": "JALANANANANANANANANANANANANANANANANANANANANANANANANANANANAN",
+      "cnt": "1,"
+    },
+    {
+      "cnt": "REG #: 1/2018/18/18/18/18/1803/1703/1203/1703"
+    },
+    {
+      "nm": "JALANANANANANANANANANANANANANANANAN"
+    },
+    {
+      "nm": "JALANANANANANANANANANANANANANANANAN"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'01: abueyo",
+        "unitprice": "000'05",
+        "cnt": "1",
+        "price": "Aed"
+      },
+      {
+        "nm": "000'07",
+        "unitprice": "000'07",
+        "cnt": "1",
+        "price": "1",
+        "sub": {
+          "nm": "000'07"
+        }
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "seped -"
+    },
+    "total": {
+      "total_price": "Adsuc 700"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'01: abueyo</s_nm><s_unitprice> 000'05</s_unitprice><s_cnt> 1</s_cnt><s_price> Aed</s_price><sep/><s_nm> 000'07</s_nm><s_unitprice> 000'07</s_unitprice><s_cnt> 1</s_cnt><s_price> 1</s_price><s_sub><s_nm> 000'07</s_nm></s_sub></s_menu><s_sub_total><s_subtotal_price> seped -</s_subtotal_price></s_sub_total><s_total><s_total_price> Adsuc 700</s_total_price></s_total></s>"
+}

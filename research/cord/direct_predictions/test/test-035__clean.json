@@ -1,0 +1,137 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-035",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "0db16d4a8b6e1e84e58f5b2cb012fcd2e1364e5b8ee4ebd1fd291e2b302be8d9",
+  "elapsed_seconds": 1.672,
+  "detected_words": 39,
+  "detected_lines": 10,
+  "ocr_text": "+ ade 4+ deere + = S892 Twist owt = tCSCS*«iB 000 1 BANANA DONUT 11,000 1 CREAMCHEESE BREAD 13,000 1 FRANKFRUT SAUSAGE ROLL 12,000 TOTAL 5¢ ,000 | CASH 104 ,000 | CHANGE a ,000 t- > ~~",
+  "trocr_words": "*** - 2 TWIST DONUT 18,000 1 BANANA DONUT 11,000 1 CREAMCHEESE BREAD 13,000 1 FRANKFRUT SAUSAGE ROLL 12,000 TOTAL 54,000 CASH ICE E( 104.000 CHANGE 5(,000 ITEM",
+  "ocr_rules_total": "000",
+  "ocr_rows": [
+    {
+      "nm": "BANANA DONUT",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "CREAMCHEESE BREAD",
+      "cnt": "1",
+      "price": "13,000"
+    },
+    {
+      "nm": "FRANKFRUT SAUSAGE ROLL",
+      "cnt": "1",
+      "price": "12,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "TWIST DONUT",
+      "cnt": "2",
+      "price": "18,000"
+    },
+    {
+      "nm": "BANANA DONUT",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "CREAMCHEESE BREAD",
+      "cnt": "1",
+      "price": "13,000"
+    },
+    {
+      "nm": "FRANKFRUT SAUSAGE ROLL",
+      "cnt": "1",
+      "price": "12,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 54,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "ade",
+      "cnt": "+ 4+"
+    },
+    {
+      "nm": "Twist owt",
+      "cnt": "S892",
+      "price": "tCSCS*«iB 000"
+    },
+    {
+      "nm": "BANANA DONUT",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "CREAMCHEESE BREAD",
+      "cnt": "1",
+      "price": "13,000"
+    },
+    {
+      "nm": "FRANKFRUT SAUSAGE ROLL",
+      "cnt": "1",
+      "price": "12,000"
+    },
+    {
+      "price": "104 ,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TWIST DONUT",
+      "cnt": "2",
+      "price": "18,000"
+    },
+    {
+      "nm": "BANANA DONUT",
+      "cnt": "1",
+      "price": "11,000"
+    },
+    {
+      "nm": "CREAMCHEESE BREAD",
+      "cnt": "1",
+      "price": "13,000"
+    },
+    {
+      "nm": "FRANKFRUT SAUSAGE ROLL",
+      "cnt": "1",
+      "price": "12,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "TWIST DONUT",
+        "cnt": "2",
+        "price": "18,000"
+      },
+      {
+        "nm": "BANANA DONUT",
+        "cnt": "1",
+        "price": "11,000"
+      },
+      {
+        "nm": "CREAMCHEESE BREAD",
+        "cnt": "1",
+        "price": "13,000"
+      },
+      {
+        "nm": "FRANKFRUT SAUSAGE ROLL",
+        "cnt": "1",
+        "price": "12,000"
+      }
+    ],
+    "total": {
+      "total_price": "54,000",
+      "cashprice": "104,000",
+      "changeprice": "50,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TWIST DONUT</s_nm><s_cnt> 2</s_cnt><s_price> 18,000</s_price><sep/><s_nm> BANANA DONUT</s_nm><s_cnt> 1</s_cnt><s_price> 11,000</s_price><sep/><s_nm> CREAMCHEESE BREAD</s_nm><s_cnt> 1</s_cnt><s_price> 13,000</s_price><sep/><s_nm> FRANKFRUT SAUSAGE ROLL</s_nm><s_cnt> 1</s_cnt><s_price> 12,000</s_price></s_menu><s_total><s_total_price> 54,000</s_total_price><s_cashprice> 104,000</s_cashprice><s_changeprice> 50,000</s_changeprice></s_total></s>"
+}

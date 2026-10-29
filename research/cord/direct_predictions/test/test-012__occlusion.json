@@ -1,0 +1,85 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-012",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "4f61e5e8afa71aeb9c7d16e060703d1161227fcb8240a561585c97452dae7d2b",
+  "elapsed_seconds": 1.467,
+  "detected_words": 29,
+  "detected_lines": 13,
+  "ocr_text": ")& a a OS71~185¢ pis WAIT ae 1 #120, 00; , . 1002-0080 SHORE ING i eee \\ a ; fUTAL (3 j CO Miss Tota! 148 a ge",
+  "trocr_words": "29 2 C 0571-1854 BLUS WANT 12-00 @120,000 0% 120,000 1002-0060 SHOPPING 1 8880100 TAX: TOTAL (2 1 CC.VISA TOTAL - CASHIER",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "12-00 @120,000 0%",
+      "cnt": null,
+      "price": "120,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "148"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "price": ")&"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "unitprice": "pis"
+    },
+    {
+      "cnt": "ae 1",
+      "price": ", .",
+      "unitprice": "#120, 00;"
+    },
+    {
+      "cnt": "(3"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BLUS WANT"
+    },
+    {
+      "cnt": "0%",
+      "price": "120,000",
+      "unitprice": "12-00 @120,000"
+    },
+    {
+      "nm": "SHOPPING"
+    },
+    {
+      "cnt": "1"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "0571-1854 BLUS WANITA",
+        "unitprice": "@120.000",
+        "cnt": "1",
+        "price": "120,000"
+      },
+      {
+        "nm": "1002-0060 SHOPPING BAG",
+        "cnt": "1",
+        "price": "0"
+      }
+    ],
+    "total": {
+      "total_price": "120,000",
+      "changeprice": "0",
+      "creditcardprice": "120,000",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 0571-1854 BLUS WANITA</s_nm><s_unitprice> @120.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 120,000</s_price><sep/><s_nm> 1002-0060 SHOPPING BAG</s_nm><s_unitprice> @880 100%</s_nm><s_unitprice> @880</s_unitprice><s_cnt> 1</s_cnt><s_price> 0</s_price></s_menu><s_total><s_total_price> 120,000</s_total_price><s_changeprice> 0</s_changeprice><s_creditcardprice> 120,000</s_creditcardprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,298 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-074",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "759fbbe838d975f0abfb3921292246f10cfc8b5f82a1b16ad15f01a56a89c603",
+  "elapsed_seconds": 10.318,
+  "detected_words": 317,
+  "detected_lines": 46,
+  "ocr_text": "ey AST LR ae ee a ie on ne eee iF se 8 ? ' i ef { i ‘ep Te & | ira 7 j Poi i] ; } i } } § | i 4 LA ess ay alee ’ a ae ih He HPT APSA AEE ia g { F ij fi ’t fea j iy j ; | ; ef } Pea aaa } | Bata A it f COU WAR HALT Ge ATAM TLL Pury fi te ea a Fi Bee bo Hy VT q Fee Mi ea el UW i} j / } Hea it i | Be | i ' i i \\ ae ME me ae | i | i in npg ae omer saeco Safa ad afc. == forse penal gE dad 1 aah ' Tee Ws ie } Fat Ay et 4 - a | Rit if 1 BLACKCURRANT 32,000 | EA 1 SPRITE 32 , 000 Ka a hed n Nh HI BEVERAGE » 64,000 Ba. Ah | GRILLED CALAMARI 85 , 000 Wy vay Ai | DINE FOR 2 129,000 1 Mai Apeey |: k 1 ees 5 i} 5 / i ibe i * DANISH FISH & CHIPS Dr ~st. Ae, vey | * NEW YORK FISH & CHIPS --- HY Wanye 4 Gage 4 HVE ih} j) ** FOOD 214,000 qT: Pye SUBTTL e78,000 ES | Rete 22,240 Ma} 7 a i) it i; | 1 Bal ee ewe Hf Al Aly H j es i i bit H Gate Bye FARR WEP ee EP? Fei a I a ie hal ey hii b Hil) 1 WHE HAGE MMe ital 1) ee eee tee A em ls igt ; | ; Wee PP Mb Tah Mi eed be ay IEE be | |) tae Wg ‘| ie { Meo i ET) ba | mol 0) Roy Be i Ea a Ll 0 ae",
+  "trocr_words": "AMERICAN PERIM PERMAS INTERMAN SR: 10000008000000812008-20-17-12-1703 INVOICE INVOICE INCLUSIVE AND RETURNS AND USJUMOR *** 010009000000000000000000008000 *** 106-11-1,8, JALANANANAN PERINDUSTRIAN SR:03-17-1,8, JALANANANANAN PERMAS INVOICE : INVO COME AGAIN WWWW WWW.WW. WW WWW. IM ITEMS SUMMARY INVOICE OF NOT QUITH : 1. SEE: WW WWWWWWWWWW CASHIER AMOUNT 1 BACVCUBDANT BLACKORANT 32,000 INVOICE: $2.00 INV* BEVERAGE 64,000 INVOICE | GRILLED CALAMARI 85,000 INLINE FOR 2 DAY 12,000 NETLAN * DANISH FISH & CHIPS OF --- MANAD NETLANIN INVIN FINAL NUMP NC LOUN AMOUNT NO.** * NEW YORK FISH & CHIPS 2 1 006 - AANOR *** FOOD 24,000 AMOUNT # 5000 PMMM SR: 28:00 SRICE GARVIDA CHARGE 22,240 ------------- !!! IT REMMINAL TRANSIGNINGS! SR:03-12-1,81200-1203-0150-1203-1703 SR:06:06:06:03:03:03:17:02:03:20:19:18:03:03:18:18:18:18:18:18 ITEM TOTAL:0000000009 ITEMS INCLUSIONS (8%) WWWWWWWWWWWWWWWWWWWWWWWWWW UNVOICE:00000000000000.00 INVOICE MUST BE INCLUSIVE OF SIGNTAIN DESCOUNT WITH: 065-157820-000708788 RECEIPT @6.00%@6%@6% WWW.WW.MY.MY.MY.MY ITS IN RMIPPICE DESCOUNT:0000000000008000",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "a | Rit if 1 BLACKCURRANT",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "n Nh HI BEVERAGE »",
+      "cnt": null,
+      "price": "64,000"
+    },
+    {
+      "nm": "vay Ai | DINE FOR 2",
+      "cnt": null,
+      "price": "129,000"
+    },
+    {
+      "nm": "HVE ih} j) ** FOOD",
+      "cnt": null,
+      "price": "214,000"
+    },
+    {
+      "nm": "ES | Rete",
+      "cnt": null,
+      "price": "22,240"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "BLACKORANT",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "INV* BEVERAGE",
+      "cnt": null,
+      "price": "64,000"
+    },
+    {
+      "nm": "INVOICE | GRILLED CALAMARI",
+      "cnt": null,
+      "price": "85,000"
+    },
+    {
+      "nm": "INLINE FOR 2 DAY",
+      "cnt": null,
+      "price": "12,000"
+    },
+    {
+      "nm": "FOOD",
+      "cnt": null,
+      "price": "24,000"
+    },
+    {
+      "nm": "SRICE GARVIDA CHARGE",
+      "cnt": null,
+      "price": "22,240"
+    }
+  ],
+  "layout_fields": {
+    "total": "ee Al i"
+  },
+  "cascade_fields": {
+    "total": "TOTAL:0000000009"
+  },
+  "layout_rows": [
+    {
+      "nm": "ie",
+      "cnt": "ey ae a on ne",
+      "price": "iF"
+    },
+    {
+      "cnt": "' i ef { ‘ep",
+      "price": "Te"
+    },
+    {
+      "cnt": "j i] ; } i } } § | i 4 LA ess",
+      "price": "ay"
+    },
+    {
+      "cnt": "ae ih",
+      "price": "APSA AEE"
+    },
+    {
+      "cnt": "ij fi fea j iy j ; |",
+      "price": "; ef"
+    },
+    {
+      "cnt": "aaa } |",
+      "price": "it"
+    },
+    {
+      "nm": "WAR HALT Ge ATAM",
+      "price": "fi"
+    },
+    {
+      "cnt": "te ea bo"
+    },
+    {
+      "price": "Mi"
+    },
+    {
+      "cnt": "j /"
+    },
+    {
+      "price": "i"
+    },
+    {
+      "cnt": "'"
+    },
+    {
+      "nm": "saeco Safa",
+      "cnt": "| i in ad",
+      "price": "penal gE"
+    },
+    {
+      "cnt": "} Fat Ay et 4"
+    },
+    {
+      "nm": "BLACKCURRANT",
+      "cnt": "a | Rit if 1",
+      "price": "32,000"
+    },
+    {
+      "nm": "SPRITE",
+      "cnt": "1 ,",
+      "price": "32 000 Ka"
+    },
+    {
+      "nm": "BEVERAGE",
+      "cnt": "n Nh HI »",
+      "price": "64,000 Ba."
+    },
+    {
+      "nm": "GRILLED CALAMARI",
+      "cnt": "|",
+      "price": "85 , 000 Wy"
+    },
+    {
+      "nm": "DINE FOR",
+      "cnt": "vay Ai | 2",
+      "price": "129,000"
+    },
+    {
+      "cnt": "1 5",
+      "price": "/"
+    },
+    {
+      "nm": "DANISH",
+      "cnt": "i ibe i *",
+      "price": "Dr ~st. Ae,"
+    },
+    {
+      "cnt": "vey | *",
+      "price": "--- HY"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "nm": "** FOOD",
+      "cnt": "HVE ih} j)",
+      "price": "214,000 qT:"
+    },
+    {
+      "nm": "SUBTTL",
+      "cnt": "Pye",
+      "price": "e78,000"
+    },
+    {
+      "nm": "Rete",
+      "cnt": "|",
+      "price": "22,240 Ma}"
+    },
+    {
+      "cnt": "Hf H j"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "cnt": "1) eee tee"
+    },
+    {
+      "cnt": "Mi be ay IEE |)",
+      "price": "tae Wg ie"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "JALANANANAN"
+    },
+    {
+      "nm": "BACVCUBDANT",
+      "cnt": "1"
+    },
+    {
+      "nm": "BLACKORANT",
+      "price": "32,000"
+    },
+    {
+      "nm": "INV* BEVERAGE",
+      "price": "64,000"
+    },
+    {
+      "nm": "GRILLED CALAMARI",
+      "cnt": "INVOICE |",
+      "price": "85,000"
+    },
+    {
+      "nm": "INLINE FOR DAY",
+      "cnt": "2",
+      "price": "12,000"
+    },
+    {
+      "nm": "NETLAN DANISH FISH & CHIPS",
+      "cnt": "* OF",
+      "price": "--- MANAD"
+    },
+    {
+      "nm": "NETLANIN INVIN FINAL"
+    },
+    {
+      "nm": "NEW YORK FISH & CHIPS",
+      "cnt": "AMOUNT NO.** * 2 1",
+      "price": "006 - AANOR"
+    },
+    {
+      "nm": "FOOD"
+    },
+    {
+      "cnt": "#"
+    },
+    {
+      "nm": "SRICE GARVIDA CHARGE",
+      "price": "22,240"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BLACKCURRANT",
+        "cnt": "1",
+        "price": "32,000"
+      },
+      {
+        "nm": "SPRITE",
+        "cnt": "1",
+        "price": "32,000"
+      },
+      {
+        "nm": "BEVERAGE",
+        "price": "64,000"
+      },
+      {
+        "nm": "GRILLED CALAMARI",
+        "cnt": "1",
+        "price": "85,000"
+      },
+      {
+        "nm": "DINE FOR 2",
+        "cnt": "1",
+        "price": "129,000",
+        "sub": {
+          "nm": "DANISH FISH & CHIPS DF"
+        }
+      },
+      {
+        "nm": "* NEW YORK FISH & CHIPS"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "278,000",
+      "service_price": "22,240",
+      "tax_price": "30,024",
+      "etc": [
+        "214,000",
+        "278,000"
+      ]
+    },
+    "total": {
+      "total_price": "330,264"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BLACKCURRANT</s_nm><s_cnt> 1</s_cnt><s_price> 32,000</s_price><sep/><s_nm> SPRITE</s_nm><s_cnt> 1</s_cnt><s_price> 32,000</s_price><sep/><s_nm> BEVERAGE</s_nm><s_price> 64,000</s_price><sep/><s_nm> GRILLED CALAMARI</s_nm><s_cnt> 1</s_cnt><s_price> 85,000</s_price><sep/><s_nm> DINE FOR 2</s_nm><s_cnt> 1</s_cnt><s_price> 129,000</s_price><s_sub><s_nm> DANISH FISH & CHIPS DF</s_nm></s_sub><sep/><s_nm> * NEW YORK FISH & CHIPS</s_nm></s_sub></s_menu><s_sub_total><s_subtotal_price> 278,000</s_subtotal_price><s_service_price> 22,240</s_service_price><s_tax_price> 30,024</s_tax_price><s_etc> 214,000<sep/> 278,000</s_etc></s_sub_total><s_total><s_total_price> 330,264</s_total_price></s_total></s>"
+}

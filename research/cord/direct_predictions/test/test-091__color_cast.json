@@ -1,0 +1,108 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-091",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "37c2412532f450b4bff4e8c65652bc3e404b53abe2a35ec61f4a6d63364e5290",
+  "elapsed_seconds": 1.248,
+  "detected_words": 29,
+  "detected_lines": 12,
+  "ocr_text": "it a we vnc” peas ace ore te iad, ine «Lacan ore wee tae 1 BAKSO BNGKS 18.000 8 GORENGAN +6, 000, TL -21,000 CASH 30,000 ce 79/000) sinc",
+  "trocr_words": "ITEM WWWW. *** *** *** *** 1 BAKSO BNGKS 15.000 6 GORENGAN 21 6.000 IL. 21.000 CASH 30.000 CG 8.000 CASH SALES NOT",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "BAKSO BNGKS",
+      "cnt": "1",
+      "price": "18.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "BAKSO BNGKS",
+      "cnt": "1",
+      "price": "15.000"
+    },
+    {
+      "nm": "GORENGAN 21",
+      "cnt": "6",
+      "price": "6.000"
+    },
+    {
+      "nm": "IL.",
+      "cnt": null,
+      "price": "21.000"
+    },
+    {
+      "nm": "CG",
+      "cnt": null,
+      "price": "8.000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "IL. 21.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "vnc” peas",
+      "cnt": "we",
+      "price": "ace"
+    },
+    {
+      "price": "te"
+    },
+    {
+      "cnt": "ine"
+    },
+    {
+      "price": "tae"
+    },
+    {
+      "nm": "BAKSO BNGKS",
+      "cnt": "1",
+      "price": "18.000"
+    },
+    {
+      "nm": "GORENGAN",
+      "cnt": "8",
+      "price": "000,"
+    },
+    {
+      "price": "30,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BAKSO BNGKS",
+      "cnt": "1",
+      "price": "15.000"
+    },
+    {
+      "nm": "GORENGAN",
+      "cnt": "6",
+      "price": "6.000",
+      "unitprice": "21"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BAKSO BNGKS",
+        "cnt": "1",
+        "price": "15,000"
+      },
+      {
+        "nm": "GORENGAN",
+        "cnt": "6",
+        "price": "6,000"
+      }
+    ],
+    "total": {
+      "total_price": "21,000",
+      "cashprice": "30,000",
+      "changeprice": "9,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BAKSO BNGKS</s_nm><s_cnt> 1</s_cnt><s_price> 15,000</s_price><sep/><s_nm> GORENGAN</s_nm><s_cnt> 6</s_cnt><s_price> 6,000</s_price></s_menu><s_total><s_total_price> 21,000</s_total_price><s_cashprice> 30,000</s_cashprice><s_changeprice> 9,000</s_changeprice></s_total></s>"
+}

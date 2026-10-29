@@ -1,0 +1,245 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-014",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "787a9ac78cf70a739a5a91eb69a3b33cf75f9b56f5c269094f4b592638d5640d",
+  "elapsed_seconds": 5.38,
+  "detected_words": 151,
+  "detected_lines": 31,
+  "ocr_text": "a ; <i a Seis A, _ 4 ee ae v , = | | Sa cd, LL eee: oa ee ee 4 2 1 RedVelvel Cheese Shc 39,000 4 Nl isa 1 Chicken Baked Rice 53,000 ae i Fish wa Chips 65,000 7 oe 1 Hushrovm Soup 34,000 ety ere te: : i Chamomile fu, 000 hs Sloat i Iced Tea 20,000 aia i Oe ee wd es sony OTAL 238 , 000 oe ae “eet 17,850 af ~ . on yun i C—O eee in0,000 = CASH ’ , £00,000 ies A 1 2 4 = Charge \\ me 18 you on cee \\ (een ne — a . ; 2. f 2 e : F: : a ; = ist y ‘ a a Bee : % ss im a : at ou - FE “ie \\ | a Fae ie eee pi ess a eee eye ee",
+  "trocr_words": "*** ITEMABLE ITEM ITEM *** CASHIER AMOUNT 1, RM 1,KAWAWAWAWAWAWAW AMOUNT 1 RECEIVED CHESE SIC 38,000 SR000 INVOICE 1 FISH A CHIPS @ 5,000 INCLUS FROM SOOD IS,00 INCL (CHAMILE) : 25,00 INCLED TAX !!! 20,000 - TOTAL SUBTOTAL @ 28,000 AMOUNT SERVICE : 6,888 1 1,55 COUPON CASH *** 200,000 THANK YOU. 18.55 CHANGE 18,565 ......................... ITEM 1 ITEMS 1 DAY WWW.WW.W.W.W.MY. CASHIER: AMOUNT CASHIER AMOUNT AMOUNT",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "1 RedVelvel Cheese Shc",
+      "cnt": "2",
+      "price": "39,000"
+    },
+    {
+      "nm": "Nl isa 1 Chicken Baked Rice",
+      "cnt": null,
+      "price": "53,000"
+    },
+    {
+      "nm": "ae i Fish wa Chips",
+      "cnt": null,
+      "price": "65,000"
+    },
+    {
+      "nm": "oe 1 Hushrovm Soup",
+      "cnt": null,
+      "price": "34,000"
+    },
+    {
+      "nm": "Sloat i Iced Tea",
+      "cnt": null,
+      "price": "20,000"
+    },
+    {
+      "nm": "oe ae “eet",
+      "cnt": null,
+      "price": "17,850"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "INVOICE 1 FISH A CHIPS @",
+      "cnt": null,
+      "price": "5,000"
+    },
+    {
+      "nm": "INCL (CHAMILE)",
+      "cnt": null,
+      "price": "25,00"
+    },
+    {
+      "nm": "1",
+      "cnt": null,
+      "price": "1,55"
+    },
+    {
+      "nm": "THANK YOU.",
+      "cnt": null,
+      "price": "18.55"
+    }
+  ],
+  "layout_fields": {
+    "total": "; ; a : Fae ie"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "a",
+      "price": ";"
+    },
+    {
+      "cnt": "<i",
+      "price": "a Seis"
+    },
+    {
+      "cnt": "A, _"
+    },
+    {
+      "cnt": "ee ae v ,",
+      "price": "="
+    },
+    {
+      "cnt": "| |",
+      "price": "Sa"
+    },
+    {
+      "cnt": "cd, LL"
+    },
+    {
+      "cnt": "eee: oa"
+    },
+    {
+      "nm": "RedVelvel Cheese Shc",
+      "cnt": "2 1",
+      "price": "39,000 4"
+    },
+    {
+      "nm": "Chicken Baked Rice",
+      "cnt": "Nl isa 1",
+      "price": "53,000"
+    },
+    {
+      "nm": "Fish wa Chips",
+      "cnt": "ae i",
+      "price": "65,000 7"
+    },
+    {
+      "nm": "Hushrovm Soup",
+      "cnt": "oe 1",
+      "price": "34,000 ety"
+    },
+    {
+      "nm": "Chamomile",
+      "cnt": "ere te: : i",
+      "price": "fu, 000 hs"
+    },
+    {
+      "nm": "Sloat Iced Tea",
+      "cnt": "i",
+      "price": "20,000"
+    },
+    {
+      "cnt": "aia",
+      "price": "wd"
+    },
+    {
+      "nm": "OTAL",
+      "price": "238 , 000"
+    },
+    {
+      "nm": "“eet",
+      "cnt": "oe ae",
+      "price": "17,850"
+    },
+    {
+      "cnt": ".",
+      "price": "on yun"
+    },
+    {
+      "nm": "C—O eee",
+      "price": "in0,000"
+    },
+    {
+      "cnt": "’ ,",
+      "price": "£00,000"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "Charge",
+      "cnt": "= \\",
+      "price": "me 18 you"
+    },
+    {
+      "cnt": "2. f"
+    },
+    {
+      "cnt": "= y"
+    },
+    {
+      "cnt": "% ss im"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "1,KAWAWAWAWAWAWAW",
+      "cnt": "1, RM"
+    },
+    {
+      "nm": "RECEIVED CHESE SIC",
+      "cnt": "1",
+      "price": "38,000"
+    },
+    {
+      "nm": "FISH A CHIPS",
+      "cnt": "1",
+      "price": "5,000",
+      "unitprice": "@"
+    },
+    {
+      "nm": "FROM SOOD",
+      "price": "IS,00"
+    },
+    {
+      "nm": "(CHAMILE)",
+      "cnt": ":",
+      "price": "25,00"
+    },
+    {
+      "nm": "TAX !!!",
+      "price": "20,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Redvelvet Cheese Slc",
+        "cnt": "1",
+        "price": "38,000"
+      },
+      {
+        "nm": "Chicken Baked Rice",
+        "cnt": "1",
+        "price": "55,000"
+      },
+      {
+        "nm": "Fish n Chips",
+        "cnt": "1",
+        "price": "65,000"
+      },
+      {
+        "nm": "Mushroom Soup",
+        "cnt": "1",
+        "price": "35,000"
+      },
+      {
+        "nm": "Chammel",
+        "cnt": "1",
+        "price": "25,000"
+      },
+      {
+        "nm": "Iced Tea",
+        "cnt": "1",
+        "price": "20,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "238,000",
+      "service_price": "17,650",
+      "tax_price": "25,585"
+    },
+    "total": {
+      "total_price": "281,435",
+      "total_etc": "200,000",
+      "changeprice": "18,565"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Redvelvet Cheese Slc</s_nm><s_cnt> 1</s_cnt><s_price> 38,000</s_price><sep/><s_nm> Chicken Baked Rice</s_nm><s_cnt> 1</s_cnt><s_price> 55,000</s_price><sep/><s_nm> Fish n Chips</s_nm><s_cnt> 1</s_cnt><s_price> 65,000</s_price><sep/><s_nm> Mushroom Soup</s_nm><s_cnt> 1</s_cnt><s_price> 35,000</s_price><sep/><s_nm> Chammel</s_nm><s_cnt> 1</s_cnt><s_price> 25,000</s_price><sep/><s_nm> Iced Tea</s_nm><s_cnt> 1</s_cnt><s_price> 20,000</s_price></s_menu><s_sub_total><s_subtotal_price> 238,000</s_subtotal_price><s_service_price> 17,650</s_service_price><s_tax_price> 25,585</s_tax_price></s_sub_total><s_total><s_total_price> 281,435</s_total_price><s_total_etc> 200,000</s_total_etc><s_changeprice> 18,565</s_changeprice></s_total></s>"
+}

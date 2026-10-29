@@ -1,0 +1,62 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-007",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "f0db0230eb81e66c27a3e21c3eed9020a018dce1b02af2f22e9be1d1983852e3",
+  "elapsed_seconds": 1.674,
+  "detected_words": 16,
+  "detected_lines": 6,
+  "ocr_text": "ey ee ere ee ee ie: i Tete Co aneGor 5 eos 806 ROG WaNOTHD gab",
+  "trocr_words": "SR: 1/4,8/2018, JALANANANAN PERINDUSTRIAN AMOUNTED: TOTAL: 10,091 SUBTOTAL RETURNS 606 WALPHS X08 N3KOIHO 008",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "AMOUNTED: TOTAL:"
+  },
+  "layout_rows": [
+    {
+      "cnt": "ere"
+    },
+    {
+      "nm": "Co"
+    },
+    {
+      "nm": "aneGor",
+      "cnt": "5",
+      "price": "eos"
+    },
+    {
+      "nm": "WaNOTHD",
+      "price": "gab",
+      "unitprice": "ROG"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "unitprice": "10,091"
+    },
+    {
+      "nm": "WALPHS N3KOIHO",
+      "cnt": "X08",
+      "price": "008"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'TIT"
+      },
+      {
+        "nm": "160'01",
+        "num": "606'001"
+      }
+    ],
+    "total": {
+      "total_price": "SI uodny"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'TIT</s_nm><s_price> [e<unk>ol</s_nm><s_num> 600'TIT</s_nm><s_num> [e<unk>ol</s_num><s_price> [8d.</s_price><sep/><s_nm> 160'01</s_nm><s_num> 606'001</s_num><s_price> [e<unk>oiqos</s_num><s_price> 606</s_price></s_menu><s_total><s_total_price> SI uodny</s_total_price></s_total></s>"
+}

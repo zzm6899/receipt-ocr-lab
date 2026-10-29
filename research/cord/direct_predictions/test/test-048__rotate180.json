@@ -1,0 +1,76 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-048",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "b6693be17e2c3bfe96856af00e032d160e56fd259835d3498c5257487dfe141a",
+  "elapsed_seconds": 1.546,
+  "detected_words": 23,
+  "detected_lines": 8,
+  "ocr_text": "000‘SL *JONVHO 000‘ 001 syseq 000‘S2 + [BIOL B21 ‘22 :ejOIGNS Gee ‘Lad a0] $887 ‘ KSZ goo'sz 000'S20 8429 TOY Inujazey-s yy",
+  "trocr_words": "CHANGE: 75,000 CASH: 001 000 TOTAL: 05,000 SUBTOTAL: 1: 22,728 PB1: LESS ICE *55% * 1X S-HAZELOUT KOX IDX INUJAZAH-S XL",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL:"
+  },
+  "layout_rows": [
+    {
+      "unitprice": "001"
+    },
+    {
+      "cnt": "+"
+    },
+    {
+      "cnt": "‘22"
+    },
+    {
+      "price": "$887"
+    },
+    {
+      "cnt": "‘"
+    },
+    {
+      "cnt": "000'S20",
+      "price": "yy",
+      "unitprice": "8429"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "000",
+      "unitprice": "001"
+    },
+    {
+      "cnt": "1:"
+    },
+    {
+      "nm": "S-HAZELOUT INUJAZAH-S",
+      "cnt": "1X KOX IDX",
+      "price": "XL"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": ":GUNVHO",
+        "num": "000'SL",
+        "price": {
+          "num": "000'001"
+        }
+      },
+      {
+        "nm": "ell ssaul",
+        "num": "000'SZ",
+        "price": ": 252"
+      }
+    ],
+    "total": {
+      "total_price": "000'SZ",
+      "creditcardprice": ": 15d"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> :GUNVHO</s_nm><s_num> 000'SL</s_num><s_price> :usen</s_nm><s_num> 000'001</s_num><s_price> : 10101</s_num><s_price> 87L'ZZ</s_num><s_price> : 18d</s_price><sep/><s_nm> ell ssaul</s_nm><s_num> 000'SZ</s_num><s_price> : 252</s_price></s_menu><s_total><s_total_price> 000'SZ</s_total_price><s_creditcardprice> : 15d</s_creditcardprice></s_total></s>"
+}

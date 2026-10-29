@@ -1,0 +1,81 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-011",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "e9614dfc5ede84ab2bd303010d254b9ababf36268b3496f98d2b77332016771f",
+  "elapsed_seconds": 2.118,
+  "detected_words": 33,
+  "detected_lines": 14,
+  "ocr_text": "S : s Py B — — oe pa oe 000 Dees arco ge OO ae BO 6 ‘ a o ee ee A fa ae Ce Pee ee rd ee ee ee",
+  "trocr_words": ". 1 BANDERAN FRESH CHAM DAY 230.00 TOTAL 230,000 TOTAL 230,20 CASHIER - 230.00 CHANGE - CASHIER 1 CASHIER ONCLUSIVE ON FACEBOOK FACEBOOK ON FACEBOOK ON FACEBOOKBOOK SR:00 CASHIER: THANK YOU FOR A FREE SR:",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "BANDERAN FRESH CHAM DAY",
+      "cnt": "1",
+      "price": "230.00"
+    },
+    {
+      "nm": "CASHIER",
+      "cnt": null,
+      "price": "230.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "ee"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 230,000 TOTAL 230,20 THANK YOU"
+  },
+  "layout_rows": [
+    {
+      "nm": "Py",
+      "cnt": "S : s B",
+      "price": "— —"
+    },
+    {
+      "price": "000",
+      "unitprice": "oe"
+    },
+    {
+      "nm": "arco ge",
+      "price": "OO"
+    },
+    {
+      "price": "BO",
+      "unitprice": "ae"
+    },
+    {
+      "cnt": "6 ‘",
+      "price": "a"
+    },
+    {
+      "price": "o"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BANDERAN FRESH CHAM",
+      "cnt": "1",
+      "price": "DAY 230.00"
+    },
+    {
+      "cnt": "ON ON"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "BANABERRY FRESH CREAM CAK",
+      "cnt": "1",
+      "price": "230,000"
+    },
+    "total": {
+      "total_price": "230,000",
+      "cashprice": "230,000",
+      "changeprice": "0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BANABERRY FRESH CREAM CAK</s_nm><s_cnt> 1</s_cnt><s_price> 230,000</s_price></s_menu><s_total><s_total_price> 230,000</s_total_price><s_cashprice> 230,000</s_cashprice><s_changeprice> 0</s_changeprice></s_total></s>"
+}

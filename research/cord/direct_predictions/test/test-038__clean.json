@@ -1,0 +1,319 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-038",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "c632b2af567975c23a5932b0835b28a10f1139ccb78bf1a532825c4ad578616f",
+  "elapsed_seconds": 6.674,
+  "detected_words": 211,
+  "detected_lines": 27,
+  "ocr_text": "' . -o) © - *S Pe a oo — ou j were Dy he \" —— —.\" : f . minh Saba cde ff ey ork gts tf tte i vi ¥f 3 vihe LF ! isi Poeerecy Woah it LLACS LA Pind 7 PAA Feet, PS tis, me fers i iwi POTR Oey CPE? VLU * on a v a Ty fo a7 i ‘ Yn RL AY A, fi my a “nd Sut Vi? mF wih, Cw EWtidae PAT ph TAF. 78 ty 4 Pm \" os Th py o® Fe, KM iAsSce Wer Foi es ff ¥ § Yi aa PeUMCSTE Till w4tebd ol ne ed & . “4 ee: Pre ; © a = ? oe et ae a eB) Fevila; Le, | 23 & PU heck shh y BNE pak at ye ’ Mia eier wielass + | ; Wei) ious © ELS te. 2, i fi «t 4 > £ » ‘a { tf } .+ 1) heme ate bay iy be pee ae | <b WAC eer RS be mabe wi nd + —_— a a si Fy e £e ae Sc. 4% 2 & DEE VES Bee ag Ger me tat Fs oe sa ee es ee =F ; enna - on",
+  "trocr_words": ": LIP INFO HAH 1 DECN CHIA'S CAULA 1.00 AM 1 DF FISH FILLET GARLC 108,000 LIP DF FISH FILLER GARLE - 1008 000 1 1 M PARK ROLLY COME AGAAN L LIM PORK BELLY - 888,000 1 CASH MAL SUMMARY 16 000 1 SIEW MAL SUMMARY 38800 1, JALW MAL : 1,00 CASHIER VIA FIES INCLUSIVE AGAIN 5 KWAN YIN CIO - 5.00 - NWAN MMU9 5U,000 1 LIANBAL LAH, JOHANANANAN AA L HERBAL JELV 1008 3800 1. HERDAI JELY - 8,000 L UNAE-ONOE COME 38 1 UMOE-UNOE MS:13 JALANANAN 561 800 IN/IRA CHAPOA CHANGE AND A01 ERVICE CHARGE @ 42,135 6 TOTAL AMOUNT: 66460 TOTAL: 664329 WWWWWWWWWW WW WW WW WWW.JLY SIDE MAILVTS LAXA #",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "DECN CHIA'S CAULA",
+      "cnt": "1",
+      "price": "1.00"
+    },
+    {
+      "nm": "DF FISH FILLET GARLC",
+      "cnt": "1",
+      "price": "108,000"
+    },
+    {
+      "nm": "L LIM PORK BELLY",
+      "cnt": null,
+      "price": "888,000"
+    },
+    {
+      "nm": "1, JALW MAL",
+      "cnt": null,
+      "price": "1,00"
+    },
+    {
+      "nm": "KWAN YIN CIO",
+      "cnt": "5",
+      "price": "5.00"
+    },
+    {
+      "nm": "1. HERDAI JELY",
+      "cnt": null,
+      "price": "8,000"
+    },
+    {
+      "nm": "ERVICE CHARGE @",
+      "cnt": null,
+      "price": "42,135"
+    }
+  ],
+  "layout_fields": {
+    "total": "a si Sc. ag"
+  },
+  "cascade_fields": {
+    "total": "TOTAL AMOUNT: 66460 TOTAL: 664329"
+  },
+  "layout_rows": [
+    {
+      "cnt": "'"
+    },
+    {
+      "cnt": ". -o) © -"
+    },
+    {
+      "cnt": "a oo — ou j were Dy he \"",
+      "price": "—— —.\""
+    },
+    {
+      "cnt": ": f . ff ey ork gts",
+      "price": "tf tte i ¥f"
+    },
+    {
+      "cnt": "vihe it",
+      "price": "LLACS LA Pind"
+    },
+    {
+      "cnt": "7",
+      "price": "me",
+      "unitprice": "PS"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "* on a v a",
+      "price": "Ty fo a7"
+    },
+    {
+      "cnt": "‘ Yn A, my",
+      "price": "a “nd Sut Vi?",
+      "unitprice": "AY fi"
+    },
+    {
+      "cnt": "mF",
+      "price": "PAT ph TAF."
+    },
+    {
+      "cnt": "78",
+      "price": "\" os Th"
+    },
+    {
+      "cnt": "Fe,",
+      "price": "ff ¥"
+    },
+    {
+      "cnt": "aa",
+      "price": "ol ne ed ."
+    },
+    {
+      "cnt": "“4",
+      "price": "©"
+    },
+    {
+      "cnt": "? oe et ae",
+      "price": "Le, |"
+    },
+    {
+      "cnt": "&",
+      "price": "BNE pak"
+    },
+    {
+      "cnt": "’",
+      "price": "+"
+    },
+    {
+      "cnt": ";",
+      "price": "2,"
+    },
+    {
+      "cnt": "i 4",
+      "price": "£ » ‘a {",
+      "unitprice": "fi"
+    },
+    {
+      "cnt": ".+ 1)",
+      "price": "ae |"
+    },
+    {
+      "cnt": "<b",
+      "price": "be mabe"
+    },
+    {
+      "cnt": "a",
+      "price": "Fy"
+    },
+    {
+      "cnt": "e £e",
+      "price": "4% 2",
+      "unitprice": "ae"
+    },
+    {
+      "cnt": "&",
+      "price": "Ger me tat Fs"
+    },
+    {
+      "price": "oe"
+    },
+    {
+      "cnt": "sa",
+      "price": "-"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": ":"
+    },
+    {
+      "nm": "DECN CHIA'S",
+      "cnt": "1",
+      "price": "1.00 AM",
+      "unitprice": "CAULA"
+    },
+    {
+      "nm": "DF FISH FILLET GARLC",
+      "cnt": "1",
+      "price": "108,000"
+    },
+    {
+      "nm": "LIP DF FISH FILLER",
+      "cnt": "-",
+      "price": "1008 000",
+      "unitprice": "GARLE"
+    },
+    {
+      "nm": "M PARK ROLLY",
+      "cnt": "1 1",
+      "price": "AGAAN"
+    },
+    {
+      "nm": "LIM PORK BELLY",
+      "cnt": "L -",
+      "price": "888,000"
+    },
+    {
+      "nm": "CASH MAL SUMMARY",
+      "cnt": "1",
+      "price": "16 000"
+    },
+    {
+      "nm": "SIEW MAL SUMMARY",
+      "cnt": "1",
+      "price": "38800"
+    },
+    {
+      "nm": "JALW MAL",
+      "cnt": "1, :",
+      "price": "1,00"
+    },
+    {
+      "nm": "CASHIER VIA FIES",
+      "price": "AGAIN"
+    },
+    {
+      "nm": "KWAN YIN",
+      "cnt": "5 -",
+      "price": "5.00"
+    },
+    {
+      "nm": "NWAN MMU9",
+      "cnt": "-",
+      "price": "5U,000"
+    },
+    {
+      "nm": "LIANBAL LAH,",
+      "cnt": "1",
+      "price": "AA"
+    },
+    {
+      "nm": "HERBAL JELV",
+      "cnt": "L",
+      "price": "3800",
+      "unitprice": "1008"
+    },
+    {
+      "nm": "HERDAI JELY",
+      "cnt": "1. -",
+      "price": "8,000"
+    },
+    {
+      "nm": "UNAE-ONOE",
+      "cnt": "L",
+      "price": "38"
+    },
+    {
+      "nm": "JALANANAN",
+      "price": "561 800"
+    },
+    {
+      "nm": "IN/IRA CHAPOA CHANGE",
+      "price": "A01"
+    },
+    {
+      "nm": "ERVICE CHARGE",
+      "cnt": "@",
+      "price": "42,135"
+    },
+    {
+      "cnt": "6"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "XLB Org Pork 10x",
+        "cnt": "1",
+        "price": "78,000"
+      },
+      {
+        "nm": "Sicito Babi",
+        "cnt": "1",
+        "price": "65,000"
+      },
+      {
+        "nm": "Hotplate Tahu",
+        "cnt": "1",
+        "price": "58,000"
+      },
+      {
+        "nm": "DF Fish Filiet Garic",
+        "cnt": "1",
+        "price": "108,000"
+      },
+      {
+        "nm": "LM Pork Belly",
+        "cnt": "1",
+        "price": "88,000"
+      },
+      {
+        "nm": "Siew Mai",
+        "cnt": "1",
+        "price": "38,800"
+      },
+      {
+        "nm": "Kwan Yin Cup",
+        "cnt": "5",
+        "price": "50,000"
+      },
+      {
+        "nm": "Herbal Jelly",
+        "cnt": "1",
+        "price": "38,000"
+      },
+      {
+        "nm": "Onde- Onde",
+        "cnt": "1",
+        "price": "38,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "561,800",
+      "service_price": "42,135",
+      "tax_price": "60,394"
+    },
+    "total": {
+      "total_price": "664,329"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> XLB Org Pork 10x</s_nm><s_cnt> 1</s_cnt><s_price> 78,000</s_price><sep/><s_nm> Sicito Babi</s_nm><s_cnt> 1</s_cnt><s_price> 65,000</s_price><sep/><s_nm> Hotplate Tahu</s_nm><s_cnt> 1</s_cnt><s_price> 58,000</s_price><sep/><s_nm> DF Fish Filiet Garic</s_nm><s_cnt> 1</s_cnt><s_price> 108,000</s_price><sep/><s_nm> LM Pork Belly</s_nm><s_cnt> 1</s_cnt><s_price> 88,000</s_price><sep/><s_nm> Siew Mai</s_nm><s_cnt> 1</s_cnt><s_price> 38,800</s_price><sep/><s_nm> Kwan Yin Cup</s_nm><s_cnt> 5</s_cnt><s_price> 50,000</s_price><sep/><s_nm> Herbal Jelly</s_nm><s_cnt> 1</s_cnt><s_price> 38,000</s_price><sep/><s_nm> Onde- Onde</s_nm><s_cnt> 1</s_cnt><s_price> 38,000</s_price></s_menu><s_sub_total><s_subtotal_price> 561,800</s_subtotal_price><s_service_price> 42,135</s_service_price><s_tax_price> 60,394</s_tax_price></s_sub_total><s_total><s_total_price> 664,329</s_total_price></s_total></s>"
+}

@@ -1,0 +1,121 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-025",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "be0f581c3293e24b705c78cadbb69fe1926a997cfaebf065eb94e4a0e597fec5",
+  "elapsed_seconds": 2.19,
+  "detected_words": 44,
+  "detected_lines": 13,
+  "ocr_text": "“sheet ia Aes pb a err. Ce ee wae Py ye eget « & 1 me , sme SSSSS==: SHSSSSSSSSSSSsssNssSsssssssTalS ee ih ST STRA HBERRY DONUT 10,000 1 TL CROQUETTE 17,000 1 POTATO PEPPER BAG _ 16,000 ae \\T 0) 0 oo UMA \\",
+  "trocr_words": "SAVE,LES JAYS ITEMS ITEM *** HHFF *** WWW. ==: 1 TWIST STRAWBERRY DONUT 10,000 1 TLJ CROQUETTE SHOP: 17,000 1 POTATO PEPPER BAGEL 16,000 TOTAL 43,000 TOTAL 40,0",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "ee ih ST STRA HBERRY DONUT",
+      "cnt": null,
+      "price": "10,000"
+    },
+    {
+      "nm": "TL CROQUETTE",
+      "cnt": "1",
+      "price": "17,000"
+    },
+    {
+      "nm": "POTATO PEPPER BAG _",
+      "cnt": "1",
+      "price": "16,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "TWIST STRAWBERRY DONUT",
+      "cnt": "1",
+      "price": "10,000"
+    },
+    {
+      "nm": "TLJ CROQUETTE SHOP",
+      "cnt": "1",
+      "price": "17,000"
+    },
+    {
+      "nm": "POTATO PEPPER BAGEL",
+      "cnt": "1",
+      "price": "16,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 43,000 TOTAL 40,0"
+  },
+  "layout_rows": [
+    {
+      "cnt": "pb"
+    },
+    {
+      "nm": "eget «",
+      "cnt": "Py ye 1",
+      "unitprice": "&"
+    },
+    {
+      "nm": "ST STRA HBERRY DONUT",
+      "cnt": "ee ih",
+      "price": "10,000"
+    },
+    {
+      "nm": "TL CROQUETTE",
+      "cnt": "1",
+      "price": "17,000"
+    },
+    {
+      "nm": "POTATO PEPPER",
+      "cnt": "1 BAG _",
+      "price": "16,000"
+    },
+    {
+      "price": "0"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TWIST STRAWBERRY DONUT",
+      "cnt": "1",
+      "price": "10,000"
+    },
+    {
+      "nm": "TLJ CROQUETTE SHOP:",
+      "cnt": "1",
+      "price": "17,000"
+    },
+    {
+      "nm": "POTATO PEPPER BAGEL",
+      "cnt": "1",
+      "price": "16,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "TWIST STRAWBERRY DONUT",
+        "cnt": "1",
+        "price": "10,000"
+      },
+      {
+        "nm": "TLJ CROQUETTE",
+        "cnt": "1",
+        "price": "17,000"
+      },
+      {
+        "nm": "POTATO PEPPER BAGEL",
+        "cnt": "1",
+        "price": "16,000"
+      }
+    ],
+    "total": {
+      "total_price": "43,000",
+      "cashprice": "50,000",
+      "changeprice": "7,0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TWIST STRAWBERRY DONUT</s_nm><s_cnt> 1</s_cnt><s_price> 10,000</s_price><sep/><s_nm> TLJ CROQUETTE</s_nm><s_cnt> 1</s_cnt><s_price> 17,000</s_price><sep/><s_nm> POTATO PEPPER BAGEL</s_nm><s_cnt> 1</s_cnt><s_price> 16,000</s_price></s_menu><s_total><s_total_price> 43,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 7,0</s_changeprice></s_total></s>"
+}

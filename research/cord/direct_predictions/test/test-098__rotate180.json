@@ -1,0 +1,155 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-098",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "6adde00a6e9c65e790aa0df6fbc84bbf6cd4869449d56c35d26343c16b296656",
+  "elapsed_seconds": 10.154,
+  "detected_words": 284,
+  "detected_lines": 43,
+  "ocr_text": "= SSS = A > SSS EN ~ _ ee Ag — SS = ae S = aie : —=8 pe iw LO awl] ~. a —- eat AIWUSIAV SS ee : AGL Ce mOL XVI ydwoid — — ae eh % ABJEYQ SILALES = = a Qoe® Zl é 1 LANS uljpuel44 SS a 00\" SIZ agen ! = ie wal YUN Ade Ta 3D1AuaS = and 000° L! wwaug aide | SS SS eee x ayy Waddad WOW SSeS goo'e, SVd VWe Man accase 2 spss ey/eisel SSS a all ejUasald SS SS = yw/Aeno SS = Ss pvusAag We = EN = or a re re an senate a enrkee seer : se aise SS = ing Tou Oe baa RO ean LA ie SS : ie eS Ca ne Ee SE MAEM) Wavy isi Hi Any ret 0) ill a Se a UE REI ene ) y/Aueno Ws _— eH ine RED RMA inPT UGA eet be iim AU Be a SSS == 1 SLO Se FL LILES 5 ' wy ou SS Ss aoo4 SS S SS = <a . a ™ : a tas * = “ae SS . — =~, — * SSS. hae =~.\" —— = _< a “es ~ ‘ > ae = = . di — SS = <i =. Se ~~ — ~ ~ : ar 2, ia See = = > — : = e “ ; i ae eS Ay 5 tg Ps . ‘ pas cd a = = as — mm Mei - y — = 5: = ieee ~ SS Sea a y SSS Oe _ ae a Se S| ee _ 7 f. - es i: ea",
+  "trocr_words": "MAS SR% SR: CASHIER - - *** SALES TOTAL TOTAL AGAIN ORIGINAL AMOUNT ATWORK NUMMARY REQUIRED WITH US ONCLUSIVE SUBJECT FACE UP ON FACEBOOK SERVICE CHARGE OF REGEIPT @6 OFF CARD REWARDS SERCHANGE: TIME OF RECEIPTIONS REFUNDATE : GML GMB XNB XNB 7MG SERVICE: 1 FREE ORCLUSIVE THE RECEIPT FOR AN OFFER THANK YOU. PLEASE FOR RECEIPT FOR ENTER FOR EVERY FACEBOOK LOCK: PLEASE REPAIL TWO SATRABLE SUBEEM BEKET AMOUNT -LN FREE MEMBER PLEASE AMOUNT AMOUNT AMOUNT AMOUNT SUMMARY WWW.WW. GO: WWW.COM. CASHIER CASHIER CASHIER CASHIER CASHIER AMOUNT NO. CASH CASHIER CASHIER ANY MY MY SR: SANY SAX",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "= = di = = y"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT AMOUNT AMOUNT AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "cnt": "A"
+    },
+    {
+      "cnt": "Ag"
+    },
+    {
+      "cnt": ": —=8 iw",
+      "price": "LO awl]",
+      "unitprice": "pe"
+    },
+    {
+      "cnt": "a —-",
+      "price": "eat AIWUSIAV"
+    },
+    {
+      "nm": "mOL XVI",
+      "cnt": "SS ee : Ce",
+      "price": "ydwoid",
+      "unitprice": "AGL"
+    },
+    {
+      "cnt": "%",
+      "unitprice": "eh"
+    },
+    {
+      "cnt": "= a Zl é 1",
+      "price": "uljpuel44",
+      "unitprice": "Qoe®"
+    },
+    {
+      "cnt": "SS a SIZ",
+      "price": "!",
+      "unitprice": "00\""
+    },
+    {
+      "cnt": "=",
+      "price": "3D1AuaS",
+      "unitprice": "ie wal"
+    },
+    {
+      "cnt": "= L!",
+      "price": "aide |",
+      "unitprice": "000°"
+    },
+    {
+      "cnt": "SS x ayy",
+      "unitprice": "eee"
+    },
+    {
+      "price": "2 ey/eisel",
+      "unitprice": "goo'e, Man"
+    },
+    {
+      "price": "ejUasald"
+    },
+    {
+      "cnt": "SS =",
+      "price": "yw/Aeno"
+    },
+    {
+      "price": "pvusAag"
+    },
+    {
+      "cnt": "or a re re an senate",
+      "price": ": se aise",
+      "unitprice": "a"
+    },
+    {
+      "price": "ean LA",
+      "unitprice": "ing Tou"
+    },
+    {
+      "nm": "MAEM)",
+      "cnt": "ie eS ne Ee SE",
+      "price": "ret 0) ill",
+      "unitprice": "Ca Wavy Hi"
+    },
+    {
+      "cnt": "a a",
+      "price": "ene ) y/Aueno",
+      "unitprice": "UE"
+    },
+    {
+      "price": "be iim AU"
+    },
+    {
+      "cnt": "1 5 ' wy ou"
+    },
+    {
+      "price": "aoo4"
+    },
+    {
+      "cnt": "tas"
+    },
+    {
+      "cnt": "a “es ~ > .",
+      "unitprice": "ae"
+    },
+    {
+      "cnt": "~ ~ : 2,"
+    },
+    {
+      "cnt": "= “ ; i ae",
+      "price": "eS"
+    },
+    {
+      "cnt": "as — mm Mei - y"
+    },
+    {
+      "cnt": "_ ae a Se S| ee _ 7",
+      "price": "f."
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "AMOUNT"
+    },
+    {
+      "unitprice": "@6"
+    },
+    {
+      "nm": "GML GMB XNB",
+      "price": "7MG"
+    },
+    {
+      "price": "AN"
+    }
+  ],
+  "donut_json": {
+    "nm": "TOLOL M/Time化妝 069'09Z"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TOLOL M/Time化妝 069'09Z</s_nm><s_num> XVL retired生活人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數人數</s>"
+}

@@ -1,0 +1,200 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-085",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "dab3e0e1370f5b39baf92773d4a0f3ebdb2ea7795a95d67c401e4dc730b6fea5",
+  "elapsed_seconds": 3.972,
+  "detected_words": 102,
+  "detected_lines": 24,
+  "ocr_text": "> : me 0Sb 16) yse) . ale | 000 ‘oz YewnutH IIL | 00S gc L UeUpyeW 141 y 0b 16) je 701 pl - OSE 21 70lL isey » il 90S 621 1270748 i 06650) | Faeateans O00 6 Stuey Yall |L 000 ‘2 sq yel | OOO OL Jepeq snjel L OOS 8Z esag 1emeg very] | “4 O00 SI YENY NNdNJay | W 000 81 99 UTsy SNGPQ jeques L OOCy Wy ds Vegeues | O00 Op doq WEAY Z O00 '¢ Yeque |, TSPN | O00 Of 4YT4NY TSEeN ¢ OOOO OOOO Ex 4 Ott itedeiriee pal,",
+  "trocr_words": "4 1 CASH USJ (6) 888:02 VENUTH 134 Z, JEMNUTW 111 0.50 057,26: 01 1810174 SR:4619:46 K, BEST 10% * 1 ES BELL MEA SEA 1 TEH MEUEM YELL 1 TEK ES SOLD 18:00 000.07 JEPEQ JNIAI ! GOO 8Z ESAS LEMES UEXI ! 1 KEEPUK KENX XDNJAX ! 18.000 90 UISH SNAED REQUEST 000 1 LS REGEWES ! 2 AVE WHOPPOP WEA Z 0006 OF VEGWEI ISEN 1 3 NEAN ISEN * * * * * * * * * * * * * * * **** *** A",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Ott pal,"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "price": "yse)",
+      "unitprice": "16)"
+    },
+    {
+      "cnt": ".",
+      "price": "ale |"
+    },
+    {
+      "nm": "YewnutH",
+      "cnt": "‘oz |",
+      "price": "IIL"
+    },
+    {
+      "nm": "UeUpyeW",
+      "cnt": "L",
+      "price": "141 y",
+      "unitprice": "gc"
+    },
+    {
+      "cnt": "16)",
+      "price": "701 pl",
+      "unitprice": "je"
+    },
+    {
+      "cnt": "21",
+      "price": "»",
+      "unitprice": "70lL"
+    },
+    {
+      "price": "1270748",
+      "unitprice": "621"
+    },
+    {
+      "nm": "Stuey",
+      "cnt": "6 |L"
+    },
+    {
+      "cnt": "‘2 |",
+      "unitprice": "sq"
+    },
+    {
+      "cnt": "OL L"
+    },
+    {
+      "cnt": "OOS 8Z |",
+      "price": "“4"
+    },
+    {
+      "cnt": "SI |",
+      "price": "W",
+      "unitprice": "O00"
+    },
+    {
+      "cnt": "81"
+    },
+    {
+      "cnt": "OOCy Wy",
+      "unitprice": "ds"
+    },
+    {
+      "cnt": "Op Z",
+      "unitprice": "O00 doq"
+    },
+    {
+      "cnt": "'¢ |,",
+      "unitprice": "O00"
+    },
+    {
+      "cnt": "Of",
+      "price": "¢",
+      "unitprice": "4YT4NY"
+    },
+    {
+      "cnt": "4",
+      "price": "Ex",
+      "unitprice": "OOOO OOOO"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "VENUTH",
+      "price": "134",
+      "unitprice": "888:02"
+    },
+    {
+      "nm": "JEMNUTW",
+      "cnt": "Z,",
+      "price": "111"
+    },
+    {
+      "price": "1810174",
+      "unitprice": "057,26:"
+    },
+    {
+      "cnt": "K, BEST",
+      "price": "*"
+    },
+    {
+      "nm": "ES",
+      "cnt": "1"
+    },
+    {
+      "nm": "TEH",
+      "cnt": "1"
+    },
+    {
+      "nm": "TEK ES SOLD",
+      "cnt": "1",
+      "price": "18:00"
+    },
+    {
+      "nm": "JEPEQ",
+      "price": "JNIAI !"
+    },
+    {
+      "nm": "ESAS",
+      "cnt": "8Z",
+      "price": "UEXI !"
+    },
+    {
+      "nm": "KEEPUK KENX",
+      "cnt": "1",
+      "price": "!"
+    },
+    {
+      "unitprice": "18.000"
+    },
+    {
+      "unitprice": "90"
+    },
+    {
+      "cnt": "1",
+      "price": "!",
+      "unitprice": "000"
+    },
+    {
+      "nm": "AVE WHOPPOP",
+      "cnt": "2",
+      "price": "Z"
+    },
+    {
+      "nm": "OF VEGWEI"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'02 vewnutW 111",
+        "num": "OOS 6SL Ueverew 111",
+        "price": "OSC"
+      },
+      {
+        "nm": "OSC 161",
+        "num": "OSC 21",
+        "price": "18101"
+      },
+      {
+        "nm": "OOS 6LL",
+        "num": "OOS 000",
+        "price": "191"
+      },
+      {
+        "nm": "000 &",
+        "price": {
+          "nm": "OOS 82 Essag Remeg UEKI",
+          "num": "OOO 2"
+        }
+      },
+      {
+        "nm": "Japan ISPN",
+        "num": "O003",
+        "price": "OSEN 3"
+      }
+    ]
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'02 vewnutW 111</s_nm><s_num> OOS 6SL Ueverew 111</s_num><s_price> OSC</s_price><sep/><s_nm> OSC 161</s_nm><s_num> OSC 21</s_num><s_price> 18101</s_price><sep/><s_nm> OOS 6LL</s_nm><s_num> OOS 000</s_num><s_price> 191</s_price><sep/><s_nm> 000 &</s_nm><s_price> 된 것은 이에 불구하고 000 6</s_num><s_price> 된 것은 이에 이르 게 되면 이를 요구 숨쉰 알고 있다. 1</s_num><s_price> 되고 지금<sep/><s_nm> OOS 82 Essag Remeg UEKI</s_nm><s_num> OOO SL Yakuka Kunaka</s_nm><s_num> OOO 81</s_num><s_price> OOC 81</s_num><s_price> OUSH angeg Jeques</s_nm><s_num> O00 11</s_num><s_price> OOCOL dS Jeqewes</s_nm><s_num> O00 0</s_num><s_price> OOCOL WEAY</s_nm><s_num> OOO 2</s_num><s_price> OPEN</s_price><sep/><s_nm> Japan ISPN</s_nm><s_num> O003</s_num><s_price> OSEN 3</s_price></s_menu></s>"
+}

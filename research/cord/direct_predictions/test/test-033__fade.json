@@ -1,0 +1,134 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-033",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "dc4f19793674241c2029411bc982d799e1bb23a4675d8068bd04942ba1520fbc",
+  "elapsed_seconds": 1.504,
+  "detected_words": 36,
+  "detected_lines": 8,
+  "ocr_text": ": hea & - : ‘ su 1 GRILLED BABY POTATO (R 50,800 | HOT TUNA 67,000 1 HOT TUNA 67,000 Dise ~100) (TTHOB) -67 ,000 . y ee : p 477,500 _ Reh a 41,070",
+  "trocr_words": "*** *** 1 GRILLED BABY POTATO (R 50,500 1 HOT TUNA 6,000 1 HOT TUNA (7.05) DISC -100%(ITM06) - 67.000 SUBTLE AN SVC CHG 6%",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "GRILLED BABY POTATO (R",
+      "cnt": "1",
+      "price": "50,800"
+    },
+    {
+      "nm": "| HOT TUNA",
+      "cnt": null,
+      "price": "67,000"
+    },
+    {
+      "nm": "HOT TUNA",
+      "cnt": "1",
+      "price": "67,000"
+    },
+    {
+      "nm": ". y ee : p",
+      "cnt": null,
+      "price": "477,500"
+    },
+    {
+      "nm": "_ Reh a",
+      "cnt": null,
+      "price": "41,070"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "GRILLED BABY POTATO (R",
+      "cnt": "1",
+      "price": "50,500"
+    },
+    {
+      "nm": "HOT TUNA",
+      "cnt": "1",
+      "price": "6,000"
+    },
+    {
+      "nm": "DISC -100%(ITM06)",
+      "cnt": null,
+      "price": "67.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "477,500"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "- :"
+    },
+    {
+      "nm": "GRILLED BABY POTATO",
+      "cnt": "1 (R",
+      "price": "50,800"
+    },
+    {
+      "nm": "HOT TUNA",
+      "cnt": "|",
+      "price": "67,000"
+    },
+    {
+      "nm": "HOT TUNA",
+      "cnt": "1",
+      "price": "67,000"
+    },
+    {
+      "price": ",000"
+    },
+    {
+      "price": "41,070"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "GRILLED BABY POTATO",
+      "cnt": "1 (R",
+      "price": "50,500"
+    },
+    {
+      "nm": "HOT TUNA",
+      "cnt": "1"
+    },
+    {
+      "nm": "HOT TUNA",
+      "cnt": "1"
+    },
+    {
+      "price": "67.000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "GRILLED BABY POTATO ( R",
+        "cnt": "1",
+        "price": "50,500"
+      },
+      {
+        "nm": "HOT TUNA",
+        "cnt": "1",
+        "price": "67,000"
+      },
+      {
+        "nm": "HOT TUNA",
+        "cnt": "1",
+        "discountprice": "-67,000",
+        "price": "67,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "117,500",
+      "service_price": "11,070",
+      "tax_price": "19,557"
+    },
+    "total": {
+      "total_price": "148,127"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> GRILLED BABY POTATO ( R</s_nm><s_cnt> 1</s_cnt><s_price> 50,500</s_price><sep/><s_nm> HOT TUNA</s_nm><s_cnt> 1</s_cnt><s_price> 67,000</s_price><sep/><s_nm> HOT TUNA</s_nm><s_cnt> 1</s_cnt><s_discountprice> -67,000</s_discountprice><s_price> 67,000</s_price></s_menu><s_sub_total><s_subtotal_price> 117,500</s_subtotal_price><s_service_price> 11,070</s_service_price><s_tax_price> 19,557</s_tax_price></s_sub_total><s_total><s_total_price> 148,127</s_total_price></s_total></s>"
+}

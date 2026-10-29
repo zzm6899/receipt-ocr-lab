@@ -1,0 +1,9 @@
+route,condition,correct,n_receipts,accuracy,wilson95_low,wilson95_high,parseable,errors_or_timeouts
+Tesseract+rules,clear,0,16,0.0,0.0,0.1936076805344365,2,0
+Tesseract+rules,scrunched,0,16,0.0,0.0,0.1936076805344365,1,0
+LayoutLMv3,clear,0,16,0.0,0.0,0.1936076805344365,0,0
+LayoutLMv3,scrunched,0,16,0.0,0.0,0.1936076805344365,0,0
+TrOCR+LayoutLMv3,clear,1,16,0.0625,0.01111934476464252,0.28328737570298945,2,0
+TrOCR+LayoutLMv3,scrunched,0,16,0.0,0.0,0.1936076805344365,4,0
+Donut,clear,1,16,0.0625,0.01111934476464252,0.28328737570298945,1,0
+Donut,scrunched,2,16,0.125,0.03497748774324047,0.36022827265758695,6,0

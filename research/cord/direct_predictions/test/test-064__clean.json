@@ -1,0 +1,100 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-064",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "f61e5818f3282405a0e5b4158d9498cc0203b34e4bcb2a52c9c44b15267f980e",
+  "elapsed_seconds": 2.138,
+  "detected_words": 74,
+  "detected_lines": 17,
+  "ocr_text": "ww i i 1 ie * hia, 7 i itag A \" 'y + hy 7 j : a r - : - P a“ ed OT Al Ld. OF SE ‘ATEN Sr) iW} Pig. ‘ \" i iL nV fi. Y ae Ati a if Pup dae dies ae ‘a ” “~ ee | i sy CHANGE 34, 000 ee ae % De Me a 4 ro ’ rc . ; ' bah",
+  "trocr_words": "WWW.COM ITEMARY ALM 18 4 WWW.MY ITEM TABLE SLOUR 10.000 JUAL 16.000 ATTEND 50.000 CHANGE 36 000 MILIV JU.VVV ISC CHANGE 34.000 - : WWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWW",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "TABLE SLOUR",
+      "cnt": null,
+      "price": "10.000"
+    },
+    {
+      "nm": "JUAL",
+      "cnt": null,
+      "price": "16.000"
+    },
+    {
+      "nm": "ATTEND",
+      "cnt": null,
+      "price": "50.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "ie * ro rc . '"
+  },
+  "cascade_fields": {
+    "total": "TABLE 10.000 JUAL 16.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "ww 1"
+    },
+    {
+      "cnt": "7"
+    },
+    {
+      "cnt": "j :",
+      "price": "a"
+    },
+    {
+      "cnt": "r - : - P a“",
+      "price": "ed"
+    },
+    {
+      "cnt": "OT Al",
+      "unitprice": "Ld. OF SE"
+    },
+    {
+      "nm": "‘ATEN",
+      "price": "Pig.",
+      "unitprice": "Sr) iW}"
+    },
+    {
+      "cnt": "i iL fi.",
+      "price": "Y ae",
+      "unitprice": "nV"
+    },
+    {
+      "nm": "Pup",
+      "cnt": "”",
+      "price": "‘a ee",
+      "unitprice": "ae “~"
+    },
+    {
+      "price": "ee",
+      "unitprice": "34, 000"
+    },
+    {
+      "price": "ae"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "18"
+    },
+    {
+      "cnt": "4"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "SINGLE SCOOP",
+      "price": "16.000"
+    },
+    "total": {
+      "total_price": "16.000",
+      "cashprice": "50.000",
+      "changeprice": "34.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> SINGLE SCOOP</s_nm><s_price> 16.000</s_price></s_menu><s_total><s_total_price> 16.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 34.000</s_changeprice></s_total></s>"
+}

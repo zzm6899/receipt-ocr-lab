@@ -1,0 +1,110 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-063",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "2a226c1bd4fb5f86a0e1065aca7e0d247576e4f90ad8dc611ae5b40d553566fb",
+  "elapsed_seconds": 1.507,
+  "detected_words": 32,
+  "detected_lines": 10,
+  "ocr_text": "sueeti 2! Uieist Kopi Susu Kampung. x1 19.000 Ice Kopi Susu Kampung Less Ice 0 Kopi Susu Kampung. x2 38.000 Ice Subtotal : 57.000 Total : 57.000 Cash oo 60.000 Change 3.000",
+  "trocr_words": "*** KOPI SUSU KAMPUNG. X1 19.000 ICE KOPI SUSU KAMPUNG LESS ICE 0 KOPI SUSU KAMPUNG. X2 38.000 ICE SUBTOTAL | TOTAL CASH ************60.000 CHANGE INCLUSIVE 3.000",
+  "ocr_rules_total": "57.000",
+  "ocr_rows": [
+    {
+      "nm": "Kopi Susu Kampung. x1",
+      "cnt": null,
+      "price": "19.000"
+    },
+    {
+      "nm": "Kopi Susu Kampung. x2",
+      "cnt": null,
+      "price": "38.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "KOPI SUSU KAMPUNG. X1",
+      "cnt": null,
+      "price": "19.000"
+    },
+    {
+      "nm": "KOPI SUSU KAMPUNG. X2",
+      "cnt": null,
+      "price": "38.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total 57.000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL"
+  },
+  "layout_rows": [
+    {
+      "nm": "sueeti",
+      "cnt": "2!",
+      "price": "Uieist"
+    },
+    {
+      "nm": "Kopi Susu Kampung.",
+      "cnt": "x1",
+      "price": "19.000"
+    },
+    {
+      "nm": "Kopi Susu Kampung",
+      "price": "0"
+    },
+    {
+      "nm": "Kopi Susu Kampung.",
+      "cnt": "x2",
+      "price": "38.000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KOPI SUSU KAMPUNG.",
+      "cnt": "X1",
+      "price": "19.000"
+    },
+    {
+      "nm": "KOPI SUSU KAMPUNG LESS",
+      "cnt": "0"
+    },
+    {
+      "nm": "KOPI SUSU KAMPUNG.",
+      "cnt": "X2",
+      "price": "38.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Kopi Susu Kampung.",
+      "cnt": "x<unk>",
+      "price": "19.000",
+      "sub": [
+        {
+          "nm": "Ice"
+        },
+        {
+          "nm": "Kopi Susu Kampung",
+          "price": "0"
+        },
+        {
+          "nm": "Ice",
+          "cnt": "x2",
+          "price": "38.000"
+        }
+      ]
+    },
+    "sub_total": {
+      "subtotal_price": "57.000"
+    },
+    "total": {
+      "total_price": "57.000",
+      "cashprice": "60.000",
+      "changeprice": "3.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kopi Susu Kampung.</s_nm><s_cnt> x<unk></s_cnt><s_price> 19.000</s_price><s_sub><s_nm> Ice</s_nm><sep/><s_nm> Kopi Susu Kampung</s_nm><s_unitprice> Less Ice</s_nm><s_price> 0</s_price><sep/><s_nm> Kopi Susu Kampung.</s_nm><s_cnt> x2</s_cnt><s_price> 38.000</s_price><s_sub><s_nm> Ice</s_nm></s_sub></s_menu><s_sub_total><s_subtotal_price> 57.000</s_subtotal_price></s_sub_total><s_total><s_total_price> 57.000</s_total_price><s_cashprice> 60.000</s_cashprice><s_changeprice> 3.000</s_changeprice></s_total></s>"
+}

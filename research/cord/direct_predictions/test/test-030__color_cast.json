@@ -1,0 +1,39 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-030",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "27db3cb76e09b81fe8ad7fce910f7cc4067df07ab4095f7fe0dcea4f23d0d4bb",
+  "elapsed_seconds": 0.912,
+  "detected_words": 16,
+  "detected_lines": 5,
+  "ocr_text": "inte Pr eee eee sa - ee ii | | Cash 50, 000 Change : 18,500",
+  "trocr_words": "CASHIER: 1 1 CASH : 1,000 CHANGE *** ****",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Kupon 3",
+      "price": "28,636"
+    },
+    "sub_total": {
+      "subtotal_price": "28,636",
+      "tax_price": "2,864"
+    },
+    "total": {
+      "total_price": "31,500",
+      "cashprice": "50,000",
+      "changeprice": "18,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kupon 3</s_nm><s_price> 28,636</s_price></s_menu><s_sub_total><s_subtotal_price> 28,636</s_subtotal_price><s_tax_price> 2,864</s_tax_price></s_sub_total><s_total><s_total_price> 31,500</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 18,500</s_changeprice></s_total></s>"
+}

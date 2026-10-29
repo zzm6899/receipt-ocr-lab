@@ -1,0 +1,71 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-011",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "bbc148d65d55221f0ed69d5b0c0bf7f8f38c0132ecf8e1fb7befa00ca6904a13",
+  "elapsed_seconds": 1.935,
+  "detected_words": 26,
+  "detected_lines": 15,
+  "ocr_text": "ae S Se ase ee ot Se oe oO ae ee 2 eee a wer ee ae Ge ee ae Le aa eee | eo eg",
+  "trocr_words": "1,000 1 BANBERRY FRESH CHEAM LAX 23.00 TOTAL 230,000 TOTAL 230.20 CHANGE 0 : TAX ^ L CASHIER CASHIER AMOUNT AMOUNT NO: CASHIER AMOUNT",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "BANBERRY FRESH CHEAM LAX",
+      "cnt": "1",
+      "price": "23.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "a ee"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 230.20 AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "nm": "Se",
+      "cnt": "ae S",
+      "price": "ee",
+      "unitprice": "ase"
+    },
+    {
+      "cnt": "ot",
+      "price": "Se"
+    },
+    {
+      "price": "oO",
+      "unitprice": "oe"
+    },
+    {
+      "cnt": "ae",
+      "price": "ee"
+    },
+    {
+      "cnt": "2",
+      "price": "eee"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BANBERRY FRESH CHEAM",
+      "cnt": "1 LAX",
+      "price": "23.00"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "BANABERRY FRESH CREAM CAK",
+      "cnt": "1",
+      "price": "230,000"
+    },
+    "total": {
+      "total_price": "230,000",
+      "cashprice": "230,000",
+      "changeprice": "0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BANABERRY FRESH CREAM CAK</s_nm><s_cnt> 1</s_cnt><s_price> 230,000</s_price></s_menu><s_total><s_total_price> 230,000</s_total_price><s_cashprice> 230,000</s_cashprice><s_changeprice> 0</s_changeprice></s_total></s>"
+}

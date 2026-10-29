@@ -1,0 +1,153 @@
+{
+  "main_current_photo_cohort": {
+    "paired_receipt_ids": 50,
+    "selected_views": 100,
+    "views_each_condition": 50,
+    "known_total_refs": 99,
+    "unknown_total_refs": 1,
+    "extra_unscored_views": 22,
+    "completed_routes": [
+      "Tesseract+rules",
+      "LayoutLMv3",
+      "TrOCR+LayoutLMv3",
+      "Donut",
+      "GLM-OCR",
+      "Qwen3.5-2B"
+    ],
+    "Qwen3.5-4B": "placeholder not run; excluded"
+  },
+  "legacy_reference_inventory": {
+    "receipts": 34,
+    "line_item_rows": 120,
+    "line_item_row_count_distribution": {
+      "1": 17,
+      "2": 3,
+      "3": 4,
+      "4": 1,
+      "6": 3,
+      "8": 2,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "17": 1
+    },
+    "human_verified_receipts": 0,
+    "partially_user_reviewed_records": 5
+  },
+  "receipy_independent_audit_inventory": {
+    "high_confidence_pairs": 16,
+    "selected_views": 32,
+    "complete_visible_inventory_ledgers": 15,
+    "fragment_excluded_from_row_prf1": 1,
+    "eligible_row_candidates_before_field_unknown_filter": 58,
+    "eligible_name_targets": 56,
+    "eligible_quantity_targets": 39,
+    "eligible_line_total_targets": 45,
+    "eligible_unit_price_targets": 22,
+    "all_human_verified": false
+  },
+  "user_confirmed_subset": {
+    "receipt_ids": 2,
+    "product_fields": 3,
+    "user_confirmed_grand_totals": 0,
+    "all_four_classic_EXIF_baseline": "0/3 on clear and 0/3 on scrunched; unreviewed output not counted as false positive"
+  },
+  "cord_context": {
+    "public_release_receipts": 1000,
+    "train": 800,
+    "validation": 100,
+    "test": 100,
+    "local_CORD_finetuned_checkpoint_testID_exposure": "not established"
+  },
+  "fewshot_feasibility_context": {
+    "LayoutLMv3_smokes": "10/25/50 labeled spans per field; seeds13/29/47; 1 epoch; 48/113/204 train receipts; 4.70/10.01/18.21 s loop; oracle GT text/boxes; no validation/test accuracy",
+    "Donut_smoke": "no completed result; no accuracy claim"
+  },
+  "paired_stats": "Current main total score: pair-level bootstrap over 49 fully labeled pairs; marginal accuracy uses 50 clear and 49 scrunched known refs. All labels are assistant-audited/unverified.",
+  "input_files": {
+    "<PROJECT_ROOT>\\2026-10-05\\task\\deliverables\\qwen3_5_2b_comparison_v1_recovery\\receipt_photo_model_results_qwen35_2b_2026-10-06\\comparison_all_views.csv": {
+      "sha256": "f51d197861ea37a2b2b944689c4d4150ef01dee40bed3a459c694ae6ed299819",
+      "bytes": 314168
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\deliverables\\receipy_vscode_workbench\\data\\labels\\legacy_reference_v3_1.json": {
+      "sha256": "48800d26a8b78406806387855a4d286bd9428a3e557caf89ffe2819bd9e8fcb5",
+      "bytes": 66188
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\deliverables\\receipy_vscode_workbench\\data\\labels\\receipy_references_v2.json": {
+      "sha256": "540f83aa1c92c5acd0c25a48f4b2e9ba6ca541c99b0d6624753522b05e13f32e",
+      "bytes": 81704
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\receipy_extension\\scoring_v2\\score_manifest.json": {
+      "sha256": "8cc32475d9a574bf39840749107d3f383afb31218a1194245cddc3f27b7beeba",
+      "bytes": 1357
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\receipy_extension\\scoring_v2\\row_receipt_scores.csv": {
+      "sha256": "fe5381a595bbdb21458338be9c870a6a27c1476cd2252cc98a6ffa851faf539b",
+      "bytes": 6401
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\receipy_extension\\scoring_v2\\row_summary.csv": {
+      "sha256": "bf2b4ef222c5feb9cee0b71b5f16385da4f46867ecb9df3dea36a5eb9cd88497",
+      "bytes": 1028
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\receipy_extension\\scoring_v2\\total_decisions.csv": {
+      "sha256": "ff386d3b88288a51def95c187b7b9e5a73911e420bc1ec08ee40a64907eeb8af",
+      "bytes": 23819
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\receipy_extension\\scoring_v2\\total_summary.csv": {
+      "sha256": "f18bf4c36e089b729499e7ee324bc53eb891b6b72b47ead76f193c00219b5f01",
+      "bytes": 620
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\combined_cohort_50\\field_readability_audit_v1_2\\model_condition_amount_retrieval.csv": {
+      "sha256": "fc0e367f3d3248443e656572fedac11beba265c19c2271f561cb127040862f42",
+      "bytes": 4956
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\combined_cohort_50\\field_readability_audit_v1_2\\paired_clear_scrunched_amount_deltas.csv": {
+      "sha256": "39e4859a819c8bae7c3221450872920852c90e0c54871eaa5cd9b7a0e78f6c3b",
+      "bytes": 3382
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\combined_cohort_50\\user_confirmed_field_scoring_v1\\summary.json": {
+      "sha256": "4e84228268e9d3fa5aa881e591fbc656e30fc28d76b9dc9fa8bc4502c894240f",
+      "bytes": 2005
+    },
+    "<PROJECT_ROOT>\\2026-09-30\\task\\photo_pilot\\combined_cohort_50\\user_confirmed_field_scoring_v1\\confirmed_field_presence_metrics.csv": {
+      "sha256": "fe994e7a502da0f85882b475e85d3f3720c13d4e2d0c9db908c61b1abbbe8c56",
+      "bytes": 4153
+    },
+    "<PROJECT_ROOT>\\2026-10-04\\task-7\\evidence\\six_model_comparison_v1\\deliverables\\receipt_photo_model_results_pre_fix_v1_2026-10-05\\source_evidence\\glm_route_status.json": {
+      "sha256": "da2c415cb36a421c16e47c948c7ef1465c4fd23dd7767cb4b5cf32d1587dcd5b",
+      "bytes": 62906
+    },
+    "<PROJECT_ROOT>\\2026-10-04\\task-7\\evidence\\six_model_comparison_v1\\deliverables\\receipt_photo_model_results_pre_fix_v1_2026-10-05\\source_evidence\\glm_independent_audit_reproduction.json": {
+      "sha256": "4b224d0f6ea14715a05858f1701ca9e3f4e34de4be64ea5939ffdd756144b61c",
+      "bytes": 2770
+    },
+    "<PROJECT_ROOT>\\2026-10-05\\task\\deliverables\\qwen3_5_2b_comparison_v1_recovery\\receipt_photo_model_results_qwen35_2b_2026-10-06\\qwen35_2b_addendum_summary.json": {
+      "sha256": "874f0818ca908fab3a24d2b3b8cd22dc837a84db7c642b61a21bffbfeb9fa861",
+      "bytes": 4351
+    },
+    "<PROJECT_ROOT>\\2026-10-05\\task\\deliverables\\qwen3_5_2b_comparison_v1_recovery\\receipt_photo_model_results_qwen35_2b_2026-10-06\\qwen35_2b_execution_audit.json": {
+      "sha256": "cdc9059aaeb735667cea707c31a734b625a51fb08355550ae9168e00f66a4378",
+      "bytes": 30014
+    },
+    "<PROJECT_ROOT>\\2026-10-05\\task\\deliverables\\qwen3_5_2b_comparison_v1_recovery\\receipt_photo_model_results_qwen35_2b_2026-10-06\\qwen35_2b_known_reference_scores.csv": {
+      "sha256": "30660d55bd13466d01b2ceee663d574e968d8012180d94e50a18cd024bf8be16",
+      "bytes": 43362
+    },
+    "<PROJECT_ROOT>\\2026-10-04\\task-7\\evidence\\six_model_comparison_v1\\gpu_smoke_entrypoint_preflight\\source_revisions\\after_TASK6_fix_before_orchestration_e2e_test\\six_model_gpu_entrypoint_manifest_v1.json": {
+      "sha256": "7b97dddbedce502f31a9580f98758b4e4091ba3887f4fe46ef9e345645d32aca",
+      "bytes": 24667
+    },
+    "<PROJECT_ROOT>\\2026-10-01\\task\\annotation_review\\review_packet\\line_item_review.csv": {
+      "sha256": "9c511d1105c62b22cf7edb9860ab607b220395382b423f4c93c5e1af7cb333b7",
+      "bytes": 22003
+    },
+    "<PROJECT_ROOT>\\2026-10-01\\task\\annotation_review\\review_packet\\README.md": {
+      "sha256": "ee23f81344b2bd632d9cf4776268dd2bed17090a2540bf66e4f3b2bca1cd95b7",
+      "bytes": 4077
+    },
+    "<PROJECT_ROOT>\\2026-10-01\\task\\annotation_review\\review_packet\\receipt_reference_review_v2_1.xlsx": {
+      "sha256": "dcc0394041dd8a5fddefe790e0367c751cbfac2e8d40966ccc5ed420d70ca6b3",
+      "bytes": 21102
+    }
+  }
+}

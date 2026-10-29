@@ -1,0 +1,253 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-061",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "846679366f6f59f77571a4c323d3ddf3319d8e6bc1677bd4229615aa0ec46a1b",
+  "elapsed_seconds": 3.585,
+  "detected_words": 107,
+  "detected_lines": 24,
+  "ocr_text": "- \\ See ) ee oe es ee 1K 5500 2 poke eae ED TALAH UNGL ROSe OER oa ey DISC TEX 4 BRN Cty eho . fe AHOUNT eerste ae ix 3000 peg eS a AREH ~ AREW 8.0 eit hs DISC ITEH vo AHOUNT PE 2x 3000 a LEHPER Ww. of atts lars ss OISC ITEH ‘ Soar sss fe AMOUNT - ao 2 1K 7 i : HIKA SEDANG ( tan ss i p ae PLASTIK KE Late 1K 5000 eee: r TEH KOTAK ‘ rey acai <i 7 .OONTTEK tow oF 3 feat SUBTOTAL 4,50 fetatel eats , TOTAL 24.50 Se CARD 24,500",
+  "trocr_words": "SALA SUMMARY IT @6% SR: 01: 1, JALAN INGGU SSNO 6:50 PM03-1203-1203 GOODS FROM INCLUSU - 6.50 SR: 01:03 AMOUNTEN - 07:03 AMOUNT TRANSCOUNT *** FACE AMOUNT - AEEN GOOD @6% @6% SR: AREM - AREH 008.000 ************ DISC ITEM - 40.0001 AMOUNT 2X SR: 1,000 GST REG #: 0150 ITEM - 40.00% GOODS SOLDBOOK AMOUNT - 1/2/26 *** GOODS FROM SIXA SEBANG FOOD @ US ON FACE *** PLASTIK KECIL ~~ 1X WEEK 5000 SR: CASH TOTAL 7.00 TEK 5.0% REGULAR CUSTOTAL 7.00 ITEMS WITH RECEIPT FOR SR000 REGTOTAL 24.50 PERCHASE *** TOTAL 24.50 CARD 24.50",
+  "ocr_rules_total": "24.50",
+  "ocr_rows": [
+    {
+      "nm": "a AREH ~ AREW",
+      "cnt": null,
+      "price": "8.0"
+    },
+    {
+      "nm": "CARD",
+      "cnt": null,
+      "price": "24,500"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "GOODS FROM INCLUSU",
+      "cnt": null,
+      "price": "6.50"
+    },
+    {
+      "nm": "SR: AREM - AREH",
+      "cnt": null,
+      "price": "008.000"
+    },
+    {
+      "nm": "SR",
+      "cnt": null,
+      "price": "1,000"
+    },
+    {
+      "nm": "REGULAR CUSTOTAL",
+      "cnt": null,
+      "price": "7.00"
+    },
+    {
+      "nm": "SR000 REGTOTAL",
+      "cnt": null,
+      "price": "24.50"
+    },
+    {
+      "nm": "CARD",
+      "cnt": null,
+      "price": "24.50"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 24.50"
+  },
+  "cascade_fields": {
+    "total": "SALA *** TOTAL 24.50"
+  },
+  "layout_rows": [
+    {
+      "cnt": "-",
+      "price": "\\ See"
+    },
+    {
+      "cnt": ")",
+      "price": "ee"
+    },
+    {
+      "cnt": "ee 1K",
+      "price": "2 poke",
+      "unitprice": "5500"
+    },
+    {
+      "nm": "TALAH UNGL",
+      "price": "ROSe OER"
+    },
+    {
+      "nm": "TEX",
+      "cnt": "oa ey 4",
+      "price": "BRN Cty"
+    },
+    {
+      "cnt": ". fe",
+      "price": "eerste"
+    },
+    {
+      "cnt": "ae ix",
+      "price": "peg eS",
+      "unitprice": "3000"
+    },
+    {
+      "nm": "AREH AREW",
+      "cnt": "a",
+      "price": "8.0 eit"
+    },
+    {
+      "price": "vo"
+    },
+    {
+      "price": "PE"
+    },
+    {
+      "cnt": "2x",
+      "unitprice": "3000"
+    },
+    {
+      "nm": "LEHPER",
+      "cnt": "a",
+      "price": "Ww. of"
+    },
+    {
+      "cnt": "atts lars ss",
+      "price": "‘"
+    },
+    {
+      "cnt": "sss fe"
+    },
+    {
+      "cnt": "ao 1K",
+      "price": "i",
+      "unitprice": "7"
+    },
+    {
+      "nm": "HIKA SEDANG",
+      "cnt": ":",
+      "price": "( tan"
+    },
+    {
+      "cnt": "i",
+      "unitprice": "p"
+    },
+    {
+      "nm": "PLASTIK KE",
+      "price": "Late"
+    },
+    {
+      "cnt": "1K",
+      "price": "eee:",
+      "unitprice": "5000"
+    },
+    {
+      "nm": "TEH KOTAK",
+      "price": "rey"
+    },
+    {
+      "nm": ".OONTTEK",
+      "cnt": "7",
+      "price": "tow"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "JALAN INGGU SSNO",
+      "cnt": "01: 1,",
+      "price": "PM03-1203-1203",
+      "unitprice": "6:50"
+    },
+    {
+      "nm": "GOODS FROM",
+      "price": "- 6.50"
+    },
+    {
+      "nm": "AMOUNTEN",
+      "cnt": "-",
+      "unitprice": "07:03"
+    },
+    {
+      "cnt": "-",
+      "price": "GOOD @6% @6%",
+      "unitprice": "AEEN"
+    },
+    {
+      "nm": "AREM AREH",
+      "cnt": "-",
+      "unitprice": "008.000"
+    },
+    {
+      "cnt": "-",
+      "unitprice": "40.0001"
+    },
+    {
+      "cnt": "-",
+      "unitprice": "40.00%"
+    },
+    {
+      "nm": "SOLDBOOK",
+      "cnt": "-",
+      "price": "1/2/26"
+    },
+    {
+      "nm": "FROM SIXA SEBANG FOOD"
+    },
+    {
+      "cnt": "1X"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "TALAM UNGU",
+        "unitprice": "3500",
+        "cnt": "1X",
+        "discountprice": "-2 600",
+        "price": "6,500"
+      },
+      {
+        "nm": "AREM AREM",
+        "unitprice": "3000",
+        "cnt": "1X",
+        "discountprice": "-3,200",
+        "price": "8,000"
+      },
+      {
+        "nm": "LEMPER",
+        "unitprice": "3000",
+        "cnt": "2X",
+        "discountprice": "-7.200",
+        "price": "18,000"
+      },
+      {
+        "nm": "MIKA SEDANG",
+        "unitprice": "0",
+        "cnt": "1X",
+        "price": "0"
+      },
+      {
+        "nm": "PLASTIK KECIL",
+        "unitprice": "0",
+        "cnt": "1X",
+        "price": "0"
+      },
+      {
+        "nm": "TEH KOTAK",
+        "unitprice": "5000",
+        "cnt": "1X",
+        "price": "5,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "24,500"
+    },
+    "total": {
+      "total_price": "24,500",
+      "creditcardprice": "24,500",
+      "menuqty_cnt": "7.00"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TALAM UNGU</s_nm><s_unitprice> 3500</s_unitprice><s_cnt> 1X</s_cnt><s_discountprice> -2 600</s_discountprice><s_price> 6,500</s_price><sep/><s_nm> AREM AREM</s_nm><s_unitprice> 3000</s_unitprice><s_cnt> 1X</s_cnt><s_discountprice> -3,200</s_discountprice><s_price> 8,000</s_price><sep/><s_nm> LEMPER</s_nm><s_unitprice> 3000</s_unitprice><s_cnt> 2X</s_cnt><s_discountprice> -7.200</s_discountprice><s_price> 18,000</s_price><sep/><s_nm> MIKA SEDANG</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1X</s_cnt><s_price> 0</s_price><sep/><s_nm> PLASTIK KECIL</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1X</s_cnt><s_price> 0</s_price><sep/><s_nm> TEH KOTAK</s_nm><s_unitprice> 5000</s_unitprice><s_cnt> 1X</s_cnt><s_price> 5,000</s_price></s_menu><s_sub_total><s_subtotal_price> 24,500</s_subtotal_price></s_sub_total><s_total><s_total_price> 24,500</s_total_price><s_creditcardprice> 24,500</s_creditcardprice><s_menuqty_cnt> 7.00</s_menuqty_cnt></s_total></s>"
+}

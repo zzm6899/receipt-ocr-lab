@@ -1,0 +1,75 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-054",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "3a55ea74e126743c1d9ac678a5464796114dccb240cb605f38781d87ee9d504e",
+  "elapsed_seconds": 1.459,
+  "detected_words": 38,
+  "detected_lines": 11,
+  "ocr_text": "7 i aellle et pee Ca on “ss + eee nee @& + 4 KACANG HERAH 10,000 ; SUBTOTAL 10,000 i TOTAL 10,000 : : CASH 10,000 Be: pees A an ican Fiver ee eae ae a. eee.",
+  "trocr_words": "ITEM = - *** KACANG MERAH 10,000 SUBTOTAL 10.000 TOTAL 18.000 CASH 10,000 WWW. : :",
+  "ocr_rules_total": "10,000",
+  "ocr_rows": [
+    {
+      "nm": "KACANG HERAH",
+      "cnt": "4",
+      "price": "10,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "KACANG MERAH",
+      "cnt": null,
+      "price": "10,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL : A ee"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 18.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "i aellle",
+      "cnt": "7 et",
+      "price": "pee Ca"
+    },
+    {
+      "nm": "KACANG HERAH",
+      "cnt": "4",
+      "price": "10,000"
+    },
+    {
+      "price": "10,000"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": ":",
+      "price": "10,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KACANG MERAH",
+      "price": "10,000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "KACANG MERAH",
+      "price": "10,000"
+    },
+    "sub_total": {
+      "subtotal_price": "10,000"
+    },
+    "total": {
+      "total_price": "10,000",
+      "cashprice": "10,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> KACANG MERAH</s_nm><s_price> 10,000</s_price></s_menu><s_sub_total><s_subtotal_price> 10,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 10,000</s_total_price><s_cashprice> 10,000</s_cashprice></s_total></s>"
+}

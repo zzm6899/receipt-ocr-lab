@@ -1,0 +1,149 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-060",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "247776b4c5fc498b43bd46ae08b1065bd9c08e7f77786318de58f781db6b3801",
+  "elapsed_seconds": 2.499,
+  "detected_words": 66,
+  "detected_lines": 17,
+  "ocr_text": "= Py . art } Eee 4 i> @ | a ” -. |. a | a + Y <4 tial Hille: oe 4] Topping Milo Sparkle (untuk 1 Po | — aS) = «Ix 1.250 1.250 |] sola Ubi Mini Original (14 3) 12.500 2b = 4 Subtotal 26.250 | = Pajak oN == (otal 26.250 fe ee oo! | | Pembayaran GO-PAY i |",
+  "trocr_words": "---- ITEMS : SR: SR: TOPPING MILO SPARKLE (UNTUR 1 PO (SI) 1X 1.250 1.250 BOLA UBI MINI ORIGINAL (14 (L) 12.500 25 SUBTOTAL 26.250 PAJAK (6.26) TOTAL 26.250 WWW. PEMBAYARAN G0-PAY WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "= «Ix 1.250",
+      "cnt": null,
+      "price": "1.250"
+    },
+    {
+      "nm": "== (otal",
+      "cnt": null,
+      "price": "26.250"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "1X 1.250",
+      "cnt": null,
+      "price": "1.250"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 26.250"
+  },
+  "layout_rows": [
+    {
+      "nm": "Py .",
+      "cnt": "=",
+      "price": "art }"
+    },
+    {
+      "nm": "Eee",
+      "cnt": "4",
+      "price": "i> @"
+    },
+    {
+      "cnt": "a ”",
+      "price": "|. a",
+      "unitprice": "-."
+    },
+    {
+      "cnt": "a +",
+      "price": "Y"
+    },
+    {
+      "nm": "tial",
+      "cnt": "<4",
+      "price": "Hille: oe"
+    },
+    {
+      "nm": "Topping Milo Sparkle",
+      "cnt": "4]",
+      "price": "1 Po"
+    },
+    {
+      "cnt": "—"
+    },
+    {
+      "cnt": "= «Ix",
+      "price": "1.250",
+      "unitprice": "1.250"
+    },
+    {
+      "nm": "sola Ubi Mini",
+      "cnt": "|]",
+      "price": "Original (14"
+    },
+    {
+      "cnt": "2b",
+      "unitprice": "12.500"
+    },
+    {
+      "cnt": "= 4",
+      "price": "26.250"
+    },
+    {
+      "nm": "Pajak",
+      "cnt": "=",
+      "price": "oN"
+    },
+    {
+      "price": "26.250"
+    },
+    {
+      "nm": "Pembayaran",
+      "cnt": "|"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TOPPING MILO SPARKLE",
+      "cnt": "1",
+      "price": "PO"
+    },
+    {
+      "cnt": "1X",
+      "unitprice": "1.250 1.250"
+    },
+    {
+      "nm": "BOLA UBI MINI ORIGINAL",
+      "price": "(14"
+    },
+    {
+      "price": "25"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Topping Milo Sparkle (untuk 1 Po",
+        "unitprice": "1.250",
+        "cnt": "1x",
+        "price": "1.250"
+      },
+      {
+        "nm": "rsi)",
+        "unitprice": "Original ( 14",
+        "cnt": ")",
+        "price": "1.250"
+      },
+      {
+        "nm": "Bola Ubi Mini",
+        "unitprice": "12.500",
+        "cnt": "2x",
+        "price": "(14"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "26.250",
+      "tax_price": "26.250"
+    },
+    "total": {
+      "total_price": "26.250",
+      "cashprice": "GO-PAY"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Topping Milo Sparkle (untuk 1 Po</s_nm><s_unitprice> 1.250</s_unitprice><s_cnt> 1x</s_cnt><s_price> 1.250</s_price><sep/><s_nm> rsi)</s_nm><s_unitprice> Original ( 14</s_unitprice><s_cnt> )</s_cnt><s_price> 1.250</s_price><sep/><s_nm> Bola Ubi Mini</s_nm><s_unitprice> 12.500</s_unitprice><s_cnt> 2x</s_cnt><s_price> (14</s_price></s_menu><s_sub_total><s_subtotal_price> 26.250</s_subtotal_price><s_tax_price> 26.250</s_tax_price></s_sub_total><s_total><s_total_price> 26.250</s_total_price><s_cashprice> GO-PAY</s_cashprice></s_total></s>"
+}

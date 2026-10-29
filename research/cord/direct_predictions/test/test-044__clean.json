@@ -1,0 +1,60 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-044",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "980e61015f29ad2bbd21ac09b0f8a36ea0e7965a5de7ec25e29db71cfb95f04c",
+  "elapsed_seconds": 1.436,
+  "detected_words": 46,
+  "detected_lines": 12,
+  "ocr_text": "OS, = ar i ss \\ | ‘ 5 ° . : ET 4 a a) cASH _— 0, 000 RANGED 20, 000 ' ree: ete one — . ene bs : @ . eee J , os a ; | ~ ‘ ‘ye i BX",
+  "trocr_words": "K - - : 30.000 TOTAL 30.000 CASH CHANGED @200.00 SR-6 WWW TAX CASH",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "OS, , ;"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 30.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "ar"
+    },
+    {
+      "cnt": "\\ |"
+    },
+    {
+      "cnt": "° . :"
+    },
+    {
+      "price": "0, 000"
+    },
+    {
+      "price": "20, 000"
+    },
+    {
+      "cnt": "ete one — .",
+      "price": "ene"
+    },
+    {
+      "cnt": ".",
+      "price": "eee"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": {
+      "nm": "Combo 1",
+      "cnt": "1",
+      "price": "30,000"
+    },
+    "total": {
+      "total_price": "30.000",
+      "cashprice": "50.000",
+      "changeprice": "20.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Combo 1</s_nm><s_cnt> 1</s_cnt><s_price> 30,000</s_price></s_menu><s_total><s_total_price> 30.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 20.000</s_changeprice></s_total></s>"
+}

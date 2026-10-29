@@ -1,0 +1,279 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-098",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "ce6d50ba3778332fcd516d386ce20c250aca2d81df2cdbbca440f1df1dd7425b",
+  "elapsed_seconds": 8.002,
+  "detected_words": 272,
+  "detected_lines": 45,
+  "ocr_text": "Rieti, ph a , a , oe ) ie iy, —o Soe BP 5 eRe oo —_— ~~. i ge > aS ee ie 7 ies . Se \"es : —— > cae ae Ae tae iy one i = . — ae ‘ = aie éf m : a “SS ee Sat: . _ ee eae = = “ so , >=. = ~= Se +s Se — —— =< S we = * tiie” o< SS OS Se So = = —— ‘ i ge : ee —— SS — ~~ ~~ >=. _—— = ms Pe SSS FOOD . SSS ero nicer Tem sai RRA eURLETE TTS SS =—S —_. Quality’ Tre Tull HE Ss SSSs DEERME A Bet HRS TIP HL TAREE AE DANA Ae} AL {HT stat HAM BRia NA Vela i eS ~S = Presenta Ue StE ise) COLE taailicae eaten | \"EQ TSS Taste/Ra Abc nC CEES ARAN es ie ae duce i “Se a = BEVERACG SS ~. Quality/K = SS S SSS : ae Se eee ee pects Saar SS — SS —S Be one oa en i : re VC ——s : mer 1 BLACK PEPPER MEATBALL PAS ea IS 1 TRUFFLE CREAM Mate ~ SERVIC 1 EARL GREY MILK TEA SN Ss SA? 915 HOU : << Friendlin SUBTTL Bes oe, — services Charge b% ae Pea ~ Prompt TAX 10% 9 190 + SS f “4 : es = SS Attentiv oer - ee ae —— Le 750,690 a Time/W TOTAL 2507.0 3 = : a. —- fs ae =—— ae <= awe % ~ ~~. = a = Se",
+  "trocr_words": "YAVAY /AMOUNT / /SAL AM AM AMAN VAN WWW WWW. : * S CASHIER : SR:00 CASHIER FOOD INFORMATION *** 500Y* ITEM ID: PREMEYTARYS (RM) PRESEIPT FOR ANCLUDING - BEVERA: EXT @ 6% BEVERAK E LAM CASHIER ONCLUSIVE PLEASE TAKE APPER METAIL PS 9/18/2018 AMOUNT MARRI PAS 79,000 ASER/RA: 1 BLACK PEPPB MEATBALL PAS 79,00 1 BRUIFILE CREAM TEAM 98,000 SERVICE 1 EAR REG MILK TA 28,00 SERVICE 1 SAME PAY MIX TEA 28.00 GARL GREAD MILK TEA 2/5,000 SERVICE CHARGE 6% 22,90 PROMPTED TAXIVE CHARGE 8: 22,79 X 10% PETENTIVE TAX 18% 250,690 TOTAL 250,690 AMTIM TOTAL 250,690 @ AMASS = LAM CASHIER SR: SR:",
+  "ocr_rules_total": "3",
+  "ocr_rows": [
+    {
+      "nm": "Le",
+      "cnt": null,
+      "price": "750,690"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "ASER/RA: 1 BLACK PEPPB MEATBALL PAS",
+      "cnt": null,
+      "price": "79,00"
+    },
+    {
+      "nm": "BRUIFILE CREAM TEAM",
+      "cnt": "1",
+      "price": "98,000"
+    },
+    {
+      "nm": "SERVICE 1 EAR REG MILK TA",
+      "cnt": null,
+      "price": "28,00"
+    },
+    {
+      "nm": "SERVICE 1 SAME PAY MIX TEA",
+      "cnt": null,
+      "price": "28.00"
+    },
+    {
+      "nm": "SERVICE CHARGE 6%",
+      "cnt": null,
+      "price": "22,90"
+    },
+    {
+      "nm": "PROMPTED TAXIVE CHARGE 8",
+      "cnt": null,
+      "price": "22,79"
+    }
+  ],
+  "layout_fields": {
+    "total": "ee 750,690 TOTAL 2507.0 = : ae"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 250,690 TOTAL 250,690"
+  },
+  "layout_rows": [
+    {
+      "nm": "Rieti,",
+      "cnt": "ph a , a , oe ) ie 5",
+      "price": "iy, Soe BP eRe oo —_—"
+    },
+    {
+      "cnt": "i ge",
+      "price": "ie 7 ies"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "Ae",
+      "price": "iy one"
+    },
+    {
+      "cnt": "‘ = éf :",
+      "price": "“SS ee Sat:",
+      "unitprice": "m a"
+    },
+    {
+      "cnt": "= “",
+      "price": "so"
+    },
+    {
+      "cnt": "= ~=",
+      "price": "—"
+    },
+    {
+      "cnt": "= *",
+      "price": "OS",
+      "unitprice": "SS"
+    },
+    {
+      "cnt": "= =",
+      "price": "i"
+    },
+    {
+      "cnt": ":",
+      "price": "ee"
+    },
+    {
+      "price": "SS"
+    },
+    {
+      "price": "="
+    },
+    {
+      "price": "SSS"
+    },
+    {
+      "nm": "FOOD",
+      "price": ". SSS"
+    },
+    {
+      "cnt": "sai",
+      "price": "SS",
+      "unitprice": "Tem"
+    },
+    {
+      "price": "Ss SSSs",
+      "unitprice": "HE"
+    },
+    {
+      "nm": "HL TAREE AE",
+      "cnt": "A TIP DANA Ae} AL {HT",
+      "price": "HAM BRia NA Vela i",
+      "unitprice": "stat"
+    },
+    {
+      "price": "eaten | \"EQ TSS",
+      "unitprice": "Ue StE ise)"
+    },
+    {
+      "price": "ae duce i “Se",
+      "unitprice": "es ie"
+    },
+    {
+      "nm": "BEVERACG",
+      "price": "SS"
+    },
+    {
+      "price": "SSS"
+    },
+    {
+      "cnt": "ae ee",
+      "price": "SS",
+      "unitprice": "Se eee"
+    },
+    {
+      "cnt": "Be one oa en i :",
+      "price": "re VC"
+    },
+    {
+      "nm": "mer BLACK PEPPER MEATBALL",
+      "cnt": "1",
+      "price": "ea IS"
+    },
+    {
+      "nm": "TRUFFLE CREAM",
+      "cnt": "1",
+      "price": "Mate"
+    },
+    {
+      "nm": "SERVIC EARL GREY MILK TEA",
+      "cnt": "1",
+      "price": "SN"
+    },
+    {
+      "price": "915 HOU :"
+    },
+    {
+      "nm": "Friendlin",
+      "price": "Bes oe,"
+    },
+    {
+      "price": "ae Pea",
+      "unitprice": "b%"
+    },
+    {
+      "nm": "Prompt",
+      "price": "9 190 +"
+    },
+    {
+      "cnt": "f “4"
+    },
+    {
+      "nm": "Attentiv",
+      "cnt": "-"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "LAM"
+    },
+    {
+      "nm": "PLEASE TAKE APPER METAIL PS",
+      "price": "9/18/2018"
+    },
+    {
+      "nm": "MARRI PAS",
+      "price": "79,000"
+    },
+    {
+      "nm": "ASER/RA: BLACK PEPPB MEATBALL",
+      "cnt": "1",
+      "price": "PAS 79,00"
+    },
+    {
+      "nm": "BRUIFILE CREAM TEAM",
+      "cnt": "1",
+      "price": "98,000"
+    },
+    {
+      "nm": "SERVICE EAR REG MILK TA",
+      "cnt": "1",
+      "price": "28,00"
+    },
+    {
+      "nm": "SERVICE SAME PAY MIX TEA",
+      "cnt": "1",
+      "price": "28.00"
+    },
+    {
+      "nm": "GARL GREAD MILK TEA",
+      "price": "2/5,000"
+    },
+    {
+      "nm": "SERVICE",
+      "price": "22,90"
+    },
+    {
+      "nm": "PROMPTED",
+      "price": "22,79"
+    },
+    {
+      "cnt": "X"
+    },
+    {
+      "nm": "PETENTIVE",
+      "price": "250,690"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "FOOD Quality/K"
+      },
+      {
+        "nm": "Presentat Taste/Ra. BEVERAC",
+        "price": "79,000"
+      },
+      {
+        "nm": "BLACK PEPPER MEATBALL PAS",
+        "cnt": "1",
+        "price": "77,000"
+      },
+      {
+        "nm": "TRUFFLE CREAM",
+        "cnt": "1",
+        "price": "59,000"
+      },
+      {
+        "nm": "EARL GREY MILK TEA",
+        "cnt": "1",
+        "price": "255,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "255,000",
+      "service_price": "12,900",
+      "tax_price": "22,790"
+    },
+    "total": {
+      "total_price": "250,690",
+      "total_etc": "Ambiance"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> FOOD Quality/K</s_nm><sep/><s_nm> Presentat Taste/Ra. BEVERAC</s_nm><s_price> 79,000</s_price><sep/><s_nm> BLACK PEPPER MEATBALL PAS</s_nm><s_cnt> 1</s_cnt><s_price> 77,000</s_price><sep/><s_nm> TRUFFLE CREAM</s_nm><s_cnt> 1</s_cnt><s_price> 59,000</s_price><sep/><s_nm> EARL GREY MILK TEA</s_nm><s_cnt> 1</s_cnt><s_price> 255,000</s_price></s_menu><s_sub_total><s_subtotal_price> 255,000</s_subtotal_price><s_service_price> 12,900</s_service_price><s_tax_price> 22,790</s_tax_price></s_sub_total><s_total><s_total_price> 250,690</s_total_price><s_total_etc> Ambiance</s_total_etc></s_total></s>"
+}

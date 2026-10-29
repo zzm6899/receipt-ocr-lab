@@ -1,0 +1,202 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-061",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "fa0f84c3db73073db1cd5d3e25051fa75cb319f2c218915767040f546a889d4b",
+  "elapsed_seconds": 3.698,
+  "detected_words": 106,
+  "detected_lines": 23,
+  "ocr_text": ": 905\" bz auva eB TWLOL % ee sp WLoLans Sis Be geash ieee #311 00° se re an : WO HL ‘ 2 ahs ste 0009 XL ie eg I WISHId ee 0 XL sige ees ) SNYORS YYIH fehery fl ( xl . a snare ape? INnonY Oy Seppe ' WAT 9sr0 Seca OONa) ends l vadH3 aN é oo0e Xz = Sa ANNOKY 7 i HII JsTo é er ee 0'8 ay - Way Bi Nae arin noe i SN ee Lwnoky : eee eae [ ail osio i at See per oun eats Saath eelescegta! 00s¢ : —e Dy aden e ot",
+  "trocr_words": "CARD ID: 04,50 SR:03-02-02 GOOD: 006'MZ SWIL BOI, THIOIS MS + 6999 GOODS FROM ******** SR:00:00 AMOUNT NO'S WITH AMOUNT AND BELL SUMMARY TAX X PLASTICATE XICK XCLUSED EXCLUDING INCLUSIVE TRANX TEAUTIONS GOODS FROMIN ORIGING SAVIES WITH ABOOD GOODS 8 MONTH @ **** GOODS SOLD WITH THE ONCOME FOR RECEIPT GOODS SOLD 0- NEII 3SIO - + SR:55:55 AMOUNT 0000 83801 - 006 GST REG # 0006 VEGAK XZ AMOUNT INCLUSIVE INCLUS INVDAY *** SR: MASCOUNT: 0000'S CODE MEAW - REW SEE *** CASHIER: *** SR:00-000000- REG- REG #: 0310 SECRET REG PLEASEBOOK: 6% 9 DAYS FROM WITH RECEIPT FOR A FREE PLEASEBOOK OF 6% ON DESE AGAIN WITH THE RECEIPT ***",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "CARD ID",
+      "cnt": null,
+      "price": "04,50"
+    }
+  ],
+  "layout_fields": {
+    "total": "ot"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": ": bz",
+      "price": "auva",
+      "unitprice": "905\""
+    },
+    {
+      "price": "%"
+    },
+    {
+      "cnt": "sp",
+      "price": "WLoLans"
+    },
+    {
+      "nm": "Be geash ieee",
+      "price": "se",
+      "unitprice": "#311 00°"
+    },
+    {
+      "cnt": ":",
+      "price": "WO HL"
+    },
+    {
+      "nm": "ahs ste",
+      "price": "XL",
+      "unitprice": "0009"
+    },
+    {
+      "cnt": "ie I"
+    },
+    {
+      "price": "XL",
+      "unitprice": "0"
+    },
+    {
+      "cnt": ")",
+      "price": "YYIH"
+    },
+    {
+      "price": "xl",
+      "unitprice": "("
+    },
+    {
+      "price": "Oy"
+    },
+    {
+      "cnt": "'",
+      "price": "WAT 9sr0"
+    },
+    {
+      "cnt": "l",
+      "price": "vadH3 aN"
+    },
+    {
+      "cnt": "é",
+      "price": "Xz",
+      "unitprice": "oo0e"
+    },
+    {
+      "cnt": "7",
+      "price": "JsTo",
+      "unitprice": "i HII"
+    },
+    {
+      "price": "ay - Way Bi",
+      "unitprice": "0'8"
+    },
+    {
+      "price": "i",
+      "unitprice": "noe"
+    },
+    {
+      "cnt": "[",
+      "price": "i at",
+      "unitprice": "eae ail"
+    },
+    {
+      "price": "oun eats"
+    },
+    {
+      "price": "—e",
+      "unitprice": "00s¢"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "SWIL BOI,",
+      "cnt": "006'MZ",
+      "price": "MS + 6999"
+    },
+    {
+      "cnt": "AMOUNT NO'S",
+      "unitprice": "AMOUNT AND"
+    },
+    {
+      "cnt": "MONTH",
+      "price": "@"
+    },
+    {
+      "cnt": "SOLD"
+    },
+    {
+      "price": "NEII"
+    },
+    {
+      "price": "83801 - 006",
+      "unitprice": "0000"
+    },
+    {
+      "cnt": "REG # 0006",
+      "price": "XZ"
+    },
+    {
+      "cnt": "MASCOUNT: 0000'S",
+      "price": "- REW",
+      "unitprice": "MEAW"
+    },
+    {
+      "nm": "WITH",
+      "cnt": "6% 9 DAYS FROM"
+    },
+    {
+      "nm": "ON DESE AGAIN",
+      "cnt": "OF 6%"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "050 GARDEN 001 TALOL SWE11 00'L"
+    },
+    {
+      "nm": "0009",
+      "cnt": "0",
+      "price": "XL"
+    },
+    {
+      "nm": "SNVES VXIM",
+      "unitprice": "0",
+      "cnt": "0",
+      "price": "XL"
+    },
+    {
+      "nm": "INTOWV",
+      "unitprice": [
+        {
+          "price": "JSIO"
+        },
+        {
+          "nm": "BELKETE"
+        }
+      ],
+      "cnt": "X2",
+      "price": "007 -"
+    },
+    {
+      "nm": "WELL CSIO",
+      "unitprice": "000 8",
+      "cnt": "-",
+      "price": "-358"
+    },
+    {
+      "nm": {
+        "cnt": "XL"
+      },
+      "unitprice": "000 01 -",
+      "cnt": [
+        {
+          "price": "0009"
+        },
+        {
+          "nm": "NONNI MUTIVI",
+          "unitprice": "9"
+        }
+      ]
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 050 GARDEN 001 TALOL SWE11 00'L</s_nm><s_price> CAPACAL SH311 00'L</s_nm><s_price> ROOM HEL</s_price><sep/><s_nm> 0009</s_nm><s_unitprice> XL</s_nm><s_unitprice> PICKET MILSTAR 0</s_unitprice><s_cnt> 0</s_cnt><s_price> XL</s_price><sep/><s_nm> SNVES VXIM</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 0</s_cnt><s_price> XL</s_price><sep/><s_nm> INTOWV</s_nm><s_unitprice> .000 05 -</s_nm><s_price> JSIO</s_price><sep/><s_nm> BELKETE</s_nm><s_unitprice> 0008</s_unitprice><s_cnt> X2</s_cnt><s_price> 007 -</s_price><sep/><s_nm> WELL CSIO</s_nm><s_unitprice> 000 8</s_unitprice><s_cnt> -</s_cnt><s_price> -358</s_price><sep/><s_nm> 0008</s_unitprice><s_cnt> XL</s_cnt><s_price> INNOWV</s_nm><s_unitprice> 000 01 -</s_unitprice><s_cnt> MELL CSIO</s_nm><s_price> 0009</s_price><sep/><s_nm> NONNI MUTIVI</s_nm><s_unitprice> 9</s_unitprice><s_cnt> XL</s_cnt><s_price> GOSSE</s_changeprice></s_total></s>"
+}

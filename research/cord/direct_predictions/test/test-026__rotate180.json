@@ -1,0 +1,67 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-026",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "b4e376f61595004aff40a06af721b35399369957bf9cd6bdaad8cd9500b113ef",
+  "elapsed_seconds": 1.193,
+  "detected_words": 14,
+  "detected_lines": 6,
+  "ocr_text": "“g 1su0g Aeg dec eg de Pa e * “a * — = hs",
+  "trocr_words": "GSTSUOP KEG DEG KEY (RM) *** 1 ITEM %",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "="
+  },
+  "cascade_fields": {
+    "total": "%"
+  },
+  "layout_rows": [
+    {
+      "nm": "Aeg",
+      "cnt": "“g",
+      "unitprice": "1su0g"
+    },
+    {
+      "cnt": "*",
+      "unitprice": "—"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "GSTSUOP"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "dg",
+        "cnt": "0",
+        "price": {
+          "nm": "000'831 by",
+          "unitprice": "000'99",
+          "cnt": "1"
+        }
+      },
+      {
+        "nm": "10H Bunk nf",
+        "unitprice": {
+          "cnt": "1"
+        },
+        "cnt": "2",
+        "price": "2"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "161",
+      "tax_price": "000'99"
+    },
+    "total": {
+      "total_price": "000'99",
+      "total_etc": "1쓸<s_nm> 8"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> dg</s_nm><s_unitprice> aGueyo</s_nm><s_unitprice> asugu<s_unitprice> 000'831 by</s_nm><s_unitprice> useo</s_unitprice><s_cnt> 0</s_cnt><s_price> [e]operator<s_nm> 000'831 by</s_nm><s_unitprice> 000'99</s_unitprice><s_cnt> 1</s_cnt><s_price> 1</s_price><sep/><s_nm> 10H Bunk nf</s_nm><s_unitprice> [e]-upel<s_cnt> 1</s_cnt><s_price> Ulej-upel</s_nm><s_unitprice> 000't</s_unitprice><s_cnt> 2</s_cnt><s_price> 2</s_price></s_menu><s_sub_total><s_subtotal_price> 161</s_subtotal_price><s_tax_price> 000'99</s_tax_price></s_sub_total><s_total><s_total_price> 000'99</s_total_price><s_total_etc> 1쓸<s_nm> 8</s_total_etc><s_cashprice> [e] deJ</s_nm></s_total></s>"
+}

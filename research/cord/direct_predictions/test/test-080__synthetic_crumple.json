@@ -1,0 +1,82 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-080",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "fe3ad53441f8a9509ef8754b8cc8bbab9e61eff5528e4a1c0c26502652ecb0b9",
+  "elapsed_seconds": 0.984,
+  "detected_words": 18,
+  "detected_lines": 9,
+  "ocr_text": "1 Viet Milk Coffee 25.000 +1ce Ba Subtotal 25.000 Total 25.000 Os 95.000 Yeabalian #0 « ae F",
+  "trocr_words": "1 VIET MILK COFFEE 25.00 +ICE +M SUBTOTAL : 25:000 SUBTOTAL : 1 25.000 CASH CHANGE 25.00 KEMALIAN 6 -1",
+  "ocr_rules_total": "25.000",
+  "ocr_rows": [
+    {
+      "nm": "Viet Milk Coffee",
+      "cnt": "1",
+      "price": "25.000"
+    },
+    {
+      "nm": "Os",
+      "cnt": null,
+      "price": "95.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "VIET MILK COFFEE",
+      "cnt": "1",
+      "price": "25.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total 95.000"
+  },
+  "cascade_fields": {
+    "total": ": 25.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "Viet Milk Coffee",
+      "cnt": "1",
+      "price": "25.000"
+    },
+    {
+      "price": "25.000"
+    },
+    {
+      "nm": "Yeabalian"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "VIET MILK COFFEE",
+      "cnt": "1",
+      "price": "25.00"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Viet Milk Coffee",
+      "cnt": "1",
+      "price": "25.000",
+      "sub": [
+        {
+          "nm": "+Ice"
+        },
+        {
+          "nm": "+M"
+        }
+      ]
+    },
+    "sub_total": {
+      "subtotal_price": "25.000"
+    },
+    "total": {
+      "total_price": "25.000",
+      "cashprice": "25.000",
+      "changeprice": "0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Viet Milk Coffee</s_nm><s_cnt> 1</s_cnt><s_price> 25.000</s_price><s_sub><s_nm> +Ice</s_nm><sep/><s_nm> +M</s_nm></s_sub></s_menu><s_sub_total><s_subtotal_price> 25.000</s_subtotal_price></s_sub_total><s_total><s_total_price> 25.000</s_total_price><s_cashprice> 25.000</s_cashprice><s_changeprice> 0</s_changeprice></s_total></s>"
+}

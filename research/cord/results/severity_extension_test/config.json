@@ -1,0 +1,73 @@
+{
+  "split": "test",
+  "receipts": 100,
+  "conditions": [
+    "blue_cast_high",
+    "blue_cast_extreme",
+    "fade_extreme",
+    "fade_maximum",
+    "occlusion_28",
+    "occlusion_38",
+    "blue_fade_mix",
+    "fade_occlusion_mix"
+  ],
+  "recipes": {
+    "blue_cast_high": {
+      "operation": "blend toward RGB(218,228,255)",
+      "blend": 0.32
+    },
+    "blue_cast_extreme": {
+      "operation": "blend toward RGB(218,228,255)",
+      "blend": 0.46
+    },
+    "fade_extreme": {
+      "operation": "brightness then contrast",
+      "brightness": 1.1,
+      "contrast": 0.3
+    },
+    "fade_maximum": {
+      "operation": "brightness then contrast",
+      "brightness": 1.1,
+      "contrast": 0.2
+    },
+    "occlusion_28": {
+      "operation": "nested seeded ellipse",
+      "additional_area_fraction": 0.28,
+      "fill_rgb": [
+        101,
+        82,
+        63
+      ]
+    },
+    "occlusion_38": {
+      "operation": "nested seeded ellipse",
+      "additional_area_fraction": 0.38,
+      "fill_rgb": [
+        101,
+        82,
+        63
+      ]
+    },
+    "blue_fade_mix": {
+      "operation": "blue cast then fade",
+      "blend": 0.32,
+      "brightness": 1.1,
+      "contrast": 0.3
+    },
+    "fade_occlusion_mix": {
+      "operation": "fade then nested seeded ellipse",
+      "brightness": 1.1,
+      "contrast": 0.2,
+      "additional_area_fraction": 0.28,
+      "fill_rgb": [
+        101,
+        82,
+        63
+      ]
+    }
+  },
+  "paired_mask_policy": "occlusion variants use the same seeded center per receipt; larger masks contain the smaller mask where image boundaries permit",
+  "source_policy": "test transforms are generated from the exact clean JPEG inputs used in the prior severity_test suite; clean outputs reused by matching that image hash",
+  "synthetic_only": true,
+  "jpeg_quality": 94
+}

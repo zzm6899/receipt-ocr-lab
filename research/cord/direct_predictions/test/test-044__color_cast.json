@@ -1,0 +1,77 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-044",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "f10580428b263d62196571b19c363ab522f7b629ec0622513741106844d84495",
+  "elapsed_seconds": 1.257,
+  "detected_words": 34,
+  "detected_lines": 10,
+  "ocr_text": "oS, o oe ‘ le ae ' cb! (0,000 . TOTAL 30. 000 — 60, 000 CHANGI [) 20, 000 e - i i - ao eS . Ay ‘a> ° Oo) fo e's",
+  "trocr_words": "K - PLE 1 COMBO 1 00.000 TOTAL 30.000 CASH CHANGED 20.00 TAX $6.00 O.00",
+  "ocr_rules_total": "000",
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "COMBO 1",
+      "cnt": "1",
+      "price": "00.000"
+    },
+    {
+      "nm": "CHANGED",
+      "cnt": null,
+      "price": "20.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "oS, o TOTAL - Ay"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 30.000"
+  },
+  "layout_rows": [
+    {
+      "unitprice": "oe"
+    },
+    {
+      "price": "'",
+      "unitprice": "ae"
+    },
+    {
+      "nm": "cb!"
+    },
+    {
+      "nm": ".",
+      "price": "30. 000"
+    },
+    {
+      "nm": "—",
+      "price": "60, 000"
+    },
+    {
+      "nm": "CHANGI",
+      "cnt": "[)",
+      "price": "20, 000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "COMBO",
+      "cnt": "1 1",
+      "price": "00.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Combo 1",
+      "cnt": "1",
+      "price": "30,000"
+    },
+    "total": {
+      "total_price": "30.000",
+      "cashprice": "50.000",
+      "changeprice": "20.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Combo 1</s_nm><s_cnt> 1</s_cnt><s_price> 30,000</s_price></s_menu><s_total><s_total_price> 30.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 20.000</s_changeprice></s_total></s>"
+}

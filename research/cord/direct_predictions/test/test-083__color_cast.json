@@ -1,0 +1,103 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-083",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "d39b8cf0b21e10fea851d468371ad9db674f9d9b28eadccfa838c153811f979c",
+  "elapsed_seconds": 1.117,
+  "detected_words": 24,
+  "detected_lines": 7,
+  "ocr_text": "y vie, 09 iiptal / 20,909 ASH 107 2,094 j otal 23,000 Tam dann ane jendered 254000 i i , ? , age a",
+  "trocr_words": "TES AND CREAM 20.909 9.00TAL , 20.909 AJAK 10% 1 TOTAL 23.000 TAMORAD NO. TENDERED 25.000 :",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "iiptal /",
+      "cnt": null,
+      "price": "20,909"
+    },
+    {
+      "nm": "ASH 107",
+      "cnt": null,
+      "price": "2,094"
+    },
+    {
+      "nm": "j otal",
+      "cnt": null,
+      "price": "23,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "TES AND CREAM",
+      "cnt": null,
+      "price": "20.909"
+    },
+    {
+      "nm": "9.00TAL ,",
+      "cnt": null,
+      "price": "20.909"
+    },
+    {
+      "nm": "TENDERED",
+      "cnt": null,
+      "price": "25.000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 23.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "y",
+      "price": "vie, 09"
+    },
+    {
+      "nm": "iiptal",
+      "cnt": "/",
+      "price": "20,909"
+    },
+    {
+      "nm": "ASH",
+      "price": "2,094"
+    },
+    {
+      "nm": "otal",
+      "cnt": "j",
+      "price": "23,000"
+    },
+    {
+      "cnt": "Tam dann",
+      "price": "ane"
+    },
+    {
+      "nm": "jendered",
+      "price": "254000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TES AND CREAM",
+      "price": "20.909"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "COOKTES AND CREAM",
+      "cnt": "1",
+      "price": "20.909"
+    },
+    "sub_total": {
+      "subtotal_price": "20.909",
+      "tax_price": "2,091"
+    },
+    "total": {
+      "total_price": "23,000",
+      "cashprice": "25.000",
+      "changeprice": "2,000",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> COOKTES AND CREAM</s_nm><s_cnt> 1</s_cnt><s_price> 20.909</s_price></s_menu><s_sub_total><s_subtotal_price> 20.909</s_subtotal_price><s_tax_price> 2,091</s_tax_price></s_sub_total><s_total><s_total_price> 23,000</s_total_price><s_cashprice> 25.000</s_cashprice><s_changeprice> 2,000</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

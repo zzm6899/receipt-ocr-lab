@@ -1,0 +1,64 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-044",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "a25d9568de2a7721da4ddd280a6ba54211d308f11bf16e5d9d7e323aba01608c",
+  "elapsed_seconds": 1.467,
+  "detected_words": 27,
+  "detected_lines": 10,
+  "ocr_text": "eG ‘ oy. AS 3 “ ROS A% oft 000 ‘02 CONV 000'03 HSv9 re 4 <r j i] oa oS mm ; > > ‘ a",
+  "trocr_words": "49.98 6.00 CHANNED ONCLUSIONS ON ORIGINAL ONCLUSIONS CASH CHANGE: 00.00 INVOICE TAIDI NO: 1 COME I GOOD | MM - SR -",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "; > >"
+  },
+  "cascade_fields": {
+    "total": "49.98"
+  },
+  "layout_rows": [
+    {
+      "nm": "AS",
+      "cnt": "3"
+    },
+    {
+      "nm": "ROS",
+      "price": "oft"
+    },
+    {
+      "nm": "CONV",
+      "cnt": "‘02"
+    },
+    {
+      "nm": "re",
+      "price": "4"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CHANNED ONCLUSIONS"
+    },
+    {
+      "price": "00.00"
+    },
+    {
+      "cnt": "1"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "price": "HASVO"
+    },
+    "total": {
+      "total_price": {
+        "nm": "000'03",
+        "cnt": "1",
+        "price": "HASVO"
+      },
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 0000</s_unitprice><s_cnt> 0000</s_num><s_price> HASVO</s_price></s_menu><s_total><s_total_price> dondo<sep/><s_nm> 000'03</s_nm><s_cnt> 1</s_cnt><s_price> HASVO</s_price></s_menu><s_total><s_total_price> dondo</s_total_price><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

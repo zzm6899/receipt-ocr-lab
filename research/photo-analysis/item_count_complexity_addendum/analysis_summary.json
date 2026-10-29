@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "saved_input_hashes_verified": 4,
+  "selected_receipt_pairs": 50,
+  "selected_total_score_rows": 600,
+  "routes": [
+    "Tesseract+rules",
+    "LayoutLMv3",
+    "TrOCR+LayoutLMv3",
+    "Donut",
+    "GLM-OCR",
+    "Qwen3.5-2B"
+  ],
+  "conditions": [
+    "clear",
+    "scrunched"
+  ],
+  "reference_join": "legacy_ prefix stripped to receipt_*; new_* exact match; all known totals numerically agree with the joined frozen reference; one-to-one 50 receipt mapping",
+  "receipt_count_proxy_n": 49,
+  "item_count_unavailable_or_incomplete_receipts": [
+    "new_014"
+  ],
+  "unknown_total_label_views_n": 1,
+  "unknown_total_route_decisions_n": 6,
+  "item_count_bins": [
+    "1-3",
+    "4-5",
+    "6+"
+  ],
+  "binning_unit": "annotated product reference rows per receipt; raw-entry sensitivity also reported",
+  "unknown_or_incomplete_item_counts_excluded_from_bins": true,
+  "name_length_n": 161,
+  "interpretation_limits": [
+    "All receipt labels are assistant-audited/unverified.",
+    "Legacy line-item inventory completeness is not independently established; its count is a transcribed-row proxy.",
+    "Receipy product count uses row_type=product; raw entry count also includes promo/discount/adjustment entries.",
+    "Product-name text length is not a full receipt transcription, OCR token count, or causal difficulty measure.",
+    "Small item-count strata are descriptive and not inferential evidence of a causal item-count effect."
+  ]
+}

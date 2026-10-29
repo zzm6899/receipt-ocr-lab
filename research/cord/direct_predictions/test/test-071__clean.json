@@ -1,0 +1,90 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-071",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "39fb888baa4204238c0f413623a94783d37274434be726cc55ebd9fc00099ad8",
+  "elapsed_seconds": 1.786,
+  "detected_words": 33,
+  "detected_lines": 13,
+  "ocr_text": "Cuka Apel Tetes fe ; ae ms 198000 Ages HOURS Sub Total 1Saoo0 Tunai Fs 200200 Kembalian 22000 ee ~~ a 4 ”~ ™ ve mascnn Rerrevee¥ ie wr wn Asdssabbabibabebbnhbis ae ae",
+  "trocr_words": "CULKA APEL TELES 1 1/03000 198000 198000 SUB TOTAL 198000 TUNAI MAI ID: 200200 KEMBALIAN 22000 *** ITEM - *** ......................... WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "ie"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "Cuka Apel Tetes fe",
+      "cnt": ";",
+      "price": "ms",
+      "unitprice": "ae"
+    },
+    {
+      "cnt": "Ages",
+      "unitprice": "198000 HOURS"
+    },
+    {
+      "unitprice": "1Saoo0"
+    },
+    {
+      "nm": "Tunai"
+    },
+    {
+      "cnt": "Fs",
+      "unitprice": "200200"
+    },
+    {
+      "nm": "Kembalian",
+      "price": "22000"
+    },
+    {
+      "nm": "mascnn Rerrevee¥",
+      "price": "wr wn"
+    },
+    {
+      "price": "ae"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CULKA APEL TELES",
+      "cnt": "1",
+      "price": "1/03000"
+    },
+    {
+      "unitprice": "198000 198000"
+    },
+    {
+      "price": "198000"
+    },
+    {
+      "nm": "TUNAI"
+    },
+    {
+      "nm": "MAI",
+      "cnt": "ID:",
+      "unitprice": "200200"
+    },
+    {
+      "unitprice": "22000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Cuka Apel Tetes",
+      "unitprice": "198000",
+      "cnt": "1",
+      "price": "198000"
+    },
+    "total": {
+      "total_price": "198000",
+      "cashprice": "200200",
+      "changeprice": "22000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Cuka Apel Tetes</s_nm><s_unitprice> 198000</s_unitprice><s_cnt> 1</s_cnt><s_price> 198000</s_price></s_menu><s_total><s_total_price> 198000</s_total_price><s_cashprice> 200200</s_cashprice><s_changeprice> 22000</s_changeprice></s_total></s>"
+}

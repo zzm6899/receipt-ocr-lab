@@ -1,0 +1,170 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-058",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "3178789a7ebdb2e2805a51a278a8bae735f96a9114c135f1d83b4b13b6938575",
+  "elapsed_seconds": 7.888,
+  "detected_words": 294,
+  "detected_lines": 66,
+  "ocr_text": "2 d a ; ae. ‘ ied =, he = ein i : o: a ey - i i _—— 7 — dle m 1 4 od . u im ; Sree ita ee ; eee oe Zao eee Y peau ees soil ae | j e pris itacaue See ei biese <i or waters oe Sie ae sae ee . iis 4 ‘ in| ; ; | ae ; k a - is e ~ Le 5 ; fl a ie a f “4 TE ae & q } cae Sub ia : : ' f 3 ‘ Spoleigy 7 cy PBI be v4 a =o ne acs j he : eee a : 7. = ; ; 5 = _ r ota 7 ; nae soe re c o a ava Sone oe eats : ia ee =e s ‘4 pps Cae ‘ ee a a ae Seta ‘ i Satie ery weitere eae ee aL: AES. pe lect, F : bt aeration i ae i. = eae # peel S 2 nr ee, a ens 2a, Po: Pie bay-xe Boe oi, i! a re A ~ 5 eee a rn Co 4 = oe cee me er) | a naa P ri Ey Se cette | 1 f Mec Lseeenie:, A “eee oe f a cae a thn 1 ; art ce rate = 7 A aoe Sa ; ee 3 = erie oh muse eistat: ‘ Tans ae ee eae i ne paige ~ a sepa aa ae : eamerecce | Meats. ware te eats a) a) : : * ot as fseake” ee - «F - fy ee a. f re ‘ aa is 2% pghin Z . petites ou E Rete a a ee Pt EN ore fw",
+  "trocr_words": ": CASHIER WWW.MY ITEMS ARE WITH RECEIPT FOR AN OFFER CASHIER AMOUNTMENT SUMMARY AMOUNT: ITEM OVER WWW.WWWW. WWW.WWW.WW. E - AMOUNT: - CASHIER AMOUNT CASHIER ......................... ITEMABLE AND ONCLUSIVE OF WWW.COM SR:00-8656-8478 SR: TRANSACTION INTERNATIONAL: STANDARD AMOUNT WWW.WW. ITEMS AND ONCLUSIONS CASHIER: CASHIER: SRH INTAIL: 1,000 SUB TOTAL: TEL RM: AMOUNT: CASHIER INCLUSIVE WITH TOTAL 7,1-1, JALANANANANAN BKAWASAN BAHRU ITEM TOTAL: AMOUNT AMOUNT NO.00 AMOUNT *** ******** CASHIER NO: TRANS MUST ONCLUSIVE 81200 CASHIER NO: CHARGE WHERE AND BELL WITH RECEIPT FOR ALL BEAUTIONS - - - - - - - - - - - - - - - - - ITEMS - ITEMS - - - CASHIER CASHIER CASHIER: : CASHIER: CASHIERIES ONCLUSIVE OF : WWW. THANK YOU.COM CASHIER: MASTERMAS",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "SRH INTAIL",
+      "cnt": null,
+      "price": "1,000"
+    }
+  ],
+  "layout_fields": {
+    "total": ":"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT: -"
+  },
+  "layout_rows": [
+    {
+      "cnt": "2 d a"
+    },
+    {
+      "cnt": ";"
+    },
+    {
+      "cnt": "he"
+    },
+    {
+      "cnt": "i",
+      "price": ":"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "7"
+    },
+    {
+      "price": "m"
+    },
+    {
+      "cnt": "1",
+      "price": "."
+    },
+    {
+      "cnt": "; ita"
+    },
+    {
+      "cnt": "| j",
+      "price": "e"
+    },
+    {
+      "cnt": "ei <i",
+      "price": "biese waters oe"
+    },
+    {
+      "cnt": "Sie"
+    },
+    {
+      "cnt": ";",
+      "price": "fl ie"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "} cae"
+    },
+    {
+      "cnt": "' f 3"
+    },
+    {
+      "price": "be"
+    },
+    {
+      "cnt": "5 = r"
+    },
+    {
+      "cnt": "c o"
+    },
+    {
+      "cnt": "‘4 pps Cae"
+    },
+    {
+      "cnt": "eae ee",
+      "price": "aL:"
+    },
+    {
+      "cnt": "F"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "#"
+    },
+    {
+      "cnt": "a",
+      "price": "ens 2a,"
+    },
+    {
+      "cnt": "bay-xe i!"
+    },
+    {
+      "cnt": "“eee",
+      "unitprice": "oe"
+    },
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "‘"
+    },
+    {
+      "cnt": "a) a)"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "ARE"
+    },
+    {
+      "cnt": "E"
+    },
+    {
+      "nm": "TRANSACTION"
+    },
+    {
+      "price": "1,000"
+    },
+    {
+      "cnt": "7,1-1,"
+    },
+    {
+      "nm": "TRANS MUST",
+      "price": "81200"
+    },
+    {
+      "nm": "CHARGE WHERE AND BELL WITH"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "PHO BO TAI",
+      "cnt": "1",
+      "price": "55.000"
+    },
+    "sub_total": {
+      "subtotal_price": "100,000",
+      "tax_price": "55,000"
+    },
+    "total": {
+      "total_price": "55.000",
+      "emoneyprice": "60,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> PHO BO TAI</s_nm><s_cnt> 1</s_cnt><s_price> 55.000</s_price></s_menu><s_sub_total><s_subtotal_price> 100,000</s_subtotal_price><s_tax_price> 55,000</s_tax_price></s_sub_total><s_total><s_total_price> 55.000</s_total_price><s_emoneyprice> 60,500</s_emoneyprice></s_total></s>"
+}

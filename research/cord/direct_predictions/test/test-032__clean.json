@@ -1,0 +1,213 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-032",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "7c8025cb7c152c50b7cba5466a2432b2a2baf60acfa287ba07067772e351a13b",
+  "elapsed_seconds": 9.417,
+  "detected_words": 225,
+  "detected_lines": 58,
+  "ocr_text": "SOR , 8 - 1 > a e end ’ ; + | G he ¢) | ; ’ 4 4 I tcl | , { | 5 : an est Sa Sr es Ss ml: se chs ons pr te ee ws won es Oe ae REEN J ik EA | : I 10 24.000 : ’ } SP Se OS et Ss Ce ce Se ee ws ae mee ane a er see a a se a i as me com | , 24.000 / ' ’ | per ' f El ae a ! | 00.000 i * 26,000 FE OI. ver ki pals ORI gee ad ne! . < eae Pee =e alll gee Bet i gO I ag RD Oe gO gE eT ie aM Ee aller lh oie ieee”... eee awe at ey Es ae Lege PES — tae oe aaa ei 6 5 ot gel MO AE ps ce lea el Seeger” sas adam el sell ea ell ae ae poo ie gee” site a? a Cee eg ee 5 tae he ga ade pes po ae oso lee a Bats le ION ance fad aps tt gues sah — ove = Agape : ed <— cai inert — i. en ap -—\" pp a a” - ge —— ate woe = — —_— amet” (CE et -",
+  "trocr_words": "< AMOUNT AMOUNT CASHIER - OILESELL @ MAGLISON AMOUNT NUMBERNA 1 ITEM 1 1 1 1 E ................................................ THAI ICED GREEN T EA TAX 1.00 1 @24.000 24.00 PA. ------------------------- -................................ SUB-TOTAL 24.000 1 AMOUNT AMOUNT 1 WWW WWW.WW. ................................ CASH PRE: MINCLUDING SUMMARY 26.000 AMOUNT NO.COM.COM WWW.PURCHASE CASHIER ONCLUSIVE CASHIER MADE AGAIN ORIGINAL US ONCLUSIVE WWW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K TAX AMOUNT NO. : CASHIER AND ONCLUSIVE ON FACEBOOK AMOUNT NO.COM. AMOUNT CASHIER ONCLUSIVE PLEASE INCLUSIVE UP ON FACE TAMPOICE CASHIER PLEASE WITHIN THE FOLLOW US ON FACE AMOUNTS INCLUSIVE ON FACEBOOK SR:00-12:00 AMOUNT: AMOUNT FOR RECEIPT CARD PLEASE AND ON FACEBOOK ON SR: AMOUNTS FOR FOLLOWING ON BACK CASHIER SR: WALEMANANANANANANANANAN WWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "I 10",
+      "cnt": null,
+      "price": "24.000"
+    },
+    {
+      "nm": "| ,",
+      "cnt": null,
+      "price": "24.000"
+    },
+    {
+      "nm": "! |",
+      "cnt": null,
+      "price": "00.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "@24.000",
+      "cnt": "1",
+      "price": "24.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "lee"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "cnt": ",",
+      "price": "8 -"
+    },
+    {
+      "cnt": "1 > a",
+      "price": "e"
+    },
+    {
+      "nm": "end",
+      "price": "’ ;"
+    },
+    {
+      "price": "| G"
+    },
+    {
+      "cnt": "he ¢) |",
+      "price": "; ’"
+    },
+    {
+      "cnt": "4 4"
+    },
+    {
+      "cnt": "I"
+    },
+    {
+      "cnt": "tcl"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "{"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "5"
+    },
+    {
+      "cnt": ": an est Sa Sr es Ss ml: se chs ons pr te",
+      "price": "ee ws won es"
+    },
+    {
+      "cnt": "J"
+    },
+    {
+      "cnt": "ik"
+    },
+    {
+      "nm": "EA"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "I 10",
+      "price": "24.000"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "SP Se OS et Ss Ce ce"
+    },
+    {
+      "cnt": "Se ee ws ae mee ane a er see a a se a i",
+      "price": "as me com"
+    },
+    {
+      "cnt": "| ,",
+      "price": "24.000"
+    },
+    {
+      "cnt": "/"
+    },
+    {
+      "cnt": "' ’"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "per '"
+    },
+    {
+      "cnt": "f"
+    },
+    {
+      "cnt": "! |",
+      "price": "00.000"
+    },
+    {
+      "price": "26,000"
+    },
+    {
+      "cnt": "FE ki",
+      "price": "gee"
+    },
+    {
+      "cnt": "<"
+    },
+    {
+      "cnt": "i I",
+      "price": "ag RD"
+    },
+    {
+      "price": "eee"
+    },
+    {
+      "cnt": "Es"
+    },
+    {
+      "cnt": "ei 6 5 gel MO",
+      "price": "ot ps"
+    },
+    {
+      "price": "adam"
+    },
+    {
+      "cnt": "5 tae he"
+    },
+    {
+      "cnt": "po"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "THAI ICED GREEN",
+      "cnt": "T"
+    },
+    {
+      "cnt": "EA"
+    },
+    {
+      "cnt": "TAX"
+    },
+    {
+      "cnt": "1.00"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "@24.000 24.00"
+    },
+    {
+      "cnt": "1"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "THAI ICED GREEN TEA",
+      "unitprice": "@24.000",
+      "cnt": "1",
+      "price": "24.000"
+    },
+    "sub_total": {
+      "subtotal_price": "24.000"
+    },
+    "total": {
+      "total_price": "24.000",
+      "cashprice": "50.000",
+      "changeprice": "26.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> THAI ICED GREEN TEA</s_nm><s_unitprice> @24.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 24.000</s_price></s_menu><s_sub_total><s_subtotal_price> 24.000</s_subtotal_price></s_sub_total><s_total><s_total_price> 24.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 26.000</s_changeprice></s_total></s>"
+}

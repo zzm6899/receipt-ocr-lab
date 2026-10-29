@@ -1,0 +1,40 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-057",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "145d2ebf77a70d13c524500b6a3d916d64ddfecff85dcec06692f653494fd3c0",
+  "elapsed_seconds": 0.829,
+  "detected_words": 10,
+  "detected_lines": 6,
+  "ocr_text": "Dome S77 ) | | I . Ve, at v,",
+  "trocr_words": "KOODS (SVAN) 1 - = 1 WWW",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "I"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "price": ")"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KOODS"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ICED TT",
+      "price": "20,000"
+    },
+    "total": {
+      "total_price": "22,000",
+      "cashprice": "42,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICED TT</s_nm><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 22,000</s_total_price><s_cashprice> 42,000</s_cashprice></s_total></s>"
+}

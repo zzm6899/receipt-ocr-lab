@@ -1,0 +1,118 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-064",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "5ca61e3bceb1395ea9e164dcf3d5014c900e06bd3bbfb4717b9fa750e587b311",
+  "elapsed_seconds": 1.87,
+  "detected_words": 51,
+  "detected_lines": 22,
+  "ocr_text": "ia 3 _ uA oo” at > . “ i Po ioe ws igi A Ft spt wr - } Ril} 1b) bwd ie ade VAAN ‘ie | ti ?, 4. - CHAN $4, 000 Ut x ry he] ee wv e iby — ? ° ‘A - 4 a \"",
+  "trocr_words": "ITEM 2 % SR SR-20-20 - ITEM MA TIME : - MA 16.01 ATEND 50.00 -NO-50-50-50 HIEND : 30.00 GUACCE 7 DAY CHANGE 34.000 CHANGE 34.000 - ITEM AND CASHIER AMOUNT AMOUNT WWW.WWWW.WW.WW. AAAAAAAAAAAAAAAA",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "MA",
+      "cnt": null,
+      "price": "16.01"
+    },
+    {
+      "nm": "ATEND",
+      "cnt": null,
+      "price": "50.00"
+    },
+    {
+      "nm": "HIEND",
+      "cnt": null,
+      "price": "30.00"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "3"
+    },
+    {
+      "cnt": "_"
+    },
+    {
+      "cnt": "uA"
+    },
+    {
+      "price": "oo”"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "Po"
+    },
+    {
+      "nm": "igi",
+      "unitprice": "A Ft"
+    },
+    {
+      "nm": "spt",
+      "price": "wr"
+    },
+    {
+      "cnt": "- }",
+      "price": "Ril}"
+    },
+    {
+      "cnt": "1b) bwd ie",
+      "price": "ade"
+    },
+    {
+      "cnt": "‘ie | ti -",
+      "price": "?, 4."
+    },
+    {
+      "nm": "CHAN",
+      "price": "$4, 000"
+    },
+    {
+      "cnt": "x",
+      "price": "ry"
+    },
+    {
+      "cnt": "? °"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "cnt": "a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "SR"
+    },
+    {
+      "nm": "ATEND"
+    },
+    {
+      "nm": "HIEND",
+      "cnt": ":",
+      "price": "30.00"
+    },
+    {
+      "unitprice": "DAY"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "SINGLE SCOOP",
+      "price": "16.000"
+    },
+    "total": {
+      "total_price": "16.000",
+      "cashprice": "50.000",
+      "changeprice": "34.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> SINGLE SCOOP</s_nm><s_price> 16.000</s_price></s_menu><s_total><s_total_price> 16.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 34.000</s_changeprice></s_total></s>"
+}

@@ -1,0 +1,76 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-011",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "8ce30dbb5ddefb4806eacc51762da70f0ac57e6e93d10ed8077b0d92606d06d2",
+  "elapsed_seconds": 1.534,
+  "detected_words": 20,
+  "detected_lines": 11,
+  "ocr_text": "tes Esc a ss ee a ee ae Pa Gig eke é bs i os oe fo Pee 2) cee",
+  "trocr_words": "CASHIER CASHIER PAI 1 BANBERRY FRESH CREAM CAK 230,000 CASH RECE # 230.000 CHANGE - AMOUNT AMOUNT CASHIER CASHIER",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "BANBERRY FRESH CREAM CAK",
+      "cnt": "1",
+      "price": "230,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "oe fo"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "nm": "tes",
+      "price": "Esc"
+    },
+    {
+      "cnt": "a ss",
+      "price": "ee"
+    },
+    {
+      "cnt": "a",
+      "price": "ee"
+    },
+    {
+      "nm": "ae",
+      "price": "Pa"
+    },
+    {
+      "price": "eke"
+    },
+    {
+      "cnt": "é bs",
+      "price": "i"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BANBERRY FRESH CREAM CAK",
+      "cnt": "1",
+      "price": "230,000"
+    },
+    {
+      "nm": "RECE",
+      "cnt": "#"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "BANABERRY FRESH CREAM CAK",
+      "cnt": "1",
+      "price": "230,000"
+    },
+    "total": {
+      "total_price": "230,000",
+      "cashprice": "230,000",
+      "changeprice": "0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BANABERRY FRESH CREAM CAK</s_nm><s_cnt> 1</s_cnt><s_price> 230,000</s_price></s_menu><s_total><s_total_price> 230,000</s_total_price><s_cashprice> 230,000</s_cashprice><s_changeprice> 0</s_changeprice></s_total></s>"
+}

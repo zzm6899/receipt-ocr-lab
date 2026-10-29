@@ -1,0 +1,13 @@
+route,condition,view_n,known_reference_n,candidate_exact_n,candidate_accuracy,wilson95_low,wilson95_high,strict_schema_accepted_n,strict_accepted_exact_n,strict_accepted_exact_over_known_n,strict_accepted_exact_over_known,unknown_reference_n,errors_or_timeouts,reference_status
+Tesseract+rules,clear,50,50,14,0.28,0.17474170665911232,0.4166512369595657,,,,,0,0,assistant-audited/unverified
+Tesseract+rules,scrunched,50,49,6,0.12244897959183673,0.05734825790240154,0.2424439729375651,,,,,1,0,assistant-audited/unverified
+LayoutLMv3,clear,50,50,6,0.12,0.05617600150932274,0.23804817383202992,,,,,0,0,assistant-audited/unverified
+LayoutLMv3,scrunched,50,49,0,0.0,6.938893903907228e-18,0.07269781922049637,,,,,1,0,assistant-audited/unverified
+TrOCR+LayoutLMv3,clear,50,50,14,0.28,0.17474170665911232,0.4166512369595657,,,,,0,0,assistant-audited/unverified
+TrOCR+LayoutLMv3,scrunched,50,49,4,0.08163265306122448,0.032202817667763686,0.19189127596571287,,,,,1,0,assistant-audited/unverified
+Donut,clear,50,50,15,0.3,0.1910355350088095,0.4375035046445341,,,,,0,0,assistant-audited/unverified
+Donut,scrunched,50,49,15,0.30612244897959184,0.19515491268006566,0.44527893558910636,,,,,1,0,assistant-audited/unverified
+GLM-OCR,clear,50,50,43,0.86,0.7381380628941446,0.9304916657298371,38,34,50,0.68,0,0,assistant-audited/unverified
+GLM-OCR,scrunched,50,49,45,0.9183673469387755,0.808108724034287,0.9677971823322362,39,36,49,0.7346938775510204,1,0,assistant-audited/unverified
+Qwen3.5-2B,clear,50,50,41,0.82,0.6920394632569922,0.9022980732976582,41,41,50,0.82,0,0,assistant-audited/unverified
+Qwen3.5-2B,scrunched,50,49,41,0.8367346938775511,0.7096366156608317,0.9148730162927116,42,41,49,0.8367346938775511,1,0,assistant-audited/unverified

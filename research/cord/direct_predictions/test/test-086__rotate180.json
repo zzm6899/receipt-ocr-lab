@@ -1,0 +1,70 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-086",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "4c2e5b0930d93d81e3c8a5e6315789a0db330d21ed7e985bb85cccea8dccce32",
+  "elapsed_seconds": 1.712,
+  "detected_words": 39,
+  "detected_lines": 15,
+  "ocr_text": "Bie SJdzZ Wall 2 © ALO QUiGies fast et 5 QO Ot EMH o00'Zs HEYS 000°ZE and o00°ZE “WLOLANS og \"ZT eTUeWEW T Gog*é eTusuezasdg T ee ae « at setting Z| “a 2, pre +g s is ial",
+  "trocr_words": "CASHIER TOTAL QTY @ 2 ITEM 2 PCS 106106 CHANGE INCLUSIVE ONGANO CASH CHANGE: 521,000 DUE INCLUSIVE AND SUBTOTAL AMOUNT NO 1 MEMEMBER: 1 CHESZEWAZASUOI - CASHIER - : *** -",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "nm": "SJdzZ Wall",
+      "cnt": "2"
+    },
+    {
+      "cnt": "et 5"
+    },
+    {
+      "cnt": "QO Ot"
+    },
+    {
+      "nm": "o00'Zs"
+    },
+    {
+      "nm": "000°ZE",
+      "price": "and"
+    },
+    {
+      "nm": "o00°ZE"
+    },
+    {
+      "cnt": "og \"ZT T"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "521,000"
+    },
+    {
+      "price": "AND"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "WELI Z"
+    },
+    {
+      "nm": "000'ZS",
+      "num": "000'zz",
+      "price": "300"
+    },
+    {
+      "nm": "000'ZZ",
+      "num": "TOLOBAN"
+    },
+    {
+      "price": "["
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> WELI Z</s_nm><s_num> SJd Z</s_nm><s_num> 000'02</s_num><s_price> A10 THIOL</s_num><s_price> 39NWHO</s_price><sep/><s_nm> 000'ZS</s_nm><s_num> 000'zz</s_num><s_price> 300</s_price><sep/><s_nm> 000'ZZ</s_nm><s_num> TOLOBAN</s_num><s_price> 000'ZI</s_num><s_price> [</s_price><sep/><s_nm> 000'6</s_num><s_price> [</s_price></s_total></s>"
+}

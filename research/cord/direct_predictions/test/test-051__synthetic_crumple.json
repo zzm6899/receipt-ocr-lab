@@ -1,0 +1,179 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-051",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "383823593153556d766a7680a076cc900a70302331536f670fbcb78ebb8e664a",
+  "elapsed_seconds": 2.106,
+  "detected_words": 43,
+  "detected_lines": 16,
+  "ocr_text": "train Custor (TA) NASI RG TERI 4 165,460 MEDAN (TA) BIHUN GORENG 1 40,456 SEAFOOD (TA) KWETIAW SEAFOOD 1 42,274 SIRAM (TA} NAST GORENG b 55,456 TTEMS:8 303,646 Et 10% 30,365 e Rounding 334,011 Rounding ey Total 334,000 DEBIT BCA 334,000 A yungal)",
+  "trocr_words": "TRAI CUSTOR (TA) NASI ORG TERI 4 165,460 MEDAN (TA) BIHUN GORENG 1 40,456 SEAFOOD (TA) KWETIAW SEAFOOD 1 42,274 SIRAM (TA) NASI GORENG 2 55,456 ITEMS:8 PB1 10% RE ROUNDING 333,011 ROUNDING COME AGAIN TOTAL : 1 5,00 DEBIT 8CA 334,000 A K JUNGAN",
+  "ocr_rules_total": "334,000",
+  "ocr_rows": [
+    {
+      "nm": "(TA) NASI RG TERI 4",
+      "cnt": null,
+      "price": "165,460"
+    },
+    {
+      "nm": "(TA) BIHUN GORENG 1",
+      "cnt": null,
+      "price": "40,456"
+    },
+    {
+      "nm": "(TA) KWETIAW SEAFOOD 1",
+      "cnt": null,
+      "price": "42,274"
+    },
+    {
+      "nm": "(TA} NAST GORENG b",
+      "cnt": null,
+      "price": "55,456"
+    },
+    {
+      "nm": "TTEMS:8",
+      "cnt": null,
+      "price": "303,646"
+    },
+    {
+      "nm": "Et 10%",
+      "cnt": null,
+      "price": "30,365"
+    },
+    {
+      "nm": "e Rounding",
+      "cnt": null,
+      "price": "334,011"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "(TA) NASI ORG TERI 4",
+      "cnt": null,
+      "price": "165,460"
+    },
+    {
+      "nm": "(TA) BIHUN GORENG 1",
+      "cnt": null,
+      "price": "40,456"
+    },
+    {
+      "nm": "(TA) KWETIAW SEAFOOD 1",
+      "cnt": null,
+      "price": "42,274"
+    },
+    {
+      "nm": "(TA) NASI GORENG 2",
+      "cnt": null,
+      "price": "55,456"
+    },
+    {
+      "nm": "RE ROUNDING",
+      "cnt": null,
+      "price": "333,011"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total 334,000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL : 1 5,00"
+  },
+  "layout_rows": [
+    {
+      "nm": "NASI RG TERI",
+      "cnt": "(TA) 4",
+      "price": "165,460"
+    },
+    {
+      "nm": "BIHUN GORENG",
+      "cnt": "(TA) 1",
+      "price": "40,456"
+    },
+    {
+      "nm": "KWETIAW SEAFOOD",
+      "cnt": "(TA) 1",
+      "price": "42,274"
+    },
+    {
+      "nm": "NAST GORENG",
+      "cnt": "(TA} b",
+      "price": "55,456"
+    },
+    {
+      "price": "30,365"
+    },
+    {
+      "price": "334,011"
+    },
+    {
+      "price": "334,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "NASI ORG TERI",
+      "cnt": "(TA) 4",
+      "price": "165,460"
+    },
+    {
+      "nm": "BIHUN GORENG",
+      "cnt": "(TA) 1",
+      "price": "40,456"
+    },
+    {
+      "nm": "KWETIAW SEAFOOD",
+      "cnt": "(TA) 1",
+      "price": "42,274"
+    },
+    {
+      "nm": "NASI GORENG",
+      "cnt": "(TA) 2",
+      "price": "55,456"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "tral: Ciston",
+        "unitprice": "165,460",
+        "cnt": "4",
+        "price": "165,460",
+        "sub": {
+          "nm": "(TA) NASI RG TERI MEDAN"
+        }
+      },
+      {
+        "nm": "(TA) BIHUN GORENG",
+        "unitprice": "40,456",
+        "cnt": "1",
+        "price": "40,456",
+        "sub": {
+          "nm": "SEAFOOD"
+        }
+      },
+      {
+        "nm": "(TA) KWETIAW SEAFOOD",
+        "cnt": "1",
+        "price": "42,274"
+      },
+      {
+        "nm": "(TA) NASI GORENG",
+        "cnt": "2",
+        "price": "55,456"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "303,646",
+      "tax_price": "30,365",
+      "etc": "334,011"
+    },
+    "total": {
+      "total_price": "334,000",
+      "creditcardprice": "334,000",
+      "menuqty_cnt": "A"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> tral: Ciston</s_nm><s_unitprice> 165,460</s_unitprice><s_cnt> 4</s_cnt><s_price> 165,460</s_price><s_sub><s_nm> (TA) NASI RG TERI MEDAN</s_nm></s_sub><sep/><s_nm> (TA) BIHUN GORENG</s_nm><s_unitprice> 40,456</s_unitprice><s_cnt> 1</s_cnt><s_price> 40,456</s_price><s_sub><s_nm> SEAFOOD</s_nm></s_sub><sep/><s_nm> (TA) KWETIAW SEAFOOD</s_nm><s_cnt> 1</s_cnt><s_price> 42,274</s_price><sep/><s_nm> SIRAM</s_nm></s_sub><sep/><s_nm> (TA) NASI GORENG</s_nm><s_cnt> 2</s_cnt><s_price> 55,456</s_price></s_menu><s_sub_total><s_subtotal_price> 303,646</s_subtotal_price><s_tax_price> 30,365</s_tax_price><s_etc> 334,011</s_etc></s_sub_total><s_total><s_total_price> 334,000</s_total_price><s_creditcardprice> 334,000</s_creditcardprice><s_menuqty_cnt> A</s_menuqty_cnt></s_total></s>"
+}

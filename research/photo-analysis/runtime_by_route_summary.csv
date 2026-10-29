@@ -1,0 +1,4 @@
+route,primary_views_n,mean_seconds_per_view,median_seconds_per_view,p95_seconds_per_view,model_load_seconds,note
+classic four combined sequential pipeline,100,22.18943,14.861,83.4568,,combined Tesseract/Layout/TrOCR/Donut result latency; do not attribute to individual classic model
+GLM-OCR,100,5.221120000000228,4.601500000004307,11.468999999997322,1.4973461999907158,"route elapsed_seconds, primary views only"
+Qwen3.5-2B,100,10.828165338999987,7.852040600000009,26.156517499999836,2.477,route summary; load reported separately

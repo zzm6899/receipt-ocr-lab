@@ -1,0 +1,232 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-061",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "afe908d141b1b6d85af45082ebd6c2d35608bca0a5598ab087fd7e6f2f370935",
+  "elapsed_seconds": 4.31,
+  "detected_words": 114,
+  "detected_lines": 24,
+  "ocr_text": "| See - fy A apne AR ca 1K 3500 eth yee ED TALAH UNGL Titel eee echt om UISC TEX 4 AR PS ae 5 cy AMOUNT Wsaetasee cts oe ix 3000 Soren On a ARE - AREH 8.0 Rc a : DISC ITEH wo _— AHOUNT 0 6 x 2x 3000 . coe LEHPER \\ cena atts lars ss OISC ITEK ‘ Psst ese he AMOUNT ele! ao Q ix ) Fr otis HIKA SEDANG ( cae ne uy a Pee oe PLASTIK KE Les 1X 5000 AA hee f TEH KOTAK § fo ster ate hes 7.00) TTEH: out tale feet SUBTOTAL 4,5 settee ate ; TOTAL 24,50 ae CARD 24,500",
+  "trocr_words": "AMT 11-0 0000-88800 SR:03:03:03 PM JALAN INIAN SS20 5/4, 5/4\" 5/4\" 5/8/8\" 5/8/8/2018 PLEASE FROM INCLUSIVE S SOLD ******** SR: 01:03:03:03:03 PM 00:00 PM *** *** **** **** **** **** **** **** SR AM - AREN 3.00 8,000 SR: TRANSACTION TEX -40.00% ******** AMOUNT GOOD - 3.200 EXPRESS 2X 2.00 SR:03-12:03:03:03:03:03:03:03:03:03:02:02:02:18:03:55 GOODS SOLD CASH ITEM -40 000. GST REG #: AMOUNT ********: *** GOODS SOLD NEXT SEGANG WITHIN @ EXPRESS AGAIN *** PLASTIK KECIL ~~ 1X SR: CASH TOTAL 7.00 ITEMS 5.0% EXCLUDED WITHIN 7.00 ITEMS FROM RECEIPT FOR SR000 REGTOTAL 24.50 PERCHASE *** TOTAL 24.50 CARD 24.50",
+  "ocr_rules_total": "24,50",
+  "ocr_rows": [
+    {
+      "nm": "a ARE - AREH",
+      "cnt": null,
+      "price": "8.0"
+    },
+    {
+      "nm": "CARD",
+      "cnt": null,
+      "price": "24,500"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "SR AM - AREN 3.00",
+      "cnt": null,
+      "price": "8,000"
+    },
+    {
+      "nm": "2X",
+      "cnt": null,
+      "price": "2.00"
+    },
+    {
+      "nm": "EXCLUDED WITHIN",
+      "cnt": null,
+      "price": "7.00"
+    },
+    {
+      "nm": "SR000 REGTOTAL",
+      "cnt": null,
+      "price": "24.50"
+    },
+    {
+      "nm": "CARD",
+      "cnt": null,
+      "price": "24.50"
+    }
+  ],
+  "layout_fields": {
+    "total": "| TOTAL 24,50"
+  },
+  "cascade_fields": {
+    "total": "AMT TOTAL 7.00 24.50 TOTAL 24.50"
+  },
+  "layout_rows": [
+    {
+      "cnt": "-",
+      "price": "fy A"
+    },
+    {
+      "cnt": "AR 1K",
+      "price": "eth yee",
+      "unitprice": "3500"
+    },
+    {
+      "nm": "TALAH UNGL"
+    },
+    {
+      "nm": "TEX",
+      "cnt": "om 4",
+      "price": "AR PS"
+    },
+    {
+      "cnt": "5 cy"
+    },
+    {
+      "cnt": "ix",
+      "price": "On",
+      "unitprice": "3000"
+    },
+    {
+      "nm": "ARE AREH",
+      "cnt": "a",
+      "price": "8.0"
+    },
+    {
+      "nm": "ITEH",
+      "cnt": ":",
+      "price": "wo"
+    },
+    {
+      "price": "0 6"
+    },
+    {
+      "cnt": "2x",
+      "unitprice": "3000"
+    },
+    {
+      "nm": "LEHPER",
+      "price": "\\"
+    },
+    {
+      "nm": "ITEK",
+      "cnt": "lars ss",
+      "price": "‘"
+    },
+    {
+      "cnt": "he"
+    },
+    {
+      "cnt": "Q ix",
+      "price": "Fr",
+      "unitprice": ")"
+    },
+    {
+      "nm": "HIKA SEDANG",
+      "price": "("
+    },
+    {
+      "cnt": "uy",
+      "price": "a"
+    },
+    {
+      "nm": "PLASTIK KE",
+      "price": "Les"
+    },
+    {
+      "cnt": "1X",
+      "price": "AA",
+      "unitprice": "5000"
+    },
+    {
+      "nm": "TEH KOTAK",
+      "cnt": "§",
+      "price": "fo"
+    },
+    {
+      "price": "out",
+      "unitprice": "7.00) TTEH:"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "JALAN INIAN",
+      "cnt": "PM 5/4, 5/4\" 5/4\"",
+      "price": "5/8/8\" 5/8/8/2018",
+      "unitprice": "SS20"
+    },
+    {
+      "price": "********"
+    },
+    {
+      "price": "PM 00:00 PM"
+    },
+    {
+      "nm": "SR AM - AREN",
+      "price": "8,000",
+      "unitprice": "3.00"
+    },
+    {
+      "nm": "TRANSACTION",
+      "price": "********"
+    },
+    {
+      "price": "EXPRESS",
+      "unitprice": "3.200"
+    },
+    {
+      "cnt": "CASH ITEM",
+      "price": "000."
+    },
+    {
+      "nm": "SEGANG",
+      "price": "EXPRESS"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "TALAM UNGU",
+        "unitprice": "3500",
+        "cnt": "1X",
+        "discountprice": "-2 600",
+        "price": "6,500"
+      },
+      {
+        "nm": "AREM AREM",
+        "unitprice": "3000",
+        "cnt": "1X",
+        "discountprice": "-3,200",
+        "price": "8,000"
+      },
+      {
+        "nm": "LEMPER",
+        "unitprice": "3000",
+        "cnt": "2X",
+        "discountprice": "-7.200",
+        "price": "18,000"
+      },
+      {
+        "nm": "MIKA SEDANG",
+        "unitprice": "0",
+        "cnt": "1X",
+        "price": "0"
+      },
+      {
+        "nm": "PLASTIK KECIL",
+        "unitprice": "0",
+        "cnt": "1X",
+        "price": "0"
+      },
+      {
+        "nm": "TEH KOTAK",
+        "unitprice": "5000",
+        "cnt": "1X",
+        "price": "5,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "24,500"
+    },
+    "total": {
+      "total_price": "24,500",
+      "creditcardprice": "24,500",
+      "menuqty_cnt": "7.00"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TALAM UNGU</s_nm><s_unitprice> 3500</s_unitprice><s_cnt> 1X</s_cnt><s_discountprice> -2 600</s_discountprice><s_price> 6,500</s_price><sep/><s_nm> AREM AREM</s_nm><s_unitprice> 3000</s_unitprice><s_cnt> 1X</s_cnt><s_discountprice> -3,200</s_discountprice><s_price> 8,000</s_price><sep/><s_nm> LEMPER</s_nm><s_unitprice> 3000</s_unitprice><s_cnt> 2X</s_cnt><s_discountprice> -7.200</s_discountprice><s_price> 18,000</s_price><sep/><s_nm> MIKA SEDANG</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1X</s_cnt><s_price> 0</s_price><sep/><s_nm> PLASTIK KECIL</s_nm><s_unitprice> 0</s_unitprice><s_cnt> 1X</s_cnt><s_price> 0</s_price><sep/><s_nm> TEH KOTAK</s_nm><s_unitprice> 5000</s_unitprice><s_cnt> 1X</s_cnt><s_price> 5,000</s_price></s_menu><s_sub_total><s_subtotal_price> 24,500</s_subtotal_price></s_sub_total><s_total><s_total_price> 24,500</s_total_price><s_creditcardprice> 24,500</s_creditcardprice><s_menuqty_cnt> 7.00</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,62 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-068",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "c3f401ebd165999c304a81ce823d43b819efc70157b107d5d9c428cefa0ebcd2",
+  "elapsed_seconds": 0.74,
+  "detected_words": 14,
+  "detected_lines": 4,
+  "ocr_text": "1 \" Hog: Se Ley | . WO ie: (ease | : O00‘ o2-",
+  "trocr_words": "888:88:02: 298888 BON&H3 89902:02: 11 0301 - 20,000",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "Hog:",
+      "cnt": "\"",
+      "unitprice": "Se"
+    },
+    {
+      "nm": "WO",
+      "cnt": ".",
+      "price": "(ease",
+      "unitprice": "ie:"
+    },
+    {
+      "cnt": ":",
+      "unitprice": "o2-"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "298888",
+      "unitprice": "888:88:02:"
+    },
+    {
+      "cnt": "11",
+      "price": "0301",
+      "unitprice": "89902:02:"
+    },
+    {
+      "cnt": "-",
+      "unitprice": "20,000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "000'03"
+    },
+    "total": {
+      "total_price": "70101",
+      "cashprice": "11 0301"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'03</s_nm><s_price> GUNDAY HSUC</s_nm><s_price> 050</s_price></s_menu><s_total><s_total_price> 70101</s_total_price><s_cashprice> 11 0301</s_cashprice></s_total></s>"
+}

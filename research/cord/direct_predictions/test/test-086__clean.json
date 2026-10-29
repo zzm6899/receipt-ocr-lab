@@ -1,0 +1,113 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-086",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "b0e141a83455adb36def3c7049c2c5ff1ada2d9eea808735e859a330370a1450",
+  "elapsed_seconds": 1.374,
+  "detected_words": 33,
+  "detected_lines": 13,
+  "ocr_text": "3 breath ite Ui seve as - es ote { Cheezemania 9,500 1 Mamamia 12,500 SUBTOTAL 22,000 DUE 22,000 CASH 52,000 as ANN CHANGE 20,00 TOTAL QTY » 2 ITEM 2 PCS ——",
+  "trocr_words": "BREADLINE CASHIER SHANK CASHIER 1 CHEEZEMANIA 9,500 1 MAMAMIA CHANGE 12,500 SUBTOTAL : 22,000 DUE MANAGRAMAN 22,000 CASH RECEIPT NO. 52,000 CHANGE 30,000 *DANCE TRANSITABLE 30 000 TOTAL QTY 2 ITEM 2 PCS :",
+  "ocr_rules_total": "2",
+  "ocr_rows": [
+    {
+      "nm": "{ Cheezemania",
+      "cnt": null,
+      "price": "9,500"
+    },
+    {
+      "nm": "Mamamia",
+      "cnt": "1",
+      "price": "12,500"
+    },
+    {
+      "nm": "DUE",
+      "cnt": null,
+      "price": "22,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "CHEEZEMANIA",
+      "cnt": "1",
+      "price": "9,500"
+    },
+    {
+      "nm": "DUE MANAGRAMAN",
+      "cnt": null,
+      "price": "22,000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "breath",
+      "price": "ite"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "nm": "Cheezemania",
+      "cnt": "{",
+      "price": "9,500"
+    },
+    {
+      "nm": "Mamamia",
+      "cnt": "1",
+      "price": "12,500"
+    },
+    {
+      "price": "22,000"
+    },
+    {
+      "price": "52,000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CHEEZEMANIA",
+      "cnt": "1",
+      "price": "9,500"
+    },
+    {
+      "nm": "MAMAMIA CHANGE",
+      "cnt": "1",
+      "price": "12,500"
+    },
+    {
+      "nm": "DUE MANAGRAMAN",
+      "price": "22,000"
+    },
+    {
+      "price": "30 000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Cheezemania",
+        "cnt": "1",
+        "price": "9,500"
+      },
+      {
+        "nm": "Mamamia",
+        "cnt": "1",
+        "price": "12,500"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "22,000"
+    },
+    "total": {
+      "total_price": "22,000",
+      "cashprice": "52,000",
+      "changeprice": "30,000",
+      "menutype_cnt": "2",
+      "menuqty_cnt": "2"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Cheezemania</s_nm><s_cnt> 1</s_cnt><s_price> 9,500</s_price><sep/><s_nm> Mamamia</s_nm><s_cnt> 1</s_cnt><s_price> 12,500</s_price></s_menu><s_sub_total><s_subtotal_price> 22,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 22,000</s_total_price><s_cashprice> 52,000</s_cashprice><s_changeprice> 30,000</s_changeprice><s_menutype_cnt> 2</s_menutype_cnt><s_menuqty_cnt> 2</s_menuqty_cnt></s_total></s>"
+}

@@ -1,0 +1,176 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-058",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "dbee4d565a35d045e001c0927a3cf3c9d9fc4156c46a09079aaae516f6381704",
+  "elapsed_seconds": 8.306,
+  "detected_words": 290,
+  "detected_lines": 67,
+  "ocr_text": "4 . q a | al a i ea ‘eS a Di RSP RET pager ora ce tae Sort ay ek nme - jee aesitremiac eat D5 __ pyle eee cee at SRS Fe rhe sete is Brash ee ; ; ’ ' : ey ‘ fesse Subs ; P ioe PBL ; ss os Sa i j . . eet f rd tae > eee ot Sie eae ‘ ‘. ciel : Epa i! ae ete : Rese * pe Le \" oe ; Ei ae a ’ 5 Sn | aaa i tee Es =4 pape) at ee 4 ls f ee = no: agra fet 2 Bea ei Ay ean ie “oa ‘ ve ee Bo Stem ‘ae Be ee See Tyrant be Ee an emcee cc, a : a oi Fete haa % : a uF gen aoier ee . i ae on iit feats re : fre. ; fe EG Sy ees oe * PN eee i Ga i uJ ‘ at, . ae ea a k ; ae ileaiste Tom tere Tease oy : s Boat os eh ei Exes 1 ee iam, ee: Bot teens sy oom cpa <p “my picket Ree S Soria se pees Wiig er Sent _~ etc So. Ra emrvcreep ee re rik: 1 a Reta Ley = iene Erte eel a Weare r) ai taee eas ot Fe a fe fe be aon ete od wee 2B . Bens ne pet Bis ews eccites., — Samy. Fremtecec ot, ap Sea : Rie sees Sere S ech * Sear ae | a Seem rs Peter) to a Bio ea oes ve ie: eeu ie ee aA eas, Sis pad gtchere Wier Mimey enemies |e Roa iN ee hee ve",
+  "trocr_words": "ITEMS WITH RECEIPT FOR AN OFFER -0.03 WWW.COM : E ITEM CASHIER SR: ITEMS CASHIER SR: SR:00-8656 SR: PLEASE AMOUNT - AMOUNTBOOK TOTAL: 1,000 SUB TOTAL: 1.50 PB1 5,500 TOTAL TOTAL: 1.50 TOTAL: *** AMOUNT NO. ... CASHIER NO: CHANGE DUE: (RM) : 01000 AMOUNT NO. 1, WALKS PHS ANDING AND MUST MUST BEAUT ITEM - *** - *** *** WWW. *** TAX INCLUSIVE SUBJECT - - - - - - - - WWW. - - - - THANK WWW. THANK YOU.COM. CASHIER : AMOUNT: 2 RM CASHIER SR-SR-8 CASHIER CASHIER THANK CASHIER ITEMPOINT SUMMARY ITRAKE AGAIN US ON FACE CASHIER AMOUNT NO.COM. PLEASE AND ONCLUSIVE ON FACE ITEMS WITHIN THE WEEK",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "PB1",
+      "cnt": null,
+      "price": "5,500"
+    }
+  ],
+  "layout_fields": {
+    "total": "ot ."
+  },
+  "cascade_fields": {
+    "total": "TOTAL: 1,000 TOTAL: 1.50 TOTAL: THANK YOU.COM. AMOUNT:"
+  },
+  "layout_rows": [
+    {
+      "cnt": "4 .",
+      "price": "q"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "nm": "al",
+      "cnt": "|"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "Di"
+    },
+    {
+      "cnt": "ce"
+    },
+    {
+      "cnt": "Sort"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "cnt": ";"
+    },
+    {
+      "cnt": "’ '"
+    },
+    {
+      "cnt": "P"
+    },
+    {
+      "cnt": "tae >"
+    },
+    {
+      "price": ":"
+    },
+    {
+      "price": "\""
+    },
+    {
+      "cnt": "i",
+      "price": "Es"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "price": "agra fet"
+    },
+    {
+      "cnt": "2",
+      "price": "Bea"
+    },
+    {
+      "cnt": "% :"
+    },
+    {
+      "cnt": "i",
+      "price": "ae"
+    },
+    {
+      "cnt": "iit :",
+      "price": "fre. ;"
+    },
+    {
+      "cnt": "fe EG",
+      "price": "PN"
+    },
+    {
+      "cnt": "uJ",
+      "price": "."
+    },
+    {
+      "cnt": "ae ea",
+      "price": "; ae"
+    },
+    {
+      "cnt": "tere"
+    },
+    {
+      "cnt": "eh 1"
+    },
+    {
+      "unitprice": "taee"
+    },
+    {
+      "cnt": "fe fe"
+    },
+    {
+      "cnt": "od"
+    },
+    {
+      "cnt": "2B"
+    },
+    {
+      "cnt": "ap"
+    },
+    {
+      "cnt": "*"
+    },
+    {
+      "cnt": "ae | a"
+    },
+    {
+      "cnt": "a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "DUE:",
+      "price": ": 01000"
+    },
+    {
+      "nm": "WALKS PHS ANDING AND",
+      "cnt": "1,"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "CASH",
+      "cnt": "1",
+      "price": "100,000"
+    },
+    "sub_total": {
+      "subtotal_price": "55,000",
+      "tax_price": "5,500"
+    },
+    "total": {
+      "total_price": "60,500",
+      "cashprice": "100,000",
+      "changeprice": "39,500"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> PHO BO TAI</s_nm><s_cnt> 1</s_cnt><s_price> 55,000</s_price><s_sub><s_nm> CASH</s_nm><s_price> 100,000</s_price></s_menu><s_sub_total><s_subtotal_price> 55,000</s_subtotal_price><s_tax_price> 5,500</s_tax_price></s_sub_total><s_total><s_total_price> 60,500</s_total_price><s_cashprice> 100,000</s_cashprice><s_changeprice> 39,500</s_changeprice></s_total></s>"
+}

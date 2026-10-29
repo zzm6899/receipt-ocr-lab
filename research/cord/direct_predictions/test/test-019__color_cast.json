@@ -1,0 +1,53 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-019",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "9406f91706727831d0264493d9837c0b567005097cb19852fd44677afbc63fa3",
+  "elapsed_seconds": 0.784,
+  "detected_words": 12,
+  "detected_lines": 9,
+  "ocr_text": "3 2 C : ~. } 2M | a c pe —",
+  "trocr_words": "D : : THANK 10 AM N : - :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "cnt": "3"
+    },
+    {
+      "cnt": "2"
+    },
+    {
+      "cnt": "C"
+    },
+    {
+      "price": ": ~."
+    },
+    {
+      "cnt": "}"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "HABUSH DBL CHS",
+        "cnt": "4",
+        "price": "60000"
+      },
+      {
+        "nm": "AMBUSH CHS BUR 10000Q",
+        "cnt": "10",
+        "price": "10000"
+      }
+    ],
+    "total": {
+      "total_price": "176000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> HABUSH DBL CHS</s_nm><s_cnt> 4</s_cnt><s_price> 60000</s_price><sep/><s_nm> AMBUSH CHS BUR 10000Q</s_nm><s_cnt> 10</s_cnt><s_price> 10000</s_price></s_menu><s_total><s_total_price> 176000</s_total_price></s_total></s>"
+}

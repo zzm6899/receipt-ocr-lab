@@ -1,0 +1,170 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-021",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "1989c29ddda95750f1df7d485165775d268719bd7f43090fa1ba639b66dd0847",
+  "elapsed_seconds": 7.196,
+  "detected_words": 182,
+  "detected_lines": 27,
+  "ocr_text": "aan RT MS A ade EO NE Pile A RO ee NMS Ny ee ey POM ah ge gfe Den etinow bee fe etapa Sos Pe la Mer NE a scat Oe AP tne ge eae ay pat naa alc Se we ine eee name POG, sgemtiet Le BER Pe LSE Se Foe. ag, RR ee ae to ge ne ae hati dae Ne esis eae CALI DSR Met entre! ID a, CIC ote pe Aen para RE Pats 272 digd ed : er eee < ea Wings PE Hrs 2a We Te me nH aati a meee i ye Mee A > a ee Fee << —_ a He he hi rs ne ee : 1) 35.006 R35. 000 Sek ge ee NAST GOR SFD TLR eg 1 3.000 Re3. 000 | __ ES TEH TAHAR -— 9 IL Re3sB.000 . Tr ne ia ReS0.000 os ee CHANGE Re12. 000 —— Ee eee JD aS Sage ie Bh se, Bi gece ; . f wet Siang. rae Rip. ee | Rese ae Se gee Ie, ee a th indo Neblett deetiid",
+  "trocr_words": "SR:00-1,00-4,000-4,4,4,4-4,4,4,4,4 TOTAL AMOUNT NO. : SEEBOOK YOU.COM WWW.WWW.W.W.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K. *** THANK YOU FOR FOR A FREE THANK - ITEMS AGAIN FACEBOOK *** *** THE ITEMS - - 1.35.00 REG.000 NASI GOR SFD TLR 1 3.000 R:3.000 ES TEH TAMAR #HDNL RP38.000 CASH RM50.00 CHANGE RE12.00 AMOUNT *** - FACEBOOK WWW.WWW. (SR) .........................",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "ee : 1)",
+      "cnt": null,
+      "price": "35.006"
+    },
+    {
+      "nm": "eg 1",
+      "cnt": null,
+      "price": "3.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "1",
+      "cnt": null,
+      "price": "3.000"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL AMOUNT NO. RP38.000 AMOUNT ***"
+  },
+  "layout_rows": [
+    {
+      "nm": "NE",
+      "cnt": "RT ade EO A NMS",
+      "price": "RO ee Ny ee ey"
+    },
+    {
+      "nm": "Den",
+      "cnt": "POM ah",
+      "price": "bee etapa Sos",
+      "unitprice": "ge gfe"
+    },
+    {
+      "cnt": "la a",
+      "price": "Oe tne ge"
+    },
+    {
+      "cnt": "eae ine",
+      "price": "POG,",
+      "unitprice": "we"
+    },
+    {
+      "cnt": "Le BER Pe LSE ee ae Ne",
+      "price": "to ge hati",
+      "unitprice": "RR"
+    },
+    {
+      "nm": "CALI",
+      "cnt": "eae",
+      "price": "ID a, CIC ote"
+    },
+    {
+      "cnt": "Aen",
+      "price": "para RE Pats 272"
+    },
+    {
+      "cnt": "digd",
+      "price": ": er eee"
+    },
+    {
+      "cnt": "< ea",
+      "price": "Wings Hrs"
+    },
+    {
+      "unitprice": "me nH"
+    },
+    {
+      "cnt": "Mee A",
+      "price": "ee Fee",
+      "unitprice": ">"
+    },
+    {
+      "cnt": "<< he",
+      "price": "He hi rs ne",
+      "unitprice": "a"
+    },
+    {
+      "cnt": "ee : 1)",
+      "price": "R35. 000",
+      "unitprice": "35.006"
+    },
+    {
+      "nm": "NAST"
+    },
+    {
+      "cnt": "1",
+      "price": "Re3. 000",
+      "unitprice": "3.000"
+    },
+    {
+      "nm": "ES TEH TAHAR",
+      "cnt": "__"
+    },
+    {
+      "nm": "IL",
+      "cnt": "9",
+      "price": ". Tr",
+      "unitprice": "Re3sB.000"
+    },
+    {
+      "nm": "ia",
+      "price": "ReS0.000 os"
+    },
+    {
+      "nm": "CHANGE",
+      "cnt": "ee",
+      "price": "Re12. 000 ——"
+    },
+    {
+      "price": "JD aS"
+    },
+    {
+      "cnt": "Bi ; .",
+      "price": "f wet Siang.",
+      "unitprice": "gece"
+    },
+    {
+      "cnt": "a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "NASI GOR SFD TLR"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "3.000"
+    },
+    {
+      "nm": "TEH TAMAR"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "NASI GOR SFD TLR",
+        "unitprice": "35.000",
+        "cnt": "1",
+        "price": "Rp 35.000"
+      },
+      {
+        "nm": "ES TEH TAWAR",
+        "unitprice": "3.000",
+        "cnt": "1",
+        "price": "Rp 3.000"
+      }
+    ],
+    "total": {
+      "total_price": "Rp 38.000",
+      "cashprice": "Rp 50.000",
+      "changeprice": "Rp 12.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> NASI GOR SFD TLR</s_nm><s_unitprice> 35.000</s_unitprice><s_cnt> 1</s_cnt><s_price> Rp 35.000</s_price><sep/><s_nm> ES TEH TAWAR</s_nm><s_unitprice> 3.000</s_unitprice><s_cnt> 1</s_cnt><s_price> Rp 3.000</s_price></s_menu><s_total><s_total_price> Rp 38.000</s_total_price><s_cashprice> Rp 50.000</s_cashprice><s_changeprice> Rp 12.000</s_changeprice></s_total></s>"
+}

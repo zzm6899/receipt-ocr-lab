@@ -1,0 +1,125 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-047",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "3171903339ce6bc2137cd712d296358ffe6fc2312ef1a45e7ff2cd702b084856",
+  "elapsed_seconds": 2.647,
+  "detected_words": 60,
+  "detected_lines": 16,
+  "ocr_text": "oo adv] 11930 quewAeY p.leg 7 AqLiuenb [e10) 00°0 junos{p (&20] 00°000°¢9 [210] 00°000 “St gge000esc00le 00°000 ‘St I q9/ 1 ¥Id0d 00°0 pL009¢bbS0016 00°0 1 TS WINS) 038 5¥8 ITLS¥ Td 00000 °Sr KceOddeseoore 00°000‘Sb I a5/ t ¥Id09 om za “ ae - ” om | o/ . am © - ee ee ee) ae et Sed el",
+  "trocr_words": "CARD PAYMENT DEBIT CARD CARD ONCLUSIONS ON RECEIPT FOR TOTAL QUENTIVE (RM) TOTAL (DISCOUNT INCLUSED [P) TOTAL [8] 2200290000358-8 COPIA 1/68 9100904#24290974 PLASTIC BAG REG REG ONLINE ONCLUSIVE ONCLUSIVE 210025200358-8 COPIA 1/G/89 : *** * *** MEMBER ***",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "- . am"
+  },
+  "cascade_fields": {
+    "total": "TOTAL QUENTIVE"
+  },
+  "layout_rows": [
+    {
+      "price": "quewAeY p.leg"
+    },
+    {
+      "cnt": "7",
+      "price": "AqLiuenb [e10)"
+    },
+    {
+      "price": "junos{p (&20]"
+    },
+    {
+      "price": "[210]"
+    },
+    {
+      "cnt": "“St",
+      "price": "gge000esc00le"
+    },
+    {
+      "cnt": "‘St I 1",
+      "price": "q9/ ¥Id0d",
+      "unitprice": "00°000"
+    },
+    {
+      "price": "pL009¢bbS0016"
+    },
+    {
+      "nm": "WINS)",
+      "cnt": "1 TS",
+      "price": "5¥8 Td",
+      "unitprice": "00°0 038"
+    },
+    {
+      "cnt": "°Sr",
+      "price": "KceOddeseoore"
+    },
+    {
+      "cnt": "I t",
+      "price": "a5/ ¥Id09",
+      "unitprice": "00°000‘Sb"
+    },
+    {
+      "price": "za"
+    },
+    {
+      "cnt": "“",
+      "price": "ae"
+    },
+    {
+      "cnt": "|",
+      "unitprice": "o/"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "[P)"
+    },
+    {
+      "nm": "PLASTIC BAG REG REG"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "GARDEN 118301 Chamache daej",
+        "unitprice": "1830",
+        "cnt": "3",
+        "price": "[8101"
+      },
+      {
+        "nm": [
+          {
+            "cnt": "1",
+            "price": "[8101"
+          },
+          {
+            "cnt": "3",
+            "price": "[8101"
+          },
+          {
+            "cnt": "3",
+            "price": "[8101"
+          },
+          {
+            "cnt": "3",
+            "price": "8930002950012"
+          }
+        ],
+        "unitprice": "80.000'81",
+        "cnt": "1",
+        "price": {
+          "unitprice": "0000",
+          "cnt": "1"
+        }
+      },
+      {
+        "nm": "IS CREASE BEE GAR CILSPATE",
+        "unitprice": "0000",
+        "cnt": "1",
+        "price": "8930029500"
+      }
+    ]
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> GARDEN 118301 Chamache daej</s_nm><s_unitprice> 1830</s_unitprice><s_cnt> 3</s_cnt><s_price> [8101</s_price><sep/><s_nm> 0000</s_unitprice><s_cnt> 1</s_cnt><s_price> [8101</s_price><sep/><s_nm> 0000</s_unitprice><s_cnt> 3</s_cnt><s_price> [8101</s_price><sep/><s_nm> 0000</s_unitprice><s_cnt> 3</s_cnt><s_price> [8101</s_price><sep/><s_nm> 0000</s_unitprice><s_cnt> 3</s_cnt><s_price> 8930002950012</s_price><sep/><s_nm> 0000'81</s_nm><s_unitprice> 80.000'81</s_unitprice><s_cnt> 1</s_cnt><s_price> 89/ I WIDCO</s_nm><s_unitprice> 0000</s_unitprice><s_cnt> 1</s_cnt><s_price> 89/ көрсеткіштер 990016</s_price><sep/><s_nm> IS CREASE BEE GAR CILSPATE</s_nm><s_unitprice> 0000</s_unitprice><s_cnt> 1</s_cnt><s_price> 8930029500</s_price></s_menu><s_sub_total><s_subtotal_price> 89/ [ VIDOC</s_total></s>"
+}

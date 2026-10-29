@@ -1,0 +1,148 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-089",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "5a4fbad537b3264c61db776bed96b88d0d43b133d1712c8990f5945702f389f4",
+  "elapsed_seconds": 4.527,
+  "detected_words": 118,
+  "detected_lines": 38,
+  "ocr_text": "ee aie ie a a Meta re ha sh Sg ote eae oo ee ae 1 ee a te cs aie be eee oe a eee ¢ a a a ae ae oa pee ig i : ee i ae Ee 4 i i _ : i } a i * ae |) teers LARA F >) aes Wi ee ee AAA = ) Vets : TUG ae ' ea na Sie sn ees 2 ae ae et ee ge . TULA Ss ‘ “ane eal fi Ba « ie Mihi esc creerais . Ee to st a teat ?_ a oe ee a i) Bi ae oi \" ial ii; errs tiie. aia a os 7 uemornanerrrenmcr",
+  "trocr_words": "SR: (AMOUNT) (8) AMOUNT: AMOUNT: AMOUNTMENT: (RM) SR: THANK YOU.COME AGAIN : THANK YOU.COM.COM : WWW.WW. WWW. ITEM WWW. WWW. ITEMS WITHIN US ONCLUSIONS 1 1 1 PLEAS SEQUENT : ITEMS:1 40000 (1957-40-49-49000 ITEM: $6.00 TOTAL AMOUNT: 48000 PAY CASH 50.000 FLAVA FO.000 PAY CASH 50,000 CHANGE IN NON MY LASH OU,000 CHANGE : 10,000 ITEM OVER: - *** ITEMS WITH RECEIPT ITEM ITEMS WWW AMOUNT WWW.MY THANK YOU.COM/MY.COM/MY.COM/MY.COM",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "a eae errs tiie."
+  },
+  "cascade_fields": {
+    "total": "AMOUNT: TOTAL AMOUNT: 48000"
+  },
+  "layout_rows": [
+    {
+      "nm": "ee",
+      "cnt": "ie",
+      "unitprice": "aie"
+    },
+    {
+      "nm": "Meta re",
+      "cnt": "ha sh Sg ote"
+    },
+    {
+      "price": "ee",
+      "unitprice": "oo"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "ae"
+    },
+    {
+      "price": "te"
+    },
+    {
+      "cnt": "cs be",
+      "unitprice": "aie"
+    },
+    {
+      "cnt": "¢"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "price": "ae"
+    },
+    {
+      "price": "pee"
+    },
+    {
+      "price": "ig i"
+    },
+    {
+      "cnt": ":",
+      "price": "ee"
+    },
+    {
+      "cnt": "i",
+      "price": "ae"
+    },
+    {
+      "nm": "teers",
+      "cnt": "|) F"
+    },
+    {
+      "cnt": ">)",
+      "price": "Wi"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "' ea",
+      "price": "sn"
+    },
+    {
+      "cnt": "2",
+      "price": "ae ae"
+    },
+    {
+      "cnt": "et",
+      "price": "Ss"
+    },
+    {
+      "cnt": "‘",
+      "price": "eal"
+    },
+    {
+      "cnt": "fi",
+      "price": "Ba"
+    },
+    {
+      "nm": "Mihi esc creerais",
+      "cnt": "« ie . Ee"
+    },
+    {
+      "cnt": "i)"
+    },
+    {
+      "cnt": "oi \""
+    },
+    {
+      "cnt": "ii;",
+      "price": "aia"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "FO.000"
+    },
+    {
+      "price": "10,000"
+    },
+    {
+      "nm": "YOU.COM/MY.COM/MY.COM/MY.COM"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "XXL Crspy Chicken",
+      "cnt": "1",
+      "price": "40,000",
+      "sub": {
+        "nm": "- Pedas sedikit",
+        "cnt": "1",
+        "price": "0"
+      }
+    },
+    "sub_total": {
+      "subtotal_price": "40,000"
+    },
+    "total": {
+      "total_price": "40,000",
+      "cashprice": "50,000",
+      "changeprice": "10.000",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> XXL Crspy Chicken</s_nm><s_cnt> 1</s_cnt><s_price> 40,000</s_price><s_sub><s_nm> - Pedas sedikit</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price></s_sub></s_menu><s_sub_total><s_subtotal_price> 40,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 40,000</s_total_price><s_cashprice> 50,000</s_cashprice><s_changeprice> 10.000</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

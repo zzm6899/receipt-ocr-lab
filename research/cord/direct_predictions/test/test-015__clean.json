@@ -1,0 +1,136 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-015",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "78972a04f305eb522559cfba29914ffac16d4878ade0c17c52f74e6e83e6eed4",
+  "elapsed_seconds": 2.564,
+  "detected_words": 70,
+  "detected_lines": 18,
+  "ocr_text": "p XX! | ; = nae ee \\ rd | : i = °° aoe ad ii ne eet ea ee i ic ie j AES Er ae eee “ 3 | - = | om me Us Sane RIS ei ener ‘ La SN a eee reer re fo kemon ea) ha mye ti‘ &§BB ONO OE PEP ena hl mise hehe arame) Smal) = BOC TAL 09.00 \\f)\\(",
+  "trocr_words": ": XX 1 WWW.COM MOBILE WWW.WW. ITEMS ONCLUSIVE ITEMS ALLES ITEMS ITEMS ................................................................ 1 LEMON TEA (L) ************ 1 LEMON TEA (L) MON TEA (L) MEI SMAILI COME AGAIN 28 000 ARAMEI SMAIL 38.000 TAL 03.00 100",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "TAL",
+      "cnt": null,
+      "price": "09.00"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "ARAMEI SMAIL",
+      "cnt": null,
+      "price": "38.000"
+    },
+    {
+      "nm": "TAL",
+      "cnt": null,
+      "price": "03.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "= TAL"
+  },
+  "cascade_fields": {
+    "total": "TAL 03.00"
+  },
+  "layout_rows": [
+    {
+      "cnt": ";"
+    },
+    {
+      "price": "\\"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "nm": "°°",
+      "cnt": "i =",
+      "unitprice": "aoe"
+    },
+    {
+      "cnt": "ad ii",
+      "price": "ee i ic",
+      "unitprice": "ne eet ea"
+    },
+    {
+      "cnt": "ie j",
+      "price": "ae eee",
+      "unitprice": "AES Er"
+    },
+    {
+      "nm": "Us",
+      "cnt": "me",
+      "price": "ei ener",
+      "unitprice": "RIS"
+    },
+    {
+      "nm": "La",
+      "cnt": "‘",
+      "price": "reer re",
+      "unitprice": "SN a eee"
+    },
+    {
+      "cnt": "fo"
+    },
+    {
+      "price": "ONO"
+    },
+    {
+      "price": "hehe"
+    },
+    {
+      "cnt": "=",
+      "price": "BOC"
+    },
+    {
+      "price": "09.00"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "LEMON TEA",
+      "cnt": "1 (L)",
+      "unitprice": "************"
+    },
+    {
+      "nm": "LEMON TEA",
+      "cnt": "1",
+      "price": "(L)"
+    },
+    {
+      "nm": "MON TEA",
+      "price": "(L)"
+    },
+    {
+      "nm": "MEI SMAILI COME",
+      "price": "28 000"
+    },
+    {
+      "nm": "ARAMEI SMAIL",
+      "price": "38.000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Lemon Tea (L)",
+        "cnt": "1",
+        "price": "25.000"
+      },
+      {
+        "nm": "Caramel Small",
+        "cnt": "1",
+        "price": "38.000"
+      }
+    ],
+    "total": {
+      "total_price": "63.000",
+      "cashprice": "70.000",
+      "changeprice": "7.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Lemon Tea (L)</s_nm><s_cnt> 1</s_cnt><s_price> 25.000</s_price><sep/><s_nm> Caramel Small</s_nm><s_cnt> 1</s_cnt><s_price> 38.000</s_price></s_menu><s_total><s_total_price> 63.000</s_total_price><s_cashprice> 70.000</s_cashprice><s_changeprice> 7.000</s_changeprice></s_total></s>"
+}

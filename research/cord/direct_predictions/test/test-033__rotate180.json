@@ -1,0 +1,79 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-033",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "7ddaef054b4a13e95fd1b8ef81137fad3de410be4bad6dd1559b684fd55814b2",
+  "elapsed_seconds": 1.41,
+  "detected_words": 29,
+  "detected_lines": 7,
+  "ocr_text": "OLE MOSH SAS” : oos‘ zit a 000‘ 19- (SOHLI)X001- 9810 000'/9 YNNL 10H \\ 000‘ 29 NTL LOH \\ 003'0S 4) OLViOd ABvE O3TII19 \\ = cee “",
+  "trocr_words": "0.70 SUBT TOTAL: 11,00 DISC- (90WII)X001-OSIQ 1 1/HT TOTAL INCL IOH 1 1 1 TOT INN VNIL 10H 1 GRILLED BABY A&W8 GETTING ***",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "11,00"
+  },
+  "layout_rows": [
+    {
+      "nm": "OLE MOSH"
+    },
+    {
+      "nm": "(SOHLI)X001-",
+      "price": "9810",
+      "unitprice": "19-"
+    },
+    {
+      "nm": "YNNL",
+      "price": "10H"
+    },
+    {
+      "nm": "NTL",
+      "price": "LOH",
+      "unitprice": "29"
+    },
+    {
+      "nm": "OLViOd ABvE",
+      "cnt": "4)",
+      "price": "O3TII19"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "1/HT TOTAL",
+      "cnt": "1",
+      "price": "IOH"
+    },
+    {
+      "nm": "TOT INN",
+      "cnt": "1 1",
+      "price": "10H"
+    },
+    {
+      "nm": "GRILLED BABY",
+      "cnt": "1"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "LZL'BTL TALOL 299'61",
+      "num": "OLO'll",
+      "price": "18d"
+    },
+    {
+      "nm": "OOS'Lll",
+      "num": "OOS'Lll",
+      "price": "1118NS"
+    },
+    {
+      "nm": "000'L9-",
+      "price": "10H"
+    },
+    {
+      "price": "10H"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> LZL'BTL TALOL 299'61</s_nm><s_num> OLO'll</s_num><s_price> 18d</s_price><sep/><s_nm> OOS'Lll</s_nm><s_num> OOS'Lll</s_num><s_price> 1118NS</s_price><sep/><s_nm> 000'L9-</s_nm><s_num> OSLOT</s_nm><s_num> 000'L9</s_num><s_price> 10H</s_price><sep/><s_nm> 000'L9</s_num><s_price> 10H</s_price><sep/><s_nm> OOS'09</s_num><s_price> BVB BELIEVE</s>"
+}

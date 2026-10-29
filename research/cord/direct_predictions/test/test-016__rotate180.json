@@ -1,0 +1,134 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-016",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "a0d06588c614d41c5f5e8139084a0b8ec749756c929d7ef9e5b2188af16b001f",
+  "elapsed_seconds": 4.117,
+  "detected_words": 91,
+  "detected_lines": 25,
+  "ocr_text": "i a a, tee 000'0¢ abueyo fee 00000! quawhed yseo Fie 000'0L 12301 Bega 0 Bulpunoy he p9E'9 (%01) Lad fie 9eg'e9 [10 2NS Faas Sys'b 4g (BUl|pund) MALY TWYSNIN Lene <a 0 ODONVA | fae Ss 0) GNOW1 GSlISvou | fees a 860 NVONC L 5 L60'6S VueNVS 4Ov1E [57] | eae Sake oe i pe Stings Oe Paes TESS ; eis cs) : AE PAISE, on ener a rar Nien: ett i \\ Y 0 TELE De Lig SES : USAT eae Premade gto Chet SEE RELL. AT iy",
+  "trocr_words": "*** INVOICE OF RECEIPTIVE 6 DAYS ST REGISTER PAYED USSUED USED TOTAL TOTAL TOTAL TOTAL TOTAL ONVOICE INCLUSIVE 6UPUNOY TAX (BST) (RM) SR: 1,000 GST + 5\" XG (6UPUNG) RELIAM TAEENIN ! SR: SR: TRANSICED ALLOWAYDESHOR: 1 LONGAN ITRABLE WITH MONTHS XOMBISIL. : *** *** CASHIER *** **** 837-866-000656-1083-8999 SR/28/2018/2018 SR: PERESSION: AMOUNT : 1,000 CASHIER INCLUSIVE OF GSTIONS. CASHIER: SR-8999-40000-4 PAX:",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "SR",
+      "cnt": null,
+      "price": "1,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "; :"
+  },
+  "cascade_fields": {
+    "total": "TOTAL TOTAL : AMOUNT :"
+  },
+  "layout_rows": [
+    {
+      "cnt": "i",
+      "price": "a,",
+      "unitprice": "a"
+    },
+    {
+      "price": "abueyo fee"
+    },
+    {
+      "price": "yseo Fie"
+    },
+    {
+      "price": "12301 Bega"
+    },
+    {
+      "cnt": "0",
+      "price": "he"
+    },
+    {
+      "price": "(%01) Lad fie"
+    },
+    {
+      "nm": "9eg'e9",
+      "price": "[10 2NS Faas"
+    },
+    {
+      "nm": "(BUl|pund) MALY",
+      "cnt": "4g",
+      "price": "Lene"
+    },
+    {
+      "cnt": "<a 0",
+      "price": "fae"
+    },
+    {
+      "cnt": "Ss 0)",
+      "price": "fees"
+    },
+    {
+      "cnt": "a 860",
+      "price": "NVONC L"
+    },
+    {
+      "cnt": "5",
+      "price": "4Ov1E [57]"
+    },
+    {
+      "unitprice": "oe"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "on a rar"
+    },
+    {
+      "cnt": "i \\"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "INVOICE OF",
+      "price": "6 DAYS"
+    },
+    {
+      "nm": "ST REGISTER"
+    },
+    {
+      "nm": "GST",
+      "cnt": "+ 5\" XG"
+    },
+    {
+      "unitprice": "SR/28/2018/2018"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'03",
+      "price": {
+        "nm": "000'001"
+      }
+    },
+    {
+      "nm": "000'OL",
+      "price": "Toto"
+    },
+    {
+      "nm": "0",
+      "price": {
+        "num": "493'9"
+      }
+    },
+    {
+      "nm": "989'99",
+      "price": "0"
+    },
+    {
+      "nm": "ANOWTE TALOURY 0",
+      "num": "0",
+      "price": "0"
+    },
+    {
+      "nm": "160'69"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'03</s_nm><s_price> Chame<sep/><s_nm> 000'001</s_nm><s_price> Case</s_price><sep/><s_nm> 000'OL</s_nm><s_price> Toto</s_price><sep/><s_nm> 0</s_nm><s_price> Buipunoza</s_nm><s_num> 493'9</s_num><s_price> (%) LBd</s_price><sep/><s_nm> 989'99</s_nm><s_num> Totom qns</s_nm><s_num> SUS't MS (Gullpung) TALKEN TASENIA</s_nm><s_num> 0</s_num><s_price> 0</s_price><sep/><s_nm> ANOWTE TALOURY 0</s_nm><s_num> 0</s_num><s_price> 0</s_price><sep/><s_nm> 160'69</s_nm><s_num> SAKAKE CARDENIA [5] 1</s_changeprice></s_total></s>"
+}

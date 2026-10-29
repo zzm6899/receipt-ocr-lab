@@ -1,0 +1,162 @@
+reference_id,source_dataset,row_index,row_type,name_chars,name_uncertainty,human_verified
+receipt_001,legacy_reference_v3_1,1,legacy line_item (no row_type field),31,low,False
+receipt_002,legacy_reference_v3_1,1,legacy line_item (no row_type field),11,low,False
+receipt_002,legacy_reference_v3_1,2,legacy line_item (no row_type field),14,low,False
+receipt_003,legacy_reference_v3_1,1,legacy line_item (no row_type field),12,medium,False
+receipt_003,legacy_reference_v3_1,2,legacy line_item (no row_type field),13,medium,False
+receipt_003,legacy_reference_v3_1,3,legacy line_item (no row_type field),20,medium,False
+receipt_003,legacy_reference_v3_1,4,legacy line_item (no row_type field),11,medium,False
+receipt_003,legacy_reference_v3_1,5,legacy line_item (no row_type field),15,medium,False
+receipt_003,legacy_reference_v3_1,6,legacy line_item (no row_type field),14,medium,False
+receipt_003,legacy_reference_v3_1,7,legacy line_item (no row_type field),4,medium,False
+receipt_003,legacy_reference_v3_1,8,legacy line_item (no row_type field),4,medium,False
+receipt_003,legacy_reference_v3_1,9,legacy line_item (no row_type field),14,medium,False
+receipt_004,legacy_reference_v3_1,1,legacy line_item (no row_type field),35,low,False
+receipt_005,legacy_reference_v3_1,1,legacy line_item (no row_type field),28,medium,False
+receipt_005,legacy_reference_v3_1,2,legacy line_item (no row_type field),21,medium,False
+receipt_005,legacy_reference_v3_1,3,legacy line_item (no row_type field),15,medium,False
+receipt_005,legacy_reference_v3_1,4,legacy line_item (no row_type field),7,medium,False
+receipt_005,legacy_reference_v3_1,5,legacy line_item (no row_type field),29,low,False
+receipt_005,legacy_reference_v3_1,6,legacy line_item (no row_type field),16,low,False
+receipt_007,legacy_reference_v3_1,1,legacy line_item (no row_type field),49,medium,False
+receipt_008,legacy_reference_v3_1,1,legacy line_item (no row_type field),10,medium,False
+receipt_008,legacy_reference_v3_1,2,legacy line_item (no row_type field),11,low,False
+receipt_008,legacy_reference_v3_1,3,legacy line_item (no row_type field),18,low,False
+receipt_008,legacy_reference_v3_1,4,legacy line_item (no row_type field),21,medium,False
+receipt_008,legacy_reference_v3_1,5,legacy line_item (no row_type field),18,medium,False
+receipt_008,legacy_reference_v3_1,6,legacy line_item (no row_type field),21,medium,False
+receipt_008,legacy_reference_v3_1,7,legacy line_item (no row_type field),38,medium,False
+receipt_008,legacy_reference_v3_1,8,legacy line_item (no row_type field),23,low,False
+receipt_008,legacy_reference_v3_1,9,legacy line_item (no row_type field),21,medium,False
+receipt_008,legacy_reference_v3_1,10,legacy line_item (no row_type field),18,medium,False
+receipt_008,legacy_reference_v3_1,11,legacy line_item (no row_type field),21,medium,False
+receipt_008,legacy_reference_v3_1,12,legacy line_item (no row_type field),25,medium,False
+receipt_008,legacy_reference_v3_1,13,legacy line_item (no row_type field),17,medium,False
+receipt_008,legacy_reference_v3_1,14,legacy line_item (no row_type field),23,low,False
+receipt_008,legacy_reference_v3_1,15,legacy line_item (no row_type field),10,medium,False
+receipt_008,legacy_reference_v3_1,16,legacy line_item (no row_type field),11,low,False
+receipt_008,legacy_reference_v3_1,17,legacy line_item (no row_type field),17,low,False
+receipt_010,legacy_reference_v3_1,1,legacy line_item (no row_type field),22,low,False
+receipt_010,legacy_reference_v3_1,2,legacy line_item (no row_type field),12,low,False
+receipt_010,legacy_reference_v3_1,3,legacy line_item (no row_type field),6,low,False
+receipt_010,legacy_reference_v3_1,4,legacy line_item (no row_type field),26,low,False
+receipt_010,legacy_reference_v3_1,5,legacy line_item (no row_type field),25,low,False
+receipt_010,legacy_reference_v3_1,6,legacy line_item (no row_type field),22,low,False
+receipt_010,legacy_reference_v3_1,7,legacy line_item (no row_type field),11,low,False
+receipt_010,legacy_reference_v3_1,8,legacy line_item (no row_type field),25,low,False
+receipt_010,legacy_reference_v3_1,9,legacy line_item (no row_type field),17,low,False
+receipt_010,legacy_reference_v3_1,10,legacy line_item (no row_type field),13,low,False
+receipt_010,legacy_reference_v3_1,11,legacy line_item (no row_type field),17,low,False
+receipt_011,legacy_reference_v3_1,1,legacy line_item (no row_type field),20,medium,False
+receipt_011,legacy_reference_v3_1,2,legacy line_item (no row_type field),14,low,False
+receipt_012,legacy_reference_v3_1,1,legacy line_item (no row_type field),8,medium,False
+receipt_013,legacy_reference_v3_1,1,legacy line_item (no row_type field),86,medium,False
+receipt_014,legacy_reference_v3_1,1,legacy line_item (no row_type field),11,low,False
+receipt_015,legacy_reference_v3_1,1,legacy line_item (no row_type field),35,medium,False
+receipt_016,legacy_reference_v3_1,1,legacy line_item (no row_type field),17,low,False
+receipt_017,legacy_reference_v3_1,1,legacy line_item (no row_type field),77,medium,False
+receipt_018,legacy_reference_v3_1,1,legacy line_item (no row_type field),23,low,False
+receipt_018,legacy_reference_v3_1,2,legacy line_item (no row_type field),42,medium,False
+receipt_018,legacy_reference_v3_1,3,legacy line_item (no row_type field),10,low,False
+receipt_018,legacy_reference_v3_1,4,legacy line_item (no row_type field),11,low,False
+receipt_018,legacy_reference_v3_1,5,legacy line_item (no row_type field),11,low,False
+receipt_018,legacy_reference_v3_1,6,legacy line_item (no row_type field),8,low,False
+receipt_019,legacy_reference_v3_1,1,legacy line_item (no row_type field),18,low,False
+receipt_020,legacy_reference_v3_1,1,legacy line_item (no row_type field),22,low,False
+receipt_020,legacy_reference_v3_1,2,legacy line_item (no row_type field),38,low,False
+receipt_020,legacy_reference_v3_1,3,legacy line_item (no row_type field),14,low,False
+receipt_020,legacy_reference_v3_1,4,legacy line_item (no row_type field),24,low,False
+receipt_021,legacy_reference_v3_1,1,legacy line_item (no row_type field),10,low,False
+receipt_022,legacy_reference_v3_1,1,legacy line_item (no row_type field),72,low,False
+receipt_022,legacy_reference_v3_1,2,legacy line_item (no row_type field),59,low,False
+receipt_022,legacy_reference_v3_1,3,legacy line_item (no row_type field),21,low,False
+receipt_022,legacy_reference_v3_1,4,legacy line_item (no row_type field),72,low,False
+receipt_022,legacy_reference_v3_1,5,legacy line_item (no row_type field),6,low,False
+receipt_022,legacy_reference_v3_1,6,legacy line_item (no row_type field),21,low,False
+receipt_023,legacy_reference_v3_1,1,legacy line_item (no row_type field),36,low,False
+receipt_024,legacy_reference_v3_1,1,legacy line_item (no row_type field),32,low,False
+receipt_024,legacy_reference_v3_1,2,legacy line_item (no row_type field),34,low,False
+receipt_024,legacy_reference_v3_1,3,legacy line_item (no row_type field),26,low,False
+receipt_025,legacy_reference_v3_1,1,legacy line_item (no row_type field),28,medium,False
+receipt_025,legacy_reference_v3_1,2,legacy line_item (no row_type field),9,medium,False
+receipt_026,legacy_reference_v3_1,2,legacy line_item (no row_type field),18,medium,False
+receipt_026,legacy_reference_v3_1,3,legacy line_item (no row_type field),14,low,False
+receipt_027,legacy_reference_v3_1,1,legacy line_item (no row_type field),39,medium,False
+receipt_027,legacy_reference_v3_1,2,legacy line_item (no row_type field),40,medium,False
+receipt_027,legacy_reference_v3_1,3,legacy line_item (no row_type field),38,low,False
+receipt_027,legacy_reference_v3_1,4,legacy line_item (no row_type field),17,low,False
+receipt_027,legacy_reference_v3_1,5,legacy line_item (no row_type field),39,low,False
+receipt_027,legacy_reference_v3_1,6,legacy line_item (no row_type field),41,low,False
+receipt_027,legacy_reference_v3_1,7,legacy line_item (no row_type field),32,low,False
+receipt_027,legacy_reference_v3_1,8,legacy line_item (no row_type field),35,low,False
+receipt_027,legacy_reference_v3_1,9,legacy line_item (no row_type field),26,low,False
+receipt_027,legacy_reference_v3_1,10,legacy line_item (no row_type field),12,low,False
+receipt_028,legacy_reference_v3_1,1,legacy line_item (no row_type field),29,low,False
+receipt_028,legacy_reference_v3_1,2,legacy line_item (no row_type field),19,low,False
+receipt_028,legacy_reference_v3_1,3,legacy line_item (no row_type field),14,low,False
+receipt_029,legacy_reference_v3_1,1,legacy line_item (no row_type field),31,medium,False
+receipt_029,legacy_reference_v3_1,2,legacy line_item (no row_type field),40,low,False
+receipt_029,legacy_reference_v3_1,3,legacy line_item (no row_type field),14,low,False
+receipt_030,legacy_reference_v3_1,1,legacy line_item (no row_type field),17,low,False
+receipt_031,legacy_reference_v3_1,1,legacy line_item (no row_type field),21,low,False
+receipt_032,legacy_reference_v3_1,1,legacy line_item (no row_type field),28,low,False
+receipt_032,legacy_reference_v3_1,2,legacy line_item (no row_type field),35,low,False
+receipt_032,legacy_reference_v3_1,3,legacy line_item (no row_type field),23,low,False
+receipt_032,legacy_reference_v3_1,4,legacy line_item (no row_type field),21,low,False
+receipt_032,legacy_reference_v3_1,5,legacy line_item (no row_type field),23,low,False
+receipt_032,legacy_reference_v3_1,6,legacy line_item (no row_type field),22,medium,False
+receipt_032,legacy_reference_v3_1,7,legacy line_item (no row_type field),16,low,False
+receipt_032,legacy_reference_v3_1,8,legacy line_item (no row_type field),27,low,False
+receipt_033a,legacy_reference_v3_1,1,legacy line_item (no row_type field),21,low,False
+receipt_033a,legacy_reference_v3_1,2,legacy line_item (no row_type field),28,low,False
+receipt_033a,legacy_reference_v3_1,3,legacy line_item (no row_type field),25,low,False
+receipt_033a,legacy_reference_v3_1,4,legacy line_item (no row_type field),16,low,False
+receipt_033a,legacy_reference_v3_1,5,legacy line_item (no row_type field),23,medium,False
+receipt_033a,legacy_reference_v3_1,6,legacy line_item (no row_type field),26,low,False
+receipt_033a,legacy_reference_v3_1,7,legacy line_item (no row_type field),14,low,False
+receipt_033a,legacy_reference_v3_1,8,legacy line_item (no row_type field),35,low,False
+receipt_033b,legacy_reference_v3_1,1,legacy line_item (no row_type field),10,medium,False
+receipt_033c,legacy_reference_v3_1,1,legacy line_item (no row_type field),36,low,False
+receipt_034,legacy_reference_v3_1,1,legacy line_item (no row_type field),75,low,False
+new_001,receipy_references_v2,1,product,30,high,False
+new_001,receipy_references_v2,2,product,57,high,False
+new_001,receipy_references_v2,3,product,60,high,False
+new_001,receipy_references_v2,4,product,63,high,False
+new_002,receipy_references_v2,1,product,36,high,False
+new_002,receipy_references_v2,2,product,39,high,False
+new_002,receipy_references_v2,3,product,31,high,False
+new_002,receipy_references_v2,4,product,31,high,False
+new_002,receipy_references_v2,5,product,36,high,False
+new_002,receipy_references_v2,6,product,36,high,False
+new_003,receipy_references_v2,1,product,49,high,False
+new_003,receipy_references_v2,2,product,50,high,False
+new_003,receipy_references_v2,3,product,50,high,False
+new_004,receipy_references_v2,1,product,24,high,False
+new_005,receipy_references_v2,1,product,29,high,False
+new_006,receipy_references_v2,1,product,49,high,False
+new_006,receipy_references_v2,2,product,24,high,False
+new_007,receipy_references_v2,1,product,43,high,False
+new_007,receipy_references_v2,2,product,24,high,False
+new_007,receipy_references_v2,3,product,27,high,False
+new_007,receipy_references_v2,4,product,30,high,False
+new_007,receipy_references_v2,5,product,23,high,False
+new_007,receipy_references_v2,6,product,14,high,False
+new_008,receipy_references_v2,1,product,37,high,False
+new_008,receipy_references_v2,2,product,47,high,False
+new_008,receipy_references_v2,3,product,38,high,False
+new_009,receipy_references_v2,1,product,29,high,False
+new_011,receipy_references_v2,1,product,28,high,False
+new_011,receipy_references_v2,2,product,20,high,False
+new_011,receipy_references_v2,3,product,26,high,False
+new_011,receipy_references_v2,4,product,13,high,False
+new_011,receipy_references_v2,5,product,16,high,False
+new_011,receipy_references_v2,6,product,21,high,False
+new_012,receipy_references_v2,1,product,37,high,False
+new_012,receipy_references_v2,2,product,9,high,False
+new_013,receipy_references_v2,1,product,18,high,False
+new_013,receipy_references_v2,2,product,12,high,False
+new_013,receipy_references_v2,3,product,12,high,False
+new_016,receipy_references_v2,1,product,24,high,False
+new_017,receipy_references_v2,1,product,37,high,False
+new_017,receipy_references_v2,2,product,55,high,False
+new_017,receipy_references_v2,3,product,37,high,False

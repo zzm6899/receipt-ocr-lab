@@ -1,0 +1,98 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-005",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "d4c08c9120c5817f2643c16eebfeac943b9f45228f0c84986ba3fbd4d87f4cfa",
+  "elapsed_seconds": 2.169,
+  "detected_words": 20,
+  "detected_lines": 9,
+  "ocr_text": "TRAD KY TOAST CARTE 28.182 ITEMS 1.00 SUBTTL 28.182 PB-1 10% 2.818 TOTAL 31.000 CASH 31.000 7 2 oe al",
+  "trocr_words": "TRAD KY TOAST CARTE 28.182 ITEMS 1.00 SUBTTL 28.182 PB-1 10% TOTAL 31.000 CASH 31.000 Y : :",
+  "ocr_rules_total": "31.000",
+  "ocr_rows": [
+    {
+      "nm": "TRAD KY TOAST CARTE",
+      "cnt": null,
+      "price": "28.182"
+    },
+    {
+      "nm": "ITEMS",
+      "cnt": null,
+      "price": "1.00"
+    },
+    {
+      "nm": "SUBTTL",
+      "cnt": null,
+      "price": "28.182"
+    },
+    {
+      "nm": "PB-1 10%",
+      "cnt": null,
+      "price": "2.818"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "TRAD KY TOAST CARTE",
+      "cnt": null,
+      "price": "28.182"
+    },
+    {
+      "nm": "ITEMS",
+      "cnt": null,
+      "price": "1.00"
+    },
+    {
+      "nm": "SUBTTL",
+      "cnt": null,
+      "price": "28.182"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL 31.000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 31.000"
+  },
+  "layout_rows": [
+    {
+      "nm": "TRAD KY TOAST CARTE",
+      "price": "28.182"
+    },
+    {
+      "cnt": "1.00"
+    },
+    {
+      "price": "28.182"
+    },
+    {
+      "nm": "PB-1",
+      "price": "2.818"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TRAD KY TOAST CARTE",
+      "price": "28.182"
+    },
+    {
+      "cnt": "1.00"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "TRAD KY TOAST CARTE",
+      "price": "28.182"
+    },
+    "sub_total": {
+      "subtotal_price": "28.182",
+      "tax_price": "2.818"
+    },
+    "total": {
+      "total_price": "31.000",
+      "cashprice": "31.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TRAD KY TOAST CARTE</s_nm><s_price> 28.182</s_price></s_menu><s_sub_total><s_subtotal_price> 28.182</s_subtotal_price><s_tax_price> 2.818</s_tax_price></s_sub_total><s_total><s_total_price> 31.000</s_total_price><s_cashprice> 31.000</s_cashprice></s_total></s>"
+}

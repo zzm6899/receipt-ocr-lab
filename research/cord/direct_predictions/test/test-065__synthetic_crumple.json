@@ -1,0 +1,166 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-065",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "cea154d035c4279249ce8ebc460f5eb851b8059717cad68e6d818bbd0ccc7f3c",
+  "elapsed_seconds": 3.713,
+  "detected_words": 127,
+  "detected_lines": 28,
+  "ocr_text": "ee add i = = wr nes \\ we ao NEL RNP ARN \" cs ae st a ss eae \\ a i 7 . ie ve | : ——_ Se wea | Sa ee A rh bs = \\ ia ie = \\ ae. . be ee 2 as 7 , ian = ¢ isl ie } | is oo Wied oa \\ B. a a | ubur Polos + Telur | Te AK a ~~ 913.600 13.000 hg -- lo ae 2) A 45 sea a aR K UNTO ta eae 13,686 tats 1), ales aiaigee \\ ; UA. oh i SNE 1 2 ey ee be aye ae , eh. , A! i Bes ee | i F: q k ei ee . wees",
+  "trocr_words": "AMOUNT 1 WWWWWWWWWWWWWWWW # GAL ITEM ITEM WWW. - AMOUNT - ITEMS ................. TABLE POLOS + : SUBUR POLOS + TELUR 13 00 13.00 13.000 ......................... SUBTOTAL 13.000 AJAK TOTAL : 13.000 TOTAL AMOUNT 13.00 ITEMS : : CASHIER WWWWWWWWWWWWWWWWWWWWWWWW",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "a ~~ 913.600",
+      "cnt": null,
+      "price": "13.000"
+    },
+    {
+      "nm": "K UNTO ta eae",
+      "cnt": null,
+      "price": "13,686"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "13.00",
+      "cnt": null,
+      "price": "13.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "ee"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT TOTAL : 13.000 13.00"
+  },
+  "layout_rows": [
+    {
+      "price": "i"
+    },
+    {
+      "cnt": "\\"
+    },
+    {
+      "nm": "NEL",
+      "cnt": "ao \" cs",
+      "price": "ae st"
+    },
+    {
+      "nm": "ss",
+      "cnt": "a \\",
+      "price": "a",
+      "unitprice": "eae"
+    },
+    {
+      "cnt": "i 7 . | :"
+    },
+    {
+      "cnt": "Se |",
+      "price": "ee A rh",
+      "unitprice": "wea Sa"
+    },
+    {
+      "cnt": "bs \\",
+      "price": "ie =",
+      "unitprice": "= ia"
+    },
+    {
+      "cnt": ". be"
+    },
+    {
+      "cnt": "2 7",
+      "price": ", ian =",
+      "unitprice": "ee as"
+    },
+    {
+      "price": "ie }"
+    },
+    {
+      "cnt": "is",
+      "price": "oo"
+    },
+    {
+      "nm": "Wied",
+      "cnt": "\\",
+      "unitprice": "oa"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "nm": "ubur Polos Telur",
+      "cnt": "+"
+    },
+    {
+      "cnt": "|",
+      "unitprice": "Te AK"
+    },
+    {
+      "cnt": "a ~~",
+      "price": "13.000",
+      "unitprice": "913.600"
+    },
+    {
+      "cnt": "hg ae 2)",
+      "price": "45 sea aR",
+      "unitprice": "-- lo A"
+    },
+    {
+      "nm": "UNTO ta",
+      "cnt": "K",
+      "price": "13,686",
+      "unitprice": "eae"
+    },
+    {
+      "cnt": "1),"
+    },
+    {
+      "cnt": "oh 1",
+      "price": "SNE"
+    },
+    {
+      "cnt": "2 ey ee be ae",
+      "price": "eh. ,",
+      "unitprice": "aye"
+    },
+    {
+      "cnt": "q k"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "TABLE POLOS",
+      "cnt": "+"
+    },
+    {
+      "nm": "SUBUR POLOS",
+      "cnt": "+"
+    },
+    {
+      "cnt": "00",
+      "unitprice": "13"
+    },
+    {
+      "unitprice": "13.00"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ubur Polos + Telur",
+      "unitprice": "13.000",
+      "cnt": "1",
+      "price": "13.000"
+    },
+    "sub_total": {
+      "subtotal_price": "13.000",
+      "tax_price": "-"
+    },
+    "total": {
+      "total_price": "13.000",
+      "emoneyprice": "13,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ubur Polos + Telur</s_nm><s_unitprice> 13.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 13.000</s_price></s_menu><s_sub_total><s_subtotal_price> 13.000</s_subtotal_price><s_tax_price> -</s_tax_price></s_sub_total><s_total><s_total_price> 13.000</s_total_price><s_emoneyprice> 13,000</s_emoneyprice></s_total></s>"
+}

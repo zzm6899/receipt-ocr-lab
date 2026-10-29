@@ -1,0 +1,69 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-022",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "06c297710d530012b4c97b7611a7b8eb257b59524f51a56bd831da4f66f166e0",
+  "elapsed_seconds": 1.363,
+  "detected_words": 21,
+  "detected_lines": 6,
+  "ocr_text": "- g00° 09 JONVHO (00°00, HS¥ 000 OP WLOL a 000‘02 vOOODHD 3HVAIS L408 LAN) Z 00102 _ SSE) CWS ae",
+  "trocr_words": "ITEM CHANGE 60,000 CASH - 1,000 TOTAL 40,000 2 BMS HRS HES CHIPHS LIES [RM) 2 GOOD OZ OBSBEHO OEWAILS THIS [ON] Z",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 40,000"
+  },
+  "layout_rows": [
+    {
+      "price": "-"
+    },
+    {
+      "price": "JONVHO",
+      "unitprice": "g00° 09"
+    },
+    {
+      "price": "HS¥",
+      "unitprice": "(00°00,"
+    },
+    {
+      "price": "WLOL",
+      "unitprice": "000 OP"
+    },
+    {
+      "nm": "vOOODHD 3HVAIS",
+      "price": "L408 LAN) Z",
+      "unitprice": "000‘02"
+    },
+    {
+      "cnt": "_",
+      "unitprice": "00102"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BMS HRS HES CHIPHS",
+      "price": "2"
+    },
+    {
+      "nm": "GOOD OBSBEHO",
+      "cnt": "OZ",
+      "price": "THIS"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'09",
+      "price": {
+        "num": "000'07"
+      }
+    },
+    {
+      "nm": "000'02 CHOCOHO SENSE ISOS [OW] ~",
+      "num": "000'02"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'09</s_nm><s_price> GUNDAR</s_nm><s_num> 000'001</s_num><s_price> HASVO</s_nm><s_num> 000'07</s_num><s_price> TALOL</s_price><sep/><s_nm> 000'02 CHOCOHO SENSE ISOS [OW] ~</s_nm><s_num> 000'02</s_num><s_price> CESEEHO SENSE ISOS [OW] ~</s_changeprice></s_total></s>"
+}

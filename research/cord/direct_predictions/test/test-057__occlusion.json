@@ -1,0 +1,30 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-057",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "4633b3a0200284188101ecc7f4cebdd7610113f0e306bcf9ceae37e9058c8120",
+  "elapsed_seconds": 0.769,
+  "detected_words": 10,
+  "detected_lines": 5,
+  "ocr_text": "- 24s 2 wo AT 5 | | eo ee",
+  "trocr_words": "* (ASVAN) : - ITEM",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": {
+      "nm": "ICED TT",
+      "price": "20,000"
+    },
+    "total": {
+      "total_price": "22,000",
+      "cashprice": "42,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ICED TT</s_nm><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 22,000</s_total_price><s_cashprice> 42,000</s_cashprice></s_total></s>"
+}

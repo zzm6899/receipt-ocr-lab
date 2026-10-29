@@ -1,0 +1,85 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-006",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "7169c66a8c49b84c48cf66c10000922ba55430955937d04572be112e4662e832",
+  "elapsed_seconds": 1.642,
+  "detected_words": 32,
+  "detected_lines": 10,
+  "ocr_text": "we a. om , > een Se 000'P JINVHC 000°0S , HSH 000 9p WLOol tem, 000'6 availa Nv3q03 | nue re ~ AaLS¥d Cay.SND OOOHE Z se SE Str ae) ae",
+  "trocr_words": "- ---- ---- CHANGE 4,000 CASH VAL US ONCLUS HSAF TOTAL 4,00 1 EEDBACK ENTER NAME IN FACEBOOK ! 2 THE LOCS AND BASWA OBLSWA SNO CODE ? 1 REG TAKE AGAI 9SE 1 SUMOR GST ONE",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "- ---- ---- TOTAL 4,00"
+  },
+  "layout_rows": [
+    {
+      "cnt": "a. ,",
+      "price": "om >"
+    },
+    {
+      "nm": "JINVHC",
+      "unitprice": "000'P"
+    },
+    {
+      "cnt": ",",
+      "price": "HSH",
+      "unitprice": "000°0S"
+    },
+    {
+      "price": "WLOol",
+      "unitprice": "000 9p"
+    },
+    {
+      "cnt": "tem,",
+      "price": "Nv3q03 |",
+      "unitprice": "000'6 availa"
+    },
+    {
+      "nm": "AaLS¥d Cay.SND",
+      "cnt": "nue re ~",
+      "price": "OOOHE Z"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "EEDBACK ENTER NAME IN",
+      "cnt": "1",
+      "price": "!"
+    },
+    {
+      "nm": "THE LOCS AND BASWA OBLSWA",
+      "cnt": "2",
+      "price": "CODE ?"
+    },
+    {
+      "nm": "REG TAKE AGAI",
+      "cnt": "1",
+      "price": "9SE 1"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000't",
+        "price": "HSVD"
+      },
+      {
+        "nm": "000'05",
+        "price": "HSVC"
+      },
+      {
+        "nm": "000'9t",
+        "price": "101"
+      }
+    ],
+    "total": {
+      "total_price": "552"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000't</s_nm><s_price> HSVD</s_price><sep/><s_nm> 000'05</s_nm><s_price> HSVC</s_price><sep/><s_nm> 000'9t</s_nm><s_price> 101</s_price></s_menu><s_sub_total><s_subtotal_price> AVEBOED AVEBOED 006'tz</s_nm><s_price> 050HC</s_nm><s_num> 000'EL</s_nm><s_price> 555</s_price></s_menu><s_total><s_total_price> 552</s_total_price></s_total></s>"
+}

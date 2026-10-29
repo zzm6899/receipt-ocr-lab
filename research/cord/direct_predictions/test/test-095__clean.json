@@ -1,0 +1,97 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-095",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "3e026419409afe3c37f4922515cbf18097cc68311f8fb525b28e28b4014070b8",
+  "elapsed_seconds": 1.54,
+  "detected_words": 29,
+  "detected_lines": 22,
+  "ocr_text": "my G SS wy Shai AY RS Ratan Ss i Se Rh fyi & We AN Nin UN ®& a ~ =r ea 4 o , “ { |",
+  "trocr_words": "@ A AMOUNT MAN AMOUNT AMOUNT AMMARY AMOUNT (KLAY) AMOUNT @ SANS: SALES RMMM GFO AM : = C 2 C ALL ALL ON TAILS 1 :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "G"
+  },
+  "cascade_fields": {
+    "total": "@ AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "cnt": "SS",
+      "price": "wy"
+    },
+    {
+      "price": "AY"
+    },
+    {
+      "price": "RS"
+    },
+    {
+      "price": "Se"
+    },
+    {
+      "price": "fyi"
+    },
+    {
+      "price": "& We"
+    },
+    {
+      "price": "AN"
+    },
+    {
+      "price": "Nin"
+    },
+    {
+      "price": "ea"
+    },
+    {
+      "cnt": ","
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "@"
+    },
+    {
+      "price": "SANS:"
+    },
+    {
+      "price": "SALES"
+    },
+    {
+      "price": "RMMM"
+    },
+    {
+      "price": "GFO"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BASO TAHU",
+        "unitprice": "43,18<unk>",
+        "cnt": "1",
+        "price": "43,18<unk>"
+      },
+      {
+        "nm": "ES JERUK",
+        "unitprice": "13.000",
+        "cnt": "1",
+        "price": "13,000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "56,18<unk>",
+      "tax_price": "5,618"
+    },
+    "total": {
+      "total_price": "61,799",
+      "cashprice": "62,000",
+      "changeprice": "201"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BASO TAHU</s_nm><s_unitprice> 43,18<unk></s_unitprice><s_cnt> 1</s_cnt><s_price> 43,18<unk></s_price><sep/><s_nm> ES JERUK</s_nm><s_unitprice> 13.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 13,000</s_price></s_menu><s_sub_total><s_subtotal_price> 56,18<unk></s_subtotal_price><s_tax_price> 5,618</s_tax_price></s_sub_total><s_total><s_total_price> 61,799</s_total_price><s_cashprice> 62,000</s_cashprice><s_changeprice> 201</s_changeprice></s_total></s>"
+}

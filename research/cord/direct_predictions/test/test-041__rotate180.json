@@ -1,0 +1,149 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-041",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "07ee4b84af4692aa56e455e99054f5939ea10fd96608593505e0613e143c51d2",
+  "elapsed_seconds": 3.061,
+  "detected_words": 58,
+  "detected_lines": 14,
+  "ocr_text": ". Wid on 00s hdl 9a\" 2269 + 4G aBseyg 20,AJas 00° LLOSLE (23039NS 00 61 9ly pub| Ase UBYOLY9 OO\" PLES oBuey/uoway/yoea4/aayor) 19621 Ja}p4 [PIBULW 0° 18621 4a}ey | e4aULW 00\" 06zeP peles sesag vax9149 00° 20608 | [BUUSJEW 2}2L09049 10H 00° £0608 aqiel ase) ZESHE. 3OLnp aayory PORN UG\" £0608 (pa9[/94) oupondde 00°619LP pue| A1ey UayOLYD",
+  "trocr_words": "TOTAL AMOUNT TOTAL TOTAL SERVICE CHARGE + % 6% SUBTOTAL : 10017.00 CHICKEN MEA WEEK PUBY, JOHAN UEXPING EXCHANGE/LEWOWET/UOWET/UCEED/BEUDKT MINEJAN 1/2018 MINAL WATER JALAN JALAN IBULLW CHICKEN CESC RESEQUEXCIU HOT CHOCOLSJWUSJAW EJELOOOUD 10H DATE LATLE ATIER ATRIBLE NEED BY CHOPP BEHOLDED REDN CARDUNCTUNO CH) (PEOI/10H) OUTCHANDDE) CHICKEN MARYLAN ULTUEXCHO",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL AMOUNT TOTAL TOTAL"
+  },
+  "layout_rows": [
+    {
+      "cnt": ".",
+      "price": "Wid"
+    },
+    {
+      "cnt": "on",
+      "price": "hdl",
+      "unitprice": "00s"
+    },
+    {
+      "nm": "aBseyg",
+      "cnt": "9a\" + 4G",
+      "price": "20,AJas",
+      "unitprice": "2269"
+    },
+    {
+      "nm": "LLOSLE",
+      "cnt": "00°",
+      "price": "(23039NS"
+    },
+    {
+      "cnt": "00 pub|",
+      "price": "UBYOLY9",
+      "unitprice": "61 9ly Ase"
+    },
+    {
+      "unitprice": "PLES"
+    },
+    {
+      "price": "[PIBULW",
+      "unitprice": "19621 Ja}p4"
+    },
+    {
+      "cnt": "0°",
+      "price": "| e4aULW",
+      "unitprice": "18621 4a}ey"
+    },
+    {
+      "nm": "06zeP",
+      "cnt": "00\" peles",
+      "price": "vax9149",
+      "unitprice": "sesag"
+    },
+    {
+      "nm": "[BUUSJEW",
+      "cnt": "00° |",
+      "price": "10H",
+      "unitprice": "20608 2}2L09049"
+    },
+    {
+      "cnt": "00°",
+      "unitprice": "£0608"
+    },
+    {
+      "nm": "ZESHE.",
+      "cnt": "3OLnp",
+      "price": "aayory PORN"
+    },
+    {
+      "cnt": "UG\"",
+      "price": "oupondde",
+      "unitprice": "£0608 (pa9[/94)"
+    },
+    {
+      "cnt": "pue|",
+      "price": "UayOLYD",
+      "unitprice": "A1ey"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "CHICKEN MEA WEEK",
+      "unitprice": "PUBY, JOHAN"
+    },
+    {
+      "price": "1/2018"
+    },
+    {
+      "nm": "MINAL WATER",
+      "price": "JALAN",
+      "unitprice": "JALAN"
+    },
+    {
+      "nm": "CHICKEN CESC"
+    },
+    {
+      "nm": "HOT CHOCOLSJWUSJAW",
+      "price": "EJELOOOUD 10H"
+    },
+    {
+      "nm": "NEED BY CHOPP",
+      "price": "BEHOLDED REDN"
+    },
+    {
+      "nm": "CARDUNCTUNO",
+      "unitprice": "(PEOI/10H)"
+    },
+    {
+      "nm": "CHICKEN"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "TW101",
+      "unitprice": "69.2868",
+      "cnt": {
+        "nm": "00'062D",
+        "unitprice": "99.28682D"
+      },
+      "price": "10H"
+    },
+    {
+      "nm": "00'00E30E",
+      "unitprice": "atill a]30",
+      "cnt": "00'003",
+      "price": "2982"
+    },
+    {
+      "nm": "eighr sayot",
+      "unitprice": "99.00嵗",
+      "cnt": "(peat/oth)",
+      "price": "Conducted"
+    },
+    {
+      "nm": "00'619Lt",
+      "unitprice": "99.00"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> TW101</s_nm><s_unitprice> 69.2868</s_unitprice><s_cnt> + %S Charchee striet</s_price><sep/><s_nm> 00'L10913</s_nm><s_unitprice> [sotopins</s_unitprice><s_cnt> + XS Charchee 001/2016</s_nm><s_unitprice> 69.70913</s_unitprice><s_cnt> + XS Charchee 001/612</s_unitprice><s_cnt> + XSubaharakasakatakat<sep/><s_nm> 00'L18ZL</s_nm><s_unitprice> Jewnee lukuluku</s_nm><s_unitprice> 00'L86ZL</s_nm><s_unitprice> 99.2862</s_unitprice><s_cnt> + XSubaharakasakatakat<sep/><s_nm> 00'062D</s_nm><s_unitprice> 99.28682D</s_unitprice><s_cnt> 0*005</s_unitprice><s_cnt> 0*005</s_cnt><s_price> 10H</s_price><sep/><s_nm> 00'00E30E</s_nm><s_unitprice> atill a]30</s_unitprice><s_cnt> 00'003</s_cnt><s_price> 2982</s_price><sep/><s_nm> eighr sayot</s_nm><s_unitprice> 99.00嵗</s_unitprice><s_cnt> (peat/oth)</s_cnt><s_price> Conducted</s_price><sep/><s_nm> 00'619Lt</s_nm><s_unitprice> 99.00</s_unitprice><s_cnt> 0*00萬人</s_total></s>"
+}

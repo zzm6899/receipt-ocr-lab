@@ -1,0 +1,87 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-072",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "025259724048d793b900a3cbf4d7677ce33f79a75654ac813c607156384f4fa6",
+  "elapsed_seconds": 2.3,
+  "detected_words": 51,
+  "detected_lines": 16,
+  "ocr_text": ": a 00 ' oz oe i : tabueug . te eee eo a saat Tn ev poe ak os ROT Ug Besos ps i was Teq0igs ——— .. O6°st Traag 02049 TF om. = © a “ Ce om ao. oer Sen 5 Pal 4 Cn | ot po nn",
+  "trocr_words": "CHANGE CHANGE: 1/2,00 ------------ ................ @ 16S'T ************ (RM) SUBUSTIONS *** T CHOC ODAI TTMAO ODONG T ITEMS & AMOUNT ITEM ITEM ......... 0 2 - - - - 9.00",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "tabueug",
+      "cnt": "a ' i :",
+      "price": ".",
+      "unitprice": "00 oz oe"
+    },
+    {
+      "unitprice": "eo"
+    },
+    {
+      "nm": "saat",
+      "cnt": "a ev",
+      "price": "os Ug",
+      "unitprice": "Tn poe ak"
+    },
+    {
+      "nm": "Besos",
+      "cnt": "ps"
+    },
+    {
+      "nm": "———",
+      "price": ".."
+    },
+    {
+      "price": "02049 TF",
+      "unitprice": "Traag"
+    },
+    {
+      "price": "= ©"
+    },
+    {
+      "cnt": "“"
+    },
+    {
+      "cnt": "om"
+    },
+    {
+      "cnt": "|",
+      "price": "ot",
+      "unitprice": "Cn"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "16S'T",
+      "cnt": "@"
+    },
+    {
+      "nm": "CHOC ODAI TTMAO",
+      "cnt": "T"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'oz",
+      "unitprice": ":abueyo",
+      "cnt": "oos'z",
+      "price": ":yseo"
+    },
+    {
+      "nm": "OOS'ZI",
+      "num": "606'ST",
+      "price": {
+        "num": "606'ST"
+      },
+      "menuqty_cnt": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'oz</s_nm><s_unitprice> :abueyo</s_unitprice><s_cnt> oos'z</s_cnt><s_price> :yseo</s_price><sep/><s_nm> OOS'ZI</s_nm><s_unitprice> :Teyoloka<s_menutype_cnt> :I&dda</s_nm><s_num> 606'ST</s_num><s_price> :retoloqus<s_num> 606'ST</s_num><s_price> 0000</s_price><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

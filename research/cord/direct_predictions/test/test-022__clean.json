@@ -1,0 +1,85 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-022",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "8013d866598cd67d5e352755ded0a2bb95d21a732dc78cd355e1e05f8eb2037f",
+  "elapsed_seconds": 1.331,
+  "detected_words": 22,
+  "detected_lines": 6,
+  "ocr_text": "“2 IMD] SOFT STEAMED CHEESED 20,000 5 2 [MD] SOFT STEAMED CHOCCCA 20,000 TOTAL 40 ,000 CASH 100,009 CHANGE 60 ,000 ant",
+  "trocr_words": "2 PMPI SOFT STEMED CHEESE 28:00 2 [MD] SOFT STEAMED CHOCOCA 20,000 TOTAL 40,000 CASH CHANGE 60,000 AMT",
+  "ocr_rules_total": "000",
+  "ocr_rows": [
+    {
+      "nm": "“2 IMD] SOFT STEAMED CHEESED",
+      "cnt": null,
+      "price": "20,000"
+    },
+    {
+      "nm": "[MD] SOFT STEAMED CHOCCCA",
+      "cnt": "2",
+      "price": "20,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "[MD] SOFT STEAMED CHOCOCA",
+      "cnt": "2",
+      "price": "20,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL ,000"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 40,000"
+  },
+  "layout_rows": [
+    {
+      "nm": "IMD] SOFT STEAMED CHEESED",
+      "cnt": "“2",
+      "price": "20,000"
+    },
+    {
+      "nm": "[MD] SOFT STEAMED CHOCCCA",
+      "cnt": "2",
+      "price": "20,000"
+    },
+    {
+      "price": "100,009"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PMPI SOFT STEMED CHEESE",
+      "cnt": "2",
+      "price": "28:00"
+    },
+    {
+      "nm": "[MD] SOFT STEAMED CHOCOCA",
+      "cnt": "2",
+      "price": "20,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "[MD] SOFT STEAMED CHEESEC",
+        "cnt": "2",
+        "price": "20,000"
+      },
+      {
+        "nm": "[MD] SOFT STEAMED CHOCOCA",
+        "cnt": "2",
+        "price": "20,000"
+      }
+    ],
+    "total": {
+      "total_price": "40,000",
+      "cashprice": "100,000",
+      "changeprice": "60,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> [MD] SOFT STEAMED CHEESEC</s_nm><s_cnt> 2</s_cnt><s_price> 20,000</s_price><sep/><s_nm> [MD] SOFT STEAMED CHOCOCA</s_nm><s_cnt> 2</s_cnt><s_price> 20,000</s_price></s_menu><s_total><s_total_price> 40,000</s_total_price><s_cashprice> 100,000</s_cashprice><s_changeprice> 60,000</s_changeprice></s_total></s>"
+}

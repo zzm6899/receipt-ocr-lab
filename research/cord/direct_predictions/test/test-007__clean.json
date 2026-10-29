@@ -1,0 +1,82 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-007",
+  "variant": "clean",
+  "source_split": "test",
+  "sha256": "7ab5ad83fe19b28d7b117b855cdec14ca7a60ccd452920c40c2e9bdc37e04610",
+  "elapsed_seconds": 2.135,
+  "detected_words": 31,
+  "detected_lines": 11,
+  "ocr_text": "SDD CHICKEN Bay e000 subtotal PRE Oy) es i [. oo 10,091 Total io 2 igs ee eee Gash §: eee oe ee ge oo. Rea ae nee ee ee ee",
+  "trocr_words": "ADD CHICKEN BOX @ 1.00 SUBTOTAL PB1 (10%) (RM) 1,00 TOTAL 100 AMOUNT INCLUSIVE CASH NO. : 006 REG RPN RPN 11,000 CASH AILS #: 00- REG #: CASHIER ONCLUSIVE ONCLUSIVE ONCLUSIVE WITH RECEIPT FORTAIN FACEBOOK CASHIER INCLUSIVE ONCLUSIVE WITH RECEIPT FOR ALL BEIPT FOR",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "i [. oo",
+      "cnt": null,
+      "price": "10,091"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "ADD CHICKEN BOX @",
+      "cnt": null,
+      "price": "1.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total io igs Rea ae nee ee"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 100"
+  },
+  "layout_rows": [
+    {
+      "nm": "SDD CHICKEN Bay",
+      "price": "e000"
+    },
+    {
+      "nm": "PRE Oy)",
+      "price": "es"
+    },
+    {
+      "cnt": "i",
+      "price": "10,091",
+      "unitprice": "[."
+    },
+    {
+      "cnt": "§:"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "ADD CHICKEN BOX @",
+      "price": "1.00"
+    },
+    {
+      "nm": "REG",
+      "price": "11,000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Kupon 15",
+        "price": "100,000"
+      },
+      {
+        "nm": "ADD CHICKEN BOX",
+        "price": "909"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "100,909",
+      "tax_price": "10,091"
+    },
+    "total": {
+      "total_price": "111,000",
+      "cashprice": "Rp. 111,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kupon 15</s_nm><s_price> 100,000</s_price><sep/><s_nm> ADD CHICKEN BOX</s_nm><s_price> 909</s_price></s_menu><s_sub_total><s_subtotal_price> 100,909</s_subtotal_price><s_tax_price> 10,091</s_tax_price></s_sub_total><s_total><s_total_price> 111,000</s_total_price><s_cashprice> Rp. 111,000</s_cashprice></s_total></s>"
+}

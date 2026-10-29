@@ -1,0 +1,94 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-055",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "be9fc269b368d0a3ae0a147ecae422c968f40d13de022e0433bf2c0897428454",
+  "elapsed_seconds": 1.932,
+  "detected_words": 48,
+  "detected_lines": 14,
+  "ocr_text": "i a } -~ canes, fe beet ‘ bs aheocagee arr Ca + B Hbtbotetetetepeetedeeie® 000‘ 74 ays i o007S OL 000‘ ze INV 3S33HO TWAOY Z ce. SOOKE a cS VAIN NORA ie Sibbbed 4 ‘ thes pa ' t peviiniailie: ii ti Ss ia GaSe ie.",
+  "trocr_words": "*** ITEM *** CASHIER 0.00 TOTAL 5,00 000.23 INCL IS33HO THAOH Z GOOD, 22 ALLSHE NOWWNIC BLABW ! *** \" ITEM TOTAL: SR: : :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL 5,00 TOTAL: SR:"
+  },
+  "layout_rows": [
+    {
+      "cnt": "i",
+      "price": "} -~ canes,",
+      "unitprice": "a"
+    },
+    {
+      "nm": "beet",
+      "cnt": "fe",
+      "price": "‘ bs aheocagee"
+    },
+    {
+      "cnt": "arr",
+      "price": "+",
+      "unitprice": "Ca"
+    },
+    {
+      "nm": "Hbtbotetetetepeetedeeie®",
+      "cnt": "B"
+    },
+    {
+      "price": "ays i",
+      "unitprice": "000‘ 74"
+    },
+    {
+      "price": "OL",
+      "unitprice": "o007S"
+    },
+    {
+      "cnt": "000‘ ze",
+      "price": "TWAOY Z ce.",
+      "unitprice": "INV 3S33HO"
+    },
+    {
+      "nm": "SOOKE",
+      "cnt": "a cS",
+      "price": "ie",
+      "unitprice": "VAIN NORA"
+    },
+    {
+      "cnt": "4",
+      "price": "pa"
+    },
+    {
+      "cnt": "'"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "INCL",
+      "cnt": "Z",
+      "price": "THAOH",
+      "unitprice": "IS33HO"
+    },
+    {
+      "nm": "GOOD, ALLSHE NOWWNIC",
+      "cnt": "22"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'7S DARKET",
+      "num": "000'7S",
+      "price": {
+        "nm": "000'7S",
+        "num": "000'73"
+      }
+    },
+    {
+      "nm": "SUSPE NOWANDICE",
+      "cnt": "1",
+      "price": "1"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'7S DARKET</s_nm><s_num> 000'7S</s_num><s_price> PAPPLE<sep/><s_nm> 000'7S</s_nm><s_num> 000'73</s_num><s_price> PAPP CREAMCE GOOD 2</s_num><s_price> 000'27</s_price><sep/><s_nm> SUSPE NOWANDICE</s_nm><s_cnt> 1</s_cnt><s_price> 1</s_price></s_total></s>"
+}

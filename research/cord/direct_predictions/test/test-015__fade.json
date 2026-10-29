@@ -1,0 +1,111 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-015",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "0069d6b3c8fbe53d4e809a55575ab935b9060f3a5783583bda73889d286adac0",
+  "elapsed_seconds": 1.735,
+  "detected_words": 42,
+  "detected_lines": 17,
+  "ocr_text": ") f ‘ \\ ‘ ee ae ha ‘ = BS mannan ia ASS Ree are i we >> | ‘conan hl re pe | reeemon dea) = 85000 | eee | a0s000' 4 ! 8 000 : 2) Anh TAL 9,",
+  "trocr_words": ": E WWW. ITEMS FOR FULL : : 1 : WWW.WW. - ITEM ................................................ 1 CAMAN TEA (L) AMEL SMALL COME AGAIN OR 000 MAIL : 38.000 62 000 TAL 0",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "MAIL",
+      "cnt": null,
+      "price": "38.000"
+    }
+  ],
+  "layout_fields": {
+    "total": ":"
+  },
+  "cascade_fields": {
+    "total": "62 000 TAL 0"
+  },
+  "layout_rows": [
+    {
+      "cnt": ")"
+    },
+    {
+      "price": "f"
+    },
+    {
+      "cnt": "‘"
+    },
+    {
+      "nm": "mannan",
+      "cnt": "ia"
+    },
+    {
+      "nm": "Ree",
+      "cnt": "i"
+    },
+    {
+      "nm": "‘conan",
+      "price": "re",
+      "unitprice": "hl"
+    },
+    {
+      "nm": "pe"
+    },
+    {
+      "nm": "reeemon dea)",
+      "price": "85000"
+    },
+    {
+      "nm": "eee",
+      "cnt": "|",
+      "price": "a0s000'"
+    },
+    {
+      "cnt": "!",
+      "price": "000"
+    },
+    {
+      "price": "Anh"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "E"
+    },
+    {
+      "price": ":"
+    },
+    {
+      "nm": "CAMAN TEA",
+      "cnt": "1",
+      "price": "(L)"
+    },
+    {
+      "nm": "AMEL SMALL COME",
+      "price": "OR 000"
+    },
+    {
+      "nm": "MAIL",
+      "price": "38.000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Lemon Tea (L)",
+        "cnt": "1",
+        "price": "25.000"
+      },
+      {
+        "nm": "Caramel Small",
+        "cnt": "1",
+        "price": "38.000"
+      }
+    ],
+    "total": {
+      "total_price": "63.000",
+      "cashprice": "70.000",
+      "changeprice": "7.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Lemon Tea (L)</s_nm><s_cnt> 1</s_cnt><s_price> 25.000</s_price><sep/><s_nm> Caramel Small</s_nm><s_cnt> 1</s_cnt><s_price> 38.000</s_price></s_menu><s_total><s_total_price> 63.000</s_total_price><s_cashprice> 70.000</s_cashprice><s_changeprice> 7.000</s_changeprice></s_total></s>"
+}

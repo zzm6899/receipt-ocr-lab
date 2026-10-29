@@ -1,0 +1,97 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-064",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "8c6d44ad9bbd35054fa33bdaf010959270899dd07e728cc4190e8ba8048b0650",
+  "elapsed_seconds": 1.712,
+  "detected_words": 57,
+  "detected_lines": 16,
+  "ocr_text": "1 & ibe a ray a . '¥ : L] ry J at ie hy ifs ceo aT bite HE ecm ATEN mi) (i SS ith - WwW Ww, LARD Bg %, j CHANGE 00; | LA } ve hw) . . ‘a 2 \\\\ ’ are a F ee : ¢ ’ he tisk é. ‘",
+  "trocr_words": "AMOUNT INCLUSIVE - - ITEM AC TAX SR: JLL JLUDI NEW TOTAL 1.50 JUIHL 10.98 PATEND NO.000 ATED 50.000 CHANGE 34.000 LMMOE J.00 ITEM WW WWW. :",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "JUIHL",
+      "cnt": null,
+      "price": "10.98"
+    },
+    {
+      "nm": "ATED",
+      "cnt": null,
+      "price": "50.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "’ he"
+  },
+  "cascade_fields": {
+    "total": "TOTAL 1.50 JUIHL 10.98"
+  },
+  "layout_rows": [
+    {
+      "cnt": "1",
+      "price": "&"
+    },
+    {
+      "price": "ibe a"
+    },
+    {
+      "cnt": "at",
+      "price": "hy",
+      "unitprice": "ie"
+    },
+    {
+      "cnt": "ifs",
+      "price": "aT",
+      "unitprice": "ceo"
+    },
+    {
+      "cnt": "bite HE",
+      "unitprice": "ecm"
+    },
+    {
+      "cnt": "ATEN",
+      "price": "(i",
+      "unitprice": "mi)"
+    },
+    {
+      "cnt": "ith - WwW j",
+      "price": "Bg",
+      "unitprice": "Ww,"
+    },
+    {
+      "price": "|",
+      "unitprice": "00;"
+    },
+    {
+      "cnt": "}",
+      "price": "hw)",
+      "unitprice": "ve"
+    },
+    {
+      "cnt": "2"
+    },
+    {
+      "cnt": "¢"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "JLL JLUDI NEW"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "SINGLE SCOOP",
+      "price": "16.000"
+    },
+    "total": {
+      "total_price": "16.000",
+      "cashprice": "50.000",
+      "changeprice": "34.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> SINGLE SCOOP</s_nm><s_price> 16.000</s_price></s_menu><s_total><s_total_price> 16.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 34.000</s_changeprice></s_total></s>"
+}

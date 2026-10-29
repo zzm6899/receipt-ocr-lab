@@ -1,0 +1,246 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-099",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "1e4d8bb67e444310212e6b9a22c61dd8811d519e220df15bd1e5bd53a39a86b5",
+  "elapsed_seconds": 3.538,
+  "detected_words": 139,
+  "detected_lines": 36,
+  "ocr_text": "; wo N fle ak gti PH gpa % a Lae oi “ah, \\ i, a. , es a. Primal 7 ae | ae ee ied a g Bom \\% ee” — \\ ‘ re A | me : ee. 1 FLxmas 20 of 68,180 f £ ‘ fog SLICES 0 \" ey, » FL Cake - Fi | s Pa é VanilaSLC | ie ; eal ae 1 PAKET SLICES 0 e 1 »FL Cake -Green 0 , a ie \\ m 1 PAKET SLICES 0 ‘ 1 FL Cake = Belgium 0 ig Choco SLC | a * \\ ' SUBTOTAL 68,180 DISKON \\ 0 ae BIAYA TAMBAHAN 0 “ee PAJAKPPN10% 6,818 PAJAK 0% \\ 0 BIAYA CC \\ 0 PEMBULATAN y.2 joralSSSSC« OO TUNA! a NON TUNA! 78,000 KEMBALI \\q sat = \\ ay es i",
+  "trocr_words": "LAM AMOUNT . 1 - 1 IT ITEMS SALES - ITEM AM (8) 1 PKETSES B 1 FLOARA FERN O VANIA'SIA CHANGE FORCH 0 1 PAKET SUICES 0 PLEASE 1 OFLCATE GREEN 0 TOTAL: TRANSIC: PM 0 PM 1 PAKET SUCCES 0 1 FLCAKE BELGIUM 0 CHOCO SLC - BELGIUM - SUBTOTAL 68.180 DISKON 0 BIAYA TAMBAHAN 00 PAJAK PPN 10% 6,818 PAJAK 0% BIAYA CC PEMBULATAN 2 TOTAL 75,000 TUNAI NON TUNAI 75,000 KEMBALI - / -",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "ee. 1 FLxmas 20 of",
+      "cnt": null,
+      "price": "68,180"
+    },
+    {
+      "nm": "PAJAKPPN10%",
+      "cnt": null,
+      "price": "6,818"
+    },
+    {
+      "nm": "NON TUNA!",
+      "cnt": null,
+      "price": "78,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "PAJAK PPN 10%",
+      "cnt": null,
+      "price": "6,818"
+    },
+    {
+      "nm": "NON TUNAI",
+      "cnt": null,
+      "price": "75,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "\\ ay"
+  },
+  "cascade_fields": {
+    "total": "LAM TOTAL 75,000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "; wo N",
+      "price": "fle"
+    },
+    {
+      "cnt": "gti gpa",
+      "price": "PH"
+    },
+    {
+      "cnt": "a",
+      "price": "oi “ah,"
+    },
+    {
+      "cnt": "i, ,",
+      "price": "es"
+    },
+    {
+      "cnt": "7 ae |"
+    },
+    {
+      "cnt": "\\%",
+      "price": "ee”"
+    },
+    {
+      "cnt": "— \\"
+    },
+    {
+      "cnt": "re A |",
+      "price": "me"
+    },
+    {
+      "nm": "FLxmas",
+      "cnt": "ee. 1",
+      "price": "68,180 f",
+      "unitprice": "20 of"
+    },
+    {
+      "cnt": "£ ‘",
+      "price": "0 \""
+    },
+    {
+      "cnt": "ey,"
+    },
+    {
+      "cnt": "Pa |",
+      "price": "; eal"
+    },
+    {
+      "cnt": "ae 1",
+      "price": "0"
+    },
+    {
+      "nm": "»FL Cake",
+      "cnt": "e 1",
+      "price": "0"
+    },
+    {
+      "price": "m"
+    },
+    {
+      "cnt": "1",
+      "price": "0"
+    },
+    {
+      "nm": "FL Cake",
+      "cnt": "1 =",
+      "price": "0 ig"
+    },
+    {
+      "cnt": "|",
+      "price": "a"
+    },
+    {
+      "cnt": "* \\ '"
+    },
+    {
+      "cnt": "\\",
+      "price": "0 ae"
+    },
+    {
+      "nm": "BIAYA TAMBAHAN",
+      "price": "0 “ee"
+    },
+    {
+      "price": "6,818"
+    },
+    {
+      "nm": "PAJAK",
+      "cnt": "\\",
+      "price": "0"
+    },
+    {
+      "nm": "BIAYA",
+      "cnt": "\\",
+      "price": "0"
+    },
+    {
+      "nm": "PEMBULATAN",
+      "price": "y.2"
+    },
+    {
+      "nm": "joralSSSSC«",
+      "price": "OO"
+    },
+    {
+      "nm": "TUNA!",
+      "price": "a"
+    },
+    {
+      "nm": "NON TUNA!",
+      "price": "78,000"
+    },
+    {
+      "price": "\\q"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "nm": "FLOARA",
+      "cnt": "1"
+    },
+    {
+      "nm": "VANIA'SIA"
+    },
+    {
+      "price": "GREEN"
+    },
+    {
+      "nm": "PAKET",
+      "cnt": "1"
+    },
+    {
+      "nm": "FLCAKE"
+    },
+    {
+      "price": "6,818"
+    },
+    {
+      "price": "75,000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "FL-Xmas 30 Off",
+      "cnt": "1",
+      "price": "68,180",
+      "sub": [
+        {
+          "nm": "PAKET SLICES",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "FL Cake - French Vanilla SLC",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "PAKET SLICES",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "FL Cake - Green",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "PAKET SLICES",
+          "cnt": "1",
+          "price": "0"
+        },
+        {
+          "nm": "FL Cake - Belgium",
+          "cnt": "1",
+          "price": "0"
+        }
+      ]
+    },
+    "sub_total": {
+      "subtotal_price": "75,000",
+      "discount_price": "0",
+      "tax_price": "0",
+      "nm": "IBAYA CC",
+      "price": "0"
+    },
+    "total": {
+      "total_price": "75,000",
+      "cashprice": "75,000",
+      "changeprice": "0",
+      "creditcardprice": "75,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> FL-Xmas 30 Off</s_nm><s_cnt> 1</s_cnt><s_price> 68,180</s_price><s_sub><s_nm> PAKET SLICES</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> FL Cake - French Vanilla SLC</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> PAKET SLICES</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> FL Cake - Green</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> PAKET SLICES</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price><sep/><s_nm> FL Cake - Belgium</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price></s_sub></s_menu><s_sub_total><s_subtotal_price> 68,180</s_subtotal_price><s_discount_price> 0</s_discount_price><s_tax_price> 6,818</s_tax_price><s_etc> 0<sep/> 0<sep/> 0<sep/> 0<sep/> 0<sep/> 0<sep/> 0<sep/><s_nm> IBAYA CC</s_nm><s_price> 0</s_price></s_sub></s_menu><s_sub_total><s_subtotal_price> 75,000</s_subtotal_price><s_tax_price> 0</s_tax_price></s_sub_total><s_total><s_total_price> 75,000</s_total_price><s_cashprice> 75,000</s_cashprice><s_changeprice> 0</s_changeprice><s_creditcardprice> 75,000</s_creditcardprice></s_total></s>"
+}

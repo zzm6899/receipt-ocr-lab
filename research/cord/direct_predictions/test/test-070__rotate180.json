@@ -1,0 +1,246 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-070",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "aeb1efac133596a5815b8b34cb990bbfa73bcb4f1cbb0c05c486203bceed474f",
+  "elapsed_seconds": 6.946,
+  "detected_words": 154,
+  "detected_lines": 33,
+  "ocr_text": ": 5 3G Bes e9o°T nd ace ‘Zvt WOT XBL oBs 08 BOYVHO SILAS o00f See tT Wioidns - i 000\" 02 SUSHLO : 00009, . SHS0HSA3d ~ ooo'etz't qoo4 000°O4 000°O1 HILNd ISUN Z . oo0f09 «o00'ZT) YSL C301 § : : sak 39H 14= / : 000'FTT. ff SN3YO9 NOHIA 7 ree i SINGH WS - g00ff9T W LBTIIA awvune I SKWMIGIWX= — Z o00'Zzz OOOTTI] £ IVDOd Zz ; ==k39H0 14= o00fZZT d004¥9S Hi OdUS : =KWNICSWk= ; o00*BOT NUDN NOP YS WAY OT OE S=459UUTK= ZO o00'Zfy 000*9T2Z) Su oNvan z & ; . a 4 ‘ baa vmod etsiveieeeceeserstecoattiene ok eine Petchtanesf ier dtvn wees pate eek aes hyo a aaa : \\ ve ah Re : x aes : eX, a ‘ gk : & ea : +e we ee a es SS ie 7; ne \\ ie 3 \\ er i ges 8 ea ye oa ;",
+  "trocr_words": "*** BU 1,565,938 TAX 10% SERVICE CHARGABLE GOODS : SUMMOND TOTAL: OTHERS SUMMARY SHAHEN BEVERAGES : 609 000 FOOD ID: 006 7 NASI PUTI HILNA ISAN Z G IS DECED TEI ABI QI DECI G *** T BIKE 00019TI PC 9NEHOS NAHIS T ASAM WR: SINAW WASH 1 GUARANT BALTI AWARNA I =*WAID3W*= Z Z PDGAI 3 III 3 IV30Z **LARGE** SAPO TH SEAHAG H1 0GVS *** 1 1 AXM GR JUN NNN NNN BOO,000 =*39W7*= Z Z WDANG RE ZI9,00 432,000 ITEM TOTAL SR: ................................ SRN SR-8590 WWW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K *** WWWWWWWWWWWWWWWWWW. CASHIER NO. : ITEM OVER ***",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "BU",
+      "cnt": null,
+      "price": "1,565,938"
+    },
+    {
+      "nm": "Z WDANG RE ZI9,00",
+      "cnt": null,
+      "price": "432,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "ve ah ie ne"
+  },
+  "cascade_fields": {
+    "total": "*** BU 1,565,938 NO. :"
+  },
+  "layout_rows": [
+    {
+      "cnt": ": 5",
+      "unitprice": "3G"
+    },
+    {
+      "price": "nd",
+      "unitprice": "Bes e9o°T"
+    },
+    {
+      "price": "XBL",
+      "unitprice": "ace"
+    },
+    {
+      "price": "SILAS",
+      "unitprice": "oBs 08 BOYVHO"
+    },
+    {
+      "cnt": "tT",
+      "price": "Wioidns",
+      "unitprice": "o00f See"
+    },
+    {
+      "cnt": "i 02",
+      "price": "SUSHLO",
+      "unitprice": "000\""
+    },
+    {
+      "cnt": ": .",
+      "unitprice": "00009,"
+    },
+    {
+      "cnt": "~",
+      "price": "qoo4"
+    },
+    {
+      "price": "ISUN Z",
+      "unitprice": "000°O4 000°O1 HILNd"
+    },
+    {
+      "cnt": ".",
+      "price": "C301 §",
+      "unitprice": "oo0f09 «o00'ZT) YSL"
+    },
+    {
+      "cnt": ": :",
+      "price": "14=",
+      "unitprice": "sak 39H"
+    },
+    {
+      "cnt": ": ff",
+      "price": "NOHIA 7",
+      "unitprice": "000'FTT. SN3YO9"
+    },
+    {
+      "cnt": "i",
+      "price": "WS",
+      "unitprice": "SINGH"
+    },
+    {
+      "cnt": "- W I",
+      "price": "awvune",
+      "unitprice": "g00ff9T LBTIIA"
+    },
+    {
+      "price": "— Z"
+    },
+    {
+      "cnt": "£",
+      "price": "IVDOd Zz",
+      "unitprice": "o00'Zzz OOOTTI]"
+    },
+    {
+      "cnt": ";"
+    },
+    {
+      "cnt": "Hi",
+      "price": "OdUS",
+      "unitprice": "o00fZZT d004¥9S"
+    },
+    {
+      "cnt": ":"
+    },
+    {
+      "cnt": "YS",
+      "price": "WAY OT",
+      "unitprice": "o00*BOT NUDN NOP"
+    },
+    {
+      "price": "ZO"
+    },
+    {
+      "price": "Su oNvan z",
+      "unitprice": "o00'Zfy 000*9T2Z)"
+    },
+    {
+      "cnt": ".",
+      "price": "a"
+    },
+    {
+      "cnt": "4",
+      "price": "baa"
+    },
+    {
+      "nm": "vmod etsiveieeeceeserstecoattiene eine Petchtanesf",
+      "cnt": "ok ier dtvn",
+      "price": "pate aes",
+      "unitprice": "wees"
+    },
+    {
+      "price": "hyo"
+    },
+    {
+      "cnt": "x",
+      "price": "aes"
+    },
+    {
+      "cnt": "eX,",
+      "price": "gk"
+    },
+    {
+      "price": "we"
+    },
+    {
+      "price": "oa"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "GOODS"
+    },
+    {
+      "nm": "BEVERAGES",
+      "cnt": ":",
+      "price": "000",
+      "unitprice": "609"
+    },
+    {
+      "price": "006"
+    },
+    {
+      "nm": "NASI PUTI",
+      "cnt": "7",
+      "price": "ISAN Z",
+      "unitprice": "HILNA"
+    },
+    {
+      "nm": "IS DECED",
+      "cnt": "G",
+      "price": "DECI G",
+      "unitprice": "TEI ABI QI"
+    },
+    {
+      "cnt": "T",
+      "price": "NAHIS T",
+      "unitprice": "PC 9NEHOS"
+    },
+    {
+      "nm": "GUARANT",
+      "cnt": "1",
+      "price": "AWARNA I",
+      "unitprice": "BALTI"
+    },
+    {
+      "nm": "PDGAI",
+      "cnt": "Z 3",
+      "price": "IV30Z",
+      "unitprice": "III 3"
+    },
+    {
+      "cnt": "TH H1",
+      "price": "0GVS",
+      "unitprice": "SEAHAG"
+    },
+    {
+      "nm": "AXM",
+      "cnt": "1 1",
+      "price": "BOO,000",
+      "unitprice": "GR JUN NNN NNN"
+    },
+    {
+      "nm": "WDANG",
+      "cnt": "Z",
+      "price": "432,000",
+      "unitprice": "RE ZI9,00"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "826'S9S'I no",
+      "price": "CRISISED"
+    },
+    {
+      "nm": "000'202'I",
+      "num": "TELEPICTRY<s_num> 000'02",
+      "price": "SHEHLO"
+    },
+    {
+      "nm": {
+        "price": "BEBREAKED"
+      },
+      "num": "000'02",
+      "unitprice": "000'01",
+      "cnt": "HIVAL",
+      "price": "ISUN L"
+    },
+    {
+      "nm": {
+        "unitprice": "000'27"
+      },
+      "num": "=*3989*==<s_num> 000'227"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 826'S9S'I no</s_nm><s_num> 899'ZTI</s_nm><s_num> KOI xen<s_num> 089'08</s_num><s_price> CRISISED</s_price><sep/><s_nm> 000'202'I</s_nm><s_num> TELEPICTRY<s_num> 000'02</s_num><s_price> SHEHLO</s_price><sep/><s_nm> 000'09</s_num><s_price> BEBREAKED</s_price><sep/><s_nm> 000'2TZ'I</s_nm><s_num> 000'02</s_num><s_unitprice> 000'01</s_unitprice><s_cnt> HIVAL</s_cnt><s_price> ISUN L</s_price><sep/><s_nm> 000'09</s_num><s_unitprice> 000'27</s_unitprice><s_cnt> BEL DECI</s_nm><s_num> =***學校ケーキ<s_num> 000'911</s_num><s_price> NCHIB</s_nm><s_num> SINWW WASH</s_nm><s_num> 000'291</s_num><s_price> W LEFTEE CAWANG</s_nm><s_num> =*WANDICK*=</s_nm><s_num> 000'222</s_num><s_price> 000'ITEI</s_nm><s_num> =***3989*==</s_nm><s_num> 000'721</s_num><s_price> HASPEN =*WANDICK*==</s_nm><s_num> 000'801</s_num><s_price> NHD 90 WAS</s_nm><s_num> =*3989*==<s_num> 000'227</s_num><s_price> 000'912</s_num><s_price> 38 SNYON</s_changeprice></s_total></s>"
+}

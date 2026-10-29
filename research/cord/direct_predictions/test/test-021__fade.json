@@ -1,0 +1,156 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-021",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "96922a22fd5353ec24a083de4c7cd809df1ce5bef5dde30cc244578e8707ecc7",
+  "elapsed_seconds": 6.859,
+  "detected_words": 147,
+  "detected_lines": 25,
+  "ocr_text": "CS ig ee oe Ra ok tO La eC POE SD ee Aaa eS NE ag iy £0 Oe SG kOe CL alas Hyg REE ee ER af gh ies et ALB OR aE ITER, COG oe Wi Fee Pe Sarg 2 a +e oaeed Et F ae oe <a 3 2 i ne po vie. a ae eRe be ee ee + Te” ete bby aap t,t: Pat ae sok aE eat SS ee ee et 1) 35.000 Rp35. 000 = one NAST GOR SFD TLR RR Re3. 000 — 4 ES TEH TAWAR Sane eee Ae or = as -— 4 01 Re3s. 000 Se tee CASH Re50.000 fee So ees Pap eee See ee CHANGE Rete. 000 eae a —- Fass us te eee a. cere ah — Ree ae eee ia | ee ae iF oe v VU OTOWWWE sri te are .",
+  "trocr_words": "THANK YOU FOR A FREE WWW.WWWW.WW.WW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K. THANK ITEMS THANK - .... ITEMS AMOUNT AM 11 35.00 REG.00 NASI GOR SFD TLR 1 3.000 R:3.000 ES TEH TAMAR SR: : **#* CASH REG: REG:000 SR:55-03 COUNGE R02.00 CHANGE RE12.00 ITEM AMOUNT(RM) SR: CASHIER WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "et 1)",
+      "cnt": null,
+      "price": "35.000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "11",
+      "cnt": null,
+      "price": "35.00"
+    },
+    {
+      "nm": "1",
+      "cnt": null,
+      "price": "3.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "Fass us te ae"
+  },
+  "cascade_fields": {
+    "total": "THANK YOU FOR A FREE AMOUNT(RM)"
+  },
+  "layout_rows": [
+    {
+      "nm": "ok",
+      "cnt": "ee oe",
+      "price": "Ra La eC"
+    },
+    {
+      "nm": "SG",
+      "cnt": "ee Aaa eS ag iy £0",
+      "price": "CL Hyg",
+      "unitprice": "Oe"
+    },
+    {
+      "cnt": "af gh ies",
+      "price": "COG",
+      "unitprice": "OR"
+    },
+    {
+      "cnt": "Wi",
+      "price": "Pe"
+    },
+    {
+      "cnt": "a 3",
+      "price": "Et"
+    },
+    {
+      "cnt": "2"
+    },
+    {
+      "cnt": "vie.",
+      "price": "eRe"
+    },
+    {
+      "cnt": "ee bby",
+      "price": "ete t,t:"
+    },
+    {
+      "cnt": "ae",
+      "price": "sok aE eat"
+    },
+    {
+      "cnt": "1)",
+      "price": "Rp35. 000 =",
+      "unitprice": "35.000"
+    },
+    {
+      "nm": "NAST GOR SFD TLR",
+      "cnt": "one"
+    },
+    {
+      "price": "Re3. 000"
+    },
+    {
+      "nm": "ES TEH TAWAR",
+      "cnt": "4"
+    },
+    {
+      "cnt": "as"
+    },
+    {
+      "cnt": "4",
+      "price": "000 Se",
+      "unitprice": "01"
+    },
+    {
+      "price": "Re50.000 fee",
+      "unitprice": "CASH"
+    },
+    {
+      "cnt": "ees"
+    },
+    {
+      "nm": "CHANGE",
+      "cnt": "ee",
+      "price": "Rete. 000 eae"
+    },
+    {
+      "cnt": "a."
+    },
+    {
+      "nm": "OTOWWWE",
+      "cnt": "v"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "NASI"
+    },
+    {
+      "cnt": "1",
+      "unitprice": "3.000 R:3.000"
+    },
+    {
+      "nm": "ES TEH TAMAR"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "NASI GOR SFD TLR",
+        "unitprice": "35.000",
+        "cnt": "1",
+        "price": "Rp 35.000"
+      },
+      {
+        "nm": "ES TEH TAWAR",
+        "unitprice": "3.000",
+        "cnt": "1",
+        "price": "Rp 3.000"
+      }
+    ],
+    "total": {
+      "total_price": "Rp 38.000",
+      "cashprice": "Rp 50.000",
+      "changeprice": "Rp 12.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> NASI GOR SFD TLR</s_nm><s_unitprice> 35.000</s_unitprice><s_cnt> 1</s_cnt><s_price> Rp 35.000</s_price><sep/><s_nm> ES TEH TAWAR</s_nm><s_unitprice> 3.000</s_unitprice><s_cnt> 1</s_cnt><s_price> Rp 3.000</s_price></s_menu><s_total><s_total_price> Rp 38.000</s_total_price><s_cashprice> Rp 50.000</s_cashprice><s_changeprice> Rp 12.000</s_changeprice></s_total></s>"
+}

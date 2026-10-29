@@ -1,0 +1,86 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-062",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "51c5245d515ee583c4da7e5f2b9d13db0d9b8b72211c692f2049a87a29ac71a4",
+  "elapsed_seconds": 1.327,
+  "detected_words": 28,
+  "detected_lines": 8,
+  "ocr_text": "| zs 2 es. —— = FX ave Ta re 000 1 Combo 2 mere SA : TOTAL 48. 000 CASH 60.000. CHANGED 2. 009 a * a",
+  "trocr_words": "L *** 1 XXI JAYA TEA (M) 18.000 1 COMBO 2 ........................ 30000 LAMOR TOTAL 48.000 CASH : 50.000 CHANGED @ 2.00 ITEM",
+  "ocr_rules_total": "000",
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "XXI JAYA TEA (M)",
+      "cnt": "1",
+      "price": "18.000"
+    },
+    {
+      "nm": "CHANGED @",
+      "cnt": null,
+      "price": "2.00"
+    }
+  ],
+  "layout_fields": {
+    "total": "TOTAL"
+  },
+  "cascade_fields": {
+    "total": "LAMOR TOTAL 48.000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "| zs 2",
+      "price": "es."
+    },
+    {
+      "nm": "——",
+      "price": "="
+    },
+    {
+      "nm": "FX ave Ta",
+      "price": "000"
+    },
+    {
+      "nm": "Combo",
+      "cnt": "1 2",
+      "price": "SA"
+    },
+    {
+      "price": "000"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "XXI JAYA TEA",
+      "cnt": "1 (M)",
+      "price": "18.000"
+    },
+    {
+      "nm": "COMBO",
+      "cnt": "1 2",
+      "price": "30000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "XXI Java Tea (M)",
+        "cnt": "1",
+        "price": "18.000"
+      },
+      {
+        "nm": "Combo 2",
+        "cnt": "1",
+        "price": "30.000"
+      }
+    ],
+    "total": {
+      "total_price": "48.000",
+      "cashprice": "50.000",
+      "changeprice": "2.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> XXI Java Tea (M)</s_nm><s_cnt> 1</s_cnt><s_price> 18.000</s_price><sep/><s_nm> Combo 2</s_nm><s_cnt> 1</s_cnt><s_price> 30.000</s_price></s_menu><s_total><s_total_price> 48.000</s_total_price><s_cashprice> 50.000</s_cashprice><s_changeprice> 2.000</s_changeprice></s_total></s>"
+}

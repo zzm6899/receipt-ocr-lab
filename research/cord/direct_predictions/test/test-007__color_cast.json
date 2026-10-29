@@ -1,0 +1,76 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-007",
+  "variant": "color_cast",
+  "source_split": "test",
+  "sha256": "e611ac6d47c0f0217f4dd5f62d7e1c7ef8eb271a7410a077c630a35389cf95d0",
+  "elapsed_seconds": 3.128,
+  "detected_words": 38,
+  "detected_lines": 13,
+  "ocr_text": "bea: 158, 000 ADO CHICKEN Boy DAS Subtotal = 406,989 PRL 0) m8: ae a a it oPt Bek oe oe Ce Lash OO ee oe a Se ee oe Ss rc Re ea tree BES OT oe",
+  "trocr_words": "KUPON 15,00 ADD CHICKEN BOX @6% SUBTOTAL @ 1,000,909 PB1 (107) (RM) 1004 REG #: 10,091 TOTAL AMOUNT @6% AMOUNT, INCLUSIVE AND BEAUTIVE WITH RECEIPT FOR ALLES ON ALLES ONCLUSIVE WITH REFUNDATE WITH REFUNDATE CASH NO. : RILL,000 TOTAL AMOUNT (RM) CASHIERIES ONCLUSIVE WITH RECEIPT AMOUNT CASHIER ONCLUSIVE ON FACEBOOK ***",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "KUPON",
+      "cnt": null,
+      "price": "15,00"
+    },
+    {
+      "nm": "1004 REG #",
+      "cnt": null,
+      "price": "10,091"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL AMOUNT AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "nm": "bea:",
+      "price": "158, 000"
+    },
+    {
+      "price": "DAS"
+    },
+    {
+      "cnt": "0)"
+    },
+    {
+      "cnt": "ae",
+      "price": "it",
+      "unitprice": "a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KUPON"
+    },
+    {
+      "nm": "1004"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Kupon 15",
+        "price": "100,000"
+      },
+      {
+        "nm": "ADD CHICKEN BOX",
+        "price": "909"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "100,909",
+      "tax_price": "10,091"
+    },
+    "total": {
+      "total_price": "111,000",
+      "cashprice": "Rp. 111,000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kupon 15</s_nm><s_price> 100,000</s_price><sep/><s_nm> ADD CHICKEN BOX</s_nm><s_price> 909</s_price></s_menu><s_sub_total><s_subtotal_price> 100,909</s_subtotal_price><s_tax_price> 10,091</s_tax_price></s_sub_total><s_total><s_total_price> 111,000</s_total_price><s_cashprice> Rp. 111,000</s_cashprice></s_total></s>"
+}

@@ -1,0 +1,237 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-043",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "4c32f0f2e92df988347bcc5b42b4c78663d002ef2f6b4a4aee441e6c1261f47a",
+  "elapsed_seconds": 15.049,
+  "detected_words": 449,
+  "detected_lines": 79,
+  "ocr_text": "\"er oe 1 - reat ‘| bi ir any} ADEE i « 4 ieee 3. 3 4 baal Ses ae ie ti ae 4 > y . “ ye is f ; . ? po iz y J y q ia pes s ft cae ‘ . ’ or . % 7 \\ & ‘4 ! ¥ ’ 1] = if ey . h fC ip Ch Wa) « y 3 c Talo IPESE — 8) pt 4 L 4 ed ee da ~ J vay (j 4 fF - 0A UI i i m if . PP Carrier i. ee Boe E 1, ‘i : u , eT ani ' P ‘ + 4 | bd i Subtota y ; a \"1 = Tre titel’ re - al ; at 4, In if () UJ | 5 Total Tax Included: , a 4 } ict Rn ifSN fe * * Riu } } Old). : [ot a ai Hain Cash: ) = i + 4 if} Woo te ‘ rv } miu wow A Customel ) + Change: setvomer UNanye £ Cus Oilic “tn bhai ™ B \" “ = N s d , - Pier - Moats , Wis eae f Oe, ee eae, / fp prt eo . ; 4 ; ; G21; LENS; HEY Wie Thy, Naa oy ave Ae Carden vs 4 ate OY DME RAL SY ILE WT HOY ie gil irk : Ro MME EY ACS EEL Late Ys Drees & 5: Li i AE TE EEA LEE EEE LLG fy Nae ai 7 i egy BEM MMM MY YA SAE PISO LE a ; We CEH GEA MSE ESS WT MI, Ape ities VAIS; y SOLE OMA OME Wied his ae neal ety tices ope ae MALL LED ELE EL. WO Mae Nak oy ke Le AE A MEO EL EE ETT UU SIG OH AG A VAMOS AE UE EE LEE OLED j OM eh eh ie VM Mui, y YYW) Vie Upped t ihe hes APU Bir teatiayise ‘e WIAA LOE LES POE OLE EEE paises ath ; ih ; / Ue DOD UAG HLA IDLE ETT Gh) oe, f VANS A AU A IML AA MLA AL OMY SEU had co Pd aad 1G) ABS BRUTY OLGA V EE AIL A PMR LE UII L ST, Gy Lay) 47 f PY VE THAD LOTR AWE LY a RL LW ay AA Lois? WY, EO: yi t Vo Nd Wiss PALLIAT Gs y Wie f iu, fe 7 Getty v, WEG Ae VAT US ONAL Of8 MSL MM GAMIOL AM LEE LOL ; te y, TUM EAL OL TE EEG GLE LM GR Ege pe Nad PO VOY *",
+  "trocr_words": "ITAMOUNT 1.50 PAYMENT TAKE AGAIN GST REGS COUNT (RM) WWW. PAYMENT *** ................ PLEASE ITEMS JOH 2 AMOUNT CASHIER AM AMOUNT ITEM 1 MY WESHD WWW WWW. CASH NAME:18 WWWWWWWWWWWWWWWWWWWWWWWW WWW. PLEASE 6 PCS CHEESE TART INVOICE 6 PCS CHEESE TART PCS CHEESE BOX OF 6 *** 1 PAINTMENT - RM OAPPLO PERRIER WWWWWWWWWWWWWWWWWWWW 1 ITEMS CALL IN PAYAM US SUBTOTAL: SR: 1 SUBTOTAL: CASHIER FALL TAX INCLUDED: @ RDISOM 00 1/1 AMOUNT TOTAL TAX INCLUDED: TOTAL TOTAL TAX INCLUDED: MPISJOO.00 INVOICE *** RP1650 TOTAL: TOTAL OTAL: : SR07 REG #: 06501 PASH: SUBE AGAIN LUMP PAID LABU CASHOMER PAID LOD CUSTOMER NETOMER CHANGE: CUSTOMER CHANGE: CUSTOMER WWW.COM AMOUNT: : : ITEM SR:03-11/02:03/4000000:03:03 *** SR: 1,000-1,000-1,000-1,8, JALANANANAN PERMASAN PERMASSA *** 12/03/2018, JALAN 7/2,KAWASANAN PERMASANAN BAHRU,KAWASAN *** *** *** *** SR: 1, JALANANAN PERMASANANANAN PERMASAN PERMAS SR: 1/2,8/2018, JALANANAN PERMASAN PERMASSABLE WWW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K *** *** *** *** WWW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K WWW.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K.K *** SR:00-17, JALAN BHDOR,KAWASAN PERMAS PERMAS ***",
+  "ocr_rules_total": "5",
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": ";"
+  },
+  "cascade_fields": {
+    "total": "TOTAL: TOTAL"
+  },
+  "layout_rows": [
+    {
+      "cnt": "1"
+    },
+    {
+      "cnt": "i « 4"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "4 >"
+    },
+    {
+      "cnt": "y . “"
+    },
+    {
+      "cnt": "ye",
+      "price": "is"
+    },
+    {
+      "price": "."
+    },
+    {
+      "cnt": "?"
+    },
+    {
+      "cnt": "po iz"
+    },
+    {
+      "cnt": "y"
+    },
+    {
+      "cnt": "y"
+    },
+    {
+      "cnt": "ia pes"
+    },
+    {
+      "cnt": "s"
+    },
+    {
+      "price": "’"
+    },
+    {
+      "cnt": "7",
+      "price": "\\"
+    },
+    {
+      "price": "!"
+    },
+    {
+      "cnt": "’ ="
+    },
+    {
+      "cnt": "fC « y 3",
+      "price": "c"
+    },
+    {
+      "cnt": "8) pt 4 L 4 ee da ~",
+      "price": "J"
+    },
+    {
+      "cnt": "(j 4 fF"
+    },
+    {
+      "cnt": "m"
+    },
+    {
+      "cnt": "E"
+    },
+    {
+      "cnt": "‘i"
+    },
+    {
+      "cnt": "u ,",
+      "price": "' P"
+    },
+    {
+      "cnt": "‘ 4 |",
+      "price": "bd"
+    },
+    {
+      "cnt": "y",
+      "price": ";"
+    },
+    {
+      "cnt": "a \"1",
+      "price": "re al"
+    },
+    {
+      "cnt": "at 4,",
+      "price": "|"
+    },
+    {
+      "price": ","
+    },
+    {
+      "cnt": "a 4",
+      "price": "}"
+    },
+    {
+      "price": "Rn"
+    },
+    {
+      "cnt": "fe * *",
+      "price": "Riu"
+    },
+    {
+      "price": ")"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "cnt": "rv }"
+    },
+    {
+      "cnt": "£"
+    },
+    {
+      "cnt": "™"
+    },
+    {
+      "cnt": "“"
+    },
+    {
+      "cnt": ","
+    },
+    {
+      "cnt": "/"
+    },
+    {
+      "cnt": "Thy, oy ave Ae",
+      "price": "vs 4 ate"
+    },
+    {
+      "cnt": "SY WT",
+      "price": "ie gil irk"
+    },
+    {
+      "cnt": "ACS"
+    },
+    {
+      "price": "Nae ai 7 i"
+    },
+    {
+      "cnt": "WT ities"
+    },
+    {
+      "price": "ae"
+    },
+    {
+      "price": "Mae"
+    },
+    {
+      "cnt": "UU SIG"
+    },
+    {
+      "cnt": "VM y t"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "2"
+    },
+    {
+      "cnt": "6 PCS"
+    },
+    {
+      "cnt": "6 PCS"
+    },
+    {
+      "cnt": "PCS"
+    },
+    {
+      "cnt": "SR:"
+    },
+    {
+      "nm": "JALAN",
+      "cnt": "12/03/2018,"
+    },
+    {
+      "nm": "JALANANAN PERMASANANANAN",
+      "cnt": "SR: 1,"
+    },
+    {
+      "nm": "JALANANAN",
+      "cnt": "SR: 1/2,8/2018,"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Cheese Tart",
+      "cnt": "6",
+      "price": "165000.00",
+      "sub": [
+        {
+          "nm": "Box of 6"
+        },
+        {
+          "nm": "PP Carrier"
+        }
+      ]
+    },
+    "sub_total": {
+      "subtotal_price": "Rp 165000.00",
+      "tax_price": "Rp 15000.00"
+    },
+    "total": {
+      "total_price": "Rp 165000.00",
+      "cashprice": "Rp 200000.00",
+      "changeprice": "Rp 35000.00"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Cheese Tart</s_nm><s_cnt> 6</s_cnt><s_price> 165000.00</s_price><s_sub><s_nm> Box of 6</s_nm><sep/><s_nm> PP Carrier</s_nm></s_sub></s_menu><s_sub_total><s_subtotal_price> Rp 165000.00</s_subtotal_price><s_tax_price> Rp 15000.00</s_tax_price></s_sub_total><s_total><s_total_price> Rp 165000.00</s_total_price><s_cashprice> Rp 200000.00</s_cashprice><s_changeprice> Rp 35000.00</s_changeprice></s_total></s>"
+}

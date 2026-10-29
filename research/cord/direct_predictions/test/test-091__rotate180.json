@@ -1,0 +1,81 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-091",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "e5c925317c8df224358e5f00e28c2ec4021113859905e60f8a0300eefcf692a0",
+  "elapsed_seconds": 1.225,
+  "detected_words": 27,
+  "detected_lines": 12,
+  "ocr_text": "Gh of “Bo9:8. 99 “Oe: hs¥o O00 ‘tz. a ‘90‘9- NVON3uOD ¢ G00\"S!. svaNG osyvE 1 were eu vite Ts aa oe hw vee : -- )",
+  "trocr_words": "CHANGE(S) 888 8: 4688 565-17. HSR 11.00 9 GOB'S: NVON3800 9 I BAKSO BNGNE OSXWE I ........ *** *** *** MY ******** WWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Gh Ts --"
+  },
+  "cascade_fields": {
+    "total": "***"
+  },
+  "layout_rows": [
+    {
+      "price": "99",
+      "unitprice": "“Bo9:8."
+    },
+    {
+      "cnt": "“Oe:",
+      "price": "hs¥o"
+    },
+    {
+      "price": "a",
+      "unitprice": "O00 ‘tz."
+    },
+    {
+      "price": "¢",
+      "unitprice": "‘90‘9-"
+    },
+    {
+      "nm": "G00\"S!. svaNG",
+      "cnt": "1",
+      "price": "osyvE"
+    },
+    {
+      "price": "eu"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "unitprice": "888"
+    },
+    {
+      "nm": "GOB'S:",
+      "cnt": "9",
+      "price": "9",
+      "unitprice": "NVON3800"
+    },
+    {
+      "nm": "BAKSO BNGNE",
+      "cnt": "I",
+      "price": "OSXWE I"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'6",
+        "price": "90"
+      },
+      {
+        "nm": "000'08"
+      },
+      {
+        "price": "9"
+      },
+      {
+        "price": "OSXVB 1"
+      }
+    ]
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'6</s_nm><s_price> 90</s_price><sep/><s_nm> 000'08</s_nm><s_price> HSVD</s_nm><s_price> 71</s_price><sep/><s_nm> 000'9.<s_price> 9</s_price><sep/><s_nm> 000'91.</s_num><s_price> OSXVB 1</s_price></s_menu></s_total></s>"
+}

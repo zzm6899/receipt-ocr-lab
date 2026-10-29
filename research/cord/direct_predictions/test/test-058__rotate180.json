@@ -1,0 +1,223 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-058",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "9b73f683070e935be652d20c2e2c0cfcd408ed33003e9f51fb412c8be368df40",
+  "elapsed_seconds": 7.379,
+  "detected_words": 270,
+  "detected_lines": 56,
+  "ocr_text": "¢ yet tance ee a a 4 ; ss ee f. . : ‘ ies. i } a g a 5] 2 a a a Ses -_ ous Ee a sa “s a On. acuaataal ia % 2c). t eee SS 0 BRI ei bs iS .~ opie na era _ i Best\" oa a er pe i ; etme sas a elle the. ar a a ‘ oe x: Ee ie in.\" Oe ie Hate a a eet nO: bie aes Rees iE: ee i é eM 5 i . a ee ee ee Oe re i a : ae See oS rr; Getler eee ; ene a Ae 5 ree as 1 Bo igcereate a eal q — i section\" x 1 at a = Z o fe i a4 rigs : ‘$ dO cs ; er Pu me ere yee oe ¥ 7 5 pas Bal oe aula Ts F d p : a ' ' , ¥ iy : =. z - ie ra ; ‘ as i =f ; on a if > eke “ o a a iy a an \" ’ i. 5. = . - ‘ {Liew Q . 3) : eet —¥ : : gest a : : : a etapa a as Bete A ae eee 1 ae ees fe ; ore 3 ; 4 lent y sie dace a ‘ i 3 = \"ea i ' e — : ance ya Sa Se . ee — 7 1 ———o | . \" ie 4 an Fi “TS Be > ol apis hig ays sik, ERE ee ee hy” at",
+  "trocr_words": ": TOTAL AMOUNT - ITEMS SOLD WITH WWW. WWW. CASHIER: - - - - - - CHANGE AND'S S SANG ADJAYG THANK YOU.COM. SR:00-000410 REG #: 0100-1203-8090 SR:0096'62 PMP AND USING PLEASE SUBJECT WITH RECEIPT FOR ALL BE AGAIN AMOUNT AMOUNT : INVOICE ON ALL THE RECEIPT FOR ALL TOTAL: TOTAL: 005,000 TOTAL AMOUNT NO. : 1.00 WWW.WWW.WWWWWWWWWW. TOTAL AMOUNT: DOC'S INFORMATION AMOUNT. 100 BARTAIN WITH RECEIPTOL ONE (RM) : 000'99 REG (RM) :1844 9/8 LAMPOI, JOHORASANANANANANANANANAN IT NO. 008 001-4-4-12-20 MASTERIA LESS (INCLUDING RECEIPT) PLEASE AMOUNTED WITH YOU ******** WWW.WW.WW. WWW.WW.WWWW.WW.W.MY WWW.WW. WWWWWWWWWWWWWWWWWWWWWW. AMOUNT NO. : ITEMS INCLUSIVE SR: 5AM-WAN PERM ITEM TOTAL AMOUNT CASHIER: CASHIER SR: WWW.WWWWWWWW.WWWWWW.WW.WW.MY. : THANK ITEM AMOUNT ITEM CASHIER CASHIER - CASHIER SALES AMOUNT CASHIER 1.75",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "¢ i : . ee"
+  },
+  "cascade_fields": {
+    "total": ": TOTAL TOTAL: 005,000 TOTAL AMOUNT:"
+  },
+  "layout_rows": [
+    {
+      "price": "tance"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "cnt": "a 4"
+    },
+    {
+      "price": "f."
+    },
+    {
+      "cnt": ". : ‘",
+      "price": "ies. i"
+    },
+    {
+      "cnt": "}"
+    },
+    {
+      "cnt": "a 5]"
+    },
+    {
+      "cnt": "a",
+      "price": "a Ses"
+    },
+    {
+      "cnt": "-_",
+      "price": "ous Ee sa"
+    },
+    {
+      "cnt": "“s a On.",
+      "price": "ia"
+    },
+    {
+      "cnt": "SS",
+      "price": "0 BRI ei"
+    },
+    {
+      "cnt": "bs iS .~",
+      "price": "na era _"
+    },
+    {
+      "cnt": "pe i ;",
+      "price": "etme"
+    },
+    {
+      "cnt": "a ‘",
+      "price": "oe"
+    },
+    {
+      "cnt": "x: Ee",
+      "price": "ie in.\""
+    },
+    {
+      "cnt": "nO:",
+      "price": "bie aes Rees iE:"
+    },
+    {
+      "cnt": "i",
+      "price": "é eM 5"
+    },
+    {
+      "cnt": ". ee",
+      "price": "ee ee"
+    },
+    {
+      "price": "i"
+    },
+    {
+      "cnt": ": ae oS",
+      "price": "rr;"
+    },
+    {
+      "cnt": "; a Ae 5 ree 1",
+      "price": "as igcereate"
+    },
+    {
+      "cnt": "q — i section\" x 1 at",
+      "price": "a"
+    },
+    {
+      "cnt": "fe i",
+      "price": "a4 rigs"
+    },
+    {
+      "cnt": ": ‘$ dO cs",
+      "price": "; er"
+    },
+    {
+      "cnt": "ere yee"
+    },
+    {
+      "cnt": "7 5 pas Bal oe",
+      "price": "Ts F"
+    },
+    {
+      "cnt": "d p : a",
+      "price": "' '"
+    },
+    {
+      "cnt": ", ¥ iy"
+    },
+    {
+      "cnt": "z -"
+    },
+    {
+      "cnt": "‘"
+    },
+    {
+      "cnt": "=f ; on a if >",
+      "price": "eke “"
+    },
+    {
+      "cnt": "o a iy a an \" ’ i. 5. ="
+    },
+    {
+      "cnt": "Q . 3)",
+      "price": ":"
+    },
+    {
+      "cnt": ": :",
+      "price": "gest"
+    },
+    {
+      "price": "ees"
+    },
+    {
+      "cnt": "3",
+      "price": "lent sie dace"
+    },
+    {
+      "cnt": "\"ea",
+      "price": "'"
+    },
+    {
+      "price": "e"
+    },
+    {
+      "price": "Se"
+    },
+    {
+      "price": "7"
+    },
+    {
+      "price": "ie"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "#:"
+    },
+    {
+      "cnt": "INVOICE"
+    },
+    {
+      "price": "100"
+    },
+    {
+      "nm": "BARTAIN",
+      "price": "ONE"
+    },
+    {
+      "cnt": "(RM) :",
+      "price": ":1844 9/8",
+      "unitprice": "000'99 REG (RM)"
+    },
+    {
+      "cnt": "NO. 008"
+    },
+    {
+      "nm": "MASTERIA"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "DOG'61",
+        "price": "a Bueyo"
+      },
+      {
+        "nm": "000'001",
+        "price": "Aed"
+      },
+      {
+        "nm": "GOG'09"
+      },
+      {
+        "nm": "000'SS",
+        "price": "GOS"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "QNS"
+    },
+    "total": {
+      "total_price": "HSVO",
+      "total_etc": "000'SS"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> DOG'61</s_nm><s_price> a Bueyo</s_price><sep/><s_nm> 000'001</s_nm><s_price> Aed</s_price><sep/><s_nm> GOG'09</s_nm><s_price> [11] слага COS'S</s_nm><s_price> raad</s_price><sep/><s_nm> 000'SS</s_nm><s_price> GOS</s_price></s_menu><s_sub_total><s_subtotal_price> QNS</s_subtotal_price></s_sub_total><s_total><s_total_price> HSVO</s_total_price><s_total_etc> 000'SS</s_total_etc></s_total></s>"
+}

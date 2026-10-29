@@ -1,0 +1,252 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-074",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "7686e00fca0004ad136bbd914d42979de8b303b261665801dc14933b5b703b16",
+  "elapsed_seconds": 7.571,
+  "detected_words": 241,
+  "detected_lines": 35,
+  "ocr_text": "we Ai aT GB liad Ta RY Ae oR a ee i ee [iq ie if : | ie f } 4 } ! \\\\9 A i A : id ; ; a Beare ie ae Aa ie \" ( 11 ae 1 jie PR en MW ah \\ ss Ree Oe AY PH CN te | | ee SOUR OAM TEA APRS tg Bia | i) iif ea Bey iy | bene Wt es ‘| i , | ey ; | Ve Mere TR Eu | BLACKCURRANT 32,000 | Hp vat) | SPRITE 32,000 | Bie Baye hed ee te et) 3 rs a + BEVERAGE 84,000 4 if vad | GRILLED CALAMARI 85,000 i yao 2 Fee Vu tan) as . \\ ‘ 7 eyed ij * DANISH FISH & CHIPSDF -- ay ; meta * NEW YORK FISH & CHIPS a. va} ail |) « FOOD 214,000 ati i al ala iy | SUBTTL 218 ,000 i | { Ay yee Me ee brome —_ noe OV oe ee gf ' Cha rge 22,240 i fn } Pe ppoeg) a ——— 4 TALE ¥, ee Oa a As i) eee Ei | 1) tT Read 1) th Waly Hit Va \\ We eat ti yy | NEGUS EET BPO eal | lbh DHE | a THA EY Pa | Cat A ha | (1) Te Wale Wo a a i Ht Wa Fee PA Ae ORS Pere) HB!",
+  "trocr_words": "*** INVOICE INCLUSIVE AND FROM US ONCLUSIVE ITEM:0000006000000000 INVOICE NO.00-12-1-1703-20 AMOUNT INVOICE OF US ON FACE INVOICE WWWWWWWWWW.WW. INVO CASH GIVEAWAY ON WWW. TIME TIME AMOUNT : MAKE AMOUNT 1 BLACKCURRENT 32,000 INVAN *BEVERAGE 64,000 MAN * BEVERAGE 64,000 UNLINE - DEVEDACE WIN NO: 1,811.50 JALAMARI 18:00 PM INVOICE NO 1 DICE ON 9 VEG 000 TOTAL: DAMISH FISH & CHIPS OF ~~ MAN RALIAN ** * NEW YORK FISH & CHIPS 24 000 MASCH * FOOD 24,000 SR: SRVICE 22,20 STATION ......................... INVOICE: 0100080000009000000 GST REG #:0000006000000000838818 UNVOICE INCLUSIVE WITHIN THE ORIGULAR WWW.WWWW.WWWWWW.WW.WWWW DETAILS INCLUSIONS AND FORM RECEIPT @6%** ITEM PERMISSION INTERNATIONAL INVOICE NO.00088801508080505020 CASHIER:000-WEST/SUBSTRAND SR IKE JANAN PERMAS MARINU PERIM",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "TR Eu | BLACKCURRANT",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "Hp vat) | SPRITE",
+      "cnt": null,
+      "price": "32,000"
+    },
+    {
+      "nm": "a + BEVERAGE",
+      "cnt": null,
+      "price": "84,000"
+    },
+    {
+      "nm": "if vad | GRILLED CALAMARI",
+      "cnt": null,
+      "price": "85,000"
+    },
+    {
+      "nm": "ail |) « FOOD",
+      "cnt": null,
+      "price": "214,000"
+    },
+    {
+      "nm": "yee Me ee brome —_ noe OV oe ee gf ' Cha rge",
+      "cnt": null,
+      "price": "22,240"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "INVAN *BEVERAGE",
+      "cnt": null,
+      "price": "64,000"
+    },
+    {
+      "nm": "MAN * BEVERAGE",
+      "cnt": null,
+      "price": "64,000"
+    },
+    {
+      "nm": "WIN NO",
+      "cnt": null,
+      "price": "1,811.50"
+    },
+    {
+      "nm": "FOOD",
+      "cnt": null,
+      "price": "24,000"
+    },
+    {
+      "nm": "SRVICE",
+      "cnt": null,
+      "price": "22,20"
+    }
+  ],
+  "layout_fields": {
+    "total": "A tT Ht"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "Ta Ae",
+      "cnt": "Ai aT liad oR a",
+      "price": "ee"
+    },
+    {
+      "nm": "ie",
+      "cnt": "[iq if | f } 4 } ! \\\\9 i",
+      "price": "A"
+    },
+    {
+      "cnt": "ie Aa ie \" ( 11",
+      "price": "jie"
+    },
+    {
+      "price": "MW ah"
+    },
+    {
+      "nm": "CN",
+      "cnt": "Oe AY te |",
+      "price": "| ee"
+    },
+    {
+      "cnt": "SOUR"
+    },
+    {
+      "cnt": "| i)"
+    },
+    {
+      "cnt": "|"
+    },
+    {
+      "cnt": "i",
+      "price": ","
+    },
+    {
+      "price": ";"
+    },
+    {
+      "nm": "Mere"
+    },
+    {
+      "nm": "BLACKCURRANT",
+      "cnt": "Eu |",
+      "price": "32,000"
+    },
+    {
+      "nm": "SPRITE",
+      "cnt": "Hp vat) |",
+      "price": "32,000"
+    },
+    {
+      "cnt": "3 rs"
+    },
+    {
+      "nm": "BEVERAGE",
+      "cnt": "a +",
+      "price": "84,000"
+    },
+    {
+      "nm": "GRILLED CALAMARI",
+      "cnt": "vad |",
+      "price": "85,000 i"
+    },
+    {
+      "price": "."
+    },
+    {
+      "nm": "DANISH FISH & CHIPSDF",
+      "cnt": "ij *",
+      "price": "-- ay"
+    },
+    {
+      "nm": "NEW YORK FISH & CHIPS",
+      "cnt": "*"
+    },
+    {
+      "nm": "FOOD",
+      "cnt": "|) «",
+      "price": "214,000 ati"
+    },
+    {
+      "nm": "SUBTTL",
+      "cnt": "i ala iy |",
+      "price": "218 ,000"
+    },
+    {
+      "nm": "' Cha rge",
+      "cnt": "noe OV oe ee gf",
+      "price": "22,240"
+    },
+    {
+      "cnt": "i) 1) 1)"
+    },
+    {
+      "cnt": "(1)"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "BLACKCURRENT",
+      "cnt": "1",
+      "unitprice": "32,000"
+    },
+    {
+      "nm": "INVAN *BEVERAGE",
+      "price": "64,000"
+    },
+    {
+      "nm": "BEVERAGE",
+      "price": "64,000"
+    },
+    {
+      "nm": "JALAMARI",
+      "cnt": "NO:",
+      "price": "18:00 PM",
+      "unitprice": "1,811.50"
+    },
+    {
+      "cnt": "INVOICE NO 1 DICE ON 9"
+    },
+    {
+      "nm": "DAMISH FISH & CHIPS",
+      "price": "OF ~~ MAN"
+    },
+    {
+      "nm": "RALIAN FISH & CHIPS",
+      "cnt": "** *",
+      "price": "24 000"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BLACKCURRANT",
+        "cnt": "1",
+        "price": "32,000"
+      },
+      {
+        "nm": "SPRITE",
+        "cnt": "1",
+        "price": "32,000"
+      },
+      {
+        "nm": "BEVERAGE",
+        "price": "64,000"
+      },
+      {
+        "nm": "GRILLED CALAMARI",
+        "cnt": "1",
+        "price": "85,000"
+      },
+      {
+        "nm": "DINE FOR 2",
+        "cnt": "1",
+        "price": "129,000",
+        "sub": {
+          "nm": "DANISH FISH & CHIPS DF"
+        }
+      },
+      {
+        "nm": "* NEW YORK FISH & CHIPS"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "278,000",
+      "service_price": "22,240",
+      "tax_price": "30,024",
+      "etc": "214,000"
+    },
+    "total": {
+      "total_price": "330,264"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BLACKCURRANT</s_nm><s_cnt> 1</s_cnt><s_price> 32,000</s_price><sep/><s_nm> SPRITE</s_nm><s_cnt> 1</s_cnt><s_price> 32,000</s_price><sep/><s_nm> BEVERAGE</s_nm><s_price> 64,000</s_price><sep/><s_nm> GRILLED CALAMARI</s_nm><s_cnt> 1</s_cnt><s_price> 85,000</s_price><sep/><s_nm> DINE FOR 2</s_nm><s_cnt> 1</s_cnt><s_price> 129,000</s_price><s_sub><s_nm> DANISH FISH & CHIPS DF</s_nm></s_sub><sep/><s_nm> * NEW YORK FISH & CHIPS</s_nm></s_sub></s_menu><s_sub_total><s_subtotal_price> 278,000</s_subtotal_price><s_service_price> 22,240</s_service_price><s_tax_price> 30,024</s_tax_price><s_etc> 214,000</s_etc></s_sub_total><s_total><s_total_price> 330,264</s_total_price></s_total></s>"
+}

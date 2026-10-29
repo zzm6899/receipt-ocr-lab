@@ -1,0 +1,75 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-036",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "8da2de910fd39b8f7e40c56e41ebed15109d87131a1a84c56fb707ab60284f55",
+  "elapsed_seconds": 2.731,
+  "detected_words": 30,
+  "detected_lines": 7,
+  "ocr_text": "1 XXL Crispy Chicken 40 000 | 1 -Sedarna Q TEMS 1 40,000 Total, <cte ese | 40,000 Pay Cash 100,000 Change :60,000 33 a ; a a ‘= .",
+  "trocr_words": "1 X XXL CHSPY CHICKEN 40,000 1 - SEDANG - 1/4 ITEMS:1 TOTAL....00 000 PAY CASH 100,000 CHANGE :60,000 - AMOUNT",
+  "ocr_rules_total": "40,000",
+  "ocr_rows": [
+    {
+      "nm": "TEMS 1",
+      "cnt": null,
+      "price": "40,000"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "X XXL CHSPY CHICKEN",
+      "cnt": "1",
+      "price": "40,000"
+    }
+  ],
+  "layout_fields": {
+    "total": "a ; ."
+  },
+  "cascade_fields": {
+    "total": "TOTAL....00 000 AMOUNT"
+  },
+  "layout_rows": [
+    {
+      "nm": "XXL Crispy Chicken",
+      "cnt": "1",
+      "price": "40 000"
+    },
+    {
+      "price": "40,000"
+    },
+    {
+      "cnt": "<cte ese"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "XXL CHSPY CHICKEN",
+      "cnt": "1 X",
+      "price": "40,000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "XXL Crspy Chicken",
+      "cnt": "1",
+      "price": "40,000",
+      "sub": {
+        "nm": "- Sedang",
+        "cnt": "1",
+        "price": "0"
+      }
+    },
+    "sub_total": {
+      "subtotal_price": "40,000"
+    },
+    "total": {
+      "total_price": "40,000",
+      "cashprice": "100,000",
+      "changeprice": "60,000",
+      "menuqty_cnt": "1"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> XXL Crspy Chicken</s_nm><s_cnt> 1</s_cnt><s_price> 40,000</s_price><s_sub><s_nm> - Sedang</s_nm><s_cnt> 1</s_cnt><s_price> 0</s_price></s_sub></s_menu><s_sub_total><s_subtotal_price> 40,000</s_subtotal_price></s_sub_total><s_total><s_total_price> 40,000</s_total_price><s_cashprice> 100,000</s_cashprice><s_changeprice> 60,000</s_changeprice><s_menuqty_cnt> 1</s_menuqty_cnt></s_total></s>"
+}

@@ -34,6 +34,10 @@ GLM-OCR's model card is MIT and notes the optional PP-DocLayoutV3 pipeline is Ap
 
 Tesseract returns real word boxes and its own TSV confidence. The comparison viewer maps normalized boxes onto the EXIF-corrected or rendered page and provides page, overlay, opacity, and zoom controls. Colours are confidence bands from the producing model only; they are not attention, saliency, accuracy, or calibrated across models. Adapters may optionally return `regions` with normalized `bbox`, text, field, and confidence values. Models that provide no spatial output show "No spatial overlay is available" instead of invented geometry.
 
+## Research code
+
+The evaluation code and recorded results behind the thesis *Structured Information Extraction from Receipt Images* are in [`research/`](research/). They are separate from the web app; the private receipt photographs and their labels are not included.
+
 ## Run
 
 ```sh

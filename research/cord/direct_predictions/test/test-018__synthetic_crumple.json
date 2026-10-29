@@ -1,0 +1,78 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-018",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "c131cc4b93f563b528bd6accbbb5c925523c0b79f7b5cfb980be23341e53f451",
+  "elapsed_seconds": 0.89,
+  "detected_words": 15,
+  "detected_lines": 7,
+  "ocr_text": "Propolis Cair 4 oe 746000 TUGUUL Sub Tofal 7 186000 Tunai eAeian 146000 Kembalian Rp.0",
+  "trocr_words": "PROPOLIS CAIR 1 156000 15600 SUB TOTAL 1.50 156000 TUNAI_COMMARY 156800 156000 KEMBALIAN",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "nm": "Propolis Cair",
+      "cnt": "4",
+      "unitprice": "oe"
+    },
+    {
+      "unitprice": "746000"
+    },
+    {
+      "nm": "Tofal",
+      "cnt": "7"
+    },
+    {
+      "price": "186000"
+    },
+    {
+      "nm": "Tunai",
+      "unitprice": "eAeian"
+    },
+    {
+      "price": "146000"
+    },
+    {
+      "price": "Rp.0"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PROPOLIS CAIR",
+      "cnt": "1"
+    },
+    {
+      "price": "15600",
+      "unitprice": "156000"
+    },
+    {
+      "price": "156000"
+    },
+    {
+      "nm": "TUNAI_COMMARY",
+      "unitprice": "156800"
+    },
+    {
+      "price": "156000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Propolis Cair",
+      "unitprice": "156000",
+      "cnt": "1",
+      "price": "156000"
+    },
+    "total": {
+      "total_price": "156000",
+      "cashprice": "156000",
+      "changeprice": "Rp. 0"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Propolis Cair</s_nm><s_unitprice> 156000</s_unitprice><s_cnt> 1</s_cnt><s_price> 156000</s_price></s_menu><s_total><s_total_price> 156000</s_total_price><s_cashprice> 156000</s_cashprice><s_changeprice> Rp. 0</s_changeprice></s_total></s>"
+}

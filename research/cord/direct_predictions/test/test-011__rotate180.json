@@ -1,0 +1,93 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-011",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "16539bae2c62f30d148df3962870b43a8514e1ebd0f942701c0cc5909a24ba80",
+  "elapsed_seconds": 2.049,
+  "detected_words": 33,
+  "detected_lines": 14,
+  "ocr_text": "- aes | oo P< ee — ea, % . Pee ¥ i < ano Ae Po ert, be ee og Sk ote, = Se ee os Fam I a a —) ga]",
+  "trocr_words": "0 CASHIER TOTAL : - - : WWW.MY CHANGE NO TOTAL TOTAL TOTAL TOTAL TOTAL TOTAL AZ 0.00 000 1 GIVEAWAY NO WEEK! HEBBY WHERANS ! TEL AMOUNT NUMBER USSU ARE AGAINTS - 1",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": "TOTAL TOTAL TOTAL TOTAL TOTAL TOTAL AZ 0.00"
+  },
+  "layout_rows": [
+    {
+      "cnt": "-"
+    },
+    {
+      "cnt": "|",
+      "unitprice": "oo"
+    },
+    {
+      "cnt": "P<"
+    },
+    {
+      "unitprice": "ee"
+    },
+    {
+      "cnt": "% .",
+      "unitprice": "ea,"
+    },
+    {
+      "cnt": "¥ i <",
+      "unitprice": "Pee"
+    },
+    {
+      "price": "Ae",
+      "unitprice": "ano"
+    },
+    {
+      "cnt": "Po ert,",
+      "unitprice": "be"
+    },
+    {
+      "price": "og",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": "Sk",
+      "price": "Se",
+      "unitprice": "ote,"
+    },
+    {
+      "cnt": "os"
+    },
+    {
+      "price": "ga]"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "0"
+    },
+    {
+      "nm": "GIVEAWAY NO WEEK!",
+      "cnt": "1",
+      "price": "WHERANS"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "GUNVHC",
+        "unitprice": "0",
+        "cnt": "HS90",
+        "price": "0"
+      },
+      {
+        "nm": "000'osz",
+        "price": "000'032"
+      }
+    ],
+    "total": {
+      "total_price": "000'032"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> GUNVHC</s_nm><s_unitprice> 0</s_unitprice><s_cnt> HS90</s_cnt><s_price> 0</s_price><sep/><s_nm> 000'osz</s_nm><s_price> 000'032</s_price></s_menu><s_total><s_total_price> 000'032</s_total_price><s_total_etc> WORKO HASPE REBANVEL</s_cashprice></s_total></s>"
+}

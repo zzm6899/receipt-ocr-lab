@@ -1,0 +1,87 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-087",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "7599274623a24f0f9d29cf236c3be777ccc397ee2a7cdd357fa2bc0c890dc46d",
+  "elapsed_seconds": 1.578,
+  "detected_words": 48,
+  "detected_lines": 16,
+  "ocr_text": ": | 5 QO 3 [e) P : ® a Wi as ” ——\" : és eer... ce ; : fe) ° | iT ze +. a eg : op : 6 hae AS ay 7 : 4 4 mt 7 “ 4 7 ms pw® aa? :",
+  "trocr_words": ": D 0 NO.00 2 - WW ................ : 0 - CASH PEPE PROMO1CREDIT CARD : 40,150 L 51832APPER WW WWWWWWWWWWWWWWWWWWWW .........................",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "PROMO1CREDIT CARD",
+      "cnt": null,
+      "price": "40,150"
+    }
+  ],
+  "layout_fields": {
+    "total": "5 P 7 pw®"
+  },
+  "cascade_fields": {
+    "total": ": 0"
+  },
+  "layout_rows": [
+    {
+      "cnt": ": |"
+    },
+    {
+      "price": "QO"
+    },
+    {
+      "price": "a"
+    },
+    {
+      "cnt": "Wi",
+      "price": "”"
+    },
+    {
+      "cnt": "——\" : és"
+    },
+    {
+      "cnt": "ce ;"
+    },
+    {
+      "cnt": "° |"
+    },
+    {
+      "cnt": "iT",
+      "unitprice": "ze"
+    },
+    {
+      "cnt": "a :",
+      "unitprice": "eg op"
+    },
+    {
+      "cnt": "ay 7"
+    },
+    {
+      "cnt": "4 4 mt 7 “"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "PROMO1CREDIT",
+      "price": "40,150"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "PHO TAI CHIN",
+      "cnt": "1",
+      "price": "36,500"
+    },
+    "sub_total": {
+      "subtotal_price": "36,500",
+      "tax_price": "3,650"
+    },
+    "total": {
+      "total_price": "40,150",
+      "creditcardprice": "40,150"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> PHO TAI CHIN</s_nm><s_cnt> 1</s_cnt><s_price> 36,500</s_price></s_menu><s_sub_total><s_subtotal_price> 36,500</s_subtotal_price><s_tax_price> 3,650</s_tax_price></s_sub_total><s_total><s_total_price> 40,150</s_total_price><s_creditcardprice> 40,150</s_creditcardprice></s_total></s>"
+}

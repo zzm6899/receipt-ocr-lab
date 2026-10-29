@@ -1,0 +1,77 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-008",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "00aac57f51a3b6d2135603b877641900f985ba6c483a4c56c2f94d93af2d76ee",
+  "elapsed_seconds": 1.136,
+  "detected_words": 19,
+  "detected_lines": 8,
+  "ocr_text": "o00'0S | 000'0S — 0 . chs SGy Sb =@ 0 4 0 4 Diy GSt SP ' y",
+  "trocr_words": "00'09 00'09 0 4.545 45.45 0 OCES SOLD KUNRA 45,455",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "KUNRA",
+      "cnt": null,
+      "price": "45,455"
+    }
+  ],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "unitprice": "o00'0S"
+    },
+    {
+      "cnt": "—",
+      "unitprice": "000'0S"
+    },
+    {
+      "cnt": "."
+    },
+    {
+      "cnt": "=@"
+    },
+    {
+      "cnt": "Diy"
+    },
+    {
+      "cnt": "' y"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "unitprice": "0"
+    },
+    {
+      "unitprice": "4.545"
+    },
+    {
+      "nm": "KUNRA",
+      "unitprice": "45,455"
+    }
+  ],
+  "donut_json": [
+    {
+      "nm": "000'09",
+      "num": [
+        "<s_num>",
+        "<s_nm> 000'09"
+      ],
+      "price": "Jallo"
+    },
+    {
+      "nm": "0",
+      "num": "Bupound",
+      "price": "0"
+    },
+    {
+      "nm": "(%) 18d",
+      "price": "qns",
+      "etc": "0"
+    }
+  ],
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'09</s_nm><s_num><s_num><sep/><s_nm> 000'09</s_num><s_price> Jallo</s_price><sep/><s_nm> 0</s_nm><s_num> Bupound</s_num><s_price> 0</s_price><sep/><s_nm> (%) 18d</s_nm><s_num> SSS'St</s_nm><s_num> SSS'St</s_num><s_price> qns</s_price><s_etc> 0</s_etc></s_sub_total><s_total><s_total_price> SAUSUR HOD COLOCOLI gadi SATURE KEPLE [SEA]</s>"
+}

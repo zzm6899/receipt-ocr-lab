@@ -1,0 +1,84 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-095",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "40a9b09ec1d4713d7e2f2cd6d12b9941af2ce0b7454dd7f3132afb76d7e42acf",
+  "elapsed_seconds": 1.46,
+  "detected_words": 29,
+  "detected_lines": 20,
+  "ocr_text": "N a eS % a Saad tics sas Het ae AN 4 ie : yi ANN @ NS yy Ran > e el >) ~ : r ; “",
+  "trocr_words": "A : : AMOUNT AMAM CHANGE (KLNP) 0.00 AMOUNT @ ITEM SANS: SR: O > = LI C 2.71 VAN 6.79 ALL ALL ON TAILS",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [
+    {
+      "nm": "2.71 VAN",
+      "cnt": null,
+      "price": "6.79"
+    }
+  ],
+  "layout_fields": {
+    "total": "N a"
+  },
+  "cascade_fields": {
+    "total": ": : AMOUNT 2.71"
+  },
+  "layout_rows": [
+    {
+      "price": "eS"
+    },
+    {
+      "cnt": "ae",
+      "price": "AN"
+    },
+    {
+      "cnt": "4"
+    },
+    {
+      "price": "ANN"
+    },
+    {
+      "price": "@ NS"
+    },
+    {
+      "price": "yy"
+    },
+    {
+      "price": "Ran"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "price": "@"
+    },
+    {
+      "price": "O"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "BASO TAHU",
+        "unitprice": "43,18<unk>",
+        "cnt": "1",
+        "price": "43,18<unk>"
+      },
+      {
+        "nm": "ES JERUK",
+        "unitprice": "13.000",
+        "cnt": "1",
+        "price": "13"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "5,618"
+    },
+    "total": {
+      "total_price": "61,799",
+      "cashprice": "62,000",
+      "changeprice": "201"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> BASO TAHU</s_nm><s_unitprice> 43,18<unk></s_unitprice><s_cnt> 1</s_cnt><s_price> 43,18<unk></s_price><sep/><s_nm> ES JERUK</s_nm><s_unitprice> 13.000</s_unitprice><s_cnt> 1</s_cnt><s_price> 13</s_price></s_menu><s_sub_total><s_subtotal_price> 5,618</s_subtotal_price></s_sub_total><s_total><s_total_price> 61,799</s_total_price><s_cashprice> 62,000</s_cashprice><s_changeprice> 201</s_changeprice></s_total></s>"
+}

@@ -1,0 +1,61 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-019",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "455cc3199a067a30fa7f1ed6e60c74b36864df70639e1108af06f8378ee4b014",
+  "elapsed_seconds": 1.197,
+  "detected_words": 18,
+  "detected_lines": 11,
+  "ocr_text": "ee ee Bi ao | ron r : me TSR ge coe ‘4 “— 2 a © ©",
+  "trocr_words": ": : : - GST RM SR:00-1,000-8 WWW.WWWWWW.WWWW. : : C",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {
+    "total": ":"
+  },
+  "layout_rows": [
+    {
+      "price": "ee"
+    },
+    {
+      "price": "ee"
+    },
+    {
+      "price": "Bi"
+    },
+    {
+      "price": "ao"
+    },
+    {
+      "price": "ron"
+    },
+    {
+      "cnt": "‘4"
+    },
+    {
+      "cnt": "©"
+    }
+  ],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": {
+          "price": "300 INNOUG"
+        },
+        "price": "XH<unk>"
+      },
+      {
+        "nm": "DODOT CAMHS L3N",
+        "num": "000001",
+        "price": {
+          "num": "00009"
+        }
+      }
+    ]
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000911</s_num><s_price> 300 INNOUG</s_price><sep/><s_nm> 0009T</s_nm><s_price> XH<unk></s_price><sep/><s_nm> DODOT CAMHS L3N</s_nm><s_num> 000001</s_num><s_price> SHO HASNBW OT</s_nm><s_num> 00009</s_num><s_price> SHO 780</s_price></s_menu><s_total><s_total_price></s>"
+}

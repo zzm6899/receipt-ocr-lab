@@ -1,0 +1,125 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-084",
+  "variant": "synthetic_crumple",
+  "source_split": "test",
+  "sha256": "331075f35421993bce2ee1a2593262f372d1d93796b2b4e3c38fa5f26315f0aa",
+  "elapsed_seconds": 3.765,
+  "detected_words": 103,
+  "detected_lines": 27,
+  "ocr_text": "Tee ca rm Mt St eS er mea a tes =. EE ae . we! | ! wee eo OR = = eee <7 voces SSS Ye: a ae ti‘ : gees ——— a SS ne sae Sey Kroke Beare es 1, 12.000 20 ~ acinar uotes = Arem Arem gee hey Se Ree OS Sp 36.000 ae slope rte Sub otal \\ 3.600 ihe Feeney Tax (10.08) pee! a Re —a a |... eye MP ee yt ee ss i MIS eed Total Pen He eee ther a EE = = Sa a ern nS aE \\ = ae So Se oe",
+  "trocr_words": "1 - - - - IT# - ITEM = IT= ---- KRAFT KRAFT 002 TAX @12.000 12.000 AMOUNT AMOUNT AMOUNT AZEM AR2.000 24.000 8.00 SUBTOTAL @36.00 TAX(TOTAL) RP 3.600 TAX (10.0%) RP 3.600 *** CASH TOTAL @ 29.600 TOTAL RP 39.600 ORANGE R9.60 - WWW. :",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "es 1,",
+      "cnt": null,
+      "price": "12.000"
+    },
+    {
+      "nm": "Ree OS Sp",
+      "cnt": null,
+      "price": "36.000"
+    },
+    {
+      "nm": "slope rte Sub otal \\",
+      "cnt": null,
+      "price": "3.600"
+    }
+  ],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "Total = Sa ="
+  },
+  "cascade_fields": {
+    "total": "@ 29.600 TOTAL RP 39.600"
+  },
+  "layout_rows": [
+    {
+      "nm": "Tee",
+      "price": "ca Mt"
+    },
+    {
+      "cnt": ". | !"
+    },
+    {
+      "cnt": "OR",
+      "price": "=",
+      "unitprice": "eo"
+    },
+    {
+      "price": "a ae",
+      "unitprice": "Ye:"
+    },
+    {
+      "price": ":"
+    },
+    {
+      "cnt": "a",
+      "price": "SS"
+    },
+    {
+      "nm": "Kroke"
+    },
+    {
+      "cnt": "1,",
+      "price": "20",
+      "unitprice": "12.000"
+    },
+    {
+      "nm": "Se"
+    },
+    {
+      "nm": "Ree OS Sp",
+      "price": "36.000"
+    },
+    {
+      "cnt": "\\",
+      "price": "3.600"
+    },
+    {
+      "nm": "Feeney",
+      "price": "pee! a"
+    },
+    {
+      "price": "eye"
+    },
+    {
+      "cnt": "ee yt ee",
+      "price": "i"
+    },
+    {
+      "price": "a"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "KRAFT"
+    },
+    {
+      "nm": "KRAFT"
+    },
+    {
+      "nm": "AZEM",
+      "price": "24.000",
+      "unitprice": "AR2.000"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "Arem Arem",
+      "unitprice": "@12.000",
+      "cnt": "2x",
+      "price": "24.000"
+    },
+    "sub_total": {
+      "subtotal_price": "Rp 36.000",
+      "tax_price": "Rp 3.600"
+    },
+    "total": {
+      "total_price": "Rp 39.600",
+      "emoneyprice": "Rp 39.600"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Kroket</s_nm><s_unitprice> @12.000</s_unitprice><s_cnt> 1x</s_cnt><s_price> 12.000</s_price><s_sub><s_nm> Arem Arem</s_nm><s_unitprice> @12.000</s_unitprice><s_cnt> 2x</s_cnt><s_price> 24.000</s_price></s_menu><s_sub_total><s_subtotal_price> Rp 36.000</s_subtotal_price><s_tax_price> Rp 3.600</s_tax_price></s_sub_total><s_total><s_total_price> Rp 39.600</s_total_price><s_emoneyprice> Rp 39.600</s_emoneyprice></s_total></s>"
+}

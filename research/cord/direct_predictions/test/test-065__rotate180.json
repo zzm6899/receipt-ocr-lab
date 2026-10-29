@@ -1,0 +1,180 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-065",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "af771e126bbd5004cd3def4f4d6e911dc2c62a07e9ef601a9330122d7d704496",
+  "elapsed_seconds": 7.317,
+  "detected_words": 169,
+  "detected_lines": 38,
+  "ocr_text": "Ppreeyay wee e M Br € | . Pe Bat] \" fists Deena IGE ELE trae eeu perry a. lk | - ‘ cummnma 1 YD Dp + AR ee a ee nA : Sore wes ici i : OG [B07]. qNg ri 4 Thea = : SI ee a eon eo een ten es an ’ = - oe : . re e aie 900°E1 0080'S a INA, + SOLOg Jngn Pike a ay < oe eee he er : ee ee 4 “a Ree ae Mo ‘i “i sue aes 4 ____ a wa ¢ | j - . a | By cai tat — @ a ; . an | E sie: 9 El es aii . ' Be Pees eee : pa pegtnee r aie 7 Beis i ? gi, Savant ae megs . eee i eek eae hes re Z lia li aa eee See age or e4 EEE A ee as: a ae ee erent | ‘4 neiinaiiaiiall sani . eee er —",
+  "trocr_words": "(EXCLUDING EXCLUDING RECEIPT) : 1 : WWWWWWWWWWWWWWWWWW. AMOUNT: 00061 - - *** \"CLIPT SUMMARY INCLUSANT UBIG'SL 1 AMOUNT NUMBER ................................ AMOUNT: 13.00 S1.00 ITEMS UNTEL + SOLD JNGN SOLOD AND ................................ ITEMS AGAIN - ITEM LOSS ITEM - - WWW.WW WWW.W.W. ITEM ---- CASHIER *** ITEM WWW. : *** WWWW.K WWW. WWW.",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "‘4 neiinaiiaiiall"
+  },
+  "cascade_fields": {
+    "total": ": AMOUNT: AMOUNT:"
+  },
+  "layout_rows": [
+    {
+      "nm": "Ppreeyay wee",
+      "price": "e M"
+    },
+    {
+      "cnt": "€"
+    },
+    {
+      "price": "."
+    },
+    {
+      "nm": "Pe",
+      "price": "Bat]"
+    },
+    {
+      "nm": "fists",
+      "price": "Deena"
+    },
+    {
+      "cnt": "a.",
+      "price": "lk",
+      "unitprice": "eeu"
+    },
+    {
+      "nm": "cummnma",
+      "cnt": "‘",
+      "price": "1 YD Dp"
+    },
+    {
+      "cnt": "+",
+      "price": "ee a ee",
+      "unitprice": "AR"
+    },
+    {
+      "cnt": ":",
+      "price": "ici i",
+      "unitprice": "nA Sore wes"
+    },
+    {
+      "cnt": "ri 4",
+      "price": "Thea"
+    },
+    {
+      "cnt": ": a eo",
+      "price": "an ’ = oe",
+      "unitprice": "ee eon een ten"
+    },
+    {
+      "cnt": ": . re",
+      "price": "aie",
+      "unitprice": "e"
+    },
+    {
+      "unitprice": "0080'S"
+    },
+    {
+      "unitprice": "a"
+    },
+    {
+      "cnt": "+",
+      "price": "Jngn",
+      "unitprice": "INA,"
+    },
+    {
+      "price": "a ay",
+      "unitprice": "Pike"
+    },
+    {
+      "cnt": "<",
+      "price": "er",
+      "unitprice": "he"
+    },
+    {
+      "cnt": ":",
+      "price": "ee",
+      "unitprice": "ee"
+    },
+    {
+      "cnt": "4 “a",
+      "price": "ae Mo",
+      "unitprice": "Ree"
+    },
+    {
+      "cnt": "‘i “i",
+      "price": "4",
+      "unitprice": "sue"
+    },
+    {
+      "cnt": "____",
+      "unitprice": "a"
+    },
+    {
+      "cnt": "| j"
+    },
+    {
+      "cnt": ". |",
+      "unitprice": "a"
+    },
+    {
+      "cnt": "By cai tat",
+      "price": "—"
+    },
+    {
+      "cnt": "@ ;",
+      "price": "a ."
+    },
+    {
+      "cnt": "an | E",
+      "price": "9 El",
+      "unitprice": "sie:"
+    },
+    {
+      "price": "'"
+    },
+    {
+      "nm": "Be",
+      "price": "eee"
+    },
+    {
+      "nm": "pa",
+      "price": "aie 7 Beis i"
+    },
+    {
+      "cnt": "?",
+      "price": ". eee"
+    },
+    {
+      "cnt": "i",
+      "price": "hes re Z lia",
+      "unitprice": "eek"
+    },
+    {
+      "cnt": "aa",
+      "price": "or",
+      "unitprice": "eee"
+    },
+    {
+      "cnt": "A",
+      "price": "as:"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "unitprice": "13.00"
+    },
+    {
+      "nm": "UNTEL SOLD JNGN",
+      "cnt": "+"
+    },
+    {
+      "nm": "SOLOD"
+    }
+  ],
+  "donut_json": {
+    "nm": "000'EL",
+    "price": "[8]0'"
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'EL</s_nm><s_price> [8]0'</s_price><s_sub><s_nm> 000'EL</s_nm><s_price> [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8] [8]</s>"
+}

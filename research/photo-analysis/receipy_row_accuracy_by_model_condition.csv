@@ -1,0 +1,9 @@
+route,condition,complete_visible_inventories,eligible_gt_rows,predicted_rows,tp,fp,fn,precision,recall,f1,all_rows_correct_receipts,all_rows_correct_n,all_rows_correct_rate,all_rows_correct_wilson95_low,all_rows_correct_wilson95_high,cluster_bootstrap_f1_95_low,cluster_bootstrap_f1_95_high
+Tesseract+rules,clear,15,58,9,0,9,58,0.0,0.0,0.0,0,15,0.0,0.0,0.20388330103584862,0.0,0.0
+Tesseract+rules,scrunched,15,58,4,0,4,58,0.0,0.0,0.0,0,15,0.0,0.0,0.20388330103584862,0.0,0.0
+LayoutLMv3,clear,15,58,535,0,535,58,0.0,0.0,0.0,0,15,0.0,0.0,0.20388330103584862,0.0,0.0
+LayoutLMv3,scrunched,15,58,411,0,411,58,0.0,0.0,0.0,0,15,0.0,0.0,0.20388330103584862,0.0,0.0
+TrOCR+LayoutLMv3,clear,15,58,264,0,264,58,0.0,0.0,0.0,0,15,0.0,0.0,0.20388330103584862,0.0,0.0
+TrOCR+LayoutLMv3,scrunched,15,58,213,0,213,58,0.0,0.0,0.0,0,15,0.0,0.0,0.20388330103584862,0.0,0.0
+Donut,clear,15,58,14,0,14,58,0.0,0.0,0.0,0,15,0.0,0.0,0.20388330103584862,0.0,0.0
+Donut,scrunched,15,58,32,0,32,58,0.0,0.0,0.0,0,15,0.0,0.0,0.20388330103584862,0.0,0.0

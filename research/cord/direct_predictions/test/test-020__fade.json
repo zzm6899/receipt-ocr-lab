@@ -1,0 +1,57 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-020",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "7ade3d84884edbe755a8f8a6cb14a16075fcb3c46c753212d994a8e38787f716",
+  "elapsed_seconds": 0.818,
+  "detected_words": 0,
+  "detected_lines": 0,
+  "ocr_text": "",
+  "trocr_words": "",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {},
+  "cascade_fields": {},
+  "layout_rows": [],
+  "cascade_rows": [],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "cashew nuts chkn",
+        "cnt": "1",
+        "price": "64.500"
+      },
+      {
+        "nm": "garlic pepper beef",
+        "cnt": "1",
+        "price": "79.500"
+      },
+      {
+        "nm": "red curry beef",
+        "cnt": "1",
+        "price": "69.500"
+      },
+      {
+        "nm": "phad thai",
+        "cnt": "1",
+        "price": "64.500"
+      },
+      {
+        "nm": "steamed rice",
+        "cnt": "4",
+        "price": "47.600"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "325.600",
+      "service_price": "17.908",
+      "tax_price": "34,351"
+    },
+    "total": {
+      "total_price": "377,859"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> cashew nuts chkn</s_nm><s_cnt> 1</s_cnt><s_price> 64.500</s_price><sep/><s_nm> garlic pepper beef</s_nm><s_cnt> 1</s_cnt><s_price> 79.500</s_price><sep/><s_nm> red curry beef</s_nm><s_cnt> 1</s_cnt><s_price> 69.500</s_price><sep/><s_nm> phad thai</s_nm><s_cnt> 1</s_cnt><s_price> 64.500</s_price><sep/><s_nm> steamed rice</s_nm><s_cnt> 4</s_cnt><s_price> 47.600</s_price></s_menu><s_sub_total><s_subtotal_price> 325.600</s_subtotal_price><s_service_price> 17.908</s_service_price><s_tax_price> 34,351</s_tax_price></s_sub_total><s_total><s_total_price> 377,859</s_total_price></s_total></s>"
+}

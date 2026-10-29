@@ -1,0 +1,137 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-040",
+  "variant": "rotate180",
+  "source_split": "test",
+  "sha256": "2da3ce971650871700e3393d0b6890637f666c2bca9569d7605c93da6b3a392e",
+  "elapsed_seconds": 2.73,
+  "detected_words": 72,
+  "detected_lines": 19,
+  "ocr_text": "o oOo ee mH 20060 9) oon ‘Sy WLLL sesseeeee a ia halen SSSSEEES HRS SSE See fears Saas oe\" BIN eons 2 ¥ Ae FP Tsp fox ung Seurteg? Jou ey OyOA Reet ESURUEH ATBES RyeUy Atane: Sa le a er Bs. 2 ol alee ad UT THHE}S 37] seus SS age SE EHESESSS SSSR SRE RS BAS saaatso on ee ‘ ial ate +, ik Bites, a, - te [",
+  "trocr_words": ": 000 22 MARIN 7/1, JALAN 3DKHD GOOD'COI WILLY ONCLUSIVE USVO TOTAL: PAINT WAKE *** GOOD BY ITP,SETEMPS'NTAX'UODE 900'4\"S EXCLUDED TAKE NOT MAX FACE AND US ON FACE THANK YOU.K'EZZYPLEUKUKEN ATSTS ENJAY ALAYA GOOD BY EXCLUDED ITEMS SOLD 12 VEGER 000 US YOUR WITH THE THE THE US! SHEETS MESEN MPEMS ................................ ITEM : - - - ITEM 1",
+  "ocr_rules_total": null,
+  "ocr_rows": [],
+  "trocr_rows": [],
+  "layout_fields": {
+    "total": "o ate"
+  },
+  "cascade_fields": {},
+  "layout_rows": [
+    {
+      "price": "mH",
+      "unitprice": "ee"
+    },
+    {
+      "price": "9)"
+    },
+    {
+      "cnt": "oon",
+      "price": "WLLL"
+    },
+    {
+      "cnt": "ia",
+      "price": "halen"
+    },
+    {
+      "price": "fears Saas"
+    },
+    {
+      "price": "eons 2"
+    },
+    {
+      "cnt": "¥",
+      "price": "ung Seurteg? Jou",
+      "unitprice": "Ae fox"
+    },
+    {
+      "nm": "ESURUEH",
+      "price": "RyeUy Atane:"
+    },
+    {
+      "price": "le"
+    },
+    {
+      "cnt": "a er 2",
+      "price": "ol alee"
+    },
+    {
+      "nm": "ad UT",
+      "price": "37] seus"
+    },
+    {
+      "nm": "EHESESSS SSSR",
+      "cnt": "age SE",
+      "price": "saaatso on"
+    },
+    {
+      "price": "a,"
+    },
+    {
+      "cnt": "-"
+    },
+    {
+      "cnt": "["
+    }
+  ],
+  "cascade_rows": [
+    {
+      "nm": "22 MARIN",
+      "price": "JALAN 3DKHD",
+      "unitprice": "7/1,"
+    },
+    {
+      "nm": "GOOD'COI WILLY",
+      "price": "USVO"
+    },
+    {
+      "nm": "GOOD BY ITP,SETEMPS'NTAX'UODE",
+      "price": "900'4\"S"
+    },
+    {
+      "nm": "TAKE",
+      "price": "US"
+    },
+    {
+      "nm": "YOU.K'EZZYPLEUKUKEN ATSTS",
+      "price": "ENJAY ALAYA"
+    },
+    {
+      "nm": "GOOD"
+    },
+    {
+      "nm": "US YOUR WITH THE THE THE"
+    },
+    {
+      "nm": "SHEETS"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "000'001",
+        "unitprice": "32",
+        "cnt": "000'001",
+        "price": "HSWO"
+      },
+      {
+        "nm": "000'89",
+        "price": "79101",
+        "sub": {
+          "nm": "000'bJ",
+          "unitprice": "000'6",
+          "cnt": "2"
+        }
+      },
+      {
+        "nm": "****ezzrd*eueueueq ITEPS eHauv",
+        "price": "Klamed"
+      }
+    ],
+    "total": {
+      "total_price": "000'22",
+      "creditcardprice": "000'45",
+      "menuqty_cnt": "2"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> 000'001</s_nm><s_unitprice> 32</s_unitprice><s_cnt> 000'001</s_cnt><s_price> HSWO</s_price><sep/><s_nm> 000'89</s_nm><s_price> 79101</s_price><s_sub><s_nm> 000'bJ</s_nm><s_unitprice> 000'6</s_unitprice><s_cnt> 2</s_cnt></s_sub><sep/><s_nm> ITP*JeTaHoo*Infay\"uoge*Gurbeg*Jau</s_nm></s_sub><sep/><s_nm> ****ezzrd*eueueueq ITEPS eHauv</s_nm><s_price> Klamed</s_price></s_menu><s_total><s_total_price> 000'22</s_total_price><s_creditcardprice> 000'45</s_creditcardprice><s_menuqty_cnt> 2</s_menuqty_cnt></s_total></s>"
+}

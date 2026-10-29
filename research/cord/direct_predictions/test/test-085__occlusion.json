@@ -1,0 +1,306 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-085",
+  "variant": "occlusion",
+  "source_split": "test",
+  "sha256": "4d92e5ce7a27026c2dc83f40a2b68903aaeccf150c0c69b8fb0792a0ce3bc287",
+  "elapsed_seconds": 3.445,
+  "detected_words": 80,
+  "detected_lines": 22,
+  "ocr_text": "\\e/ a OBOE EX xe x « 3 Nasi PUt ih 30.000 1 Nasi Tambah 7.000 2 Ayam Pop 40 1 Samabal sp 1 1 Sambal Gabug Asin 1 m@ 861 Kerupuk KUah LS» y 1 Ikan Bawal Besa 28 & | WeTLUE Dadar 10.000 1 Teh Manis 3.000 1 Es Batu 4.000 Jf Bo Sa 179.500 Sees, 16s 1? 959 — 14 Total 197.450 Ttl Mak anan 159. 500 | ott Minuman 20.009 cash 197.450 : | \" +.",
+  "trocr_words": "Y ........ * * * * * * * * * * * * * * * **** 3 NASI PUTIH 30.000 NASI TAMBAH 37:000 2 AYAM POP 4O 1 SAMABAL SP 1 1 SAMBAL GABUS ASIN 1 1 KERUPUK KUAH 15 1 KAN BAWAL BESA 28.5 1 TELUE DADAR 10.000 1 TEH MANIS 9.000 1 ES BATU 4.000 SUBTOTAL 10: 179.500 SUBJAK REST 10% 179:588 14 TOTAL 197.450 TTL MAKANAN 159.500 TEL MINUMAN 20.888 CASH 197.450 - %",
+  "ocr_rules_total": "197.450",
+  "ocr_rows": [
+    {
+      "nm": "Nasi PUt ih",
+      "cnt": "3",
+      "price": "30.000"
+    },
+    {
+      "nm": "Nasi Tambah",
+      "cnt": "1",
+      "price": "7.000"
+    },
+    {
+      "nm": "| WeTLUE Dadar",
+      "cnt": null,
+      "price": "10.000"
+    },
+    {
+      "nm": "Teh Manis",
+      "cnt": "1",
+      "price": "3.000"
+    },
+    {
+      "nm": "Es Batu",
+      "cnt": "1",
+      "price": "4.000"
+    },
+    {
+      "nm": "Bo Sa",
+      "cnt": null,
+      "price": "179.500"
+    },
+    {
+      "nm": "| ott Minuman",
+      "cnt": null,
+      "price": "20.009"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "NASI PUTIH",
+      "cnt": "3",
+      "price": "30.000"
+    },
+    {
+      "nm": "KAN BAWAL BESA",
+      "cnt": "1",
+      "price": "28.5"
+    },
+    {
+      "nm": "TELUE DADAR",
+      "cnt": "1",
+      "price": "10.000"
+    },
+    {
+      "nm": "TEH MANIS",
+      "cnt": "1",
+      "price": "9.000"
+    },
+    {
+      "nm": "ES BATU",
+      "cnt": "1",
+      "price": "4.000"
+    },
+    {
+      "nm": "TTL MAKANAN",
+      "cnt": null,
+      "price": "159.500"
+    },
+    {
+      "nm": "TEL MINUMAN",
+      "cnt": null,
+      "price": "20.888"
+    }
+  ],
+  "layout_fields": {
+    "total": "Total \""
+  },
+  "cascade_fields": {
+    "total": "TOTAL 197.450 159.500"
+  },
+  "layout_rows": [
+    {
+      "price": "EX"
+    },
+    {
+      "nm": "Nasi PUt",
+      "cnt": "3 ih",
+      "price": "30.000"
+    },
+    {
+      "nm": "Nasi",
+      "cnt": "1",
+      "price": "7.000"
+    },
+    {
+      "nm": "Ayam Pop",
+      "cnt": "2",
+      "price": "40"
+    },
+    {
+      "nm": "Samabal",
+      "cnt": "1"
+    },
+    {
+      "nm": "Sambal",
+      "cnt": "1"
+    },
+    {
+      "nm": "Kerupuk",
+      "cnt": "m@ 861",
+      "price": "LS»"
+    },
+    {
+      "nm": "Ikan Bawal",
+      "cnt": "y 1",
+      "price": "28"
+    },
+    {
+      "nm": "WeTLUE Dadar",
+      "cnt": "|",
+      "price": "10.000"
+    },
+    {
+      "nm": "Teh Manis",
+      "cnt": "1",
+      "price": "3.000"
+    },
+    {
+      "nm": "Es Batu",
+      "cnt": "1",
+      "price": "4.000"
+    },
+    {
+      "nm": "Sa",
+      "price": "179.500"
+    },
+    {
+      "cnt": "1?",
+      "price": "959",
+      "unitprice": "16s"
+    },
+    {
+      "price": "197.450"
+    },
+    {
+      "nm": "Ttl Mak anan",
+      "price": "159. 500"
+    },
+    {
+      "nm": "ott Minuman",
+      "cnt": "|",
+      "price": "20.009"
+    },
+    {
+      "price": "197.450"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "* * * * * * * * * * *",
+      "price": "* * ****"
+    },
+    {
+      "nm": "NASI PUTIH",
+      "cnt": "3",
+      "price": "30.000"
+    },
+    {
+      "nm": "NASI TAMBAH",
+      "price": "37:000"
+    },
+    {
+      "nm": "AYAM POP 4O",
+      "cnt": "2"
+    },
+    {
+      "nm": "SAMABAL",
+      "cnt": "1",
+      "price": "1"
+    },
+    {
+      "nm": "SAMBAL GABUS",
+      "cnt": "1"
+    },
+    {
+      "price": "1"
+    },
+    {
+      "nm": "KERUPUK KUAH",
+      "cnt": "1",
+      "price": "15"
+    },
+    {
+      "nm": "KAN BAWAL BESA",
+      "cnt": "1",
+      "price": "28.5"
+    },
+    {
+      "nm": "TELUE DADAR",
+      "cnt": "1",
+      "price": "10.000"
+    },
+    {
+      "nm": "TEH MANIS",
+      "cnt": "1",
+      "price": "9.000"
+    },
+    {
+      "nm": "ES BATU",
+      "cnt": "1",
+      "price": "4.000"
+    },
+    {
+      "price": "179.500"
+    },
+    {
+      "price": "179:588"
+    },
+    {
+      "nm": "TEL MINUMAN",
+      "price": "20.888"
+    }
+  ],
+  "donut_json": {
+    "menu": [
+      {
+        "nm": "Nasi Putih",
+        "cnt": "3",
+        "price": "30.000"
+      },
+      {
+        "nm": "Nasi Tambah",
+        "cnt": "1",
+        "price": "7.000"
+      },
+      {
+        "nm": "Ayam Pop",
+        "cnt": "2",
+        "price": "40"
+      },
+      {
+        "nm": "Samabal SP",
+        "cnt": "1",
+        "price": "11"
+      },
+      {
+        "nm": "Sambal Gabus Asin",
+        "cnt": "1",
+        "price": "18"
+      },
+      {
+        "nm": "Kerupuk Kuah",
+        "cnt": "1",
+        "price": "15"
+      },
+      {
+        "nm": "Ikan Bawal Besa",
+        "cnt": "1",
+        "price": "28.500"
+      },
+      {
+        "nm": "Telor Dadar",
+        "cnt": "1",
+        "price": "10.000"
+      },
+      {
+        "nm": "Teh Es",
+        "cnt": "1",
+        "price": "7.000"
+      },
+      {
+        "nm": "Teh Manis",
+        "cnt": "1",
+        "price": "9.000"
+      },
+      {
+        "nm": "Es Batu",
+        "cnt": "1",
+        "price": "4.000"
+      }
+    ],
+    "sub_total": {
+      "subtotal_price": "179.500",
+      "tax_price": "17.950"
+    },
+    "total": {
+      "total_price": "197.450",
+      "cashprice": "159.500",
+      "changeprice": "20.000",
+      "menuqty_cnt": "197.450"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> Nasi Putih</s_nm><s_cnt> 3</s_cnt><s_price> 30.000</s_price><sep/><s_nm> Nasi Tambah</s_nm><s_cnt> 1</s_cnt><s_price> 7.000</s_price><sep/><s_nm> Ayam Pop</s_nm><s_cnt> 2</s_cnt><s_price> 40</s_price><sep/><s_nm> Samabal SP</s_nm><s_cnt> 1</s_cnt><s_price> 11</s_price><sep/><s_nm> Sambal Gabus Asin</s_nm><s_cnt> 1</s_cnt><s_price> 18</s_price><sep/><s_nm> Kerupuk Kuah</s_nm><s_cnt> 1</s_cnt><s_price> 15</s_price><sep/><s_nm> Ikan Bawal Besa</s_nm><s_cnt> 1</s_cnt><s_price> 28.500</s_price><sep/><s_nm> Telor Dadar</s_nm><s_cnt> 1</s_cnt><s_price> 10.000</s_price><sep/><s_nm> Teh Es</s_nm><s_cnt> 1</s_cnt><s_price> 7.000</s_price><sep/><s_nm> Teh Manis</s_nm><s_cnt> 1</s_cnt><s_price> 9.000</s_price><sep/><s_nm> Es Batu</s_nm><s_cnt> 1</s_cnt><s_price> 4.000</s_price></s_menu><s_sub_total><s_subtotal_price> 179.500</s_subtotal_price><s_tax_price> 17.950</s_tax_price></s_sub_total><s_total><s_total_price> 197.450</s_total_price><s_cashprice> 159.500</s_cashprice><s_changeprice> 20.000</s_changeprice><s_menuqty_cnt> 197.450</s_menuqty_cnt></s_total></s>"
+}

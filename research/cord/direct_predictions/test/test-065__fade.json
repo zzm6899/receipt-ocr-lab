@@ -1,0 +1,165 @@
+{
+  "pipeline_revision": "linecrop_v1",
+  "receipt_id": "test-065",
+  "variant": "fade",
+  "source_split": "test",
+  "sha256": "d926385541f5b7f85da465c15169424c8b06ba02b111d3f780782a335949f0c6",
+  "elapsed_seconds": 3.606,
+  "detected_words": 124,
+  "detected_lines": 28,
+  "ocr_text": "- pS a ad st si iit i a; a eee cS pian ae y a. IE sx =* = ie oe i — “4 i Pere alia ta = # Se ee cae i\" i ose ase —------~ ‘i seose-- a ee ed ae we now ee pe , ipa = Bis ub am ines iubur Polos + Telur Es _ 13.690 | a P . 13.866 4 oo my ee ake ee st kt sn sm we =: Bubtotal 13.006 i 1 é x ees: oy ep Pe : : = pg hs es, eee ee eo LOA. sists - : i : A ediiesh ‘5 fl Ree: siege tes: Sia] i ! a ksh . wails \" ee. fo aoe Cee",
+  "trocr_words": "AMOUNT WWW. - WWW. 2 - -- - - ................................................ ................................................ TABLE DALES : TEL ... UBUR POLOS + TELUR UBUR POLOS 03.000 13.000 13.00 13.000 ................................ SUBTOTAL 13.000 PAJAK SUMMARY,COME AGAIN- TOTAL AMOUNT :0.00 T TOTAL : 13,000 TOTAL: 01% AMOUNT WWW.WWW. CASHIER : ---- WWW. WWWWWWWWWWWWWWWWWWWWWWWWWW",
+  "ocr_rules_total": null,
+  "ocr_rows": [
+    {
+      "nm": "_",
+      "cnt": null,
+      "price": "13.690"
+    },
+    {
+      "nm": "a P .",
+      "cnt": null,
+      "price": "13.866"
+    },
+    {
+      "nm": "Bubtotal",
+      "cnt": null,
+      "price": "13.006"
+    }
+  ],
+  "trocr_rows": [
+    {
+      "nm": "03.000",
+      "cnt": null,
+      "price": "13.000"
+    },
+    {
+      "nm": "13.00",
+      "cnt": null,
+      "price": "13.000"
+    }
+  ],
+  "layout_fields": {
+    "total": "- a"
+  },
+  "cascade_fields": {
+    "total": "AMOUNT TOTAL : 13,000"
+  },
+  "layout_rows": [
+    {
+      "cnt": "i a; a cS ae",
+      "price": "y",
+      "unitprice": "eee pian"
+    },
+    {
+      "nm": "IE",
+      "cnt": "sx",
+      "price": "=*"
+    },
+    {
+      "price": "oe"
+    },
+    {
+      "price": "i"
+    },
+    {
+      "cnt": "“4 i"
+    },
+    {
+      "price": "="
+    },
+    {
+      "price": "ae we ee"
+    },
+    {
+      "cnt": ","
+    },
+    {
+      "nm": "Bis ub am ines"
+    },
+    {
+      "nm": "iubur Polos Telur",
+      "cnt": "+"
+    },
+    {
+      "unitprice": "13.690"
+    },
+    {
+      "cnt": "a P . 4",
+      "price": "13.866"
+    },
+    {
+      "price": "st kt sn we",
+      "unitprice": "oo my ee ake"
+    },
+    {
+      "nm": "Bubtotal",
+      "price": "13.006"
+    },
+    {
+      "cnt": "i 1 é x",
+      "price": ": =",
+      "unitprice": "ees: oy Pe"
+    },
+    {
+      "price": "eee"
+    },
+    {
+      "cnt": "- : i",
+      "price": "‘5"
+    },
+    {
+      "cnt": "fl",
+      "price": "siege"
+    },
+    {
+      "cnt": "i"
+    },
+    {
+      "cnt": "a"
+    },
+    {
+      "cnt": "ksh ."
+    },
+    {
+      "cnt": "\""
+    },
+    {
+      "price": "Cee"
+    }
+  ],
+  "cascade_rows": [
+    {
+      "cnt": "2"
+    },
+    {
+      "nm": "UBUR"
+    },
+    {
+      "nm": "UBUR POLOS"
+    },
+    {
+      "price": "13.000",
+      "unitprice": "03.000"
+    },
+    {
+      "unitprice": "13.00"
+    }
+  ],
+  "donut_json": {
+    "menu": {
+      "nm": "ubur Polos + Telur",
+      "unitprice": "13.000",
+      "cnt": "3x",
+      "price": "13.000"
+    },
+    "sub_total": {
+      "subtotal_price": "13.000",
+      "tax_price": "ajak"
+    },
+    "total": {
+      "total_price": "13.000"
+    }
+  },
+  "donut_sequence": "<s_cord-v2><s_menu><s_nm> ubur Polos + Telur</s_nm><s_unitprice> 13.000</s_unitprice><s_cnt> 3x</s_cnt><s_price> 13.000</s_price></s_menu><s_sub_total><s_subtotal_price> 13.000</s_subtotal_price><s_tax_price> ajak</s_tax_price></s_sub_total><s_total><s_total_price> 13.000</s_total_price></s_total></s>"
+}
