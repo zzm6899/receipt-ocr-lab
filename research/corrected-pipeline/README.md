@@ -1,6 +1,6 @@
 # Corrected LayoutLMv3 pipeline (post-diagnosis revision, 28–29 October 2026)
 
-Code, frozen settings and results for the corrected LayoutLMv3 routes in thesis Section 4.8 and Appendix A.9.
+Use this folder to rerun the corrected LayoutLMv3 methods from thesis Section 4.8 and Appendix A.9. It contains the code, frozen settings and results.
 
 ## What changed and what did not
 
@@ -14,7 +14,7 @@ Changed:
 
 ## Selection protocol
 
-All options were scored on the CORD validation split only (100 receipts × clean, colour cast, fade, occlusion and 180° rotation). `results/frozen_config.json` was written before any corrected test or photo run (SHA-256 5c4f24b266d85985a326203e5eaa741b36f6f5191ad81a7709870aa1c44e7dbe). Line boxes and two gap thresholds had been tried on the clean test split during the earlier diagnosis (`../gold-ocr-check`), so the test split is not untouched for those settings. The photographs were not used for any choice.
+The selection grid scored each option on the CORD validation split (100 receipts × clean, colour cast, fade, occlusion and 180° rotation). The script wrote `results/frozen_config.json` before running the corrected test or photo evaluation (SHA-256 5c4f24b266d85985a326203e5eaa741b36f6f5191ad81a7709870aa1c44e7dbe). The earlier diagnosis had already tested line boxes and two gap thresholds on the clean test split (`../gold-ocr-check`). The photographs played no part in selecting the settings.
 
 ## Environment
 

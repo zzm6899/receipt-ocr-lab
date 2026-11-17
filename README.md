@@ -1,6 +1,6 @@
 # OCR model comparator
 
-Stateless upload-and-compare website prepared for `ocr.z2hs.au`. Docker Compose maps TrueNAS host port **5099** to app port 8000.
+Upload a receipt or document to see the text an OCR engine found, where it found it and how long it took. The app doesn't keep uploads and is set up for `ocr.z2hs.au`. Docker Compose maps TrueNAS host port **5099** to app port 8000.
 
 ## Verified support
 
@@ -13,11 +13,11 @@ Stateless upload-and-compare website prepared for `ocr.z2hs.au`. Docker Compose 
 | TrOCR + LayoutLMv3 | Unavailable | Existing interface uses TrOCR only to reread regions seeded by OCR candidates; it is not whole-page OCR. |
 | Donut | Unavailable | Legacy CORD v2 asset exists, but no verified Linux serving adapter is packaged. |
 
-Unavailable routes remain visible and cannot be selected. Nothing is simulated, and the UI makes no accuracy claims.
+The app lists routes it can't run and disables their controls. It shows measured results for completed runs. The interface does not estimate accuracy.
 
 ## Per-model hardware notes
 
-These are deployment facts and planning budgets, not universal minimum requirements. Only the rows labelled **measured** have been run on this project's hardware; system-RAM minima for the research routes have not been measured.
+Use these figures to plan a deployment. The rows marked **measured** report runs on this project's hardware. The system-RAM minimum for each research route is still unknown.
 
 | Route | Weights / precision | CPU support | GPU / VRAM evidence | System RAM |
 |---|---|---|---|---|
@@ -32,11 +32,11 @@ GLM-OCR's model card is MIT and notes the optional PP-DocLayoutV3 pipeline is Ap
 
 ## Detection overlays
 
-Tesseract returns real word boxes and its own TSV confidence. The comparison viewer maps normalized boxes onto the EXIF-corrected or rendered page and provides page, overlay, opacity, and zoom controls. Colours are confidence bands from the producing model only; they are not attention, saliency, accuracy, or calibrated across models. Adapters may optionally return `regions` with normalized `bbox`, text, field, and confidence values. Models that provide no spatial output show "No spatial overlay is available" instead of invented geometry.
+Tesseract returns word boxes and confidence values in its TSV output. The viewer draws the boxes on the EXIF-corrected or rendered page. You can switch pages, toggle the overlay, adjust its opacity and zoom in. Each engine supplies its own confidence values, so overlay colours can't be compared across engines or read as attention, saliency or accuracy. Adapters can return `regions` with normalized `bbox`, text, field and confidence values. If a model returns no coordinates, the viewer shows "No spatial overlay is available".
 
 ## Research code
 
-The evaluation code and recorded results behind the thesis *Structured Information Extraction from Receipt Images* are in [`research/`](research/). They are separate from the web app; the private receipt photographs and their labels are not included.
+The [`research/`](research/) directory contains the evaluation code and recorded results for *Structured Information Extraction from Receipt Images*. It runs separately from the web app. The private receipt photos and their labels stay outside the repository.
 
 ## Run
 
